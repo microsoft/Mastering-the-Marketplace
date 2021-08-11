@@ -2,7 +2,7 @@
 
 This repository contains the hands-on-labs that go along with the different video courses in the Mastering the Marketplace series. This video and lab series is dedicated to learning about the offer types in the Microsoft Commercial Marketplace.
 
-
+- [SaaS Labs](./saas/README.md)
 
 ## Contributing
 
