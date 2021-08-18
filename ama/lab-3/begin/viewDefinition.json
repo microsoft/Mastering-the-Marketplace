@@ -1,0 +1,5 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/viewdefinition/0.0.1-preview/ViewDefinition.json#",
+    "contentVersion": "0.0.0.1",
+    "views": []
+}
