@@ -1,8 +1,8 @@
 # Mastering the Marketplace Technical Learning Series
 
-This repository contains the hands-on-labs that go along with the technical video courses in the Mastering the Marketplace series. This technical video and lab series is dedicated to helping you bring your solution to the Microsoft Commercial Marketplace.
+This repository contains the hands-on-labs and pointers to self-paced videos that constitute the Mastering the Marketplace series. This technical video and lab series is dedicated to helping you bring your solution to the Microsoft Commercial Marketplace.
 
-These courses are intended for a technical audience and are meant to help you accelerate your onboarding experience.
+These courses are created for a technical audience and are meant to help you accelerate your marketplace onboarding experience.
 
 ## SaaS Offers
 
@@ -12,9 +12,15 @@ The SaaS offer series is currently under development.
 
 ## Azure Managed Application Offers
 
-This video series is a recording of a 1-day class with hands-on-labs. The content has been broken into small consumable chunks that focus on particular scenarios. 
+This video series is a recording of a 1-day class with hands-on-labs. The content has been broken into small consumable chunks focusing on particular scenarios. 
 
 [Learn about Azure Managed Application Offers](./ama/README.md)
+
+## Virtual Machine Offers
+
+Content for the Virtual Machine offers is on our backlog.
+
+---
 
 ## Contributing
 
