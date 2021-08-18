@@ -1,4 +1,4 @@
-# Mastering Azure Managed Applications Workshop
+# Mastering the Marketplace - Azure Managed Applications
 
 ## Video Learning Series
 
