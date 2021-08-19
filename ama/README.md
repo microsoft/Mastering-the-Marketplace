@@ -1,14 +1,17 @@
-# Mastering the Marketplace - Azure Managed Applications
+# Mastering the Marketplace Series - Azure Managed Applications
 
-## Video Learning Series
+The video learning modules are clips of an in-person online learning class focused on Mastering Azure Managed Applications.
+The videos have been edited to be topically-based so you needn't watch the entire 6-hour course.
 
-[Go to the Complete Library](https://www.youtube.com/playlist?list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6)
+## Video Learning Modules
+
+[Go to the Complete Video Library](https://www.youtube.com/playlist?list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6)
 
 ### Learning Modules
 
 1. [Introduction](https://www.youtube.com/watch?v=WxQ0tkd8dYU&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=1)
 1. [Azure Applications Overview](https://www.youtube.com/watch?v=P6Z8rdNkgKs&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=2)
-1. [Azure Managed Apps in Partner Center (Demo)](https://www.youtube.com/watch?v=CFSjWeV4Vw0&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=4)
+1. [Azure Managed Apps in Partner Center](https://www.youtube.com/watch?v=CFSjWeV4Vw0&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=4)
 1. [Publishing Your Offer](https://www.youtube.com/watch?v=OeW1Xl__SS8&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=4)
 1. [Managed Application Overview](https://www.youtube.com/watch?v=XGdVvDP_kKo&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=6)
 1. [Azure Managed Application Artifacts](https://www.youtube.com/watch?v=XGdVvDP_kKo&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=5)
@@ -25,13 +28,12 @@
 1. [Managed Identities](https://www.youtube.com/watch?v=7ZOTgD48azI&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=17)
 1. [Resources and Closing](https://www.youtube.com/watch?v=jKg6eBPv4PY&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=18)
 
+## Hands-on-Labs
 
-## Hands-on Labs
+Hands-on-Labs are announced within the videos if you are watching the videos sequentially. 
+The labs may also be taken at any time as a stand-alone experience with no other context required.
 
-Lab 1 - [Your first Azure Managed Application](./lab-1/lab-1.md)
-
-Lab 2 - [Partner Center Walkthrough 1](https://dstarr.github.io/ama-workshop/lab-2/)
-
-Lab 3 - [Customizing the Managed Application UX](./lab-3/lab-3.md)
-
-Lab 4 - [Working with Customer Providers and Resources](./lab-4/lab-4.md)
+- Lab 1 - [Your first Azure Managed Application](./lab-1/lab-1.md)
+- Lab 2 - [Partner Center Walkthrough 1](https://dstarr.github.io/ama-workshop/lab-2/)
+- Lab 3 - [Customizing the Managed Application UX](./lab-3/lab-3.md)
+- Lab 4 - [Working with Customer Providers and Resources](./lab-4/lab-4.md)
