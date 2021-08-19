@@ -1,7 +1,10 @@
-# Mastering the Marketplace Series - Azure Managed Applications
+# Azure Managed Applications Offers - Mastering the Marketplace Series
 
-The video learning modules are clips of an in-person online learning class focused on Mastering Azure Managed Applications.
-The videos have been edited to be topically-based so you needn't watch the entire 6-hour course.
+The video learning modules are clips of an in-person online learning class focused on Mastering Azure Managed Applications. The videos have been edited to be topically-based so you needn't watch the entire 6-hour course.
+
+These videos are a complete course focused on bringing your Azure Managed Application offer to the Azure Marketplace. They are edited to be topically aligned so that you can skip to any video and it will stand alone contextually.
+
+There are also hands-on-labs that you may do yourself to further cement your new skills.
 
 ## Video Learning Modules
 

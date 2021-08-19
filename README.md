@@ -6,9 +6,9 @@ These courses are created for a technical audience and are meant to help you acc
 
 ## SaaS Offers
 
-The SaaS offer series is currently under development.
+The SaaS offer series is currently under development. Click below to see a list of forthcoming content.
 
-<!-- [Learn about SaaS Offers](./saas/README.md) -->
+[Learn about SaaS Offers](./saas/README.md)
 
 ## Azure Managed Application Offers
 

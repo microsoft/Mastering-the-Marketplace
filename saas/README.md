@@ -1,6 +1,42 @@
-# Mastering the Marketplace - SaaS Offers
+# SaaS Offers - Mastering the Marketplace Series
 
-Content is under development.
+These videos are a complete course focused on bringing your SaaS offer to the Microsoft Commercial Marketplace. They are designed to be topically aligned so that you can skip to any video and it will stand alone contextually.
 
-<!-- - [Module 2 Lab](./module2/README.md) -->
-<!-- - [Module 4 Lab](./module4/README.md) -->
+Many of the videos are accompanied by hands-on-labs that you may do yourself to further cement your new skills.
+
+## Video Learning Modules
+
+This content is currently under development and will be released incrementally as it is created.
+
+1. SaaS Offer Overview
+1. Purchasing a SaaS Application (Lab)
+1. SaaS Offer Technical Overview
+1. Configuring a SaaS Offer in Partner Center (Lab)
+1. Installing the SaaS Accelerator on Azure (Lab)
+1. Installing the SaaS Accelerator Locally for Development (Lab)
+1. Customizing and Deploying the SaaS Accelerator (Lab)
+1. The SaaS Fulfillment API Overview
+1. Using the SaaS Fulfillment API (Lab)
+1. SaaS Offer Webhook Overview
+1. Using a SaaS Offer Webhook (Lab)
+1. Metered Billing Overview
+1. Using Metered Billing in a SaaS Offer (Lab)
+1. Using the SaaS .NET Client Library (Lab)
+1. Using the SaaS Client Library for Node.js (Lab)
+1. Using the Metering Client Library for Node.js (Lab)
+
+## Hands-on-Labs
+
+This content is currently under development and will be released incrementally as content is created.
+
+1. Purchasing a SaaS Application (Lab)
+1. Configuring a SaaS Offer in Partner Center (Lab)
+1. Installing the SaaS Accelerator on Azure (Lab)
+1. Installing the SaaS Accelerator Locally for Development (Lab)
+1. Customizing and Deploying the SaaS Accelerator (Lab)
+1. Using the SaaS Fulfillment API (Lab)
+1. Using a SaaS Offer Webhook (Lab)
+1. Using Metered Billing in a SaaS Offer (Lab)
+1. Using the SaaS .NET Client Library (Lab)
+1. Using the SaaS Client Library for Node.js (Lab)
+1. Using the Metering Client Library for Node.js (Lab)
