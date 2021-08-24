@@ -9,34 +9,16 @@ Many of the videos are accompanied by hands-on-labs that you may do yourself to 
 This content is currently under development and will be released incrementally as it is created.
 
 1. SaaS Offer Overview
-1. Purchasing a SaaS Application (Lab)
-1. SaaS Offer Technical Overview
-1. Configuring a SaaS Offer in Partner Center (Lab)
-1. Installing the SaaS Accelerator on Azure (Lab)
-1. Installing the SaaS Accelerator Locally for Development (Lab)
-1. Customizing and Deploying the SaaS Accelerator (Lab)
-1. The SaaS Fulfillment API Overview
-1. Using the SaaS Fulfillment API (Lab)
-1. SaaS Offer Webhook Overview
-1. Using a SaaS Offer Webhook (Lab)
-1. Metered Billing Overview
-1. Using Metered Billing in a SaaS Offer (Lab)
-1. Using the SaaS .NET Client Library (Lab)
-1. Using the SaaS Client Library for Node.js (Lab)
-1. Using the Metering Client Library for Node.js (Lab)
-
-## Hands-on-Labs
-
-This content is currently under development and will be released incrementally as content is created.
-
-1. Purchasing a SaaS Application (Lab)
-1. Configuring a SaaS Offer in Partner Center (Lab)
-1. Installing the SaaS Accelerator on Azure (Lab)
-1. Installing the SaaS Accelerator Locally for Development (Lab)
-1. Customizing and Deploying the SaaS Accelerator (Lab)
-1. Using the SaaS Fulfillment API (Lab)
-1. Using a SaaS Offer Webhook (Lab)
-1. Using Metered Billing in a SaaS Offer (Lab)
-1. Using the SaaS .NET Client Library (Lab)
-1. Using the SaaS Client Library for Node.js (Lab)
-1. Using the Metering Client Library for Node.js (Lab)
+1. Purchasing a SaaS Application
+1. Publishing a Private SaaS Offer (Lab)
+3. SaaS Offer Technical Overview
+4. Configuring a SaaS Offer in Partner Center (Lab)
+5. Installing the SaaS Accelerator on Azure (Lab)
+6. Installing the SaaS Accelerator Locally for Development (Lab)
+7. Customizing and Deploying the SaaS Accelerator (Lab)
+8. The SaaS Fulfillment API (Lab)
+9. The SaaS Offer Webhook (Lab)
+10. Metered Billing in a SaaS Offer (Lab)
+11. Using the SaaS .NET Client Library (Lab)
+12. Using the SaaS Client Library for Node.js (Lab)
+13. Using the Metering Client Library for Node.js (Lab)
