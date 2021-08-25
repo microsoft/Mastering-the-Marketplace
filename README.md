@@ -4,21 +4,11 @@ This repository contains the hands-on-labs and pointers to self-paced videos tha
 
 These courses are created for a technical audience and are meant to help you accelerate your marketplace onboarding experience.
 
-## SaaS Offers
+## Videos and Labs
 
-The SaaS offer series is currently under development. Click below to see a list of forthcoming content.
-
-[Learn about SaaS Offers](./saas/README.md)
-
-## Azure Managed Application Offers
-
-This video series is a recording of a 1-day class with hands-on-labs. The content has been broken into small consumable chunks focusing on particular scenarios. 
-
-[Learn about Azure Managed Application Offers](./ama/README.md)
-
-## Virtual Machine Offers
-
-Content for the Virtual Machine offers is on our backlog.
+- [Learn about **SaaS** Offers](./saas/README.md)
+- [Learn about **Azure Managed Application** Offers](./ama/README.md)
+- Learn about **virtual Machine** Offers (on our backlog)
 
 ---
 
