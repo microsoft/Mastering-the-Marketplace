@@ -4,7 +4,7 @@ This repository contains the hands-on-labs and pointers to self-paced videos tha
 
 These courses are created for a technical audience and are meant to help you accelerate your marketplace onboarding experience.
 
-# Videos and Labs
+# Videos Learning and Hands on Labs
 
 - [Learn about **SaaS** Offers](./saas/README.md)
 - [Learn about **Azure Managed Application** Offers](./ama/README.md)
