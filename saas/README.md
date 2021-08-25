@@ -10,8 +10,8 @@ This content is currently under development and will be released incrementally a
 
 1. SaaS Offer Overview
 1. Purchasing a SaaS Application
-1. SaaS Offer Technical Overview
 1. Buying and Publishing Private SaaS Offers ([Lab](./buying-and-publishing-private-saas-offers/README.md))
+1. SaaS Offer Technical Overview
 1. Configuring a SaaS Offer in Partner Center (Lab)
 1. Installing the SaaS Accelerator on Azure (Lab)
 1. Installing the SaaS Accelerator Locally for Development (Lab)
