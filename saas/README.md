@@ -10,7 +10,7 @@ This content is currently under development and will be released incrementally a
 
 1. SaaS Offer Overview
 1. Purchasing a SaaS Application
-1. Buying and Publishing Private SaaS Offers ([Lab](./buying-and-publishing-private-saas-offers/README.md))
+1. Buying and Publishing Private SaaS Plans 
 1. SaaS Offer Technical Overview
 1. Configuring a SaaS Offer in Partner Center (Lab)
 1. Installing the SaaS Accelerator on Azure (Lab)
@@ -22,3 +22,6 @@ This content is currently under development and will be released incrementally a
 1. Using the SaaS .NET Client Library (Lab)
 1. Using the SaaS Client Library for Node.js (Lab)
 1. Using the Metering Client Library for Node.js (Lab)
+
+
+<!-- ([Lab](./buying-and-publishing-private-saas-offers/README.md)) -->
