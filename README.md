@@ -8,7 +8,7 @@ These courses are created for a technical audience and are meant to help you acc
 
 - [Learn about **SaaS** Offers](./saas/README.md)
 - [Learn about **Azure Managed Application** Offers](./ama/README.md)
-- Learn about **virtual Machine** Offers (on our backlog)
+- Learn about **Virtual Machine** Offers (on our backlog)
 
 ---
 

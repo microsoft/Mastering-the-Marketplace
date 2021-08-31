@@ -13,15 +13,13 @@ This content is currently under development and will be released incrementally a
 1. Buying and Publishing Private SaaS Plans 
 1. SaaS Offer Technical Overview
 1. Configuring a SaaS Offer in Partner Center (Lab)
+1. SaaS Offer Fulfillment API (Lab)
+1. SaaS Offer Webhook (Lab)
+1. SaaS Offer Metered Billing (Lab)
+1. Using the SaaS Client Library for .NET (Lab)
+1. Using the SaaS Client Library for Node.js (Lab)
 1. Installing the SaaS Accelerator on Azure (Lab)
 1. Installing the SaaS Accelerator Locally for Development (Lab)
 1. Customizing and Deploying the SaaS Accelerator (Lab)
-1. The SaaS Fulfillment API (Lab)
-1. The SaaS Offer Webhook (Lab)
-1. Metered Billing in a SaaS Offer (Lab)
-1. Using the SaaS .NET Client Library (Lab)
-1. Using the SaaS Client Library for Node.js (Lab)
-1. Using the Metering Client Library for Node.js (Lab)
-
 
 <!-- ([Lab](./buying-and-publishing-private-saas-offers/README.md)) -->
