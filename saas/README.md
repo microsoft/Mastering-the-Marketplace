@@ -8,10 +8,10 @@ Many of the videos are accompanied by hands-on-labs that you may do yourself to 
 
 This content is currently under development and will be released incrementally as it is created.
 
-1. SaaS Offer Overview
-1. Purchasing a SaaS Application
-1. Buying and Publishing Private SaaS Plans 
-1. SaaS Offer Technical Overview
+1. SaaS Offer Overview ([PDF](./pdfs/01-SaaS-Offer-Overview.pdf))
+1. Purchasing a SaaS Application ([PDF](./pdfs/02-Purchasing-a-SaaS-Application/pdf))
+1. Buying and Publishing Private SaaS Plans ([PDF](./pdfs/03-Buying-and-Publishing-Private-SaaS-Plans.pdf))
+1. SaaS Offer Technical Overview ([PDF](./pdfs/04-SaaS-Offer-Technical-Overview.pdf))
 1. Configuring a SaaS Offer in Partner Center (Lab)
 1. SaaS Offer Fulfillment API (Lab)
 1. SaaS Offer Webhook (Lab)
