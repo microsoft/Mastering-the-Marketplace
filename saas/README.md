@@ -7,6 +7,7 @@ Many of the videos are accompanied by hands-on-labs that you may do yourself to 
 ## Video Learning Modules
 
 This content is currently under development and will be released incrementally as it is created.
+[See the complete playlist here](https://www.youtube.com/playlist?list=PLmsFUfdnGr3wWUaB-QkSaQRHBNYKZj5PM) or use the links below to view individual modules.
 
 1. [SaaS Offer Overview](https://www.youtube.com/watch?v=9PCTioPbI8M&list=PLmsFUfdnGr3wWUaB-QkSaQRHBNYKZj5PM&index=1) ([PDF](./pdfs/01-SaaS-Offer-Overview.pdf))
 1. [Purchasing a SaaS Application](https://www.youtube.com/watch?v=F1DHF3OYiUI&list=PLmsFUfdnGr3wWUaB-QkSaQRHBNYKZj5PM&index=2) ([PDF](./pdfs/02-Purchasing-a-SaaS-Application/pdf))
