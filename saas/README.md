@@ -14,7 +14,7 @@ This content is currently under development and will be released incrementally a
 1. [Buying and Publishing Private SaaS Plans](https://www.youtube.com/watch?v=RFYybqyyy-c&list=PLmsFUfdnGr3wWUaB-QkSaQRHBNYKZj5PM&index=3) ([PDF](./pdfs/03-Buying-and-Publishing-Private-SaaS-Plans.pdf))
 1. [SaaS Offer Technical Overview](https://www.youtube.com/watch?v=0c-rzJkTV7w&list=PLmsFUfdnGr3wWUaB-QkSaQRHBNYKZj5PM&index=4) ([PDF](./pdfs/04-SaaS-Offer-Technical-Overview.pdf))
 1. Configuring a SaaS Offer in Partner Center
-1. [Using the SaaS Offer Fulfillment API](https://www.youtube.com/watch?v=eizdN6XNyvw)
+1. [Using the SaaS Offer Fulfillment API](https://www.youtube.com/watch?v=eizdN6XNyvw) (Using Postman)
 1. Using the SaaS Offer Metered Billing
 1. Using the SaaS Offer Webhook
 1. Using the SaaS Client Library for .NET
