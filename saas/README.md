@@ -14,9 +14,6 @@ This content is currently under development and will be released incrementally a
 1. Using the SaaS Offer Webhook
 1. Using the SaaS Client Library for .NET
 1. Using the SaaS Client Library for Node.js
-1. Installing the SaaS Accelerator on Azure
-1. Installing the SaaS Accelerator Locally for Development
-1. Customizing and Deploying the SaaS Accelerator
 
 # Learning Modules
 
