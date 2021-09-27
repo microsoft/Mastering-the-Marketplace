@@ -1,6 +1,6 @@
 # SaaS Offers - Mastering the Marketplace Series
 
-These videos are designed to help you publish your your SaaS offer to the Microsoft Commercial Marketplace. They are designed to be topically aligned so that you can skip to any video and it will stand alone contextually.
+These videos are designed to help you publish your your SaaS offer to the Microsoft Commercial Marketplace. They are topically aligned so that you can skip to any video and it will stand alone contextually.
 
 This content is currently under development and will be released incrementally as it is created.
 
