@@ -1,19 +1,22 @@
 # SaaS Offers - Mastering the Marketplace Series
 
-These videos are designed to help you publish your SaaS offer to the Microsoft Commercial Marketplace. 
-
-This content is currently under development and will be released incrementally as it is created.
+These videos are designed to help you publish your SaaS offer to the Microsoft Commercial Marketplace. This content is currently under development and will be released incrementally as it is created.
 
 1. [SaaS Offer Overview](#saas-offer-overview)
-1. [Purchasing a SaaS Application](#purchasing-a-saas-application)
-1. [Buying and Publishing Private SaaS Plans](#buying-and-publishing-private-saas-plans)
+1. [Purchasing a SaaS Offer](#purchasing-a-saas-offer)
+1. [Purchasing a Private SaaS Offer](#purchasing-a-private-saas-offer)
+1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
+1. [Publishing a Private SaaS Offer](#publishing-a-private-saas-offer)
 1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
-1. Configuring a SaaS Offer in Partner Center
-1. [Using the SaaS Offer Fulfillment API](#using-the-saas-offer-fulfillment-api) (REST-level using Postman)
+1. [Using the SaaS Offer Fulfillment API](#using-the-saas-offer-fulfillment-api) - REST-level using Postman
+1. Anatomy of a Simple Landing Page
+1. Building a Simple Landing Page with the SaaS Client Library for .NET
+1. Building a Simple Publisher Management Portal with the SaaS Client Library for .NET
 1. Using the SaaS Offer Metered Billing
 1. Using the SaaS Offer Webhook
-1. Using the SaaS Client Library for .NET
 1. Using the SaaS Client Library for Node.js
+1. SaaS Accelerator Overview
+1. Installing the SaaS Accelerator
 
 # Learning Modules
 
@@ -28,32 +31,41 @@ This module offers a technical overview of Microsoft Azure Marketplace SaaS Offe
  - ​Pricing Models for SaaS Offers​ 
  - SaaS Solution Architectures 
 
+ ## Purchasing a SaaS Offer
 
-## Purchasing a SaaS Application
+[Video](https://youtu.be/hYqoqbzCbfY) | [PDF](./pdfs/02.1-Purchasing-a-SaaS-Offer.pdf)
 
-[Video](https://www.youtube.com/watch?v=F1DHF3OYiUI&list=PLmsFUfdnGr3wWUaB-QkSaQRHBNYKZj5PM) | [PDF](./pdfs/02-Purchasing-a-SaaS-Application/pdf)
+This video offers a guided step-by-step process to purchasing SaaS applications in the #Microsoft Azure Marketplace from the customers point of view, including the following topics.
+-	SaaS Offer Subscription Flow
+-	Subscribing From the Azure Marketplace
+-	Subscribing From the Azure Portal
+-	The SaaS Management Service
 
-A guided step-by-step process to purchasing SaaS applications in the Microsoft Azure Marketplace, including the following topics. 
 
-- SaaS Offer Subscription Flow​ 
-- Subscribing From the Azure Marketplace​ 
-- Subscribing From the Azure Portal​ 
-- Subscribing a Private Offer​ 
-- The SaaS Management Service
+## Purchasing a Private SaaS Offer
 
-## Buying and Publishing Private SaaS Plans
+[Video](https://youtu.be/4SXHOJ3OA18) | [PDF](./pdfs/02.2%20-Purchasing-a-Private-SaaS-Offer.pdf)
 
-[Video](https://www.youtube.com/watch?v=RFYybqyyy-c&list=PLmsFUfdnGr3wWUaB-QkSaQRHBNYKZj5PM) | [PDF](./pdfs/03-Buying-and-Publishing-Private-SaaS-Plans.pdf)
+This video shows how to subscribe to private SaaS plans in the #Microsoft Azure Marketplace. Topics include the following.
+-	About Private Plans
+-	Purchasing a SaaS Private Offer
 
-This video shows how to subscribe to private SaaS plans in the Microsoft Azure Marketplace and how to create them in the Azure Partner Center. Topics include the following. 
 
-- About Private Plans​ 
-- Purchasing a SaaS Private Offer​ 
-- Creating a Private SaaS Offer
+## Publishing a SaaS Offer
+
+[Video](https://youtu.be/AnZDa0Z1z8I) | [PDF](./pdfs/03.1-Publishing-a-SaaS-Offer.pdf)
+
+This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook.
+
+## Publishing a Private SaaS Offer
+
+[Video](https://youtu.be/8yUt5hFOHWY) | [PDF](./pdfs/03.2-Publishing-Private-SaaS-Offer.pdf)
+
+This brief video builds upon what you learned in, “Publishing a SaaS Offer.” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
 
 ## SaaS Offer Technical Overview
 
-[Video](https://www.youtube.com/watch?v=0c-rzJkTV7w&list=PLmsFUfdnGr3wWUaB-QkSaQRHBNYKZj5PM) | [PDF](./pdfs/04-SaaS-Offer-Technical-Overview.pdf)
+[Video](https://youtu.be/0c-rzJkTV7w) | [PDF](./pdfs/04-SaaS-Offer-Technical-Overview.pdf)
 
 Watch a deep technical overview of how SaaS offers work in the Microsoft Azure Marketplace. Learn how the API flows and interactions should work and how to build your landing page. Topics include the following. 
 
@@ -65,7 +77,7 @@ Watch a deep technical overview of how SaaS offers work in the Microsoft Azure M
 
 ## Using the SaaS Offer Fulfillment API
 
-[Video](https://www.youtube.com/watch?v=eizdN6XNyvw&list=PLmsFUfdnGr3wWUaB-QkSaQRHBNYKZj5PM)
+[Video](https://youtu.be/eizdN6XNyvw)
 
 See the SaaS Fulfillment REST API in action as we send it through its paces using Postman. You’ll learn how to authenticate with Azure Active Directory, resolve and activate subscriptions just like your Landing Page does, and see many other features of the API. 
 
