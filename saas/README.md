@@ -69,7 +69,7 @@ This brief video builds upon what you learned in, “Publishing a SaaS Offer.”
 
 Watch a deep technical overview of how SaaS offers work in the Microsoft Azure Marketplace. Learn how the API flows and interactions should work and how to build your landing page. Topics include the following. 
 
-- The Landing Page​ 
+- The Landing Page​ authentication workflows
 - SaaS Offer Purchase Flow in Depth​ 
 - SaaS Offer Fulfillment API​ 
 - Metered Fulfillment Overview​ 
@@ -80,6 +80,8 @@ Watch a deep technical overview of how SaaS offers work in the Microsoft Azure M
 [Video](https://youtu.be/eizdN6XNyvw)
 
 See the SaaS Fulfillment REST API in action as we send it through its paces using Postman. You’ll learn how to authenticate with Azure Active Directory, resolve and activate subscriptions just like your Landing Page does, and see many other features of the API. 
+
+This module prepares you for working with the language-specific client libraries.
 
 This modules requires you to have knowledge of [Application Registrations in AAD](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). 
 
