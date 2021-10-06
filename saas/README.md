@@ -8,7 +8,7 @@ These videos are designed to help you publish your SaaS offer to the Microsoft C
 1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
 1. [Publishing a Private SaaS Offer](#publishing-a-private-saas-offer)
 1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
-1. [Using the SaaS Offer Fulfillment API](#using-the-saas-offer-fulfillment-api) - REST-level using Postman
+1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-fulfillment-api)
 1. Anatomy of a Simple Landing Page
 1. Building a Simple Landing Page with the SaaS Client Library for .NET
 1. Building a Simple Publisher Management Portal with the SaaS Client Library for .NET
@@ -75,9 +75,9 @@ Watch a deep technical overview of how SaaS offers work in the Microsoft Azure M
 - Metered Fulfillment Overview​ 
 - SaaS Offer Webhook
 
-## Using the SaaS Offer Fulfillment API
+## Using the SaaS Offer REST Fulfillment API
 
-[Video](https://youtu.be/eizdN6XNyvw)
+[Video](https://youtu.be/eizdN6XNyvw) | [PDF](./pdfs/05%20-%20Using%20the%20SaaS%20Offer%20Fulfillment%20API.pdf)
 
 See the SaaS Fulfillment REST API in action as we send it through its paces using Postman. You’ll learn how to authenticate with Azure Active Directory, resolve and activate subscriptions just like your Landing Page does, and see many other features of the API. 
 
