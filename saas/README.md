@@ -4,9 +4,9 @@ These videos are designed to help you publish your SaaS offer to the Microsoft C
 
 1. [SaaS Offer Overview](#saas-offer-overview)
 1. [Purchasing a SaaS Offer](#purchasing-a-saas-offer)
-1. [Purchasing a Private SaaS Offer](#purchasing-a-private-saas-offer)
+1. [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
 1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
-1. [Publishing a Private SaaS Offer](#publishing-a-private-saas-offer)
+1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
 1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
 1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-fulfillment-api)
 1. Anatomy of a Simple Landing Page
@@ -42,9 +42,9 @@ This video offers a guided step-by-step process to purchasing SaaS applications 
 -	The SaaS Management Service
 
 
-## Purchasing a Private SaaS Offer
+## Purchasing a Private SaaS Plan
 
-[Video](https://youtu.be/4SXHOJ3OA18) | [PDF](./pdfs/02.2%20-Purchasing-a-Private-SaaS-Offer.pdf)
+[Video](https://youtu.be/4SXHOJ3OA18) | [PDF](./pdfs/02.2-Purchasing-a-Private-SaaS-Plan.pdf)
 
 This video shows how to subscribe to private SaaS plans in the #Microsoft Azure Marketplace. Topics include the following.
 -	About Private Plans
@@ -57,9 +57,9 @@ This video shows how to subscribe to private SaaS plans in the #Microsoft Azure 
 
 This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook.
 
-## Publishing a Private SaaS Offer
+## Publishing a Private SaaS Plan
 
-[Video](https://youtu.be/8yUt5hFOHWY) | [PDF](./pdfs/03.2-Publishing-Private-SaaS-Offer.pdf)
+[Video](https://youtu.be/8yUt5hFOHWY) | [PDF](./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf)
 
 This brief video builds upon what you learned in, “Publishing a SaaS Offer.” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
 
