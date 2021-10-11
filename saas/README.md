@@ -8,8 +8,8 @@ These videos are designed to help you publish your SaaS offer to the Microsoft C
 1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
 1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
 1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
-1. Azure AD Application Registration
-1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-fulfillment-api)
+1. Azure AD Application Registrations
+1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-rest-fulfillment-api)
 1. The SaaS Client Library for .NET
 1. Building a Simple Landing Page with the SaaS Client Library for .NET
 1. Building a Simple Publisher Management Portal with the SaaS Client Library for .NET
@@ -77,7 +77,7 @@ Watch a deep technical overview of how SaaS offers work in the Microsoft Azure M
 
 ## Using the SaaS Offer REST Fulfillment API
 
-[Video](https://youtu.be/eizdN6XNyvw) | [PDF](./pdfs/05%20-%20Using%20the%20SaaS%20Offer%20Fulfillment%20API.pdf)
+[Video](https://youtu.be/eizdN6XNyvw) | [PDF](./pdfs/06-Using-the-SaaS-Offer-Fulfillment-API.pdf)
 
 See the SaaS Fulfillment REST API in action as we send it through its paces using Postman. You’ll learn how to authenticate with Azure Active Directory, resolve and activate subscriptions just like your Landing Page does, and see many other features of the API. 
 
