@@ -9,7 +9,6 @@ These videos are designed to help you publish your SaaS offer to the Microsoft C
 1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
 1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
 1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-fulfillment-api)
-1. Anatomy of a Simple Landing Page
 1. Building a Simple Landing Page with the SaaS Client Library for .NET
 1. Building a Simple Publisher Management Portal with the SaaS Client Library for .NET
 1. Using the SaaS Offer Metered Billing
