@@ -8,14 +8,15 @@ These videos are designed to help you publish your SaaS offer to the Microsoft C
 1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
 1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
 1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
+1. Azure AD Application Registration
 1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-fulfillment-api)
+1. The SaaS Client Library for .NET
 1. Building a Simple Landing Page with the SaaS Client Library for .NET
 1. Building a Simple Publisher Management Portal with the SaaS Client Library for .NET
+1. Building a Simple SaaS Offer Webhook
 1. Using the SaaS Offer Metered Billing
-1. Using the SaaS Offer Webhook
-1. Using the SaaS Client Library for Node.js
 1. SaaS Accelerator Overview
-1. Installing the SaaS Accelerator
+1. SaaS Accelerator Installation
 
 # Learning Modules
 
@@ -43,7 +44,7 @@ This video offers a guided step-by-step process to purchasing SaaS applications 
 
 ## Purchasing a Private SaaS Plan
 
-[Video](https://youtu.be/4SXHOJ3OA18) | [PDF](./pdfs/02.2-Purchasing-a-Private-SaaS-Plan.pdf)
+[Video](https://youtu.be/G6NAqf1hCRk) | [PDF](./pdfs/02.2-Purchasing-a-Private-SaaS-Plan.pdf)
 
 This video shows how to subscribe to private SaaS plans in the #Microsoft Azure Marketplace. Topics include the following.
 -	About Private Plans
