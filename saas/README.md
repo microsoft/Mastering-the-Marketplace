@@ -46,9 +46,9 @@ This video offers a guided step-by-step process to purchasing SaaS applications 
 
 [Video](https://youtu.be/G6NAqf1hCRk) | [PDF](./pdfs/02.2-Purchasing-a-Private-SaaS-Plan.pdf)
 
-This video shows how to subscribe to private SaaS plans in the #Microsoft Azure Marketplace. Topics include the following.
+This video shows how to subscribe to private SaaS plans in the Microsoft Azure Marketplace. Topics include the following.
 -	About Private Plans
--	Purchasing a SaaS Private Offer
+-	Purchasing a SaaS Private Offer demo
 
 
 ## Publishing a SaaS Offer
@@ -61,7 +61,7 @@ This detailed video presents the concepts of publishing a SaaS offer and then wa
 
 [Video](https://youtu.be/8yUt5hFOHWY) | [PDF](./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf)
 
-This brief video builds upon what you learned in, “Publishing a SaaS Offer.” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
+This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
 
 ## SaaS Offer Technical Overview
 
