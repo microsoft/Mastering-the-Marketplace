@@ -1,0 +1,5 @@
+﻿dotnet run `
+	TENANT_ID `
+	CLIENT_ID `
+	CLIENT_SECRET `
+	SUBSCRIPTION_ID

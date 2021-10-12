@@ -10,7 +10,7 @@ These videos are designed to help you publish your SaaS offer to the Microsoft C
 1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
 1. Azure AD Application Registrations
 1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-rest-fulfillment-api)
-1. The SaaS Client Library for .NET
+1. [The SaaS Client Library for .NET](#the-saas-client-library-for-.net)
 1. Building a Simple Landing Page with the SaaS Client Library for .NET
 1. Building a Simple Publisher Management Portal with the SaaS Client Library for .NET
 1. Building a Simple SaaS Offer Webhook
@@ -40,7 +40,6 @@ This video offers a guided step-by-step process to purchasing SaaS applications 
 -	Subscribing From the Azure Marketplace
 -	Subscribing From the Azure Portal
 -	The SaaS Management Service
-
 
 ## Purchasing a Private SaaS Plan
 
@@ -89,6 +88,16 @@ An Application Registration is used in the examples when making the first reques
 
 1. The [Tenant ID and App ID](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#get-tenant-and-app-id-values-for-signing-in)
 1. A [Client Secret](https://docs.microsoft.com/en-us/azure/active-directory/develop/howto-create-service-principal-portal#option-2-create-a-new-application-secret) on the Application Registration
+
+## The SaaS Client Library for .NET
+
+[Video] | [PDF](./pdfs/07-The-SaaS-Client-Library-for-.NET.pdf) | [Code](./code-samples/07-the-saas-client-library-for-dotnet)
+
+This module introduces the SaaS Client Library for .NET developer who want to work with the SaaS APIs at a level of abstraction above the REST level. 
+
+The client library is a fully functional .NET package that you can install and use in your applications, and you’ll see how to do just that.
+
+This video shows a sample command line application that can talk to the client library API and the code is available on the repository.
 
 # Full video playlist
 
