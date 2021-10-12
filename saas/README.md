@@ -93,11 +93,11 @@ An Application Registration is used in the examples when making the first reques
 
 [Video](https://youtu.be/uihNXaDBXVQ) | [PDF](./pdfs/07-The-SaaS-Client-Library-for-.NET.pdf) | [Code](./code-samples/07-the-saas-client-library-for-dotnet)
 
-This module introduces the [SaaS Client Library for .NET](https://github.com/microsoft/commercial-marketplace-client-dotnet) developer who want to work with the SaaS APIs at a level of abstraction above the REST level. 
+This module introduces the [SaaS Client Library for .NET](https://github.com/microsoft/commercial-marketplace-client-dotnet) developers who want to work with the SaaS APIs at a level of abstraction above the REST level.
 
-The client library is a fully functional .NET package that you can [install from NuGet](https://www.nuget.org/packages/Marketplace.SaaS.Client) and use in your applications, and you’ll see how to do just that.
+The client library is a fully functional .NET package that you can [install from NuGet](https://www.nuget.org/packages/Marketplace.SaaS.Client) and use in your applications.
 
-This video shows a sample command line application that can talk to the client library API and the code is available on the repository.
+This video shows a sample command line application that can talk to the client library API and the code is available in this repository via the link above.
 
 # Full video playlist
 
