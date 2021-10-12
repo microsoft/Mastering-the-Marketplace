@@ -10,7 +10,7 @@ These videos are designed to help you publish your SaaS offer to the Microsoft C
 1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
 1. Azure AD Application Registrations
 1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-rest-fulfillment-api)
-1. [The SaaS Client Library for .NET](#the-saas-client-library-for-.net)
+1. [The SaaS Client Library for .NET](#the-saas-client-library-for-net)
 1. Building a Simple Landing Page with the SaaS Client Library for .NET
 1. Building a Simple Publisher Management Portal with the SaaS Client Library for .NET
 1. Building a Simple SaaS Offer Webhook
