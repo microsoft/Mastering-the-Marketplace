@@ -59,7 +59,7 @@ This detailed video presents the concepts of publishing a SaaS offer and then wa
 
 ## Publishing a Private SaaS Plan
 
-[Video](https://youtu.be/8yUt5hFOHWY) | [PDF](./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf)
+[Video](https://youtu.be/67E7LPL_aic) | [PDF](./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf)
 
 This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
 
