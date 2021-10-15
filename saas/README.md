@@ -8,7 +8,7 @@ These videos are designed to help you publish your SaaS offer to the Microsoft C
 1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
 1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
 1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
-1. Azure AD Application Registrations
+1. [Azure AD Application Registrations](#azure-ad-application-registrations)
 1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-rest-fulfillment-api)
 1. [The SaaS Client Library for .NET](#the-saas-client-library-for-net)
 1. Building a Simple Landing Page with the SaaS Client Library for .NET
@@ -73,6 +73,17 @@ Watch a deep technical overview of how SaaS offers work in the Microsoft Azure M
 - SaaS Offer Fulfillment API​ 
 - Metered Fulfillment Overview​ 
 - SaaS Offer Webhook
+
+## Azure AD Application Registrations
+
+Video | [PDF](./pdfs/05-Azure-AD-Application-Registrations.pdf)
+
+In this module we look at a generic topic, application registrations for Azure Active Directory because we’ll need to use them in our upcoming modules. They give us a mechanism to authenticate to Azure AD, which is a requirement of the landing page, if you recall.
+
+This video should help you get a jump start on configuring application registrations for the apps we’ll be building in the next few modules.
+
+This module introduces just enough on this topic to help us build our landing page and webhooks later in the course. For those interested in more reading, please see [Create and Azure AD app registration](https://docs.microsoft.com/en-us/azure/marketplace/azure-ad-transactable-saas-landing-page#create-an-azure-ad-app-registration) and [Quickstart: Register an application with the Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) from the official Microsoft documentation.
+
 
 ## Using the SaaS Offer REST Fulfillment API
 
