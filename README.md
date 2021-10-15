@@ -10,7 +10,7 @@ These courses are created for a technical audience and are meant to help you acc
 - [Learn about **Azure Managed Application** Offers](./ama/README.md)
 - More coming
 
-# Suggesting New Content Topics
+# Submitting Feedback or Suggesting New Content
 
 Please use the [Issues](https://github.com/microsoft/Mastering-the-Marketplace/issues) feature of this repository to request additional content or improvements to existing content.
 
