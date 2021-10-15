@@ -76,7 +76,7 @@ Watch a deep technical overview of how SaaS offers work in the Microsoft Azure M
 
 ## Azure AD Application Registrations
 
-Video | [PDF](./pdfs/05-Azure-AD-Application-Registrations.pdf)
+[Video](https://youtu.be/-wjlgxJIlWQ) | [PDF](./pdfs/05-Azure-AD-Application-Registrations.pdf)
 
 In this module we look at a generic topic, application registrations for Azure Active Directory because we’ll need to use them in our upcoming modules. They give us a mechanism to authenticate to Azure AD, which is a requirement of the landing page, if you recall.
 
