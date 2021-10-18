@@ -12,7 +12,7 @@ These courses are created for a technical audience and are meant to help you acc
 
 # Submitting Feedback or Suggesting New Content
 
-Please use the [Issues](https://github.com/microsoft/Mastering-the-Marketplace/issues) feature of this repository to request additional content or improvements to existing content.
+Please use the [Issues](https://github.com/microsoft/Mastering-the-Marketplace/issues) feature of this repository to request additional content or to suggest improvements to existing content.
 
 ---
 
