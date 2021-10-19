@@ -16,7 +16,7 @@ These videos are designed to help you publish your SaaS offer to the Microsoft C
 1. Building a Simple SaaS Offer Webhook
 1. Using the SaaS Offer Metered Billing
 1. SaaS Accelerator Overview
-1. [Installing the SaaS Accelerator]()
+1. [Installing the SaaS Accelerator](#installing-the-saas-accelerator)
 
 # Learning Modules
 
