@@ -16,7 +16,7 @@ These videos are designed to help you publish your SaaS offer to the Microsoft C
 1. Building a Simple SaaS Offer Webhook
 1. Using the SaaS Offer Metered Billing
 1. SaaS Accelerator Overview
-1. SaaS Accelerator Installation
+1. [Installing the SaaS Accelerator]()
 
 # Learning Modules
 
@@ -109,3 +109,11 @@ This module introduces the [SaaS Client Library for .NET](https://github.com/mic
 The client library is a fully functional .NET package that you can [install from NuGet](https://www.nuget.org/packages/Marketplace.SaaS.Client) and use in your applications.
 
 This video shows a sample command line application that can talk to the client library API and the code is available in this repository via the link above.
+
+## Installing the SaaS Accelerator
+
+[Video]() | [PDF](./pdfs/21-Installing-the-SaaS-Accelerator.pdf)
+
+Installing the SaaS Accelerator is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. This is not a review of the SaaS Accelerator’s functionality. For that, please see the video, “SaaS Accelerator Overview.”
+
+This video will get you up and running with the SaaS Accelerator in no time at all!
