@@ -112,7 +112,7 @@ This video shows a sample command line application that can talk to the client l
 
 ## Installing the SaaS Accelerator
 
-[Video]() | [PDF](./pdfs/21-Installing-the-SaaS-Accelerator.pdf)
+[Video](https://youtu.be/BVZTj6fssQ8) | [PDF](./pdfs/21-Installing-the-SaaS-Accelerator.pdf)
 
 Installing the SaaS Accelerator is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. This is not a review of the SaaS Accelerator’s functionality. For that, please see the video, “SaaS Accelerator Overview.”
 
