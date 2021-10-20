@@ -1,0 +1,18 @@
+﻿@model LandingPage.ViewModels.Unsubscribe.DeleteViewModel
+
+<h2>Subscription Deleted</h2>
+
+<p>
+    You have been unsubscribed from this subscription.
+</p>
+
+<h3>Subscription Details</h3>
+
+<table class="main-table">
+    <thead><tr><th>Item</th><th>Value</th></tr></thead>
+    <tbody>
+        <tr><td class="main-td">Name</td><td>@Model.Subscription.Name</td></tr>
+        <tr><td class="main-td">Id</td><td>@Model.Subscription.Id</td></tr>
+        <tr><td class="main-td">Status</td><td>@Model.Subscription.SaasSubscriptionStatus.Value</td></tr>
+    </tbody>
+</table>
