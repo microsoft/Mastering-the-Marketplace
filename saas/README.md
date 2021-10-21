@@ -11,9 +11,9 @@ These videos are designed to help you publish your SaaS offer to the Microsoft C
 1. [Azure AD Application Registrations](#azure-ad-application-registrations)
 1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-rest-fulfillment-api)
 1. [The SaaS Client Library for .NET](#the-saas-client-library-for-net)
-1. [Building a Simple Landing Page in .NET](#building-a-simple-landing-page-in-net)
-1. Building a Simple Publisher Management Portal with the SaaS Client Library for .NET
-1. Building a Simple SaaS Offer Webhook
+1. [Building a Simple SaaS Landing Page in .NET](#building-a-simple-saas-landing-page-in-net)
+1. Building a Simple SaaS Publisher Portal in .NET
+1. Building a Simple SaaS Offer Webhook in .NET
 1. Using the SaaS Offer Metered Billing
 1. SaaS Accelerator Overview
 1. [Installing the SaaS Accelerator](#installing-the-saas-accelerator)
@@ -110,9 +110,9 @@ The client library is a fully functional .NET package that you can [install from
 
 This video shows a sample command line application that can talk to the client library API and the code is available in this repository via the link above.
 
-## Building a Simple Landing Page in .NET
+## Building a Simple SaaS Landing Page in .NET
 
-[Video]() | [PDF](./pdfs/08-simple-landing-page-dotnet.pdf) | [Code](./code-samples/saas-simple-landing-page)
+[Video](https://youtu.be/QoDXqp3GH_s) | [PDF](./pdfs/08-simple-landing-page-dotnet.pdf) | [Code](./code-samples/saas-simple-landing-page)
 
 In this module we examine the elements of building a simple landing page and looking at how it works.  We examine the following topics.
 
