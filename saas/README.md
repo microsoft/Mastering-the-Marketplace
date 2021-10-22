@@ -1,6 +1,10 @@
 # SaaS Offers - Mastering the Marketplace Series
 
-These videos are designed to help you publish your SaaS offer to the Microsoft Commercial Marketplace. This content is currently under development and will be released incrementally as it is created.
+These videos are designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace. 
+
+This content is currently under development and will be released incrementally as it is created.
+
+## Building a SaaS Integration
 
 1. [SaaS Offer Overview](#saas-offer-overview)
 1. [Purchasing a SaaS Offer](#purchasing-a-saas-offer)
@@ -14,9 +18,16 @@ These videos are designed to help you publish your SaaS offer to the Microsoft C
 1. [Building a Simple SaaS Landing Page in .NET](#building-a-simple-saas-landing-page-in-net)
 1. Building a Simple SaaS Publisher Portal in .NET
 1. Building a Simple SaaS Offer Webhook in .NET
-1. Using the SaaS Offer Metered Billing
-1. SaaS Accelerator Overview
-1. [Installing the SaaS Accelerator](#installing-the-saas-accelerator)
+1. Using SaaS Offer Metered Billing
+
+## The SaaS Accelerator 
+
+1. SaaS Accelerator Introduction
+1. SaaS Accelerator Architecture
+1. [Installing the SaaS Accelerator with the Installer](#installing-the-saas-accelerator-with-the-installer)
+1. Installing the SaaS Accelerator Manually
+1. Extending the SaaS Accelerator
+
 
 # Learning Modules
 
@@ -102,7 +113,7 @@ An Application Registration is used in the examples when making the first reques
 
 ## The SaaS Client Library for .NET
 
-[Video](https://youtu.be/uihNXaDBXVQ) | [PDF](./pdfs/07-The-SaaS-Client-Library-for-.NET.pdf) | [Code](./code-samples/the-saas-client-library-for-dotnet)
+[Video](https://youtu.be/uihNXaDBXVQ) | [PDF](./pdfs/07-The-SaaS-Client-Library-for-.NET.pdf) | [Code](./demo-code/the-saas-client-library-for-dotnet)
 
 This module introduces the [SaaS Client Library for .NET](https://github.com/microsoft/commercial-marketplace-client-dotnet) developers who want to work with the SaaS APIs at a level of abstraction above the REST level.
 
@@ -112,7 +123,7 @@ This video shows a sample command line application that can talk to the client l
 
 ## Building a Simple SaaS Landing Page in .NET
 
-[Video](https://youtu.be/QoDXqp3GH_s) | [PDF](./pdfs/08-simple-landing-page-dotnet.pdf) | [Code](./code-samples/saas-simple-landing-page)
+[Video](https://youtu.be/QoDXqp3GH_s) | [PDF](./pdfs/08-simple-landing-page-dotnet.pdf) | [Code](./demo-code/saas-simple-landing-page)
 
 In this module we examine the elements of building a simple landing page and looking at how it works.  We examine the following topics.
 
@@ -123,7 +134,7 @@ In this module we examine the elements of building a simple landing page and loo
 
 The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it simple. We use the [SaaS Client Library for .NET](#the-saas-client-library-for-net) to build out our landing page functionality.
 
-## Installing the SaaS Accelerator
+## Installing the SaaS Accelerator with the Installer
 
 [Video](https://youtu.be/BVZTj6fssQ8) | [PDF](./pdfs/21-Installing-the-SaaS-Accelerator.pdf)
 
