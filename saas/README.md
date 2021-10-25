@@ -134,6 +134,20 @@ In this module we examine the elements of building a simple landing page and loo
 
 The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it simple. We use the [SaaS Client Library for .NET](#the-saas-client-library-for-net) to build out our landing page functionality.
 
+## Building a Simple SaaS Publisher Portal in .NET
+
+[Video]() | [PDF](./pdfs/09-simple-publisher-portal-dotnet.pdf) | [Code](./demo-code/saas-simple-publisher-portal)
+
+In this module we examine the elements of building a publisher portal and at how it works.  We examine the following topics.
+
+-	The purpose of a publisher portal
+-	A simple publisher portal in action
+-	The code
+
+The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it simple. We use the [SaaS Client Library for .NET](#the-saas-client-library-for-net) to build out our portal functionality.
+
+
+
 ## Installing the SaaS Accelerator with the Installer
 
 [Video](https://youtu.be/BVZTj6fssQ8) | [PDF](./pdfs/21-Installing-the-SaaS-Accelerator.pdf)
