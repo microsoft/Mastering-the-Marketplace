@@ -16,7 +16,7 @@ This content is currently under development and will be released incrementally a
 1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-rest-fulfillment-api)
 1. [The SaaS Client Library for .NET](#the-saas-client-library-for-net)
 1. [Building a Simple SaaS Landing Page in .NET](#building-a-simple-saas-landing-page-in-net)
-1. Building a Simple SaaS Publisher Portal in .NET
+1. [Building a Simple SaaS Publisher Portal in .NET](#building-a-simple-saas-publisher-portal-in-net)
 1. Building a Simple SaaS Offer Webhook in .NET
 1. Using SaaS Offer Metered Billing
 
@@ -136,7 +136,7 @@ The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it s
 
 ## Building a Simple SaaS Publisher Portal in .NET
 
-[Video]() | [PDF](./pdfs/09-simple-publisher-portal-dotnet.pdf) | [Code](./demo-code/saas-simple-publisher-portal)
+[Video](https://youtu.be/bKNFoLfrTHU) | [PDF](./pdfs/09-simple-publisher-portal-dotnet.pdf) | [Code](./demo-code/saas-simple-publisher-portal)
 
 In this module we examine the elements of building a publisher portal and at how it works.  We examine the following topics.
 
