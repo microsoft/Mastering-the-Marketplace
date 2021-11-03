@@ -54,7 +54,7 @@
         "subnetName": "subnet1",
         "osType": {
             "imageOffer": "Windows-10",
-            "imageSku": "rs5-pro",
+            "imageSku": "20h2-pro-g2",
             "imagePublisher": "MicrosoftWindowsDesktop"
         }
     },
