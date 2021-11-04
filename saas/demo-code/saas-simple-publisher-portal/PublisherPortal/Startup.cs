@@ -1,3 +1,5 @@
+using System.Threading.Tasks;
+using Azure.Identity;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
@@ -5,15 +7,13 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Identity.Web;
 using Microsoft.Identity.Web.UI;
-using System.Threading.Tasks;
-using Azure.Identity;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Marketplace.SaaS;
 
-namespace PubisherPortal
+namespace PublisherPortal
 {
     public class Startup
     {
@@ -27,9 +27,6 @@ namespace PubisherPortal
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
-            //     .AddMicrosoftIdentityWebApp(Configuration.GetSection("AzureAd"));
-
             // Configure AAD and Graph integration
             services.AddMicrosoftIdentityWebAppAuthentication(this.Configuration) // Sign on with AAD
                 .EnableTokenAcquisitionToCallDownstreamApi(new string[] { "user.read" }) // Call Graph API

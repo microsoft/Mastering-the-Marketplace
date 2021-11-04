@@ -36,9 +36,6 @@ Clone the repository to your local machine.
    ```cli
    git clone https://github.com/microsoft/Mastering-the-Marketplace.git
    ```
-
-[A workshop for Azure Managed Applications](https://github.com/microsoft/Mastering-the-Marketplace.git)
-
 ## Create the Azure Managed Application package
 
 1. Create a ZIP file that contains these two files at the root of the ZIP.
