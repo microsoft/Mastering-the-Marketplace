@@ -34,11 +34,8 @@ In this exercise, you will deploy a Managed Application in the Azure portal. You
 Clone the repository to your local machine.
 
    ```cli
-   git clone https://github.com/dstarr/ama-workshop
+   git clone https://github.com/microsoft/Mastering-the-Marketplace.git
    ```
-
-[A workshop for Azure Managed Applications](https://github.com/dstarr/ama-workshop)
-
 ## Create the Azure Managed Application package
 
 1. Create a ZIP file that contains these two files at the root of the ZIP.
