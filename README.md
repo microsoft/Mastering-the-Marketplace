@@ -4,13 +4,13 @@ This repository contains the hands-on-labs and pointers to self-paced videos tha
 
 These courses are created for a technical audience and are meant to help you accelerate your marketplace onboarding experience.
 
-# Videos Learning and Hands on Labs
+## Videos, Hands-on Labs, and Sample Code
 
 - [Learn about **SaaS** Offers](./saas/README.md)
 - [Learn about **Azure Managed Application** Offers](./ama/README.md)
 - More coming
 
-# Submitting Feedback or Suggesting New Content
+## Suggest New Content or Provide Feedback
 
 Please use the [Issues](https://github.com/microsoft/Mastering-the-Marketplace/issues) feature of this repository to request additional content or to suggest improvements to existing content.
 
