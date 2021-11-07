@@ -11,9 +11,7 @@ namespace SaasFunctions
 {
     public static class Webhook
     {
-        private static HttpRequest _request = null;
         private static ILogger _logger = null;
-        private static ExecutionContext _executionContext = null;
 
         /// <summary>
         /// This function is called by Azure when an event occurs on a subscription in the Azure marketplace.
@@ -29,9 +27,7 @@ namespace SaasFunctions
             ILogger log,
             ExecutionContext context)
         {
-            _request = req;
             _logger = log;
-            _executionContext = context;
 
             PrintToLogHeader();
 
