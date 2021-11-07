@@ -37,7 +37,7 @@ namespace SaasFunctions
             _logger = log;
             _executionContext = context;
 
-            PrintLogHeader();
+            PrintToLogHeader();
 
             if (!RequestIsSecure())
             {
@@ -54,13 +54,7 @@ namespace SaasFunctions
                 return new StatusCodeResult((int)HttpStatusCode.Conflict);
             }
 
-            PrintLogAction(data);
-
-            string logMessage = string.IsNullOrEmpty(data.ToString())
-                ? "No POST body JSON was received."
-                : data.ToString();
-
-            PrintLogFooter(logMessage);
+            PrintToLogPayload(data);
 
             return new OkResult();
         }
@@ -203,26 +197,19 @@ namespace SaasFunctions
             return true;
         }
 
-        private static void PrintLogHeader()
+        private static void PrintToLogHeader()
         {
             _logger.LogInformation("===================================");
             _logger.LogInformation("SaaS WEBHOOK FUNCTION FIRING");
-            _logger.LogInformation("-----------------------------------");
         }
 
-        private static void PrintLogFooter(string logMessage)
+        private static void PrintToLogPayload(dynamic data)
         {
-            _logger.LogInformation(logMessage);
+            _logger.LogInformation("-----------------------------------");
+            _logger.LogInformation($"ACTION: {data.action}");
+            _logger.LogInformation("-----------------------------------");
+            _logger.LogInformation((string)data);
             _logger.LogInformation("===================================");
         }
-
-        private static void PrintLogAction(dynamic data)
-        {
-            var action = data.action;
-            _logger.LogInformation($"ACTION: {action}");
-            _logger.LogInformation("-----------------------------------");
-        }
-
-
-    }
+}
 }

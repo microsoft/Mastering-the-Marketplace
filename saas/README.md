@@ -15,7 +15,9 @@ These videos are designed to help you speed your time to publish your SaaS offer
 1. [The SaaS Client Library for .NET](#the-saas-client-library-for-net)
 1. [Building a Simple SaaS Landing Page in .NET](#building-a-simple-saas-landing-page-in-net)
 1. [Building a Simple SaaS Publisher Portal in .NET](#building-a-simple-saas-publisher-portal-in-net)
-1. Building a Simple SaaS Offer Webhook in .NET
+1. [SaaS Webhook Overview](#saas-webhook-overview)
+1. [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
+1. [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
 1. Using SaaS Offer Metered Billing
 
 ## The SaaS Accelerator
@@ -142,6 +144,35 @@ In this module we examine the elements of building a publisher portal and at how
 - The code
 
 The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it simple. We use the [SaaS Client Library for .NET](#the-saas-client-library-for-net) to build out our portal functionality.
+
+### SaaS Webhook Overview
+
+[Video]() | [PDF](./pdfs/10.1-simple-webhook-overview.pdf)
+
+This technical overview of the SaaS webhook explains the following concepts of the SaaS offer webhook.
+
+- Why to have this specialized HTTPS endpoint
+- POST events one may receive on the webhook
+- Flow models of how to handle requests
+- Potential fully implemented webhook architectures
+
+And more! Consider watching this video before moving on to the code-based modules for implementing and securing a SaaS offer webhook.
+
+### Implementing a Simple SaaS Webhook in .NET
+
+[Video]() | [Code](./demo-code/simple-webhook-dotnet-implementing)
+
+This code-heavy module focuses on the fundamentals of implementing a SaaS offer webhook as an Azure function using .NET. Concepts are presented in such a way as to be architecture and technology stack agnostic.
+
+### Securing a Simple SaaS Webhook in .NET
+
+[Video]() | [PDF]() | [Code](./demo-code/simple-webhook-dotnet-securing)
+
+This security-focused module introduces several techniques for securing a SaaS offer webhook and then dives into code looking at implementations of the techniques presented. This module builds on the concepts and code presented in the module, “[Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)”.
+
+Although utilizing an Azure function built in .NET, topics are presented in such a way as to be architecture and technology stack agnostic.
+
+## The SaaS Accelerator
 
 ### Installing the SaaS Accelerator with the Installer
 
