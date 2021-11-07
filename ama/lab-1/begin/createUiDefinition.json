@@ -68,14 +68,14 @@
                         "label": "Virtual machine size",
                         "toolTip": "The size of the virtual machine",
                         "recommendedSizes": [
-                            "Standard_D1_v2"
+                            "Standard_DS1_v2"
                         ],
                         "constraints": {
                             "allowedSizes": [
-                                "Standard_D1_v2",
-                                "Standard_D2_v2",
-                                "Standard_D2_v3",
-                                "Standard_D4_v3"
+                                "Standard_DS1_v2",
+                                "Standard_DS2_v2",
+                                "Standard_DS3_v2",
+                                "Standard_DS4_v2"
                             ]
                         },
                         "osPlatform": "Windows",
