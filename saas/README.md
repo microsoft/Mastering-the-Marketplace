@@ -18,11 +18,10 @@ These videos are designed to help you speed your time to publish your SaaS offer
 1. [SaaS Webhook Overview](#saas-webhook-overview)
 1. [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
 1. [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
-1. Using SaaS Offer Metered Billing
 
 ## The SaaS Accelerator
 
-1. SaaS Accelerator Introduction
+1. SaaS Accelerator Overview
 1. SaaS Accelerator Architecture
 1. [Installing the SaaS Accelerator with the Installer](#installing-the-saas-accelerator-with-the-installer)
 1. Installing the SaaS Accelerator Manually
@@ -154,7 +153,7 @@ This technical overview of the SaaS webhook explains the following concepts of t
 - Why to have this specialized HTTPS endpoint
 - POST events one may receive on the webhook
 - Flow models of how to handle requests
-- Potential fully implemented webhook architectures
+- Potential fully implemented solution architectures
 
 And more! Consider watching this video before moving on to the code-based modules for implementing and securing a SaaS offer webhook.
 
@@ -166,7 +165,7 @@ This code-heavy module focuses on the fundamentals of implementing a SaaS offer 
 
 ### Securing a Simple SaaS Webhook in .NET
 
-[Video]() | [PDF]() | [Code](./demo-code/simple-webhook-dotnet-securing)
+[Video]() | [PDF](./pdfs/10.3-simple-webhook-dotnet-securing.pdf) | [Code](./demo-code/simple-webhook-dotnet-securing)
 
 This security-focused module introduces several techniques for securing a SaaS offer webhook and then dives into code looking at implementations of the techniques presented. This module builds on the concepts and code presented in the module, “[Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)”.
 
