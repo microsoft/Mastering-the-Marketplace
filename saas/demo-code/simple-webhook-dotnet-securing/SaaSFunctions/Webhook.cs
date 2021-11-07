@@ -59,31 +59,6 @@ namespace SaasFunctions
             return new OkResult();
         }
 
-        /// <summary>
-        /// Check the event actully occured
-        /// </summary>
-        /// <param name="data">the JSON paylod s a dynamic value</param>
-        /// <returns>Whether of the the reported event is a valid one</returns>
-        private static bool SubscriptionEventIsValid(dynamic data)
-        {
-            switch (data.action)
-            {
-                case "Unsubscribed":
-                    // 1. Use the SaaS Fulfillment API to fetch the relevant subscription
-                    // 2. Check the subscription's "saasSubscriptionStatus": "Unsubscribed"
-                    // 3. Return false on unexpected result
-                    break;
-
-                case "ChangePlan":
-                    // 1. Use the SaaS Operation API to validate a ChangePlan has been requested
-                    // 2. return false on unexpected result
-                    break;
-
-                // etc.
-            }
-
-            return true;
-        }
 
         /// <summary>
         /// Calls functions that check various security aspects of this webhook
@@ -114,6 +89,38 @@ namespace SaasFunctions
 
         }
 
+        /// <summary>
+        /// Checks that the secret on the querystring is present and correct
+        /// </summary>
+        /// <param name="config">IConfigurationRoot</param>
+        /// <returns>A bool indicating if the querystring is valid.</returns>
+        private static bool QueryStringIsValid(IConfigurationRoot config)
+        {
+            // get the env:Variables
+            var secretKey = config["QueryStringSecret:SecretKey"];
+            var secretValue = config["QueryStringSecret:SecretValue"];
+
+            // ensure the key/value exists
+            if (_request.Query[secretKey].Count == 0)
+            {
+                _logger.LogInformation("No secret key on query string.");
+                _logger.LogInformation($"Expected: {secretKey}");
+                return false;
+            }
+
+            // look for a match on the SecretValue
+            var token = _request.Query[secretKey][0];
+            if (secretValue != token)
+            {
+                _logger.LogInformation("Wrong secret value on query string.");
+                _logger.LogInformation($"Expected: {secretValue}");
+
+                return false;
+            }
+
+            return true;
+        }
+        
         /// <summary>
         /// Checks that JWT claims are valid
         /// </summary>
@@ -164,39 +171,33 @@ namespace SaasFunctions
 
             return true;
         }
-
+        
         /// <summary>
-        /// Checks that the secret on the querystring is present and correct
+        /// Check the event actully occured
         /// </summary>
-        /// <param name="config">IConfigurationRoot</param>
-        /// <returns>A bool indicating if the querystring is valid.</returns>
-        private static bool QueryStringIsValid(IConfigurationRoot config)
+        /// <param name="data">the JSON paylod s a dynamic value</param>
+        /// <returns>Whether of the the reported event is a valid one</returns>
+        private static bool SubscriptionEventIsValid(dynamic data)
         {
-            // get the env:Variables
-            var secretKey = config["QueryStringSecret:SecretKey"];
-            var secretValue = config["QueryStringSecret:SecretValue"];
-
-            // ensure the key/value exists
-            if (_request.Query[secretKey].Count == 0)
+            switch (data.action)
             {
-                _logger.LogInformation("No secret key on query string.");
-                _logger.LogInformation($"Expected: {secretKey}");
-                return false;
-            }
+                case "Unsubscribed":
+                    // 1. Use the SaaS Fulfillment API to fetch the relevant subscription
+                    // 2. Check the subscription's "saasSubscriptionStatus": "Unsubscribed"
+                    // 3. Return false on unexpected result
+                    break;
 
-            // look for a match on the SecretValue
-            var token = _request.Query[secretKey][0];
-            if (secretValue != token)
-            {
-                _logger.LogInformation("Wrong secret value on query string.");
-                _logger.LogInformation($"Expected: {secretValue}");
+                case "ChangePlan":
+                    // 1. Use the SaaS Operation API to validate a ChangePlan has been requested
+                    // 2. return false on unexpected result
+                    break;
 
-                return false;
+                // etc.
             }
 
             return true;
         }
-
+        
         private static void PrintToLogHeader()
         {
             _logger.LogInformation("===================================");
@@ -208,7 +209,7 @@ namespace SaasFunctions
             _logger.LogInformation("-----------------------------------");
             _logger.LogInformation($"ACTION: {data.action}");
             _logger.LogInformation("-----------------------------------");
-            _logger.LogInformation((string)data);
+            _logger.LogInformation((string)data.ToString());
             _logger.LogInformation("===================================");
         }
 }
