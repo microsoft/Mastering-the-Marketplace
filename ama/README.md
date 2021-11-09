@@ -47,3 +47,4 @@ The labs may also be taken at any time as a stand-alone experience with no other
 1. Implementing a Managed Application Webhook
 1. Deployment Upgrades
 1. Plan Updates
+2. Supporting Customers
