@@ -177,6 +177,6 @@ Although utilizing an Azure function built in .NET, topics are presented in such
 
 [Video](https://youtu.be/BVZTj6fssQ8) | [PDF](./pdfs/21-Installing-the-SaaS-Accelerator.pdf)
 
-Installing the SaaS Accelerator is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. This is not a review of the SaaS Accelerator’s functionality. For that, please see the video, “SaaS Accelerator Overview.”
+Installing the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. This is not a review of the SaaS Accelerator’s functionality. For that, please see the video, “SaaS Accelerator Overview.”
 
 This video will get you up and running with the SaaS Accelerator in no time at all!
