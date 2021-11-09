@@ -6,11 +6,7 @@ These videos are a complete course focused on bringing your Azure Managed Applic
 
 There are also hands-on-labs that you may do yourself to further cement your new skills.
 
-## Video Learning Modules
-
-[Go to the Complete Video Library](https://www.youtube.com/playlist?list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6)
-
-### Learning Modules from Live Class
+## Learning Modules from Live Class Event
 
 1. [Introduction](https://www.youtube.com/watch?v=WxQ0tkd8dYU&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=1)
 1. [Azure Applications Overview](https://www.youtube.com/watch?v=P6Z8rdNkgKs&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=2)
