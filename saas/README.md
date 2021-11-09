@@ -146,7 +146,7 @@ The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it s
 
 ### SaaS Webhook Overview
 
-[Video]() | [PDF](./pdfs/10.1-simple-webhook-overview.pdf)
+[Video](https://youtu.be/Fl6CZyrJnw8) | [PDF](./pdfs/10.1-simple-webhook-overview.pdf)
 
 This technical overview of the SaaS webhook explains the following concepts of the SaaS offer webhook.
 
@@ -159,13 +159,13 @@ And more! Consider watching this video before moving on to the code-based module
 
 ### Implementing a Simple SaaS Webhook in .NET
 
-[Video]() | [Code](./demo-code/simple-webhook-dotnet-implementing)
+[Video](https://youtu.be/higEi441t1Q) | [Code](./demo-code/simple-webhook-dotnet-implementing)
 
 This code-heavy module focuses on the fundamentals of implementing a SaaS offer webhook as an Azure function using .NET. Concepts are presented in such a way as to be architecture and technology stack agnostic.
 
 ### Securing a Simple SaaS Webhook in .NET
 
-[Video]() | [PDF](./pdfs/10.3-simple-webhook-dotnet-securing.pdf) | [Code](./demo-code/simple-webhook-dotnet-securing)
+[Video](https://youtu.be/Wifuc5jAY7E) | [PDF](./pdfs/10.3-simple-webhook-dotnet-securing.pdf) | [Code](./demo-code/simple-webhook-dotnet-securing)
 
 This security-focused module introduces several techniques for securing a SaaS offer webhook and then dives into code looking at implementations of the techniques presented. This module builds on the concepts and code presented in the module, “[Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)”.
 
