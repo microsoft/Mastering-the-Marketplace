@@ -10,7 +10,7 @@ There are also hands-on-labs that you may do yourself to further cement your new
 
 [Go to the Complete Video Library](https://www.youtube.com/playlist?list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6)
 
-### Learning Modules
+### Learning Modules from Live Class
 
 1. [Introduction](https://www.youtube.com/watch?v=WxQ0tkd8dYU&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=1)
 1. [Azure Applications Overview](https://www.youtube.com/watch?v=P6Z8rdNkgKs&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=2)
@@ -40,3 +40,10 @@ The labs may also be taken at any time as a stand-alone experience with no other
 - Lab 2 - [Partner Center Walkthrough 1](https://microsoft.github.io/Mastering-the-Marketplace/ama/lab-2/index.html)
 - Lab 3 - [Customizing the Managed Application UX](./lab-3/lab-3.md)
 - Lab 4 - [Working with Customer Providers and Resources](./lab-4/lab-4.md)
+
+## Module Backlog
+1. Including VM Offers
+1. Managed Application Webhook Overview
+1. Implementing a Managed Application Webhook
+1. Deployment Upgrades
+1. Plan Updates
