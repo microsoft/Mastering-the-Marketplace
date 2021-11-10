@@ -1,4 +1,4 @@
-# The SaaS Accelerator
+# The SaaS Accelerator Series
 
 This learning series is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator). 
 

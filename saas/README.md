@@ -1,8 +1,8 @@
-# SaaS Offers - Mastering the Marketplace Series
+# SaaS Offers Series
 
-These videos are designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace. This content is currently under development and will be released incrementally as it is created.
+These learning modules are designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace. 
 
-## Building a SaaS Integration
+This content is currently under development and will be released incrementally as it is created.
 
 1. [SaaS Offer Overview](#saas-offer-overview)
 1. [Purchasing a SaaS Offer](#purchasing-a-saas-offer)
@@ -19,17 +19,9 @@ These videos are designed to help you speed your time to publish your SaaS offer
 1. [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
 1. [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
 
-## The SaaS Accelerator
-
-1. SaaS Accelerator Overview
-1. SaaS Accelerator Architecture
-1. [Installing the SaaS Accelerator with the Installer](#installing-the-saas-accelerator-with-the-installer)
-1. Installing the SaaS Accelerator Manually
-1. Extending the SaaS Accelerator
-
 ---
 
-### SaaS Offer Overview
+## SaaS Offer Overview
 
 [Video](https://www.youtube.com/watch?v=9PCTioPbI8M&list=PLmsFUfdnGr3wWUaB-QkSaQRHBNYKZj5PM) | [PDF](./pdfs/01-SaaS-Offer-Overview.pdf)
 
@@ -40,7 +32,7 @@ This module offers a technical overview of Microsoft Azure Marketplace SaaS Offe
 - ​Pricing Models for SaaS Offers​
 - SaaS Solution Architectures
 
-### Purchasing a SaaS Offer
+## Purchasing a SaaS Offer
 
 [Video](https://youtu.be/hYqoqbzCbfY) | [PDF](./pdfs/02.1-Purchasing-a-SaaS-Offer.pdf)
 
@@ -51,7 +43,7 @@ This video offers a guided step-by-step process to purchasing SaaS applications 
 - Subscribing From the Azure Portal
 - The SaaS Management Service
 
-### Purchasing a Private SaaS Plan
+## Purchasing a Private SaaS Plan
 
 [Video](https://youtu.be/44CCTjiwcfA) | [PDF](./pdfs/02.2-Purchasing-a-Private-SaaS-Plan.pdf)
 
@@ -60,19 +52,19 @@ This video shows how to subscribe to private SaaS plans in the Microsoft Azure M
 - About Private Plans
 - Purchasing a SaaS Private Offer demo
 
-### Publishing a SaaS Offer
+## Publishing a SaaS Offer
 
 [Video](https://youtu.be/AnZDa0Z1z8I) | [PDF](./pdfs/03.1-Publishing-a-SaaS-Offer.pdf)
 
 This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook.
 
-### Publishing a Private SaaS Plan
+## Publishing a Private SaaS Plan
 
 [Video](https://youtu.be/67E7LPL_aic) | [PDF](./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf)
 
 This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
 
-### SaaS Offer Technical Overview
+## SaaS Offer Technical Overview
 
 [Video](https://youtu.be/0c-rzJkTV7w) | [PDF](./pdfs/04-SaaS-Offer-Technical-Overview.pdf)
 
@@ -84,7 +76,7 @@ Watch a deep technical overview of how SaaS offers work in the Microsoft Azure M
 - Metered Fulfillment Overview​
 - SaaS Offer Webhook
 
-### Azure AD Application Registrations
+## Azure AD Application Registrations
 
 [Video](https://youtu.be/-wjlgxJIlWQ) | [PDF](./pdfs/05-Azure-AD-Application-Registrations.pdf)
 
@@ -94,7 +86,7 @@ This video should help you get a jump start on configuring application registrat
 
 This module introduces just enough on this topic to help us build our landing page and webhooks later in the course. For those interested in more reading, please see [Create and Azure AD app registration](https://docs.microsoft.com/azure/marketplace/azure-ad-transactable-saas-landing-page#create-an-azure-ad-app-registration) and [Quick start: Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) from the official Microsoft documentation.
 
-### Using the SaaS Offer REST Fulfillment API
+## Using the SaaS Offer REST Fulfillment API
 
 [Video](https://youtu.be/eizdN6XNyvw) | [PDF](./pdfs/06-Using-the-SaaS-Offer-Fulfillment-API.pdf)
 
@@ -109,7 +101,7 @@ An Application Registration is used in the examples when making the first reques
 1. The [Tenant ID and App ID](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#get-tenant-and-app-id-values-for-signing-in)
 1. A [Client Secret](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#option-2-create-a-new-application-secret) on the Application Registration
 
-### The SaaS Client Library for .NET
+## The SaaS Client Library for .NET
 
 [Video](https://youtu.be/uihNXaDBXVQ) | [PDF](./pdfs/07-The-SaaS-Client-Library-for-.NET.pdf) | [Code](./demo-code/the-saas-client-library-for-dotnet)
 
@@ -119,7 +111,7 @@ The client library is a fully functional .NET package that you can [install from
 
 This video shows a sample command line application that can talk to the client library API and the code is available in this repository via the link above.
 
-### Building a Simple SaaS Landing Page in .NET
+## Building a Simple SaaS Landing Page in .NET
 
 [Video](https://youtu.be/QoDXqp3GH_s) | [PDF](./pdfs/08-simple-landing-page-dotnet.pdf) | [Code](./demo-code/saas-simple-landing-page)
 
@@ -132,7 +124,7 @@ In this module we examine the elements of building a simple landing page and loo
 
 The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it simple. We use the [SaaS Client Library for .NET](#the-saas-client-library-for-net) to build out our landing page functionality.
 
-### Building a Simple SaaS Publisher Portal in .NET
+## Building a Simple SaaS Publisher Portal in .NET
 
 [Video](https://youtu.be/bKNFoLfrTHU) | [PDF](./pdfs/09-simple-publisher-portal-dotnet.pdf) | [Code](./demo-code/saas-simple-publisher-portal)
 
@@ -144,7 +136,7 @@ In this module we examine the elements of building a publisher portal and at how
 
 The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it simple. We use the [SaaS Client Library for .NET](#the-saas-client-library-for-net) to build out our portal functionality.
 
-### SaaS Webhook Overview
+## SaaS Webhook Overview
 
 [Video](https://youtu.be/Fl6CZyrJnw8) | [PDF](./pdfs/10.1-simple-webhook-overview.pdf)
 
@@ -157,26 +149,16 @@ This technical overview of the SaaS webhook explains the following concepts of t
 
 And more! Consider watching this video before moving on to the code-based modules for implementing and securing a SaaS offer webhook.
 
-### Implementing a Simple SaaS Webhook in .NET
+## Implementing a Simple SaaS Webhook in .NET
 
 [Video](https://youtu.be/higEi441t1Q) | [Code](./demo-code/simple-webhook-dotnet-implementing)
 
 This code-heavy module focuses on the fundamentals of implementing a SaaS offer webhook as an Azure function using .NET. Concepts are presented in such a way as to be architecture and technology stack agnostic.
 
-### Securing a Simple SaaS Webhook in .NET
+## Securing a Simple SaaS Webhook in .NET
 
 [Video](https://youtu.be/Wifuc5jAY7E) | [PDF](./pdfs/10.3-simple-webhook-dotnet-securing.pdf) | [Code](./demo-code/simple-webhook-dotnet-securing)
 
 This security-focused module introduces several techniques for securing a SaaS offer webhook and then dives into code looking at implementations of the techniques presented. This module builds on the concepts and code presented in the module, “[Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)”.
 
 Although utilizing an Azure function built in .NET, topics are presented in such a way as to be architecture and technology stack agnostic.
-
-## The SaaS Accelerator
-
-### Installing the SaaS Accelerator with the Installer
-
-[Video](https://youtu.be/BVZTj6fssQ8) | [PDF](./pdfs/21-Installing-the-SaaS-Accelerator.pdf)
-
-Installing the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. This is not a review of the SaaS Accelerator’s functionality. For that, please see the video, “SaaS Accelerator Overview.”
-
-This video will get you up and running with the SaaS Accelerator in no time at all!

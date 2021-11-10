@@ -1,6 +1,6 @@
-# Azure Managed Applications Offers - Mastering the Marketplace Series
+# Azure Managed Applications Offers
 
-The video learning modules are clips of an in-person online learning class focused on Mastering Azure Managed Applications. The videos have been edited to be topically-based so you needn't watch the entire 6-hour course.
+The learning modules in this course are primarily clips of an in-person online learning class focused on Mastering Azure Managed Applications. The videos have been edited to be topically-based so you needn't watch the entire 6-hour course.
 
 These videos are a complete course focused on bringing your Azure Managed Application offer to the Azure Marketplace. They are edited to be topically aligned so that you can skip to any video and it will stand alone contextually.
 
@@ -43,4 +43,4 @@ The labs may also be taken at any time as a stand-alone experience with no other
 1. Implementing a Managed Application Webhook
 1. Deployment Upgrades
 1. Plan Updates
-2. Supporting Customers
+1. Supporting Customers
