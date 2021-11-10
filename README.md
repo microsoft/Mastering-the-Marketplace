@@ -4,15 +4,11 @@ This repository contains self-paced videos, hands-on labs, and sample code, that
 
 These courses are created for a technical audience and are meant to help accelerate your marketplace onboarding experience.
 
-## SaaS Offers
-
-**[Go to the SaaS offer course](./saas/README.md)**
+## [SaaS Offers](./saas/README.md)
 
 This series includes videos and sample code meant to speed your time to publishing your SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace or are interested in the [SaaS Accelerator](https://aka.ms/SaaSAccelerator), this learning series is for you.
 
-## Azure Managed Application Offers
-
-**[Go to the Managed Application offer course](./ama/README.md)**
+## [Azure Managed Application Offers](./ama/README.md)
 
 This series of video modules and hands-on labs is designed to help you decrease your on-boarding time with building a Managed Application offer. The modules are recordings of an actual live classroom experience and are divided into small digestible modules for easy consumption.
 
