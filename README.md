@@ -8,6 +8,12 @@ These courses are created for a technical audience and are meant to help acceler
 
 This series includes videos and sample code meant to speed your time to publishing your SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace or are interested in the [SaaS Accelerator](https://aka.ms/SaaSAccelerator), this learning series is for you.
 
+### Live Workshop on December 7th!
+
+Mastering the Marketplace is hosting a live hands-on workshop for developers taking you from start to finish in publishing your own custom SaaS offer implementation! Check out the registration page for more information.
+
+**Mastering the Marketplace: [Build Your SaaS Offer Workshop](https://aka.ms/BuildYourSaaSOffer-Registration)**
+
 ## [Azure Managed Application Offers](./ama/README.md)
 
 This series of video modules and hands-on labs is designed to help you decrease your on-boarding time with building a Managed Application offer. The modules are recordings of an actual live classroom experience and are divided into small digestible modules for easy consumption.
@@ -15,6 +21,12 @@ This series of video modules and hands-on labs is designed to help you decrease 
 ## [The SaaS Accelerator](./saas-accelerator/README.md)
 
 This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project. The SaaS Accelerator provides a fully functional reference implementation with sample code for developers interested in publishing transactable SaaS offers in Microsoft's commercial marketplace.
+
+### Live Workshop on December 9th!
+
+Mastering the Marketplace is hosting a live hands-on workshop introducing the SaaS Accelerator, a complete SaaS Offer reference implementation you can install out of the box! Further, you can customize it to suit your own needs. Check out the registration page for more information.
+
+**Mastering the Marketplace: [The SaaS Accelerator Workshop](https://aka.ms/TheSaaSAccelerator-Registration)**
 
 ## Suggest New Content or Provide Feedback
 
