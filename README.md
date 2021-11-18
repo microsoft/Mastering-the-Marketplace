@@ -10,9 +10,10 @@ This series includes videos and sample code meant to speed your time to publishi
 
 ### Live Workshop on December 7th!
 
+**Register here: [Build Your SaaS Offer Workshop](https://aka.ms/BuildYourSaaSOffer-Registration)**
+
 Mastering the Marketplace is hosting a live hands-on workshop for developers taking you from start to finish in publishing your own custom SaaS offer implementation! Check out the registration page for more information.
 
-**Mastering the Marketplace: [Build Your SaaS Offer Workshop](https://aka.ms/BuildYourSaaSOffer-Registration)**
 
 ## [Azure Managed Application Offers](./ama/README.md)
 
@@ -24,9 +25,10 @@ This series of video modules and hands-on labs is designed to help you understan
 
 ### Live Workshop on December 9th!
 
+**Register here: [The SaaS Accelerator Workshop](https://aka.ms/TheSaaSAccelerator-Registration)**
+
 Mastering the Marketplace is hosting a live hands-on workshop introducing the SaaS Accelerator, a complete SaaS Offer reference implementation you can install out of the box! Further, you can customize it to suit your own needs. Check out the registration page for more information.
 
-**Mastering the Marketplace: [The SaaS Accelerator Workshop](https://aka.ms/TheSaaSAccelerator-Registration)**
 
 ## Suggest New Content or Provide Feedback
 
