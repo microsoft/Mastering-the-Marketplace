@@ -15,10 +15,6 @@ This series includes videos and sample code meant to speed your time to publishi
 Mastering the Marketplace is hosting a live hands-on workshop for developers taking you from start to finish in publishing your own custom SaaS offer implementation! Check out the registration page for more information.
 
 
-## [Azure Managed Application Offers](./ama/README.md)
-
-This series of video modules and hands-on labs is designed to help you decrease your on-boarding time with building a Managed Application offer. The modules are recordings of an actual live classroom experience and are divided into small digestible modules for easy consumption.
-
 ## [The SaaS Accelerator](./saas-accelerator/README.md)
 
 This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project. The SaaS Accelerator provides a fully functional reference implementation with sample code for developers interested in publishing transactable SaaS offers in Microsoft's commercial marketplace.
@@ -29,6 +25,10 @@ This series of video modules and hands-on labs is designed to help you understan
 
 Mastering the Marketplace is hosting a live hands-on workshop introducing the SaaS Accelerator, a complete SaaS Offer reference implementation you can install out of the box! Further, you can customize it to suit your own needs. Check out the registration page for more information.
 
+
+## [Azure Managed Application Offers](./ama/README.md)
+
+This series of video modules and hands-on labs is designed to help you decrease your on-boarding time with building a Managed Application offer. The modules are recordings of an actual live classroom experience and are divided into small digestible modules for easy consumption.
 
 ## Suggest New Content or Provide Feedback
 
