@@ -19,6 +19,14 @@ This content is currently under development and will be released incrementally a
 1. [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
 1. [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
 
+## Hands-on labs
+
+These labs are meant to be done sequentially. They build on one another, so begin at the beginning to walk through all the labs.
+
+1. [Create a SaaS Offer in Partner Center](./labs/lab1-create-pc-offer/index.md)
+1. [Create a Landing Page](./labs/lab2-create-landing-page/index.md)
+1. [Create a Webhook](./labs/lab3-create-webhook/index.md)
+
 ---
 
 ## SaaS Offer Overview
