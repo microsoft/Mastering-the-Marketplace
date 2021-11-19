@@ -2,7 +2,7 @@
 
 These learning modules are designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace. 
 
-This content is currently under development and will be released incrementally as it is created.
+> **This content is currently under development and will be released incrementally as it is created.**
 
 1. [SaaS Offer Overview](#saas-offer-overview)
 1. [Purchasing a SaaS Offer](#purchasing-a-saas-offer)
@@ -19,7 +19,7 @@ This content is currently under development and will be released incrementally a
 1. [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
 1. [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
 
-## Hands-on labs
+## Hands-on Labs
 
 These labs are meant to be done sequentially. They build on one another, so begin at the beginning to walk through all the labs.
 
