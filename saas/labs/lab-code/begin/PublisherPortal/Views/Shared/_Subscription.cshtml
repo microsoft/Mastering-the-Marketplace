@@ -1,0 +1,22 @@
+﻿@model Microsoft.Marketplace.SaaS.Models.Subscription
+
+<table class="main-table">
+    <thead><tr><th>Item</th><th>Value</th></tr></thead>
+    <tbody>
+        <tr><td class="main-td">AutoRenew</td><td>@Model.AutoRenew</td></tr>
+        <tr><td class="main-td">Beneficiary.EmailId</td><td>@Model.Beneficiary.EmailId</td></tr>
+        <tr><td class="main-td">Beneficiary.Puid</td><td>@Model.Beneficiary.Puid</td></tr>
+        <tr><td class="main-td">Beneficiary.TenantId</td><td>@Model.Beneficiary.TenantId</td></tr>
+        <tr><td class="main-td">Created</td><td>@Model.Created.Value.DateTime.ToShortDateString()</td></tr>
+        <tr><td class="main-td">Id</td><td>@Model.Id</td></tr>
+        <tr><td class="main-td">IsFreeTrial</td><td>@Model.IsFreeTrial</td></tr>
+        <tr><td class="main-td">IsTest</td><td>@Model.IsTest</td></tr>
+        <tr><td class="main-td">Name</td><td>@Model.Name</td></tr>
+        <tr><td class="main-td">OfferId</td><td>@Model.OfferId</td></tr>
+        <tr><td class="main-td">PlanId</td><td>@Model.PlanId</td></tr>
+        <tr><td class="main-td">PublisherId</td><td>@Model.PublisherId</td></tr>
+        <tr><td class="main-td">SaasSubscriptionStatus</td><td><span style="color: blue;font-weight:bold;">@Model.SaasSubscriptionStatus.Value</span></td></tr>
+        <tr><td class="main-td">SandboxType</td><td>@Model.SandboxType.Value</td></tr>
+        <tr><td class="main-td">SessionMode</td><td>@Model.SessionMode.Value</td></tr>
+    </tbody>
+</table>
