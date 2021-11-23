@@ -6,8 +6,6 @@ These courses are created for a technical audience and are meant to help acceler
 
 ## Live Workshops in December
 
-See below for online learning.
-
 [Build Your SaaS Offer Workshop](https://aka.ms/BuildYourSaaSOffer-Registration) - Dec. 7th
 
 Mastering the Marketplace is hosting a live hands-on workshop for developers taking you from start to finish in publishing your own custom SaaS offer implementation! Check out the registration page for more information.
