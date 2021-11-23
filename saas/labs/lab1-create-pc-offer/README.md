@@ -2,14 +2,14 @@
 
 # Lab 1: Create a SaaS Offer in Partner Center
 
-In this lab you will use your Partner Center account to create a **test** SaaS offer with a single plan. This offer may be used for development and testing.
+In this lab you will use your Partner Center account to create a **test** SaaS offer with a single plan. This offer will be used for development and testing later.
 
-Completion of this lab is required for the following labs in the series to work properly.
+**Completion of this lab is required for the following labs in the series to work properly.**
 
 You will need the following to complete this lab.
 
-1. A Partner Center account
-1. An Azure account and access to the Azure portal
+1. A [Partner Center](https://partner.microsoft.com/en-us/dashboard) account
+1. An Azure account and access to the [Azure portal](https://portal.azure.com/)
 
 ## Exercise: Create a New SaaS Offer
 
