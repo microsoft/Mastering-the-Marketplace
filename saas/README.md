@@ -84,6 +84,8 @@ In this module we look at a generic topic, application registrations for Azure A
 
 This video should help you get a jump start on configuring application registrations for the apps we’ll be building in the next few modules.
 
+> **NOTE:** The secrets that you set in an Application Registration have time limits. You may select up to 2 years for the secret to remain valid. In production, track when your secrets need to be changed and do so to avoid service outages.
+
 This module introduces just enough on this topic to help us build our landing page and webhooks later in the course. For those interested in more reading, please see [Create and Azure AD app registration](https://docs.microsoft.com/azure/marketplace/azure-ad-transactable-saas-landing-page#create-an-azure-ad-app-registration) and [Quick start: Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) from the official Microsoft documentation.
 
 ## Using the SaaS Offer REST Fulfillment API
