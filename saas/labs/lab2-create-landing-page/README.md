@@ -19,6 +19,7 @@ For this lab you will need the following.
 In this exercise you'll get all the code needed for your SaaS solution and build it. This will ensure you have everything downloaded properly and are working in the right place.
 
 1. Clone this repository or download a ZIP file of it's contents and UNZIP them on your machine.
+
     > https://github.com/microsoft/Mastering-the-Marketplace
 
 2. Using Visual Studio 2022 open the following solution file on your machine. Take care to choose the **begin** folder.
@@ -97,6 +98,7 @@ After the offer is in preview stage in Partner Center, you may purchase it. Afte
 1.
 1.
 1.
+
 
 
 
