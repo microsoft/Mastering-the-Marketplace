@@ -8,7 +8,6 @@ The webhook in your Visual Studio solution is an Azure Function. There is no nee
 
 Looking through the webhook code you'll find that it simply prints the REST payload to the log. You will monitor this log to see the payload when the webhook is called.
 
-
 ## Exercise: Deploy the Azure Function Webhook
 
 1. In Visual Studio, right click the `SaaSFunctions` project and select **Publish**. You may need to log in on the resulting screen.
@@ -30,13 +29,10 @@ Looking through the webhook code you'll find that it simply prints the REST payl
 1. On the Publish dialog, click the **Next** button.
 1. On Select the **Publish** option and click the **Finish** button.
 
-> This has created the App service and a publish profile. 
-
 ## Exercise: Publishing the Webhook in Partner Center
 
 Now you will re-publish your offer, this time with a valid webhook URL.
 
-1. In partner Center, open the **Technical configuration** tab for your offer in your browser.
 1. In another browser tab, open the Azure portal.
 1. Find and click on the Azure function in the Azure portal.
 1. In the left-hand menu find the Functions link and click it.
@@ -66,7 +62,7 @@ You are now watching the function application's log. There will be occasional ke
 
 ## Exercise: Invoking the Webhook
 
-In a previous lab, you purchased a SaaS offer. That offer should still be in the `PendingFulfillment` state, so the customer can unsubscribe from the offer. That's what you will emulate to invoke the webhook and see it's output.
+In a previous lab, you purchased a SaaS offer. That offer is in the `Subscribed` state, so the customer can unsubscribe  from the offer. That's what you will do to invoke the webhook and see it's output.
 
 1. Open the Azure portal.
 1. In the command bar at the top type "SaaS" and click the SaaS service that is found.
