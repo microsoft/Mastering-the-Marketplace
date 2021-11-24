@@ -27,7 +27,10 @@ Looking through the webhook code you'll find that it simply prints the REST payl
 
 > The deployment will run for a little while.
 
+1. On the Publish dialog, click the **Next** button.
+1. On Select the **Publish** option and click the **Finish** button.
 
+> This has created the App service and a publish profile. 
 
 ## Exercise: Publishing the Webhook in Partner Center
 
