@@ -2,7 +2,7 @@
 
 # Lab 2: Create a Landing Page
 
-In this lab you will build on what you accomplished in [Lab 1: Creating a SaaS Offer in Partner Center](../lab1-create-pc-offer/index.md). You will create a landing page and integrate it with your Partner Center SaaS Offer, enabling publishing of the offer and purchasing the offer in the **Preview** stage of the publication pipeline.
+In this lab you will build on what you accomplished in [Lab 1: Creating a SaaS Offer in Partner Center](../lab1-create-pc-offer/README.md). You will create a landing page and integrate it with your Partner Center SaaS Offer, enabling publishing of the offer and purchasing the offer in the **Preview** stage of the publication pipeline.
 
 For this lab you will need the following.
 
@@ -23,7 +23,7 @@ In this exercise you'll get all the code needed for your SaaS solution and build
 
 2. Using Visual Studio 2022 open the following solution file on your machine. Take care to choose the **begin** folder.
 
-    `...\saas\labs\lab-code\begin\SaaSLabsBefore.sln`
+    `**\saas\labs\lab-code\begin\SaaSLabsBefore.sln`
 
 3. Build the solution. You should get no build errors.
 
