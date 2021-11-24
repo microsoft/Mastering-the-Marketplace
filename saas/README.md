@@ -4,6 +4,8 @@ These learning modules are designed to help you speed your time to publish your 
 
 This content is currently under development and will be released incrementally as it is created.
 
+### Table of Contents
+
 1. [SaaS Offer Overview](#saas-offer-overview)
 1. [Purchasing a SaaS Offer](#purchasing-a-saas-offer)
 1. [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
@@ -18,6 +20,10 @@ This content is currently under development and will be released incrementally a
 1. [SaaS Webhook Overview](#saas-webhook-overview)
 1. [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
 1. [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
+
+### Please help us improve this content for you
+
+We would very much appreciate 2-3 minutes of your time to [let us know](https://forms.office.com/r/0gCrzhSMkw) your feedback on the materials and to share your ideas for making this content better for you.
 
 ---
 
