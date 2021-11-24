@@ -23,7 +23,7 @@ This content is currently under development and will be released incrementally a
 
 ### Please help us improve this content for you
 
-We would very much appreciate 2-3 minutes of your time to [let us know](https://forms.office.com/r/0gCrzhSMkw) your feedback on the materials and to share your ideas for making this content better for you.
+We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/0gCrzhSMkw) on the materials and to share your ideas for making this content better for you.
 
 ---
 

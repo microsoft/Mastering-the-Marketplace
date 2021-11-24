@@ -39,4 +39,4 @@ The labs may also be taken at any time as a stand-alone experience with no other
 
 ## Please help us improve this content for you
 
-We would very much appreciate 2-3 minutes of your time to [let us know](https://forms.office.com/r/Y087k7aLkL) your feedback on the materials and to share your ideas for making this content better for you.
+We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/Y087k7aLkL) on the materials and to share your ideas for making this content better for you.
