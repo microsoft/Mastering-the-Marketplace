@@ -24,6 +24,7 @@ In this exercise you will attach your offer to an Azure Data Storage table which
 1.
 1.
 1.
+1.
 
 ### Configure the CRM in Partner Center
 
