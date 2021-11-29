@@ -2,7 +2,7 @@
 
 # Lab 1: Create a SaaS Offer in Partner Center
 
-In this lab you will use your Partner Center account to create a **test** SaaS offer with a single plan. This offer will be used for development and testing later.
+In this lab you will use your Partner Center account to create a **test** SaaS offer with a single plan. This offer will be used for development and testing purposes.
 
 **Completion of this lab is required for the following labs in the series to work properly.**
 
@@ -15,16 +15,23 @@ You will need the following to complete this lab.
 
 In this exercise you will create a new SaaS offer and fill in information needed to publish it.
 
-## Exercise: Connect a CRM
 
-In this exercise you will attach your offer to an Azure Data Storage table which will act as a connected CRM for your offer.
+
+## Connect a CRM
+
+Here, you will attach your offer to an Azure Data Storage table which will act as a connected CRM for your offer.
 
 ### Create the Azure Storage account
 
-1.
-1.
-1.
-1.
+This is the first time you're using the Azure portal for this class. It is recommended that you install all the resources you'll create in this class into the same Resource Group, just to keep things tidy within your Azure subscription.
+
+1. Open a new tab for the [Azure portal](https://portal.azure.com) and log in.
+1. Create a Resource Group named **saas-workshop**. Although you may use a different name, all labs will refer to the Resource Group with this name.
+1. In the **saas-workshop** Resource Group, create a standard Azure Data Storaage account. This will be your CRM database, so name it accordingly to distinguish it from future storage accounts that will be created in this Resource Group.
+1. Once the storage account is created, browse to the storage account's overview page.
+1. In the left-hand menu, find the **Security + networking** section.
+1. In that section find and click on the **Access keys** link.
+1. At the top of the page, click the **Show keys** link and you see the connection strings for the database.
 
 ### Configure the CRM in Partner Center
 
