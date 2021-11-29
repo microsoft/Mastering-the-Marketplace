@@ -4,7 +4,7 @@
 
 In this lab you will use your Partner Center account to create a **test** SaaS offer with a single plan. This offer will be used for development and testing purposes.
 
-**Completion of this lab is required for the following labs in the series to work properly.**
+> **Completion of this lab is required for the following labs in the series to work properly.**
 
 You will need the following to complete this lab.
 
@@ -25,11 +25,11 @@ In this exercise you will create a new SaaS offer in Partner Center and fill in 
 
 ### Offer setup
 
-Leave all information on this page as is and scroll down to the **Customer leads** section of the page.
+Leave all information at the top of this page as is and scroll down to the **Customer leads** section of the page.
 
 #### Customer leads
 
-Here, you will attach your offer to an Azure Data Storage table which will act as a connected CRM for your offer.
+Here, you will attach your offer to an Azure Data Storage table which will act as a connected Customer Relationship Management system (CRM) for your offer.
 
 #### Create the Azure Storage account
 
@@ -70,29 +70,29 @@ You must sect at least one category for your offer.
 #### Legal
 
 1. Scroll down to the the **Legal** section.
-1. Select **Use the Standard Contract for Microsoft’s commercial marketplace?**
+1. Select **Use the Standard Contract for Microsoft’s commercial marketplace?** checkbox
 1. Click **Accept**.
 1. CLick the **Save draft** button.
 
 ### Offer listing
 
-1. **Search results summary** enter **SaaS Workshop summary**.
+1. For **Search results summary** enter **SaaS Workshop summary**.
 1. For **Description**, here is some text you may choose to copy and paste into the text box.
 
-> Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    > Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 1. In **Getting started instructions** paste the following text.
 
-> Click the configure account button after the subscription is created.
+    > Click the configure account button after the subscription is created.
 
 1. In the **Privacy policy link**, enter the public link to the privacy policy for your company if you know it. If not, follow this link to [Microsoft's privacy policy](https://privacy.microsoft.com/privacystatement) and use that URL.
 1. In the **Support contact** section, enter your contact information.
 1. For the **Support link** field enter the support or homepage of your website.
 1. For the **Engineering contact** section, enter your contact information.
-1. for the **SUpporting documents** section, upload the PDF document provided in the `artifacts` directory of **lab1**. This document is named "**Well Architected Framework.pdf**."
+1. for the **Supporting documents** section, upload the PDF document provided in the `artifacts` directory of **lab1**. This document is named "**Well Architected Framework.pdf**."
 1. For the Marketplace media section you'll upload 2 images.
-    1. For the 216X216 logo image, upload the PNG provided in the `artifacts` directory of **lab1**. This PNG is named "**Contoso-Logo-216x216.png**."
-    1. For the 1280X720 screenshot image, upload the PNG provided in the `artifacts` directory of **lab1**. This PNG is named "**Screenshots-1280x720.png**."
+    1. For the **216X216 logo image,** upload the PNG provided in the `artifacts` directory of **lab1**. This PNG is named "**Contoso-Logo-216x216.png**."
+    1. For the **1280X720** screenshot image, upload the PNG provided in the `artifacts` directory of **lab1**. This PNG is named "**Screenshots-1280x720.png**."
     1. Add a title to the screenshot image.
 1. Click the **Save draft** button and correct any errors that be shown before moving on.
 
@@ -116,6 +116,7 @@ In this exercise you will create a plan that costs $0 to purchase. This plan wil
 
 ### Create the plan
 
+1. Navigate to the **Plan overview** page.
 1. At the top of the page click the **+ Create new plan** button.
 1. Give the new plan a **Plan ID** and **Plan name**. These values can be whatever you like, but we will refer to them a follows throughout these labs.
     1. **Plan ID:** gold-plan-id
@@ -129,7 +130,7 @@ In this exercise you will create a plan that costs $0 to purchase. This plan wil
 1. The **Plan name** should read "Gold Plan."
 1. The summary requires text to describe the plan. In this case, you may use the following placeholder text if you would like.
 
-> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
+    > Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
 
 1. Click **Save draft**.
 
@@ -152,12 +153,11 @@ In this exercise you will create a plan that costs $0 to purchase. This plan wil
 
 In this short exercise you will check your work by performing the first action of the publication process. You will submit your offer for review to see if it is ready to be published.
 
-1. In Partner Center, go to you offer in the **Marketplace offers** section.
-2. Open your offer's overview page.
-3. In the upper right corner of the page, click the link for **Review and publish**.
-4. Looking to the right side of the page, notice that some sections have a green circle and at least one are gray. The gray sections are not yet complete, preventing you from taking the next step of publishing your offer.
+1. Open your offer's overview page.
+1. In the upper right corner of the page, click the link for **Review and publish**.
+1. Looking to the right side of the page, notice that some sections have a green circle and at least one are gray. The gray sections are not yet complete, preventing you from taking the next step of publishing your offer.
 
-> The **Technical configuration** section of the offer will not pass review. This is okay for now as we need to fill out the **Technical configuration** tab and you can't do that until we have a landing page.
+    > The **Technical configuration** section of the offer will not pass review. This is okay for now as we need to fill out the **Technical configuration** tab and you can't do that until we have a landing page. All other sections should be green.
 
 1. Go back to all sections that appear with a gray circle and complete those sections.
 1. Ensure all sections pass except **Technical configuration**, which will be addressed in the next lab.
