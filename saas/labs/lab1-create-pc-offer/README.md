@@ -15,7 +15,7 @@ You will need the following to complete this lab.
 
 In this exercise you will create a new SaaS offer in Partner Center and fill in information needed to publish it.
 
-## Create a new SaaS offer
+### Create a new SaaS offer
 
 1. From the Home page of [Partner Center](https://partner.microsoft.com/dashboard/home) click the **Marketplace offers** button.
 1. Click the **+ New offer** dropdown and select **Software as a Service**.
@@ -23,15 +23,15 @@ In this exercise you will create a new SaaS offer in Partner Center and fill in 
     1. Offer ID: **saas-workshop**
     1. Offer alias **SaaS Workshop**
 
-## Offer setup
+### Offer setup
 
 Leave all information on this page as is and scroll down to the **Customer leads** section of the page.
 
-## Customer leads
+#### Customer leads
 
 Here, you will attach your offer to an Azure Data Storage table which will act as a connected CRM for your offer.
 
-### Create the Azure Storage account
+#### Create the Azure Storage account
 
 This is the first time you're using the Azure portal for this class. It is recommended that you install all the resources you'll create in this class into the same Resource Group, just to keep things tidy within your Azure subscription.
 
@@ -44,7 +44,7 @@ This is the first time you're using the Azure portal for this class. It is recom
 1. At the top of the page, click the **Show keys** link and you see the connection strings for the database.
 1. Copy a connection string to your copy/paste buffer.
 
-### Configure Customer Leads in Partner Center
+#### Configure Customer Leads in Partner Center
 
 1. Go back to the Partner Center tab in your browser.
 1. Select the **Connect** link.
@@ -57,6 +57,42 @@ For each page, you must click the **Save draft** at the bottom on the page to mo
 
 1. Click **Save draft** at the bottom of the page.
 
+### Properties
+
+#### Categories
+
+You must sect at least one category for your offer.
+
+1. Click the **+ Categories** link.
+1. In the left dropdown select **Developer Tools**.
+1. In the right dropdown select **Developer Service**.
+
+#### Legal
+
+1. Scroll down to the the **Legal** section.
+1. Select **Use the Standard Contract for Microsoft’s commercial marketplace?**
+1. Click **Accept**.
+1. CLick the **Save draft** button.
+
+### Offer listing
+
+1. **Search results summary** enter **SaaS Workshop summary**.
+1. For **Description**, here is some text you may choose to copy and paste into the text box.
+
+> Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+1. In **Getting started instructions** paste the following text.
+
+> Click the configure account button after the subscription is created.
+
+1. In the **Privacy policy link**, enter the public link to the privacy policy for your company if you know it. If not, follow this link to [Microsoft's privacy policy](https://privacy.microsoft.com/privacystatement) and use that URL.
+1. In the **Support contact** section, enter your contact information.
+1. For the **Support link** field enter the support or homepage of your website.
+1. For the **Engineering contact** section, enter your contact information.
+
+
+
+
 ### Preview audience
 
 1. In the **Preview audience** section, enter the email address you use for your Azure subscription. This is the email address you will use to purchase your offer later.
@@ -65,7 +101,11 @@ For each page, you must click the **Save draft** at the bottom on the page to mo
 
 ### Technical configuration
 
+You will skip this section for now this exercise.
+
 ### Plan overview
+
+In this section you will create a single plan that costs $0. This plan will be used for testing purposes. Creation of this plan is covered in the next exercise.
 
 ## Exercise: Create a Plan
 
@@ -73,49 +113,37 @@ In this exercise you will create a plan that costs $0 to purchase. This plan wil
 
 ### Create the plan
 
-1.
-1.
+1. At the top of the page click the **+ Create new plan** button.
+1. Give the new plan a **Plan ID** and **Plan name**. These values can be whatever you like, but we will refer to them a follows throughout these labs.
+    1. **Plan ID:** gold-plan-id
+    1. **Plan name:** Gold Plan
+1. CLick the **Create** button and your new plan is created.
 
-### Fill out the plan tabs
+### Fill out the plan
 
-**Offer overview**
+#### Offer overview
 
-1.
-1.
+1. The **Plan name** should read "Gold Plan."
+1. The summary requires text to describe the plan. In this case, you may use the following placeholder text if you would like.
 
-**Offer setup**
+> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
 
-1.
-1.
+1. Click **Save draft**.
 
-**Properties**
+#### Plan setup
 
-1.
-1.
+**For Markets:**
 
-**Offer listing**
+1. Select the **Edit markets** link.
+1. Choose at least one market within which to sell your plan. This will likely be the same country that hosts your Azure region.
+1. Click **Save**.
 
-1.
-1.
+**For pricing mode:**
 
-**Preview audience**
-
-1.
-1.
-
-**Plan overview**
-
-1.
-1.
-
-**Resell through CSPs**
-
-1.
-1.
-
-**Technical configuration**
-
-Leave this tab blank for now.
+1. Keep it **Flat rate**.
+1. Leave **Billing term** as **Monthly**.
+1. Enter 0 for the cost per month.
+1. Leave the rest of the plan as is and click **Save draft**.
 
 ## Exercise: Review and Publish
 
@@ -128,9 +156,5 @@ In this short exercise you will check your work by performing the first action o
 
 > The **Technical configuration** section of the offer will not pass review. This is okay for now as we need to fill out the **Technical configuration** tab and you can't do that until we have a landing page.
 
-5. Go back to all sections that appear with a gray circle and complete those sections.
-6. Ensure all sections pass except **Technical configuration**, which will be addressed in the next lab.
-
-
-
-
+1. Go back to all sections that appear with a gray circle and complete those sections.
+1. Ensure all sections pass except **Technical configuration**, which will be addressed in the next lab.
