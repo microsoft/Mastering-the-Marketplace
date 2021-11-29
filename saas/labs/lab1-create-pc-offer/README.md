@@ -13,11 +13,21 @@ You will need the following to complete this lab.
 
 ## Exercise: Create a New SaaS Offer
 
-In this exercise you will create a new SaaS offer and fill in information needed to publish it.
+In this exercise you will create a new SaaS offer in Partner Center and fill in information needed to publish it.
 
+## Create a new SaaS offer
 
+1. From the Home page of [Partner Center](https://partner.microsoft.com/dashboard/home) click the **Marketplace offers** button.
+1. Click the **+ New offer** dropdown and select **Software as a Service**.
+1. Give your new offer an **Offer ID** and **Offer alias**. Although you are free to use whatever values you like, we will be using the following in this lab for reference.
+    1. Offer ID: **saas-workshop**
+    1. Offer alias **SaaS Workshop**
 
-## Connect a CRM
+## Offer setup
+
+Leave all information on this page as is and scroll down to the **Customer leads** section of the page.
+
+## Customer leads
 
 Here, you will attach your offer to an Azure Data Storage table which will act as a connected CRM for your offer.
 
@@ -32,12 +42,30 @@ This is the first time you're using the Azure portal for this class. It is recom
 1. In the left-hand menu, find the **Security + networking** section.
 1. In that section find and click on the **Access keys** link.
 1. At the top of the page, click the **Show keys** link and you see the connection strings for the database.
+1. Copy a connection string to your copy/paste buffer.
 
-### Configure the CRM in Partner Center
+### Configure Customer Leads in Partner Center
 
-1.
-1.
-1.
+1. Go back to the Partner Center tab in your browser.
+1. Select the **Connect** link.
+1. From the **Lead destination** dropdown select **Azure Table**.
+1. Enter your **Contact email** and paste in your **Storage account connection string**.
+1. CLick the **Validate** link to ensure your connection string is valid.
+1. Click **Connect**.
+
+For each page, you must click the **Save draft** at the bottom on the page to move on.
+
+1. Click **Save draft** at the bottom of the page.
+
+### Preview audience
+
+1. In the **Preview audience** section, enter the email address you use for your Azure subscription. This is the email address you will use to purchase your offer later.
+1. Enter a **Description**.
+1. Click **Save draft**.
+
+### Technical configuration
+
+### Plan overview
 
 ## Exercise: Create a Plan
 
