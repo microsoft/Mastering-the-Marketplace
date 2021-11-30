@@ -125,7 +125,7 @@ In this exercise you will create a plan that costs $0 to purchase. This plan wil
 
 ### Fill out the plan
 
-#### Offer overview
+#### Plan Listing
 
 1. The **Plan name** should read "Gold Plan."
 1. The summary requires text to describe the plan. In this case, you may use the following placeholder text if you would like.
