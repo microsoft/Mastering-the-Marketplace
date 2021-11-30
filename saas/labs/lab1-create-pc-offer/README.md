@@ -13,12 +13,12 @@ You will need the following to complete this lab.
 
 ## Exercise: Create a New SaaS Offer
 
-In this exercise you will create a new SaaS offer in Partner Center and fill in information needed to publish it.
+In this exercise, you will create a new SaaS offer in Partner Center and fill in the information needed to publish it.
 
 ### Create a new SaaS offer
 
-1. From the Home page of [Partner Center](https://partner.microsoft.com/dashboard/home) click the **Marketplace offers** button.
-1. Click the **+ New offer** dropdown and select **Software as a Service**.
+1. From the Home page of [Partner Center](https://partner.microsoft.com/dashboard/home) click the **Commercial Marketplace** button.
+1. Click the **+ New offer** button and at the dropdown and select **Software as a Service**.
 1. Give your new offer an **Offer ID** and **Offer alias**. Although you are free to use whatever values you like, we will be using the following in this lab for reference.
     1. Offer ID: **saas-workshop**
     1. Offer alias **SaaS Workshop**
@@ -37,23 +37,23 @@ This is the first time you're using the Azure portal for this class. It is recom
 
 1. Open a new tab for the [Azure portal](https://portal.azure.com) and log in.
 1. Create a Resource Group named **saas-workshop**. Although you may use a different name, all labs will refer to the Resource Group with this name.
-1. In the **saas-workshop** Resource Group, create a standard Azure Data Storaage account. This will be your CRM database, so name it accordingly to distinguish it from future storage accounts that will be created in this Resource Group.
+1. In the **saas-workshop** Resource Group, create a standard Azure Data Storage account. This will be your CRM database, so name it accordingly to distinguish it from future storage accounts that will be created in this Resource Group.
 1. Once the storage account is created, browse to the storage account's overview page.
 1. In the left-hand menu, find the **Security + networking** section.
-1. In that section find and click on the **Access keys** link.
-1. At the top of the page, click the **Show keys** link and you see the connection strings for the database.
+1. In that section, find and click on the **Access keys** link.
+1. At the top of the page, click the **Show keys** link, and you see the connection strings for the database.
 1. Copy a connection string to your copy/paste buffer.
 
 #### Configure Customer Leads in Partner Center
 
 1. Go back to the Partner Center tab in your browser.
 1. Select the **Connect** link.
-1. From the **Lead destination** dropdown select **Azure Table**.
+1. From the **Lead destination** dropdown, select **Azure Table**.
 1. Enter your **Contact email** and paste in your **Storage account connection string**.
-1. CLick the **Validate** link to ensure your connection string is valid.
+1. Click the **Validate** link to ensure your connection string is valid.
 1. Click **Connect**.
 
-For each page, you must click the **Save draft** at the bottom on the page to move on.
+For each page, you must click the **Save draft** at the bottom of the page to move on.
 
 1. Click **Save draft** at the bottom of the page.
 
@@ -64,15 +64,15 @@ For each page, you must click the **Save draft** at the bottom on the page to mo
 You must sect at least one category for your offer.
 
 1. Click the **+ Categories** link.
-1. In the left dropdown select **Developer Tools**.
-1. In the right dropdown select **Developer Service**.
+1. In the left dropdown, select **Developer Tools**.
+1. In the right dropdown, select **Developer Service**.
 
 #### Legal
 
-1. Scroll down to the the **Legal** section.
+1. Scroll down to the **Legal** section.
 1. Select **Use the Standard Contract for Microsoft’s commercial marketplace?** checkbox
 1. Click **Accept**.
-1. CLick the **Save draft** button.
+1. Click the **Save draft** button.
 
 ### Offer listing
 
@@ -104,15 +104,15 @@ You must sect at least one category for your offer.
 
 ### Technical configuration
 
-Skip this section for this first Lab.
+Skip this section for this first lab.
 
 ### Plan overview
 
-In this section you will create a single plan that costs $0. This plan will be used for testing purposes. Creation of this plan is covered in the next exercise.
+In this section, you will create a single plan that costs $0. This plan will be used for testing purposes. The creation of this plan is covered in the next exercise.
 
 ## Exercise: Create a Plan
 
-In this exercise you will create a plan that costs $0 to purchase. This plan will be used to test the offer in later labs.
+In this exercise, you will create a plan that costs $0 to purchase. This plan will be used to test the offer in later labs.
 
 ### Create the plan
 
@@ -121,7 +121,7 @@ In this exercise you will create a plan that costs $0 to purchase. This plan wil
 1. Give the new plan a **Plan ID** and **Plan name**. These values can be whatever you like, but we will refer to them a follows throughout these labs.
     1. **Plan ID:** gold-plan-id
     1. **Plan name:** Gold Plan
-1. CLick the **Create** button and your new plan is created.
+1. Click the **Create** button and your new plan is created.
 
 ### Fill out the plan
 
@@ -151,15 +151,15 @@ In this exercise you will create a plan that costs $0 to purchase. This plan wil
 
 ## Exercise: Review and Publish
 
-In this short exercise you will check your work by performing the first action of the publication process. You will submit your offer for review to see if it is ready to be published.
+In this short exercise, you will check your work by performing the first action of the publication process. You will submit your offer for review to see if it is ready to be published.
 
 1. Open your offer's overview page.
 1. In the upper right corner of the page, click the link for **Review and publish**.
-1. Looking to the right side of the page, notice that some sections have a green circle and at least one are gray. The gray sections are not yet complete, preventing you from taking the next step of publishing your offer.
+1. Looking to the right side of the page, notice that some sections have a green circle and at least one is gray. The gray sections are not yet complete, preventing you from taking the next step of publishing your offer.
 
     > The **Technical configuration** section of the offer will not pass review. This is okay for now as we need to fill out the **Technical configuration** tab and you can't do that until we have a landing page. All other sections should be green.
 
 1. Go back to all sections that appear with a gray circle and complete those sections.
 1. Ensure all sections pass except **Technical configuration**, which will be addressed in the next lab.
 
-Congratulations! You are done with Lab 1.
+Congratulations! You are done with lab 1.
