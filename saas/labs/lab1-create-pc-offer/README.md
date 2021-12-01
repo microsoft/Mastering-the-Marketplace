@@ -37,11 +37,7 @@ This is the first time you're using the Azure portal for this class. It is recom
 
 1. Open a new tab for the [Azure portal](https://portal.azure.com) and log in.
 1. Create a Resource Group named **saas-workshop**. Although you may use a different name, all labs will refer to the Resource Group with this name.
-<<<<<<< HEAD
-1. In the **saas-workshop** Resource Group, create a standard Azure Data Storage account. This will be your CRM database, so name it accordingly to distinguish it from future storage accounts that will be created in this Resource Group.
-=======
 1. In the **saas-workshop** Resource Group, create a standard Azure Storage account. This will be your CRM database, so name it accordingly to distinguish it from future storage accounts that will be created in this Resource Group.
->>>>>>> cbe171d (Modifications to lab1-create-pc-offer)
 1. Once the storage account is created, browse to the storage account's overview page.
 1. In the left-hand menu, find the **Security + networking** section.
 1. In that section, find and click on the **Access keys** link.
@@ -95,7 +91,7 @@ You must select at least one category for your offer.
 1. In the **Support contact** section, enter your contact information.
 1. For the **Support link** field enter the support or homepage of your website.
 1. For the **Engineering contact** section, enter your contact information.
-1. for the **Supporting documents** section, upload the PDF document provided in the `items` directory of **lab1**. This document is named "**Well-WellArchitectedFramework.pdf**."
+1. for the **Supporting documents** section, upload the PDF document provided in the `items` directory of **lab1**. This document is named "**WellArchitectedFramework.pdf**."
 1. For the Marketplace media section you'll upload 2 images.
     1. For the **216X216 logo image,** upload the PNG provided in the `items` directory of **lab1**. This PNG is named "**Contoso-Logo-216x216.png**."
     1. For the **1280X720** screenshot image, upload the PNG provided in the `items` directory of **lab1**. This PNG is named "**Screenshots-1280x720.png**."
