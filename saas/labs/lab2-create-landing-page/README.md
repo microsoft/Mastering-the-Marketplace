@@ -6,13 +6,12 @@ In this lab you will build on what you accomplished in [Lab 1: Creating a SaaS O
 
 For this lab you will need the following.
 
-
 1. An offer configured in [Partner Center](https://partner.microsoft.com/en-us/dashboard) as per Lab 1
 1. An Azure account and access to the [Azure portal](https://portal.azure.com/)
 1. Visual Studio 2022 (any version)
 1. Git (optional)
 
-> **Note:** It is possible to complete this using Visual Studio Code and .NET 6, but the instructions will be tailored for using Visual Studio 2022.
+> **Note:** It is possible to complete this using Visual Studio Code, but the instructions will be tailored for using Visual Studio 2022.
 
 ## Exercise: Compile the Visual Studio Solution
 
@@ -20,7 +19,7 @@ In this exercise you'll get all the code needed for your SaaS solution and build
 
 1. Clone this repository or download a ZIP file of it's contents and UNZIP them on your machine.
 
-    > https://github.com/microsoft/Mastering-the-Marketplace
+    https://github.com/microsoft/Mastering-the-Marketplace
 
 2. Using Visual Studio 2022 open the following solution file on your machine. Take care to choose the **begin** folder.
 
@@ -28,7 +27,7 @@ In this exercise you'll get all the code needed for your SaaS solution and build
 
 3. Build the solution. You should get no build errors.
 
-There are currently three projects in the solution. We will deal with them one at a time over the course of the labs.
+There are currently three projects in the solution. We will deal with them one at a time over the course of the labs. In this lab, we will start with the landing page project.
 
 ## Exercise: Create Application Registrations
 
@@ -36,9 +35,9 @@ In this exercise, you will create two application registrations. One will be sin
 
 ### Create a single-tenant Application Registration
 
-1.
-1.
-1.
+1. Log in to the Azure portal.
+1. In the top-of-center command window in the portal, type "app reg" and select the item "App registrations" that appears. You will see a list of current application registrations.
+
 
 - secret
 
@@ -98,13 +97,3 @@ After the offer is in preview stage in Partner Center, you may purchase it. Afte
 1.
 1.
 1.
-
-
-
-
-
-
-
-
-
- 
