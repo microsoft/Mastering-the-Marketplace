@@ -25,7 +25,7 @@ These labs are meant to be done sequentially. They build on one another, so begi
 
 1. [Create a SaaS Offer in Partner Center](./labs/lab1-create-pc-offer/index.md)
 1. [Create a Landing Page](./labs/lab2-create-landing-page/index.md)
-1. [Create a Webhook](./labs/lab3-create-webhook/index.md)
+1. [Create a Webhook](./labs/lab4-create-webhook/index.md)
 
 ---
 
