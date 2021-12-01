@@ -32,6 +32,7 @@ namespace LandingPage
         public void ConfigureServices(IServiceCollection services)
         {
             // Configure AAD and Graph integration
+            // This enables SSO for AAD and access to the user's graph information
             services.AddMicrosoftIdentityWebAppAuthentication(this.Configuration) // Sign on with AAD
                     .EnableTokenAcquisitionToCallDownstreamApi(new string[] { "user.read" }) // Call Graph API
                     .AddMicrosoftGraph() // Use defaults with Graph V1
@@ -50,7 +51,8 @@ namespace LandingPage
 
             });
 
-            // validate attributes in the JWT body - audience and issuer
+            // validate attributes in the JWT claims - audience and issuer
+            // use the appsettings.json or environmental variables for Configuration access
             services.Configure<JwtBearerOptions>(JwtBearerDefaults.AuthenticationScheme, options =>
                 {
                     options.TokenValidationParameters.ValidAudience = this.Configuration["MarketplaceApi:ClientId"];

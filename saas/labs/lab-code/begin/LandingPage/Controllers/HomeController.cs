@@ -10,6 +10,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 using Microsoft.Extensions.Logging;
+using Microsoft.Marketplace.SaaS.Models;
 
 namespace LandingPage.Controllers
 {
@@ -21,6 +22,7 @@ namespace LandingPage.Controllers
         private readonly GraphServiceClient _graphServiceClient;
 
         public HomeController(
+            // Need a marketplace client to talk to the SaaS API
             IMarketplaceSaaSClient marketplaceSaaSClient,
             GraphServiceClient graphServiceClient)
         {
@@ -43,11 +45,16 @@ namespace LandingPage.Controllers
                 return this.View();
             }
 
+            SubscriptionPlans subscriptionPlans = null;
+            ResolvedSubscription resolvedSubscription = null;
+
             // resolve the subscription using the marketplace purchase id token
-            var resolvedSubscription = (await _marketplaceSaaSClient.Fulfillment.ResolveAsync(token, cancellationToken: cancellationToken)).Value;
-            
+            // this is the token that comes in on the querystring
+            resolvedSubscription = (await _marketplaceSaaSClient.Fulfillment.ResolveAsync(token, cancellationToken: cancellationToken)).Value;
+
             // get the plans on this subscription
-            var subscriptionPlans = (await _marketplaceSaaSClient.Fulfillment.ListAvailablePlansAsync(resolvedSubscription.Id.Value, cancellationToken: cancellationToken)).Value;
+            // we want these to display the plans associated with this subscription
+            subscriptionPlans = (await _marketplaceSaaSClient.Fulfillment.ListAvailablePlansAsync(resolvedSubscription.Id.Value, cancellationToken: cancellationToken)).Value;
 
             // find the plan that goes with this purchase
             string planName = string.Empty;
@@ -88,9 +95,12 @@ namespace LandingPage.Controllers
                 return this.View();
             }
 
+            ResolvedSubscription resolvedSubscription = null;
+            SubscriptionPlans subscriptionPlans = null;
+            
             // resolve the subscription using the marketplace purchase id token
-            var resolvedSubscription = (await _marketplaceSaaSClient.Fulfillment.ResolveAsync(token, cancellationToken: cancellationToken)).Value;
-            var subscriptionPlans = (await _marketplaceSaaSClient.Fulfillment.ListAvailablePlansAsync(resolvedSubscription.Id.Value, cancellationToken: cancellationToken)).Value;
+            resolvedSubscription = (await _marketplaceSaaSClient.Fulfillment.ResolveAsync(token, cancellationToken: cancellationToken)).Value;
+            subscriptionPlans = (await _marketplaceSaaSClient.Fulfillment.ListAvailablePlansAsync(resolvedSubscription.Id.Value, cancellationToken: cancellationToken)).Value;
 
             // get graph current user data
             var graphApiUser = await _graphServiceClient.Me.Request().GetAsync();
