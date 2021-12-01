@@ -37,15 +37,32 @@ In this exercise, you will create two application registrations. One will be sin
 
 1. Log in to the Azure portal.
 1. In the top-of-center command window in the portal, type "app reg" and select the item "App registrations" that appears. You will see a list of current application registrations.
+1. At the top of the page click the **+ New registration** link. You are taken to the **Register an application page**.
+1. You must provide a name for your application registration. For the purposes of this lab, use `saas-workshop-single-tenant` as the name of this app registration.
+1. At the bottom of the page, click the **Register** button.
 
+#### Add a secret
 
-- secret
+Here you will add a secret to the app registration. Make sure to copy and paste the secret somewhere you can access it later.
+
+1. Click into the **saas-workshop-single-tenant** application registration.
+1. In the lef-hand menu, find the Manage menu and click the **Certificates and secrets** link.
+1. Create a new new client secret.
+    1. Give it a description.
+    1. CHoose an expiration date. The 6-month default should be fine.
+1. Copy the **Value** of the secret and paste it somewhere you can easily access it later.
 
 ### Create a multi-tenant Application Registration
 
-1.
-1.
-1.
+1. In the top-of-center command window in the portal, type "app reg" and select the item "App registrations" that appears. You will see a list of current application registrations.
+1. At the top of the page click the **+ New registration** link. You are taken to the **Register an application page**.
+1. You must provide a name for your application registration. For the purposes of this lab, use `saas-workshop-multi-tenant` as the name of this app registration.
+1. Under **Supported account types**, select the option: **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
+
+
+
+
+1. At the bottom of the page, click the **Register** button.
 
 - no secret
 
