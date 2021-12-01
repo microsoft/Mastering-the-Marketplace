@@ -29,6 +29,13 @@ In this exercise you'll get all the code needed for your SaaS solution and build
 
 There are currently three projects in the solution. We will deal with them one at a time over the course of the labs. In this lab, we will start with the landing page project.
 
+## Exercise: Deploy the Landing Page
+
+- Walk through Visual Studio Azure publishing wizard
+- Deploy to new web app and service plan
+- Store landing page URL
+- Fill out `appsettings.json`
+
 ## Exercise: Create Application Registrations
 
 In this exercise, you will create two application registrations. One will be single-tenant and used to connect to the SaaS API. The other will be multi-tenant and be used to authenticate users coming to your Landing Page.
@@ -58,20 +65,13 @@ Here you will add a secret to the app registration. Make sure to copy and paste 
 1. At the top of the page click the **+ New registration** link. You are taken to the **Register an application page**.
 1. You must provide a name for your application registration. For the purposes of this lab, use `saas-workshop-multi-tenant` as the name of this app registration.
 1. Under **Supported account types**, select the option: **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
-
-
-
-
 1. At the bottom of the page, click the **Register** button.
 
-- no secret
+#### Add a platform to the app registration
 
-## Exercise: Deploy the Landing Page
-
-- Walk through Visual Studio Azure publishing wizard
-- Deploy to new web app and service plan
-- Add new Landing Page URL to multi-tenant app registration
-- Fill out `appsettings.json`
+1. Under the **Platform configurations** section, click the **+ Add a platform** link.
+1. Select **Web**.
+1. __PICK UP HERE__
 
 ## Exercise: Run the Landing Page Project Locally and Make Updates
 
