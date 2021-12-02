@@ -59,9 +59,11 @@ For each page, you must click the **Save draft** at the bottom of the page to mo
 
 ### Properties
 
+Navigate to the **Properties** section.
+
 #### Categories
 
-You must sect at least one category for your offer.
+You must select at least one category for your offer.
 
 1. Click the **+ Categories** link.
 1. In the left dropdown, select **Developer Tools**.
@@ -126,6 +128,8 @@ In this exercise, you will create a plan that costs $0 to purchase. This plan wi
 
 ### Fill out the plan
 
+The Plan has several components to it, all of which must be completed.
+
 #### Plan Listing
 
 1. The **Plan name** should read "Gold Plan."
@@ -169,7 +173,4 @@ In this short exercise, you will check your work by performing the first action 
 1. Go back to all sections that appear with a gray circle and complete those sections.
 1. Ensure all sections pass except **Technical configuration**, which will be addressed in the next lab.
 
-
-
-
-Congratulations! You are done with lab 1.
+## Congratulations! You are done with lab 1.
