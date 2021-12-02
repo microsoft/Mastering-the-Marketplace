@@ -8,7 +8,7 @@ For this lab you will need the following.
 
 1. An offer configured in [Partner Center](https://partner.microsoft.com/en-us/dashboard) as per Lab 1
 1. An Azure account and access to the [Azure portal](https://portal.azure.com/)
-1. Visual Studio 2022 or 2019 (any version)
+1. Visual Studio 2022 (any version)
 1. Git (optional)
 
 > **Note:** It is possible to complete this using Visual Studio Code, but the instructions will be tailored for using Visual Studio 2022.
