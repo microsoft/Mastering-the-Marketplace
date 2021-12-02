@@ -161,7 +161,7 @@ Now that you have deployed your application, you can configure the **Technical c
     > This is not the correct value, but we haven't published a webhook yet and this will act as a placeholder for now.
 
 1. Enter the **Azure Active Directory tenant ID** you've deployed your landing page to.
-1. For **Azure Active Directory application ID**, enter the Application (client) ID of the `saas-workshop-multi-tenant` App registration.
+1. For **Azure Active Directory application ID**, enter the Application (client) ID of the `saas-workshop-single-tenant` App registration.
 1. Click the **Save draft** button.
 1. Click the **Review and publish** button. The Status of all sections in your offer should be green.
 1. Click the **Publish** button at the bottom of the screen.
@@ -178,14 +178,54 @@ This is the end of the ab as it will take some time for the offer to complete pu
 
 ![Offer Overview](../lab-images/01.png)
 
-Refresh the **Overview** page to get updates on your offer in the publication pipeline.
+Refresh the **Overview** page to get updates on your offer during the publication process.
 
-> Publishing your offer will take some time. Hopefully your offer will be published to the preview stage by the end of the next lecture. Wait to purchase your offer until it is in preview as shown below.
+> Publishing your offer will take some time. Hopefully your offer will be published to the preview stage by the end of the next lecture. Wait to purchase your offer until it is in preview as shown above.
 
 ## Exercise: Buy Your Offer and Check Your Landing Page
 
 After the offer is in preview stage in Partner Center, you may purchase it. After the initial purchase, you will then go to the landing page for the offer.
 
-1.
-1.
-1.
+Once the **Publisher signoff** section has links under it, do NOT press the **Go live** button. Instead this is where you will test the purchase and functionality of your SaaS application.
+
+## Subscribing to your offer
+
+Under the **Publisher signoff** section of the Offer overview page, click teh **Azure portal preview** link.
+
+You may need to log in to the portal.
+
+> If you receive the message, "Could not create the marketplace item" or a "404" message, wait another several minutes and try again. The offer is simply still being created.
+
+Offer creation can take up to 45 minutes in some cases.
+
+> Feel free to take a quick break and come back to try and make your purchase again.
+
+### Moving to the next lab
+
+If you still can't make your purchase, move on to Lab 3 where you will deploy a publisher portal. This publisher portal is a site wherein publishers can activate a customer's subscription.
+
+Once you have completed lab 3, you may come back and complete this purchase.
+
+### Purchasing the SaaS offer
+
+Once you see a form to fill out to purchase your SaaS Offer, you can fill it out and subscribe to the offer.
+
+**You are now acting in the role of the customer.**
+
+1. Under the **Publisher signoff** section of the Offer overview page, click teh **Azure portal preview** link.
+
+    You may need to log in to the portal.
+
+1. Click the **Set up + subscribe** button.
+1. On the **Subscribe To SaaS Workshop** page, select the correct Subscription.
+1. For Resource group, create a new one named `saas-workshop-purchases`.
+1. Give your SaaS offer a name. Consider `SaaSWorkshop01`.
+1. Click the **Review + subscribe** button at the bottom of the page.
+
+    > Your subscription is being provisioned. Once it is complete, you will see a **Configure account now** button on the screen.
+
+1. Click the **Configure account now** button. You are taken to the landing page.
+
+
+
+
