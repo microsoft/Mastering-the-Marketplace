@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "LandingPage-as",
+      "defaultValue": "SaaS-appsvc",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }
