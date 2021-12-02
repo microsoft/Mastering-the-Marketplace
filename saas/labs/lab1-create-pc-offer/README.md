@@ -37,7 +37,7 @@ This is the first time you're using the Azure portal for this class. It is recom
 
 1. Open a new tab for the [Azure portal](https://portal.azure.com) and log in.
 1. Create a Resource Group named **saas-workshop**. Although you may use a different name, all labs will refer to the Resource Group with this name.
-1. In the **saas-workshop** Resource Group, create a standard Azure Data Storage account. This will be your CRM database, so name it accordingly to distinguish it from future storage accounts that will be created in this Resource Group.
+1. In the **saas-workshop** Resource Group, create a standard Azure Storage account. This will be your CRM database, so name it accordingly to distinguish it from future storage accounts that will be created in this Resource Group.
 1. Once the storage account is created, browse to the storage account's overview page.
 1. In the left-hand menu, find the **Security + networking** section.
 1. In that section, find and click on the **Access keys** link.
@@ -59,9 +59,11 @@ For each page, you must click the **Save draft** at the bottom of the page to mo
 
 ### Properties
 
+Navigate to the **Properties** section.
+
 #### Categories
 
-You must sect at least one category for your offer.
+You must select at least one category for your offer.
 
 1. Click the **+ Categories** link.
 1. In the left dropdown, select **Developer Tools**.
@@ -76,7 +78,7 @@ You must sect at least one category for your offer.
 
 ### Offer listing
 
-1. For **Search results summary** enter **SaaS Workshop summary**.
+1. In the the **Offer listing** section, for **Search results summary** enter **SaaS Workshop summary**.
 1. For **Description**, here is some text you may choose to copy and paste into the text box.
 
     > Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
