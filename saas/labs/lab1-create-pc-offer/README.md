@@ -171,4 +171,7 @@ In this short exercise, you will check your work by performing the first action 
 1. Go back to all sections that appear with a gray circle and complete those sections.
 1. Ensure all sections pass except **Technical configuration**, which will be addressed in the next lab.
 
-## Congratulations! You are done with lab 1.
+## Congratulations
+
+You are done with this lab.
+

@@ -95,4 +95,7 @@ This exercise puts you back in the role of the publisher, and you will activate 
 1. Go back to the SaaS management screen and find your subscription. It likely still reads `Pending configuration`.
 1. This page caches the state of the subscriptions and updates every few minutes. Try refreshing the page occasionally until it reads `Subscribed`.
 
-**Congratulations!** You are done with lab 3.
+## Congratulations
+
+You are done with this lab.
+
