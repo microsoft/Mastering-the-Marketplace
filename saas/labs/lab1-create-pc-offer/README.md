@@ -1,6 +1,4 @@
-> **This lab is incomplete and in active development. It is not ready for use at this time.**
-
-# Lab 1: Create a SaaS Offer in Partner Center
+# Lab 1: Creating a SaaS Offer in Partner Center
 
 In this lab you will use your Partner Center account to create a **test** SaaS offer with a single plan. This offer will be used for development and testing purposes.
 
@@ -136,8 +134,8 @@ The Plan has several components to it, all of which must be completed.
 1. The summary requires text to describe the plan. In this case, you may use the following placeholder text if you would like.
 
     > Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-
 1. Click **Save draft**.
+
 
 #### Plan setup
 

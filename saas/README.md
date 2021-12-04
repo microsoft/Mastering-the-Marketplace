@@ -23,10 +23,10 @@ These learning modules are designed to help you speed your time to publish your 
 
 These labs are meant to be done sequentially. They build on one another, so begin at the beginning to walk through all the labs.
 
-1. [Create a SaaS Offer in Partner Center](./labs/lab1-create-pc-offer/README.md)
-1. [Create a Landing Page](./labs/lab2-create-landing-page/README.md)
-1. [Install a Publisher Portal](./labs/lab3-install-pub-portal/README.md)
-1. [Create a Webhook](./labs/lab4-create-webhook/README.md)
+1. [Creating a SaaS Offer in Partner Center](./labs/lab1-create-pc-offer/README.md)
+1. [Creating a Landing Page](./labs/lab2-create-landing-page/README.md)
+1. [Installing a Publisher Portal](./labs/lab3-install-pub-portal/README.md)
+1. [Deploying and Monitoring a Webhook](./labs/lab4-create-webhook/README.md)
 
 ---
 
