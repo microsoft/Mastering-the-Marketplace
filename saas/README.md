@@ -2,7 +2,7 @@
 
 These learning modules are designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace. 
 
-This content is currently under development and will be released incrementally as it is created.
+> **This content is currently under development and will be released incrementally as it is created.**
 
 ### Table of Contents
 
@@ -21,9 +21,18 @@ This content is currently under development and will be released incrementally a
 1. [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
 1. [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
 
+## Hands-on Labs
+
+These labs are meant to be done sequentially. They build on one another, so begin at the beginning to walk through all the labs.
+
+1. [Creating a SaaS Offer in Partner Center](./labs/lab1-create-pc-offer/README.md)
+1. [Creating a Landing Page](./labs/lab2-create-landing-page/README.md)
+1. [Installing a Publisher Portal](./labs/lab3-install-pub-portal/README.md)
+1. [Deploying and Monitoring a Webhook](./labs/lab4-create-webhook/README.md)
+
 ### Please help us improve this content for you
 
-We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/0gCrzhSMkw) on the materials and to share your ideas for making this content better for you.
+We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/0gCrzhSMkw) on these materials and to share your ideas for making this content better for you.
 
 ---
 
