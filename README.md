@@ -4,27 +4,25 @@ This repository contains self-paced videos, hands-on labs, and sample code, that
 
 These courses are created for a technical audience and are meant to help accelerate your marketplace onboarding experience.
 
-## [SaaS Offers](./saas/README.md)
+## Live Workshops in December
 
-This series includes videos and sample code meant to speed your time to publishing your SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace or are interested in the [SaaS Accelerator](https://aka.ms/SaaSAccelerator), this learning series is for you.
-
-### Live Workshop on December 7th!
-
-**Register here: [Build Your SaaS Offer Workshop](https://aka.ms/BuildYourSaaSOffer-Registration)**
+[Build Your SaaS Offer Workshop](https://aka.ms/BuildYourSaaSOffer-Registration) - Dec. 7th
 
 Mastering the Marketplace is hosting a live hands-on workshop for developers taking you from start to finish in publishing your own custom SaaS offer implementation! Check out the registration page for more information.
 
-
-## [The SaaS Accelerator](./saas-accelerator/README.md)
-
-This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project. The SaaS Accelerator provides a fully functional reference implementation with sample code for developers interested in publishing transactable SaaS offers in Microsoft's commercial marketplace.
-
-### Live Workshop on December 9th!
-
-**Register here: [The SaaS Accelerator Workshop](https://aka.ms/TheSaaSAccelerator-Registration)**
+[The SaaS Accelerator Workshop](https://aka.ms/TheSaaSAccelerator-Registration) - Dec. 9th
 
 Mastering the Marketplace is hosting a live hands-on workshop introducing the SaaS Accelerator, a complete SaaS Offer reference implementation you can install out of the box! Further, you can customize it to suit your own needs. Check out the registration page for more information.
 
+---
+
+## [SaaS Offers](./saas/README.md)
+
+This online learning series includes videos and sample code meant to speed your time to publishing your SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.
+
+## [The SaaS Accelerator](./saas-accelerator/README.md)
+
+This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project. The SaaS Accelerator provides a fully functional community-led reference implementation with sample code for developers interested in publishing transactable SaaS offers in Microsoft's commercial marketplace.
 
 ## [Azure Managed Application Offers](./ama/README.md)
 

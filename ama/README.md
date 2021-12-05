@@ -6,7 +6,7 @@ These videos are a complete course focused on bringing your Azure Managed Applic
 
 There are also hands-on-labs that you may do yourself to further cement your new skills.
 
-## Learning Modules from Live Class Event
+## Table of Contents
 
 1. [Introduction](https://www.youtube.com/watch?v=WxQ0tkd8dYU&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=1)
 1. [Azure Applications Overview](https://www.youtube.com/watch?v=P6Z8rdNkgKs&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=2)
@@ -37,10 +37,6 @@ The labs may also be taken at any time as a stand-alone experience with no other
 - Lab 3 - [Customizing the Managed Application UX](./lab-3/lab-3.md)
 - Lab 4 - [Working with Customer Providers and Resources](./lab-4/lab-4.md)
 
-## Module Backlog
-1. Including VM Offers
-1. Managed Application Webhook Overview
-1. Implementing a Managed Application Webhook
-1. Deployment Upgrades
-1. Plan Updates
-1. Supporting Customers
+## Please help us improve this content for you
+
+We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/Y087k7aLkL) on the materials and to share your ideas for making this content better for you.
