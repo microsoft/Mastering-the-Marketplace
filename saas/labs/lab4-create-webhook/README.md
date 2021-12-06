@@ -2,6 +2,8 @@
 
 In this lab you will build on what you accomplished in previous labs. You will create a SaaS offer webhook and integrate it with your Partner Center SaaS offer configuration, enabling your webhook to respond to subscription change events.
 
+> **Completion of this lab is required for the following labs in the series to work properly.**
+
 The webhook in your Visual Studio solution is an Azure Function. There is no need to change the code in the webhook function at this time.
 
 Looking through the webhook code you'll find that it simply prints the REST payload to the log. You will monitor this log to see the payload when the webhook is called.

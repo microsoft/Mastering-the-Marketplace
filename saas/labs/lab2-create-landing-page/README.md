@@ -2,6 +2,8 @@
 
 In this lab, you will build on what you accomplished in [Lab 1: Creating a SaaS Offer in Partner Center](../lab1-create-pc-offer/README.md). You will deploy a landing page and integrate it with your Partner Center SaaS Offer, enabling publishing of the offer and purchasing the offer in the **Preview** stage of the publication pipeline.
 
+> **Completion of this lab is required for the following labs in the series to work properly.**
+
 For this lab you will need the following.
 
 1. An offer configured in [Partner Center](https://partner.microsoft.com/en-us/dashboard) as per Lab 1
