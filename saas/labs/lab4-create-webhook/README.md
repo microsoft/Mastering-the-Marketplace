@@ -59,7 +59,11 @@ Now you will re-publish your offer, this time with a valid webhook URL.
 
 > The offer must be in the Partner Center's preview stage for the final exercise of this lab to work. At no point should you click the **Go live** button.
 
-Of course, there is a waiting period for the offer to be re-published. The good news is that it is usually much faster after the first time.
+## Publication Time
+
+This is where you must wait for your offer to be re-published. Of course, there is a waiting period for the offer to be re-published. The good news is that it is usually much faster after the first time.
+
+> **Note:** If you are in a live workshop event, please raise your hand in Microsoft Teams to indicate you are done with the lab to this point. You will be coming back to finish the rest of the lab later, perhaps on your own after the workshop.
 
 ## Exercise: Preparing to monitor the function's log
 
