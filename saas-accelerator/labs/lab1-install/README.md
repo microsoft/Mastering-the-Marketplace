@@ -70,6 +70,8 @@ The script will take several minutes to run.
 
 If you see errors in the output of the script, cancel the run of the script by typing **CTRL+C**. Fix the errors and run the script again using a different RESOURCE_GROUP to avoid collisions of resources during install.
 
-Once the script completes, you may close the coud shell by clicking the cloud shell button you used to open it.
+Once the script completes, you may close the cloud shell by clicking the cloud shell button you used to open it.
 
 **Congratulation!** You have finished this lab.
+
+If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.

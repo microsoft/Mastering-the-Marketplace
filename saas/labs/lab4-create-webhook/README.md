@@ -107,6 +107,7 @@ There is no need to do this to consider yourself done with this lab, but you now
 1. **Cancel the subscription** from the **Subscribed** subscription through the SaaS management tool in the Azure portal.
 1. Watch the webhook function get called with the full payload of the unsubscribed event.
 
-## Congratulations
+**Congratulation!** You have finished this lab.
 
-You are done with this lab.
+If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
+
