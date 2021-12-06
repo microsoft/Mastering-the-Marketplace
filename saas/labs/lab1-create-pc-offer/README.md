@@ -171,7 +171,6 @@ In this short exercise, you will check your work by performing the first action 
 1. Go back to all sections that appear with a gray circle and complete those sections.
 1. Ensure all sections pass except **Technical configuration**, which will be addressed in the next lab.
 
-## Congratulations
+**Congratulation!** You have finished this lab.
 
-You are done with this lab.
-
+If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab..

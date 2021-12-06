@@ -227,6 +227,7 @@ Once you can click the **Azure portal preview** link in Partner Center, you will
 
 1. Click the **Configure account now** button. You are taken to the landing page where you see details about the subscription you are buying.
 
-## Congratulations
+**Congratulation!** You have finished this lab.
 
-You are done with this lab.
+If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
+
