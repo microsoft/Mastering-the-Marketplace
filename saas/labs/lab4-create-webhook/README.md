@@ -1,6 +1,6 @@
 # Lab 4: Deploying and Monitoring a Webhook
 
-In this lab you will build on what you accomplished in previous labs. You will create a SaaS offer webhook and integrate it with your Partner Center SaaS offer configuration, enabling your webhook to respond to subscription change events.
+In this lab, you will build on what you accomplished in previous labs. You will create a SaaS offer webhook and integrate it with your Partner Center SaaS offer configuration, enabling your webhook to respond to subscription change events.
 
 > **Completion of this lab is required for the following labs in the series to work properly.**
 
@@ -76,7 +76,7 @@ To see the function's output, we will monitor its log on Azure to see the output
 1. Under **Create new resource** enter `SaaSWorkshopFunction-ai`.
 1. Choose an appropriate location.
 1. Click the **OK** button at the bottom of the screen. Application insights will install.
-1. In the upper breadcrumb navigation click the function **SaaSWorkshopFunction** which takes you back to the Log monitoring screen.
+1. In the upper breadcrumb navigation, click the function **SaaSWorkshopFunction** which takes you back to the Log monitoring screen.
 1. This should open what looks like a terminal window and you will see "Connected!" at the top of the window.
 
 You are now watching the function application's log. There will be occasional keep-alive calls to the function that can be ignored. You can click the **Clear** button at the top of the screen to clear the text at ay time.
@@ -90,7 +90,7 @@ In a previous lab, you purchased a SaaS offer. That offer is in the `Subscribed`
 1. Open a new tab to the Azure portal.
 1. In the command bar at the top type **SaaS** and click the **SaaS** service that is appears.
 1. Find the offer you purchased earlier and click it.
-1. At the top of the page, click and confirm **Cancel subscription**. Fill in the required information unsubscribe from the offer.
+1. At the top of the page, click and confirm **Cancel subscription**. Fill in the required information to unsubscribe from the offer.
 1. Click the **Cancel subscription** button. You will get a message in the upper right of your window stating that cancellation of the subscription is in progress.
 
 ### See the Unsubscribe event
@@ -108,11 +108,11 @@ Just wait for the Unsubscribe event to show up in the Log window and print the p
 There is no need to do this to consider yourself done with this lab, but you now have all the elements in place needed to manage a SaaS offer subscription purchase. To exercise all steps of the process do the following.
 
 1. Purchase the SaaS offer either through Partner Center or as a private offer in the Azure Portal.
-1. After go to the landing page to activate the subscription.
+1. Go to the landing page to activate the subscription.
 1. Use the Publisher Portal to activate the subscription, changing its state to **Subscribed**.
 1. **Cancel the subscription** from the **Subscribed** subscription through the SaaS management tool in the Azure portal.
 1. Watch the webhook function get called with the full payload of the unsubscribed event.
 
-**Congratulation!** You have finished this lab.
+**Congratulations!** You have finished this lab.
 
 If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.

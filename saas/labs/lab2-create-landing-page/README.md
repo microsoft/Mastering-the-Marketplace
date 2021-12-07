@@ -4,7 +4,7 @@ In this lab, you will build on what you accomplished in [Lab 1: Creating a SaaS 
 
 > **Completion of this lab is required for the following labs in the series to work properly.**
 
-For this lab you will need the following.
+For this lab, you will need the following.
 
 1. An offer configured in [Partner Center](https://partner.microsoft.com/en-us/dashboard) as per Lab 1
 1. An Azure account and access to the [Azure portal](https://portal.azure.com/)
@@ -35,7 +35,7 @@ In this exercise, you will create an app registration in the Azure portal. It wi
 
 1. Log in to the Azure portal.
 1. In the top-of-center command window in the portal, type "app reg" and select the item "App registrations" that appears. You will see a list of current application registrations.
-1. At the top of the page click the **+ New registration** link. You are taken to the **Register an application page**.
+1. At the top of the page, click the **+ New registration** link. You are taken to the **Register an application page**.
 1. For the purposes of this lab, use `saas-workshop-single-tenant` as the name of this app registration.
 1. At the bottom of the page, click the **Register** button.
 
@@ -52,7 +52,7 @@ Now you will add a secret to the app registration. Make sure to copy and paste t
 
 ## Exercise: Creating a multi-tenant App Registration
 
-In this exercise you wil create a multi-tenant app registration in the Azure portal. It be used to authenticate users coming to your landing page.
+In this exercise, you will create a multi-tenant app registration in the Azure portal to authenticate users coming to your landing page.
 
 1. Create an app registration. For the purposes of this lab, use `saas-workshop-multi-tenant` as the name of this app registration.
 1. Under **Supported account types**, select the option: **Accounts in any organizational directory (Any Azure AD directory - Multitenant)**.
@@ -139,7 +139,7 @@ Near the top-right of the Publish dialog click the **Publish** button. This depl
 ### Registering your landing page
 
 1. In the command bar at the top of the Azure portal, search for and select **App Services**.
-1. Click on the App Service you just created, **SaaSWorkshopLandingPage**..
+1. Click on the App Service you just created, **SaaSWorkshopLandingPage**.
 1. On the overview screen in Visual Studio, the **URL** for the site should be in the **Hosting** section. Copy it into your paste buffer.
 1. In the command bar at the top of the Azure portal, search for and select **App registrations**.
 1. Click on the `saas-workshop-multi-tenant` app registration.
@@ -214,15 +214,15 @@ Once you can click the **Azure portal preview** link in Partner Center, do so. Y
 **You are now acting in the role of the customer.**
 
 1. Click **Get it Now**. On the next screen  you can fill it out and subscribe to the subscription you are making.
-1. For Resource group, create a new one named `saas-workshop-purchases`.
+1. For the resource group, create a new one named `saas-workshop-purchases`.
 1. Give your SaaS offer a name. Consider `SaaSWorkshop01`.
 1. Click the **Review + subscribe** button at the bottom of the page.
 1. Click the **Subscribe** button at the bottom of the page.
 
     > Your subscription is being provisioned. Once it is complete, you will see a **Configure account now** button on the screen.
 
-1. Click the **Configure account now** button. You are taken to the landing page where you see details about the subscription you are buying. Note the marketplace purchase token in the query string.
+1. Click the **Configure account now** button. You are taken to the landing page where you can see details about the subscription you are buying. Note the marketplace purchase token in the query string.
 
-**Congratulation!** You have finished this lab.
+**Congratulations!** You have finished this lab.
 
 If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
