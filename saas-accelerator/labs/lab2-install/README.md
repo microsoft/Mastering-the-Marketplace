@@ -1,6 +1,6 @@
 # Lab 2: Installing the SaaS Accelerator
 
-This lab takes you through a very quick installation process for the SaaS Accelerator using the Azure portal Cloud Shell.
+This lab takes you through a very quick installation process for the SaaS Accelerator using the Azure portal Cloud Shell. Once complete, you will have installed the SaaS Accelerator and published your offer in Partner Center.
 
 ## Exercise: Create an install document
 
