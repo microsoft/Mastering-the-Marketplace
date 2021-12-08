@@ -1,4 +1,4 @@
-# Lab 1: Installing the SaaS Accelerator
+# Lab 2: Installing the SaaS Accelerator
 
 This lab takes you through a very quick installation process for the SaaS Accelerator using the Azure portal Cloud Shell.
 
@@ -24,7 +24,7 @@ git clone https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator.git -
 
 In your text editor, replace each of the ALL_CAPS values. They are described below.
 
-| Value | Description and notes |
+| Parameter Value | Description and notes |
 |---|---|
 | **ADMIN_USER_EMAIL** | The email of the admin for the SaaS solution that will be deployed. This should be an email tied to an Azure subscription. |
 | **RESOURCE_GROUP** | The name of the resource group you want to deploy the SaaS solution into. For the purposes of this lab, consider using `saas-accelerator-lab`. |
@@ -69,11 +69,32 @@ Once the script completes, you may close the cloud shell by clicking the cloud s
 
 If you see errors in the output of the script, cancel the run of the script by typing **CTRL+C**. Fix the errors and run the script again using a different name for the resources in the parameters to avoid collisions of resources during install.
 
-### Common install issues
+When the script completes successfully, it will print the values you need for the Technical Configuration tab in Partner Center. It will look something like this.
 
-- Hyphen in the SQL password
-- Web App name - no hyphens
-- Do not use 'admin' as the login name for the SQL Server
+```powershell
+__ Add The following URL in PartnerCenter SaaS Technical Configuration->Landing Page section
+   https://XXXXXX-portal.azurewebsites.net/
+__ Add The following URL in PartnerCenter SaaS Technical Configuration->Connection Webhook section
+   https://XXXXXX-portal.azurewebsites.net/api/AzureWebhook
+__ Add The following TenantID in PartnerCenter SaaS Technical Configuration Tenant ID
+   e6c97eb2-054c-4b5d-9a30-a064766a9e83
+__ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration->AAD Application ID section
+   bc830358-8c71-4699-b5e6-ea617ac7b5ee
+```
+
+## Exercise: Partner Center Technical Configuration
+
+1. Open Partner Center and browse to the **Technical configuration** page of your offer.
+1. Enter the values into the appropriate text fields as per the instructions from the end of the script as shown above.
+1. Click **Save Draft**.
+1. Click **Review and publish**.
+1. You should now be able to publish your offer. Do so.
+
+Publication will take a while. Only after publication completes can you do the next lab.
+
+To watch the publication process, refresh the offer's **Overview** page occasionally. Once your offer reaches the **Publisher preview** stage, you are ready for the next lab.
+
+Do NOT press the **Go live** button.
 
 **Congratulation!** You have finished this lab.
 
