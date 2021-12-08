@@ -11,7 +11,7 @@ git clone https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator.git -
  cd ./Commercial-Marketplace-SaaS-Accelerator/deployment/Templates; `
  Connect-AzureAD -Confirm; .\Deploy.ps1 `
  -Location "East US" `
- -PathToARMTemplate ".\deploy.json",
+ -PathToARMTemplate "./deploy.json" `
  -PublisherAdminUsers "ADMIN_USER_EMAIL" `
  -ResourceGroupForDeployment "RESOURCE_GROUP" `
  -SQLAdminLogin "SQL_ADMIN_USER_NAME" `
@@ -24,17 +24,14 @@ git clone https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator.git -
 
 In your text editor, replace each of the ALL_CAPS values. They are described below.
 
-**ADMIN_USER_EMAIL** - The email of the admin for the SaaS solution that will be deployed. This should be an email tied to an Azure subscription.
-
-**RESOURCE_GROUP** - The name of the resource group you want to deploy the SaaS solution into. For the purposes of this lab, consider using `saas-accelerator-lab`.
-
-**SQL_ADMIN_USER_NAME** - The admin username for the SQL Server that will be installed. Do NOT use name "admin" as it is not allowed and the deployment script will fail.
-
-**SQL_PASSWORD** - The password for the SQL Server instance that will be installed. Make this password secure and at **least 22 characters long** so the deployment script doesn't fail.
-
-**SQL_SERVER_NAME** - The name of the SQL Server instance that will be deployed.
-
-**WEB_NAME_PREFIX** - A string that will be prefixed to the name of all resources that are created in your deployment resource group. This can be as short as three letters.
+| Value | Description and notes |
+|---|---|
+| **ADMIN_USER_EMAIL** | The email of the admin for the SaaS solution that will be deployed. This should be an email tied to an Azure subscription. |
+| **RESOURCE_GROUP** | The name of the resource group you want to deploy the SaaS solution into. For the purposes of this lab, consider using `saas-accelerator-lab`. |
+| **SQL_ADMIN_USER_NAME** | The admin username for the SQL Server that will be installed. Do NOT use name "admin" as it is not allowed and the deployment script will fail. |
+| **SQL_PASSWORD** | The password for the SQL Server instance that will be installed. Make this password secure and at **least 22 characters long** so the deployment script doesn't fail. Do not use hyphens. |
+| **SQL_SERVER_NAME** | The name of the SQL Server instance that will be deployed. The name can only contain lowercase letters. |
+| **WEB_NAME_PREFIX** | A string that will be prefixed to the name of all resources that are created in your deployment resource group. This can be as short as three letters. Use lowercase alphanumeric characters only. |
 
 ### Optional parameters
 
@@ -66,11 +63,17 @@ This opens the the PowerShell cloud shell, which is a command line that runs dir
 1. Select **Paste as plain text**.
 1. If the script doesn't start running automatically, hit **Enter**.
 
-The script will take several minutes to run.
-
-If you see errors in the output of the script, cancel the run of the script by typing **CTRL+C**. Fix the errors and run the script again using a different RESOURCE_GROUP to avoid collisions of resources during install.
+The script will take several minutes to run. It may reach a point where it seems nothing is happening, but just wait through the entire install. It typically takes eight minutes or so.
 
 Once the script completes, you may close the cloud shell by clicking the cloud shell button you used to open it.
+
+If you see errors in the output of the script, cancel the run of the script by typing **CTRL+C**. Fix the errors and run the script again using a different name for the resources in the parameters to avoid collisions of resources during install.
+
+### Common install issues
+
+- Hyphen in the SQL password
+- Web App name - no hyphens
+- Do not use 'admin' as the login name for the SQL Server
 
 **Congratulation!** You have finished this lab.
 

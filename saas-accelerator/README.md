@@ -4,7 +4,9 @@ This learning series is designed to help you speed your time to publish your Saa
 
 The goal of this the SaaS Accelerator is to provide a fully functional reference implementation with sample code for developers interested in publishing transactable SaaS offers in Microsoft's commercial marketplace.
 
-This content is currently under development and will be released incrementally as it is created.
+> This content is currently under development and will be released incrementally as it is created.
+
+## Table of Contents
 
 1. SaaS Accelerator Overview
 1. SaaS Accelerator Architecture
@@ -12,6 +14,16 @@ This content is currently under development and will be released incrementally a
 1. Installing the SaaS Accelerator Manually
 1. Extending the SaaS Accelerator
 
+## Hands-on labs
+
+1. [Preparing Partner Center](./labs/lab1-partner-center)
+2. [Installing the Accelerator](./labs/lab2-install)
+3. Touring the Accelerator
+    - Buy it
+    - Request activation
+    - Pub: Activates it
+    - Customer: Unsubscribes
+    
 ---
 
 ## Installing the SaaS Accelerator with the Installer
