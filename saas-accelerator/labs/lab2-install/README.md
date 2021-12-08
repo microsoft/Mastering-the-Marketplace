@@ -27,7 +27,7 @@ In your text editor, replace each of the ALL_CAPS values. They are described bel
 | Parameter Value | Description and notes |
 |---|---|
 | **ADMIN_USER_EMAIL** | The email of the admin for the SaaS solution that will be deployed. This should be an email tied to an Azure subscription. |
-| **RESOURCE_GROUP** | The name of the resource group you want to deploy the SaaS solution into. For the purposes of this lab, consider using `saas-accelerator-lab`. |
+| **RESOURCE_GROUP** | The name of the resource group you want to deploy the SaaS solution into. For the purposes of this lab, consider using `saas-accelerator`. |
 | **SQL_ADMIN_USER_NAME** | The admin username for the SQL Server that will be installed. Do NOT use name "admin" as it is not allowed and the deployment script will fail. |
 | **SQL_PASSWORD** | The password for the SQL Server instance that will be installed. Make this password secure and at **least 22 characters long** so the deployment script doesn't fail. Do not use hyphens. |
 | **SQL_SERVER_NAME** | The name of the SQL Server instance that will be deployed. The name can only contain lowercase letters. |
@@ -82,13 +82,59 @@ __ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration
    bc830358-8c71-4699-b5e6-ea617ac7b5ee
 ```
 
+## Exercise: The App registration secret
+
+The installer did not complete one part of the installation process. The landing page app registration needs a secret that will be shared with the landing page web application. Here you will create that secret and configure it with the web application.
+
+1. In the command bar at the top fo the Azure portal type "App reg" and select App registrations from the menu.
+1. Find an click on the landing page app registration, which will look something like this: **<prefix>-accelerator-01-LandingpageAppReg**.
+1. In the left menu under **Manage**, click the **Certificates and secrets** menu item.
+1. Click **+ New client secret**.
+1. Enter a name for your secret, like "secret1."
+1. Copy the **Value** of the secret and copy it somewhere you can access it again. You won't have another chance to copy this secret.
+1. Browse to the resource group you created during installation, `saas-accelerator`. You see the resources created inside the resource group.
+1. Click the App service named **<prefix>-portal**.
+1. In the left menu, under **Settings** click the **Configuration** menu item.
+1. Scroll down and click the `SaaSApiConfiguration__ClientSecret` application setting.
+1. In the **Value** field, paste in the secret you created earlier.
+1. Click the **OK** button.
+1. Click the **Save** button on the upper menu.
+1. Click the **Continue** button to allow the web app to restart.
+
+## Exercise: Verify web applications
+
+Now you'll verify the two web application are up and running.
+
+### The landing page
+
+1. In the SaaS Accelerator's resource group, find the App service for the landing page and click it. It is the one named **<prefix>-portal**.
+1. In the upper right corner is the URL of the web app. Click the URL.
+1. You should be taken to a web page and receive no errors.
+
+### The publisher portal
+
+1. In the SaaS Accelerator's resource group, find the App service for the landing page and click it. It is the one named **<prefix>-admin**.
+1. In the upper right corner is the URL of the web app. Click the URL.
+1. You should be taken to a web page and receive no errors. If you are prompted to log in, do so.
+
 ## Exercise: Partner Center Technical Configuration
 
 1. Open Partner Center and browse to the **Technical configuration** page of your offer.
-1. Enter the values into the appropriate text fields as per the instructions from the end of the script as shown above.
+1. Enter the values into the appropriate text fields as per the instructions from the end of the installation script. An example output is shown below.
 1. Click **Save Draft**.
 1. Click **Review and publish**.
 1. You should now be able to publish your offer. Do so.
+
+```powershell
+__ Add The following URL in PartnerCenter SaaS Technical Configuration->Landing Page section
+   https://XXXXXX-portal.azurewebsites.net/
+__ Add The following URL in PartnerCenter SaaS Technical Configuration->Connection Webhook section
+   https://XXXXXX-portal.azurewebsites.net/api/AzureWebhook
+__ Add The following TenantID in PartnerCenter SaaS Technical Configuration Tenant ID
+   e6c97eb2-054c-4b5d-9a30-a064766a9e83
+__ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration->AAD Application ID section
+   bc830358-8c71-4699-b5e6-ea617ac7b5ee
+```
 
 Publication will take a while. Only after publication completes can you do the next lab.
 
