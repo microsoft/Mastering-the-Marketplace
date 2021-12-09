@@ -35,7 +35,7 @@ In your text editor, replace each of the ALL_CAPS values. They are described bel
 
 ### Optional parameters
 
-The following values are optional and typically used for a more controlled deployment. We will not be using these parameters in this lab, but you can experiment with them on your own.
+The following values are optional and typically used for a more customized deployment. We will not be using these parameters in this lab, but you can experiment with them on your own.
 
 ```powershell
 -TenantID "xxxx-xxx-xxx-xxx-xxxx" `
