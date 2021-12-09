@@ -98,7 +98,7 @@ __ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration
    bc830358-8c71-4699-b5e6-ea617ac7b5ee
 ```
 
-## Exercise: The App registration secret
+## Exercise: Secrets
 
 The installer did not complete one part of the installation process. The landing page app registration needs a secret that will be shared with the landing page web application. Here you will create that secret and configure it with the web application.
 
@@ -150,21 +150,10 @@ Now you'll verify the two web application are up and running.
 ## Exercise: Partner Center Technical Configuration
 
 1. Open Partner Center and browse to the **Technical configuration** page of your offer.
-1. Enter the values into the appropriate text fields as per the instructions from the end of the installation script. An example output is shown below.
+1. Enter the values into the appropriate text fields as per the instructions from the end of the installation script that you copied earlier in this lab.
 1. Click **Save Draft**.
 1. Click **Review and publish**.
-1. You should now be able to publish your offer. Do so.
-
-```powershell
-__ Add The following URL in PartnerCenter SaaS Technical Configuration->Landing Page section
-   https://<prefix>-portal.azurewebsites.net/
-__ Add The following URL in PartnerCenter SaaS Technical Configuration->Connection Webhook section
-   https://<prefix>-portal.azurewebsites.net/api/AzureWebhook
-__ Add The following TenantID in PartnerCenter SaaS Technical Configuration Tenant ID
-   e6c97eb2-054c-4b5d-9a30-a064766a9e83
-__ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration->AAD Application ID section
-   bc830358-8c71-4699-b5e6-ea617ac7b5ee
-```
+1. Publish your offer.
 
 Publication will take a while. Only after publication completes can you do the next lab.
 
