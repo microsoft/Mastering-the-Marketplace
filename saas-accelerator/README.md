@@ -1,6 +1,6 @@
 # The SaaS Accelerator Series
 
-This learning series is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator). 
+This learning series is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator).
 
 The goal of the SaaS Accelerator is to provide a fully functional reference implementation with sample code for developers interested in publishing transactable SaaS offers in Microsoft's commercial marketplace.
 
@@ -19,10 +19,6 @@ The goal of the SaaS Accelerator is to provide a fully functional reference impl
 1. [Preparing Partner Center](./labs/lab1-partner-center)
 2. [Installing the Accelerator](./labs/lab2-install)
 3. [Touring the Accelerator](./labs/lab3-tour)
-    - Buy it
-    - Request activation
-    - Pub: Activates it
-    - Customer: Unsubscribes
 
 ---
 
