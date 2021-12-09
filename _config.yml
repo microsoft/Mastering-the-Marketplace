@@ -1,7 +1,9 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme
+theme: minima
 
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ 
 title: Mastering the Marketplace
 description: The learning resource for the Microsoft marketplace
 show_downloads: true
