@@ -73,9 +73,9 @@ When the script completes successfully, it will print the values you need for th
 
 ```powershell
 __ Add The following URL in PartnerCenter SaaS Technical Configuration->Landing Page section
-   https://XXXXXX-portal.azurewebsites.net/
+   https://<prefix>-portal.azurewebsites.net/
 __ Add The following URL in PartnerCenter SaaS Technical Configuration->Connection Webhook section
-   https://XXXXXX-portal.azurewebsites.net/api/AzureWebhook
+   https://<prefix>-portal.azurewebsites.net/api/AzureWebhook
 __ Add The following TenantID in PartnerCenter SaaS Technical Configuration Tenant ID
    e6c97eb2-054c-4b5d-9a30-a064766a9e83
 __ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration->AAD Application ID section
@@ -87,7 +87,8 @@ __ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration
 The installer did not complete one part of the installation process. The landing page app registration needs a secret that will be shared with the landing page web application. Here you will create that secret and configure it with the web application.
 
 1. In the command bar at the top fo the Azure portal type "App reg" and select App registrations from the menu.
-1. Find an click on the landing page app registration, which will look something like this: **<prefix>-accelerator-01-LandingpageAppReg**.
+1. CLick the **All applications** tab.
+1. Find the registration named **<prefix>-FulfillmentApp** and click it.
 1. In the left menu under **Manage**, click the **Certificates and secrets** menu item.
 1. Click **+ New client secret**.
 1. Enter a name for your secret, like "secret1."
@@ -127,9 +128,9 @@ Now you'll verify the two web application are up and running.
 
 ```powershell
 __ Add The following URL in PartnerCenter SaaS Technical Configuration->Landing Page section
-   https://XXXXXX-portal.azurewebsites.net/
+   https://<prefix>-portal.azurewebsites.net/
 __ Add The following URL in PartnerCenter SaaS Technical Configuration->Connection Webhook section
-   https://XXXXXX-portal.azurewebsites.net/api/AzureWebhook
+   https://<prefix>-portal.azurewebsites.net/api/AzureWebhook
 __ Add The following TenantID in PartnerCenter SaaS Technical Configuration Tenant ID
    e6c97eb2-054c-4b5d-9a30-a064766a9e83
 __ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration->AAD Application ID section
@@ -138,10 +139,8 @@ __ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration
 
 Publication will take a while. Only after publication completes can you do the next lab.
 
-To watch the publication process, refresh the offer's **Overview** page occasionally. Once your offer reaches the **Publisher preview** stage, you are ready for the next lab.
-
-Do NOT press the **Go live** button.
-
 **Congratulation!** You have finished this lab.
 
 If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
+
+> To watch the publication process, refresh the offer's **Overview** page occasionally. Once your offer reaches the **Publisher preview** stage, you are ready for the next lab. Do NOT press the **Go live** button.
