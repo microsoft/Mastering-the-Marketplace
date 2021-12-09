@@ -18,8 +18,8 @@ In this exercise, you will create a new SaaS offer in Partner Center and fill in
 1. From the Home page of [Partner Center](https://partner.microsoft.com/dashboard/home) click the **Commercial Marketplace** button.
 1. Click the **+ New offer** button and at the dropdown and select **Software as a Service**.
 1. Give your new offer an **Offer ID** and **Offer alias**. Although you are free to use whatever values you like, we will be using the following in this lab for reference.
-    1. Offer ID: **saas-workshop**
-    1. Offer alias **SaaS Workshop**
+    1. Offer ID: **saas-accelerator**
+    1. Offer alias **SaaS Accelerator**
 
 ### Offer setup
 
@@ -34,8 +34,8 @@ Here, you will attach your offer to an Azure Data Storage table which will act a
 This is the first time you're using the Azure portal for this class. It is recommended that you install all the resources you'll create in this class into the same Resource Group, just to keep things tidy within your Azure subscription.
 
 1. Open a new tab for the [Azure portal](https://portal.azure.com) and log in.
-1. Create a Resource Group named **saas-workshop**. Although you may use a different name, all labs will refer to the Resource Group with this name.
-1. In the **saas-workshop** Resource Group, create a standard Azure Storage account. This will be your CRM database, so name it accordingly to distinguish it from future storage accounts that will be created in this Resource Group.
+1. Create a Resource Group named **saas-accelerator**. Although you may use a different name, all labs will refer to the Resource Group with this name.
+1. In the **saas-accelerator** Resource Group, create a standard Azure Storage account. This will be your CRM database, so name it accordingly to distinguish it from future storage accounts that will be created in this Resource Group.
 1. Once the storage account is created, browse to the storage account's overview page.
 1. In the left-hand menu, find the **Security + networking** section.
 1. In that section, find and click on the **Access keys** link.

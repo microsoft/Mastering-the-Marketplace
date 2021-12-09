@@ -94,7 +94,20 @@ The installer did not complete one part of the installation process. The landing
 1. Enter a name for your secret, like "secret1."
 1. Copy the **Value** of the secret and copy it somewhere you can access it again. You won't have another chance to copy this secret.
 1. Browse to the resource group you created during installation, `saas-accelerator`. You see the resources created inside the resource group.
+
+### The portal secret
+
 1. Click the App service named **<prefix>-portal**.
+1. In the left menu, under **Settings** click the **Configuration** menu item.
+1. Scroll down and click the `SaaSApiConfiguration__ClientSecret` application setting.
+1. In the **Value** field, paste in the secret you created earlier.
+1. Click the **OK** button.
+1. Click the **Save** button on the upper menu.
+1. Click the **Continue** button to allow the web app to restart.
+
+### The admin secret
+
+1. Click the App service named **<prefix>-admin**.
 1. In the left menu, under **Settings** click the **Configuration** menu item.
 1. Scroll down and click the `SaaSApiConfiguration__ClientSecret` application setting.
 1. In the **Value** field, paste in the secret you created earlier.
