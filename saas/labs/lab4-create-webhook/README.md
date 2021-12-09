@@ -2,6 +2,8 @@
 
 In this lab you will build on what you accomplished in previous labs. You will create a SaaS offer webhook and integrate it with your Partner Center SaaS offer configuration, enabling your webhook to respond to subscription change events.
 
+> **Completion of this lab is required for the following labs in the series to work properly.**
+
 The webhook in your Visual Studio solution is an Azure Function. There is no need to change the code in the webhook function at this time.
 
 Looking through the webhook code you'll find that it simply prints the REST payload to the log. You will monitor this log to see the payload when the webhook is called.
@@ -57,7 +59,11 @@ Now you will re-publish your offer, this time with a valid webhook URL.
 
 > The offer must be in the Partner Center's preview stage for the final exercise of this lab to work. At no point should you click the **Go live** button.
 
-Of course, there is a waiting period for the offer to be re-published. The good news is that it is usually much faster after the first time.
+## Publication Time
+
+This is where you must wait for your offer to be re-published. Of course, there is a waiting period for the offer to be re-published. The good news is that it is usually much faster after the first time.
+
+> **Note:** If you are in a live workshop event, please raise your hand in Microsoft Teams to indicate you are done with the lab to this point. You will be coming back to finish the rest of the lab later, perhaps on your own after the workshop.
 
 ## Exercise: Preparing to monitor the function's log
 
@@ -110,4 +116,3 @@ There is no need to do this to consider yourself done with this lab, but you now
 **Congratulation!** You have finished this lab.
 
 If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
-

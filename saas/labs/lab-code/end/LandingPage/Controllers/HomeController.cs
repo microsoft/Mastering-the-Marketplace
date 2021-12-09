@@ -45,16 +45,13 @@ namespace LandingPage.Controllers
                 return this.View();
             }
 
-            SubscriptionPlans subscriptionPlans = null;
-            ResolvedSubscription resolvedSubscription = null;
-
             // resolve the subscription using the marketplace purchase id token
             // this is the token that comes in on the querystring
-            resolvedSubscription = (await _marketplaceSaaSClient.Fulfillment.ResolveAsync(token, cancellationToken: cancellationToken)).Value;
+            var resolvedSubscription = (await _marketplaceSaaSClient.Fulfillment.ResolveAsync(token, cancellationToken: cancellationToken)).Value;
 
             // get the plans on this subscription
             // we want these to display the plans associated with this subscription
-            subscriptionPlans = (await _marketplaceSaaSClient.Fulfillment.ListAvailablePlansAsync(resolvedSubscription.Id.Value, cancellationToken: cancellationToken)).Value;
+            var subscriptionPlans = (await _marketplaceSaaSClient.Fulfillment.ListAvailablePlansAsync(resolvedSubscription.Id.Value, cancellationToken: cancellationToken)).Value;
 
             // find the plan that goes with this purchase
             string planName = string.Empty;

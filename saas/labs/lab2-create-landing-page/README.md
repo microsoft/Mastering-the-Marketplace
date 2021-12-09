@@ -2,6 +2,8 @@
 
 In this lab, you will build on what you accomplished in [Lab 1: Creating a SaaS Offer in Partner Center](../lab1-create-pc-offer/README.md). You will deploy a landing page and integrate it with your Partner Center SaaS Offer, enabling publishing of the offer and purchasing the offer in the **Preview** stage of the publication pipeline.
 
+> **Completion of this lab is required for the following labs in the series to work properly.**
+
 For this lab you will need the following.
 
 1. An offer configured in [Partner Center](https://partner.microsoft.com/en-us/dashboard) as per Lab 1
@@ -183,19 +185,19 @@ You will be directed to the top of the Offer overview, where you may watch the p
 
 You will need to hit refresh for awhile as your offer goes through the publish stages.
 
-This is the end of the lab for now as it will take some time for the offer to complete publishing to the **Publisher signoff** stage.
+## Publishing Time
 
-> To check your offers' publication status, go to the offer's **Overview** page. Look for links under the **Publisher signoff** section as shown below.
+This section exists to let you know that it will take some time before your offer is finished publishing. This is the end of the lab for now as it will take some time for the offer to complete publishing to the **Publisher signoff** stage.
+
+To check your offers' publication status, go to the offer's **Overview** page. Look for links under the **Publisher signoff** section as shown below. Refresh the **Overview** page to get updates on your offer during the publication process.
 
 ![Offer Overview](../lab-images/01.png)
 
-Refresh the **Overview** page to get updates on your offer during the publication process.
-
-> Publishing your offer will take some time. Hopefully your offer will be published to the preview stage by the end of the next lecture. Wait to purchase your offer until it is in preview as shown above.
+> **Note:** If you are in a live workshop event, please raise your hand in Microsoft Teams to indicate you are done with the lab to this point. You will be coming back to finish the rest of Lab 2 later in the workshop.
 
 ## Exercise: Buy Your Offer and Check Your Landing Page
 
-In Partner Center, after the offer is in preview stage, you may purchase it. After the initial purchase, you will then be routed to the landing page for the offer.
+In Partner Center, after the offer is in **Publisher preview** stage, you may subscribe to it. After the initial purchase, you will then be routed to the landing page for the offer.
 
 ## Subscribing to your offer
 
@@ -203,17 +205,11 @@ Once the **Publisher signoff** section has links under it, still **DO NOT** pres
 
 Under the **Publisher signoff** section of the Offer overview page, click the **Azure portal preview** link.
 
-> If you receive the message, "Could not create the marketplace item" or a "404" message, wait another several minutes and try again. The offer is simply still being created. Offer creation can take up to 45 minutes in some cases.
+> If you receive the message, "Could not create the marketplace item" or a "404" message, wait another several minutes and try again. The offer is simply still being created. Preview creation can take up to 45 minutes in some cases.
 
-### Moving to the next lab
+## Purchasing the SaaS offer
 
-If you still can't make your purchase, move on to Lab 3 where you will deploy a publisher portal. This publisher portal is a site wherein publishers can activate a customer's subscription.
-
-Once you have completed lab 3, you may come back and complete this purchase.
-
-### Purchasing the SaaS offer
-
-Once you can click the **Azure portal preview** link in Partner Center, you will see a form to fill out to purchase your SaaS Offer. Move on to the next section.
+Once you can click the **Azure portal preview** link in Partner Center, do so. You will see a form to fill out to purchase your SaaS Offer. Move on to the next section.
 
 **You are now acting in the role of the customer.**
 
@@ -225,9 +221,8 @@ Once you can click the **Azure portal preview** link in Partner Center, you will
 
     > Your subscription is being provisioned. Once it is complete, you will see a **Configure account now** button on the screen.
 
-1. Click the **Configure account now** button. You are taken to the landing page where you see details about the subscription you are buying.
+1. Click the **Configure account now** button. You are taken to the landing page where you see details about the subscription you are buying. Note the marketplace purchase token in the query string.
 
 **Congratulation!** You have finished this lab.
 
 If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
-
