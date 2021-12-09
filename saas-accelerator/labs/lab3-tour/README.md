@@ -4,10 +4,10 @@ In this lab, you will familiarize you with the SaaS Accelerator, both from the c
 
 ## Exercise: Customer purchase 1
 
-As a customer, you will be purchasing the offer. Here, you will do so from within Partner Center. You may do this from the **Overview** page of your offer under the **Partner signoff** stage.
+As a customer, you will be purchasing the offer. Here, you will do so from within Partner Center. You can do this from the **Overview** page of your offer under the **Publisher signoff** stage.
 
 1. Open Partner Center to your offer's **Overview** page.
-1. Find the link under the **Publish signoff** stage.
+1. Find the link under the **Publisher signoff** stage.
 1. Click the **Azure portal preview** link. A new tab opens in your browser.
 1. Login if prompted.
 1. Click the **Set up + subscribe** button.
@@ -18,7 +18,7 @@ As a customer, you will be purchasing the offer. Here, you will do so from withi
 
 The SaaS subscription is created. This may take a minute or two. Once the SaaS subscription has been created, you can move on to the following steps.
 
-## Exercise: Use the first offer's landing page
+## Exercise: The first landing page
 
 In this exercise, you will visit the offer's landing page, provided by the SaaS Accelerator.
 
@@ -55,7 +55,7 @@ As a customer, you will be purchasing the offer. Here, you will do so from withi
 
 The SaaS subscription is being created. This may take a minute or two. Once the SaaS subscription has been created, you can move on to the following steps.
 
-## Exercise: Use the second offer's landing page
+## Exercise: The second landing page
 
 In this exercise, you will visit the offer's landing page, provided by the SaaS Accelerator.
 
@@ -70,12 +70,12 @@ Now you are going to the play the role of the publisher and activate the custome
 
 ### The publisher portal
 
-1. In the SaaS Accelerator's resource group, find the App service for the landing page and click it. It is the one named **<prefix>-admin**.
+1. In the SaaS Accelerator's resource group, find the App service for the landing page and click it. It is the one named **PREFIX-admin**.
 1. In the upper right corner is the URL of the web app. Click the URL.
 1. You should be taken to a web page and receive no errors. If you are prompted to log in, do so.
 1. Click the **Subscriptions** tile. You can see the two subscriptions awaiting activation.
-1. For the **Subscription01** subscription, click the menu under **Action** and select **Activate**.
-1. Note the status of `PendingFulfillmentStart`.
+1. For the `Subscription01` subscription, click the menu under **Action** and select **Activate**.
+1. Note the status.
 1. Click the **Activate** button.
 1. Click the **Go to the subscription list** button and see the new state of the subscription.
 

@@ -69,7 +69,7 @@ The script will take several minutes to run. It may reach a point where it seems
 
 ### Install script errors
 
-If you see errors in the output of the script, cancel the run of the script by typing **CTRL+C**. 
+If you see errors in the output of the script, cancel the run of the script by typing **CTRL+C**.
 
 1. Fix the errors in your install script. 
 1. Change the `RESOURCE_GROUP` and `WEB_NAME_PREFIX` to new values to prevent collisions.
@@ -91,9 +91,9 @@ When the script completes successfully, it will print the values you need for th
 
 ```powershell
 __ Add The following URL in PartnerCenter SaaS Technical Configuration->Landing Page section
-   https://<prefix>-portal.azurewebsites.net/
+   https://PREFIX-portal.azurewebsites.net/
 __ Add The following URL in PartnerCenter SaaS Technical Configuration->Connection Webhook section
-   https://<prefix>-portal.azurewebsites.net/api/AzureWebhook
+   https://PREFIX-portal.azurewebsites.net/api/AzureWebhook
 __ Add The following TenantID in PartnerCenter SaaS Technical Configuration Tenant ID
    e6c97eb2-054c-4b5d-9a30-a064766a9e83
 __ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration->AAD Application ID section
@@ -104,9 +104,9 @@ __ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration
 
 The installer did not complete one part of the installation process. The landing page app registration needs a secret that will be shared with the landing page web application. Here you will create that secret and configure it with the web application.
 
-1. In the command bar at the top of the Azure portal type "App reg" and select App registrations from the menu.
-1. CLick the **All applications** tab.
-1. Find the registration named **<prefix>-FulfillmentApp** and click it.
+1. In the command bar at the top of the Azure portal, type "App reg" and select App registrations from the menu.
+1. Click the **All applications** tab.
+1. Find the registration named **PREFIX-FulfillmentApp** and click it.
 1. In the left menu under **Manage**, click the **Certificates and secrets** menu item.
 1. Click **+ New client secret**.
 1. Enter a name for your secret, like "secret1."
@@ -115,7 +115,7 @@ The installer did not complete one part of the installation process. The landing
 
 ### The portal secret
 
-1. Click the App service named **<prefix>-portal**.
+1. Click the App service named **PREFIX-portal**.
 1. In the left menu, under **Settings** click the **Configuration** menu item.
 1. Scroll down and click the `SaaSApiConfiguration__ClientSecret` application setting.
 1. In the **Value** field, paste in the secret you created earlier.
@@ -125,7 +125,7 @@ The installer did not complete one part of the installation process. The landing
 
 ### The admin secret
 
-1. Click the App service named **<prefix>-admin**.
+1. Click the App service named **PREFIX-admin**.
 1. In the left menu, under **Settings** click the **Configuration** menu item.
 1. Scroll down and click the `SaaSApiConfiguration__ClientSecret` application setting.
 1. In the **Value** field, paste in the secret you created earlier.
@@ -139,13 +139,13 @@ Now you'll verify the two web application are up and running.
 
 ### The landing page
 
-1. In the SaaS Accelerator's resource group, find the App service for the landing page and click it. It is the one named **<prefix>-portal**.
+1. In the SaaS Accelerator's resource group, find the App service for the landing page and click it. It is the one named **PREFIX-portal**.
 1. In the upper right corner is the URL of the web app. Click the URL.
 1. You should be taken to a web page and receive no errors.
 
 ### The publisher portal
 
-1. In the SaaS Accelerator's resource group, find the App service for the landing page and click it. It is the one named **<prefix>-admin**.
+1. In the SaaS Accelerator's resource group, find the App service for the landing page and click it. It is the one named **PREFIX-admin**.
 1. In the upper right corner is the URL of the web app. Click the URL.
 1. You should be taken to a web page and receive no errors. If you are prompted to log in, do so.
 
