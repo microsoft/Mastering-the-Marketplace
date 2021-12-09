@@ -1,4 +1,4 @@
-# Mastering the Marketplace Technical Learning Series
+# Mastering the Marketplace Technical Learning Library
 
 This repository contains self-paced videos, hands-on labs, and sample code, that constitute the Mastering the Marketplace series. This resource is dedicated to helping you bring your solution to the Microsoft commercial marketplace faster than you would be able to without these learning modules.
 
