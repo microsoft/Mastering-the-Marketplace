@@ -2,4 +2,6 @@ title: Mastering the Marketplace
 description: The learning resource for the Microsoft marketplace
 show_downloads: true
 logo: /images/Azure_Store_Marketplace.png
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme
