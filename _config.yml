@@ -1,8 +1,4 @@
 theme: minima
-
-plugins:
- - jekyll-feed
- - jekyll-seo-tag
  
 title: Mastering the Marketplace
 description: The learning resource for the Microsoft marketplace
