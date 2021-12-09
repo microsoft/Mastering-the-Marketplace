@@ -75,7 +75,7 @@ Now you are going to the play the role of the publisher and activate the custome
 1. You should be taken to a web page and receive no errors. If you are prompted to log in, do so.
 1. Click the **Subscriptions** tile. You can see the two subscriptions awaiting activation.
 1. For the `Subscription01` subscription, click the menu under **Action** and select **Activate**.
-1. Note the status of `PendingFulfillmentStart`.
+1. Note the status.
 1. Click the **Activate** button.
 1. Click the **Go to the subscription list** button and see the new state of the subscription.
 
