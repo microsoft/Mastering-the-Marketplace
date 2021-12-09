@@ -38,12 +38,12 @@ In your text editor, replace each of the ALL_CAPS values. They are described bel
 The following values are optional and typically used for a more customized deployment. We will not be using these parameters in this lab, but you can experiment with them on your own.
 
 ```powershell
--TenantID "xxxx-xxx-xxx-xxx-xxxx" `
--AzureSubscriptionID "xxx-xx-xx-xx-xxxx" `
--ADApplicationID "xxxx-xxx-xxx-xxx-xxxx" `
--ADApplicationSecret "xxxx-xxx-xxx-xxx-xxxx" `
--ADMTApplicationID "xxxx-xxx-xxx-xxx-xxxx" `
--LogoURLpng "https://company_com/company_logo.png" `
+-TenantID "xxxx-xxx-xxx-xxx-xxxx"
+-AzureSubscriptionID "xxx-xx-xx-xx-xxxx"
+-ADApplicationID "xxxx-xxx-xxx-xxx-xxxx"
+-ADApplicationSecret "xxxx-xxx-xxx-xxx-xxxx"
+-ADMTApplicationID "xxxx-xxx-xxx-xxx-xxxx"
+-LogoURLpng "https://company_com/company_logo.png"
 -LogoURLico "https://company_com/company_logo.ico"
 ```
 
