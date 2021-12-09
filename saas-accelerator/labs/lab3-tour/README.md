@@ -4,13 +4,13 @@ In this lab you will familiarize you with the SaaS Accelerator, both from custom
 
 ## Exercise: Customer purchase 1
 
-As a customer, you will be purchasing the offer. Here, you will do so from within Partner Center. You may do this from the **Overview** page of your offer under the **Partner signoff** stage.
+As a customer, you will be purchasing the offer. Here, you will do so from within Partner Center. You can do this from the **Overview** page of your offer under the **Publisher signoff** stage.
 
 1. Open Partner Center to your offer's **Overview** page.
 1. Find the link under the **Publisher signoff** stage.
 1. Click the **Azure portal preview** link. A new tab opens in your browser.
 1. Login if prompted.
-1. CLick the **Set up + subscribe** button.
+1. Click the **Set up + subscribe** button.
 1. Create a new resource group named `saas-accelerator-purchases`.
 1. Under **SaaS details**, name your subscription `Subscription01`.
 1. Click the **Review + subscribe** button at the bottom of the page.
@@ -47,7 +47,7 @@ As a customer, you will be purchasing the offer. Here, you will do so from withi
 1. Under the search text box, click the **See more in Marketplace** link.
 1. At the top of the screen, you'll see the text, **You have private products available. View private products**. Click the **View private products** link.
 1. Find the **SaaS Accelerator 1** offer and click it.
-1. CLick the **Set up + subscribe** button.
+1. Click the **Set up + subscribe** button.
 1. Select the resource group you created earlier, `saas-accelerator-purchases`.
 1. Under **SaaS details**, name your subscription `Subscription02`.
 1. Click the **Review + subscribe** button at the bottom of the page.
