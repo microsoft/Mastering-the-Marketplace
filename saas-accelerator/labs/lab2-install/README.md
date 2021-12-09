@@ -47,6 +47,8 @@ The following values are optional and typically used for a more customized deplo
 -LogoURLico "https://company_com/company_logo.ico"
 ```
 
+[See here](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#parameters) for explanations of all parameters.
+
 ## Exercise: Opening the cloud shell
 
 In the Azure portal, click the button next to the command bar as shown in the image below.
