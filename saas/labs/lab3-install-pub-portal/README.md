@@ -4,7 +4,7 @@ This is a quick lab in which you will create one app registration and deploy a s
 
 ## Exercise: Create an app registration
 
-In this exercise you will create a single-tenant app registration for the internal Publisher Portal application. This allows accounts you designate within your own tenant to access the application.
+In this exercise, you will create a single-tenant app registration for the internal Publisher Portal application. This allows accounts you designate within your own tenant to access the application.
 
 1. Log in to the Azure portal.
 1. In the top-of-center command window in the portal, type "app reg" and select the item "App registrations" that appears. You will see a list of current app registrations.
@@ -31,7 +31,7 @@ Now you configure the `appsettings.json` file for the Publisher Portal applicati
 
 1. In Visual Studio, open the `appsetting.json` file in the **PublisherPortal** project.
 1. Replace `YOUR_DOMAIN` with the same value you use in the `appsettings.json` file for the LandingPage project.
-1. Replace `TENANT_ID` use the Tenant ID of the tenant you are working in. To find the Tenant ID, do the following.
+1. Replace `TENANT_ID` with the Tenant ID of the tenant you are working in. To find the Tenant ID, do the following.
     1. Type **Tenant** into the command bar at the top of the Azure portal and select **Tenant properties**.
     1. Find the **Tenant ID** field and copy the value into the `appsettings.json` file.
 1. Replace `CLIENT_ID` with the **Application (client) ID** of the app registration you created in the above exercise.
@@ -43,7 +43,7 @@ For the `MarketplaceApi` section, you may copy and paste the section from the La
 
 ## Exercise: Create an App Service and publish profile for the Publisher Portal application
 
-In this section you'll create an App Service for your new portal so you can publish it in the next step.
+In this section, you'll create an App Service for your new portal so you can publish it in the next step.
 
 1. Right click the project in Visual Studio and select **Publish**.
 1. Select **Azure** as your target and then click the **Next** button.
@@ -72,11 +72,10 @@ If you haven't completed Lab 2 by subscribing to your offer, please go do so now
 
 This exercise puts you in the place of the customer, and you will request your subscription be activated by the publisher.
 
-1. In the command text box at the top of the Azure portal type "SaaS" and select **SaaS** from the dropdown. This takes you to the SaaS management page where you can monitor and manage all your SaaS offers.
-1. Click the SaaS offer you subscribed to in Lab 2.
-Not that it is the `Pending Configuration` state. The publisher has not provisioned your account yet.
+1. In the command text box at the top of the Azure portal, type "SaaS" and select **SaaS** from the dropdown. This takes you to the SaaS management page where you can monitor and manage all your SaaS offers.
+1. Click the SaaS offer you subscribed to in Lab 2. Note that it is the `Pending Configuration` state. The publisher has not provisioned your account yet.
 1. Click the **Configure account now** button. This takes you to the offer's landing page.
-1. Under the **Available Customer Actions** section click the link for **Notify publisher to activate account**. This emulates sending a notice to your publisher that you want to activate your subscription.
+1. Under the **Available Customer Actions** section, click the link for **Notify publisher to activate account**. This emulates sending a notice to your publisher that you want to activate your subscription.
 
 ## Exercise: As the publisher, activate the customer's subscription
 
@@ -95,7 +94,7 @@ This exercise puts you back in the role of the publisher, and you will activate 
 1. Go back to the SaaS management screen and find your subscription. It likely still reads `Pending configuration`.
 1. This page caches the state of the subscriptions and updates every few minutes. Try refreshing the page occasionally until it reads `Subscribed`.
 
-**Congratulation!** You have finished this lab.
+**Congratulations!** You have finished this lab.
 
 If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
 
