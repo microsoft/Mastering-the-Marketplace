@@ -7,7 +7,7 @@ In this lab you will familiarize you with the SaaS Accelerator, both from custom
 As a customer, you will be purchasing the offer. Here, you will do so from within Partner Center. You may do this from the **Overview** page of your offer under the **Partner signoff** stage.
 
 1. Open Partner Center to your offer's **Overview** page.
-1. Find the link under the **Publish signoff** stage.
+1. Find the link under the **Publisher signoff** stage.
 1. Click the **Azure portal preview** link. A new tab opens in your browser.
 1. Login if prompted.
 1. CLick the **Set up + subscribe** button.
@@ -18,7 +18,7 @@ As a customer, you will be purchasing the offer. Here, you will do so from withi
 
 The SaaS subscription is created. This may take a minute or two. Once the SaaS subscription has been created, you can move on to the following steps.
 
-## Exercise: Use the first offer's landing page
+## Exercise: The first landing page
 
 In this exercise, you will visit the offer's landing page, provided by the SaaS Accelerator.
 
@@ -55,7 +55,7 @@ As a customer, you will be purchasing the offer. Here, you will do so from withi
 
 The SaaS subscription is being created. This may take a minute or two. Once the SaaS subscription has been created, you can move on to the following steps.
 
-## Exercise: Use the second offer's landing page
+## Exercise: The second landing page
 
 In this exercise, you will visit the offer's landing page, provided by the SaaS Accelerator.
 
