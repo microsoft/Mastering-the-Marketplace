@@ -1,4 +1,5 @@
+theme: jekyll-theme-cayman
+
 title: Mastering the Marketplace
 description: The learning resource for the Microsoft marketplace
 show_downloads: true
-theme: jekyll-theme-cayman
