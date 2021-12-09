@@ -6,7 +6,7 @@ These videos are a complete course focused on bringing your Azure Managed Applic
 
 There are also hands-on-labs that you may do yourself to further cement your new skills.
 
-## Table of Contents
+## Video Learning Modules
 
 1. [Introduction](https://www.youtube.com/watch?v=WxQ0tkd8dYU&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=1)
 1. [Azure Applications Overview](https://www.youtube.com/watch?v=P6Z8rdNkgKs&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=2)
@@ -27,7 +27,7 @@ There are also hands-on-labs that you may do yourself to further cement your new
 1. [Managed Identities](https://www.youtube.com/watch?v=7ZOTgD48azI&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=17)
 1. [Resources and Closing](https://www.youtube.com/watch?v=jKg6eBPv4PY&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=18)
 
-## Hands-on-Labs
+## Hands-on Labs
 
 Hands-on-Labs are announced within the videos if you are watching the videos sequentially. 
 The labs may also be taken at any time as a stand-alone experience with no other context required.

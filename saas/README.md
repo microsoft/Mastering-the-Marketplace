@@ -2,9 +2,7 @@
 
 These learning modules are designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace. 
 
-> **This content is currently under development and will be released incrementally as it is created.**
-
-### Table of Contents
+## Video Learning Modules
 
 1. [SaaS Offer Overview](#saas-offer-overview)
 1. [Purchasing a SaaS Offer](#purchasing-a-saas-offer)

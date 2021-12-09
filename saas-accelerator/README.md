@@ -6,7 +6,7 @@ The goal of the SaaS Accelerator is to provide a fully functional reference impl
 
 > This content is currently under development and will be released incrementally as it is created.
 
-## Table of Contents
+## Video Learning Modules
 
 1. SaaS Accelerator Overview
 1. SaaS Accelerator Architecture
