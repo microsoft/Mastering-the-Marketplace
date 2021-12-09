@@ -24,7 +24,7 @@ git clone https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator.git -
 
 In your text editor, replace each of the ALL_CAPS values. They are described below.
 
-| Parameter Value | Description and notes |
+| Parameter value | Description and notes |
 |---|---|
 | **ADMIN_USER_EMAIL** | The email of the admin for the SaaS solution that will be deployed. This should be an email tied to an Azure subscription. |
 | **RESOURCE_GROUP** | The name of the resource group you want to deploy the SaaS solution into. For the purposes of this lab, consider using `saas-accelerator`. |
@@ -65,11 +65,27 @@ This opens the the PowerShell cloud shell, which is a command line that runs dir
 
 The script will take several minutes to run. It may reach a point where it seems nothing is happening, but just wait through the entire install. It typically takes eight minutes or so.
 
-Once the script completes, you may close the cloud shell by clicking the cloud shell button you used to open it.
+### Install script errors
 
-If you see errors in the output of the script, cancel the run of the script by typing **CTRL+C**. Fix the errors and run the script again using a different name for the resources in the parameters to avoid collisions of resources during install.
+If you see errors in the output of the script, cancel the run of the script by typing **CTRL+C**. 
 
-When the script completes successfully, it will print the values you need for the Technical Configuration tab in Partner Center. It will look something like this.
+1. Fix the errors in your install script. 
+1. Change the `RESOURCE_GROUP` and `WEB_NAME_PREFIX` to new values to prevent collisions.
+1. In the cloud shell, do the following.
+
+   ```bash
+   # go back to home directory
+   cd ~
+
+   # delete the repository directory that was created
+   rm -rf ./Commercial-Marketplace-SaaS-Accelerator/
+   ```
+
+1. Run the revised script.
+
+### Successful install script
+
+When the script completes successfully, it will print the values you need for the Technical Configuration tab in Partner Center. It will look something like this. Copy this information to a note or file so you can retrieve it in case you close the browser window.
 
 ```powershell
 __ Add The following URL in PartnerCenter SaaS Technical Configuration->Landing Page section
