@@ -104,7 +104,7 @@ __ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration
 
 The installer did not complete one part of the installation process. The landing page app registration needs a secret that will be shared with the landing page web application. Here you will create that secret and configure it with the web application.
 
-1. In the command bar at the top fo the Azure portal type "App reg" and select App registrations from the menu.
+1. In the command bar at the top of the Azure portal, type "App reg" and select App registrations from the menu.
 1. Click the **All applications** tab.
 1. Find the registration named **PREFIX-FulfillmentApp** and click it.
 1. In the left menu under **Manage**, click the **Certificates and secrets** menu item.
@@ -159,7 +159,7 @@ Now you'll verify the two web application are up and running.
 
 Publication will take a while. Only after publication completes can you do the next lab.
 
-**Congratulation!** You have finished this lab.
+**Congratulations!** You have finished this lab.
 
 If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
 

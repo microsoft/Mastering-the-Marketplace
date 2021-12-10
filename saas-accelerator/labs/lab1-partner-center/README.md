@@ -151,7 +151,7 @@ The Plan has several components to it, all of which must be completed.
 
 ## Exercise: Resell through CSPs
 
-1. Open the lef-hand menu item.
+1. Open the left-hand menu item.
 1. Select "No partners in the CSP program."
 1. Click the **Save draft** button at the bottom of the screen.
 
@@ -168,6 +168,6 @@ In this short exercise, you will check your work by performing the first action 
 1. Go back to all sections that appear with a gray circle and complete those sections.
 1. Ensure all sections pass except **Technical configuration**, which will be addressed in the next lab.
 
-**Congratulation!** You have finished this lab.
+**Congratulations!** You have finished this lab.
 
 If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
