@@ -1,7 +1,0 @@
-remote_theme: pages-themes/minimal@v0.2.0
-title: Mastering the Marketplace
-description: The learning resource for the Microsoft marketplace
-show_downloads: true
-plugins:
-- jekyll-remote-theme
-logo: /images/Azure_Store_Marketplace.png
