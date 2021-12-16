@@ -6,7 +6,7 @@ The goal of the SaaS Accelerator project is to provide a fully functional refere
 
 ## Video Learning Modules
 
-1. [A SaaS Accelerator Hands-on Tour - The Basics](#a-saas-accelerator-hands-on-tour---the-basics)
+1. [A SaaS Accelerator Hands-on Tour - The Basics](#a-saas-accelerator-hands-on-tour---the-basics) (Introduction to the SaaS Accelerator)
 1. [SaaS Accelerator Architecture](#saas-accelerator-architecture)
 1. [Installing the SaaS Accelerator](#installing-the-saas-accelerator-with-the-installer)
 
