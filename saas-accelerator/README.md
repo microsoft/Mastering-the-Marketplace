@@ -8,14 +8,13 @@ The goal of the SaaS Accelerator project is to provide a fully functional refere
 
 1. [A SaaS Accelerator Hands-on Tour - The Basics](#a-saas-accelerator-hands-on-tour---the-basics) (Introduction to the SaaS Accelerator)
 1. [SaaS Accelerator Architecture](#saas-accelerator-architecture)
-1. [Installing the SaaS Accelerator](#installing-the-saas-accelerator-with-the-installer)
+1. [Installing the SaaS Accelerator With the Install Script](#installing-the-saas-accelerator-with-the-install-script)
 
+## Hands-on Labs
 
-## Hands-on labs
-
-1. [Preparing Partner Center](./labs/lab1-partner-center)
-2. [Installing the Accelerator](./labs/lab2-install)
-3. [Touring the Accelerator](./labs/lab3-tour)
+1. [Preparing Partner Center](./labs/lab1-partner-center/README.md)
+2. [Installing the Accelerator](./labs/lab2-install/README.md)
+3. [Touring the Accelerator](./labs/lab3-tour/README.md)
 
 ---
 
@@ -37,6 +36,6 @@ This quick video covers the overall architecture of the SaaS Accelerator. The ar
 
 [Video](https://youtu.be/BVZTj6fssQ8) | [PDF](./pdfs/21-Installing-the-SaaS-Accelerator.pdf)
 
-Installing the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. This is not a review of the SaaS Accelerator’s functionality. For that, please see the video, “SaaS Accelerator Overview.”
+Installing the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. 
 
-This video will get you up and running with the SaaS Accelerator in no time at all!
+This video will get you up and running with the SaaS Accelerator in no time at all! You will need to copy and paste some [PowerShell script from here](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#installating-the-azure-marketplace-saas-accelerator-using-azure-cloud-shell).
