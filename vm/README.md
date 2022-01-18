@@ -1,37 +1,12 @@
 # The Virtual Machine Accelerator Course
 
-This learning series is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator).
+This learning series is designed to help you speed your time to publish your virtual machine offer to the Microsoft commercial marketplace. 
 
-The goal of the SaaS Accelerator project is to provide a fully functional reference implementation with sample code for developers interested in publishing transactable SaaS offers in Microsoft's commercial marketplace.
+The VM offer videos are currently community content, however adding more videos to this series is on our immediate backlog. Stay tuned for more videos in this course.
 
 ## Video Learning Modules
 
-1. [A SaaS Accelerator Hands-on Tour - The Basics](#a-saas-accelerator-hands-on-tour---the-basics) (Introduction to the SaaS Accelerator)
-1. [SaaS Accelerator Architecture](#saas-accelerator-architecture)
-1. [Installing the SaaS Accelerator With the Install Script](#installing-the-saas-accelerator-with-the-install-script)
-
-
-
----
-
-### A SaaS Accelerator Hands-on Tour - The Basics
-
-[Video](https://youtu.be/I9bQlhjNa_8)
-
-This introduction to the accelerator demonstrates the [SaaS Accelerator's](https://aka.ms/SaaSAccelerator) core capabilities showing why it may be a good choice for your marketplace SaaS offer. In three short demos, this video shows its fundamental capabilities. 
-
-You'll see the landing page, the publisher's subscription management portal, and the customer's subscription management capabilities in action!
-
-### SaaS Accelerator Architecture
-
-[Video](https://youtu.be/mVosyz61z3I) | [PDF](./pdfs/03-architecture.pdf)
-
-This quick video covers the overall architecture of the SaaS Accelerator. The architecture is straightforward and is explained in plain language appropriate for those with any level of experience with Azure.
-
-### Installing the SaaS Accelerator With the Install Script
-
-[Video](https://youtu.be/BVZTj6fssQ8) | [PDF](./pdfs/21-Installing-the-SaaS-Accelerator.pdf)
-
-Installing the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. 
-
-This video will get you up and running with the SaaS Accelerator in no time at all! You will need to copy and paste some [PowerShell script from here](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#installating-the-azure-marketplace-saas-accelerator-using-azure-cloud-shell).
+1. [Create Azure VM image for Azure Marketplace Virtual Machine Offer using Packer with VHD destination](https://youtu.be/AcsXUuYCvQw)
+1. [Create VM image for Azure Marketplace Virtual Machine Offer using Packer with Shared Image Gallery](https://youtu.be/FVPiecI5r3s)
+1. [Deploying and testing "Preview" Azure VM Offer published in Azure Marketplace](https://youtu.be/BJjdoHAIap8)
+1. [Using Self-Test API to validate VM images for publishing in Azure Marketplace](https://youtu.be/le-h-S4_jIA)
