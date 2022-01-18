@@ -1,4 +1,4 @@
-# Azure Managed Applications Offers
+# Azure Managed Applications Course
 
 The learning modules in this course are primarily clips of an in-person online learning class focused on Mastering Azure Managed Applications. The videos have been edited to be topically-based so you needn't watch the entire 6-hour course.
 

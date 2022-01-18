@@ -6,17 +6,21 @@ This repository contains self-paced videos, hands-on labs, and sample code that 
 
 These courses are created for a technical audience.
 
-## [SaaS Offers](./saas/README.md)
+## [SaaS Offers Course](./saas/README.md)
 
 This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.
 
-## [The SaaS Accelerator](./saas-accelerator/README.md)
+## [The SaaS Accelerator Course](./saas-accelerator/README.md)
 
 This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project. The SaaS Accelerator provides a fully functional community-led reference implementation with sample code for developers interested in publishing transactable SaaS offers in Microsoft's marketplace.
 
-## [Azure Managed Application Offers](./ama/README.md)
+## [Azure Managed Application Offers Course](./ama/README.md)
 
 This series of video modules and hands-on labs is designed to help you decrease your on-boarding time with building a Managed Application offer. The modules are recordings of an actual live classroom experience and are divided into small digestible modules for easy consumption.
+
+## [Virtual Machine Offers Course](./vm/README.md)
+
+This series of videos modules is designed to help you decrease your on-boarding time with building a virtual machine offer. 
 
 ## Suggest New Content or Provide Feedback
 

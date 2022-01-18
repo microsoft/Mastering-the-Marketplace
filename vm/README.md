@@ -1,4 +1,4 @@
-# The SaaS Accelerator Course
+# The Virtual Machine Accelerator Course
 
 This learning series is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator).
 
@@ -10,11 +10,7 @@ The goal of the SaaS Accelerator project is to provide a fully functional refere
 1. [SaaS Accelerator Architecture](#saas-accelerator-architecture)
 1. [Installing the SaaS Accelerator With the Install Script](#installing-the-saas-accelerator-with-the-install-script)
 
-## Hands-on Labs
 
-1. [Preparing Partner Center](./labs/lab1-partner-center/README.md)
-2. [Installing the Accelerator](./labs/lab2-install/README.md)
-3. [Touring the Accelerator](./labs/lab3-tour/README.md)
 
 ---
 
