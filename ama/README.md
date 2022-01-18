@@ -6,7 +6,7 @@ These videos are a complete course focused on bringing your Azure Managed Applic
 
 There are also hands-on-labs that you may do yourself to further cement your new skills.
 
-## Video Learning Modules
+## Video Learning Modules from Hands-on Workshop
 
 1. [Introduction](https://www.youtube.com/watch?v=WxQ0tkd8dYU&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=1)
 1. [Azure Applications Overview](https://www.youtube.com/watch?v=P6Z8rdNkgKs&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=2)
@@ -26,6 +26,13 @@ There are also hands-on-labs that you may do yourself to further cement your new
 1. [Custom Resources and Resource Providers](https://www.youtube.com/watch?v=v-tmK-gYvww&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=16)
 1. [Managed Identities](https://www.youtube.com/watch?v=7ZOTgD48azI&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=17)
 1. [Resources and Closing](https://www.youtube.com/watch?v=jKg6eBPv4PY&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=18)
+
+## Other Video Learning
+
+1. [Creating and testing a simple Azure Managed Application in the developer's Azure subscription](https://youtu.be/eCGFmUirLGU)
+1. [Publishing Azure Managed App in Partner Center and testing in end-customer’s Azure subscription](https://youtu.be/3ODHzEjomro)
+1. [Using Partner Center Ingestion API for managing "Azure Application" offers in Azure Marketplace](https://youtu.be/omEjvvF9g6Y)
+1. [Refreshing Azure Managed Application permissions and using Managed App's Identity](https://youtu.be/sDjY_mD3fqY)
 
 ## Hands-on Labs
 
