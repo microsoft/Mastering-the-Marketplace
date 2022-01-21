@@ -1,4 +1,4 @@
-# The Virtual Machine Accelerator Course
+# Virtual Machine Series
 
 This learning series is designed to help you speed your time to publish your virtual machine offer to the Microsoft commercial marketplace. 
 

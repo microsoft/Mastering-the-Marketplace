@@ -1,4 +1,4 @@
-# SaaS Offers Course
+# SaaS Offer Series
 
 These learning modules are designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace. 
 
