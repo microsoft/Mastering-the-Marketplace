@@ -74,6 +74,7 @@ This may take a few moments for the site to publish. You can monitor publish pro
 1. In the command bar at the top of the Azure portal, search for and select **App registrations**.
 1. Click on the `saas-workshop-publisher` app registration.
 1. In the left-hand menu click the **Authentication** link.
+1. Click on **Add a platform** under **Platform configurations**.
 1. In the **Web > Redirect URIs** section, click **Add URI** and paste in your publisher portal application URL.
 1. Paste it in again on another line, this time adding a suffix of `/signin-oidc` so that your URI looks something like this.
 
