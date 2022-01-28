@@ -64,7 +64,24 @@ Now that you are back to the publish dialog, just click the Publish button in th
 
 This may take a few moments for the site to publish. You can monitor publish progress in Visual Studio's output window.
 
-After the website publishes, it will launch in your browser. After authenticating you will see all the subscriptions to your offers. If you completed Lab 2, there should be at least one purchased subscription.
+> The page will launch, but shows an error message. You aren't quite done configuring the publisher portal application.
+
+### Update the application registration
+
+1. In the command bar at the top of the Azure portal, search for and select **App Services**.
+1. Click on the App Service you've just created, **SaaSWorkshopPublisherPortal** with a number suffix.
+1. On the overview screen in Visual Studio, the **URL** for the site should be in the **Hosting** section. Copy it into your paste buffer.
+1. In the command bar at the top of the Azure portal, search for and select **App registrations**.
+1. Click on the `saas-workshop-publisher` app registration.
+1. In the left-hand menu click the **Authentication** link.
+1. In the **Web > Redirect URIs** section, click **Add URI** and paste in your publisher portal application URL.
+1. Paste it in again on another line, this time adding a suffix of `/signin-oidc` so that your URI looks something like this.
+
+    > https://*.azurewebsites.net/signin-oidc
+
+Click the **Save** button at the top of the screen.
+Using the App Service URL `https://<prefix>.azurewebsites.net`, browse to that web page
+After authenticating you will see all the subscriptions to your offers. If you completed Lab 2, there should be at least one purchased subscription.
 
 If you haven't completed Lab 2 by subscribing to your offer, please go do so now.
 
