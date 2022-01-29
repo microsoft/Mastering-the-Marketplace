@@ -18,6 +18,8 @@ These learning modules are designed to help you speed your time to publish your 
 1. [SaaS Webhook Overview](#saas-webhook-overview)
 1. [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
 1. [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
+1. [SaaS Metered Billing Overview](#saas-metered-billing-overview)
+1. [The SaaS Metered Billing API with REST](#the-saas-metered-billing-api-with-rest)
 
 ## Hands-on Labs
 
@@ -177,3 +179,19 @@ This code-heavy module focuses on the fundamentals of implementing a SaaS offer 
 This security-focused module introduces several techniques for securing a SaaS offer webhook and then dives into code looking at implementations of the techniques presented. This module builds on the concepts and code presented in the module, “[Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)”.
 
 Although utilizing an Azure function built in .NET, topics are presented in such a way as to be architecture and technology stack agnostic.
+
+## SaaS Metered Billing Overview
+
+[Video](https://www.youtube.com/watch?v=DJQ-2-wh6vU) | [PDF](./pdfs/11.1-saas-metered-billing-overview.pdf)
+
+This module presents the fundamentals of billing through the marketplace based on usage, or metered billing. IT covers several areas of metered billing including the following.
+
+1. How to configure Partner Center
+1. The flow of API operations needed to use the SaaS billing API
+1. Resources to save you time in building your SaaS application
+
+## The SaaS Metered Billing API with REST
+
+[Video](https://www.youtube.com/watch?v=dcoSzngO3MQ)
+
+We exercise the SaaS Billing REST API using Postman to illustrate how the API works. You’ll learn how the inputs to each API event and how to use the results, and finally how to invoke usage events in the metering API itself. This module is primarily demo.
