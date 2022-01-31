@@ -40,7 +40,7 @@ Hands-on-Labs are announced within the videos if you are watching the videos seq
 The labs may also be taken at any time as a stand-alone experience with no other context required.
 
 - Lab 1 - [Your first Azure Managed Application](./labs/lab-1/lab-1.md)
-- Lab 2 - [Partner Center Walkthrough 1](./labs/lab-2/index.html)
+- Lab 2 - [Partner Center Walkthrough 1](https://microsoft.github.io/Mastering-the-Marketplace/ama/labs/lab-2/index.html)
 - Lab 3 - [Customizing the Managed Application UX](./labs/lab-3/lab-3.md)
 - Lab 4 - [Working with Customer Providers and Resources](./labs/lab-4/lab-4.md)
 
