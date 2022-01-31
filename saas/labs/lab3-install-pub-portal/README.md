@@ -75,14 +75,16 @@ This may take a few moments for the site to publish. You can monitor publish pro
 1. Click on the `saas-workshop-publisher` app registration.
 1. In the left-hand menu click the **Authentication** link.
 1. Click on **Add a platform** under **Platform configurations**.
-1. In the **Web > Redirect URIs** section, click **Add URI** and paste in your publisher portal application URL.
-1. Paste it in again on another line, this time adding a suffix of `/signin-oidc` so that your URI looks something like this.
+1. Select **Web** tile under **Configure platforms**.
+1. Paste in your publisher portal application URL under **Redirect URIs** and click **Configure**.
+1. In the **Web > Redirect URIs** section, click **Add URI**.  
+1. Paste your publisher portal application URL in again on another line, this time adding a suffix of `/signin-oidc` so that your URI looks something like this.
 
     > https://*.azurewebsites.net/signin-oidc
 
-Click the **Save** button at the top of the screen.
-Using the App Service URL `https://<prefix>.azurewebsites.net`, browse to that web page
-After authenticating you will see all the subscriptions to your offers. If you completed Lab 2, there should be at least one purchased subscription.
+1. Click the **Save** button at the top of the screen. 
+
+Using the App Service URL `https://<prefix>.azurewebsites.net`, browse to that web page. After authenticating you will see all the subscriptions to your offers. If you completed Lab 2, there should be at least one purchased subscription.
 
 If you haven't completed Lab 2 by subscribing to your offer, please go do so now.
 
