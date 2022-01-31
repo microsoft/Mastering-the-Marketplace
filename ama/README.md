@@ -44,6 +44,9 @@ The labs may also be taken at any time as a stand-alone experience with no other
 - Lab 3 - [Customizing the Managed Application UX](./labs/lab-3/lab-3.md)
 - Lab 4 - [Working with Customer Providers and Resources](./labs/lab-4/lab-4.md)
 
+
+## Samples and Demos
+- [Custom Metered Billing](./demo-code/ama-metered-demo/managed-application-custom-billing/README.md) 
 ## Please help us improve this content for you
 
 We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/Y087k7aLkL) on the materials and to share your ideas for making this content better for you.

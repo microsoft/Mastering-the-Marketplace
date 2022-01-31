@@ -1,0 +1,287 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "type": "string",
+            "defaultValue": "[resourceGroup().location]",
+            "metadata": {
+                "description": "Location for the resources."
+            }
+        },
+        "functionName": {
+            "type": "string",
+            "defaultValue": "[uniqueString(resourceGroup().id)]",
+            "metadata": {
+                "description": "Unique name of the function app to be created."
+            }
+        },
+        "urlSignature": {
+            "type": "string",
+            "defaultValue": "[newGuid()]",
+            "metadata": {
+                "description": "The signature token to protect the webhook endpoint."
+            }
+        },
+        "dimensionConfig": {
+            "type": "string",
+            "defaultValue": "[[{\"dimension\":\"firstDimension\", \"quantity\":3}, {\"dimension\":\"secondDimension\", \"quantity\":1000}]",
+            "metadata": {
+                "description": "The dimension and quantity config for the chron job to send billing metrics."
+            }
+        },
+        "marketplaceUri": {
+            "type": "string",
+            "defaultValue": "https://marketplaceapi.microsoft.com/api/usageEvent?api-version=2018-08-31",
+            "metadata": {
+                "description": "The marketplace URI that the app calls to report usage."
+            }
+        },
+        "tokenResource": {
+            "type": "string",
+            "defaultValue": "20e940b3-4c77-4b0b-9a53-9e16a1b010a7",
+            "metadata": {
+                "description": "The resource against which the token for the marketplace is acquired as per https://docs.microsoft.com/en-us/azure/marketplace/partner-center-portal/pc-saas-registration."
+            }
+        },
+        "_artifactsLocation": {
+            "type": "string",
+            "metadata": {
+                "description": "The base URI where artifacts Zip file  required by this template are located. When the template is deployed using the accompanying scripts, a private location in the subscription will be used and this value will be automatically generated."
+            },
+            "defaultValue": ""
+        },
+        "_artifactsLocationSasToken": {
+            "type": "securestring",
+            "metadata": {
+                "description": "This is an Optional: The sasToken required to access _artifactsLocation.  When the template is deployed using the accompanying scripts, a sasToken will be automatically generated."
+            },
+            "defaultValue": ""
+        }
+    },
+    "variables": {
+        "cosmosDBDatabaseName": "Applications",
+        "cosmosDBContainerName": "Billing",
+        "resourceName": "[toLower(take(concat(parameters('functionName'),uniqueString(resourceGroup().id)),24))]",
+        "cosmosDBAccountName": "[variables('resourceName')]",
+        "storageAccountName": "[variables('resourceName')]",
+        "identityName": "[variables('resourceName')]",
+        "appInsightsName": "[variables('resourceName')]"
+    },
+    "resources": [
+        {
+            "type": "Microsoft.DocumentDB/databaseAccounts",
+            "apiVersion": "2019-08-01",
+            "name": "[variables('cosmosDBAccountName')]",
+            "location": "[parameters('location')]",
+            "tags": {
+                "defaultExperience": "Core (SQL)"
+            },
+            "kind": "GlobalDocumentDB",
+            "properties": {
+                "enableAutomaticFailover": false,
+                "enableMultipleWriteLocations": false,
+                "isVirtualNetworkFilterEnabled": false,
+                "disableKeyBasedMetadataWriteAccess": false,
+                "databaseAccountOfferType": "Standard",
+                "consistencyPolicy": {
+                    "defaultConsistencyLevel": "Session",
+                    "maxIntervalInSeconds": 5,
+                    "maxStalenessPrefix": 100
+                },
+                "locations": [
+                    {
+                        "locationName": "[parameters('location')]",
+                        "failoverPriority": 0,
+                        "isZoneRedundant": false
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Microsoft.DocumentDB/databaseAccounts/sqlDatabases",
+            "apiVersion": "2019-08-01",
+            "name": "[concat(variables('cosmosDBAccountName'), '/', variables('cosmosDBDatabaseName'))]",
+            "dependsOn": [
+                "[resourceId('Microsoft.DocumentDB/databaseAccounts', variables('cosmosDBAccountName'))]"
+            ],
+            "properties": {
+                "resource": {
+                    "id": "[variables('cosmosDBDatabaseName')]"
+                }
+            }
+        },
+        {
+            "type": "Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers",
+            "apiVersion": "2019-08-01",
+            "name": "[concat(variables('cosmosDBAccountName'), '/', variables('cosmosDBDatabaseName'), '/', variables('cosmosDBContainerName'))]",
+            "dependsOn": [
+                "[resourceId('Microsoft.DocumentDB/databaseAccounts/sqlDatabases', variables('cosmosDBAccountName'), variables('cosmosDBDatabaseName'))]",
+                "[resourceId('Microsoft.DocumentDB/databaseAccounts', variables('cosmosDBAccountName'))]"
+            ],
+            "properties": {
+                "resource": {
+                    "id": "[variables('cosmosDBContainerName')]",
+                    "indexingPolicy": {
+                        "indexingMode": "consistent",
+                        "automatic": true,
+                        "includedPaths": [
+                            {
+                                "path": "/*"
+                            }
+                        ],
+                        "excludedPaths": [
+                            {
+                                "path": "/\"_etag\"/?"
+                            }
+                        ]
+                    },
+                    "partitionKey": {
+                        "paths": [
+                            "/planId"
+                        ],
+                        "kind": "Hash"
+                    },
+                    "conflictResolutionPolicy": {
+                        "mode": "LastWriterWins",
+                        "conflictResolutionPath": "/_ts"
+                    }
+                }
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2019-06-01",
+            "name": "[variables('storageAccountName')]",
+            "location": "[parameters('location')]",
+            "kind": "StorageV2",
+            "sku": {
+                "name": "Standard_LRS"
+            }
+        },        
+        {
+            "apiVersion": "2018-05-01-preview",
+            "name": "[variables('appInsightsName')]",
+            "type": "microsoft.insights/components",
+            "location": "[parameters('location')]",
+            "tags": {
+                "[concat('hidden-link:', resourceGroup().id, '/providers/Microsoft.Web/sites/', variables('appInsightsName'))]": "Resource"
+            },
+            "properties": {
+                "ApplicationId": "[variables('appInsightsName')]",
+                "Request_Source": "IbizaWebAppExtensionCreate"
+            }
+        },
+        {
+            "type": "Microsoft.ManagedIdentity/userAssignedIdentities",
+            "apiVersion": "2018-11-30",
+            "name": "[variables('identityName')]",
+            "location": "[parameters('location')]"
+        },
+        {
+            "type": "Microsoft.Web/sites",
+            "apiVersion": "2019-08-01",
+            "name": "[parameters('functionName')]",
+            "location": "[parameters('location')]",
+            "kind": "functionapp",
+            "identity": {
+                "type": "UserAssigned",
+                "userAssignedIdentities": {
+                    "[resourceId('Microsoft.ManagedIdentity/userAssignedIdentities', variables('identityName'))]": {}
+                }
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]",
+                "[resourceId('Microsoft.Insights/components', variables('appInsightsName'))]",
+                "[resourceId('Microsoft.DocumentDB/databaseAccounts/sqlDatabases/containers', variables('cosmosDBAccountName'), variables('cosmosDBDatabaseName'), variables('cosmosDBContainerName'))]",
+                "[resourceId('Microsoft.ManagedIdentity/userAssignedIdentities', variables('identityName'))]"
+            ],
+            "properties": {
+                "name": "[parameters('functionName')]",
+                "siteConfig": {
+                    "appSettings": [
+                        {
+                            "name": "AzureWebJobsDashboard",
+                            "value": "[concat('DefaultEndpointsProtocol=https;AccountName=',variables('storageAccountName'),';AccountKey=',listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2018-02-01').keys[0].value)]"
+                        },
+                        {
+                            "name": "AzureWebJobsStorage",
+                            "value": "[concat('DefaultEndpointsProtocol=https;AccountName=',variables('storageAccountName'),';AccountKey=',listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2018-02-01').keys[0].value)]"
+                        },
+                        {
+                            "name": "AzureWebJobsSecretStorageType",
+                            "value": "Files"
+                        },
+                        {
+                            "name": "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING",
+                            "value": "[concat('DefaultEndpointsProtocol=https;AccountName=',variables('storageAccountName'),';AccountKey=',listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2018-02-01').keys[0].value)]"
+                        },
+                        {
+                            "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
+                            "value": "[reference(resourceId('microsoft.insights/components/', variables('appInsightsName')), '2018-05-01-preview').InstrumentationKey]"
+                        },
+                        {
+                            "name": "FUNCTIONS_EXTENSION_VERSION",
+                            "value": "~2"
+                        },
+                        {
+                            "name": "FUNCTIONS_WORKER_RUNTIME",
+                            "value": "dotnet"
+                        },
+                        {
+                            "name": "WEBSITE_RUN_FROM_PACKAGE",
+                            "value": "[uri(parameters('_artifactsLocation'),  parameters('_artifactsLocationSasToken'))]"
+                        },
+                        {
+                            "name": "URL_SIGNATURE",
+                            "value": "[parameters('urlSignature')]"
+                        },
+                        {
+                            "name": "DIMENSION_CONFIG",
+                            "value": "[parameters('dimensionConfig')]"
+                        },
+                        {
+                            "name": "MARKETPLACEAPI_URI",
+                            "value": "[parameters('marketplaceUri')]"
+                        },
+                        {
+                            "name": "TOKEN_RESOURCE",
+                            "value": "[parameters('tokenResource')]"
+                        },
+                        {
+                            "name": "MSI_CLIENT_ID",
+                            "value": "[reference(resourceId('Microsoft.ManagedIdentity/userAssignedIdentities/', variables('identityName')), '2018-11-30').clientId]"
+                        }
+                    ],
+                    "connectionStrings": [
+                        {
+                            "name": "CosmosDBConnectionString",
+                            "connectionString": "[listConnectionStrings(resourceId('Microsoft.DocumentDB/databaseAccounts', variables('cosmosDBAccountName')), '2019-08-01').connectionStrings[0].connectionString]",
+                            "type": ""
+                        }
+                    ]
+                },
+                "clientAffinityEnabled": false,
+                "reserved": false
+            }
+        }
+    ],
+    "outputs": {
+        "identityApplicationId": {
+            "type": "string",
+            "value": "[reference(resourceId('Microsoft.ManagedIdentity/userAssignedIdentities/', variables('identityName')), '2018-11-30').clientId]"
+        },
+        "identityPrincipalId": {
+            "type": "string",
+            "value": "[reference(resourceId('Microsoft.ManagedIdentity/userAssignedIdentities/', variables('identityName')), '2018-11-30').principalId]"
+        },
+        "tenantId": {
+            "type": "string",
+            "value": "[subscription().tenantId]"
+        },
+        "webhookEndpoint": {
+            "type": "string",
+            "value": "[replace(listSecrets(resourceId('Microsoft.Web/sites/functions', parameters('functionName'), 'Webhook'), '2019-08-01').trigger_url, '/Webhook?', concat('?sig=',parameters('urlSignature'),'&'))]"
+        }
+    }
+}
