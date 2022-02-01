@@ -18,7 +18,6 @@ There are also hands-on-labs that you may do yourself to further cement your new
 1. [Getting Publisher Support](https://www.youtube.com/watch?v=FQAE6k1y3Uw&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=8)
 1. [Integrated VM Offers](https://www.youtube.com/watch?v=GFQa31OcFfw&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=9)
 1. [Deployment Workflow](https://www.youtube.com/watch?v=SYHAO64NF5g&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=10)
-1. [Upgrading Plans](https://www.youtube.com/watch?v=st8Qoy3eOzw&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=11)
 1. [Managing Customer Deployments](https://www.youtube.com/watch?v=CnxOhQLjnEI&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=12)
 1. [Metered Billing](https://www.youtube.com/watch?v=ZXobdarXOMM&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=13)
 1. [Customizing the AMA UI and Behavior](https://www.youtube.com/watch?v=tSMLKRoXj2U&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=14)
