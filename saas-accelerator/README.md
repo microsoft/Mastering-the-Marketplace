@@ -9,6 +9,7 @@ The goal of the SaaS Accelerator project is to provide a fully functional refere
 1. [A SaaS Accelerator Hands-on Tour - The Basics](#a-saas-accelerator-hands-on-tour---the-basics) (Introduction to the SaaS Accelerator)
 1. [SaaS Accelerator Architecture](#saas-accelerator-architecture)
 1. [Installing the SaaS Accelerator With the Install Script](#installing-the-saas-accelerator-with-the-install-script)
+1. [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
 
 ## Hands-on Labs
 
@@ -39,3 +40,14 @@ This quick video covers the overall architecture of the SaaS Accelerator. The ar
 Installing the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. 
 
 This video will get you up and running with the SaaS Accelerator in no time at all! You will need to copy and paste some [PowerShell script from here](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#installating-the-azure-marketplace-saas-accelerator-using-azure-cloud-shell).
+
+
+### Invoking Metered Billing with the SaaS Accelerator
+
+[Video](https://www.youtube.com/watch?v=DXmyagu98nE)
+
+We look at the metered billing capabilities of the SaaS Accelerator for the Azure Marketplace. This video shows how to manually invoke metered billing events from the SaaS Accelerator without needing to integrate your solution with the SaaS Metering APIs.
+
+
+
+
