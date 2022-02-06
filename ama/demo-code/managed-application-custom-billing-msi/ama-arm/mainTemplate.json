@@ -1,0 +1,219 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "storageAccountPrefix": {
+            "type": "string",
+            "metadata": {
+                "description": "Assign a prefix for the Storage account"
+            }
+        },
+        "storageAccountType": {
+            "type": "string",
+            "metadata": {
+                "description": "Assign Storage account type"
+            }
+        },
+        "location": {
+            "type": "string",
+            "defaultValue": "[resourceGroup().location]",
+            "metadata": {
+                "description": "Location for the resources."
+            }
+        },
+        "functionName": {
+            "type": "string",
+            "defaultValue": "[uniqueString(resourceGroup().id)]",
+            "metadata": {
+                "description": "Unique name of the function app to be created."
+            }
+        },
+        "dimensionConfig": {
+            "type": "string",
+            "defaultValue": "[[{\"dimension\":\"create\", \"quantity\":1}, {\"dimension\":\"key\", \"quantity\":1000}]",
+            "metadata": {
+                "description": "The dimension and quantity config for the chron job to send billing metrics."
+            }
+        },
+        "marketplaceUri": {
+            "type": "string",
+            "defaultValue": "https://marketplaceapi.microsoft.com/api/usageEvent?api-version=2018-08-31",
+            "metadata": {
+                "description": "The marketplace URI that the app calls to report usage."
+            }
+        },
+        "applicationResourceRoleAssignment": {
+            "type": "string",
+            "defaultValue": "[newGuid()]"
+        },
+        "resourceGroupRoleAssignment": {
+            "type": "string",
+            "defaultValue": "[newGuid()]"
+        }
+
+    },
+    "variables": {
+        "resourceName": "[toLower(take(concat(parameters('functionName'),uniqueString(resourceGroup().id)),24))]",
+        "storageAccountName": "[variables('resourceName')]",
+        "appInsightsName": "[variables('resourceName')]",
+        "managedApplicationId": "[resourceGroup().managedBy]",
+        "managedApplicationName": "[last(split(variables('managedApplicationId'), '/'))]",
+        "applicationResourceGroupName": "[split(variables('managedApplicationId'), '/')[4]]",
+        "msiAccessRoleId": "8e3af657-a8ff-443c-a75c-2fe8c4bcb635",
+        "storageName": "[concat(parameters('storageAccountPrefix'), uniqueString(resourceGroup().id))]",
+        "artifacts":   "[uri(deployment().properties.templateLink.uri, 'artifacts/functionpackage.zip')]"
+    },
+    "resources": [
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "name": "[variables('storageName')]",
+            "apiVersion": "2021-08-01",
+            "location": "[parameters('location')]",
+            "sku": {
+                "name": "[parameters('storageAccountType')]"
+            },
+            "kind": "Storage",
+            "properties": {
+                "allowBlobPublicAccess": true
+            }
+        },
+        {
+            "type": "Microsoft.Storage/storageAccounts",
+            "apiVersion": "2021-08-01",
+            "name": "[variables('storageAccountName')]",
+            "location": "[parameters('location')]",
+            "kind": "StorageV2",
+            "sku": {
+                "name": "Standard_LRS"
+            }
+        },        
+        {
+            "apiVersion": "2020-02-02",
+            "name": "[variables('appInsightsName')]",
+            "type": "microsoft.insights/components",
+            "location": "[parameters('location')]",
+            "tags": {
+                "[concat('hidden-link:', resourceGroup().id, '/providers/Microsoft.Web/sites/', variables('appInsightsName'))]": "Resource"
+            },
+            "properties": {
+                "ApplicationId": "[variables('appInsightsName')]",
+                "Request_Source": "IbizaWebAppExtensionCreate"
+            }
+        },
+        {
+            "type": "Microsoft.Web/sites",
+            "apiVersion": "2021-03-01",
+            "name": "[parameters('functionName')]",
+            "location": "[parameters('location')]",
+            "kind": "functionapp",
+            "identity": {
+                "type": "SystemAssigned"
+            },
+            "dependsOn": [
+                "[resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName'))]",
+                "[resourceId('Microsoft.Insights/components', variables('appInsightsName'))]"
+            ],
+            "properties": {
+                "name": "[parameters('functionName')]",
+                "siteConfig": {
+                    "appSettings": [
+                        {
+                            "name": "AzureWebJobsDashboard",
+                            "value": "[concat('DefaultEndpointsProtocol=https;AccountName=',variables('storageAccountName'),';AccountKey=',listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2018-02-01').keys[0].value)]"
+                        },
+                        {
+                            "name": "AzureWebJobsStorage",
+                            "value": "[concat('DefaultEndpointsProtocol=https;AccountName=',variables('storageAccountName'),';AccountKey=',listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2018-02-01').keys[0].value)]"
+                        },
+                        {
+                            "name": "AzureWebJobsSecretStorageType",
+                            "value": "Files"
+                        },
+                        {
+                            "name": "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING",
+                            "value": "[concat('DefaultEndpointsProtocol=https;AccountName=',variables('storageAccountName'),';AccountKey=',listKeys(resourceId('Microsoft.Storage/storageAccounts', variables('storageAccountName')), '2018-02-01').keys[0].value)]"
+                        },
+                        {
+                            "name": "APPINSIGHTS_INSTRUMENTATIONKEY",
+                            "value": "[reference(resourceId('microsoft.insights/components/', variables('appInsightsName')), '2018-05-01-preview').InstrumentationKey]"
+                        },
+                        {
+                            "name": "FUNCTIONS_EXTENSION_VERSION",
+                            "value": "~3"
+                        },
+                        {
+                            "name": "FUNCTIONS_WORKER_RUNTIME",
+                            "value": "dotnet"
+                        },
+                        {
+                            "name": "WEBSITE_RUN_FROM_PACKAGE",
+                            "value": "[variables('artifacts')]"
+                        },
+                        {
+                            "name": "DIMENSION_CONFIG",
+                            "value": "[parameters('dimensionConfig')]"
+                        },
+                        {
+                            "name": "MARKETPLACEAPI_URI",
+                            "value": "[parameters('marketplaceUri')]"
+                        },
+                        {
+                            "name": "RESOURCEGROUP_ID",
+                            "value": "[resourcegroup().id]"
+                        }
+                    ]
+                },
+                "clientAffinityEnabled": false,
+                "reserved": false
+            }
+        },
+        {
+            "type": "Microsoft.Authorization/roleAssignments",
+            "apiVersion": "2021-04-01-preview",
+            "name": "[parameters('resourceGroupRoleAssignment')]",
+            "properties": {
+                "roleDefinitionId": "[concat(subscription().id, '/providers/Microsoft.Authorization/roleDefinitions/', variables('msiAccessRoleId'))]",
+                "principalId": "[reference(resourceId('Microsoft.Web/sites', parameters('functionName')), '2018-11-01', 'Full').identity.principalId]",
+                "delegatedManagedIdentityResourceId": "[concat(resourceGroup().id, '/providers/Microsoft.Web/sites/', parameters('functionName'))]",
+                "scope": "[resourceGroup().id]",
+                "principalType": "ServicePrincipal"
+            },
+            "dependsOn": [
+                "[concat('Microsoft.Web/sites/', parameters('functionName'))]"
+            ]
+        },
+        {
+            "type": "Microsoft.Resources/deployments",
+            "apiVersion": "2021-04-01",
+            "name": "pid-customer Guid ID-partnercenter",
+            "resourceGroup": "[variables('applicationResourceGroupName')]",
+            "properties": {
+                "mode": "Incremental",
+                "template": {
+                    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+                    "contentVersion": "1.0.0.0",
+                    "resources": [
+                        {
+                            "type": "Microsoft.Solutions/applications/providers/roleAssignments",
+                            "apiVersion": "2021-04-01-preview",
+                            "name": "[concat(variables('managedApplicationName'), '/Microsoft.Authorization/', parameters('applicationResourceRoleAssignment'))]",
+                            "properties": {
+                                "roleDefinitionId": "[concat(subscription().id, '/providers/Microsoft.Authorization/roleDefinitions/', variables('msiAccessRoleId'))]",
+                                "principalId": "[reference(resourceId('Microsoft.Web/sites', parameters('functionName')), '2018-11-01', 'Full').identity.principalId]",
+                                "delegatedManagedIdentityResourceId": "[concat(resourceGroup().id, '/providers/Microsoft.Web/sites/', parameters('functionName'))]",
+                                "scope": "[variables('managedApplicationId')]",
+                                "principalType": "ServicePrincipal"
+                            }
+                        }
+                    ]
+                }
+            },
+            "dependsOn": [
+                "[concat('Microsoft.Web/sites/', parameters('functionName'))]"
+            ]
+        }
+    ],
+    "outputs": {
+    }
+}
+

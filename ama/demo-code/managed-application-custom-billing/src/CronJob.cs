@@ -13,9 +13,9 @@ using System.Threading.Tasks;
 
 namespace ManagedWebhook
 {
-    public static class ChronJob
+    public static class CronJob
     {
-        [FunctionName("ChronJob")]
+        [FunctionName("CronJob")]
         public static async Task Run(
             [TimerTrigger("0 0 0/1 * * *")]TimerInfo timerInfo,
             [CosmosDB(
@@ -36,9 +36,10 @@ namespace ManagedWebhook
 
             using (var httpClient = HttpClientFactory.Create())
             {
-                var token = await ChronJob.GetToken(httpClient, config, log).ConfigureAwait(continueOnCapturedContext: false);
+                var token = await CronJob.GetToken(httpClient, config, log).ConfigureAwait(continueOnCapturedContext: false);
                 httpClient.DefaultRequestHeaders.Add("Authorization", $"Bearer {token}");
-                using (var queryable = documentClient.CreateDocumentQuery<BillingEntry>(UriFactory.CreateDocumentCollectionUri(Webhook.DatabaseName, Webhook.CollectionName)).AsDocumentQuery())
+                string sqlExpression = "Select * from c where c.processStatus=false";
+                using (var queryable = documentClient.CreateDocumentQuery<BillingEntry>(UriFactory.CreateDocumentCollectionUri(Webhook.DatabaseName, Webhook.CollectionName),sqlExpression).AsDocumentQuery())
                 {
                     while (queryable.HasMoreResults)
                     {
@@ -46,11 +47,15 @@ namespace ManagedWebhook
                         {
                             foreach (var dimensionConfig in dimensionConfigs)
                             {
-                                var response = await ChronJob.EmitUsageEvents(config, httpClient, dimensionConfig, billingEntry).ConfigureAwait(continueOnCapturedContext: false);
+                                var response = await CronJob.EmitUsageEvents(config, httpClient, dimensionConfig, billingEntry).ConfigureAwait(continueOnCapturedContext: false);
                                 var responseBody = await response.Content.ReadAsStringAsync().ConfigureAwait(continueOnCapturedContext: false);
                                 if (response.IsSuccessStatusCode)
                                 {
                                     log.LogTrace($"Successfully emitted a usage event. Reponse body: {responseBody}");
+
+                                    // update cosmosdb document
+                                    billingEntry.processStatus=true;
+                                    await documentClient.UpsertDocumentAsync(UriFactory.CreateDocumentCollectionUri(Webhook.DatabaseName, Webhook.CollectionName), billingEntry).ConfigureAwait(continueOnCapturedContext: false);
                                 }
                                 else
                                 {
@@ -77,7 +82,7 @@ namespace ManagedWebhook
                 PlanId = billingEntry.planId
             };
 
-            if (ChronJob.IsLocalRun(config))
+            if (CronJob.IsLocalRun(config))
             {
                 return new HttpResponseMessage
                 { 
@@ -94,7 +99,7 @@ namespace ManagedWebhook
         /// </summary>
         public static async Task<string> GetToken(HttpClient httpClient, IConfigurationRoot config, ILogger log)
         {
-            if (ChronJob.IsLocalRun(config))
+            if (CronJob.IsLocalRun(config))
             {
                 return "token";
             }

@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/0.1.2-preview/CreateUIDefinition.MultiVm.json#",
+    "handler": "Microsoft.Azure.CreateUIDef",
+    "version": "0.1.2-preview",
+    "parameters": {
+        "basics": [],
+        "steps": [
+
+            {
+                "name": "storageBlade",
+                "label": "Storage",
+                "bladeTitle": "Storage settings",
+                "elements": [
+                    {
+                        "name": "storageAccount",
+                        "type": "Microsoft.Storage.MultiStorageAccountCombo",
+                        "label": {
+                            "prefix": "Storage account name prefix",
+                            "type": "Storage account type"
+                        },
+                        "defaultValue": {
+                            "type": "Premium_LRS"
+                        },
+                        "toolTip": {
+                            "prefix": "Storage account name prefix",
+                            "type": "Storage account type"
+                        },
+                        "count": 2,
+                        "visible": true
+                    }
+                ]
+            }
+        ],
+        "outputs": {
+            "location": "[location()]",
+            "storageAccountPrefix": "[steps('storageBlade').storageAccount.prefix]",
+            "storageAccountType": "[steps('storageBlade').storageAccount.type]"
+        }
+    }
+}
