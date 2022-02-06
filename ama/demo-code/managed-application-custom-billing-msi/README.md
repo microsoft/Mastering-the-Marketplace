@@ -23,9 +23,9 @@ ARM template expects the following configuration
 
 
 1. ARM using resource type `Microsoft.Resources/deployments` 
-![diagram](./images/diagram2.png)
+![diagram](./images/Diagram2.png)
 In order to pass the Partner center validation you need to update the resource name with the Custerom PID Guid from PartnerCenter
-![diagram](./images/diagram3.png)
+![diagram](./images/Diagram3.png)
 
 1. ARM Template will deploy function using `WEBSITE_RUN_FROM_PACKAGE` and expecting `functionpackage.zip` to place under `artifacts` folder.
-![diagram](./images/diagram4.png)
+![diagram](./images/Diagram4.png)
