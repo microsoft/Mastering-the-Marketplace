@@ -46,8 +46,8 @@ The labs may also be taken at any time as a stand-alone experience with no other
 
 
 ## Samples and Demos
-- [Custom Metered Billing using Notification webhook](./demo-code/ama-metered-demo/managed-application-custom-billing/README.md)
-- [Recurring Custom Metered Billing](./demo-code/ama-metered-demo/managed-application-custom-billing-msi/README.md)
+- [Custom Metered Billing using Notification webhook](./demo-code/managed-application-custom-billing/README.md)
+- [Recurring Custom Metered Billing](./demo-code/managed-application-custom-billing-msi/README.md)
 ## Please help us improve this content for you
 
 We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/Y087k7aLkL) on the materials and to share your ideas for making this content better for you.
