@@ -1,5 +1,7 @@
 # Azure Managed Application Series
 
+We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/Y087k7aLkL) on the materials and to share your ideas for making this content better for you.
+
 The learning modules in this course are primarily clips of an in-person online learning class focused on Mastering Azure Managed Applications. The videos have been edited to be topically-based so you needn't watch the entire 6-hour course.
 
 These videos are a complete course focused on bringing your Azure Managed Application offer to the Azure Marketplace. They are edited to be topically aligned so that you can skip to any video and it will stand alone contextually.
@@ -42,7 +44,3 @@ The labs may also be taken at any time as a stand-alone experience with no other
 - Lab 2 - [Partner Center Walkthrough 1](https://microsoft.github.io/Mastering-the-Marketplace/ama/labs/lab-2/index.html)
 - Lab 3 - [Customizing the Managed Application UX](./labs/lab-3/lab-3.md)
 - Lab 4 - [Working with Customer Providers and Resources](./labs/lab-4/lab-4.md)
-
-## Please help us improve this content for you
-
-We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/Y087k7aLkL) on the materials and to share your ideas for making this content better for you.

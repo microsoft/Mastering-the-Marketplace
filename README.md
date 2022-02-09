@@ -6,6 +6,15 @@ This repository contains self-paced videos, hands-on labs, and sample code that 
 
 These courses are created for a technical audience.
 
+## Live Workshops!
+
+Register for the immersive hands-on workshop from the creators of the Mastering the Marketplace library. 
+
+- March 1, 2022 - [Building SaaS Applications for the Microsoft Marketplace - Workshop](https://aka.ms/SaaSMarketplaceWorkshop)
+- March 3, 2022 - [Get Your Azure Marketplace Offer Running Immediately with the SaaS Accelerator - Workshop](https://aka.ms/SaaSAcceleratorWorkshop)
+- March 8, 2022 - [Managed Applications for the Microsoft Marketplace - Workshop](https://aka.ms/AMAWorkshop)
+
+
 ## [SaaS Offer Series](./saas/README.md)
 
 This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.

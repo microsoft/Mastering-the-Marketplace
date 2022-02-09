@@ -2,6 +2,8 @@
 
 These learning modules are designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace. 
 
+We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/0gCrzhSMkw) on these materials and to share your ideas for making this content better for you.
+
 ## Video Learning Modules
 
 1. [SaaS Offer Overview](#saas-offer-overview)
@@ -29,10 +31,6 @@ These labs are meant to be done sequentially. They build on one another, so begi
 1. [Creating a Landing Page](./labs/lab2-create-landing-page/README.md)
 1. [Installing a Publisher Portal](./labs/lab3-install-pub-portal/README.md)
 1. [Deploying and Monitoring a Webhook](./labs/lab4-create-webhook/README.md)
-
-### Please help us improve this content for you
-
-We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/0gCrzhSMkw) on these materials and to share your ideas for making this content better for you.
 
 ---
 
