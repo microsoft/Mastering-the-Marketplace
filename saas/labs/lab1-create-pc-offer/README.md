@@ -97,9 +97,9 @@ You must select at least one category for your offer.
     1. Add a title to the screenshot image.
 1. Click the **Save draft** button and correct any errors that be shown before moving on.
 
-### Preview audience
+### Availability
 
-1. In the **Preview audience** section, enter the email address you use for your Azure subscription. This is the email address you will use to purchase your offer later.
+1. In the **Availability** - **Preview audience** section, enter the email address you use for your Azure subscription. This is the email address you will use to purchase your offer later.
 1. Enter a **Description**.
 1. Click **Save draft**.
 
@@ -150,6 +150,16 @@ The Plan has several components to it, all of which must be completed.
 1. Keep it **Flat rate**.
 1. Leave **Billing term** as **Monthly**.
 1. Enter 0 for the cost per month.
+
+
+**For Marketplace Metering Service dimensions:**
+
+1. Click the  **Add a Custom Meter Dimension (Max 30)** link. This will create a new row. Enter the below values.
+1. Enter "persmsId" for "ID".
+1. Enter "SMS" for the "Display Name".
+1. Enter "per sms sent" for the "Unit of Measure".
+1. Enter "0" for the "Price per unit in USD" column.
+1. Enter "0" for the "Monthly quantity included in base" column.
 1. Leave the rest of the plan as is and click **Save draft**.
 
 ## Exercise: Resell through CSPs

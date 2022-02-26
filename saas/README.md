@@ -31,6 +31,7 @@ These labs are meant to be done sequentially. They build on one another, so begi
 1. [Creating a Landing Page](./labs/lab2-create-landing-page/README.md)
 1. [Installing a Publisher Portal](./labs/lab3-install-pub-portal/README.md)
 1. [Deploying and Monitoring a Webhook](./labs/lab4-create-webhook/README.md)
+1. [Implementing Meter billing](./labs/lab5-implementing-meter-billing/README.md)
 
 ---
 
