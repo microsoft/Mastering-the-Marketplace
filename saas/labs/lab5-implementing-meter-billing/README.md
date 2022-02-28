@@ -57,6 +57,7 @@ In this lab, you will build on what you have accomplished in previous labs. You 
 | ```authorization``` | ```{{bearerToken}}``` (replace the {{bearerToken}} with  "Bearer " + access_token value copied from the first exercise) |
 
 1. For Body, click on ```raw``` radiobutton and enter the below json
+
 ```
 {
   "resourceId": "{{CustomerSaaSSubscriptionId}}",  // Replace {{CustomerSaaSSubscriptionId}} with an active subscritpion Id from your [publisher portal](../lab3-install-pub-portal#exercise-as-a-customer-request-subscription-activation) which is subscribed to plan with dimension)
@@ -65,7 +66,6 @@ In this lab, you will build on what you have accomplished in previous labs. You 
   "effectiveStartTime": "{{eventtime}}",  // ( replace {{eventtime}} with a UTC time from now and until 24 hours back ex: '2022-02-26T17:17:31' )
   "planId": "gold-plan-id"  // PlanId from the Offer plan created in [lab1](../lab1-create-pc-offer#create-the-plan)
 }
-
 ```
 
 1.Click Send
@@ -82,8 +82,8 @@ In this lab, you will build on what you have accomplished in previous labs. You 
     "effectiveStartTime": "2022-02-26T17:17:31",
     "planId": "gold-plan-id"
 }
-
 ```
+
 1.This confirms a usage has been repoted to Microsoft to bill the customer aganist that feature usage.
 
 **Congratulations!** You have finished this lab.
