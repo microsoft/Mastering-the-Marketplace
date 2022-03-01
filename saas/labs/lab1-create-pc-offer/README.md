@@ -155,7 +155,7 @@ The Plan has several components to it, all of which must be completed.
 **For Marketplace Metering Service dimensions:**
 
 1. Click the  **Add a Custom Meter Dimension (Max 30)** link. This will create a new row. Enter the below values.
-1. Enter "persmsId" for "ID".
+1. Enter "persmsid" for "ID".
 1. Enter "SMS" for the "Display Name".
 1. Enter "per sms sent" for the "Unit of Measure".
 1. Enter "0" for the "Price per unit in USD" column.
