@@ -10,7 +10,6 @@ These courses are created for a technical audience.
 
 Register for the immersive hands-on workshop from the creators of the Mastering the Marketplace library. 
 
-- March 1, 2022 - [Building SaaS Applications for the Microsoft Marketplace - Workshop](https://aka.ms/SaaSMarketplaceWorkshop)
 - March 3, 2022 - [Get Your Azure Marketplace Offer Running Immediately with the SaaS Accelerator - Workshop](https://aka.ms/SaaSAcceleratorWorkshop)
 - March 8, 2022 - [Managed Applications for the Microsoft Marketplace - Workshop](https://aka.ms/AMAWorkshop)
 
