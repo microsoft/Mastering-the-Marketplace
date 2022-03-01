@@ -56,7 +56,7 @@ In this lab, you will build on what you have accomplished in previous labs. You 
 | ```Content-Type``` | ```application/json``` |
 | ```authorization``` | ```{{bearerToken}}``` (replace the {{bearerToken}} with  "Bearer " + access_token value copied from the first exercise) |
 
-6. For Body, click on ```raw``` radiobutton and enter the below json
+1. For Body, click on ```raw``` radiobutton and enter the below json
 
 ```
 {
@@ -68,7 +68,7 @@ In this lab, you will build on what you have accomplished in previous labs. You 
 }
 ```
 
-7. Click Send
+1.Click Send
 1. You should see the below response
 
 ```
@@ -85,7 +85,7 @@ In this lab, you will build on what you have accomplished in previous labs. You 
 }
 ```
 
-9. This confirms a usage has been repoted to Microsoft to bill the customer aganist that feature usage.
+1.This confirms a usage has been repoted to Microsoft to bill the customer aganist that feature usage.
 
 **Congratulations!** You have finished this lab.
 
