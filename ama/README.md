@@ -27,8 +27,21 @@ The content may be consumed in order, or as standalone modules.
 
 ## Hands-on labs
 
+### Prerequisites
 
+1. Azure subscription that can create resources
+1. A Partner Center Account
+1. VS Code or other text editor
 
+### Getting started
+
+Clone this repository to your local machine. You will need some artifacts from the labs folders to complete the labs.
+
+Lab 1 - [Publishing an Azure Managed Application Offer in Partner Center](./labs/lab-1-partner-center/README.md)
+Lab 2 - [The Managed Application Deployment Package](./labs/lab-2-deployment-package/README.md)
+Lab 3 - [Purchasing an Azure Managed Application](./labs/lab-3-purchasing-ama/README.md)
+Lab 4 - [Administering Your Purchased Managed Applications](./labs/lab-4-administer-my-amas/README.md)
+Lab 5 - [Administering Your Customer’s Managed Applications](./labs/lab-5-administer-customer-amas/README.md)
 
 ## Community content
 
