@@ -1,6 +1,6 @@
 # Azure Managed Application Series
 
-**[Let us know what you need](https://forms.office.com/r/Y087k7aLkL)** in this content library.
+**[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
 The content may be consumed in order, or as standalone modules.
 

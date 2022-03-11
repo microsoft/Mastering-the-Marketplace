@@ -1,6 +1,6 @@
 # SaaS Accelerator Series
 
-**[Let us know what you need](https://forms.office.com/r/Y087k7aLkL)** in this content library.
+**[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
 This series is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator).
 
