@@ -2,13 +2,9 @@
 
 We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/Y087k7aLkL) on the materials and to share your ideas for making this content better for you.
 
-The learning modules in this course are primarily clips of an in-person online learning class focused on Mastering Azure Managed Applications. The videos have been edited to be topically-based so you needn't watch the entire 6-hour course.
+The content may be consumed in order, or as standalone modules.
 
-These videos are a complete course focused on bringing your Azure Managed Application offer to the Azure Marketplace. They are edited to be topically aligned so that you can skip to any video and it will stand alone contextually.
-
-There are also hands-on-labs that you may do yourself to further cement your new skills.
-
-## Video Learning Modules from Hands-on Workshop
+##  The self-guided hands-on workshop
 
 1. [Introduction](https://www.youtube.com/watch?v=WxQ0tkd8dYU&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=1)
 1. [Azure Applications Overview](https://www.youtube.com/watch?v=P6Z8rdNkgKs&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=2)
@@ -28,19 +24,13 @@ There are also hands-on-labs that you may do yourself to further cement your new
 1. [Managed Identities](https://www.youtube.com/watch?v=7ZOTgD48azI&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=17)
 1. [Resources and Closing](https://www.youtube.com/watch?v=jKg6eBPv4PY&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=18)
 
-## Other Video Learning
 
-1. [Creating and testing a simple Azure Managed Application in the developer's Azure subscription](https://youtu.be/eCGFmUirLGU)
-1. [Publishing Azure Managed App in Partner Center and testing in end-customer’s Azure subscription](https://youtu.be/3ODHzEjomro)
+## Hands-on labs
+
+
+
+
+## Community content
+
 1. [Using Partner Center Ingestion API for managing "Azure Application" offers in Azure Marketplace](https://youtu.be/omEjvvF9g6Y)
 1. [Refreshing Azure Managed Application permissions and using Managed App's Identity](https://youtu.be/sDjY_mD3fqY)
-
-## Hands-on Labs
-
-Hands-on-Labs are announced within the videos if you are watching the videos sequentially. 
-The labs may also be taken at any time as a stand-alone experience with no other context required.
-
-- Lab 1 - [Your first Azure Managed Application](./labs/lab-1/lab-1.md)
-- Lab 2 - [Partner Center Walkthrough 1](https://microsoft.github.io/Mastering-the-Marketplace/ama/labs/lab-2/index.html)
-- Lab 3 - [Customizing the Managed Application UX](./labs/lab-3/lab-3.md)
-- Lab 4 - [Working with Customer Providers and Resources](./labs/lab-4/lab-4.md)
