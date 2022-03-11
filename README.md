@@ -4,9 +4,9 @@
 
 This repository contains self-paced videos, hands-on labs, and sample code. This content helps you bring your solution to the Microsoft marketplace faster and with more understanding.
 
-These courses are created for a technical audience.
-
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
+
+This content is created for a technical audience.
 
 ## [SaaS Offer Series](./saas/README.md)
 
