@@ -6,6 +6,8 @@ This repository contains self-paced videos, hands-on labs, and sample code. This
 
 These courses are created for a technical audience.
 
+**[Let us know what you need](https://forms.office.com/r/Y087k7aLkL)** in this content library.
+
 ## [SaaS Offer Series](./saas/README.md)
 
 This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.

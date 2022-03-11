@@ -1,8 +1,9 @@
 # SaaS Accelerator Series
 
-This learning series is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator).
+**[Let us know what you need](https://forms.office.com/r/Y087k7aLkL)** in this content library.
 
-The goal of the SaaS Accelerator project is to provide a fully functional reference implementation with sample code for developers interested in publishing transactable SaaS offers in Microsoft's commercial marketplace.
+This series is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator).
+
 
 ## Video Learning Modules
 
