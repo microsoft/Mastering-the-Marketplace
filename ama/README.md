@@ -1,6 +1,6 @@
 # Azure Managed Application Series
 
-We would very much appreciate 2-3 minutes of your time to [give us your feedback](https://forms.office.com/r/Y087k7aLkL) on the materials and to share your ideas for making this content better for you.
+**[Let us know what you need](https://forms.office.com/r/Y087k7aLkL)** in this content library.
 
 The content may be consumed in order, or as standalone modules.
 
@@ -23,7 +23,6 @@ The content may be consumed in order, or as standalone modules.
 1. [Custom Resources and Resource Providers](https://www.youtube.com/watch?v=v-tmK-gYvww&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=16)
 1. [Managed Identities](https://www.youtube.com/watch?v=7ZOTgD48azI&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=17)
 1. [Resources and Closing](https://www.youtube.com/watch?v=jKg6eBPv4PY&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=18)
-
 
 ## Hands-on labs
 
