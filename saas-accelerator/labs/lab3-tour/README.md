@@ -1,4 +1,4 @@
-# Lab 3: Touring the SaaS Accelerator
+# Lab 3: Using the SaaS Accelerator
 
 In this lab, you will familiarize you with the SaaS Accelerator, both from the customer and publisher points of view. The goal is to become comfortable with the SaaS Accelerator's landing page and publisher portal, so you (as a publisher) can monitor and manage your SaaS offer subscriptions.
 

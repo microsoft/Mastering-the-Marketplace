@@ -15,7 +15,7 @@ The goal of the SaaS Accelerator project is to provide a fully functional refere
 
 1. [Preparing Partner Center](./labs/lab1-partner-center/README.md)
 2. [Installing the Accelerator](./labs/lab2-install/README.md)
-3. [Touring the Accelerator](./labs/lab3-tour/README.md)
+3. [Using the Accelerator](./labs/lab3-tour/README.md)
 
 ---
 
@@ -47,7 +47,3 @@ This video will get you up and running with the SaaS Accelerator in no time at a
 [Video](https://www.youtube.com/watch?v=DXmyagu98nE)
 
 We look at the metered billing capabilities of the SaaS Accelerator for the Azure Marketplace. This video shows how to manually invoke metered billing events from the SaaS Accelerator without needing to integrate your solution with the SaaS Metering APIs.
-
-
-
-
