@@ -2,27 +2,25 @@
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
-## Video Learning Modules
+## Video
 
-- [SaaS Offer series](#saas-offer-series)
-  - [Video Learning Modules](#video-learning-modules)
-  - [Hands-on Labs](#hands-on-labs)
-  - [SaaS Offer Overview](#saas-offer-overview)
-  - [Purchasing a SaaS Offer](#purchasing-a-saas-offer)
-  - [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
-  - [Publishing a SaaS Offer](#publishing-a-saas-offer)
-  - [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
-  - [SaaS Offer Technical Overview](#saas-offer-technical-overview)
-  - [Azure AD Application Registrations](#azure-ad-application-registrations)
-  - [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-rest-fulfillment-api)
-  - [The SaaS Client Library for .NET](#the-saas-client-library-for-net)
-  - [Building a Simple SaaS Landing Page in .NET](#building-a-simple-saas-landing-page-in-net)
-  - [Building a Simple SaaS Publisher Portal in .NET](#building-a-simple-saas-publisher-portal-in-net)
-  - [SaaS Webhook Overview](#saas-webhook-overview)
-  - [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
-  - [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
-  - [SaaS Metered Billing Overview](#saas-metered-billing-overview)
-  - [The SaaS Metered Billing API with REST](#the-saas-metered-billing-api-with-rest)
+<!-- no toc -->
+1. [SaaS Offer Overview](#saas-offer-overview)
+1. [Purchasing a SaaS Offer](#purchasing-a-saas-offer)
+1. [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
+1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
+1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
+1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
+1. [Azure AD Application Registrations](#azure-ad-application-registrations)
+1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-rest-fulfillment-api)
+1. [The SaaS Client Library for .NET](#the-saas-client-library-for-net)
+1. [Building a Simple SaaS Landing Page in .NET](#building-a-simple-saas-landing-page-in-net)
+1. [Building a Simple SaaS Publisher Portal in .NET](#building-a-simple-saas-publisher-portal-in-net)
+1. [SaaS Webhook Overview](#saas-webhook-overview)
+1. [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
+1. [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
+1. [SaaS Metered Billing Overview](#saas-metered-billing-overview)
+1. [The SaaS Metered Billing API with REST](#the-saas-metered-billing-api-with-rest)
 
 ## Hands-on Labs
 
