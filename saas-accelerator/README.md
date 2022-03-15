@@ -11,6 +11,7 @@ This series is designed to help you speed your time to publish your SaaS offer t
 1. [SaaS Accelerator Architecture](#saas-accelerator-architecture)
 1. [Installing the SaaS Accelerator With the Install Script](#installing-the-saas-accelerator-with-the-install-script)
 1. [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
+1. [Custom Landing Page Fields with the SaaS Accelerator]()
 
 ## Hands-on Labs
 
@@ -48,3 +49,9 @@ This video will get you up and running with the SaaS Accelerator in no time at a
 [Video](https://www.youtube.com/watch?v=DXmyagu98nE)
 
 We look at the metered billing capabilities of the SaaS Accelerator for the Azure Marketplace. This video shows how to manually invoke metered billing events from the SaaS Accelerator without needing to integrate your solution with the SaaS Metering APIs.
+
+### Custom Landing Page Fields with the SaaS Accelerator
+
+[Video](https://youtu.be/ixqo2sO9rLs)
+
+In addition to showing your subscribers information about their subscription when they arrive at your landing page, you may also want to capture some information from them. This is possible using custom fields on the landing page and this short video shows you how to use them.
