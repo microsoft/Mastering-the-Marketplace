@@ -4,7 +4,7 @@
 
 ## Introduction
 
-These demo-heavy learning modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer through the Azure Marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
+These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Azure Marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
 
 ## Modules
 
