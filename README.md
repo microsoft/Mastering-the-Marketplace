@@ -2,27 +2,27 @@
 
 <img src="./images/Azure_Store_Marketplace.png" width="100px" title="Microsoft marketplace" align="left"/>
 
-This repository contains self-paced videos, hands-on labs, and sample code. This content helps you bring your solution to the Microsoft marketplace faster and with more understanding.
+This content helps you bring your solution to the Microsoft marketplace faster and with more understanding. This library contains self-paced videos, hands-on labs, and sample code.
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
 This content is created for a technical audience.
 
-## [SaaS Offer Series](./saas/README.md)
+## [Mastering Virtual Machine Offers](./vm/README.md)
+
+Virtual machine offers are a popular way to publish a transactable offer in the Azure Marketplace. This video series walks through the technical implementation of creating a virtual machine offer from beginning to end.
+
+## [Mastering SaaS Offers](./saas/README.md)
 
 This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.
 
-## [SaaS Accelerator Series](./saas-accelerator/README.md)
+## [Mastering the SaaS Accelerator](./saas-accelerator/README.md)
 
 This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project. The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days.
 
-## [Azure Managed Application Offer Series](./ama/README.md)
+## [Mastering Azure Managed Application Offers](./ama/README.md)
 
-This series of video modules and hands-on labs is designed to help you decrease your onboarding when building an Azure Managed Application offer. The content is comprised of recordings of a virtual workshop and are divided into small digestible modules for easy consumption.
-
-## Suggest New Content or Provide Feedback
-
-Please use the [Issues](https://github.com/microsoft/Mastering-the-Marketplace/issues) feature of this repository to request additional content or to suggest improvements to existing content.
+This course is designed to help you decrease your onboarding when building an Azure Managed Application offer. The content is comprised of recordings of a virtual workshop and are divided into small digestible modules for easy consumption.
 
 ---
 

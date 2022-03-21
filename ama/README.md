@@ -1,30 +1,31 @@
-# Azure Managed Application Series
+# Mastering Azure Managed Application Offers
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
-The content may be consumed in order, or as standalone modules.
+##  The Self-Guided Hands-on Workshop
 
-##  The self-guided hands-on workshop
+This online course is taken from a live virtual training, complete with hands-on labs.
 
-1. [Introduction](https://www.youtube.com/watch?v=WxQ0tkd8dYU&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=1)
-1. [Azure Applications Overview](https://www.youtube.com/watch?v=P6Z8rdNkgKs&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=2)
-1. [Azure Managed Apps in Partner Center](https://www.youtube.com/watch?v=CFSjWeV4Vw0&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=4)
-1. [Publishing Your Offer](https://www.youtube.com/watch?v=OeW1Xl__SS8&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=4)
-1. [Managed Application Overview](https://www.youtube.com/watch?v=XGdVvDP_kKo&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=6)
-1. [Azure Managed Application Artifacts](https://www.youtube.com/watch?v=XGdVvDP_kKo&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=5)
-1. [Partner Center Portal](https://www.youtube.com/watch?v=f_2Z9TXs-4g&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=7)
-1. [Getting Publisher Support](https://www.youtube.com/watch?v=FQAE6k1y3Uw&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=8)
-1. [Integrated VM Offers](https://www.youtube.com/watch?v=GFQa31OcFfw&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=9)
-1. [Deployment Workflow](https://www.youtube.com/watch?v=SYHAO64NF5g&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=10)
-1. [Managing Customer Deployments](https://www.youtube.com/watch?v=CnxOhQLjnEI&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=12)
-1. [Metered Billing](https://www.youtube.com/watch?v=ZXobdarXOMM&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=13)
-1. [Customizing the AMA UI and Behavior](https://www.youtube.com/watch?v=tSMLKRoXj2U&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=14)
-1. [Advanced Deployment Scenarios](https://www.youtube.com/watch?v=iGEQ-cvgK-8&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=15)
-1. [Custom Resources and Resource Providers](https://www.youtube.com/watch?v=v-tmK-gYvww&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=16)
-1. [Managed Identities](https://www.youtube.com/watch?v=7ZOTgD48azI&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=17)
-1. [Resources and Closing](https://www.youtube.com/watch?v=jKg6eBPv4PY&list=PLmsFUfdnGr3xpz1Q1ExBxj2Dk_dWqzGB6&index=18)
+<!-- no toc -->
+- [Course Introduction](#course-introduction)
+- [Managed Applications Overview](#managed-applications-overview)
+- [Azure Managed Applications Overview](#azure-managed-applications-overview)
+- [Partner Center with Azure Managed Applications Overview](#partner-center-with-azure-managed-applications-overview)
+- [Configuring Partner Center for Azure Managed Applications - Demo](#configuring-partner-center-for-azure-managed-applications---demo)
+- [Azure Managed Application Deployment Package Overview](#azure-managed-application-deployment-package-overview)
+- [Working with a Azure Managed Application Deployment Package - Demo](#working-with-a-azure-managed-application-deployment-package---demo)
+- [Integrating Virtual Machine Offers into Azure Managed Applications](#integrating-virtual-machine-offers-into-azure-managed-applications)
+- [Purchasing an Azure Managed Application – Demo](#purchasing-an-azure-managed-application--demo)
+- [Managing My Purchased Azure Managed Applications – Demo](#managing-my-purchased-azure-managed-applications--demo)
+- [Managing My Customer’s Azure Managed Applications Overview](#managing-my-customers-azure-managed-applications-overview)
+- [Managing My Customer’s Azure Managed Applications – Demo](#managing-my-customers-azure-managed-applications--demo)
+- [Metered Billing for Azure Managed Applications Overview](#metered-billing-for-azure-managed-applications-overview)
+- [Metered Billing for Azure Managed Applications – Demo](#metered-billing-for-azure-managed-applications--demo)
+- [Advanced Deployment Scenarios for Azure Managed Applications](#advanced-deployment-scenarios-for-azure-managed-applications)
 
 ## Hands-on labs
+
+These hand on labs build on top of one another, so progress through them in order to get a fully functional Azure Managed Application published and working for a test environment.
 
 ### Prerequisites
 
@@ -34,7 +35,7 @@ The content may be consumed in order, or as standalone modules.
 
 ### Getting started
 
-Clone this repository to your local machine. You will need some artifacts from the labs folders to complete the labs.
+Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
 
 1. Lab 1 - [Publishing an Azure Managed Application Offer in Partner Center](./labs/lab-1-partner-center/README.md)
 2. Lab 2 - [The Managed Application Deployment Package](./labs/lab-2-deployment-package/README.md)
@@ -46,3 +47,95 @@ Clone this repository to your local machine. You will need some artifacts from t
 
 1. [Using Partner Center Ingestion API for managing "Azure Application" offers in Azure Marketplace](https://youtu.be/omEjvvF9g6Y)
 1. [Refreshing Azure Managed Application permissions and using Managed App's Identity](https://youtu.be/sDjY_mD3fqY)
+
+## Module Descriptions
+
+### Course Introduction
+
+[Video]()
+
+This module sets the stage for all the others that follow by providing a quick introduction to the course. See what the course will offer in various modules.
+
+### Managed Applications Overview
+
+[Video]()
+
+Solution Template offers and Azure Managed Application offers are very similar, but there is an important difference. Learn about the two types of managed applications in this module detailing the differences.
+
+### Azure Managed Applications Overview
+
+[Video]()
+
+Azure Managed Applications are the transactable Managed App offer type. Get a walkthrough of Azure Managed Applications including their general architecture and usage.
+
+### Partner Center with Azure Managed Applications Overview
+
+[Video]()
+
+Partner Center is the portal publishers use to create, configure, publish, and monitor their offers in the Microsoft Marketplace. This overview takes you through Partner Center for Azure Managed Applications.
+
+### Configuring Partner Center for Azure Managed Applications - Demo
+
+[Video]()
+
+Understanding Partner Center, the publisher's portal, is key to creating great offers. This demo walks through setting up a Partner Center offer for an Azure Managed Application.
+
+### Azure Managed Application Deployment Package Overview
+
+[Video]()
+
+The deployment package for Azure Managed Applications is the definition of the application itself. Learn about its components and their role in this quick overview.
+
+### Working with a Azure Managed Application Deployment Package - Demo
+
+[Video]()
+
+This demo walks through working with Azure Managed Application deployment packages. Learn about the usage and components of the ARM template, `mainTemplate.json`, and how to work with `createUiDefinition.json` to create great install experiences.
+
+### Integrating Virtual Machine Offers into Azure Managed Applications
+
+[Video]()
+
+Deploying a custom virtual machine is a common need when working with Managed Apps. Get an overview of how to integrate a custom Virtual Machine offer into an Azure Managed Application deployment package.
+
+### Purchasing an Azure Managed Application – Demo
+
+[Video]()
+
+See the purchasing process of an Azure Managed Application from the customer’s point of view. This module is often helpful for customers looking to familiarize themselves with the purchase process.
+
+### Managing My Purchased Azure Managed Applications – Demo
+
+[Video]()
+
+Once a customer has purchased one or more Azure Managed Apps, they may need to manage those subscriptions. See the tools and techniques customers have through the Azure portal for managing their Azure Managed Application subscriptions.
+
+### Managing My Customer’s Azure Managed Applications Overview
+
+[Video]()
+
+Managing Azure Managed Application customer deployments is the responsibility of the publisher. See the tools techniques publishers use to do this easily and effectively through the Azure portal as well as getting a walkthrough of how to use them.
+
+### Managing My Customer’s Azure Managed Applications – Demo
+
+[Video]()
+
+Once deployed, Azure Managed Applications are managed and maintained by the publisher. This module shows the Azure portal-based tools and practices publishers use to manage their customer’s environments.
+
+### Metered Billing for Azure Managed Applications Overview
+
+[Video]()
+
+Billing for usage-based consumption is a requirement for many Azure Managed Applications. Get a walkthrough of metered billing and an architectural overview of how it works.
+
+### Metered Billing for Azure Managed Applications – Demo
+
+[Video]()
+
+See metered billing in action at the REST API level. This module shows metered billing API interaction through Postman.
+
+### Advanced Deployment Scenarios for Azure Managed Applications
+
+[Video]()
+
+This brief module covers a few advanced scenarios for Azure Managed Application deployments including containers and IoT integration.

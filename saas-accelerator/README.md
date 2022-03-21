@@ -1,4 +1,4 @@
-# SaaS Accelerator Series
+# Mastering the SaaS Accelerator
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
