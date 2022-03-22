@@ -14,6 +14,8 @@ Choose a topic based on the offer type you are working on.
 1. [The SaaS Accelerator](#mastering-the-saas-accelerator)
 1. [Azure Managed Application Offers](#mastering-azure-managed-application-offers)
 
+
+
 ## Mastering Virtual Machine Offers
 
 Virtual machine offers are a popular way to publish a transactable offer in the Azure Marketplace. This video series walks through the technical implementation of creating a virtual machine offer from beginning to end.
