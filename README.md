@@ -14,7 +14,7 @@ Choose a topic based on the offer type you are working on.
 1. [The SaaS Accelerator](#mastering-the-saas-accelerator)
 1. [Azure Managed Application Offers](#mastering-azure-managed-application-offers)
 
-
+To see the GitHub repo version of this site, [go here](https://github.com/microsoft/Mastering-the-Marketplace). You will need to clone this repo to do any labs. To see the website version of this repo, [go here](https://microsoft.github.io/Mastering-the-Marketplace/).
 
 ## Mastering Virtual Machine Offers
 
