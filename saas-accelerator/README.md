@@ -13,7 +13,16 @@ This series is designed to help you speed your time to publish your SaaS offer t
 1. [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
 1. [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
 
-## Hands-on Labs
+## Hands-on labs
+
+These hand on labs build on top of one another, so progress through them in order to get a fully functional SaaS Accelerator offer published and working for a test environment.
+
+### Prerequisites
+
+1. Azure subscription that can create resources
+1. A Partner Center Account
+
+### Hands-on labs
 
 1. [Preparing Partner Center](./labs/lab1-partner-center/README.md)
 2. [Installing the Accelerator](./labs/lab2-install/README.md)

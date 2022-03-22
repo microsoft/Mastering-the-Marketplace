@@ -22,9 +22,21 @@
 1. [SaaS Metered Billing Overview](#saas-metered-billing-overview)
 1. [The SaaS Metered Billing API with REST](#the-saas-metered-billing-api-with-rest)
 
-## Hands-on Labs
+## Hands-on labs
 
-These labs are meant to be done sequentially. They build on one another, so begin at the beginning to walk through all the labs.
+These hand on labs build on top of one another, so progress through them in order to get a fully functional SaaS Offer published and working for a test environment.
+
+### Prerequisites
+
+1. Azure subscription that can create resources
+1. A Partner Center Account
+1. Visual Studio 2022, any version
+
+### Getting started
+
+Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
+
+### Hands-on labs
 
 1. [Creating a SaaS Offer in Partner Center](./labs/lab1-create-pc-offer/README.md)
 1. [Creating a Landing Page](./labs/lab2-create-landing-page/README.md)

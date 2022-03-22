@@ -37,6 +37,8 @@ These hand on labs build on top of one another, so progress through them in orde
 
 Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
 
+### Hands-on labs
+
 1. Lab 1 - [Publishing an Azure Managed Application Offer in Partner Center](./labs/lab-1-partner-center/README.md)
 2. Lab 2 - [The Managed Application Deployment Package](./labs/lab-2-deployment-package/README.md)
 3. Lab 3 - [Purchasing an Azure Managed Application](./labs/lab-3-purchasing-ama/README.md)
