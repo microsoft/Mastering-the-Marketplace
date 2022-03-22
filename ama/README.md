@@ -4,7 +4,7 @@
 
 ##  The Self-Guided Hands-on Workshop
 
-This online course is taken from a live virtual training, complete with hands-on labs.
+This online course is taken from a live virtual training, complete with hands-on labs. The slides for this lab, which are used in the following modules, [are here](./pdfs/ama-workshop-slides.pdf).
 
 <!-- no toc -->
 1. [Course Introduction](#course-introduction)
@@ -118,7 +118,7 @@ Managing Azure Managed Application customer deployments is the responsibility of
 
 ### Managing My Customer’s Azure Managed Applications – Demo
 
-[Video]()
+[Video](https://youtu.be/LgQhZwe3TCc)
 
 Once deployed, Azure Managed Applications are managed and maintained by the publisher. This module shows the Azure portal-based tools and practices publishers use to manage their customer’s environments.
 
