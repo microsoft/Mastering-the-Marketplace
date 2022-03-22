@@ -9,5 +9,6 @@
         "Quickstart",
         "saas",
         "Storaage"
-    ]
+    ],
+    "azureFunctions.projectSubpath": "saas\\demo-code\\simple-webhook-dotnet-implementing\\SaaSFunctions"
 }
