@@ -1,5 +1,2 @@
 remote_theme: pages-themes/cayman@v0.2.0
-analytics:
-  provider: "google-gtag"
-  google:
-    measurement_id: "G-QFBKKPKXNV"
+google_analytics: G-QFBKKPKXNV
