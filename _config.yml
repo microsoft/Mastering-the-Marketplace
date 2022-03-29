@@ -16,8 +16,8 @@ doks:
     footer:
         content:
             logo:
-                text: Project name
-                image:
+                text: 
+                image: Mastering the Marketplace Learning Library
             copyright: Copyright &copy; 2017. - Project name <br>All rights reserved.
     google_analytics:
         tracking_code: G-QFBKKPKXNV
