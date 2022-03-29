@@ -1,10 +1,10 @@
 # Theme settings
 doks:
     baseurl:
-    color_theme: # Available themes: blue (default), green, purple, red and yellow
+    color_theme: blue # Available themes: blue (default), green, purple, red and yellow
     header:
         logo:
-            text: Project name
+            text: Mastering the Marketplace Learning Library
             image:
         nav:
             - item_name: Item 1
@@ -19,19 +19,8 @@ doks:
                 text: Project name
                 image:
             copyright: Copyright &copy; 2017. - Project name <br>All rights reserved.
-        social_list:
-            - network_name: facebook
-              profile_url: '#'
-            - network_name: twitter
-              profile_url: '#'
-            - network_name: instagram
-              profile_url: '#'
-            - network_name: youtube
-              profile_url: '#'
     google_analytics:
-        tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
-    comments:
-        disqus_forum_shortname: # Add your disqus forum shortname to activate comments
+        tracking_code: G-QFBKKPKXNV
 
 # SASS settings
 sass:
