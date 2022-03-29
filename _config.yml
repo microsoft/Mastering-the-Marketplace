@@ -1,7 +1,7 @@
 # Theme settings
 doks:
     baseurl:
-    color_theme: blue # Available themes: blue (default), green, purple, red and yellow
+    color_theme: blue
     header:
         logo:
             text: Mastering the Marketplace Learning Library
