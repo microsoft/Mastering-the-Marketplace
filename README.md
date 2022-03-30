@@ -20,13 +20,13 @@ To see the GitHub repo version of this site, [go here](https://github.com/micros
 
 Virtual machine offers are a popular way to publish a transactable offer in the Azure Marketplace. This video series walks through the technical implementation of creating a virtual machine offer from beginning to end.
 
-[Take me to it!](./vm/index.md)
+[Take me to it!](./vm)
 
 ## Mastering SaaS Offers
 
 This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.
 
-[Take me to it!](./saas/index.md)
+[Take me to it!](./saas)
 
 ## Mastering the SaaS Accelerator
 
@@ -38,7 +38,7 @@ This series of video modules and hands-on labs is designed to help you understan
 
 This course is designed to help you decrease your onboarding when building an Azure Managed Application offer. The content is comprised of recordings of a virtual workshop and are divided into small digestible modules for easy consumption.
 
-[Take me to it!](./ama/index.md)
+[Take me to it!](./ama)
 
 ---
 
