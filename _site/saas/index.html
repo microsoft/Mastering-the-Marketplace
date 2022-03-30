@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<title>Mastering SaaS Offers</title>
+
+	<meta name="description" content="This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.">
+
+
+	<meta name="keywords" content="Azure AppSoure Marketplace SaaS">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i|Noto+Sans:400,400i,700,700i|Source+Code+Pro&amp;subset=latin-ext">
+<link rel="stylesheet" href="/doks-theme/assets/css/style.css">
+
+	</head>
+	<body class="blue" data-spy="scroll" data-target=".js-scrollspy">
+		
+
+
+	<header class="site-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					
+						<a href="/" class="site-header__logo">Mastering the Marketplace Learning Library</a>
+					
+					
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</header><!-- /.site-header -->
+
+
+		<div class="hero-subheader">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="align-container" data-mh>
+							<div class="align-inner">
+								
+									<h1 class="hero-subheader__title">Mastering SaaS Offers</h1>
+								
+								
+									<p class="hero-subheader__desc">This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.</p>
+								
+								
+							</div><!-- /.align-inner -->
+						</div><!-- /.align-container -->
+					</div><!-- /.col -->
+					
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.hero-subheader -->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="content">
+							<h1 id="mastering-saas-offers">Mastering SaaS Offers</h1>
+
+<p><strong><a href="https://forms.office.com/r/0gCrzhSMkw">Let us know what you need</a></strong> in this content library.</p>
+
+<h2 id="video">Video</h2>
+
+<!-- no toc -->
+<ol>
+  <li><a href="#saas-offer-overview">SaaS Offer Overview</a></li>
+  <li><a href="#purchasing-a-saas-offer">Purchasing a SaaS Offer</a></li>
+  <li><a href="#purchasing-a-private-saas-plan">Purchasing a Private SaaS Plan</a></li>
+  <li><a href="#publishing-a-saas-offer">Publishing a SaaS Offer</a></li>
+  <li><a href="#publishing-a-private-saas-plan">Publishing a Private SaaS Plan</a></li>
+  <li><a href="#saas-offer-technical-overview">SaaS Offer Technical Overview</a></li>
+  <li><a href="#azure-ad-application-registrations">Azure AD Application Registrations</a></li>
+  <li><a href="#using-the-saas-offer-rest-fulfillment-api">Using the SaaS Offer REST Fulfillment API</a></li>
+  <li><a href="#the-saas-client-library-for-net">The SaaS Client Library for .NET</a></li>
+  <li><a href="#building-a-simple-saas-landing-page-in-net">Building a Simple SaaS Landing Page in .NET</a></li>
+  <li><a href="#building-a-simple-saas-publisher-portal-in-net">Building a Simple SaaS Publisher Portal in .NET</a></li>
+  <li><a href="#saas-webhook-overview">SaaS Webhook Overview</a></li>
+  <li><a href="#implementing-a-simple-saas-webhook-in-net">Implementing a Simple SaaS Webhook in .NET</a></li>
+  <li><a href="#securing-a-simple-saas-webhook-in-net">Securing a Simple SaaS Webhook in .NET</a></li>
+  <li><a href="#saas-metered-billing-overview">SaaS Metered Billing Overview</a></li>
+  <li><a href="#the-saas-metered-billing-api-with-rest">The SaaS Metered Billing API with REST</a></li>
+</ol>
+
+<h2 id="hands-on-labs">Hands-on labs</h2>
+
+<p>These hand on labs build on top of one another, so progress through them in order to get a fully functional SaaS Offer published and working for a test environment.</p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<ol>
+  <li>Azure subscription that can create resources</li>
+  <li>A Partner Center Account</li>
+  <li>Visual Studio 2022, any version</li>
+</ol>
+
+<h3 id="getting-started">Getting started</h3>
+
+<p>Clone <a href="https://github.com/microsoft/Mastering-the-Marketplace">this repository</a> to your local machine. You will need some artifacts from the lab folders to complete the labs.</p>
+
+<h3 id="hands-on-labs-1">Hands-on labs</h3>
+
+<ol>
+  <li><a href="./labs/lab1-create-pc-offer/README.md">Creating a SaaS Offer in Partner Center</a></li>
+  <li><a href="./labs/lab2-create-landing-page/README.md">Creating a Landing Page</a></li>
+  <li><a href="./labs/lab3-install-pub-portal/README.md">Installing a Publisher Portal</a></li>
+  <li><a href="./labs/lab4-create-webhook/README.md">Deploying and Monitoring a Webhook</a></li>
+  <li><a href="./labs/lab5-implementing-meter-billing/README.md">Implementing Meter billing</a></li>
+</ol>
+
+<hr />
+
+<h2 id="saas-offer-overview">SaaS Offer Overview</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://www.youtube.com/watch?v=9PCTioPbI8M&amp;list=PLmsFUfdnGr3wWUaB-QkSaQRHBNYKZj5PM">Video</a></td>
+      <td><a href="./pdfs/01-SaaS-Offer-Overview.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This module offers a technical overview of Microsoft Azure Marketplace SaaS Offers, including the following topics.</p>
+
+<ul>
+  <li>The Microsoft Commercial Marketplace Ecosystem​</li>
+  <li>SaaS Offer Creation Process​</li>
+  <li>​Pricing Models for SaaS Offers​</li>
+  <li>SaaS Solution Architectures</li>
+</ul>
+
+<h2 id="purchasing-a-saas-offer">Purchasing a SaaS Offer</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/hYqoqbzCbfY">Video</a></td>
+      <td><a href="./pdfs/02.1-Purchasing-a-SaaS-Offer.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This video offers a guided step-by-step process to purchasing SaaS applications in the #Microsoft Azure Marketplace from the customers point of view, including the following topics.</p>
+
+<ul>
+  <li>SaaS Offer Subscription Flow</li>
+  <li>Subscribing From the Azure Marketplace</li>
+  <li>Subscribing From the Azure Portal</li>
+  <li>The SaaS Management Service</li>
+</ul>
+
+<h2 id="purchasing-a-private-saas-plan">Purchasing a Private SaaS Plan</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/44CCTjiwcfA">Video</a></td>
+      <td><a href="./pdfs/02.2-Purchasing-a-Private-SaaS-Plan.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This video shows how to subscribe to private SaaS plans in the Microsoft Azure Marketplace. Topics include the following.</p>
+
+<ul>
+  <li>About Private Plans</li>
+  <li>Purchasing a SaaS Private Offer demo</li>
+</ul>
+
+<h2 id="publishing-a-saas-offer">Publishing a SaaS Offer</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/AnZDa0Z1z8I">Video</a></td>
+      <td><a href="./pdfs/03.1-Publishing-a-SaaS-Offer.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook.</p>
+
+<h2 id="publishing-a-private-saas-plan">Publishing a Private SaaS Plan</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/67E7LPL_aic">Video</a></td>
+      <td><a href="./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This brief video builds upon what you learned in, “<a href="#publishing-a-saas-offer">Publishing a SaaS Offer</a>.” It presents the concepts of using private plans and then shows how to do so inside Partner Center.</p>
+
+<h2 id="saas-offer-technical-overview">SaaS Offer Technical Overview</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/0c-rzJkTV7w">Video</a></td>
+      <td><a href="./pdfs/04-SaaS-Offer-Technical-Overview.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Watch a deep technical overview of how SaaS offers work in the Microsoft Azure Marketplace. Learn how the API flows and interactions should work and how to build your landing page. Topics include the following.</p>
+
+<ul>
+  <li>The Landing Page​ authentication workflows</li>
+  <li>SaaS Offer Purchase Flow in Depth​</li>
+  <li>SaaS Offer Fulfillment API​</li>
+  <li>Metered Fulfillment Overview​</li>
+  <li>SaaS Offer Webhook</li>
+</ul>
+
+<h2 id="azure-ad-application-registrations">Azure AD Application Registrations</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/-wjlgxJIlWQ">Video</a></td>
+      <td><a href="./pdfs/05-Azure-AD-Application-Registrations.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In this module we look at a generic topic, application registrations for Azure Active Directory because we’ll need to use them in our upcoming modules. They give us a mechanism to authenticate to Azure AD, which is a requirement of the landing page, if you recall.</p>
+
+<p>This video should help you get a jump start on configuring application registrations for the apps we’ll be building in the next few modules.</p>
+
+<blockquote>
+  <p><strong>NOTE:</strong> The secrets that you set in an Application Registration have time limits. You may select up to 2 years for the secret to remain valid. In production, track when your secrets need to be changed and do so to avoid service outages.</p>
+</blockquote>
+
+<p>This module introduces just enough on this topic to help us build our landing page and webhooks later in the course. For those interested in more reading, please see <a href="https://docs.microsoft.com/azure/marketplace/azure-ad-transactable-saas-landing-page#create-an-azure-ad-app-registration">Create and Azure AD app registration</a> and <a href="https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app">Quick start: Register an application with the Microsoft identity platform</a> from the official Microsoft documentation.</p>
+
+<h2 id="using-the-saas-offer-rest-fulfillment-api">Using the SaaS Offer REST Fulfillment API</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/eizdN6XNyvw">Video</a></td>
+      <td><a href="./pdfs/06-Using-the-SaaS-Offer-Fulfillment-API.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>See the SaaS Fulfillment REST API in action as we send it through its paces using Postman. You’ll learn how to authenticate with Azure Active Directory, resolve and activate subscriptions just like your Landing Page does, and see many other features of the API.</p>
+
+<p>This module prepares you for working with the language-specific client libraries.</p>
+
+<p>This modules requires you to have knowledge of <a href="https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app">Application Registrations in AAD</a>.</p>
+
+<p>An Application Registration is used in the examples when making the first request to retrieve an authentication token from Azure Active Directory. You should be familiar with creating an Application Registration and finding the following information in the Azure Portal.</p>
+
+<ol>
+  <li>The <a href="https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#get-tenant-and-app-id-values-for-signing-in">Tenant ID and App ID</a></li>
+  <li>A <a href="https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#option-2-create-a-new-application-secret">Client Secret</a> on the Application Registration</li>
+</ol>
+
+<h2 id="the-saas-client-library-for-net">The SaaS Client Library for .NET</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/uihNXaDBXVQ">Video</a></td>
+      <td><a href="./pdfs/07-The-SaaS-Client-Library-for-.NET.pdf">PDF</a></td>
+      <td><a href="./demo-code/the-saas-client-library-for-dotnet">Code</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This module introduces the <a href="https://github.com/microsoft/commercial-marketplace-client-dotnet">SaaS Client Library for .NET</a> developers who want to work with the SaaS APIs at a level of abstraction above the REST level.</p>
+
+<p>The client library is a fully functional .NET package that you can <a href="https://www.nuget.org/packages/Marketplace.SaaS.Client">install from NuGet</a> and use in your applications.</p>
+
+<p>This video shows a sample command line application that can talk to the client library API and the code is available in this repository via the link above.</p>
+
+<h2 id="building-a-simple-saas-landing-page-in-net">Building a Simple SaaS Landing Page in .NET</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/QoDXqp3GH_s">Video</a></td>
+      <td><a href="./pdfs/08-simple-landing-page-dotnet.pdf">PDF</a></td>
+      <td><a href="./demo-code/saas-simple-landing-page">Code</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In this module we examine the elements of building a simple landing page and looking at how it works.We examine the following topics.</p>
+
+<ul>
+  <li>The purpose of a landing page</li>
+  <li>A humble landing page in action</li>
+  <li>The code</li>
+  <li>Available data to display</li>
+</ul>
+
+<p>The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it simple. We use the <a href="#the-saas-client-library-for-net">SaaS Client Library for .NET</a> to build out our landing page functionality.</p>
+
+<h2 id="building-a-simple-saas-publisher-portal-in-net">Building a Simple SaaS Publisher Portal in .NET</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/bKNFoLfrTHU">Video</a></td>
+      <td><a href="./pdfs/09-simple-publisher-portal-dotnet.pdf">PDF</a></td>
+      <td><a href="./demo-code/saas-simple-publisher-portal">Code</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In this module we examine the elements of building a publisher portal and at how it works.We examine the following topics.</p>
+
+<ul>
+  <li>The purpose of a publisher portal</li>
+  <li>A simple publisher portal in action</li>
+  <li>The code</li>
+</ul>
+
+<p>The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it simple. We use the <a href="#the-saas-client-library-for-net">SaaS Client Library for .NET</a> to build out our portal functionality.</p>
+
+<h2 id="saas-webhook-overview">SaaS Webhook Overview</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/Fl6CZyrJnw8">Video</a></td>
+      <td><a href="./pdfs/10.1-simple-webhook-overview.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This technical overview of the SaaS webhook explains the following concepts of the SaaS offer webhook.</p>
+
+<ul>
+  <li>Why to have this specialized HTTPS endpoint</li>
+  <li>POST events one may receive on the webhook</li>
+  <li>Flow models of how to handle requests</li>
+  <li>Potential fully implemented solution architectures</li>
+</ul>
+
+<p>And more! Consider watching this video before moving on to the code-based modules for implementing and securing a SaaS offer webhook.</p>
+
+<h2 id="implementing-a-simple-saas-webhook-in-net">Implementing a Simple SaaS Webhook in .NET</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/higEi441t1Q">Video</a></td>
+      <td><a href="./demo-code/simple-webhook-dotnet-implementing">Code</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This code-heavy module focuses on the fundamentals of implementing a SaaS offer webhook as an Azure function using .NET. Concepts are presented in such a way as to be architecture and technology stack agnostic.</p>
+
+<h2 id="securing-a-simple-saas-webhook-in-net">Securing a Simple SaaS Webhook in .NET</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://youtu.be/Wifuc5jAY7E">Video</a></td>
+      <td><a href="./pdfs/10.3-simple-webhook-dotnet-securing.pdf">PDF</a></td>
+      <td><a href="./demo-code/simple-webhook-dotnet-securing">Code</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This security-focused module introduces several techniques for securing a SaaS offer webhook and then dives into code looking at implementations of the techniques presented. This module builds on the concepts and code presented in the module, “<a href="#implementing-a-simple-saas-webhook-in-net">Implementing a Simple SaaS Webhook in .NET</a>”.</p>
+
+<p>Although utilizing an Azure function built in .NET, topics are presented in such a way as to be architecture and technology stack agnostic.</p>
+
+<h2 id="saas-metered-billing-overview">SaaS Metered Billing Overview</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://www.youtube.com/watch?v=DJQ-2-wh6vU">Video</a></td>
+      <td><a href="./pdfs/11.1-saas-metered-billing-overview.pdf">PDF</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This module presents the fundamentals of billing through the marketplace based on usage, or metered billing. IT covers several areas of metered billing including the following.</p>
+
+<ol>
+  <li>How to configure Partner Center</li>
+  <li>The flow of API operations needed to use the SaaS billing API</li>
+  <li>Resources to save you time in building your SaaS application</li>
+</ol>
+
+<h2 id="the-saas-metered-billing-api-with-rest">The SaaS Metered Billing API with REST</h2>
+
+<p><a href="https://www.youtube.com/watch?v=dcoSzngO3MQ">Video</a></p>
+
+<p>We exercise the SaaS Billing REST API using Postman to illustrate how the API works. You’ll learn how the inputs to each API event and how to use the results, and finally how to invoke usage events in the metering API itself. This module is primarily demo.</p>
+
+						</div><!-- /.content -->
+					</div><!-- /.col -->
+					<div class="col-md-4 col-md-offset-1">
+						<div class="sections-list-wrapper">
+							<div class="sections-list js-sections js-affix js-scrollspy hidden-xs hidden-sm"></div><!-- /.sections-list -->
+						</div>
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.section -->
+		
+		<div class="js-footer-area">
+			
+			
+			
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					
+						<a href="/" class="site-footer__logo">Mastering the Marketplace</a>
+					
+					
+						<hr>
+						<p class="site-footer__copyright">Copyright &copy; 2022. - Microsoft, Inc. <br>All rights reserved.</p>
+					
+				</div><!-- /.col -->
+				
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</footer><!-- /.site-footer -->
+
+
+<script src="/doks-theme/assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/affix.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/scrollspy.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/matchHeight.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/scripts.min.js"></script>
+
+
+
+
+		</div><!-- /.js-footer-area -->
+	</body>
+</html>

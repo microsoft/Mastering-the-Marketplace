@@ -19,7 +19,6 @@ Thumbs.db
 # Compiled assets
 # ---------------
 .sass-cache
-_site
 doks-theme/
 .eslintrc
 .jekyll-cache/
