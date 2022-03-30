@@ -27,4 +27,4 @@ includes_dir: ./doks-theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md' ]
 permalink: /:title/
 
-theme: jekyll-theme-cayman
+theme: doks
