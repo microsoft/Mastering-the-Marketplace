@@ -33,4 +33,3 @@ grid_navigation:
       cta: Learn more
       url: './ama'
 ---
-This is a test
