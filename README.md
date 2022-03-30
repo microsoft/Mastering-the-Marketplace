@@ -32,7 +32,7 @@ This online learning series includes videos, sample code, and hands-on labs mean
 
 This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project. The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days.
 
-[Take me to it!](./saas-accelerator/index.md)
+[Take me to it!](./saas-accelerator)
 
 ## Mastering Azure Managed Application Offers
 
