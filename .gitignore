@@ -19,7 +19,6 @@ Thumbs.db
 # Compiled assets
 # ---------------
 .sass-cache
-doks-theme/
 .eslintrc
 .jekyll-cache/
 designs/favicon.psd
