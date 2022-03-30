@@ -1,3 +1,17 @@
+---
+# Page settings
+layout: default
+keywords: Azure AppSoure Marketplace SaaS
+comments: false
+
+# Hero section
+title: Mastering the SaaS Accelerator
+description: This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the SaaS Accelerator project. The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days.
+
+# Micro navigation
+micro_nav: false
+---
+
 # Mastering the SaaS Accelerator
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.

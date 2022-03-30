@@ -1,2 +1,28 @@
-remote_theme: pages-themes/cayman@v0.2.0
-google_analytics: G-QFBKKPKXNV
+# Theme settings
+doks:
+    color_theme: blue # Available themes: blue (default), green, purple, red and yellow
+    header:
+        logo: 
+            text: Mastering the Marketplace Learning Library
+            image:
+    footer:
+        content:
+            logo:
+                text: Mastering the Marketplace
+                image:
+            copyright: Copyright &copy; 2022. - Microsoft, Inc. <br>All rights reserved.
+    google_analytics:
+        tracking_code: G-QFBKKPKXNV
+    # Micro navigation
+    micro_nav: false
+
+# SASS settings
+sass:
+    sass_dir: ./doks-theme/_sass
+    style: :compressed
+
+# Jekyll settings
+layouts_dir: ./doks-theme/_layouts
+includes_dir: ./doks-theme/_includes
+exclude: [ 'README.md', 'CHANGELOG.md' ]
+permalink: /:title/
