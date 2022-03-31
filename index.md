@@ -5,7 +5,7 @@ keywords: Azure Markeplace AppSource
 
 # Hero section
 title: Mastering the Marketplace
-description: A technical learning library for building transable offers on Azure
+description: A technical learning library for building transable offers on Azure. This content helps you bring your solution to the Microsoft marketplace faster and with more understanding. The library contains self-paced videos, hands-on labs, and sample code.
 buttons:
     - icon: github
       content: Go to GitHub repository
