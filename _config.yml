@@ -1,5 +1,6 @@
 # Theme settings
 doks:
+    baseurl: https://dstarr.github.io/Mastering-the-Marketplace
     color_theme: blue # Available themes: blue (default), green, purple, red and yellow
     header:
         logo: 
