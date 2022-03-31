@@ -1168,6 +1168,27 @@ h1:hover .title-anchor-link, h1:focus .title-anchor-link, h1:active .title-ancho
 h1:hover .title-anchor-link:hover, h1:hover .title-anchor-link:focus, h1:hover .title-anchor-link:active, h1:focus .title-anchor-link:hover, h1:focus .title-anchor-link:focus, h1:focus .title-anchor-link:active, h1:active .title-anchor-link:hover, h1:active .title-anchor-link:focus, h1:active .title-anchor-link:active, .h1:hover .title-anchor-link:hover, .h1:hover .title-anchor-link:focus, .h1:hover .title-anchor-link:active, .h1:focus .title-anchor-link:hover, .h1:focus .title-anchor-link:focus, .h1:focus .title-anchor-link:active, .h1:active .title-anchor-link:hover, .h1:active .title-anchor-link:focus, .h1:active .title-anchor-link:active, h2:hover .title-anchor-link:hover, h2:hover .title-anchor-link:focus, h2:hover .title-anchor-link:active, h2:focus .title-anchor-link:hover, h2:focus .title-anchor-link:focus, h2:focus .title-anchor-link:active, h2:active .title-anchor-link:hover, h2:active .title-anchor-link:focus, h2:active .title-anchor-link:active, .h2:hover .title-anchor-link:hover, .h2:hover .title-anchor-link:focus, .h2:hover .title-anchor-link:active, .h2:focus .title-anchor-link:hover, .h2:focus .title-anchor-link:focus, .h2:focus .title-anchor-link:active, .h2:active .title-anchor-link:hover, .h2:active .title-anchor-link:focus, .h2:active .title-anchor-link:active, h3:hover .title-anchor-link:hover, h3:hover .title-anchor-link:focus, h3:hover .title-anchor-link:active, h3:focus .title-anchor-link:hover, h3:focus .title-anchor-link:focus, h3:focus .title-anchor-link:active, h3:active .title-anchor-link:hover, h3:active .title-anchor-link:focus, h3:active .title-anchor-link:active, .h3:hover .title-anchor-link:hover, .h3:hover .title-anchor-link:focus, .h3:hover .title-anchor-link:active, .h3:focus .title-anchor-link:hover, .h3:focus .title-anchor-link:focus, .h3:focus .title-anchor-link:active, .h3:active .title-anchor-link:hover, .h3:active .title-anchor-link:focus, .h3:active .title-anchor-link:active, h4:hover .title-anchor-link:hover, h4:hover .title-anchor-link:focus, h4:hover .title-anchor-link:active, h4:focus .title-anchor-link:hover, h4:focus .title-anchor-link:focus, h4:focus .title-anchor-link:active, h4:active .title-anchor-link:hover, h4:active .title-anchor-link:focus, h4:active .title-anchor-link:active, .h4:hover .title-anchor-link:hover, .h4:hover .title-anchor-link:focus, .h4:hover .title-anchor-link:active, .h4:focus .title-anchor-link:hover, .h4:focus .title-anchor-link:focus, .h4:focus .title-anchor-link:active, .h4:active .title-anchor-link:hover, .h4:active .title-anchor-link:focus, .h4:active .title-anchor-link:active, h5:hover .title-anchor-link:hover, h5:hover .title-anchor-link:focus, h5:hover .title-anchor-link:active, h5:focus .title-anchor-link:hover, h5:focus .title-anchor-link:focus, h5:focus .title-anchor-link:active, h5:active .title-anchor-link:hover, h5:active .title-anchor-link:focus, h5:active .title-anchor-link:active, .h5:hover .title-anchor-link:hover, .h5:hover .title-anchor-link:focus, .h5:hover .title-anchor-link:active, .h5:focus .title-anchor-link:hover, .h5:focus .title-anchor-link:focus, .h5:focus .title-anchor-link:active, .h5:active .title-anchor-link:hover, .h5:active .title-anchor-link:focus, .h5:active .title-anchor-link:active, h6:hover .title-anchor-link:hover, h6:hover .title-anchor-link:focus, h6:hover .title-anchor-link:active, h6:focus .title-anchor-link:hover, h6:focus .title-anchor-link:focus, h6:focus .title-anchor-link:active, h6:active .title-anchor-link:hover, h6:active .title-anchor-link:focus, h6:active .title-anchor-link:active, .h6:hover .title-anchor-link:hover, .h6:hover .title-anchor-link:focus, .h6:hover .title-anchor-link:active, .h6:focus .title-anchor-link:hover, .h6:focus .title-anchor-link:focus, .h6:focus .title-anchor-link:active, .h6:active .title-anchor-link:hover, .h6:active .title-anchor-link:focus, .h6:active .title-anchor-link:active { opacity: 1; }
 
 /* ----- Themes ----- */
+
+/** MSFT (themes/_red.scss) */
+/* ----- Hero subheader ----- */
+.msft .hero-subheader { background-color: #fff; }
+
+/* ----- Nav grid ----- */
+.msft .nav-grid__item { background-color: #fff; }
+
+.msft .nav-grid__item:hover, .msft .nav-grid__item:active, .msft .nav-grid__item:focus { background-color: #EBEBEB; }
+
+/* ----- Section ----- */
+.msft .section--darker-theme-color-bg { background-color: #ffe0d7; }
+
+/* ----- Page nav ----- */
+.msft .page-nav { background-color: #FFECE6; }
+
+/* ----- Error 404 ----- */
+.msft.error-404 { background-color: #FFECE6; }
+
+
+
 /** Green (themes/_green.scss) */
 /* ----- Hero subheader ----- */
 .green .hero-subheader { background-color: #F0FAE6; }

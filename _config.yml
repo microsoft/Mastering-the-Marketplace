@@ -1,10 +1,10 @@
 # Theme settings
 doks:
     baseurl: /Mastering-the-Marketplace
-    color_theme: blue # Available themes: blue (default), green, purple, red and yellow
+    color_theme: msft # Available themes: blue (default), green, purple, red and yellow
     header:
         logo: 
-            text: Mastering the Marketplace
+            text: Mastering the Marketplace Learning Library
             image:
     footer:
         content:
