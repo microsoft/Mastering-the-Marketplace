@@ -42,6 +42,8 @@ These hand on labs build on top of one another, so progress through them in orde
 
 ---
 
+## Module details
+
 ### A SaaS Accelerator Hands-on Tour - The Basics
 
 [Video](https://youtu.be/I9bQlhjNa_8)
