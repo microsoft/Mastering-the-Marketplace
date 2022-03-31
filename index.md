@@ -13,23 +13,26 @@ buttons:
       external_url: true
 
 grid_navigation:
-    - title: Virtual Machine offers
-      excerpt: Create VM offers to publish in the Azure Marketplace
-      cta: Learn more
-      url: './vm'
 
-    - title: Custom SaaS solution
+    - title: Build Custom SaaS offers
       excerpt: How to build your own SaaS solution for the Azure Marketplace
-      cta: Learn more
+      cta: Take me to it
       url: './saas'
 
     - title: The SaaS Accelerator
       excerpt: The SaaS Accelerator is a turn key reference implementation of a SaaS offer. Install in 20 minutes!
-      cta: Learn more
+      cta: Take me to it
       url: './saas-accelerator'
 
-    - title: Azure Managed Applications
+    - title: Virtual Machine offers
+      excerpt: Create VM offers to publish in the Azure Marketplace
+      cta: Take me to it
+      url: './vm'
+
+    - title: Azure Managed Applications offers
       excerpt: For those building Managed Apps for the Azure Marketplace
-      cta: Learn more
+      cta: Take me to it
       url: './ama'
+
+      
 ---

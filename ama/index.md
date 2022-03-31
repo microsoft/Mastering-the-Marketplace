@@ -12,8 +12,6 @@ description: This course is designed to help you decrease your onboarding when b
 micro_nav: false
 ---
 
-# Mastering Azure Managed Application Offers
-
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
 ##  The Self-Guided Hands-on Workshop

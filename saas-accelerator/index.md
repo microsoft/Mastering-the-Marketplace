@@ -12,8 +12,6 @@ description: This series of video modules and hands-on labs is designed to help 
 micro_nav: false
 ---
 
-# Mastering the SaaS Accelerator
-
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
 This series is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator).

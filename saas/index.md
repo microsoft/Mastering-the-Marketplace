@@ -12,8 +12,6 @@ description: This online learning series includes videos, sample code, and hands
 micro_nav: false
 ---
 
-# Mastering SaaS Offers
-
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
 ## Video
