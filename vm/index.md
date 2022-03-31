@@ -12,6 +12,8 @@ description: These demo-heavy modules take you all the way from creating a new v
 micro_nav: false
 ---
 
+# Mastering Virtual Machine Offers
+
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
 ## Introduction
