@@ -1,0 +1,22 @@
+@model LandingPage.ViewModels.ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h2 class="text-danger">An error occurred while processing your request.</h2>
+
+<h3>@Model.Description</h3>
+
+<code>
+    @Model.ExceptionMessage
+</code>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>Request ID:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+
+
+

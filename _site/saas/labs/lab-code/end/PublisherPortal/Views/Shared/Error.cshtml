@@ -1,0 +1,17 @@
+﻿@model PublisherPortal.ViewModels.ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+<p>An error occurred while processing your request.</p>
+
+<h2>
+    @Model.Message
+</h2>
+
+@if (Model.ShowException)
+{
+    <p>@Model.Exception.Message</p>
+    <code>@Model.Exception.StackTrace</code>
+}
