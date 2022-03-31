@@ -29,7 +29,9 @@ These demo-heavy modules take you all the way from creating a new virtual machin
 6. [Configuring a Virtual Machine Offer in Partner Center – Demo](#configuring-a-virtual-machine-offer-in-partner-center--demo)
 7. [Certifications and Exceptions](#certifications-and-exceptions)
 
-## Module Details
+---
+
+## Module details
 
 ### Getting Started
 

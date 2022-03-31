@@ -62,7 +62,9 @@ Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) 
 1. [Using Partner Center Ingestion API for managing "Azure Application" offers in Azure Marketplace](https://youtu.be/omEjvvF9g6Y)
 1. [Refreshing Azure Managed Application permissions and using Managed App's Identity](https://youtu.be/sDjY_mD3fqY)
 
-## Module Descriptions
+---
+
+## Module details
 
 ### Course Introduction
 
