@@ -17,22 +17,22 @@ grid_navigation:
     - title: Build Custom SaaS offers
       excerpt: How to build your own SaaS solution for the Azure Marketplace
       cta: Take me to it
-      url: './saas'
+      url: '/saas'
 
     - title: The SaaS Accelerator
       excerpt: The SaaS Accelerator is a turn key reference implementation of a SaaS offer. Install in 20 minutes!
       cta: Take me to it
-      url: './saas-accelerator'
+      url: '/saas-accelerator'
 
     - title: Virtual Machine offers
       excerpt: Create VM offers to publish in the Azure Marketplace
       cta: Take me to it
-      url: './vm'
+      url: '/vm'
 
     - title: Azure Managed Applications offers
       excerpt: For those building Managed Apps for the Azure Marketplace
       cta: Take me to it
-      url: './ama'
+      url: '/ama'
 
       
 ---
