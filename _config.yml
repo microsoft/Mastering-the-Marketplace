@@ -1,10 +1,10 @@
 # Theme settings
 doks:
-    baseurl: https://dstarr.github.io/Mastering-the-Marketplace
+    baseurl: /Mastering-the-Marketplace
     color_theme: blue # Available themes: blue (default), green, purple, red and yellow
     header:
         logo: 
-            text: Mastering the Marketplace Learning Library
+            text: Mastering the Marketplace
             image:
     footer:
         content:
@@ -14,8 +14,6 @@ doks:
             copyright: Copyright &copy; 2022. - Microsoft, Inc. <br>All rights reserved.
     google_analytics:
         tracking_code: G-QFBKKPKXNV
-    # Micro navigation
-    micro_nav: false
 
 # SASS settings
 sass:
@@ -27,5 +25,3 @@ layouts_dir: ./doks-theme/_layouts
 includes_dir: ./doks-theme/_includes
 exclude: [ 'README.md', 'CHANGELOG.md' ]
 permalink: /:title/
-
-theme: doks
