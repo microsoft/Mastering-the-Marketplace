@@ -15,6 +15,9 @@
 						<p class="site-footer__copyright">{{ site.doks.footer.content.copyright }}</p>
 					{% endif %}
 				</div><!-- /.col -->
+				<div class="col-sm-6 align-right">
+					<img alt="Microsoft Azure logo." src="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}/doks-theme/assets/images/layout/logo-footer.png" class="site-footer__logoimage">
+				</div><!-- /.col -->
 				{% if site.doks.footer.social_list %}
 					<div class="col-sm-6 align-right">
 						<ul class="social-list">
@@ -28,7 +31,9 @@
 						</ul><!-- /.social-list -->
 					</div><!-- /.col -->
 				{% endif %}
+
 			</div><!-- /.row -->
+
 		</div><!-- /.container -->
 	</footer><!-- /.site-footer -->
 {% endif %}
