@@ -9,7 +9,7 @@
 	padding: 1.0rem 0 1.0rem 0;
 
 	@media (min-width: $screen-sm-min) {
-		padding: 9.375rem 0 (10.3125rem - 1.25rem) 0;
+		padding: 6.375rem 0 0.0625rem 0;
 	}
 
 	.btn {
@@ -21,13 +21,13 @@
 		@extend .btn--dark;
 	}
 
-	.site-header + & {
-		padding: 9.375rem 0 (4.6875rem - 1.25rem) 0;
+	// .site-header + & {
+	// 	padding: 9.375rem 0 (4.6875rem - 1.25rem) 0;
 
-		@media (min-width: $screen-sm-min) {
-			padding: 15rem 0 (10.3125rem - 1.25rem) 0;
-		}
-	}
+	// 	@media (min-width: $screen-sm-min) {
+	// 		padding: 15rem 0 (10.3125rem - 1.25rem) 0;
+	// 	}
+	// }
 }
 
 .hero-subheader--before-out {
