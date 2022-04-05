@@ -1,23 +1,19 @@
-/**
- * Red (themes/_red.scss)
- */
-
 /* ----- Hero subheader ----- */
 .msft {
 	.hero-subheader {
-		background-color: $color-theme-msft;
+		background-color: #fff;
 	}
 }
 
 /* ----- Nav grid ----- */
 .msft {
 	.nav-grid__item {
-		background-color: $color-theme-msft;
+		background-color: #fff;
 
 		&:hover,
 		&:active,
 		&:focus {
-			background-color: $color-theme-msft;
+			background-color: #fff;
 		}
 	}
 }
