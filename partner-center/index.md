@@ -29,7 +29,7 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 
 ### Private Offers for CSP Partners Overview
 
-[Video](https://youtu.be/UYOsdTPiPnQ)
+[Video](https://youtu.be/UYOsdTPiPnQ) | [PDF](pdfs/2.0-csp-private-offer-overview.pdf)
 
 Learn about private offers for Cloud Solution Providers in this overview of the capability in Partner Center.
 
