@@ -13,7 +13,6 @@ buttons:
       external_url: true
 
 grid_navigation:
-
     - title: Build Custom SaaS offers
       excerpt: How to build your own SaaS solution for the Azure Marketplace
       cta: Take me to it
@@ -30,5 +29,4 @@ grid_navigation:
       excerpt: For those building Managed Apps for the Azure Marketplace
       cta: Take me to it
       url: '/ama'
-     
 ---
