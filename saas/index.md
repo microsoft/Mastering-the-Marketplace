@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: Azure AppSoure Marketplace SaaS
+keywords: Azure AppSource Marketplace SaaS
 comments: false
 
 # Hero section
