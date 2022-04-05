@@ -29,4 +29,8 @@ grid_navigation:
       excerpt: For those building Managed Apps for the Azure Marketplace
       cta: Take me to it
       url: '/ama'
+    - title: Mastering Partner Center
+      excerpt: How-to content for working with the publisher's portal
+      cta: Take me to it
+      url: '/partner-center'
 ---
