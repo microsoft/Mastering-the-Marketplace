@@ -4,54 +4,10 @@ This lab takes you through a very quick installation process for the SaaS Accele
 
 ## Exercise: Create an install document
 
-Open your favorite text editor and paste the following PowersShell script into a text file.
-
-```powershell
-wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh; `
-chmod +x dotnet-install.sh; `
-./dotnet-install.sh; `
-$ENV:PATH="$HOME/.dotnet:$ENV:PATH"; `
-git clone https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator.git -b main --depth 1; `
- cd ./Commercial-Marketplace-SaaS-Accelerator/deployment/Templates; `
- Connect-AzureAD -Confirm; .\Deploy.ps1 `
- -Location "East US" `
- -PathToARMTemplate "./deploy.json" `
- -PublisherAdminUsers "ADMIN_USER_EMAIL" `
- -ResourceGroupForDeployment "RESOURCE_GROUP" `
- -SQLAdminLogin "SQL_ADMIN_USER_NAME" `
- -SQLAdminLoginPassword "SQL_PASSWORD" `
- -SQLServerName "SQL_SERVER_NAME" `
- -WebAppNamePrefix "WEB_NAME_PREFIX"
- ```
-
-### Defined values
-
-In your text editor, replace each of the ALL_CAPS values. They are described below.
-
-| Parameter value | Description and notes |
-|---|---|
-| **ADMIN_USER_EMAIL** | The email of the admin for the SaaS solution that will be deployed. This should be an email tied to an Azure subscription. |
-| **RESOURCE_GROUP** | The name of the resource group you want to deploy the SaaS solution into. For the purposes of this lab, consider using `saas-accelerator`. |
-| **SQL_ADMIN_USER_NAME** | The admin username for the SQL Server that will be installed. Do NOT use name "admin" as it is not allowed and the deployment script will fail. |
-| **SQL_PASSWORD** | The password for the SQL Server instance that will be installed. Make this password secure and at **least 22 characters long** so the deployment script doesn't fail. Do not use hyphens. |
-| **SQL_SERVER_NAME** | The name of the SQL Server instance that will be deployed. The name can only contain lowercase letters. |
-| **WEB_NAME_PREFIX** | A string that will be prefixed to the name of all resources that are created in your deployment resource group. This can be as short as three letters. Use lowercase alphanumeric characters only. |
-
-### Optional parameters
-
-The following values are optional and typically used for a more customized deployment. We will not be using these parameters in this lab, but you can experiment with them on your own.
-
-```powershell
--TenantID "xxxx-xxx-xxx-xxx-xxxx"
--AzureSubscriptionID "xxx-xx-xx-xx-xxxx"
--ADApplicationID "xxxx-xxx-xxx-xxx-xxxx"
--ADApplicationSecret "xxxx-xxx-xxx-xxx-xxxx"
--ADMTApplicationID "xxxx-xxx-xxx-xxx-xxxx"
--LogoURLpng "https://company_com/company_logo.png"
--LogoURLico "https://company_com/company_logo.ico"
-```
-
-[See here](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#parameters) for explanations of all parameters.
+1. [Go here](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#installating-the-azure-marketplace-saas-accelerator-using-azure-cloud-shell) and copy the installation script to your clipboard.
+2. Open your favorite text editor and paste in the PowerShell script.
+3. Edit the parameters in the script .
+4. In your text editor, replace each of the ALL_CAPS values. [These script parameters are described here](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#parameters).
 
 ## Exercise: Opening the cloud shell
 
@@ -69,9 +25,9 @@ This opens the the PowerShell cloud shell, which is a command line that runs dir
 1. Select **Paste as plain text**.
 1. If the script doesn't start running automatically, hit **Enter**.
 
-The script will take several minutes to run. It may reach a point where it seems nothing is happening, but just wait through the entire install. It typically takes eight minutes or so.
+The script will take several minutes to run. It may reach a point where it seems nothing is happening, but just wait through the entire install.
 
-### Install script errors
+### ⚠️ Install script errors
 
 If you see errors in the output of the script, cancel the run of the script by typing **CTRL+C**.
 
@@ -91,7 +47,7 @@ If you see errors in the output of the script, cancel the run of the script by t
 
 ### Successful install script
 
-When the script completes successfully, it will print the values you need for the Technical Configuration tab in Partner Center. It will look something like this. Copy this information to a note or file so you can retrieve it in case you close the browser window.
+When the script completes successfully, it will print the values you need for the **Technical Configuration** tab in **Partner Center**. It will look something like the following.
 
 ```powershell
 __ Add The following URL in PartnerCenter SaaS Technical Configuration->Landing Page section
@@ -104,38 +60,7 @@ __ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration
    bc830358-8c71-4699-b5e6-ea617ac7b5ee
 ```
 
-## Exercise: Secrets
-
-The installer did not complete one part of the installation process. The landing page app registration needs a secret that will be shared with the landing page web application. Here you will create that secret and configure it with the web application.
-
-1. In the command bar at the top of the Azure portal, type "App reg" and select App registrations from the menu.
-1. Click the **All applications** tab.
-1. Find the registration named **PREFIX-FulfillmentApp** and click it.
-1. In the left menu under **Manage**, click the **Certificates and secrets** menu item.
-1. Click **+ New client secret**.
-1. Enter a name for your secret, like "secret1."
-1. Copy the **Value** of the secret and copy it somewhere you can access it again. You won't have another chance to copy this secret.
-1. Browse to the resource group you created during installation, `saas-accelerator`. You see the resources created inside the resource group.
-
-### The portal secret
-
-1. Click the App service named **PREFIX-portal**.
-1. In the left menu, under **Settings** click the **Configuration** menu item.
-1. Scroll down and click the `SaaSApiConfiguration__ClientSecret` application setting.
-1. In the **Value** field, paste in the secret you created earlier.
-1. Click the **OK** button.
-1. Click the **Save** button on the upper menu.
-1. Click the **Continue** button to allow the web app to restart.
-
-### The admin secret
-
-1. Click the App service named **PREFIX-admin**.
-1. In the left menu, under **Settings** click the **Configuration** menu item.
-1. Scroll down and click the `SaaSApiConfiguration__ClientSecret` application setting.
-1. In the **Value** field, paste in the secret you created earlier.
-1. Click the **OK** button.
-1. Click the **Save** button on the upper menu.
-1. Click the **Continue** button to allow the web app to restart.
+Copy this information to a note or file so you can retrieve it in case you close the browser window. 
 
 ## Exercise: Verify web applications
 
