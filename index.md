@@ -16,21 +16,21 @@ grid_navigation:
     - title: Build Custom SaaS offers
       excerpt: How to build your own SaaS solution for the Azure Marketplace
       cta: Take me to it
-      url: '/saas'
+      url: 'https://aka.ms/MasteringTheMarketplace/saas'
     - title: The SaaS Accelerator
       excerpt: The SaaS Accelerator is a turn key reference implementation of a SaaS offer. Install in 20 minutes!
       cta: Take me to it
-      url: '/saas-accelerator'
+      url: 'https://aka.ms/MasteringTheMarketplace/saas-accelerator'
     - title: Virtual Machine offers
       excerpt: Create VM offers to publish in the Azure Marketplace
       cta: Take me to it
-      url: '/vm'
+      url: 'https://aka.ms/MasteringTheMarketplace/vm'
     - title: Azure Managed Applications offers
       excerpt: For those building Managed Apps for the Azure Marketplace
       cta: Take me to it
-      url: '/ama'
+      url: 'https://aka.ms/MasteringTheMarketplace/ama'
     - title: Mastering Partner Center
       excerpt: How-to content for working with the publisher's portal
       cta: Take me to it
-      url: '/partner-center'
+      url: 'https://aka.ms/MasteringTheMarketplace/pc'
 ---
