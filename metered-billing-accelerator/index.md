@@ -37,9 +37,8 @@ These hand on labs build on top of one another, so progress through them in orde
 ### Hands-on labs
 
 1. [Installing the Metered Billing Accelerator](./labs/lab1-install/README.md)
-3. [Configure SaaS Offer the Metered Billing Accelerator](./labs/lab2-saas/README.md)
-3. [Configure Managed ApplicationOffer the Metered Billing Accelerator](./labs/lab3-ama/README.md)
----
+1. [Configure SaaS Offer the Metered Billing Accelerator](./labs/lab2-saas/README.md)
+1. [Configure Managed ApplicationOffer the Metered Billing Accelerator](./labs/lab3-ama/README.md)
 
 ## Module details
 
