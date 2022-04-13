@@ -73,9 +73,11 @@ We look at the metered billing capabilities of the Metered Billing Accelerator f
 ### Configure SaaS offer with the Metered Billing Accelerator
 
 [Video](TBD)
+
 In this video will show how it is easy to configure your SaaS Offer with Metered Billing Accelerator to trigger metered billing events automatically.
 
 ### Configure Managed Application offer with the Metered Billing Accelerator
 
 [Video](TBD)
+
 In this video will show how it is easy to configure your managed application Offer with Metered Billing Accelerator to trigger metered billing events automatically.
