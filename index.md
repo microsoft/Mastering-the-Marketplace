@@ -33,4 +33,9 @@ grid_navigation:
       excerpt: How-to content for working with the publisher's portal
       cta: Take me to it
       url: '/partner-center'
+    - title: Mastering Partner Center
+      excerpt: The Metered Billing Accelerator is a turn key enterprise reference implementation for Markeplace Metered Billing API
+      cta: Take me to it
+      url: '/metered-billing-accelerator
+
 ---
