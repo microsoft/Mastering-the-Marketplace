@@ -36,6 +36,6 @@ grid_navigation:
     - title: Metered Billing Accelerator
       excerpt: The Metered Billing Accelerator is a turn key enterprise reference implementation for Markeplace Metered Billing API
       cta: Take me to it
-      url: '/metered-billing-accelerator
+      url: '/metered-billing-accelerator'
 
 ---
