@@ -18,7 +18,8 @@ This content helps you bring your solution to the Microsoft marketplace faster a
 1. [Using Partner Center](https://microsoft.github.io/Mastering-the-Marketplace/partner-center)
 1. [Metered Billing Accelerator](https://microsoft.github.io/Mastering-the-Marketplace/metered-billing-accelerator)
 
-You will need to clone this repository to do the hands-on labs including in the courses. 
+You will need to clone this repository to do the hands-on labs including in the courses.
+
 ---
 
 ## Contributing
