@@ -33,5 +33,4 @@ grid_navigation:
       excerpt: How-to content for working with the publisher's portal
       cta: Take me to it
       url: '/partner-center'
-
 ---
