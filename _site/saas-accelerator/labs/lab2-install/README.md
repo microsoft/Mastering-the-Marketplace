@@ -6,7 +6,7 @@ This lab takes you through a very quick installation process for the SaaS Accele
 
 1. [Go here](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#installating-the-azure-marketplace-saas-accelerator-using-azure-cloud-shell) and copy the installation script to your clipboard.
 2. Open your favorite text editor and paste in the PowerShell script.
-3. Edit the parameters in the script .
+3. Edit the parameters in the script.
 4. In your text editor, replace each of the ALL_CAPS values. [These script parameters are described here](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#parameters).
 
 ## Exercise: Opening the cloud shell
