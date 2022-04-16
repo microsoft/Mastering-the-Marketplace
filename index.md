@@ -32,5 +32,5 @@ grid_navigation:
     - title: Mastering Partner Center
       excerpt: How-to content for working with the publisher's portal
       cta: Take me to it
-      url: '/pc'
+      url: '/partner-center'
 ---
