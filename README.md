@@ -15,7 +15,7 @@ This content helps you bring your solution to the Microsoft marketplace faster a
 1. [SaaS Offers](https://aka.ms/MasteringTheMarketplace/saas)
 1. [The SaaS Accelerator](https://aka.ms/MasteringTheMarketplace/saas-accelerator)
 1. [Azure Managed Application Offers](https://aka.ms/MasteringTheMarketplace/ama)
-1. [Using Partner Center](https://aka.ms/MasteringTheMarketplace/partner-center)
+1. [Using Partner Center](https://aka.ms/MasteringTheMarketplace/pc)
 
 You will need to clone this repository to do the hands-on labs including in the courses. 
 
