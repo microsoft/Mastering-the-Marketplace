@@ -27,7 +27,9 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 6. [The CSP Partner Private Offer Purchase Process](#the-csp-partner-private-offer-purchase-process)
 7. [Publishing a SaaS Offer](#publishing-a-saas-offer)
 8. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
-
+9. [Configuring a Virtual Machine Offer in Partner Center – Demo](#configuring-a-virtual-machine-offer-in-partner-center--demo)
+10. [Partner Center with Azure Managed Applications Overview](#partner-center-with-azure-managed-applications-overview)
+11. [Configuring Partner Center for Azure Managed Applications - Demo](#configuring-partner-center-for-azure-managed-applications---demo)
 
 ---
 
@@ -81,3 +83,20 @@ This detailed video presents the concepts of publishing a SaaS offer and then wa
 
 This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
 
+### Configuring a Virtual Machine Offer in Partner Center – Demo
+
+[Video](https://youtu.be/AiP5MCOMU_E)
+
+Learn how to set up technical configurations for Azure Marketplace virtual machine offers within Partner Center. You’ll look at machine generations, disk versions, share image gallery vs. SAS URI, and more.
+
+### Partner Center with Azure Managed Applications Overview
+
+[Video](https://youtu.be/N8fgRAoMTNo)
+
+Partner Center is the portal publishers use to create, configure, publish, and monitor their offers in the Microsoft Marketplace. This overview takes you through Partner Center for Azure Managed Applications.
+
+### Configuring Partner Center for Azure Managed Applications - Demo
+
+[Video](https://youtu.be/irtf86eV5Ak)
+
+Understanding Partner Center, the publisher's portal, is key to creating great offers. This demo walks through setting up a Partner Center offer for an Azure Managed Application.
