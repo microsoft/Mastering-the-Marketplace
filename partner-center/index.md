@@ -37,66 +37,66 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 
 ### ISV to Customer Private Offer Creation
 
-[Video](https://youtu.be/M_h8g5_5K90)
+<a target="_blank" href="https://youtu.be/M_h8g5_5K90">Video</a>
 
 This demo takes you through the process of an ISV creating a private offer for sale to a customer.
 
 ### ISV to Customer Private Offer Acceptance
 
-[Video](https://youtu.be/l2zhmDqtB4U)
+<a target="_blank" href="https://youtu.be/l2zhmDqtB4U">Video</a>
 
 In this walk through video, see the customer experience for accepting an ISV to Customer private offer.
 
 ### ISV to Customer Private Offer Purchase Experience
 
-[Video](https://youtu.be/vm1MNZhK028)
+<a target="_blank" href="https://youtu.be/vm1MNZhK028">Video</a>
 
 In this walk through video, see the customer experience for viewing details of their private offer in the Azure portal and deploying the product.
 
 ### Private Offers for CSP Partners Overview
 
-[Video](https://youtu.be/UYOsdTPiPnQ) | [PDF](pdfs/2.0-csp-private-offer-overview.pdf)
+<a target="_blank" href="https://youtu.be/UYOsdTPiPnQ">Video</a> | [PDF](./pdfs/2.0-csp-private-offer-overview.pdf)
 
 Learn about private offers for Cloud Solution Providers in this overview of the capability in Partner Center.
 
 ### Private Offer Creation by ISVs for CSP Partners
 
-[Video](https://youtu.be/rwp8eDfmYb8)
+<a target="_blank" href="https://youtu.be/rwp8eDfmYb8">Video</a>
 
 This demo takes you through the process of an ISV creating a private offer for sale to a Cloud Solution Provider. 
 
 ### The CSP Partner Private Offer Purchase Process
 
-[Video](https://youtu.be/_Zqphs6ZG6A)
+<a target="_blank" href="https://youtu.be/_Zqphs6ZG6A">Video</a>
 
 In this walkthrough video, see the purchase process partners in the Cloud Solution Provider (CSP) program go through to purchase private offers created by ISVs.
 
 ### Publishing a SaaS Offer
 
-[Video](https://youtu.be/AnZDa0Z1z8I) | [PDF](../saas/pdfs//03.1-Publishing-a-SaaS-Offer.pdf)
+<a target="_blank" href="https://youtu.be/AnZDa0Z1z8I">Video</a> | [PDF](../saas/pdfs//03.1-Publishing-a-SaaS-Offer.pdf)
 
 This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook.
 
 ### Publishing a Private SaaS Plan
 
-[Video](https://youtu.be/67E7LPL_aic) | [PDF](../saas/pdfs/03.2-Publishing-Private-SaaS-Plan.pdf)
+<a target="_blank" href="https://youtu.be/67E7LPL_aic">Video</a> | [PDF](../saas/pdfs/03.2-Publishing-Private-SaaS-Plan.pdf)
 
 This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
 
 ### Configuring a Virtual Machine Offer in Partner Center – Demo
 
-[Video](https://youtu.be/AiP5MCOMU_E)
+<a target="_blank" href="https://youtu.be/AiP5MCOMU_E">Video</a>
 
 Learn how to set up technical configurations for Azure Marketplace virtual machine offers within Partner Center. You’ll look at machine generations, disk versions, share image gallery vs. SAS URI, and more.
 
 ### Partner Center with Azure Managed Applications Overview
 
-[Video](https://youtu.be/N8fgRAoMTNo)
+<a target="_blank" href="https://youtu.be/N8fgRAoMTNo">Video</a>
 
 Partner Center is the portal publishers use to create, configure, publish, and monitor their offers in the Microsoft Marketplace. This overview takes you through Partner Center for Azure Managed Applications.
 
 ### Configuring Partner Center for Azure Managed Applications - Demo
 
-[Video](https://youtu.be/irtf86eV5Ak)
+<a target="_blank" href="https://youtu.be/irtf86eV5Ak">Video</a>
 
 Understanding Partner Center, the publisher's portal, is key to creating great offers. This demo walks through setting up a Partner Center offer for an Azure Managed Application.
