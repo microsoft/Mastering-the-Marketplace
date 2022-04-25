@@ -46,7 +46,7 @@ These hand on labs build on top of one another, so progress through them in orde
 
 ### A SaaS Accelerator Hands-on Tour - The Basics
 
-[Video](https://youtu.be/I9bQlhjNa_8)
+<a target="_blank" href="https://youtu.be/I9bQlhjNa_8">Video</a>
 
 This introduction to the accelerator demonstrates the [SaaS Accelerator's](https://aka.ms/SaaSAccelerator) core capabilities showing why it may be a good choice for your marketplace SaaS offer. In three short demos, this video shows its fundamental capabilities. 
 
@@ -54,13 +54,13 @@ You'll see the landing page, the publisher's subscription management portal, and
 
 ### SaaS Accelerator Architecture
 
-[Video](https://youtu.be/mVosyz61z3I) | [PDF](./pdfs/03-architecture.pdf)
+<a target="_blank" href="https://youtu.be/mVosyz61z3I">Video</a> | <a href="./pdfs/03-architecture.pdf">PDF</a>
 
 This quick video covers the overall architecture of the SaaS Accelerator. The architecture is straightforward and is explained in plain language appropriate for those with any level of experience with Azure.
 
 ### Installing the SaaS Accelerator With the Install Script
 
-[Video](https://youtu.be/BVZTj6fssQ8) | [PDF](./pdfs/21-Installing-the-SaaS-Accelerator.pdf)
+<a target="_blank" href="https://youtu.be/BVZTj6fssQ8">Video</a> | <a href="./pdfs/21-Installing-the-SaaS-Accelerator.pdf">PDF</a>
 
 Installing the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. 
 
@@ -69,12 +69,12 @@ This video will get you up and running with the SaaS Accelerator in no time at a
 
 ### Invoking Metered Billing with the SaaS Accelerator
 
-[Video](https://www.youtube.com/watch?v=DXmyagu98nE)
+<a target="_blank" href="https://www.youtube.com/watch?v=DXmyagu98nE">Video</a>
 
 We look at the metered billing capabilities of the SaaS Accelerator for the Azure Marketplace. This video shows how to manually invoke metered billing events from the SaaS Accelerator without needing to integrate your solution with the SaaS Metering APIs.
 
 ### Custom Landing Page Fields with the SaaS Accelerator
 
-[Video](https://youtu.be/ixqo2sO9rLs)
+<a target="_blank" href="https://youtu.be/ixqo2sO9rLs">Video</a>
 
 In addition to showing your subscribers information about their subscription when they arrive at your landing page, you may also want to capture some information from them. This is possible using custom fields on the landing page and this short video shows you how to use them.
