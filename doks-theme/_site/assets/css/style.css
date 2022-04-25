@@ -825,9 +825,9 @@ pre.highlight { background: #212733; color: #f8f8f2; padding: 1.5625rem; }
 
 /** Section (objects/_section.scss) */
 /* ----- General ----- */
-.section { padding: 3.75rem 0 2.5rem 0; }
+.section { padding: 0 0 2.5rem 0; }
 
-@media (min-width: 768px) { .section { padding: 6.25rem 0 5rem 0; } }
+@media (min-width: 768px) { .section { padding: 0 0 5rem 0; } }
 
 /* ----- Variations ----- */
 .section--darker-theme-color-bg { background-color: #daeafa; }
