@@ -18,6 +18,8 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 
 ## Video
 
+
+**Private Offers**
 <!-- no toc -->
 1. [ISV to Customer Private Offer Creation](#isv-to-customer-private-offer-creation)
 2. [ISV to Customer Private Offer Acceptance](#isv-to-customer-private-offer-acceptance)
@@ -25,6 +27,9 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 4. [Private Offers for CSP Partners Overview](#private-offers-for-csp-partners-overview)
 5. [Private Offer Creation by ISVs for CSP Partners](#private-offer-creation-by-isvs-for-csp-partners)
 6. [The CSP Partner Private Offer Purchase Process](#the-csp-partner-private-offer-purchase-process)
+
+**Configuring and Publishing Offers**
+<!-- no toc -->
 7. [Publishing a SaaS Offer](#publishing-a-saas-offer)
 8. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
 9. [Configuring a Virtual Machine Offer in Partner Center – Demo](#configuring-a-virtual-machine-offer-in-partner-center--demo)
@@ -37,37 +42,37 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 
 ### ISV to Customer Private Offer Creation
 
-<a target="_blank" href="https://youtu.be/M_h8g5_5K90">Video</a>
+<a target="_blank" href="https://youtu.be/WPSM2_v4JuE">Video</a>
 
 This demo takes you through the process of an ISV creating a private offer for sale to a customer.
 
 ### ISV to Customer Private Offer Acceptance
 
-<a target="_blank" href="https://youtu.be/l2zhmDqtB4U">Video</a>
+<a target="_blank" href="https://youtu.be/HWpLOOtfWZs">Video</a>
 
 In this walk through video, see the customer experience for accepting an ISV to Customer private offer.
 
 ### ISV to Customer Private Offer Purchase Experience
 
-<a target="_blank" href="https://youtu.be/vm1MNZhK028">Video</a>
+<a target="_blank" href="https://youtu.be/mPX7gqdHqBk">Video</a>
 
 In this walk through video, see the customer experience for viewing details of their private offer in the Azure portal and deploying the product.
 
 ### Private Offers for CSP Partners Overview
 
-<a target="_blank" href="https://youtu.be/UYOsdTPiPnQ">Video</a> | [PDF](./pdfs/2.0-csp-private-offer-overview.pdf)
+<a target="_blank" href="https://youtu.be/FWfpAZsPyzg">Video</a> | [PDF](./pdfs/2.0-csp-private-offer-overview.pdf)
 
 Learn about private offers for Cloud Solution Providers in this overview of the capability in Partner Center.
 
 ### Private Offer Creation by ISVs for CSP Partners
 
-<a target="_blank" href="https://youtu.be/rwp8eDfmYb8">Video</a>
+<a target="_blank" href="https://youtu.be/B0ZPXrE_aio">Video</a>
 
 This demo takes you through the process of an ISV creating a private offer for sale to a Cloud Solution Provider. 
 
 ### The CSP Partner Private Offer Purchase Process
 
-<a target="_blank" href="https://youtu.be/_Zqphs6ZG6A">Video</a>
+<a target="_blank" href="https://youtu.be/1GM_YrUHVT4">Video</a>
 
 In this walkthrough video, see the purchase process partners in the Cloud Solution Provider (CSP) program go through to purchase private offers created by ISVs.
 
