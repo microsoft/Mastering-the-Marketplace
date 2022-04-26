@@ -24,6 +24,7 @@ This series is designed to help you speed your time to publish your SaaS offer t
 1. [Installing the SaaS Accelerator With the Install Script](#installing-the-saas-accelerator-with-the-install-script)
 1. [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
 1. [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
+1. [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
 
 ## Hands-on labs
 
@@ -78,3 +79,12 @@ We look at the metered billing capabilities of the SaaS Accelerator for the Azur
 <a target="_blank" href="https://youtu.be/ixqo2sO9rLs">Video</a>
 
 In addition to showing your subscribers information about their subscription when they arrive at your landing page, you may also want to capture some information from them. This is possible using custom fields on the landing page and this short video shows you how to use them.
+
+### Configuring Email in the SaaS Accelerator
+
+<a href="https://youtu.be/IniPruOrV8I" target="_blank">Video</a>
+
+You will likely want to receive email when a subscription changes state. For example, when a someone unsubscribes from your offer. This video shows how to configure the email setting within the SaaS Accelerator and get those notifications coming right to your inbox.
+
+
+
