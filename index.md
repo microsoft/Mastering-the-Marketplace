@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: homepage
-keywords: Azure Markeplace AppSource
+keywords: Azure Marketplace AppSource
 
 # Hero section
 title: Mastering the Marketplace
