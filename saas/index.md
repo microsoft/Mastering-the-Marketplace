@@ -16,12 +16,18 @@ micro_nav: false
 
 ## Video
 
+### General SaaS Knowledge
+
 <!-- no toc -->
 1. [SaaS Offer Overview](#saas-offer-overview)
 1. [Purchasing a SaaS Offer](#purchasing-a-saas-offer)
 1. [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
 1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
 1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
+
+### SaaS Technical Knowledge
+
+<!-- no toc -->
 1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
 1. [Azure AD Application Registrations](#azure-ad-application-registrations)
 1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-rest-fulfillment-api)

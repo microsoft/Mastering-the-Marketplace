@@ -19,7 +19,8 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 ## Video
 
 
-**Private Offers**
+### Private Offers
+
 <!-- no toc -->
 1. [Private Offer Overview ISV to Customer Offers](#private-offer-overview-isv-to-customer-offers)
 1. [ISV to Customer Private Offer Creation](#isv-to-customer-private-offer-creation)
@@ -29,7 +30,8 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 1. [Private Offer Creation by ISVs for CSP Partners](#private-offer-creation-by-isvs-for-csp-partners)
 1. [The CSP Partner Private Offer Purchase Process](#the-csp-partner-private-offer-purchase-process)
 
-**Configuring and Publishing Offers**
+### Configuring and Publishing Offers
+
 <!-- no toc -->
 1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
 1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
