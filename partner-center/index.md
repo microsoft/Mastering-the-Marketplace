@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Mastering Partner Center
-description: This online learning series includes videos modules that help speed your time to publishing your offer on the Microsoft marketplace. If you are building an offer for the marketplace this learning series is for you.
+description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
 # Micro navigation
 micro_nav: false
