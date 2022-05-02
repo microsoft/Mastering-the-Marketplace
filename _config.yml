@@ -13,8 +13,7 @@ doks:
                 image:
             copyright: Copyright &copy; 2022. - Microsoft, Inc. <br>All rights reserved.
     
-    google_analytics:
-        tracking_code: G-QFBKKPKXNV
+    google_analytics: G-QFBKKPKXNV
 
 # SASS settings
 sass:
