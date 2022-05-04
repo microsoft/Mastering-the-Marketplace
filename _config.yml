@@ -4,7 +4,7 @@ doks:
     color_theme: msft # Available themes: blue (default), green, purple, red and yellow
     header:
         logo: 
-            text: Mastering the Marketplace Learning Library
+            text: Mastering the Marketplace
             # image: /images/Azure_Store_Marketplace_150.png
     footer:
         content:
