@@ -35,6 +35,7 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 <!-- no toc -->
 1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
 1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
+1. [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
 1. [Configuring a Virtual Machine Offer in Partner Center – Demo](#configuring-a-virtual-machine-offer-in-partner-center--demo)
 1. [Partner Center with Azure Managed Applications Overview](#partner-center-with-azure-managed-applications-overview)
 1. [Configuring Partner Center for Azure Managed Applications - Demo](#configuring-partner-center-for-azure-managed-applications---demo)
@@ -96,6 +97,12 @@ This detailed video presents the concepts of publishing a SaaS offer and then wa
 <a target="_blank" href="https://youtu.be/67E7LPL_aic">Video</a> | [PDF](../saas/pdfs/03.2-Publishing-Private-SaaS-Plan.pdf)
 
 This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
+
+### Migrating Listings to SaaS Offers
+
+<a target="_blank" href="https://youtu.be/dnZnRiw3v6c">Video</a>
+
+You may have started your online presence in the commercial marketplace with a simple listing to advertise your services. This does not, however, create a transactable offer that can be sold through the marketplace. This video shows how to convert your existing listing into a fully transactable SaaS Offer.
 
 ### Configuring a Virtual Machine Offer in Partner Center – Demo
 

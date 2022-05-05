@@ -1,4 +1,4 @@
-# Mastering the Marketplace Learning Library
+# Mastering the Marketplace
 
 <img src="./images/Azure_Store_Marketplace.png" width="100px" title="Microsoft marketplace" align="left"/>
 
