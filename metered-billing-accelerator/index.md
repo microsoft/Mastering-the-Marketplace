@@ -23,8 +23,8 @@ This series is designed to help you speed your time to publish SaaS or Managed a
 1. [Metered Billing Accelerator Architecture](#Metered Billing-accelerator-architecture)
 1. [Installing the Metered Billing Accelerator](#installing-the-Metered Billing-accelerator-with-the-install-script)
 1. [Invoking Metered Billing with the Metered Billing Accelerator](#invoking-metered-billing-with-the-Metered Billing-accelerator)
-1. [Configure SaaS offer with the Metered Billing Accelerator](#configure-saas-ofer-with-the-Metered Billing-accelerator)
-1. [Configure Managed Application offer with the Metered Billing Accelerator](#configure-maanged-app-with-the-Metered Billing-accelerator)
+1. [Configure SaaS offer with the Metered Billing Accelerator](#configure-saas-offer-with-the-Metered Billing-accelerator)
+1. [Configure Managed Application offer with the Metered Billing Accelerator](#configure-managed-app-with-the-Metered Billing-accelerator)
 
 ## Hands-on labs
 
