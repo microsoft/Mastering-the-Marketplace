@@ -6,7 +6,7 @@
 
 .search { position: relative; z-index: 2; flex-grow: 1; height: 4rem; padding: 0.5rem; transition: padding linear 200ms; }
 
-@media (min-width: 50rem) { .search { position: relative !important; width: auto !important; height: 100% !important; padding: 0; transition: none; } }
+/* @media (min-width: 50rem) { .search { position: relative !important; width: auto !important; height: 100% !important; padding: 0; transition: none; } } */
 
 .search-input-wrap { position: relative; z-index: 1; height: 3rem; overflow: hidden; border-radius: 4px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08); transition: height linear 200ms; }
 
@@ -28,7 +28,7 @@
 
 .search-results { position: absolute; left: 0; display: none; width: 100%; max-height: calc(100% - 4rem); overflow-y: auto; background-color: #fff; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08); }
 
-@media (min-width: 50rem) { .search-results { top: 100%; width: 536px; max-height: calc(100vh - 200%) !important; } }
+/* @media (min-width: 50rem) { .search-results { top: 100%; width: 536px; max-height: calc(100vh - 200%) !important; } } */
 
 .search-results-list { padding-left: 0; margin-bottom: 0.25rem; list-style: none; font-size: 14px !important; }
 
@@ -90,13 +90,13 @@
 
 .search-active .search-input-wrap { height: 4rem; border-radius: 0; }
 
-@media (min-width: 50rem) { .search-active .search-input-wrap { width: 536px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08); } }
+/* @media (min-width: 50rem) { .search-active .search-input-wrap { width: 536px; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08); } } */
 
 .search-active .search-input { background-color: #fff; }
 
-@media (min-width: 50rem) { .search-active .search-input { padding-left: 2.3rem; } }
+/* @media (min-width: 50rem) { .search-active .search-input { padding-left: 2.3rem; } } */
 
-@media (min-width: 50rem) { .search-active .search-label { padding-left: 0.6rem; } }
+/* @media (min-width: 50rem) { .search-active .search-label { padding-left: 0.6rem; } } */
 
 .search-active .search-results { display: block; }
 
