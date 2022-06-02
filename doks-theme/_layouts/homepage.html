@@ -4,14 +4,8 @@
 		{% include site-head.html %}
 	</head>
 	<body class="{{ site.doks.color_theme }}">
+
 		<div class="hero-subheader{% if page.grid_navigation %} hero-subheader--before-out{% endif %}">
-			<div class="search">
-				<div class="search-input-wrap">
-					<input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search {{ site.title }}" aria-label="Search {{ site.title }}" autocomplete="off">
-					<label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
-				</div>
-				<div id="search-results" class="search-results"></div>
-			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7">
