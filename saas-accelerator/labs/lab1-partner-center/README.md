@@ -4,10 +4,26 @@ In this lab you will use your Partner Center account to create a **test** SaaS o
 
 > **Completion of this lab is required for the following labs in the series to work properly.**
 
+<!-- no toc -->
+  - [Exercise: Create a New SaaS Offer](#exercise-create-a-new-saas-offer)
+    - [Create a new SaaS offer](#create-a-new-saas-offer)
+    - [Offer setup](#offer-setup)
+    - [Properties](#properties)
+    - [Offer listing](#offer-listing)
+    - [Preview audience](#preview-audience)
+    - [Technical configuration](#technical-configuration)
+    - [Plan overview](#plan-overview)
+  - [Exercise: Create a Plan](#exercise-create-a-plan)
+    - [Create the plan](#create-the-plan)
+    - [Plan Listing](#plan-listing)
+    - [Pricing and availability](#pricing-and-availability)
+  - [Exercise: Resell through CSPs](#exercise-resell-through-csps)
+  - [Exercise: Review and Publish](#exercise-review-and-publish)
+
 You will need the following to complete this lab.
 
 1. A [Partner Center](https://partner.microsoft.com/en-us/dashboard) account
-1. An Azure account and access to the [Azure portal](https://portal.azure.com/)
+2. An Azure account and access to the [Azure portal](https://portal.azure.com/)
 
 ## Exercise: Create a New SaaS Offer
 
@@ -105,7 +121,7 @@ You must select at least one category for your offer.
 
 ### Technical configuration
 
-Skip this section for this first lab.
+Skip this section for this first lab. You will come back to it in lab 2.
 
 ### Plan overview
 
