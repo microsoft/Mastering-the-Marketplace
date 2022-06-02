@@ -13,12 +13,18 @@
 
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i|Noto+Sans:400,400i,700,700i|Source+Code+Pro&amp;subset=latin-ext">
+<link rel="stylesheet" href="/doks-theme/assets/css/just-the-docs-default.css"> 
 <link rel="stylesheet" href="/doks-theme/assets/css/style.css">
-
 	</head>
 	<body class="msft">
-
 		<div class="hero-subheader hero-subheader--before-out">
+			<div class="search">
+				<div class="search-input-wrap">
+					<input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search " aria-label="Search " autocomplete="off">
+					<label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+				</div>
+				<div id="search-results" class="search-results"></div>
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-7">
@@ -153,7 +159,8 @@
 <script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/scrollspy.min.js"></script>
 <script type="text/javascript" src="/doks-theme/assets/js/vendor/matchHeight.min.js"></script>
 <script type="text/javascript" src="/doks-theme/assets/js/scripts.min.js"></script>
-
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/lunr.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/just-the-docs.js"></script>
 
 
 
