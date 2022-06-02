@@ -2,6 +2,13 @@
 
 This lab takes you through a very quick installation process for the SaaS Accelerator using the Azure portal Cloud Shell. Once complete, you will have installed the SaaS Accelerator and published your offer in Partner Center.
 
+<!-- no toc -->
+1. [Exercise: Create an install document](#exercise-create-an-install-document)
+1. [Exercise: Opening the cloud shell](#exercise-opening-the-cloud-shell)
+1. [Exercise: Running the install script](#exercise-running-the-install-script)
+1. [Exercise: Verify web applications](#exercise-verify-web-applications)
+1. [Exercise: Partner Center Technical Configuration](#exercise-partner-center-technical-configuration)
+
 ## Exercise: Create an install document
 
 Open your favorite text editor and paste the following PowersShell script into a text file.
@@ -11,47 +18,37 @@ wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh; 
 chmod +x dotnet-install.sh; `
 ./dotnet-install.sh; `
 $ENV:PATH="$HOME/.dotnet:$ENV:PATH"; `
-git clone https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator.git -b main --depth 1; `
- cd ./Commercial-Marketplace-SaaS-Accelerator/deployment/Templates; `
- Connect-AzureAD -Confirm; .\Deploy.ps1 `
+git clone https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator.git -b 5.0.0 --depth 1; `
+cd ./Commercial-Marketplace-SaaS-Accelerator/deployment/Templates; `
+Connect-AzureAD -Confirm; `
+.\Deploy.ps1 `
+ -WebAppNamePrefix "marketplacesaasgithub-SOME-UNIQUE-STRING" `
+ -SQLServerName "marketplacesaasgithub-SOME-UNIQUE-STRING" `
+ -SQLAdminLogin "adminlogin" `
+ -SQLAdminLoginPassword "a_very_PASSWORD_2_SymB0L@s" `
+ -PublisherAdminUsers "user@email.com" `
+ -ResourceGroupForDeployment "MarketplaceSaasGitHub" `
  -Location "East US" `
- -PathToARMTemplate "./deploy.json" `
- -PublisherAdminUsers "ADMIN_USER_EMAIL" `
- -ResourceGroupForDeployment "RESOURCE_GROUP" `
- -SQLAdminLogin "SQL_ADMIN_USER_NAME" `
- -SQLAdminLoginPassword "SQL_PASSWORD" `
- -SQLServerName "SQL_SERVER_NAME" `
- -WebAppNamePrefix "WEB_NAME_PREFIX"
+ -PathToARMTemplate ".\deploy.json" `
+ -TenantID "xxxx-xxx-xxx-xxx-xxxx"
+ -AzureSubscriptionID "xxx-xx-xx-xx-xxxx"
  ```
 
-### Defined values
+ ### Defined values
 
-In your text editor, replace each of the ALL_CAPS values. They are described below.
+In your text editor, replace each of the below values. They are described below.
 
 | Parameter value | Description and notes |
 |---|---|
-| **ADMIN_USER_EMAIL** | The email of the admin for the SaaS solution that will be deployed. This should be an email tied to an Azure subscription. |
-| **RESOURCE_GROUP** | The name of the resource group you want to deploy the SaaS solution into. For the purposes of this lab, consider using `saas-accelerator`. |
-| **SQL_ADMIN_USER_NAME** | The admin username for the SQL Server that will be installed. Do NOT use name "admin" as it is not allowed and the deployment script will fail. |
-| **SQL_PASSWORD** | The password for the SQL Server instance that will be installed. Make this password secure and at **least 22 characters long** so the deployment script doesn't fail. Do not use hyphens. |
-| **SQL_SERVER_NAME** | The name of the SQL Server instance that will be deployed. The name can only contain lowercase letters. |
-| **WEB_NAME_PREFIX** | A string that will be prefixed to the name of all resources that are created in your deployment resource group. This can be as short as three letters. Use lowercase alphanumeric characters only. |
+| **AzureSubscriptionID** | The identity of the subscription to use when installing the accelerator. [Click here](https://docs.microsoft.com/en-us/azure/azure-portal/get-subscription-tenant-id#find-your-azure-subscription) to learn how to find your subscription ID. |
+| **ResourceGroupForDeployment** | The name of the resource group you want to deploy the SaaS solution into. For the purposes of this lab, consider using `saas-accelerator-workshop`. |
+| **SQLAdminLogin** | The admin username for the SQL Server that will be installed. Do NOT use name "admin" as it is not allowed and the deployment script will fail. |
+| **SQLAdminLoginPassword** | The password for the SQL Server instance that will be installed. Make this password secure and at **least 12 characters long** so the deployment script doesn't fail. Do not use hyphens. |
+| **SQLServerName** | The name of the SQL Server instance that will be deployed. The name can only contain lowercase letters. |
+| **TenantID** | The identity of the tenant to be installed into. [Click here](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-how-to-find-tenant#find-tenant-id-through-the-azure-portal) to learn how to find your tenant ID. |
+| **WebAppNamePrefix** | A string that will be prefixed to the name of all resources that are created in your deployment resource group. This can be as short as three letters. Use lowercase alphanumeric characters only. |
 
-### Optional parameters
-
-The following values are optional and typically used for a more customized deployment. We will not be using these parameters in this lab, but you can experiment with them on your own.
-
-```powershell
--TenantID "xxxx-xxx-xxx-xxx-xxxx"
--AzureSubscriptionID "xxx-xx-xx-xx-xxxx"
--ADApplicationID "xxxx-xxx-xxx-xxx-xxxx"
--ADApplicationSecret "xxxx-xxx-xxx-xxx-xxxx"
--ADMTApplicationID "xxxx-xxx-xxx-xxx-xxxx"
--LogoURLpng "https://company_com/company_logo.png"
--LogoURLico "https://company_com/company_logo.ico"
-```
-
-[See here](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#parameters) for explanations of all parameters.
+[See here](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#parameters) for explanations of all parameters including optional ones.
 
 ## Exercise: Opening the cloud shell
 
@@ -89,53 +86,20 @@ If you see errors in the output of the script, cancel the run of the script by t
 
 1. Run the revised script.
 
-### Successful install script
+### Successful install
 
-When the script completes successfully, it will print the values you need for the Technical Configuration tab in Partner Center. It will look something like this. Copy this information to a note or file so you can retrieve it in case you close the browser window.
+When the script completes successfully, it will print the values you need for the Technical Configuration tab in Partner Center. It will look something like the following. Copy this information to a note or file so you can retrieve it in case you close the browser window.
 
-```powershell
-__ Add The following URL in PartnerCenter SaaS Technical Configuration->Landing Page section
+```text
+   Add The following URL in PartnerCenter SaaS Technical Configuration->Landing Page section
    https://PREFIX-portal.azurewebsites.net/
-__ Add The following URL in PartnerCenter SaaS Technical Configuration->Connection Webhook section
+   Add The following URL in PartnerCenter SaaS Technical Configuration->Connection Webhook section
    https://PREFIX-portal.azurewebsites.net/api/AzureWebhook
-__ Add The following TenantID in PartnerCenter SaaS Technical Configuration Tenant ID
-   e6c97eb2-054c-4b5d-9a30-a064766a9e83
-__ Add The following ApplicationID in PartnerCenter SaaS Technical Configuration->AAD Application ID section
-   bc830358-8c71-4699-b5e6-ea617ac7b5ee
+   Add The following TenantID in PartnerCenter SaaS Technical Configuration Tenant ID
+   e6c97eb2-054c-4b5d-9a30-a064766a9e8f
+   Add The following ApplicationID in PartnerCenter SaaS Technical Configuration->AAD Application ID section
+   bc830358-8c71-4699-b5e6-ea617ac7b5ef
 ```
-
-## Exercise: Secrets
-
-The installer did not complete one part of the installation process. The landing page app registration needs a secret that will be shared with the landing page web application. Here you will create that secret and configure it with the web application.
-
-1. In the command bar at the top of the Azure portal, type "App reg" and select App registrations from the menu.
-1. Click the **All applications** tab.
-1. Find the registration named **PREFIX-FulfillmentApp** and click it.
-1. In the left menu under **Manage**, click the **Certificates and secrets** menu item.
-1. Click **+ New client secret**.
-1. Enter a name for your secret, like "secret1."
-1. Copy the **Value** of the secret and copy it somewhere you can access it again. You won't have another chance to copy this secret.
-1. Browse to the resource group you created during installation, `saas-accelerator`. You see the resources created inside the resource group.
-
-### The portal secret
-
-1. Click the App service named **PREFIX-portal**.
-1. In the left menu, under **Settings** click the **Configuration** menu item.
-1. Scroll down and click the `SaaSApiConfiguration__ClientSecret` application setting.
-1. In the **Value** field, paste in the secret you created earlier.
-1. Click the **OK** button.
-1. Click the **Save** button on the upper menu.
-1. Click the **Continue** button to allow the web app to restart.
-
-### The admin secret
-
-1. Click the App service named **PREFIX-admin**.
-1. In the left menu, under **Settings** click the **Configuration** menu item.
-1. Scroll down and click the `SaaSApiConfiguration__ClientSecret` application setting.
-1. In the **Value** field, paste in the secret you created earlier.
-1. Click the **OK** button.
-1. Click the **Save** button on the upper menu.
-1. Click the **Continue** button to allow the web app to restart.
 
 ## Exercise: Verify web applications
 
