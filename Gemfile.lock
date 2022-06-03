@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     just-the-docs (0.3.3)
-      jekyll (>= 3.8.5)
+      jekyll (>= 3.9.2)
       rake (>= 12.3.1, < 13.1.0)
 
 GEM

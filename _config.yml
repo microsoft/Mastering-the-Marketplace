@@ -24,7 +24,7 @@ sass:
 # Jekyll settings
 layouts_dir: ./doks-theme/_layouts
 includes_dir: ./doks-theme/_includes
-exclude: [ 'README.md', 'CHANGELOG.md', "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile" ]
+exclude: [ 'README.md', 'CHANGELOG.md', "node_modules/", "vendor/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile" ]
 permalink: /:title/
 
 search_enabled: true
