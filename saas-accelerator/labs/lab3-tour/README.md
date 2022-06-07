@@ -2,6 +2,14 @@
 
 In this lab, you will familiarize you with the SaaS Accelerator, both from the customer and publisher points of view. The goal is to become comfortable with the SaaS Accelerator's landing page and publisher portal, so you (as a publisher) can monitor and manage your SaaS offer subscriptions.
 
+<!-- no toc -->
+  - [Exercise: Customer purchase 1](#exercise-customer-purchase-1)
+  - [Exercise: The first landing page](#exercise-the-first-landing-page)
+  - [Exercise: Customer purchase 2](#exercise-customer-purchase-2)
+  - [Exercise: The second landing page](#exercise-the-second-landing-page)
+  - [Exercise: The publisher activates a subscription](#exercise-the-publisher-activates-a-subscription)
+  - [Explore for a few minutes](#explore-for-a-few-minutes)
+
 ## Exercise: Customer purchase 1
 
 As a customer, you will be purchasing the offer. Here, you will do so from within Partner Center. You can do this from the **Overview** page of your offer under the **Publisher signoff** stage.
@@ -31,7 +39,7 @@ In this exercise, you will visit the offer's landing page, provided by the SaaS 
 
 1. In the lower right corner, click the activate button.
 
-## The landing page as a subscription tracker
+### The landing page as a subscription tracker
 
 Remember you are acting in the role of the customer. Perhaps you have more than one subscription with this publisher.
 
@@ -64,7 +72,7 @@ In this exercise, you will visit the offer's landing page, provided by the SaaS 
 1. Click the **Go to subscriptions** list button in the lower right corner.
 1. You have two subscriptions, one in `PendingActivation` and another in `PendingFulfillmentStart`.
 
-## The publisher activates a subscription
+## Exercise: The publisher activates a subscription
 
 Now you are going to the play the role of the publisher and activate the customer's subscriptions.
 

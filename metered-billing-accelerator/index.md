@@ -5,7 +5,7 @@ keywords: Azure AppSoure Marketplace Metered Billing
 comments: false
 
 # Hero section
-title: Mastering the Metered Billing Accelerator
+title: Mastering the Metered Billing Solution
 description: This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the Metered Billing Accelerator project. The Metered Billing Accelerator provides a fully functional community-led Metered Billing reference implementation for those interested in publishing transactable offer with Metered Billing support in Microsoft's marketplace in hours instead of days.
 
 # Micro navigation
@@ -14,17 +14,18 @@ micro_nav: false
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
-This series is designed to help you speed your time to publish SaaS or Managed app offer with metered billing support to the Microsoft commercial marketplace using the [Metered Billing Accelerator](https://github.com/microsoft/metered-billing-accelerator).
+This series is designed to help you speed your time to publish SaaS or Managed app offer with metered billing support to the Microsoft commercial marketplace using the [Metered Billing Solution](https://github.com/microsoft/metered-billing-accelerator).
 
 
 ## Video Learning Modules
 
-1. [A Metered Billing Accelerator Hands-on Tour - The Basics](#a-Metered Billing-accelerator-hands-on-tour---the-basics) (Introduction to the Metered Billing Accelerator)
+1. [A Metered Billing Accelerator Hands-on Tour - The Basics](#a-metered-billing-accelerator-hands-on-tour---the-basics) (Introduction to the Metered Billing Accelerator)
 1. [Metered Billing Accelerator Architecture](#Metered Billing-accelerator-architecture)
 1. [Installing the Metered Billing Accelerator](#installing-the-Metered Billing-accelerator-with-the-install-script)
 1. [Invoking Metered Billing with the Metered Billing Accelerator](#invoking-metered-billing-with-the-Metered Billing-accelerator)
-1. [Configure SaaS offer with the Metered Billing Accelerator](#configure-saas-ofer-with-the-Metered Billing-accelerator)
-1. [Configure Managed Application offer with the Metered Billing Accelerator](#configure-maanged-app-with-the-Metered Billing-accelerator)
+1. [Configure SaaS offer with the Metered Billing Accelerator](#configure-saas-offer-with-the-Metered Billing-accelerator)
+1. [Configure Managed Application offer with the Metered Billing Accelerator](#configure-managed-app-with-the-Metered Billing-accelerator)
+
 ## Hands-on labs
 
 These hand on labs build on top of one another, so progress through them in order to get a fully functional Metered Billing Accelerator offer published and working for a test environment.
