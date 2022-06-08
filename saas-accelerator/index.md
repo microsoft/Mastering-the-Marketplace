@@ -14,7 +14,7 @@ micro_nav: false
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
-This series is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator).
+This course is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator).
 
 Get your hands dirty with the [hands-on labs](#hands-on-labs).
 
