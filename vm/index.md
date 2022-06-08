@@ -14,7 +14,7 @@ micro_nav: false
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
-These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
+The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
 
 Get your hands dirty with the [hands-on labs](#hands-on-labs).
 
@@ -33,11 +33,25 @@ Get your hands dirty with the [hands-on labs](#hands-on-labs).
 - [Virtual Machine Certification Test Tool (Demo)](#virtual-machine-certification-test-tool-demo)
 - [Purchasing the Virtual Machine Offer](#purchasing-the-virtual-machine-offer)
 
----
-
 ## Hands-on labs
 
-Coming soon.
+The following hands-on labs build upon each other. They take you through the complete process of creating and publishing a virtual machine offer in the Microsoft commercial marketplace. 
+
+You will need to clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) and work locally to complete all the labs.
+
+### Prerequisites
+
+- An Azure Subscription to create resources
+- An active Partner Center Account (Please ensure you have enrolled into the Marketplace Offers program)
+- Visual Studio Code or other text editor
+
+### Labs
+
+1. Partner Center Setup
+2. VM Creation
+3. Generalize and Capture Image
+4. Publish the Offer
+5. Purchase your Offer
 
 ---
 
