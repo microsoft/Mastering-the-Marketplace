@@ -19,7 +19,7 @@ This series is designed to help you speed your time to publish your SaaS offer t
 Get your hands dirty with the [hands-on labs](#hands-on-labs).
 
 
-1. [A SaaS Accelerator Hands-on Tour - The Basics](#a-saas-accelerator-hands-on-tour---the-basics) (Introduction to the SaaS Accelerator)
+1. [A SaaS Accelerator Hands-on Tour - The Basics](#a-saas-accelerator-hands-on-tour-the-basics) (Introduction to the SaaS Accelerator)
 1. [SaaS Accelerator Architecture](#saas-accelerator-architecture)
 1. [Installing the SaaS Accelerator With the Install Script](#installing-the-saas-accelerator-with-the-install-script)
 1. [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
