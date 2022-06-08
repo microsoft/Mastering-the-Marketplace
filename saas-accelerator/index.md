@@ -28,7 +28,7 @@ Get your hands dirty with the [hands-on labs](#hands-on-labs).
 
 ## Hands-on labs
 
-These hand on labs build on top of one another, so progress through them in order to get a fully functional SaaS Accelerator offer published and working for a test environment.
+The following hands-on labs build upon each other. Completing them will get a fully functional SaaS Accelerator offer published and working for a test environment.
 
 ### Prerequisites
 
