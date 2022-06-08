@@ -37,7 +37,7 @@ Get your hands dirty with the [hands-on labs](#hands-on-labs).
 
 The following hands-on labs build upon each other. They take you through the complete process of creating and publishing a virtual machine offer in the Microsoft commercial marketplace. 
 
-You will need to clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) and work locally to complete all the labs.
+Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
 
 ### Prerequisites
 
