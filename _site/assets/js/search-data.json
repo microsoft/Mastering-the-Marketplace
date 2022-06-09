@@ -5,396 +5,462 @@
     "url": "http://localhost:4000/404/",
     "relUrl": "/404/"
   },"1": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Hands-on labs",
-    "content": "These hand on labs build on top of one another, so progress through them in order to get a fully functional Azure Managed Application published and working for a test environment. Prerequisites . | Azure subscription that can create resources | A Partner Center Account | VS Code or other text editor | . Getting started . Clone this repository to your local machine. You will need some artifacts from the lab folders to complete the labs. Labs . | Lab 1 - Publishing an Azure Managed Application Offer in Partner Center | Lab 2 - The Managed Application Deployment Package | Lab 3 - Purchasing an Azure Managed Application | Lab 4 - Administering Your Purchased Managed Applications | Lab 5 - Administering Your Customer’s Managed Applications | . ",
-    "url": "http://localhost:4000/ama/#hands-on-labs",
-    "relUrl": "/ama/#hands-on-labs"
-  },"2": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Course Introduction",
-    "content": "Video . This module sets the stage for all the others that follow by providing a quick introduction to the course. See what the course will offer in various modules. ",
-    "url": "http://localhost:4000/ama/#course-introduction",
-    "relUrl": "/ama/#course-introduction"
-  },"3": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Managed Applications Overview",
-    "content": "Video . Solution Template offers and Azure Managed Application offers are very similar, but there is an important difference. Learn about the two types of managed applications in this module detailing the differences. ",
-    "url": "http://localhost:4000/ama/#managed-applications-overview",
-    "relUrl": "/ama/#managed-applications-overview"
-  },"4": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Azure Managed Applications Overview",
-    "content": "Video . Azure Managed Applications are the transactable Managed App offer type. Get a walkthrough of Azure Managed Applications including their general architecture and usage. ",
-    "url": "http://localhost:4000/ama/#azure-managed-applications-overview",
-    "relUrl": "/ama/#azure-managed-applications-overview"
-  },"5": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Partner Center with Azure Managed Applications Overview",
-    "content": "Video . Partner Center is the portal publishers use to create, configure, publish, and monitor their offers in the Microsoft Marketplace. This overview takes you through Partner Center for Azure Managed Applications. ",
-    "url": "http://localhost:4000/ama/#partner-center-with-azure-managed-applications-overview",
-    "relUrl": "/ama/#partner-center-with-azure-managed-applications-overview"
-  },"6": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Configuring Partner Center for Azure Managed Applications - Demo",
-    "content": "Video . Understanding Partner Center, the publisher’s portal, is key to creating great offers. This demo walks through setting up a Partner Center offer for an Azure Managed Application. ",
-    "url": "http://localhost:4000/ama/#configuring-partner-center-for-azure-managed-applications---demo",
-    "relUrl": "/ama/#configuring-partner-center-for-azure-managed-applications---demo"
-  },"7": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Azure Managed Application Deployment Package Overview",
-    "content": "Video . The deployment package for Azure Managed Applications is the definition of the application itself. Learn about its components and their role in this quick overview. ",
-    "url": "http://localhost:4000/ama/#azure-managed-application-deployment-package-overview",
-    "relUrl": "/ama/#azure-managed-application-deployment-package-overview"
-  },"8": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Working with a Azure Managed Application Deployment Package - Demo",
-    "content": "Video . This demo walks through working with Azure Managed Application deployment packages. Learn about the usage and components of the ARM template, mainTemplate.json, and how to work with createUiDefinition.json to create great install experiences. ",
-    "url": "http://localhost:4000/ama/#working-with-a-azure-managed-application-deployment-package---demo",
-    "relUrl": "/ama/#working-with-a-azure-managed-application-deployment-package---demo"
-  },"9": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Integrating Virtual Machine Offers into Azure Managed Applications",
-    "content": "Video . Deploying a custom virtual machine is a common need when working with Managed Apps. Get an overview of how to integrate a custom Virtual Machine offer into an Azure Managed Application deployment package. ",
-    "url": "http://localhost:4000/ama/#integrating-virtual-machine-offers-into-azure-managed-applications",
-    "relUrl": "/ama/#integrating-virtual-machine-offers-into-azure-managed-applications"
-  },"10": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Purchasing an Azure Managed Application – Demo",
-    "content": "Video . See the purchasing process of an Azure Managed Application from the customer’s point of view. This module is often helpful for customers looking to familiarize themselves with the purchase process. ",
-    "url": "http://localhost:4000/ama/#purchasing-an-azure-managed-application--demo",
-    "relUrl": "/ama/#purchasing-an-azure-managed-application--demo"
-  },"11": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Managing My Purchased Azure Managed Applications – Demo",
-    "content": "Video . Once a customer has purchased one or more Azure Managed Apps, they may need to manage those subscriptions. See the tools and techniques customers have through the Azure portal for managing their Azure Managed Application subscriptions. ",
-    "url": "http://localhost:4000/ama/#managing-my-purchased-azure-managed-applications--demo",
-    "relUrl": "/ama/#managing-my-purchased-azure-managed-applications--demo"
-  },"12": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Managing My Customer’s Azure Managed Applications Overview",
-    "content": "Video . Managing Azure Managed Application customer deployments is the responsibility of the publisher. See the tools techniques publishers use to do this easily and effectively through the Azure portal as well as getting a walkthrough of how to use them. ",
-    "url": "http://localhost:4000/ama/#managing-my-customers-azure-managed-applications-overview",
-    "relUrl": "/ama/#managing-my-customers-azure-managed-applications-overview"
-  },"13": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Managing My Customer’s Azure Managed Applications – Demo",
-    "content": "Video . Once deployed, Azure Managed Applications are managed and maintained by the publisher. This module shows the Azure portal-based tools and practices publishers use to manage their customer’s environments. ",
-    "url": "http://localhost:4000/ama/#managing-my-customers-azure-managed-applications--demo",
-    "relUrl": "/ama/#managing-my-customers-azure-managed-applications--demo"
-  },"14": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Metered Billing for Azure Managed Applications Overview",
-    "content": "Video . Billing for usage-based consumption is a requirement for many Azure Managed Applications. Get a walkthrough of metered billing and an architectural overview of how it works. ",
-    "url": "http://localhost:4000/ama/#metered-billing-for-azure-managed-applications-overview",
-    "relUrl": "/ama/#metered-billing-for-azure-managed-applications-overview"
-  },"15": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Metered Billing for Azure Managed Applications – Demo",
-    "content": "Video . See metered billing in action at the REST API level. This module shows metered billing API interaction through Postman. ",
-    "url": "http://localhost:4000/ama/#metered-billing-for-azure-managed-applications--demo",
-    "relUrl": "/ama/#metered-billing-for-azure-managed-applications--demo"
-  },"16": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Advanced Deployment Scenarios for Azure Managed Applications",
-    "content": "Video . This brief module covers a few advanced scenarios for Azure Managed Application deployments including containers and IoT integration. ",
-    "url": "http://localhost:4000/ama/#advanced-deployment-scenarios-for-azure-managed-applications",
-    "relUrl": "/ama/#advanced-deployment-scenarios-for-azure-managed-applications"
-  },"17": {
-    "doc": "Mastering Azure Managed Application Offers",
-    "title": "Mastering Azure Managed Application Offers",
-    "content": "Let us know what you need in this content library. This course is taken from a live virtual training, complete with hands-on labs. The slides for this course, which are used in the following modules, are here. | Course Introduction | Managed Applications Overview | Azure Managed Applications Overview | Partner Center with Azure Managed Applications Overview | Configuring Partner Center for Azure Managed Applications - Demo | Azure Managed Application Deployment Package Overview | Working with a Azure Managed Application Deployment Package - Demo | Integrating Virtual Machine Offers into Azure Managed Applications | Purchasing an Azure Managed Application – Demo | Managing My Purchased Azure Managed Applications – Demo | Managing My Customer’s Azure Managed Applications Overview | Managing My Customer’s Azure Managed Applications – Demo | Metered Billing for Azure Managed Applications Overview | Metered Billing for Azure Managed Applications – Demo | Advanced Deployment Scenarios for Azure Managed Applications | . ",
-    "url": "http://localhost:4000/ama/",
-    "relUrl": "/ama/"
-  },"18": {
-    "doc": "Mastering the Metered Billing Solution",
-    "title": "Video Learning Modules",
-    "content": ". | A Metered Billing Accelerator Hands-on Tour - The Basics (Introduction to the Metered Billing Accelerator) | Metered Billing Accelerator Architecture | Installing the Metered Billing Accelerator | Invoking Metered Billing with the Metered Billing Accelerator | Configure SaaS offer with the Metered Billing Accelerator | Configure Managed Application offer with the Metered Billing Accelerator | . ",
-    "url": "http://localhost:4000/metered-billing-accelerator/#video-learning-modules",
-    "relUrl": "/metered-billing-accelerator/#video-learning-modules"
-  },"19": {
-    "doc": "Mastering the Metered Billing Solution",
-    "title": "Hands-on labs",
-    "content": "These hand on labs build on top of one another, so progress through them in order to get a fully functional Metered Billing Accelerator offer published and working for a test environment. Prerequisites . | Azure subscription that can create resources | A Partner Center Account | . Hands-on labs . | Installing the Metered Billing Accelerator | Configure SaaS Offer the Metered Billing Accelerator | Configure Managed ApplicationOffer the Metered Billing Accelerator | . ",
-    "url": "http://localhost:4000/metered-billing-accelerator/#hands-on-labs",
-    "relUrl": "/metered-billing-accelerator/#hands-on-labs"
-  },"20": {
-    "doc": "Mastering the Metered Billing Solution",
-    "title": "Module details",
-    "content": "A Metered Billing Accelerator Hands-on Tour - The Basics . Video . This introduction to the accelerator demonstrates the Metered Billing Accelerator’s core capabilities showing why it may be a good choice for your marketplace offers with Metered Billing capabilities. In three short demos, this video shows its fundamental capabilities. Metered Billing Accelerator Architecture . Video . This quick video covers the overall architecture of the Metered Billing Accelerator. The architecture is straightforward and is explained in plain language appropriate for those with any level of experience with Azure. Installing the Metered Billing Accelerator . Video . Installing the Metered Billing Accelerator is simple. This video walks you through from beginning to end the steps necessary to get the Metered Billing Accelerator up and running. This video will get you up and running with the Metered Billing Accelerator in no time at all! . Invoking Metered Billing with the Metered Billing Accelerator . Video . We look at the metered billing capabilities of the Metered Billing Accelerator for the Azure Marketplace. This video shows how to manually invoke metered billing events from the Metered Billing Accelerator. Configure SaaS offer with the Metered Billing Accelerator . Video . In this video will show how it is easy to configure your SaaS Offer with Metered Billing Accelerator to trigger metered billing events automatically. Configure Managed Application offer with the Metered Billing Accelerator . Video . In this video will show how it is easy to configure your managed application Offer with Metered Billing Accelerator to trigger metered billing events automatically. ",
-    "url": "http://localhost:4000/metered-billing-accelerator/#module-details",
-    "relUrl": "/metered-billing-accelerator/#module-details"
-  },"21": {
-    "doc": "Mastering the Metered Billing Solution",
-    "title": "Mastering the Metered Billing Solution",
-    "content": "Let us know what you need in this content library. This series is designed to help you speed your time to publish SaaS or Managed app offer with metered billing support to the Microsoft commercial marketplace using the Metered Billing Solution. ",
-    "url": "http://localhost:4000/metered-billing-accelerator/",
-    "relUrl": "/metered-billing-accelerator/"
-  },"22": {
-    "doc": "Mastering Partner Center",
-    "title": "Video",
-    "content": "Private Offers . | Private Offer Overview ISV to Customer Offers | ISV to Customer Private Offer Creation | ISV to Customer Private Offer Acceptance | ISV to Customer Private Offer Purchase Experience | Private Offers for CSP Partners Overview | Private Offer Creation by ISVs for CSP Partners | The CSP Partner Private Offer Purchase Process | . Configuring and Publishing Offers . | Publishing a SaaS Offer | Publishing a Private SaaS Plan | Migrating Listings to SaaS Offers | Configuring a Virtual Machine Offer in Partner Center – Demo | Partner Center with Azure Managed Applications Overview | Configuring Partner Center for Azure Managed Applications - Demo | . ",
-    "url": "http://localhost:4000/partner-center/#video",
-    "relUrl": "/partner-center/#video"
-  },"23": {
-    "doc": "Mastering Partner Center",
-    "title": "Module details",
-    "content": "Private Offer Overview ISV to Customer Offers . Video . Learn how private offers work for marketplace publishers offering them directly to customers. This module provides an overview of private offers and explores some deeper details about how they work. ISV to Customer Private Offer Creation . Video . This demo takes you through the process of an ISV creating a private offer for sale to a customer. ISV to Customer Private Offer Acceptance . Video . In this walk through video, see the customer experience for accepting an ISV to Customer private offer. ISV to Customer Private Offer Purchase Experience . Video . In this walk through video, see the customer experience for viewing details of their private offer in the Azure portal and deploying the product. Private Offers for CSP Partners Overview . | Video | PDF | . Learn about private offers for Cloud Solution Providers in this overview of the capability in Partner Center. Private Offer Creation by ISVs for CSP Partners . Video . This demo takes you through the process of an ISV creating a private offer for sale to a Cloud Solution Provider. The CSP Partner Private Offer Purchase Process . Video . In this walkthrough video, see the purchase process partners in the Cloud Solution Provider (CSP) program go through to purchase private offers created by ISVs. Publishing a SaaS Offer . | Video | PDF | . This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook. Publishing a Private SaaS Plan . | Video | PDF | . This brief video builds upon what you learned in, “Publishing a SaaS Offer.” It presents the concepts of using private plans and then shows how to do so inside Partner Center. Migrating Listings to SaaS Offers . Video . You may have started your online presence in the commercial marketplace with a simple listing to advertise your services. This does not, however, create a transactable offer that can be sold through the marketplace. This video shows how to convert your existing listing into a fully transactable SaaS Offer. Configuring a Virtual Machine Offer in Partner Center – Demo . Video . Learn how to set up technical configurations for Azure Marketplace virtual machine offers within Partner Center. You’ll look at machine generations, disk versions, share image gallery vs. SAS URI, and more. Partner Center with Azure Managed Applications Overview . Video . Partner Center is the portal publishers use to create, configure, publish, and monitor their offers in the Microsoft Marketplace. This overview takes you through Partner Center for Azure Managed Applications. Configuring Partner Center for Azure Managed Applications - Demo . Video . Understanding Partner Center, the publisher’s portal, is key to creating great offers. This demo walks through setting up a Partner Center offer for an Azure Managed Application. ",
-    "url": "http://localhost:4000/partner-center/#module-details",
-    "relUrl": "/partner-center/#module-details"
-  },"24": {
-    "doc": "Mastering Partner Center",
-    "title": "Mastering Partner Center",
-    "content": "Using Partner Center to create and maintain your marketplace offers is a very large topic. We are just getting started with the content we’ll publish about Partner Center, so please check back often as this library grows. Let us know what you need in this content library. ",
-    "url": "http://localhost:4000/partner-center/",
-    "relUrl": "/partner-center/"
-  },"25": {
     "doc": "Mastering SaaS Offers",
     "title": "Hands-on labs",
     "content": "The following hands-on labs build upon each other. Perform them in sequential order to get a fully functional SaaS Offer published and working for your test environment. Clone this repository to your local machine. You will need some artifacts from the lab folders to complete the labs. Prerequisites . | Azure subscription that can create resources | A Partner Center Account | Visual Studio 2022, any version | . Labs . | Creating a SaaS Offer in Partner Center | Creating a Landing Page | Installing a Publisher Portal | Deploying and Monitoring a Webhook | Implementing Meter billing | . ",
     "url": "http://localhost:4000/saas/#hands-on-labs",
     "relUrl": "/saas/#hands-on-labs"
-  },"26": {
+  },"2": {
     "doc": "Mastering SaaS Offers",
     "title": "SaaS Offer Overview",
     "content": "| Video | PDF | . This module offers a technical overview of Microsoft Azure Marketplace SaaS Offers, including the following topics. | The Microsoft Commercial Marketplace Ecosystem​ | SaaS Offer Creation Process​ | ​Pricing Models for SaaS Offers​ | SaaS Solution Architectures | . ",
     "url": "http://localhost:4000/saas/#saas-offer-overview",
     "relUrl": "/saas/#saas-offer-overview"
-  },"27": {
+  },"3": {
     "doc": "Mastering SaaS Offers",
     "title": "Purchasing a SaaS Offer",
     "content": "| Video | PDF | . This video offers a guided step-by-step process to purchasing SaaS applications in the #Microsoft Azure Marketplace from the customers point of view, including the following topics. | SaaS Offer Subscription Flow | Subscribing From the Azure Marketplace | Subscribing From the Azure Portal | The SaaS Management Service | . ",
     "url": "http://localhost:4000/saas/#purchasing-a-saas-offer",
     "relUrl": "/saas/#purchasing-a-saas-offer"
-  },"28": {
+  },"4": {
     "doc": "Mastering SaaS Offers",
     "title": "Purchasing a Private SaaS Plan",
     "content": "| Video | PDF | . This video shows how to subscribe to private SaaS plans in the Microsoft Azure Marketplace. Topics include the following. | About Private Plans | Purchasing a SaaS Private Offer demo | . ",
     "url": "http://localhost:4000/saas/#purchasing-a-private-saas-plan",
     "relUrl": "/saas/#purchasing-a-private-saas-plan"
-  },"29": {
+  },"5": {
     "doc": "Mastering SaaS Offers",
     "title": "Publishing a SaaS Offer",
     "content": "| Video | PDF | . This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook. ",
     "url": "http://localhost:4000/saas/#publishing-a-saas-offer",
     "relUrl": "/saas/#publishing-a-saas-offer"
-  },"30": {
+  },"6": {
     "doc": "Mastering SaaS Offers",
     "title": "Publishing a Private SaaS Plan",
     "content": "| Video | PDF | . This brief video builds upon what you learned in, “Publishing a SaaS Offer.” It presents the concepts of using private plans and then shows how to do so inside Partner Center. ",
     "url": "http://localhost:4000/saas/#publishing-a-private-saas-plan",
     "relUrl": "/saas/#publishing-a-private-saas-plan"
-  },"31": {
+  },"7": {
     "doc": "Mastering SaaS Offers",
     "title": "SaaS Offer Technical Overview",
     "content": "| Video | PDF | . Watch a deep technical overview of how SaaS offers work in the Microsoft Azure Marketplace. Learn how the API flows and interactions should work and how to build your landing page. Topics include the following. | The Landing Page​ authentication workflows | SaaS Offer Purchase Flow in Depth​ | SaaS Offer Fulfillment API​ | Metered Fulfillment Overview​ | SaaS Offer Webhook | . ",
     "url": "http://localhost:4000/saas/#saas-offer-technical-overview",
     "relUrl": "/saas/#saas-offer-technical-overview"
-  },"32": {
+  },"8": {
     "doc": "Mastering SaaS Offers",
     "title": "Azure AD Application Registrations",
     "content": "| Video | PDF | . In this module we look at a generic topic, application registrations for Azure Active Directory because we’ll need to use them in our upcoming modules. They give us a mechanism to authenticate to Azure AD, which is a requirement of the landing page, if you recall. This video should help you get a jump start on configuring application registrations for the apps we’ll be building in the next few modules. NOTE: The secrets that you set in an Application Registration have time limits. You may select up to 2 years for the secret to remain valid. In production, track when your secrets need to be changed and do so to avoid service outages. This module introduces just enough on this topic to help us build our landing page and webhooks later in the course. For those interested in more reading, please see Create and Azure AD app registration and Quick start: Register an application with the Microsoft identity platform from the official Microsoft documentation. ",
     "url": "http://localhost:4000/saas/#azure-ad-application-registrations",
     "relUrl": "/saas/#azure-ad-application-registrations"
-  },"33": {
+  },"9": {
     "doc": "Mastering SaaS Offers",
     "title": "Using the SaaS Offer REST Fulfillment API",
     "content": "| Video | PDF | . See the SaaS Fulfillment REST API in action as we send it through its paces using Postman. You’ll learn how to authenticate with Azure Active Directory, resolve and activate subscriptions just like your Landing Page does, and see many other features of the API. This module prepares you for working with the language-specific client libraries. You will need knowledge of Application Registrations in AAD. An Application Registration is used in the examples when making the first request to retrieve an authentication token from Azure Active Directory. You should be familiar with creating an Application Registration and finding the following information in the Azure Portal. | The Tenant ID and App ID | A Client Secret on the Application Registration | . ",
     "url": "http://localhost:4000/saas/#using-the-saas-offer-rest-fulfillment-api",
     "relUrl": "/saas/#using-the-saas-offer-rest-fulfillment-api"
-  },"34": {
+  },"10": {
     "doc": "Mastering SaaS Offers",
     "title": "The SaaS Client Library for .NET",
     "content": "| Video | PDF | Code | . This module introduces the SaaS Client Library for .NET developers who want to work with the SaaS APIs at a level of abstraction above the REST level. The client library is a fully functional .NET package that you can install from NuGet and use in your applications. This video shows a sample command line application that can talk to the client library API and the code is available in this repository via the link above. ",
     "url": "http://localhost:4000/saas/#the-saas-client-library-for-net",
     "relUrl": "/saas/#the-saas-client-library-for-net"
-  },"35": {
+  },"11": {
     "doc": "Mastering SaaS Offers",
     "title": "Building a Simple SaaS Landing Page in .NET",
     "content": "| Video | PDF | Code | . In this module we examine the elements of building a simple landing page and looking at how it works.We examine the following topics. | The purpose of a landing page | A humble landing page in action | The code | Available data to display | . The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it simple. We use the SaaS Client Library for .NET to build out our landing page functionality. ",
     "url": "http://localhost:4000/saas/#building-a-simple-saas-landing-page-in-net",
     "relUrl": "/saas/#building-a-simple-saas-landing-page-in-net"
-  },"36": {
+  },"12": {
     "doc": "Mastering SaaS Offers",
     "title": "Building a Simple SaaS Publisher Portal in .NET",
     "content": "| Video | PDF | Code | . In this module we examine the elements of building a publisher portal and at how it works.We examine the following topics. | The purpose of a publisher portal | A simple publisher portal in action | The code | . The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it simple. We use the SaaS Client Library for .NET to build out our portal functionality. ",
     "url": "http://localhost:4000/saas/#building-a-simple-saas-publisher-portal-in-net",
     "relUrl": "/saas/#building-a-simple-saas-publisher-portal-in-net"
-  },"37": {
+  },"13": {
     "doc": "Mastering SaaS Offers",
     "title": "SaaS Webhook Overview",
     "content": "| Video | PDF | . This technical overview of the SaaS webhook explains the following concepts of the SaaS offer webhook. | Why to have this specialized HTTPS endpoint | POST events one may receive on the webhook | Flow models of how to handle requests | Potential fully implemented solution architectures | . And more! Consider watching this video before moving on to the code-based modules for implementing and securing a SaaS offer webhook. ",
     "url": "http://localhost:4000/saas/#saas-webhook-overview",
     "relUrl": "/saas/#saas-webhook-overview"
-  },"38": {
+  },"14": {
     "doc": "Mastering SaaS Offers",
     "title": "Implementing a Simple SaaS Webhook in .NET",
     "content": "| Video | Code | . This code-heavy module focuses on the fundamentals of implementing a SaaS offer webhook as an Azure function using .NET. Concepts are presented in such a way as to be architecture and technology stack agnostic. ",
     "url": "http://localhost:4000/saas/#implementing-a-simple-saas-webhook-in-net",
     "relUrl": "/saas/#implementing-a-simple-saas-webhook-in-net"
-  },"39": {
+  },"15": {
     "doc": "Mastering SaaS Offers",
     "title": "Securing a Simple SaaS Webhook in .NET",
     "content": "| Video | PDF | Code | . This security-focused module introduces several techniques for securing a SaaS offer webhook and then dives into code looking at implementations of the techniques presented. This module builds on the concepts and code presented in the module, “Implementing a Simple SaaS Webhook in .NET”. Although utilizing an Azure function built in .NET, topics are presented in such a way as to be architecture and technology stack agnostic. ",
     "url": "http://localhost:4000/saas/#securing-a-simple-saas-webhook-in-net",
     "relUrl": "/saas/#securing-a-simple-saas-webhook-in-net"
-  },"40": {
+  },"16": {
     "doc": "Mastering SaaS Offers",
     "title": "SaaS Metered Billing Overview",
     "content": "| Video | PDF | . This module presents the fundamentals of billing through the marketplace based on usage, or metered billing. IT covers several areas of metered billing including the following. | How to configure Partner Center | The flow of API operations needed to use the SaaS billing API | Resources to save you time in building your SaaS application | . ",
     "url": "http://localhost:4000/saas/#saas-metered-billing-overview",
     "relUrl": "/saas/#saas-metered-billing-overview"
-  },"41": {
+  },"17": {
     "doc": "Mastering SaaS Offers",
     "title": "The SaaS Metered Billing API with REST",
     "content": "Video . We exercise the SaaS Billing REST API using Postman to illustrate how the API works. You’ll learn how the inputs to each API event and how to use the results, and finally how to invoke usage events in the metering API itself. This module is primarily demo. ",
     "url": "http://localhost:4000/saas/#the-saas-metered-billing-api-with-rest",
     "relUrl": "/saas/#the-saas-metered-billing-api-with-rest"
-  },"42": {
+  },"18": {
     "doc": "Mastering SaaS Offers",
     "title": "Mastering SaaS Offers",
-    "content": "Let us know what you need in this content library. This course is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace. Get your hands dirty with the hands-on labs. General SaaS Knowledge . | SaaS Offer Overview | Purchasing a SaaS Offer | Purchasing a Private SaaS Plan | Publishing a SaaS Offer | Publishing a Private SaaS Plan | . SaaS Technical Knowledge . | SaaS Offer Technical Overview | Azure AD Application Registrations | Using the SaaS Offer REST Fulfillment API | The SaaS Client Library for .NET | Building a Simple SaaS Landing Page in .NET | Building a Simple SaaS Publisher Portal in .NET | SaaS Webhook Overview | Implementing a Simple SaaS Webhook in .NET | Securing a Simple SaaS Webhook in .NET | SaaS Metered Billing Overview | The SaaS Metered Billing API with REST | . ",
+    "content": "Let us know what you need in this content library. Get your hands dirty with the hands-on labs. General SaaS Knowledge . | SaaS Offer Overview | Purchasing a SaaS Offer | Purchasing a Private SaaS Plan | Publishing a SaaS Offer | Publishing a Private SaaS Plan | . SaaS Technical Knowledge . | SaaS Offer Technical Overview | Azure AD Application Registrations | Using the SaaS Offer REST Fulfillment API | The SaaS Client Library for .NET | Building a Simple SaaS Landing Page in .NET | Building a Simple SaaS Publisher Portal in .NET | SaaS Webhook Overview | Implementing a Simple SaaS Webhook in .NET | Securing a Simple SaaS Webhook in .NET | SaaS Metered Billing Overview | The SaaS Metered Billing API with REST | . ",
     "url": "http://localhost:4000/saas/",
     "relUrl": "/saas/"
-  },"43": {
-    "doc": "Mastering the SaaS Accelerator",
-    "title": "Hands-on labs",
-    "content": "The following hands-on labs build upon each other. Completing them will get a fully functional SaaS Accelerator offer published and working for a test environment. Prerequisites . | Azure subscription that can create resources | A Partner Center Account | . Labs . | Preparing Partner Center | Installing the Accelerator | Using the Accelerator | . ",
-    "url": "http://localhost:4000/saas-accelerator/#hands-on-labs",
-    "relUrl": "/saas-accelerator/#hands-on-labs"
-  },"44": {
-    "doc": "Mastering the SaaS Accelerator",
-    "title": "A SaaS Accelerator Hands-on Tour - The Basics",
-    "content": "Video . This introduction to the accelerator demonstrates the SaaS Accelerator’s core capabilities showing why it may be a good choice for your marketplace SaaS offer. In three short demos, this video shows its fundamental capabilities. You’ll see the landing page, the publisher’s subscription management portal, and the customer’s subscription management capabilities in action! . ",
-    "url": "http://localhost:4000/saas-accelerator/#a-saas-accelerator-hands-on-tour---the-basics",
-    "relUrl": "/saas-accelerator/#a-saas-accelerator-hands-on-tour---the-basics"
-  },"45": {
-    "doc": "Mastering the SaaS Accelerator",
-    "title": "SaaS Accelerator Architecture",
-    "content": "| Video | PDF | . This quick video covers the overall architecture of the SaaS Accelerator. The architecture is straightforward and is explained in plain language appropriate for those with any level of experience with Azure. ",
-    "url": "http://localhost:4000/saas-accelerator/#saas-accelerator-architecture",
-    "relUrl": "/saas-accelerator/#saas-accelerator-architecture"
-  },"46": {
-    "doc": "Mastering the SaaS Accelerator",
-    "title": "Installing the SaaS Accelerator With the Install Script",
-    "content": "| Video | PDF | . Installing the SaaS Accelerator is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. This video will get you up and running with the SaaS Accelerator in no time at all! You will need to copy and paste some PowerShell script from here. ",
-    "url": "http://localhost:4000/saas-accelerator/#installing-the-saas-accelerator-with-the-install-script",
-    "relUrl": "/saas-accelerator/#installing-the-saas-accelerator-with-the-install-script"
-  },"47": {
-    "doc": "Mastering the SaaS Accelerator",
-    "title": "Invoking Metered Billing with the SaaS Accelerator",
-    "content": "Video . We look at the metered billing capabilities of the SaaS Accelerator for the Azure Marketplace. This video shows how to manually invoke metered billing events from the SaaS Accelerator without needing to integrate your solution with the SaaS Metering APIs. ",
-    "url": "http://localhost:4000/saas-accelerator/#invoking-metered-billing-with-the-saas-accelerator",
-    "relUrl": "/saas-accelerator/#invoking-metered-billing-with-the-saas-accelerator"
-  },"48": {
-    "doc": "Mastering the SaaS Accelerator",
-    "title": "Custom Landing Page Fields with the SaaS Accelerator",
-    "content": "Video . In addition to showing your subscribers information about their subscription when they arrive at your landing page, you may also want to capture some information from them. This is possible using custom fields on the landing page and this short video shows you how to use them. ",
-    "url": "http://localhost:4000/saas-accelerator/#custom-landing-page-fields-with-the-saas-accelerator",
-    "relUrl": "/saas-accelerator/#custom-landing-page-fields-with-the-saas-accelerator"
-  },"49": {
-    "doc": "Mastering the SaaS Accelerator",
-    "title": "Configuring Email in the SaaS Accelerator",
-    "content": "Video . You will likely want to receive email when a subscription changes state. For example, when a someone unsubscribes from your offer. This video shows how to configure the email setting within the SaaS Accelerator and get those notifications coming right to your inbox. ",
-    "url": "http://localhost:4000/saas-accelerator/#configuring-email-in-the-saas-accelerator",
-    "relUrl": "/saas-accelerator/#configuring-email-in-the-saas-accelerator"
-  },"50": {
-    "doc": "Mastering the SaaS Accelerator",
-    "title": "Mastering the SaaS Accelerator",
-    "content": "Let us know what you need in this content library. This course is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the SaaS Accelerator. Get your hands dirty with the hands-on labs. | A SaaS Accelerator Hands-on Tour - The Basics (Introduction to the SaaS Accelerator) | SaaS Accelerator Architecture | Installing the SaaS Accelerator With the Install Script | Invoking Metered Billing with the SaaS Accelerator | Custom Landing Page Fields with the SaaS Accelerator | Configuring Email in the SaaS Accelerator | . ",
-    "url": "http://localhost:4000/saas-accelerator/",
-    "relUrl": "/saas-accelerator/"
-  },"51": {
+  },"19": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Hands-on labs",
     "content": "The following hands-on labs build upon each other. They take you through the complete process of creating and publishing a virtual machine offer in the Microsoft commercial marketplace. Clone this repository to your local machine. You will need some artifacts from the lab folders to complete the labs. Prerequisites . | An Azure Subscription to create resources | An active Partner Center Account (Please ensure you have enrolled into the Marketplace Offers program) | Visual Studio Code or other text editor | . Labs . | Partner Center Setup | VM Creation | Generalize and Capture Image | Publish the Offer | Purchase your Offer | . ",
     "url": "http://localhost:4000/vm/#hands-on-labs",
     "relUrl": "/vm/#hands-on-labs"
-  },"52": {
+  },"20": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Creating Virtual Machine Offers Overview",
     "content": "Video . This introductory module takes you from start to finish in creating and publishing virtual machine offers in the Microsoft commercial marketplace. Get an overview of the process from beginning to end before embarking on the more technical details in later modules. ",
     "url": "http://localhost:4000/vm/#creating-virtual-machine-offers-overview",
     "relUrl": "/vm/#creating-virtual-machine-offers-overview"
-  },"53": {
+  },"21": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Partner Center Overview",
     "content": "Video . Learn about creating your offers in Partner Center, including private plans, CRM integration, and more. ",
     "url": "http://localhost:4000/vm/#partner-center-overview",
     "relUrl": "/vm/#partner-center-overview"
-  },"54": {
+  },"22": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Creating an Offer in Partner Center (Demo)",
     "content": "Video . See how to create an offer in Partner Center to include creating the offer, configuring a basic CRM integration, specifying offer properties, listing details, and resell with CSP settings. This video does not go into the specifics of creating the Virtual Machine plans for the offer, which will be seen in a later demo. ",
     "url": "http://localhost:4000/vm/#creating-an-offer-in-partner-center-demo",
     "relUrl": "/vm/#creating-an-offer-in-partner-center-demo"
-  },"55": {
+  },"23": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Creating and Customizing a Virtual Machine (Demo)",
     "content": "Video . Learn how to not only create a Virtual Machine, but how to customize it by adding scripts or applications. This is a required step in creating your Virtual Machine offer so that the Virtual Machine itself has your intellectual property installed on it. ",
     "url": "http://localhost:4000/vm/#creating-and-customizing-a-virtual-machine-demo",
     "relUrl": "/vm/#creating-and-customizing-a-virtual-machine-demo"
-  },"56": {
+  },"24": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Generalizing and Capturing a Virtual Machine Image",
     "content": "Video . Learn what it means to generalize and capture a Virtual Machine so it can be made available in your offer. The examples provided in this overview pertain to both Windows and Linux machines. ",
     "url": "http://localhost:4000/vm/#generalizing-and-capturing-a-virtual-machine-image",
     "relUrl": "/vm/#generalizing-and-capturing-a-virtual-machine-image"
-  },"57": {
+  },"25": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Generalizing and Capturing a Virtual Machine Image (Demo)",
     "content": "Video . See how to capture both a Linux and Windows Virtual Machine for use in your marketplace offer. This demo is done with a Linux machine, but the difference for Windows is explained along the way. Most actions taken are applicable to both machine types and this module gives you what you need to know to generalize and capture both machine types. ",
     "url": "http://localhost:4000/vm/#generalizing-and-capturing-a-virtual-machine-image-demo",
     "relUrl": "/vm/#generalizing-and-capturing-a-virtual-machine-image-demo"
-  },"58": {
+  },"26": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Publish Your Virtual Machine Offer with Partner Center (Demo)",
     "content": "Video . This demonstration takes you through creating a plan for your Virtual Machine offer, associating the correct image to the plan, and setting other configuration options on your Virtual Machine. After completing the plan configuration you get to see the offer published. ",
     "url": "http://localhost:4000/vm/#publish-your-virtual-machine-offer-with-partner-center-demo",
     "relUrl": "/vm/#publish-your-virtual-machine-offer-with-partner-center-demo"
-  },"59": {
+  },"27": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Securing Your Virtual Machine",
     "content": "Video . Learn about things you can do to secure your Virtual Machine offer and the image used to create it. There are plenty of techniques you can use to harden your Virtual Machine against attackers and this video will take you through several. ",
     "url": "http://localhost:4000/vm/#securing-your-virtual-machine",
     "relUrl": "/vm/#securing-your-virtual-machine"
-  },"60": {
+  },"28": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Virtual Machine Automation with Packer Overview",
     "content": "Video . Learn about the Packer tool that enables automating many of the tasks you’ve seen done by hand up until now. Packer gives you the power to create virtual machines, install software, create images, and more. ",
     "url": "http://localhost:4000/vm/#virtual-machine-automation-with-packer-overview",
     "relUrl": "/vm/#virtual-machine-automation-with-packer-overview"
-  },"61": {
+  },"29": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Virtual Machine Automation with Packer (Demo)",
     "content": "Video . See how the Packer tool gives you the power to automate many of the tasks needed to created Virtual Machine images for your Virtual Machine offer. This walkthrough using VS Code and the command line leaves you with the tools you need to begin your own automation. ",
     "url": "http://localhost:4000/vm/#virtual-machine-automation-with-packer-demo",
     "relUrl": "/vm/#virtual-machine-automation-with-packer-demo"
-  },"62": {
+  },"30": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "The Virtual Machine Offer Certification Process",
     "content": "Video . This quick lecture walks through the Virtual Machine offer certification process and details common reasons why certification may fail for a newly submitted virtual machine offer. This video can save you loads of time by helping you avoid common mistakes or misunderstandings. ",
     "url": "http://localhost:4000/vm/#the-virtual-machine-offer-certification-process",
     "relUrl": "/vm/#the-virtual-machine-offer-certification-process"
-  },"63": {
+  },"31": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Virtual Machine Certification Test Tool (Demo)",
     "content": "Video . There is a tool one can use to help prepare their Virtual Machine image for certification. The Virtual Machine image certification tool is exercised in this video, and we get to see how to set it up and use it to gain confidence that a Virtual Machine image will not be rejected during certification. ",
     "url": "http://localhost:4000/vm/#virtual-machine-certification-test-tool-demo",
     "relUrl": "/vm/#virtual-machine-certification-test-tool-demo"
-  },"64": {
+  },"32": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Purchasing the Virtual Machine Offer",
     "content": "Video . The offer is now complete and ready to test in Partner Center. In this video, experience buying the completed Virtual Machine offer from the point of view of the customer. ",
     "url": "http://localhost:4000/vm/#purchasing-the-virtual-machine-offer",
     "relUrl": "/vm/#purchasing-the-virtual-machine-offer"
-  },"65": {
+  },"33": {
     "doc": "Mastering Virtual Machine Offers",
     "title": "Mastering Virtual Machine Offers",
-    "content": "Let us know what you need in this content library. The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time. Get your hands dirty with the hands-on labs. | Creating Virtual Machine Offers Overview | Partner Center Overview | Creating an Offer in Partner Center (Demo) | Creating and Customizing a Virtual Machine (Demo) | Generalizing and Capturing a Virtual Machine Image | Generalizing and Capturing a Virtual Machine Image (Demo) | Publish Your Virtual Machine Offer with Partner Center (Demo) | Securing Your Virtual Machine | Virtual Machine Automation with Packer Overview | Virtual Machine Automation with Packer (Demo) | The Virtual Machine Offer Certification Process | Virtual Machine Certification Test Tool (Demo) | Purchasing the Virtual Machine Offer | . ",
+    "content": "Let us know what you need in this content library. Get your hands dirty with the hands-on labs. Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon are the creators of this course. | Creating Virtual Machine Offers Overview | Partner Center Overview | Creating an Offer in Partner Center (Demo) | Creating and Customizing a Virtual Machine (Demo) | Generalizing and Capturing a Virtual Machine Image | Generalizing and Capturing a Virtual Machine Image (Demo) | Publish Your Virtual Machine Offer with Partner Center (Demo) | Securing Your Virtual Machine | Virtual Machine Automation with Packer Overview | Virtual Machine Automation with Packer (Demo) | The Virtual Machine Offer Certification Process | Virtual Machine Certification Test Tool (Demo) | Purchasing the Virtual Machine Offer | . ",
     "url": "http://localhost:4000/vm/",
     "relUrl": "/vm/"
+  },"34": {
+    "doc": "Mastering the SaaS Accelerator",
+    "title": "Hands-on labs",
+    "content": "The following hands-on labs build upon each other. Completing them will get a fully functional SaaS Accelerator offer published and working for a test environment. Prerequisites . | Azure subscription that can create resources | A Partner Center Account | . Labs . | Preparing Partner Center | Installing the Accelerator | Using the Accelerator | . ",
+    "url": "http://localhost:4000/saas-accelerator/#hands-on-labs",
+    "relUrl": "/saas-accelerator/#hands-on-labs"
+  },"35": {
+    "doc": "Mastering the SaaS Accelerator",
+    "title": "A SaaS Accelerator Hands-on Tour - The Basics",
+    "content": "Video . This introduction to the accelerator demonstrates the SaaS Accelerator’s core capabilities showing why it may be a good choice for your marketplace SaaS offer. In three short demos, this video shows its fundamental capabilities. You’ll see the landing page, the publisher’s subscription management portal, and the customer’s subscription management capabilities in action! . ",
+    "url": "http://localhost:4000/saas-accelerator/#a-saas-accelerator-hands-on-tour---the-basics",
+    "relUrl": "/saas-accelerator/#a-saas-accelerator-hands-on-tour---the-basics"
+  },"36": {
+    "doc": "Mastering the SaaS Accelerator",
+    "title": "SaaS Accelerator Architecture",
+    "content": "| Video | PDF | . This quick video covers the overall architecture of the SaaS Accelerator. The architecture is straightforward and is explained in plain language appropriate for those with any level of experience with Azure. ",
+    "url": "http://localhost:4000/saas-accelerator/#saas-accelerator-architecture",
+    "relUrl": "/saas-accelerator/#saas-accelerator-architecture"
+  },"37": {
+    "doc": "Mastering the SaaS Accelerator",
+    "title": "Installing the SaaS Accelerator With the Install Script",
+    "content": "| Video | PDF | . Installing the SaaS Accelerator is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. This video will get you up and running with the SaaS Accelerator in no time at all! You will need to copy and paste some PowerShell script from here. ",
+    "url": "http://localhost:4000/saas-accelerator/#installing-the-saas-accelerator-with-the-install-script",
+    "relUrl": "/saas-accelerator/#installing-the-saas-accelerator-with-the-install-script"
+  },"38": {
+    "doc": "Mastering the SaaS Accelerator",
+    "title": "Invoking Metered Billing with the SaaS Accelerator",
+    "content": "Video . We look at the metered billing capabilities of the SaaS Accelerator for the Azure Marketplace. This video shows how to manually invoke metered billing events from the SaaS Accelerator without needing to integrate your solution with the SaaS Metering APIs. ",
+    "url": "http://localhost:4000/saas-accelerator/#invoking-metered-billing-with-the-saas-accelerator",
+    "relUrl": "/saas-accelerator/#invoking-metered-billing-with-the-saas-accelerator"
+  },"39": {
+    "doc": "Mastering the SaaS Accelerator",
+    "title": "Custom Landing Page Fields with the SaaS Accelerator",
+    "content": "Video . In addition to showing your subscribers information about their subscription when they arrive at your landing page, you may also want to capture some information from them. This is possible using custom fields on the landing page and this short video shows you how to use them. ",
+    "url": "http://localhost:4000/saas-accelerator/#custom-landing-page-fields-with-the-saas-accelerator",
+    "relUrl": "/saas-accelerator/#custom-landing-page-fields-with-the-saas-accelerator"
+  },"40": {
+    "doc": "Mastering the SaaS Accelerator",
+    "title": "Configuring Email in the SaaS Accelerator",
+    "content": "Video . You will likely want to receive email when a subscription changes state. For example, when a someone unsubscribes from your offer. This video shows how to configure the email setting within the SaaS Accelerator and get those notifications coming right to your inbox. ",
+    "url": "http://localhost:4000/saas-accelerator/#configuring-email-in-the-saas-accelerator",
+    "relUrl": "/saas-accelerator/#configuring-email-in-the-saas-accelerator"
+  },"41": {
+    "doc": "Mastering the SaaS Accelerator",
+    "title": "Mastering the SaaS Accelerator",
+    "content": "Let us know what you need in this content library. This course is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the SaaS Accelerator. Get your hands dirty with the hands-on labs. | A SaaS Accelerator Hands-on Tour - The Basics (Introduction to the SaaS Accelerator) | SaaS Accelerator Architecture | Installing the SaaS Accelerator With the Install Script | Invoking Metered Billing with the SaaS Accelerator | Custom Landing Page Fields with the SaaS Accelerator | Configuring Email in the SaaS Accelerator | . ",
+    "url": "http://localhost:4000/saas-accelerator/",
+    "relUrl": "/saas-accelerator/"
+  },"42": {
+    "doc": "Mastering the Metered Billing Solution",
+    "title": "Video Learning Modules",
+    "content": ". | A Metered Billing Accelerator Hands-on Tour - The Basics (Introduction to the Metered Billing Accelerator) | Metered Billing Accelerator Architecture | Installing the Metered Billing Accelerator | Invoking Metered Billing with the Metered Billing Accelerator | Configure SaaS offer with the Metered Billing Accelerator | Configure Managed Application offer with the Metered Billing Accelerator | . ",
+    "url": "http://localhost:4000/metered-billing-accelerator/#video-learning-modules",
+    "relUrl": "/metered-billing-accelerator/#video-learning-modules"
+  },"43": {
+    "doc": "Mastering the Metered Billing Solution",
+    "title": "Hands-on labs",
+    "content": "These hand on labs build on top of one another, so progress through them in order to get a fully functional Metered Billing Accelerator offer published and working for a test environment. Prerequisites . | Azure subscription that can create resources | A Partner Center Account | . Hands-on labs . | Installing the Metered Billing Accelerator | Configure SaaS Offer the Metered Billing Accelerator | Configure Managed ApplicationOffer the Metered Billing Accelerator | . ",
+    "url": "http://localhost:4000/metered-billing-accelerator/#hands-on-labs",
+    "relUrl": "/metered-billing-accelerator/#hands-on-labs"
+  },"44": {
+    "doc": "Mastering the Metered Billing Solution",
+    "title": "Module details",
+    "content": "A Metered Billing Accelerator Hands-on Tour - The Basics . Video . This introduction to the accelerator demonstrates the Metered Billing Accelerator’s core capabilities showing why it may be a good choice for your marketplace offers with Metered Billing capabilities. In three short demos, this video shows its fundamental capabilities. Metered Billing Accelerator Architecture . Video . This quick video covers the overall architecture of the Metered Billing Accelerator. The architecture is straightforward and is explained in plain language appropriate for those with any level of experience with Azure. Installing the Metered Billing Accelerator . Video . Installing the Metered Billing Accelerator is simple. This video walks you through from beginning to end the steps necessary to get the Metered Billing Accelerator up and running. This video will get you up and running with the Metered Billing Accelerator in no time at all! . Invoking Metered Billing with the Metered Billing Accelerator . Video . We look at the metered billing capabilities of the Metered Billing Accelerator for the Azure Marketplace. This video shows how to manually invoke metered billing events from the Metered Billing Accelerator. Configure SaaS offer with the Metered Billing Accelerator . Video . In this video will show how it is easy to configure your SaaS Offer with Metered Billing Accelerator to trigger metered billing events automatically. Configure Managed Application offer with the Metered Billing Accelerator . Video . In this video will show how it is easy to configure your managed application Offer with Metered Billing Accelerator to trigger metered billing events automatically. ",
+    "url": "http://localhost:4000/metered-billing-accelerator/#module-details",
+    "relUrl": "/metered-billing-accelerator/#module-details"
+  },"45": {
+    "doc": "Mastering the Metered Billing Solution",
+    "title": "Mastering the Metered Billing Solution",
+    "content": "Let us know what you need in this content library. This series is designed to help you speed your time to publish SaaS or Managed app offer with metered billing support to the Microsoft commercial marketplace using the Metered Billing Solution. ",
+    "url": "http://localhost:4000/metered-billing-accelerator/",
+    "relUrl": "/metered-billing-accelerator/"
+  },"46": {
+    "doc": "Mastering Partner Center",
+    "title": "Private Offer Overview ISV to Customer Offers",
+    "content": "Video . Learn how private offers work for marketplace publishers offering them directly to customers. This module provides an overview of private offers and explores some deeper details about how they work. ",
+    "url": "http://localhost:4000/partner-center/#private-offer-overview-isv-to-customer-offers",
+    "relUrl": "/partner-center/#private-offer-overview-isv-to-customer-offers"
+  },"47": {
+    "doc": "Mastering Partner Center",
+    "title": "ISV to Customer Private Offer Creation",
+    "content": "Video . This demo takes you through the process of an ISV creating a private offer for sale to a customer. ",
+    "url": "http://localhost:4000/partner-center/#isv-to-customer-private-offer-creation",
+    "relUrl": "/partner-center/#isv-to-customer-private-offer-creation"
+  },"48": {
+    "doc": "Mastering Partner Center",
+    "title": "ISV to Customer Private Offer Acceptance",
+    "content": "Video . In this walk through video, see the customer experience for accepting an ISV to Customer private offer. ",
+    "url": "http://localhost:4000/partner-center/#isv-to-customer-private-offer-acceptance",
+    "relUrl": "/partner-center/#isv-to-customer-private-offer-acceptance"
+  },"49": {
+    "doc": "Mastering Partner Center",
+    "title": "ISV to Customer Private Offer Purchase Experience",
+    "content": "Video . In this walk through video, see the customer experience for viewing details of their private offer in the Azure portal and deploying the product. ",
+    "url": "http://localhost:4000/partner-center/#isv-to-customer-private-offer-purchase-experience",
+    "relUrl": "/partner-center/#isv-to-customer-private-offer-purchase-experience"
+  },"50": {
+    "doc": "Mastering Partner Center",
+    "title": "Private Offers for CSP Partners Overview",
+    "content": "| Video | PDF | . Learn about private offers for Cloud Solution Providers in this overview of the capability in Partner Center. ",
+    "url": "http://localhost:4000/partner-center/#private-offers-for-csp-partners-overview",
+    "relUrl": "/partner-center/#private-offers-for-csp-partners-overview"
+  },"51": {
+    "doc": "Mastering Partner Center",
+    "title": "Private Offer Creation by ISVs for CSP Partners",
+    "content": "Video . This demo takes you through the process of an ISV creating a private offer for sale to a Cloud Solution Provider. ",
+    "url": "http://localhost:4000/partner-center/#private-offer-creation-by-isvs-for-csp-partners",
+    "relUrl": "/partner-center/#private-offer-creation-by-isvs-for-csp-partners"
+  },"52": {
+    "doc": "Mastering Partner Center",
+    "title": "The CSP Partner Private Offer Purchase Process",
+    "content": "Video . In this walkthrough video, see the purchase process partners in the Cloud Solution Provider (CSP) program go through to purchase private offers created by ISVs. ",
+    "url": "http://localhost:4000/partner-center/#the-csp-partner-private-offer-purchase-process",
+    "relUrl": "/partner-center/#the-csp-partner-private-offer-purchase-process"
+  },"53": {
+    "doc": "Mastering Partner Center",
+    "title": "Publishing a SaaS Offer",
+    "content": "| Video | PDF | . This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook. ",
+    "url": "http://localhost:4000/partner-center/#publishing-a-saas-offer",
+    "relUrl": "/partner-center/#publishing-a-saas-offer"
+  },"54": {
+    "doc": "Mastering Partner Center",
+    "title": "Publishing a Private SaaS Plan",
+    "content": "| Video | PDF | . This brief video builds upon what you learned in, “Publishing a SaaS Offer.” It presents the concepts of using private plans and then shows how to do so inside Partner Center. ",
+    "url": "http://localhost:4000/partner-center/#publishing-a-private-saas-plan",
+    "relUrl": "/partner-center/#publishing-a-private-saas-plan"
+  },"55": {
+    "doc": "Mastering Partner Center",
+    "title": "Migrating Listings to SaaS Offers",
+    "content": "Video . You may have started your online presence in the commercial marketplace with a simple listing to advertise your services. This does not, however, create a transactable offer that can be sold through the marketplace. This video shows how to convert your existing listing into a fully transactable SaaS Offer. ",
+    "url": "http://localhost:4000/partner-center/#migrating-listings-to-saas-offers",
+    "relUrl": "/partner-center/#migrating-listings-to-saas-offers"
+  },"56": {
+    "doc": "Mastering Partner Center",
+    "title": "Configuring a Virtual Machine Offer in Partner Center – Demo",
+    "content": "Video . Learn how to set up technical configurations for Azure Marketplace virtual machine offers within Partner Center. You’ll look at machine generations, disk versions, share image gallery vs. SAS URI, and more. ",
+    "url": "http://localhost:4000/partner-center/#configuring-a-virtual-machine-offer-in-partner-center--demo",
+    "relUrl": "/partner-center/#configuring-a-virtual-machine-offer-in-partner-center--demo"
+  },"57": {
+    "doc": "Mastering Partner Center",
+    "title": "Partner Center with Azure Managed Applications Overview",
+    "content": "Video . Partner Center is the portal publishers use to create, configure, publish, and monitor their offers in the Microsoft Marketplace. This overview takes you through Partner Center for Azure Managed Applications. ",
+    "url": "http://localhost:4000/partner-center/#partner-center-with-azure-managed-applications-overview",
+    "relUrl": "/partner-center/#partner-center-with-azure-managed-applications-overview"
+  },"58": {
+    "doc": "Mastering Partner Center",
+    "title": "Configuring Partner Center for Azure Managed Applications - Demo",
+    "content": "Video . Understanding Partner Center, the publisher’s portal, is key to creating great offers. This demo walks through setting up a Partner Center offer for an Azure Managed Application. ",
+    "url": "http://localhost:4000/partner-center/#configuring-partner-center-for-azure-managed-applications---demo",
+    "relUrl": "/partner-center/#configuring-partner-center-for-azure-managed-applications---demo"
+  },"59": {
+    "doc": "Mastering Partner Center",
+    "title": "Mastering Partner Center",
+    "content": "Using Partner Center to create and maintain your marketplace offers is a very large topic. We are just getting started with the content we’ll publish about Partner Center, so please check back often as this library grows. Let us know what you need in this content library. Private Offers . | Private Offer Overview ISV to Customer Offers | ISV to Customer Private Offer Creation | ISV to Customer Private Offer Acceptance | ISV to Customer Private Offer Purchase Experience | Private Offers for CSP Partners Overview | Private Offer Creation by ISVs for CSP Partners | The CSP Partner Private Offer Purchase Process | . Configuring and Publishing Offers . | Publishing a SaaS Offer | Publishing a Private SaaS Plan | Migrating Listings to SaaS Offers | Configuring a Virtual Machine Offer in Partner Center – Demo | Partner Center with Azure Managed Applications Overview | Configuring Partner Center for Azure Managed Applications - Demo | . ",
+    "url": "http://localhost:4000/partner-center/",
+    "relUrl": "/partner-center/"
+  },"60": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Hands-on labs",
+    "content": "These hand on labs build on top of one another, so progress through them in order to get a fully functional Azure Managed Application published and working for a test environment. Prerequisites . | Azure subscription that can create resources | A Partner Center Account | VS Code or other text editor | . Getting started . Clone this repository to your local machine. You will need some artifacts from the lab folders to complete the labs. Labs . | Lab 1 - Publishing an Azure Managed Application Offer in Partner Center | Lab 2 - The Managed Application Deployment Package | Lab 3 - Purchasing an Azure Managed Application | Lab 4 - Administering Your Purchased Managed Applications | Lab 5 - Administering Your Customer’s Managed Applications | . ",
+    "url": "http://localhost:4000/ama/#hands-on-labs",
+    "relUrl": "/ama/#hands-on-labs"
+  },"61": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Course Introduction",
+    "content": "Video . This module sets the stage for all the others that follow by providing a quick introduction to the course. See what the course will offer in various modules. ",
+    "url": "http://localhost:4000/ama/#course-introduction",
+    "relUrl": "/ama/#course-introduction"
+  },"62": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Managed Applications Overview",
+    "content": "Video . Solution Template offers and Azure Managed Application offers are very similar, but there is an important difference. Learn about the two types of managed applications in this module detailing the differences. ",
+    "url": "http://localhost:4000/ama/#managed-applications-overview",
+    "relUrl": "/ama/#managed-applications-overview"
+  },"63": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Azure Managed Applications Overview",
+    "content": "Video . Azure Managed Applications are the transactable Managed App offer type. Get a walkthrough of Azure Managed Applications including their general architecture and usage. ",
+    "url": "http://localhost:4000/ama/#azure-managed-applications-overview",
+    "relUrl": "/ama/#azure-managed-applications-overview"
+  },"64": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Partner Center with Azure Managed Applications Overview",
+    "content": "Video . Partner Center is the portal publishers use to create, configure, publish, and monitor their offers in the Microsoft Marketplace. This overview takes you through Partner Center for Azure Managed Applications. ",
+    "url": "http://localhost:4000/ama/#partner-center-with-azure-managed-applications-overview",
+    "relUrl": "/ama/#partner-center-with-azure-managed-applications-overview"
+  },"65": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Configuring Partner Center for Azure Managed Applications - Demo",
+    "content": "Video . Understanding Partner Center, the publisher’s portal, is key to creating great offers. This demo walks through setting up a Partner Center offer for an Azure Managed Application. ",
+    "url": "http://localhost:4000/ama/#configuring-partner-center-for-azure-managed-applications---demo",
+    "relUrl": "/ama/#configuring-partner-center-for-azure-managed-applications---demo"
   },"66": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Azure Managed Application Deployment Package Overview",
+    "content": "Video . The deployment package for Azure Managed Applications is the definition of the application itself. Learn about its components and their role in this quick overview. ",
+    "url": "http://localhost:4000/ama/#azure-managed-application-deployment-package-overview",
+    "relUrl": "/ama/#azure-managed-application-deployment-package-overview"
+  },"67": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Working with a Azure Managed Application Deployment Package - Demo",
+    "content": "Video . This demo walks through working with Azure Managed Application deployment packages. Learn about the usage and components of the ARM template, mainTemplate.json, and how to work with createUiDefinition.json to create great install experiences. ",
+    "url": "http://localhost:4000/ama/#working-with-a-azure-managed-application-deployment-package---demo",
+    "relUrl": "/ama/#working-with-a-azure-managed-application-deployment-package---demo"
+  },"68": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Integrating Virtual Machine Offers into Azure Managed Applications",
+    "content": "Video . Deploying a custom virtual machine is a common need when working with Managed Apps. Get an overview of how to integrate a custom Virtual Machine offer into an Azure Managed Application deployment package. ",
+    "url": "http://localhost:4000/ama/#integrating-virtual-machine-offers-into-azure-managed-applications",
+    "relUrl": "/ama/#integrating-virtual-machine-offers-into-azure-managed-applications"
+  },"69": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Purchasing an Azure Managed Application – Demo",
+    "content": "Video . See the purchasing process of an Azure Managed Application from the customer’s point of view. This module is often helpful for customers looking to familiarize themselves with the purchase process. ",
+    "url": "http://localhost:4000/ama/#purchasing-an-azure-managed-application--demo",
+    "relUrl": "/ama/#purchasing-an-azure-managed-application--demo"
+  },"70": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Managing My Purchased Azure Managed Applications – Demo",
+    "content": "Video . Once a customer has purchased one or more Azure Managed Apps, they may need to manage those subscriptions. See the tools and techniques customers have through the Azure portal for managing their Azure Managed Application subscriptions. ",
+    "url": "http://localhost:4000/ama/#managing-my-purchased-azure-managed-applications--demo",
+    "relUrl": "/ama/#managing-my-purchased-azure-managed-applications--demo"
+  },"71": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Managing My Customer’s Azure Managed Applications Overview",
+    "content": "Video . Managing Azure Managed Application customer deployments is the responsibility of the publisher. See the tools techniques publishers use to do this easily and effectively through the Azure portal as well as getting a walkthrough of how to use them. ",
+    "url": "http://localhost:4000/ama/#managing-my-customers-azure-managed-applications-overview",
+    "relUrl": "/ama/#managing-my-customers-azure-managed-applications-overview"
+  },"72": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Managing My Customer’s Azure Managed Applications – Demo",
+    "content": "Video . Once deployed, Azure Managed Applications are managed and maintained by the publisher. This module shows the Azure portal-based tools and practices publishers use to manage their customer’s environments. ",
+    "url": "http://localhost:4000/ama/#managing-my-customers-azure-managed-applications--demo",
+    "relUrl": "/ama/#managing-my-customers-azure-managed-applications--demo"
+  },"73": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Metered Billing for Azure Managed Applications Overview",
+    "content": "Video . Billing for usage-based consumption is a requirement for many Azure Managed Applications. Get a walkthrough of metered billing and an architectural overview of how it works. ",
+    "url": "http://localhost:4000/ama/#metered-billing-for-azure-managed-applications-overview",
+    "relUrl": "/ama/#metered-billing-for-azure-managed-applications-overview"
+  },"74": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Metered Billing for Azure Managed Applications – Demo",
+    "content": "Video . See metered billing in action at the REST API level. This module shows metered billing API interaction through Postman. ",
+    "url": "http://localhost:4000/ama/#metered-billing-for-azure-managed-applications--demo",
+    "relUrl": "/ama/#metered-billing-for-azure-managed-applications--demo"
+  },"75": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Advanced Deployment Scenarios for Azure Managed Applications",
+    "content": "Video . This brief module covers a few advanced scenarios for Azure Managed Application deployments including containers and IoT integration. ",
+    "url": "http://localhost:4000/ama/#advanced-deployment-scenarios-for-azure-managed-applications",
+    "relUrl": "/ama/#advanced-deployment-scenarios-for-azure-managed-applications"
+  },"76": {
+    "doc": "Mastering Azure Managed Application Offers",
+    "title": "Mastering Azure Managed Application Offers",
+    "content": "Let us know what you need in this content library. Get your hands dirty with the hands-on labs. The slides for this course, which are used in the following modules, are here. | Course Introduction | Managed Applications Overview | Azure Managed Applications Overview | Partner Center with Azure Managed Applications Overview | Configuring Partner Center for Azure Managed Applications - Demo | Azure Managed Application Deployment Package Overview | Working with a Azure Managed Application Deployment Package - Demo | Integrating Virtual Machine Offers into Azure Managed Applications | Purchasing an Azure Managed Application – Demo | Managing My Purchased Azure Managed Applications – Demo | Managing My Customer’s Azure Managed Applications Overview | Managing My Customer’s Azure Managed Applications – Demo | Metered Billing for Azure Managed Applications Overview | Metered Billing for Azure Managed Applications – Demo | Advanced Deployment Scenarios for Azure Managed Applications | . ",
+    "url": "http://localhost:4000/ama/",
+    "relUrl": "/ama/"
+  },"77": {
     "doc": "Mastering the Marketplace",
     "title": "Mastering the Marketplace",
     "content": " ",
