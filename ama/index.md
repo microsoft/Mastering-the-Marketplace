@@ -14,7 +14,7 @@ micro_nav: false
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
-This course is taken from a live virtual training, complete with [hands-on labs](#hands-on-labs). The slides for this course, which are used in the following modules, [are here](./pdfs/ama-workshop-slides.pdf).
+Get your hands dirty with the [hands-on labs](#hands-on-labs). The slides for this course, which are used in the following modules, [are here](./pdfs/ama-workshop-slides.pdf).
 
 <!-- no toc -->
 1. [Course Introduction](#course-introduction)
