@@ -47,11 +47,11 @@ Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) 
 
 ### Labs
 
-1. Partner Center Setup
-2. VM Creation
-3. Generalize and Capture Image
-4. Publish the Offer
-5. Purchase your Offer
+1. [Partner Center Setup](./Labs/lab1-partner-center-setup/index.md)
+2. [VM Creation](./Labs/lab2-vm-creation/index.md)
+3. [Generalize and Capture Image](Labs/lab3-generalize-and-capture-image/index.md)
+4. [Publish the Offer](./Labs/lab4-publish-your-vm-offer/index.md)
+5. [Purchase your Offer](Labs/lab5-purchase-your-offer/index.md)
 
 ---
 
