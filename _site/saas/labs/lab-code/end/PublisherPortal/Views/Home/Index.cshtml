@@ -1,0 +1,30 @@
+﻿@model PublisherPortal.ViewModels.Home.IndexViewModel
+@{
+    ViewData["Title"] = "Subscriptions Management";
+}
+
+@if (ViewBag.Message != null)
+{
+    <h2>@ViewBag.Message</h2>
+}
+else
+{
+    <div class="main-content">
+
+        <h2>Manage All Subscriptions</h2>
+
+        <table class="main-table table-striped">
+            <thead><tr><th>Subscription Name</th><th>Offer ID</th><th>Status</th></tr></thead>
+            <tbody>
+            @foreach (var subscription in Model.Subscriptions)
+            {
+                <tr>
+                    <td class="main-td">@Html.ActionLink(@subscription.Name, "Subscription", new { id = @subscription.Id })</td>
+                    <td class="main-td">@subscription.OfferId</td>
+                    <td>@subscription.SaasSubscriptionStatus.Value</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+}

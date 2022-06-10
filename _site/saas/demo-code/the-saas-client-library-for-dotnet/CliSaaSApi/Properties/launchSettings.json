@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "environmentVariables": {},
+      "distributionName": ""
+    },
+    "CliSaaSToken": {
+      "commandName": "Project",
+      "commandLineArgs": "e6c97eb2-054c-4b5d-9a30-a064766a9e83 30e1c960-6dda-46c7-86a8-00cc41ddc3f1 vti7Q~oNcgPZPAB94gbLxGYPvKXSZGOILi7oK 1f070b4b-8319-410c-de1c-8b6b939ba107"
+    }
+  }
+}

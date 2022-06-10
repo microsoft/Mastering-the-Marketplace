@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<title>Lab 2.a - Create a Windows Virtual Machine</title>
+
+	<meta name="description" content="This lab will walk you through creating a Windows based Virtual Machine on the Azure Portal.">
+
+
+	<meta name="keywords" content="Azure Marketplace Virtual Machine">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i|Noto+Sans:400,400i,700,700i|Source+Code+Pro&amp;subset=latin-ext">
+<link rel="stylesheet" href="/doks-theme/assets/css/just-the-docs-default.css"> 
+<link rel="stylesheet" href="/doks-theme/assets/css/style.css">
+		<div class="search">
+			<div class="search-input-wrap">
+				<input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search " aria-label="Search " autocomplete="off">
+				<label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+			</div>
+			<div id="search-results" class="search-results"></div>
+		</div>
+	</head>
+	<body class="msft" data-spy="scroll" data-target=".js-scrollspy">
+		
+
+
+	<header class="site-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					
+						<a href="/" class="site-header__logo">Mastering the Marketplace</a>
+					
+					
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</header><!-- /.site-header -->
+
+
+		<div class="hero-subheader">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="align-container" data-mh>
+							<div class="align-inner">
+								
+									<h1 class="hero-subheader__title">Lab 2.a - Create a Windows Virtual Machine</h1>
+								
+								
+									<p class="hero-subheader__desc">This lab will walk you through creating a Windows based Virtual Machine on the Azure Portal.</p>
+								
+								
+							</div><!-- /.align-inner -->
+						</div><!-- /.align-container -->
+					</div><!-- /.col -->
+					
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.hero-subheader -->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="content">
+							<blockquote>
+  <p>Note: This lab is part of a series of labs for Mastering the Virtual Machine Offers Workshop. You should finish this lab as well as prior ones before moving on to the next sections.</p>
+</blockquote>
+
+<!-- no toc -->
+<ul>
+  <li><a href="#upload-post-deployment-script">Upload Post Deployment Script</a></li>
+  <li><a href="#create-a-virtual-machine">Create a Virtual Machine</a>
+    <ul>
+      <li><a href="#basics">Basics</a></li>
+      <li><a href="#disks">Disks</a></li>
+      <li><a href="#networking">Networking</a></li>
+      <li><a href="#management">Management</a></li>
+      <li><a href="#advanced">Advanced</a></li>
+      <li><a href="#review--create">Review + create</a></li>
+      <li><a href="#post-vm-creation-exercise">Post VM Creation Exercise</a></li>
+      <li><a href="#windows-update-manually">Windows Update Manually</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="upload-post-deployment-script">Upload Post Deployment Script</h2>
+
+<ol>
+  <li>Clone the repository to access files in <strong>scripts</strong> folder</li>
+  <li>Navigate to the Homepage of <a href="https://portal.azure.com/#home">Azure Portal</a></li>
+  <li>Use the Search bar to search for <strong>Storage Accounts</strong> and hit enter. Select the <strong>vmworkshopsayouruniquestring</strong> Storage account we created in the previous lab.</li>
+  <li>In the left pane, look for Data Storage and select <strong>Containers</strong></li>
+  <li>Click on <strong>+ Container</strong> to create a new container
+    <ul>
+      <li>Enter <strong>script</strong> as the new container name</li>
+      <li>Select <strong>Blob</strong> for Public access level</li>
+      <li>Click <strong>Create</strong> at the bottom of the page</li>
+    </ul>
+  </li>
+  <li>Open the new container, select <strong>Upload</strong> and upload the cloned script named <strong>custom_extension_windows.ps1</strong></li>
+  <li>If you open this script in VS Code or Notepad, you will see that it is running commands to install a web server and update the Virtual machine</li>
+</ol>
+
+<h2 id="create-a-virtual-machine">Create a Virtual Machine</h2>
+
+<ol>
+  <li>Navigate to the Homepage of <a href="https://portal.azure.com/#home">Azure Portal</a></li>
+  <li>Click on the <strong>+ Create a resource</strong> button underneath Azure services</li>
+  <li>Use the Search bar to search for <strong>Virtual Machines</strong> and hit enter. Select the Virtual Machine offered by Microsoft Azure Service and click on <strong>Create</strong></li>
+</ol>
+
+<p>At this point you will be taken to the Virtual Machine service with several blades for configuration.</p>
+
+<p><br /></p>
+
+<h3 id="basics">Basics</h3>
+
+<h4 id="project-details">Project Details</h4>
+
+<ol>
+  <li>Select the <strong>Subscription</strong> from the dropdown menu to select which subscription will pay for the VM and other resource usage</li>
+  <li>
+    <p>To create a new Resource Group, click on <strong>Create New</strong> and name your resource group as <strong>vmworkshop-rg-YOUR_UNIQUE_STRING</strong>. Please make sure to follow the same convention for ease of access and understanding.</p>
+
+    <blockquote>
+      <p>Note that all the resources we create for the labs will reside within this new resource group</p>
+    </blockquote>
+  </li>
+</ol>
+
+<h4 id="instance-details">Instance Details</h4>
+
+<ol>
+  <li>Name your Virtual Machine <strong>vmworkshop-YOUR_UNIQUE_STRING</strong></li>
+  <li>Select the Region you are in from the dropdown menu</li>
+  <li>Under Availability options, select <strong>No infrastructure redundancy required</strong></li>
+  <li>Select <strong>Standard</strong> Security type</li>
+  <li>For Image, click on See all images and select <strong>Windows Server 2019 Datacenter - Gen1</strong>. Configure the generation from the Configure VM Generation link below if necessary.</li>
+  <li>For size, click on See all sizes and select <strong>Standard_B2ms</strong>. This is sufficient to run this lab and will cost around $60/month, but regardless we will stop this virtual machine as soon as we generalize and capture the VM, so usage should be very low.</li>
+</ol>
+
+<h4 id="administrator-account">Administrator Account</h4>
+
+<ol>
+  <li>Enter the username of your choice</li>
+  <li>Enter a strong password of your choice</li>
+  <li>Confirm the strong password</li>
+</ol>
+
+<h4 id="inbound-port-rules">Inbound Port Rules</h4>
+
+<ol>
+  <li>Select the <strong>Allowed selected ports</strong> radio button for Public inbound ports</li>
+  <li>For Select Inbound ports Select <strong>HTTP, RDP</strong> as well as <strong>HTTPS</strong></li>
+  <li>Leave the rest as is and Click <strong>Next : Disks &gt;</strong></li>
+</ol>
+
+<p><br /></p>
+
+<h3 id="disks">Disks</h3>
+
+<h4 id="disk-options">Disk Options</h4>
+
+<ol>
+  <li>For OS Disk Type, select <strong>Standard HDD (locally-redundant storage</strong></li>
+</ol>
+
+<p>Leave the rest of the fields as is on the page and click on <strong>Next : Networking &gt;</strong></p>
+
+<p><br /></p>
+
+<h3 id="networking">Networking</h3>
+
+<h4 id="network-interface">Network interface</h4>
+
+<ol>
+  <li>For <strong>Virtual network, Subnet, Public IP</strong> keep the default values as is. This will create a new VM, Subnet and Public IP with the default variable names</li>
+  <li>Ensure Select inbound ports has <strong>HTTP, RDP</strong> and <strong>HTTPS</strong> checked</li>
+</ol>
+
+<p>Leave the rest as is and click on <strong>Next : Management &gt;</strong></p>
+
+<p><br /></p>
+
+<h3 id="management">Management</h3>
+
+<p>Do not change anything in this section and simply click on <strong>Next : Advanced &gt;</strong></p>
+
+<p><br /></p>
+
+<h3 id="advanced">Advanced</h3>
+
+<h4 id="extensions">Extensions</h4>
+
+<ol>
+  <li>Click on Select an extension to install</li>
+  <li>From the display card, select <strong>Custom Script Extension</strong> and click on <strong>Next</strong></li>
+  <li>For Script file, browse for the <strong>vmworkshopsayouruniquestring</strong> storage account, select <strong>script</strong> and look for the <strong>custom_extension_windows.ps1</strong> Block blob and select it. Lastly click <strong>Select</strong> at the bottom of the page. [If you dont see storage account, please make sure it is in the same region as the VM which is being created]</li>
+  <li>
+    <p>Now click <strong>Create</strong> under the Configure Custom Script Extension blade</p>
+  </li>
+  <li>Select <strong>Review + create</strong> button at the bottom of the Advanced blade</li>
+</ol>
+
+<p><br /></p>
+
+<h3 id="review--create">Review + create</h3>
+
+<ol>
+  <li>In this blade, you should ensure that you receive the <strong>Validation Passed</strong> message at the top. If for any reason you receive a <strong>Validation failed</strong> message, you should go back and review the fields in red.</li>
+  <li>Lastly take a look at the configurations you have selected and click <strong>Create</strong></li>
+</ol>
+
+<p><br /></p>
+
+<h3 id="post-vm-creation-exercise">Post VM Creation Exercise</h3>
+
+<ol>
+  <li>At this point your deployment will start and show an <strong>in progress</strong> status.</li>
+  <li>Once the deployment is complete, select <strong>Go to resource</strong></li>
+  <li>Copy <strong>Public IP Address</strong> from the created VM and paste it into a browser of your choice. This will show a public facing IP on the internet with a custom Welcome screen.</li>
+  <li>Once you see the custom welcome screen, you know that the post deployment script has done its job.</li>
+</ol>
+
+<p><br /></p>
+
+<h3 id="windows-update-manually">Windows Update Manually</h3>
+
+<p>In this module, we will remote into the vm and install an update manually.</p>
+<ol>
+  <li>On your <a href="htps://portal.azure.com/#home">Azure Portal</a>, navigate to the VM you just created. Click on <strong>Connect</strong> from the tabs on the left under Settings.</li>
+  <li>In the RDP blade, select <strong>Download RDP file</strong>. This will download a copy to your local machine. Double-click the downloaded RDP file.</li>
+  <li>It will open a popup asking if you recognize the publisher. Click on <strong>Connect</strong>.</li>
+  <li>When asked for credentials, make sure to input the username and password you created for the VM.</li>
+  <li>Accept the certificate and click <strong>Yes</strong> when prompted.</li>
+  <li>Voila! You are now inside the VM.</li>
+  <li>
+    <p>Once the system is setup, search for <strong>Check for Updates</strong> in the VM and install all available updates</p>
+
+    <blockquote>
+      <p>Note: Update all the shown updates before going further. Failure to do so will render your publish process on Partner center with errors</p>
+    </blockquote>
+  </li>
+</ol>
+
+<p><br /></p>
+
+<p><strong>Congratulations!</strong> You have now finished this lab.</p>
+
+<p>If you are in a live class setting, please raise your hand (even if virtually) to indicate you are done with the lab.</p>
+
+						</div><!-- /.content -->
+					</div><!-- /.col -->
+					<div class="col-md-4 col-md-offset-1">
+						<div class="sections-list-wrapper">
+							<div class="sections-list js-sections js-affix js-scrollspy hidden-xs hidden-sm"></div><!-- /.sections-list -->
+						</div>
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.section -->
+		
+		<div class="js-footer-area">
+			
+			
+			
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					
+					
+						<hr>
+						<p class="site-footer__copyright">Copyright &copy; 2022. - Microsoft, Inc. <br>All rights reserved.</p>
+					
+				</div><!-- /.col -->
+				<div class="col-sm-6 align-right">
+					<img alt="Microsoft Azure logo." src="/doks-theme/assets/images/layout/logo-footer.png" class="site-footer__logoimage">
+				</div><!-- /.col -->
+				
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</footer><!-- /.site-footer -->
+
+
+<script src="/doks-theme/assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/affix.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/scrollspy.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/matchHeight.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/scripts.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/lunr.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/just-the-docs.js"></script>
+
+
+
+		</div><!-- /.js-footer-area -->
+	</body>
+</html>

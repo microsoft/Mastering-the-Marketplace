@@ -1,0 +1,40 @@
+/* ----- Hero subheader ----- */
+.msft {
+	.hero-subheader {
+		background-color: #fff;
+	}
+}
+
+/* ----- Nav grid ----- */
+.msft {
+	.nav-grid__item {
+		background-color: #fff;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background-color: #fff;
+		}
+	}
+}
+
+/* ----- Section ----- */
+.msft {
+	.section--darker-theme-color-bg {
+		background-color: darken($color-theme-msft, 3%);
+	}
+}
+
+/* ----- Page nav ----- */
+.msft {
+	.page-nav {
+		background-color: $color-theme-msft;
+	}
+}
+
+/* ----- Error 404 ----- */
+.msft {
+	&.error-404 {
+		background-color: $color-theme-msft;
+	}
+}

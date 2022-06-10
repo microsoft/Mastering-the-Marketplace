@@ -1,0 +1,83 @@
+﻿@using Microsoft.Marketplace.SaaS.Models
+@model PublisherPortal.ViewModels.Shared.SubscriptionViewModel
+@{
+    ViewData["Title"] = "Subscription Management";
+}
+
+@if (ViewBag.Message != null)
+{
+    <h2>@ViewBag.Message</h2>
+}
+else
+{
+    <div class="main-content">
+
+        <h2>Manage Subscription</h2>
+
+        @Html.ActionLink("Back to all subscriptions", "Index")
+
+        <div>
+
+            <h3>Subscription</h3>
+
+            @await Html.PartialAsync("_Subscription", Model.Subscription)
+        </div>
+        
+        <h3>Plans</h3>
+
+        <table class="main-table">
+            <tbody>
+            @foreach (var plan in Model.Plans)
+            {
+                if ((bool)!plan.IsStopSell)
+                {
+                    bool isCurrentPlan = @plan.PlanId == Model.Subscription.PlanId;
+                    <tr>
+                        <td colspan="2">
+                            <b>@plan.DisplayName</b>
+
+                            @if (@plan.PlanId == Model.Subscription.PlanId)
+                            {
+                                <span>- Current plan</span>
+                            }
+                        </td>
+                    </tr>
+                    <tr><td class="main-td">PlanId</td><td>@plan.PlanId</td></tr>
+                    <tr><td class="main-td">DisplayName</td><td>@Html.Raw(plan.DisplayName)</td></tr>
+                    <tr><td class="main-td">Description</td><td>@Html.Raw(plan.Description)</td></tr>
+                    
+                }
+            }
+            </tbody>
+        </table>
+
+        <h3>Publisher Actions</h3>
+
+        @if (Model.Subscription.SaasSubscriptionStatus != SubscriptionStatusEnum.PendingFulfillmentStart && 
+             Model.Subscription.SaasSubscriptionStatus != SubscriptionStatusEnum.Subscribed)
+        {
+            <p>
+                The publisher can take no action with the subscription when state is: @Model.Subscription.SaasSubscriptionStatus.Value
+            </p>
+        }
+        else
+        {
+            <ul style="text-align: left;">
+                @if (Model.Subscription.SaasSubscriptionStatus == SubscriptionStatusEnum.PendingFulfillmentStart)
+                {
+                    var routeValues = new { id = Model.Subscription.Id, planId = Model.Subscription.PlanId };
+
+                    <li>@Html.ActionLink("Activate this subscription", "Activate", routeValues)</li>
+                }
+
+                @if (Model.Subscription.SaasSubscriptionStatus == SubscriptionStatusEnum.Subscribed)
+                {
+                    <li>
+                        @Html.ActionLink("Delete (Unsubscribe) this subscription", "Delete", new { id = Model.Subscription.Id })
+                    </li>
+                }
+            </ul>
+        }
+
+    </div>
+}

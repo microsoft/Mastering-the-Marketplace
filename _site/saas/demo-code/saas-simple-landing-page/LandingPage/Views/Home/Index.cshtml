@@ -1,0 +1,62 @@
+﻿@model LandingPage.ViewModels.Home.IndexViewModel
+@{
+    ViewData["Title"] = "Contoso Offer Landing Page";
+}
+
+@if (ViewBag.Message != null)
+{
+
+    <h2>@ViewBag.Message</h2>
+}
+else
+{
+    <div class="main-content">
+
+        <h3>Thank you for your subscription</h3>
+
+
+        <p>Please verify the following information is correct before submitting your subscription for activation by Contoso, Inc.</p>
+
+        <table class="main-table">
+            <tbody>
+                <tr><td class="main-td">Current user</td><td>@Model.DisplayName</td></tr>
+                <tr><td class="main-td">Email</td><td>@Model.Email</td></tr>
+                <tr><td class="main-td">Subscription name</td><td>@Model.SubscriptionName</td></tr>
+                <tr><td class="main-td">Plan name</td><td>@Model.PlanName</td></tr>
+                <tr><td class="main-td">Subscription State</td><td>@Model.FulfillmentStatus</td></tr>
+                <tr><td class="main-td">Tenant ID</td><td>@Model.TenantId</td></tr>
+            </tbody>
+        </table>
+
+
+        <h3>Available Customer Actions</h3>
+
+        <div style="text-align: left">
+            <ul>
+                @if (Model.FulfillmentStatus == Microsoft.Marketplace.SaaS.Models.SubscriptionStatusEnum.PendingFulfillmentStart)
+                {
+                    <li>
+                        @Html.ActionLink("Notify pubisher to activate account", "Index", "Submit")
+                    </li>
+                }
+                
+                @if (Model.FulfillmentStatus == Microsoft.Marketplace.SaaS.Models.SubscriptionStatusEnum.Subscribed)
+                {
+                    <li>
+                        @Html.ActionLink("Unsubscribe", "Index", "Unsubscribe", new { id = Model.SubscriptionId })
+                    </li>
+                }
+            </ul>
+        </div>
+
+        <hr/>
+        
+        <h3>Extra Functionality for Publishers</h3>
+
+        <p>
+            @Html.ActionLink("This text", "Details", new { token = Model.PurchaseIdToken }) would
+            not normally be seen on a Landing page. It is for demonstration purposes only.
+        </p>
+
+    </div>
+}
