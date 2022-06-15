@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0">
+<title>Lab 3.b - Generalize and capture a Linux Image</title>
+
+	<meta name="description" content="This lab will walk you through steps to generalize and capture an image from the VM you created in the previous lab.">
+
+
+	<meta name="keywords" content="Azure Marketplace Virtual Machine">
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i|Noto+Sans:400,400i,700,700i|Source+Code+Pro&amp;subset=latin-ext">
+<link rel="stylesheet" href="/doks-theme/assets/css/just-the-docs-default.css"> 
+<link rel="stylesheet" href="/doks-theme/assets/css/style.css">
+		<div class="search">
+			<div class="search-input-wrap">
+				<input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search " aria-label="Search " autocomplete="off">
+				<label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+			</div>
+			<div id="search-results" class="search-results"></div>
+		</div>
+	</head>
+	<body class="msft" data-spy="scroll" data-target=".js-scrollspy">
+		
+
+
+	<header class="site-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					
+						<a href="/" class="site-header__logo">Mastering the Marketplace</a>
+					
+					
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</header><!-- /.site-header -->
+
+
+		<div class="hero-subheader">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="align-container" data-mh>
+							<div class="align-inner">
+								
+									<h1 class="hero-subheader__title">Lab 3.b - Generalize and capture a Linux Image</h1>
+								
+								
+									<p class="hero-subheader__desc">This lab will walk you through steps to generalize and capture an image from the VM you created in the previous lab.</p>
+								
+								
+							</div><!-- /.align-inner -->
+						</div><!-- /.align-container -->
+					</div><!-- /.col -->
+					
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.hero-subheader -->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<div class="content">
+							<blockquote>
+  <p>Note: This lab is part of a series of labs for Mastering the Virtual Machine Offers Workshop. You should finish this lab as well as prior ones before moving on to the next sections.</p>
+</blockquote>
+
+<!-- no toc -->
+<ul>
+  <li><a href="#generalize-and-capture">Generalize and Capture</a>
+    <ul>
+      <li><a href="#ssh-into-the-virtual-machine">SSH into the Virtual Machine</a></li>
+      <li><a href="#generalize-the-vm">Generalize the VM</a></li>
+      <li><a href="#stop-virtual-machine">Stop Virtual Machine</a></li>
+    </ul>
+  </li>
+  <li><a href="#capture-the-image">Capture the Image</a>
+    <ul>
+      <li><a href="#create-an-image">Create an Image</a></li>
+    </ul>
+  </li>
+  <li><a href="#post-image-creation-exercise">Post Image Creation Exercise</a></li>
+</ul>
+
+<h2 id="generalize-and-capture">Generalize and Capture</h2>
+
+<p>In this module, we will ssh into the vm and generalize the Virtual machine</p>
+
+<h3 id="ssh-into-the-virtual-machine">SSH into the Virtual Machine</h3>
+
+<ol>
+  <li>On your <a href="htps://portal.azure.com/#home">Azure Portal</a>, navigate to the VM you just created. Click on <strong>Connect</strong> from the tabs on the left under Settings.</li>
+  <li>In the SSH blade, paste the local path where the downloaded private key resides into the Private key path textbox. This will generate the command to ssh into the VM below. Copy this command.</li>
+  <li>Example: when you paste <strong>[C:\Users\CurrentUser\Downloads\vm_key.pem]</strong> into textbox 3, command <strong>ssh -i [C:\Users\CurrentUser\Downloads\vm_key.pem] [user]@[ip]</strong> will be generated at textbox 4.</li>
+  <li>Open command prompt locally and paste this copied command and press enter. Type in yes when prompted to authenticate the host.</li>
+</ol>
+
+<h3 id="generalize-the-vm">Generalize the VM</h3>
+
+<ol>
+  <li>In the SSH window, enter this command <strong>sudo waagent -deprovision+user</strong></li>
+  <li>Type Y to continue (you can add the -force parameter to the previous command to avoid the confirmation step).</li>
+  <li>After the command completes, enter Exit to close the SSH client.</li>
+</ol>
+
+<h3 id="stop-virtual-machine">Stop Virtual Machine</h3>
+
+<ol>
+  <li>
+    <p>In the Azure portal, navigate to your VM in your resource group (RG) and de-allocate the VM (Stop).</p>
+
+    <p>Your VM is now generalized and you can create a new VM using this VM disk.</p>
+  </li>
+</ol>
+
+<p><br /></p>
+
+<h2 id="capture-the-image">Capture the Image</h2>
+
+<p>In this module, we will capture an image from the Generalized VM and store it in a Compute Gallery. We will also define Image definitions within the Compute Gallery for organization.</p>
+
+<ol>
+  <li>Navigate to the VM on <a href="https://portal.azure.com">Azure Portal</a>. You will see that the VM has been stopped under VM Status</li>
+  <li>Click on <strong>Capture</strong> from the options available on top</li>
+</ol>
+
+<h3 id="create-an-image">Create an Image</h3>
+
+<ol>
+  <li>Select a subscription from the dropdown menu</li>
+  <li>For Resource Group, select the same resource group we created earlier <strong>vmworkshop-rg-YOUR_UNIQUE_STRING</strong>.</li>
+  <li>Under Instance details, select the <strong>Yes, share it to a gallery as a VM image version</strong> radio button</li>
+  <li>Under Gallery Details, select <strong>Create new</strong> and give it a name</li>
+  <li>For Operating system state, select the <strong>Generalized</strong> radio button</li>
+  <li>Click the <strong>Create new</strong> for <strong>Target VM image definition</strong> and give your definition a name and click <strong>OK</strong></li>
+  <li>Give your image a version name of <strong>0.0.1</strong></li>
+  <li>Lastly click <strong>Review + Create</strong> at the bottom. Once validation has passed, click <strong>Create</strong>.</li>
+</ol>
+
+<p><br /></p>
+
+<h2 id="post-image-creation-exercise">Post Image Creation Exercise</h2>
+
+<p>In this exercise we will verify that the image is created and ready to be used.</p>
+<ol>
+  <li>In your <a href="https://portal.azure.com">Azure Portal</a>, search for <strong>Compute Gallery</strong> using the search bar and select your new Compute Gallery</li>
+  <li>Click on the definition you created</li>
+  <li>You should now see the version number of the image created as well as verify the Provisioning State is <strong>Succeeded</strong> and Replication Status is <strong>Completed</strong>.</li>
+</ol>
+
+<p><br /></p>
+
+<p><strong>Congratulations!</strong> You have now finished this lab.</p>
+
+<p>If you are in a live class setting, please raise your hand (even if virtually) to indicate you are done with the lab.</p>
+
+						</div><!-- /.content -->
+					</div><!-- /.col -->
+					<div class="col-md-4 col-md-offset-1">
+						<div class="sections-list-wrapper">
+							<div class="sections-list js-sections js-affix js-scrollspy hidden-xs hidden-sm"></div><!-- /.sections-list -->
+						</div>
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div><!-- /.section -->
+		
+		<div class="js-footer-area">
+			
+			
+			
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					
+					
+						<hr>
+						<p class="site-footer__copyright">Copyright &copy; 2022. - Microsoft, Inc. <br>All rights reserved.</p>
+					
+				</div><!-- /.col -->
+				<div class="col-sm-6 align-right">
+					<img alt="Microsoft Azure logo." src="/doks-theme/assets/images/layout/logo-footer.png" class="site-footer__logoimage">
+				</div><!-- /.col -->
+				
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</footer><!-- /.site-footer -->
+
+
+<script src="/doks-theme/assets/js/vendor/jquery.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/affix.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/bootstrap/scrollspy.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/matchHeight.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/scripts.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/vendor/lunr.min.js"></script>
+<script type="text/javascript" src="/doks-theme/assets/js/just-the-docs.js"></script>
+
+
+
+		</div><!-- /.js-footer-area -->
+	</body>
+</html>

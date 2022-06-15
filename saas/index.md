@@ -14,7 +14,7 @@ micro_nav: false
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
-## Video
+Get your hands dirty with the [hands-on labs](#hands-on-labs).
 
 ### General SaaS Knowledge
 
@@ -42,7 +42,9 @@ micro_nav: false
 
 ## Hands-on labs
 
-These hand on labs build on top of one another, so progress through them in order to get a fully functional SaaS Offer published and working for a test environment.
+The following hands-on labs build upon each other. Perform them in sequential order to get a fully functional SaaS Offer published and working for your test environment.
+
+Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
 
 ### Prerequisites
 
@@ -50,11 +52,7 @@ These hand on labs build on top of one another, so progress through them in orde
 1. A Partner Center Account
 1. Visual Studio 2022, any version
 
-### Getting started
-
-Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
-
-### Hands-on labs
+### Labs
 
 1. [Creating a SaaS Offer in Partner Center](./labs/lab1-create-pc-offer/README.md)
 1. [Creating a Landing Page](./labs/lab2-create-landing-page/README.md)
@@ -64,9 +62,7 @@ Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) 
 
 ---
 
-## Module details
-
-### SaaS Offer Overview
+## SaaS Offer Overview
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196417">Video</a> | <a target="_blank" href="./pdfs/01-SaaS-Offer-Overview.pdf">PDF</a>
 
@@ -77,7 +73,7 @@ This module offers a technical overview of Microsoft Azure Marketplace SaaS Offe
 - ​Pricing Models for SaaS Offers​
 - SaaS Solution Architectures
 
-### Purchasing a SaaS Offer
+## Purchasing a SaaS Offer
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196322">Video</a> | <a target="_blank" href="./pdfs/02.1-Purchasing-a-SaaS-Offer.pdf">PDF</a>
 
@@ -88,7 +84,7 @@ This video offers a guided step-by-step process to purchasing SaaS applications 
 - Subscribing From the Azure Portal
 - The SaaS Management Service
 
-### Purchasing a Private SaaS Plan
+## Purchasing a Private SaaS Plan
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196255">Video</a> | <a target="_blank" href="./pdfs/02.2-Purchasing-a-Private-SaaS-Plan.pdf">PDF</a>
 
@@ -97,19 +93,19 @@ This video shows how to subscribe to private SaaS plans in the Microsoft Azure M
 - About Private Plans
 - Purchasing a SaaS Private Offer demo
 
-### Publishing a SaaS Offer
+## Publishing a SaaS Offer
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196318">Video</a> | <a target="_blank" href="./pdfs/03.1-Publishing-a-SaaS-Offer.pdf">PDF</a>
 
 This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook.
 
-### Publishing a Private SaaS Plan
+## Publishing a Private SaaS Plan
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196256">Video</a> | <a target="_blank" href="./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf">PDF</a>
 
 This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
 
-### SaaS Offer Technical Overview
+## SaaS Offer Technical Overview
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196315">Video</a> | <a target="_blank" href="./pdfs/04-SaaS-Offer-Technical-Overview.pdf">PDF</a>
 
@@ -121,7 +117,7 @@ Watch a deep technical overview of how SaaS offers work in the Microsoft Azure M
 - Metered Fulfillment Overview​
 - SaaS Offer Webhook
 
-### Azure AD Application Registrations
+## Azure AD Application Registrations
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196262">Video</a> | <a target="_blank" href="./pdfs/05-Azure-AD-Application-Registrations.pdf">PDF</a>
 
@@ -133,7 +129,7 @@ This video should help you get a jump start on configuring application registrat
 
 This module introduces just enough on this topic to help us build our landing page and webhooks later in the course. For those interested in more reading, please see [Create and Azure AD app registration](https://docs.microsoft.com/azure/marketplace/azure-ad-transactable-saas-landing-page#create-an-azure-ad-app-registration) and [Quick start: Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) from the official Microsoft documentation.
 
-### Using the SaaS Offer REST Fulfillment API
+## Using the SaaS Offer REST Fulfillment API
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196320">Video</a> | <a target="_blank" href="./pdfs/06-Using-the-SaaS-Offer-Fulfillment-API.pdf">PDF</a>
 
@@ -148,7 +144,7 @@ An Application Registration is used in the examples when making the first reques
 1. The [Tenant ID and App ID](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#get-tenant-and-app-id-values-for-signing-in)
 1. A [Client Secret](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#option-2-create-a-new-application-secret) on the Application Registration
 
-### The SaaS Client Library for .NET
+## The SaaS Client Library for .NET
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196324">Video</a> | <a target="_blank" href="./pdfs/07-The-SaaS-Client-Library-for-.NET.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/the-saas-client-library-for-dotnet">Code</a>
 
@@ -158,7 +154,7 @@ The client library is a fully functional .NET package that you can [install from
 
 This video shows a sample command line application that can talk to the client library API and the code is available in this repository via the link above.
 
-### Building a Simple SaaS Landing Page in .NET
+## Building a Simple SaaS Landing Page in .NET
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196323">Video</a> | <a target="_blank" href="./pdfs/08-simple-landing-page-dotnet.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/saas-simple-landing-page">Code</a>
 
@@ -171,7 +167,7 @@ In this module we examine the elements of building a simple landing page and loo
 
 The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it simple. We use the [SaaS Client Library for .NET](#the-saas-client-library-for-net) to build out our landing page functionality.
 
-### Building a Simple SaaS Publisher Portal in .NET
+## Building a Simple SaaS Publisher Portal in .NET
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196257">Video</a> | <a target="_blank" href="./pdfs/09-simple-publisher-portal-dotnet.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/saas-simple-publisher-portal">Code</a>
 
@@ -183,7 +179,7 @@ In this module we examine the elements of building a publisher portal and at how
 
 The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it simple. We use the [SaaS Client Library for .NET](#the-saas-client-library-for-net) to build out our portal functionality.
 
-### SaaS Webhook Overview
+## SaaS Webhook Overview
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196258">Video</a> | <a target="_blank" href="./pdfs/10.1-simple-webhook-overview.pdf">PDF</a>
 
@@ -196,13 +192,13 @@ This technical overview of the SaaS webhook explains the following concepts of t
 
 And more! Consider watching this video before moving on to the code-based modules for implementing and securing a SaaS offer webhook.
 
-### Implementing a Simple SaaS Webhook in .NET
+## Implementing a Simple SaaS Webhook in .NET
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196159">Video</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/simple-webhook-dotnet-implementing">Code</a>
 
 This code-heavy module focuses on the fundamentals of implementing a SaaS offer webhook as an Azure function using .NET. Concepts are presented in such a way as to be architecture and technology stack agnostic.
 
-### Securing a Simple SaaS Webhook in .NET
+## Securing a Simple SaaS Webhook in .NET
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196421">Video</a> | <a target="_blank" href="./pdfs/10.3-simple-webhook-dotnet-securing.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/simple-webhook-dotnet-securing">Code</a>
 
@@ -210,7 +206,7 @@ This security-focused module introduces several techniques for securing a SaaS o
 
 Although utilizing an Azure function built in .NET, topics are presented in such a way as to be architecture and technology stack agnostic.
 
-### SaaS Metered Billing Overview
+## SaaS Metered Billing Overview
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196314">Video</a> | <a target="_blank" href="./pdfs/11.1-saas-metered-billing-overview.pdf">PDF</a>
 
@@ -220,7 +216,7 @@ This module presents the fundamentals of billing through the marketplace based o
 1. The flow of API operations needed to use the SaaS billing API
 1. Resources to save you time in building your SaaS application
 
-### The SaaS Metered Billing API with REST
+## The SaaS Metered Billing API with REST
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196418">Video</a>
 

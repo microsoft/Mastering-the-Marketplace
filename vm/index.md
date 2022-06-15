@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Mastering Virtual Machine Offers
-description: These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Azure Marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
+description: The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
 
 # Micro navigation
 micro_nav: false
@@ -14,64 +14,121 @@ micro_nav: false
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
-## Introduction
+Get your hands dirty with the [hands-on labs](#hands-on-labs).
 
-These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Azure Marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
-
-## Modules
+Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon are the creators of this course.
 
 <!-- no toc -->
-1. [Getting Started](#getting-started)
-2. [Overview of a Virtual Machine Offer](#overview-of-a-virtual-machine-offer)
-3. [Creating a Virtual Machine – Demo](#creating-a-virtual-machine--demo)
-4. [Generalizing a Windows Virtual Machine – Demo](#generalizing-a-windows-virtual-machine--demo)
-5. [Capturing an Image into an Azure Compute Gallery – Demo](#capturing-an-image-into-an-azure-compute-gallery--demo)
-6. [Configuring a Virtual Machine Offer in Partner Center – Demo](#configuring-a-virtual-machine-offer-in-partner-center--demo)
-7. [Certifications and Exceptions](#certifications-and-exceptions)
+- [Creating Virtual Machine Offers Overview](#creating-virtual-machine-offers-overview)
+- [Partner Center Overview](#partner-center-overview)
+- [Creating an Offer in Partner Center (Demo)](#creating-an-offer-in-partner-center-demo)
+- [Creating and Customizing a Virtual Machine (Demo)](#creating-and-customizing-a-virtual-machine-demo)
+- [Generalizing and Capturing a Virtual Machine Image](#generalizing-and-capturing-a-virtual-machine-image)
+- [Generalizing and Capturing a Virtual Machine Image (Demo)](#generalizing-and-capturing-a-virtual-machine-image-demo)
+- [Publish Your Virtual Machine Offer with Partner Center (Demo)](#publish-your-virtual-machine-offer-with-partner-center-demo)
+- [Securing Your Virtual Machine](#securing-your-virtual-machine)
+- [Virtual Machine Automation with Packer Overview](#virtual-machine-automation-with-packer-overview)
+- [Virtual Machine Automation with Packer (Demo)](#virtual-machine-automation-with-packer-demo)
+- [The Virtual Machine Offer Certification Process](#the-virtual-machine-offer-certification-process)
+- [Virtual Machine Certification Test Tool (Demo)](#virtual-machine-certification-test-tool-demo)
+- [Purchasing the Virtual Machine Offer](#purchasing-the-virtual-machine-offer)
+
+## Hands-on labs
+
+The following hands-on labs build upon each other. They take you through the complete process of creating and publishing a virtual machine offer in the Microsoft commercial marketplace. 
+
+Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
+
+### Prerequisites
+
+- An Azure Subscription to create resources
+- An active Partner Center Account (Please ensure you have enrolled into the Marketplace Offers program)
+- Visual Studio Code or other text editor
+
+### Labs
+
+1. [Partner Center Setup](./Labs/lab1-partner-center-setup/index.md)
+2. [VM Creation](./Labs/lab2-vm-creation/index.md)
+3. [Generalize and Capture Image](Labs/lab3-generalize-and-capture-image/index.md)
+4. [Publish the Offer](./Labs/lab4-publish-your-vm-offer/index.md)
+5. [Purchase your Offer](Labs/lab5-purchase-your-offer/index.md)
 
 ---
 
-## Module details
+## Creating Virtual Machine Offers Overview
 
-### Getting Started
+<a href="https://go.microsoft.com/fwlink/?linkid=2197805" target="_blank">Video</a>
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2196415" target="_blank">Video</a>
+This introductory module takes you from start to finish in creating and publishing virtual machine offers in the Microsoft commercial marketplace. Get an overview of the process from beginning to end before embarking on the more technical details in later modules.
 
+## Partner Center Overview
 
-This module lays the groundwork for those to come in this course on creating virtual machine offers in the Azure marketplace. It takes you through a high-level understanding of what is required to start setting up a Virtual Machine Offer in the Azure Marketplace, starting with basic understanding all the way up to generalizing the image for reference in your Partner Center configuration.
+<a href="https://go.microsoft.com/fwlink/?linkid=2197586" target="_blank">Video</a>
 
-### Overview of a Virtual Machine Offer
+Learn about creating your offers in Partner Center, including private plans, CRM integration, and more.
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2196254" target="_blank">Video</a>
+## Creating an Offer in Partner Center (Demo)
 
-This module explores what constitutes a Virtual Machine and how they are deployed in the customer’s tenant. It also shows the billing models available for Virtual Machine offers in the Azure Marketplace as well as the step-by-step process involved in building these offers. You’ll see how to do these steps via demos in the next sections.
+<a href="https://go.microsoft.com/fwlink/?linkid=2197587" target="_blank">Video</a>
 
-### Creating a Virtual Machine – Demo
+See how to create an offer in Partner Center to include creating the offer, configuring a basic CRM integration, specifying offer properties, listing details, and resell with CSP settings. This video does not go into the specifics of creating the Virtual Machine plans for the offer, which will be seen in a later demo.
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2196313" target="_blank">Video</a>
+## Creating and Customizing a Virtual Machine (Demo)
 
-See step-by-step how to create a virtual machine in Azure. This virtual machine is used in subsequent modules to create an offer in the Azure Marketplace. We will look at considerations while creating the virtual machine, like availability zones, core sizes, base images etc.
+<a href="https://go.microsoft.com/fwlink/?linkid=2197588" target="_blank">Video</a>
 
-### Generalizing a Windows Virtual Machine – Demo
+Learn how to not only create a Virtual Machine, but how to customize it by adding scripts or applications. This is a required step in creating your Virtual Machine offer so that the Virtual Machine itself has your intellectual property installed on it.
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2196153" target="_blank">Video</a>
+## Generalizing and Capturing a Virtual Machine Image
 
-Generalizing a virtual machine is a necessary step to selling its image in the Azure Marketplace. Learn how to generalize a Windows virtual machine, preparing it for sale. You will learn steps to generalize a windows image and options to do the same with a Linux image.
+<a href="https://go.microsoft.com/fwlink/?linkid=2197589" target="_blank">Video</a>
 
-### Capturing an Image into an Azure Compute Gallery – Demo
+Learn what it means to generalize and capture a Virtual Machine so it can be made available in your offer. The examples provided in this overview pertain to both Windows and Linux machines.
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2196312" target="_blank">Video</a>
+## Generalizing and Capturing a Virtual Machine Image (Demo)
 
-See what an Azure Compute Gallery is and how it is used to structure virtual machine images within it. Understand how image definitions are used to save images and how they can be shared between users, as well as how to enable them to be shared in Partner Center for publication in the Azure Marketplace.
+<a href="https://go.microsoft.com/fwlink/?linkid=2197497" target="_blank">Video</a>
 
-### Configuring a Virtual Machine Offer in Partner Center – Demo
+See how to capture both a Linux and Windows Virtual Machine for use in your marketplace offer. This demo is done with a Linux machine, but the difference for Windows is explained along the way. Most actions taken are applicable to both machine types and this module gives you what you need to know to generalize and capture both machine types.
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2196154" target="_blank">Video</a>
+## Publish Your Virtual Machine Offer with Partner Center (Demo)
 
-Learn how to set up technical configurations for Azure Marketplace virtual machine offers within Partner Center. You’ll look at machine generations, disk versions, share image gallery vs. SAS URI, and more.
+<a href="https://go.microsoft.com/fwlink/?linkid=2197498" target="_blank">Video</a>
 
-### Certifications and Exceptions
+This demonstration takes you through creating a plan for your Virtual Machine offer, associating the correct image to the plan, and setting other configuration options on your Virtual Machine. After completing the plan configuration you get to see the offer published.
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2196416" target="_blank">Video</a>
+## Securing Your Virtual Machine
 
-In this module, learn about the certification process for Virtual Machine offers in the Azure Marketplace and how you can avoid failing the checks.
+<a href="https://go.microsoft.com/fwlink/?linkid=2197298" target="_blank">Video</a>
+
+Learn about things you can do to secure your Virtual Machine offer and the image used to create it. There are plenty of techniques you can use to harden your Virtual Machine against attackers and this video will take you through several.
+
+## Virtual Machine Automation with Packer Overview
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2197900" target="_blank">Video</a>
+
+Learn about the Packer tool that enables automating many of the tasks you’ve seen done by hand up until now. Packer gives you the power to create virtual machines, install software, create images, and more.
+
+## Virtual Machine Automation with Packer (Demo)
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2197723" target="_blank">Video</a>
+
+See how the Packer tool gives you the power to automate many of the tasks needed to created Virtual Machine images for your Virtual Machine offer. This walkthrough using VS Code and the command line leaves you with the tools you need to begin your own automation.
+
+## The Virtual Machine Offer Certification Process 
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2197191" target="_blank">Video</a>
+
+This quick lecture walks through the Virtual Machine offer certification process and details common reasons why certification may fail for a newly submitted virtual machine offer. This video can save you loads of time by helping you avoid common mistakes or misunderstandings.
+
+## Virtual Machine Certification Test Tool (Demo)
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2197192" target="_blank">Video</a>
+
+There is a tool one can use to help prepare their Virtual Machine image for certification. The Virtual Machine image certification tool is exercised in this video, and we get to see how to set it up and use it to gain confidence that a Virtual Machine image will not be rejected during certification.
+
+## Purchasing the Virtual Machine Offer
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2197724" target="_blank">Video</a>
+
+The offer is now complete and ready to test in Partner Center. In this video, experience buying the completed Virtual Machine offer from the point of view of the customer.
