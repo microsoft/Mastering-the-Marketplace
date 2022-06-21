@@ -5,6 +5,11 @@ repo_name: microsoft/Mastering-the-Marketplace
 edit_uri: ''
 nav : 
 - Home: 'index.md'
+- Build Custom SaaS Offers: /Mastering-the-Marketplace/saas/
+- The SaaS Accelerator: /Mastering-the-Marketplace/saas-accelerator/
+- Virtual Machine Offers: /Mastering-the-Marketplace/vm/
+- Azure Managed Application Offers: /Mastering-the-Marketplace/ama/
+- Mastering The Partner Center: /Mastering-the-Marketplace/partner-center
 theme:
   name: material
   palette: 
