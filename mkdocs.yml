@@ -1,3 +1,6 @@
 site_name: Mastering the Marketplace
+site_url: https://microsoft.github.io/Mastering-the-Marketplace/
+repo_url: https://github.com/microsoft/app-camp
+repo_name: microsoft/Mastering-the-Marketplace
 theme:
   name: material
