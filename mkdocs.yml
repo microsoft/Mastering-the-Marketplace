@@ -2,5 +2,18 @@ site_name: Mastering the Marketplace
 site_url: https://microsoft.github.io/Mastering-the-Marketplace/
 repo_url: https://github.com/microsoft/app-camp
 repo_name: microsoft/Mastering-the-Marketplace
+nav : 
+- Home: 'index.md'
 theme:
-  name: material
+  name: 'material'
+  palette: 
+    primary: 'brown'
+    accent: 'deep orange'
+  logo: 'assets/Azure_Store_Marketplace.png'
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs         # Top nav
+    - navigation.tabs.sticky  # Make top nav stay vaisible
+    - navigation.sections
+    - toc.integrate           # Integrate sections into left nav
