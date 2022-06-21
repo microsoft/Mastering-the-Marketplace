@@ -2,35 +2,52 @@
 # Page settings
 layout: homepage
 keywords: Azure Marketplace AppSource
+hide:
+  - toc
 
 # Hero section
-title: Home
+title: Mastering The Marketplace
 description: A technical learning library for building transactable offers on Azure. This content helps you bring your solution to the Microsoft commercial marketplace faster and with more understanding. The library contains self-paced videos, hands-on labs, and sample code.
-buttons:
-    - icon: github
-      content: See it on GitHub
-      url: 'https://github.com/microsoft/Mastering-the-Marketplace'
-      external_url: true
-    
-grid_navigation:
-  - title: Build Custom SaaS offers
-    excerpt: How to build your own SaaS solution for the Azure Marketplace
-    cta: Take me to it
-    url: '/saas'
-  - title: The SaaS Accelerator
-    excerpt: The SaaS Accelerator is a turn key reference implementation of a SaaS offer. Install in 20 minutes!
-    cta: Take me to it
-    url: '/saas-accelerator'
-  - title: Virtual Machine offers
-    excerpt: Create VM offers to publish in the Azure Marketplace
-    cta: Take me to it
-    url: '/vm'
-  - title: Azure Managed Applications offers
-    excerpt: For those building Managed Apps for the Azure Marketplace
-    cta: Take me to it
-    url: '/ama'
-  - title: Mastering Partner Center
-    excerpt: How-to content for working with the publisher's portal
-    cta: Take me to it
-    url: '/partner-center'
 ---
+
+A technical learning library for building transactable offers on Azure. This content helps you bring your solution to the Microsoft commercial marketplace faster and with more understanding. The library contains self-paced videos, hands-on labs, and sample code.
+
+[View on GitHub  :material-github:](https://github.com/microsoft/Mastering-the-Marketplace){ .md-button .md-button--primary }
+
+---
+
+### **Build Custom SaaS Offers**
+How to build your own SaaS solution for the Azure Marketplace.
+
+[Take me to it](/Mastering-the-Marketplace/saas/){ .md-button }
+
+---
+
+### **The SaaS Accelerator**
+The SaaS Accelerator is a turn key reference implementation of a SaaS offer. Install in 20 minutes!
+
+[Take me to it](/Mastering-the-Marketplace/saas-accelerator){ .md-button }
+
+---
+
+### **Virtual Machine Offers**
+Create VM offers to publish in the Azure Marketplace.
+
+[Take me to it](/Mastering-the-Marketplace/vm){ .md-button }
+
+---
+
+### **Azure Managed Applications Offers**
+For those building Managed Apps for the Azure Marketplace.
+
+[Take me to it](/Mastering-the-Marketplace/ama){ .md-button }
+
+---
+
+### ** Mastering The Partner Center**
+How-to content for working with the publisher's portal.
+
+[Take me to it](/Mastering-the-Marketplace/partner-center){ .md-button }
+
+<br/>
+<br/>
