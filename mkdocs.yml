@@ -4,3 +4,8 @@ repo_url: https://github.com/microsoft/app-camp
 repo_name: microsoft/Mastering-the-Marketplace
 theme:
   name: material
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
