@@ -3,6 +3,8 @@ site_url: https://microsoft.github.io/Mastering-the-Marketplace/
 repo_url: https://github.com/microsoft/app-camp
 repo_name: microsoft/Mastering-the-Marketplace
 edit_uri: ''
+extra_css: 
+    - stylesheets/extra.css
 nav : 
 - Home: 'index.md'
 - Build Custom SaaS Offers: /Mastering-the-Marketplace/saas/
@@ -13,8 +15,8 @@ nav :
 theme:
   name: material
   palette: 
-    primary: 'brown'
-    accent: 'deep orange'
+    primary: '#0078D4'
+    accent: 'light blue'
   logo: 'assets/Azure_Store_Marketplace.png'
   icon:
     repo: fontawesome/brands/github
