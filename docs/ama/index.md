@@ -8,8 +8,6 @@ comments: false
 title: Mastering Azure Managed Application Offers
 description: This course is designed to help you decrease your onboarding when building an Azure Managed Application offer. The content is comprised of recordings of a virtual workshop and are divided into small digestible modules for easy consumption. Also included are several hands-on labs to turn your knowledge into skills.
 
-# Micro navigation
-micro_nav: false
 ---
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.

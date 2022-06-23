@@ -8,8 +8,6 @@ comments: false
 title: Mastering Partner Center
 description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
-# Micro navigation
-micro_nav: false
 ---
 
 Using Partner Center to create and maintain your marketplace offers is a very large topic. **We are just getting started with the content we'll publish about Partner Center**, so please check back often as this library grows.
