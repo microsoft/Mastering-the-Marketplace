@@ -24,9 +24,10 @@ theme:
     - navigation.tabs         # Top nav
     - navigation.tabs.sticky  # Make top nav stay vaisible
     - navigation.sections
-    - toc.integrate           # Integrate sections into left nav
 markdown_extensions:
   - attr_list
+  - toc:
+        permalink: "#"
   - pymdownx.emoji:
         emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
