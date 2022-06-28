@@ -12,7 +12,6 @@ description: Mastering the Marketplace is a learning library for building transa
 
 Mastering the Marketplace is a learning library for building transactable offers on the Microsoft commercial marketplace. This content helps you bring your solution to the marketplace faster and with more understanding. The library contains self-paced videos, hands-on labs, and sample code. 
 
-[View on GitHub  :material-github:](https://github.com/microsoft/Mastering-the-Marketplace){ .md-button .md-button--primary }
 
 ---
 
@@ -48,6 +47,12 @@ With a powerful ARM based deployment model, Azure Managed Applications are popul
 Partner Center is the web portal used to create and publish offers. Learn more about Partner Center in this ever-expanding multi-part course on how to use the portal to publish offers. 
 
 [Take me to it](/Mastering-the-Marketplace/partner-center){ .md-button }
+
+---
+
+You may find that you need to clone this repository to perform the labs. Feel free to clone or fork and we are always happy to take PRs! 
+
+[View on GitHub  :material-github:](https://github.com/microsoft/Mastering-the-Marketplace){ .md-button .md-button--primary }
 
 <br/>
 <br/>
