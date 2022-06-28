@@ -16,7 +16,7 @@ A technical learning library for building transactable offers on Azure. This con
 
 ---
 
-### **Custom SaaS Offers**
+### **Build Custom Offers*
 This comprehensive course takes you through all you need to get a SaaS offer up and running. From landing pages to webhooks, this course will help you get your custom SaaS offer up and running in days instead of weeks. 
 
 [Take me to it](/Mastering-the-Marketplace/saas/){ .md-button }
