@@ -7,11 +7,11 @@ extra_css:
     - stylesheets/extra.css
 nav : 
 - Home: 'index.md'
-- Build Custom SaaS Offers: /Mastering-the-Marketplace/saas/
+- Build Custom Offers: /Mastering-the-Marketplace/saas/
 - The SaaS Accelerator: /Mastering-the-Marketplace/saas-accelerator/
 - Virtual Machine Offers: /Mastering-the-Marketplace/vm/
 - Azure Managed Application Offers: /Mastering-the-Marketplace/ama/
-- Mastering The Partner Center: /Mastering-the-Marketplace/partner-center
+- Mastering Partner Center: /Mastering-the-Marketplace/partner-center
 theme:
   name: material
   palette: 
