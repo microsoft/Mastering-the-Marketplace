@@ -10,6 +10,9 @@ description: This series of video modules and hands-on labs is designed to help 
 
 # Micro navigation
 micro_nav: false
+
+# remove when this section is ready to be shown in search results
+search_exclude: true
 ---
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
