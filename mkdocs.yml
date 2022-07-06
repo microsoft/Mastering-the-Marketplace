@@ -19,7 +19,7 @@ theme:
     accent: 'light blue'
   icon:
     repo: fontawesome/brands/github
-    logo: material/microsoft-azure
+    logo: fontawesome/brands/microsoft
   features:
     - navigation.tabs         # Top nav
     - navigation.tabs.sticky  # Make top nav stay vaisible
