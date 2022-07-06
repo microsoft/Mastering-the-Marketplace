@@ -17,13 +17,15 @@ theme:
   palette: 
     primary: '#0078D4'
     accent: 'light blue'
-  logo: 'assets/Azure_Store_Marketplace.png'
   icon:
     repo: fontawesome/brands/github
+    logo: material/microsoft-azure
   features:
     - navigation.tabs         # Top nav
     - navigation.tabs.sticky  # Make top nav stay vaisible
     - navigation.sections
+extra: 
+  homepage: https://azure.microsoft.com/
 markdown_extensions:
   - attr_list
   - toc:
