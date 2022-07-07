@@ -8,9 +8,8 @@ comments: false
 title: Mastering the SaaS Accelerator
 description: This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the SaaS Accelerator project. The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days.
 
-hide:
-  - navigation
-
+# Micro navigation
+micro_nav: false
 ---
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
@@ -18,6 +17,13 @@ hide:
 This course is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator).
 
 Get your hands dirty with the [hands-on labs](#hands-on-labs).
+
+1. [A SaaS Accelerator Hands-on Tour - The Basics](#a-saas-accelerator-hands-on-tour-the-basics) (Introduction to the SaaS Accelerator)
+1. [SaaS Accelerator Architecture](#saas-accelerator-architecture)
+1. [Installing the SaaS Accelerator With the Install Script](#installing-the-saas-accelerator-with-the-install-script)
+1. [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
+1. [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
+1. [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
 
 ## Hands-on labs
 

@@ -4,7 +4,6 @@ on:
     branches:
       - master 
       - main
-      - mgrant
 jobs:
   deploy:
     runs-on: ubuntu-latest
