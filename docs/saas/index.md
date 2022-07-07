@@ -8,37 +8,14 @@ comments: false
 title: Mastering SaaS Offers
 description: This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.
 
-# Micro navigation
-micro_nav: false
+hide:
+  - navigation
+
 ---
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
 Get your hands dirty with the [hands-on labs](#hands-on-labs).
-
-### General SaaS Knowledge
-
-<!-- no toc -->
-1. [SaaS Offer Overview](#saas-offer-overview)
-1. [Purchasing a SaaS Offer](#purchasing-a-saas-offer)
-1. [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
-1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
-1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
-
-### SaaS Technical Knowledge
-
-<!-- no toc -->
-1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
-1. [Azure AD Application Registrations](#azure-ad-application-registrations)
-1. [Using the SaaS Offer REST Fulfillment API](#using-the-saas-offer-rest-fulfillment-api)
-1. [The SaaS Client Library for .NET](#the-saas-client-library-for-net)
-1. [Building a Simple SaaS Landing Page in .NET](#building-a-simple-saas-landing-page-in-net)
-1. [Building a Simple SaaS Publisher Portal in .NET](#building-a-simple-saas-publisher-portal-in-net)
-1. [SaaS Webhook Overview](#saas-webhook-overview)
-1. [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
-1. [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
-1. [SaaS Metered Billing Overview](#saas-metered-billing-overview)
-1. [The SaaS Metered Billing API with REST](#the-saas-metered-billing-api-with-rest)
 
 ## Hands-on labs
 
