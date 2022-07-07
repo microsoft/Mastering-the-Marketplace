@@ -1,32 +1,35 @@
 site_name: Mastering the Marketplace
 site_url: https://microsoft.github.io/Mastering-the-Marketplace/
-repo_url: https://github.com/microsoft/app-camp
+repo_url: https://github.com/microsoft/Mastering-the-Marketplace
 repo_name: microsoft/Mastering-the-Marketplace
 edit_uri: ''
 extra_css: 
     - stylesheets/extra.css
 nav : 
 - Home: 'index.md'
-- Build Custom SaaS Offers: /Mastering-the-Marketplace/saas/
+- Build Custom Offers: /Mastering-the-Marketplace/saas/
 - The SaaS Accelerator: /Mastering-the-Marketplace/saas-accelerator/
 - Virtual Machine Offers: /Mastering-the-Marketplace/vm/
 - Azure Managed Application Offers: /Mastering-the-Marketplace/ama/
-- Mastering The Partner Center: /Mastering-the-Marketplace/partner-center
+- Mastering Partner Center: /Mastering-the-Marketplace/partner-center
 theme:
   name: material
   palette: 
     primary: '#0078D4'
     accent: 'light blue'
-  logo: 'assets/Azure_Store_Marketplace.png'
   icon:
     repo: fontawesome/brands/github
+    logo: fontawesome/brands/microsoft
   features:
     - navigation.tabs         # Top nav
     - navigation.tabs.sticky  # Make top nav stay vaisible
     - navigation.sections
-    - toc.integrate           # Integrate sections into left nav
+extra: 
+  homepage: https://azure.microsoft.com/
 markdown_extensions:
   - attr_list
+  - toc:
+        permalink: "#"
   - pymdownx.emoji:
         emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
