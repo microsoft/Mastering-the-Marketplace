@@ -7,7 +7,7 @@ extra_css:
     - stylesheets/extra.css
 nav : 
 - Home: 'index.md'
-- Build Custom Offers: /Mastering-the-Marketplace/saas/
+- Build Custom SaaS Offers: /Mastering-the-Marketplace/saas/
 - The SaaS Accelerator: /Mastering-the-Marketplace/saas-accelerator/
 - Virtual Machine Offers: /Mastering-the-Marketplace/vm/
 - Azure Managed Application Offers: /Mastering-the-Marketplace/ama/
@@ -28,6 +28,7 @@ theme:
 extra: 
   homepage: https://azure.microsoft.com/
 markdown_extensions:
+  - meta
   - attr_list
   - toc:
         permalink: "#"
