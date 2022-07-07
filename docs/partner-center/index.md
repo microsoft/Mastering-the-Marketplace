@@ -8,32 +8,14 @@ comments: false
 title: Mastering Partner Center
 description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
+hide:
+  - navigation
+
 ---
 
 Using Partner Center to create and maintain your marketplace offers is a very large topic. **We are just getting started with the content we'll publish about Partner Center**, so please check back often as this library grows.
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
-
-### Private Offers
-
-<!-- no toc -->
-1. [Private Offer Overview ISV to Customer Offers](#private-offer-overview-isv-to-customer-offers)
-1. [ISV to Customer Private Offer Creation](#isv-to-customer-private-offer-creation)
-1. [ISV to Customer Private Offer Acceptance](#isv-to-customer-private-offer-acceptance)
-1. [ISV to Customer Private Offer Purchase Experience](#isv-to-customer-private-offer-purchase-experience)
-1. [Private Offers for CSP Partners Overview](#private-offers-for-csp-partners-overview)
-1. [Private Offer Creation by ISVs for CSP Partners](#private-offer-creation-by-isvs-for-csp-partners)
-1. [The CSP Partner Private Offer Purchase Process](#the-csp-partner-private-offer-purchase-process)
-
-### Configuring and Publishing Offers
-
-<!-- no toc -->
-1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
-1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
-1. [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
-1. [Configuring a Virtual Machine Offer in Partner Center – Demo](#configuring-a-virtual-machine-offer-in-partner-center--demo)
-1. [Partner Center with Azure Managed Applications Overview](#partner-center-with-azure-managed-applications-overview)
-1. [Configuring Partner Center for Azure Managed Applications - Demo](#configuring-partner-center-for-azure-managed-applications---demo)
 
 ---
 

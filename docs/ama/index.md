@@ -8,28 +8,14 @@ comments: false
 title: Mastering Azure Managed Application Offers
 description: This course is designed to help you decrease your onboarding when building an Azure Managed Application offer. The content is comprised of recordings of a virtual workshop and are divided into small digestible modules for easy consumption. Also included are several hands-on labs to turn your knowledge into skills.
 
+hide:
+  - navigation
+
 ---
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
 Get your hands dirty with the [hands-on labs](#hands-on-labs). The slides for this course, which are used in the following modules, [are here](./pdfs/ama-workshop-slides.pdf).
-
-<!-- no toc -->
-1. [Course Introduction](#course-introduction)
-1. [Managed Applications Overview](#managed-applications-overview)
-1. [Azure Managed Applications Overview](#azure-managed-applications-overview)
-1. [Partner Center with Azure Managed Applications Overview](#partner-center-with-azure-managed-applications-overview)
-1. [Configuring Partner Center for Azure Managed Applications - Demo](#configuring-partner-center-for-azure-managed-applications---demo)
-1. [Azure Managed Application Deployment Package Overview](#azure-managed-application-deployment-package-overview)
-1. [Working with a Azure Managed Application Deployment Package - Demo](#working-with-a-azure-managed-application-deployment-package---demo)
-1. [Integrating Virtual Machine Offers into Azure Managed Applications](#integrating-virtual-machine-offers-into-azure-managed-applications)
-1. [Purchasing an Azure Managed Application – Demo](#purchasing-an-azure-managed-application--demo)
-1. [Managing My Purchased Azure Managed Applications – Demo](#managing-my-purchased-azure-managed-applications--demo)
-1. [Managing My Customer’s Azure Managed Applications Overview](#managing-my-customers-azure-managed-applications-overview)
-1. [Managing My Customer’s Azure Managed Applications – Demo](#managing-my-customers-azure-managed-applications--demo)
-1. [Metered Billing for Azure Managed Applications Overview](#metered-billing-for-azure-managed-applications-overview)
-1. [Metered Billing for Azure Managed Applications – Demo](#metered-billing-for-azure-managed-applications--demo)
-1. [Advanced Deployment Scenarios for Azure Managed Applications](#advanced-deployment-scenarios-for-azure-managed-applications)
 
 ## Hands-on labs
 

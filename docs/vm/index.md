@@ -8,6 +8,9 @@ comments: false
 title: Mastering Virtual Machine Offers
 description: The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
 
+hide:
+  - navigation
+
 ---
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
@@ -15,21 +18,6 @@ description: The content in this course is from a live hands-on workshop. These 
 Get your hands dirty with the [hands-on labs](#hands-on-labs).
 
 Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon are the creators of this course.
-
-<!-- no toc -->
-- [Creating Virtual Machine Offers Overview](#creating-virtual-machine-offers-overview)
-- [Partner Center Overview](#partner-center-overview)
-- [Creating an Offer in Partner Center (Demo)](#creating-an-offer-in-partner-center-demo)
-- [Creating and Customizing a Virtual Machine (Demo)](#creating-and-customizing-a-virtual-machine-demo)
-- [Generalizing and Capturing a Virtual Machine Image](#generalizing-and-capturing-a-virtual-machine-image)
-- [Generalizing and Capturing a Virtual Machine Image (Demo)](#generalizing-and-capturing-a-virtual-machine-image-demo)
-- [Publish Your Virtual Machine Offer with Partner Center (Demo)](#publish-your-virtual-machine-offer-with-partner-center-demo)
-- [Securing Your Virtual Machine](#securing-your-virtual-machine)
-- [Virtual Machine Automation with Packer Overview](#virtual-machine-automation-with-packer-overview)
-- [Virtual Machine Automation with Packer (Demo)](#virtual-machine-automation-with-packer-demo)
-- [The Virtual Machine Offer Certification Process](#the-virtual-machine-offer-certification-process)
-- [Virtual Machine Certification Test Tool (Demo)](#virtual-machine-certification-test-tool-demo)
-- [Purchasing the Virtual Machine Offer](#purchasing-the-virtual-machine-offer)
 
 ## Hands-on labs
 
