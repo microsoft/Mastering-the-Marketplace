@@ -20,6 +20,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
     logo: fontawesome/brands/microsoft
+  favicon: favicon.ico
   features:
     - navigation.tabs         # Top nav
     - navigation.tabs.sticky  # Make top nav stay vaisible
