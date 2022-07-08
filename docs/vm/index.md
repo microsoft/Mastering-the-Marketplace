@@ -1,6 +1,6 @@
 ---
 # Page settings
-layout: homepage
+layout: default
 keywords: Azure AppSoure Marketplace Virtual Machine
 comments: false
 hide:

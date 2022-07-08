@@ -6,7 +6,7 @@ edit_uri: ''
 extra_css: 
     - stylesheets/extra.css
 nav : 
-- Home: /Mastering-the-Marketplace/home
+- Home: 'index.md'
 - Build Custom SaaS Offers: /Mastering-the-Marketplace/saas/
 - The SaaS Accelerator: /Mastering-the-Marketplace/saas-accelerator/
 - Virtual Machine Offers: /Mastering-the-Marketplace/vm/
