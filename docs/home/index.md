@@ -1,6 +1,6 @@
 ---
 # Page settings
-layout: default
+layout: homepage
 keywords: Azure Marketplace AppSource
 
 hide:
