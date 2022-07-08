@@ -6,18 +6,21 @@ comments: false
 
 # Hero section
 title: Mastering Partner Center
-description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
 hide:
   - navigation
 
 ---
 
-Using Partner Center to create and maintain your marketplace offers is a very large topic. **We are just getting started with the content we'll publish about Partner Center**, so please check back often as this library grows.
+These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
+
+---
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
----
+
+Using Partner Center to create and maintain your marketplace offers is a very large topic. **We are just getting started with the content we'll publish about Partner Center**, so please check back often as this library grows.
+
 
 ## Private Offer Overview ISV to Customer Offers
 

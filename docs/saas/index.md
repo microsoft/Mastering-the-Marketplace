@@ -6,10 +6,13 @@ comments: false
 
 # Hero section
 title: Mastering SaaS Offers
-description: This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.
 
 hide:
   - navigation
+
+---
+
+This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.
 
 ---
 
