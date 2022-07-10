@@ -6,13 +6,14 @@ comments: false
 
 # Hero section
 title: Mastering Partner Center
+description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
 hide:
   - navigation
 
 ---
 
-These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
+<div class = "description"> These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer. </div>
 
 ---
 

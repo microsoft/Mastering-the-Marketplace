@@ -9,10 +9,11 @@ hide:
 
 # Hero section
 title: Mastering The Marketplace
+description: Mastering the Marketplace is a learning library for building transactable offers on the Microsoft commercial marketplace. This content helps you bring your solution to the marketplace faster and with more understanding. The library contains self-paced videos, hands-on labs, and sample code. 
 
 ---
 
-Mastering the Marketplace is a learning library for building transactable offers on the Microsoft commercial marketplace. This content helps you bring your solution to the marketplace faster and with more understanding. The library contains self-paced videos, hands-on labs, and sample code. 
+<div class = "description">Mastering the Marketplace is a learning library for building transactable offers on the Microsoft commercial marketplace. This content helps you bring your solution to the marketplace faster and with more understanding. The library contains self-paced videos, hands-on labs, and sample code. </div>
 
 ---
 
