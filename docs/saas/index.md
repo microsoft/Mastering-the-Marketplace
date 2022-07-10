@@ -81,9 +81,7 @@ This video shows how to subscribe to private SaaS plans in the Microsoft Azure M
 
 This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook.
 
-## Publishing a Private SaaS Plan
-
-### SaaS Technical Knowledge
+## SaaS Technical Knowledge
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196256">Video</a> | <a target="_blank" href="./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf">PDF</a>
 
