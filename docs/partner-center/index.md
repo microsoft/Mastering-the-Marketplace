@@ -22,6 +22,8 @@ hide:
 
 Using Partner Center to create and maintain your marketplace offers is a very large topic. **We are just getting started with the content we'll publish about Partner Center**, so please check back often as this library grows.
 
+---
+
 ## Private Offers
 
 ### Private Offer Overview ISV to Customer Offers

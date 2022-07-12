@@ -21,26 +21,6 @@ hide:
 
 Get your hands dirty with the [hands-on labs](#hands-on-labs).
 
-## Hands-on labs
-
-The following hands-on labs build upon each other. Perform them in sequential order to get a fully functional SaaS Offer published and working for your test environment.
-
-Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
-
-### Prerequisites
-
-1. Azure subscription that can create resources
-1. A Partner Center Account
-1. Visual Studio 2022, any version
-
-### Labs
-
-1. [Creating a SaaS Offer in Partner Center](./labs/lab1-create-pc-offer/README.md)
-1. [Creating a Landing Page](./labs/lab2-create-landing-page/README.md)
-1. [Installing a Publisher Portal](./labs/lab3-install-pub-portal/README.md)
-1. [Deploying and Monitoring a Webhook](./labs/lab4-create-webhook/README.md)
-1. [Implementing Meter billing](./labs/lab5-implementing-meter-billing/README.md)
-
 ---
 
 ## General SaaS Knowledge
@@ -204,3 +184,25 @@ This module presents the fundamentals of billing through the marketplace based o
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196418">Video</a>
 
 We exercise the SaaS Billing REST API using Postman to illustrate how the API works. You’ll learn how the inputs to each API event and how to use the results, and finally how to invoke usage events in the metering API itself. This module is primarily demo.
+
+---
+
+## Hands-on labs
+
+The following hands-on labs build upon each other. Perform them in sequential order to get a fully functional SaaS Offer published and working for your test environment.
+
+Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
+
+### Prerequisites
+
+1. Azure subscription that can create resources
+1. A Partner Center Account
+1. Visual Studio 2022, any version
+
+### Labs
+
+1. [Creating a SaaS Offer in Partner Center](./labs/lab1-create-pc-offer/README.md)
+1. [Creating a Landing Page](./labs/lab2-create-landing-page/README.md)
+1. [Installing a Publisher Portal](./labs/lab3-install-pub-portal/README.md)
+1. [Deploying and Monitoring a Webhook](./labs/lab4-create-webhook/README.md)
+1. [Implementing Meter billing](./labs/lab5-implementing-meter-billing/README.md)

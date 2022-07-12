@@ -21,28 +21,6 @@ hide:
 
 Get your hands dirty with the [hands-on labs](#hands-on-labs). The slides for this course, which are used in the following modules, [are here](./pdfs/ama-workshop-slides.pdf).
 
-## Hands-on labs
-
-These hand on labs build on top of one another, so progress through them in order to get a fully functional Azure Managed Application published and working for a test environment.
-
-### Prerequisites
-
-1. Azure subscription that can create resources
-1. A Partner Center Account
-1. VS Code or other text editor
-
-### Getting started
-
-Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
-
-### Labs
-
-1. Lab 1 - [Publishing an Azure Managed Application Offer in Partner Center](./labs/lab-1-partner-center/README.md)
-2. Lab 2 - [The Managed Application Deployment Package](./labs/lab-2-deployment-package/README.md)
-3. Lab 3 - [Purchasing an Azure Managed Application](./labs/lab-3-purchasing-ama/README.md)
-4. Lab 4 - [Administering Your Purchased Managed Applications](./labs/lab-4-administer-my-amas/README.md)
-5. Lab 5 - [Administering Your Customer’s Managed Applications](./labs/lab-5-administer-customer-amas/README.md)
-
 ---
 
 ## Course Introduction
@@ -134,3 +112,27 @@ See metered billing in action at the REST API level. This module shows metered b
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196306">Video</a>
 
 This brief module covers a few advanced scenarios for Azure Managed Application deployments including containers and IoT integration.
+
+---
+
+## Hands-on labs
+
+These hand on labs build on top of one another, so progress through them in order to get a fully functional Azure Managed Application published and working for a test environment.
+
+### Prerequisites
+
+1. Azure subscription that can create resources
+1. A Partner Center Account
+1. VS Code or other text editor
+
+### Getting started
+
+Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
+
+### Labs
+
+1. Lab 1 - [Publishing an Azure Managed Application Offer in Partner Center](./labs/lab-1-partner-center/README.md)
+2. Lab 2 - [The Managed Application Deployment Package](./labs/lab-2-deployment-package/README.md)
+3. Lab 3 - [Purchasing an Azure Managed Application](./labs/lab-3-purchasing-ama/README.md)
+4. Lab 4 - [Administering Your Purchased Managed Applications](./labs/lab-4-administer-my-amas/README.md)
+5. Lab 5 - [Administering Your Customer’s Managed Applications](./labs/lab-5-administer-customer-amas/README.md)

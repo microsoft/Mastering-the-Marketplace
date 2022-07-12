@@ -21,20 +21,7 @@ hide:
 
 This series is designed to help you speed your time to publish SaaS or Managed app offer with metered billing support to the Microsoft commercial marketplace using the [Metered Billing Solution](https://github.com/microsoft/metered-billing-accelerator).
 
-## Hands-on labs
-
-These hand on labs build on top of one another, so progress through them in order to get a fully functional Metered Billing Accelerator offer published and working for a test environment.
-
-### Prerequisites
-
-1. Azure subscription that can create resources
-1. A Partner Center Account
-
-### Hands-on labs
-
-1. [Installing the Metered Billing Accelerator](./labs/lab1-install/README.md)
-1. [Configure SaaS Offer the Metered Billing Accelerator](./labs/lab2-saas/README.md)
-1. [Configure Managed ApplicationOffer the Metered Billing Accelerator](./labs/lab3-ama/README.md)
+---
 
 ## Video Learning Modules
 
@@ -77,3 +64,20 @@ In this video will show how it is easy to configure your SaaS Offer with Metered
 [Video](TBD)
 
 In this video will show how it is easy to configure your managed application Offer with Metered Billing Accelerator to trigger metered billing events automatically.
+
+---
+
+## Hands-on labs
+
+These hand on labs build on top of one another, so progress through them in order to get a fully functional Metered Billing Accelerator offer published and working for a test environment.
+
+### Prerequisites
+
+1. Azure subscription that can create resources
+1. A Partner Center Account
+
+### Hands-on labs
+
+1. [Installing the Metered Billing Accelerator](./labs/lab1-install/README.md)
+1. [Configure SaaS Offer the Metered Billing Accelerator](./labs/lab2-saas/README.md)
+1. [Configure Managed ApplicationOffer the Metered Billing Accelerator](./labs/lab3-ama/README.md)
