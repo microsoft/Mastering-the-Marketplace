@@ -2,6 +2,26 @@
     --md-primary-fg-color: #0078D4;
 }
 
+.landing-tile {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 2%;
+    height: 22em;
+    margin-left:0;
+}
+
+@media only screen and (max-width: 600px) {
+    .landing-tile {
+        position: relative;
+        display: block;
+        width: 90%;
+        margin-bottom: 4em;
+        height: auto;
+    }
+}
+
 .description {
     color: #0078D4;
 }
