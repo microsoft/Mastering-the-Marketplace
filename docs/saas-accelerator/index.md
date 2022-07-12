@@ -8,8 +8,13 @@ comments: false
 title: Mastering the SaaS Accelerator
 description: This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the SaaS Accelerator project. The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days.
 
+
 hide:
   - navigation
+
+---
+
+<div class = "description"> This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the SaaS Accelerator project. The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days. </div>
 
 ---
 
@@ -18,21 +23,6 @@ hide:
 This course is designed to help you speed your time to publish your SaaS offer to the Microsoft commercial marketplace using the [SaaS Accelerator](https://aka.ms/SaaSAccelerator).
 
 Get your hands dirty with the [hands-on labs](#hands-on-labs).
-
-## Hands-on labs
-
-The following hands-on labs build upon each other. Completing them will get a fully functional SaaS Accelerator offer published and working for a test environment.
-
-### Prerequisites
-
-1. Azure subscription that can create resources
-1. A Partner Center Account
-
-### Labs
-
-1. [Preparing Partner Center](./labs/lab1-partner-center/README.md)
-2. [Installing the Accelerator](./labs/lab2-install/README.md)
-3. [Using the Accelerator](./labs/lab3-tour/README.md)
 
 ---
 
@@ -75,3 +65,20 @@ In addition to showing your subscribers information about their subscription whe
 <a href="https://go.microsoft.com/fwlink/?linkid=2196165" target="_blank">Video</a>
 
 You will likely want to receive email when a subscription changes state. For example, when a someone unsubscribes from your offer. This video shows how to configure the email setting within the SaaS Accelerator and get those notifications coming right to your inbox.
+
+---
+
+## Hands-on labs
+
+The following hands-on labs build upon each other. Completing them will get a fully functional SaaS Accelerator offer published and working for a test environment.
+
+### Prerequisites
+
+1. Azure subscription that can create resources
+1. A Partner Center Account
+
+### Labs
+
+1. [Preparing Partner Center](./labs/lab1-partner-center/README.md)
+2. [Installing the Accelerator](./labs/lab2-install/README.md)
+3. [Using the Accelerator](./labs/lab3-tour/README.md)

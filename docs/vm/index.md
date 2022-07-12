@@ -3,41 +3,26 @@
 layout: default
 keywords: Azure AppSoure Marketplace Virtual Machine
 comments: false
+hide:
+  - navigation
+
 
 # Hero section
 title: Mastering Virtual Machine Offers
 description: The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
 
-hide:
-  - navigation
+---
+
+<div class = "description"> The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time. </div>
 
 ---
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
+
 Get your hands dirty with the [hands-on labs](#hands-on-labs).
 
 Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon are the creators of this course.
-
-## Hands-on labs
-
-The following hands-on labs build upon each other. They take you through the complete process of creating and publishing a virtual machine offer in the Microsoft commercial marketplace. 
-
-Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
-
-### Prerequisites
-
-- An Azure Subscription to create resources
-- An active Partner Center Account (Please ensure you have enrolled into the Marketplace Offers program)
-- Visual Studio Code or other text editor
-
-### Labs
-
-1. [Partner Center Setup](./Labs/lab1-partner-center-setup/index.md)
-2. [VM Creation](./Labs/lab2-vm-creation/index.md)
-3. [Generalize and Capture Image](Labs/lab3-generalize-and-capture-image/index.md)
-4. [Publish the Offer](./Labs/lab4-publish-your-vm-offer/index.md)
-5. [Purchase your Offer](Labs/lab5-purchase-your-offer/index.md)
 
 ---
 
@@ -118,3 +103,25 @@ There is a tool one can use to help prepare their Virtual Machine image for cert
 <a href="https://go.microsoft.com/fwlink/?linkid=2197724" target="_blank">Video</a>
 
 The offer is now complete and ready to test in Partner Center. In this video, experience buying the completed Virtual Machine offer from the point of view of the customer.
+
+---
+
+## Hands-on labs
+
+The following hands-on labs build upon each other. They take you through the complete process of creating and publishing a virtual machine offer in the Microsoft commercial marketplace. 
+
+Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
+
+### Prerequisites
+
+- An Azure Subscription to create resources
+- An active Partner Center Account (Please ensure you have enrolled into the Marketplace Offers program)
+- Visual Studio Code or other text editor
+
+### Labs
+
+1. [Partner Center Setup](./Labs/lab1-partner-center-setup/index.md)
+2. [VM Creation](./Labs/lab2-vm-creation/index.md)
+3. [Generalize and Capture Image](Labs/lab3-generalize-and-capture-image/index.md)
+4. [Publish the Offer](./Labs/lab4-publish-your-vm-offer/index.md)
+5. [Purchase your Offer](Labs/lab5-purchase-your-offer/index.md)
