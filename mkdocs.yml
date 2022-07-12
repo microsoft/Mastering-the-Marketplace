@@ -29,6 +29,7 @@ extra:
 markdown_extensions:
   - meta
   - attr_list
+  - md_in_html
   - toc:
         permalink: "#"
   - pymdownx.emoji:
