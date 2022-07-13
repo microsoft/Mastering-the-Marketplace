@@ -41,7 +41,7 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 
 ## Private Offer Overview ISV to Customer Offers
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196150">Video</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196150">Video</a> | [PDF](./pdfs/01.1-isv-private-offer-overview.pdf)
 
 Learn how private offers work for marketplace publishers offering them directly to customers. This module provides an overview of private offers and explores some deeper details about how they work.
 
