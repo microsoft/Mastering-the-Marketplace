@@ -17,6 +17,7 @@ description: Mastering the Marketplace is a learning library for building transa
 
 ---
 
+<div class="landing-tile" markdown="1">
 ### **Build Custom SaaS Offers**
 
 This comprehensive course takes you through all you need to get a SaaS offer up and running. From landing pages to webhooks, this course will help you get your custom SaaS offer up and running in days instead of weeks. 
