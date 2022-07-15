@@ -76,13 +76,13 @@ In this walkthrough video, see the purchase process partners in the Cloud Soluti
 
 This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook.
 
-## SaaS Pricing in Partner Center Publisher Overview
+### SaaS Pricing in Partner Center Publisher Overview
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2201523">Video</a> | [PDF](./pdfs/03.2-saas-pricing-in-partner-center-publisher-overview.pdf)
 
 Pricing and billing options for SaaS offers are very flexible and give publishers many options for how to bill and get paid for their solutions. This video walks through the SaaS pricing models and gives real-world examples of using them effectively.
 
-## SaaS Pricing in Partner Center Publisher Demo
+### SaaS Pricing in Partner Center Publisher Demo
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2201524">Video</a>
 
