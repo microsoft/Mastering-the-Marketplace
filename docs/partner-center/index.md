@@ -13,7 +13,7 @@ hide:
 
 ---
 
-<div class = "description"> These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer. </div>
+These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
 ---
 

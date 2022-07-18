@@ -13,7 +13,7 @@ hide:
 
 ---
 
-<div class = "description"> This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the Metered Billing Accelerator project. The Metered Billing Accelerator provides a fully functional community-led Metered Billing reference implementation for those interested in publishing transactable offer with Metered Billing support in Microsoft's marketplace in hours instead of days. </div>
+This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the Metered Billing Accelerator project. The Metered Billing Accelerator provides a fully functional community-led Metered Billing reference implementation for those interested in publishing transactable offer with Metered Billing support in Microsoft's marketplace in hours instead of days.
 
 ---
 
