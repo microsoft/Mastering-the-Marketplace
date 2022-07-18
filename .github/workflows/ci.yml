@@ -2,9 +2,7 @@ name: ci
 on:
   push:
     branches:
-      - master 
       - main
-      - mgrant
 jobs:
   deploy:
     runs-on: ubuntu-latest
