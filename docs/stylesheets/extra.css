@@ -2,11 +2,16 @@
     --md-primary-fg-color: #0078D4;
 }
 
+[dir=ltr] .md-header__title {
+    margin-left: 0;
+}
+
 .landing-tile {
     position: relative;
     display: inline-block;
     vertical-align: top;
     width: 45%;
+    padding-right: 5%;
     margin: 1%;
     height: auto;
     margin-left:0;
