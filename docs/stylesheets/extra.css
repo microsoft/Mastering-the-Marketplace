@@ -7,9 +7,15 @@
     display: inline-block;
     vertical-align: top;
     width: 45%;
-    margin: 2%;
-    height: 22em;
+    margin: 1%;
+    height: auto;
     margin-left:0;
+    margin-bottom: 2em;
+}
+
+.landing-tile h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -17,7 +23,7 @@
         position: relative;
         display: block;
         width: 90%;
-        margin-bottom: 4em;
+        margin-bottom: 3em;
         height: auto;
     }
 }
