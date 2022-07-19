@@ -1,5 +1,7 @@
 :root > * {
     --md-primary-fg-color: #0078D4;
+
+    font-family: 'Segoe UI'; 
 }
 
 [dir=ltr] .md-header__title {
