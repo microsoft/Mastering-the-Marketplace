@@ -27,6 +27,9 @@ theme:
     - navigation.sections
 extra: 
   homepage: https://azure.microsoft.com/
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX # Use production Property ID here
 markdown_extensions:
   - meta
   - attr_list
