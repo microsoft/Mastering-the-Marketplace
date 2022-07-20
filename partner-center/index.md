@@ -30,14 +30,22 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 ### Configuring and Publishing Offers
 
 <!-- no toc -->
+1. [Private Offer Overview ISV to Customer Offers](#private-offer-overview-isv-to-customer-offers)
+1. [ISV to Customer Private Offer Creation](#isv-to-customer-private-offer-creation)
+1. [ISV to Customer Private Offer Acceptance](#isv-to-customer-private-offer-acceptance)
+1. [ISV to Customer Private Offer Purchase Experience](#isv-to-customer-private-offer-purchase-experience)
+1. [Private Offers for CSP Partners Overview](#private-offers-for-csp-partners-overview)
+1. [Private Offer Creation by ISVs for CSP Partners](#private-offer-creation-by-isvs-for-csp-partners)
+1. [The CSP Partner Private Offer Purchase Process](#the-csp-partner-private-offer-purchase-process)
 1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
-2. [SaaS Pricing in Partner Center Publisher Overview](#saas-pricing-in-partner-center-publisher-overview)
-3. [SaaS Pricing in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
-4. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
-5. [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
-6. [Configuring a Virtual Machine Offer in Partner Center – Demo](#configuring-a-virtual-machine-offer-in-partner-center--demo)
-7. [Partner Center with Azure Managed Applications Overview](#partner-center-with-azure-managed-applications-overview)
-8. [Configuring Partner Center for Azure Managed Applications - Demo](#configuring-partner-center-for-azure-managed-applications---demo)
+1. [SaaS Pricing in Partner Center Publisher Overview](#saas-pricing-in-partner-center-publisher-overview)
+1. [SaaS Pricing in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
+1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
+1. [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
+1. [Creating a Virtual Machine Offer in Partner Center (Demo)](#creating-a-virtual-machine-offer-in-partner-center-demo)
+1. [Publish Your Virtual Machine Offer with Partner Center (Demo)](#publish-your-virtual-machine-offer-with-partner-center-demo)
+1. [Partner Center with Azure Managed Applications Overview](#partner-center-with-azure-managed-applications-overview)
+1. [Configuring Partner Center for Azure Managed Applications - Demo](#configuring-partner-center-for-azure-managed-applications---demo)
 
 ---
 
@@ -113,11 +121,17 @@ This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#
 
 You may have started your online presence in the commercial marketplace with a simple listing to advertise your services. This does not, however, create a transactable offer that can be sold through the marketplace. This video shows how to convert your existing listing into a fully transactable SaaS Offer.
 
-## Configuring a Virtual Machine Offer in Partner Center – Demo
+## Creating a Virtual Machine Offer in Partner Center (Demo)
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196154">Video</a>
+<a href="https://go.microsoft.com/fwlink/?linkid=2197587" target="_blank">Video</a>
 
-Learn how to set up technical configurations for Azure Marketplace virtual machine offers within Partner Center. You’ll look at machine generations, disk versions, share image gallery vs. SAS URI, and more.
+See how to create a Virtual Machine offer in Partner Center to include creating the offer, configuring a basic CRM integration, specifying offer properties, listing details, and resell with CSP settings. This video does not go into the specifics of creating the Virtual Machine plans for the offer, which will be seen in a later demo.
+
+## Publish Your Virtual Machine Offer with Partner Center (Demo)
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2197498" target="_blank">Video</a>
+
+This demonstration takes you through creating a plan for your Virtual Machine offer, associating the correct image to the plan, and setting other configuration options on your Virtual Machine. After completing the plan configuration you get to see the offer published.
 
 ## Partner Center with Azure Managed Applications Overview
 
