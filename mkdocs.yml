@@ -14,6 +14,7 @@ nav :
 - Mastering Partner Center: /Mastering-the-Marketplace/partner-center
 theme:
   name: material
+  custom_dir: overrides
   palette: 
     primary: '#0078D4'
     accent: 'light blue'
@@ -27,6 +28,7 @@ theme:
     - navigation.sections
 extra: 
   homepage: https://azure.microsoft.com/
+  generator: false
 markdown_extensions:
   - meta
   - attr_list
