@@ -14,6 +14,7 @@ nav :
 - Mastering Partner Center: /Mastering-the-Marketplace/partner-center
 theme:
   name: material
+  custom_dir: overrides
   palette: 
     primary: '#0078D4'
     accent: 'light blue'
@@ -30,6 +31,7 @@ extra:
   analytics:
     provider: google
     property: G-XXXXXXXXXX # Use production Property ID here
+  generator: false
 markdown_extensions:
   - meta
   - attr_list

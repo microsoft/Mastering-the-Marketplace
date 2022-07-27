@@ -45,3 +45,27 @@
         height: auto;
     }
 }
+footer {
+    background-color: #171717;
+    height: 17vh;
+    box-sizing: border-box;
+    color: white;
+    
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+footer .container .col-1 p{
+    font-size: 13px;
+}
+
+footer .container .col-2 img{ 
+    height: 14vh; 
+    width: auto;
+}
