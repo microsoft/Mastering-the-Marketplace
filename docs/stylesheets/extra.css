@@ -12,17 +12,28 @@
     position: relative;
     display: inline-block;
     vertical-align: top;
-    width: 45%;
-    padding-right: 5%;
-    margin: 1%;
-    height: auto;
-    margin-left:0;
+    width: 43%;
+    padding: 3%;
+    margin: 2%;
+    height: 21em;
+    margin-left: 0;
     margin-bottom: 2em;
+    box-shadow: 0 0 0.2em silver;
+    border-radius: 0.5em;
 }
 
 .landing-tile h3 {
     margin-top: 0;
     margin-bottom: 0.5em;
+}
+
+.landing-tile p {
+    font-size: .92em;
+}
+
+.landing-tile .md-button {
+    position: absolute;
+    bottom: 2em;
 }
 
 @media only screen and (max-width: 600px) {
