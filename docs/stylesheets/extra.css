@@ -39,7 +39,6 @@ footer {
     height: 17vh;
     box-sizing: border-box;
     color: white;
-    
 }
 
 .container {
@@ -57,4 +56,9 @@ footer .container .col-1 p{
 footer .container .col-2 img{ 
     height: 14vh; 
     width: auto;
+    align-items:end;
+}
+
+.md-nav__title{
+    display: none;
 }

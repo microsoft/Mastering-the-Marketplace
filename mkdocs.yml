@@ -7,11 +7,11 @@ extra_css:
     - stylesheets/extra.css
 nav : 
 - Home: 'index.md'
-- Build Custom SaaS Offers: /Mastering-the-Marketplace/saas/
-- The SaaS Accelerator: /Mastering-the-Marketplace/saas-accelerator/
-- Virtual Machine Offers: /Mastering-the-Marketplace/vm/
 - Azure Managed Application Offers: /Mastering-the-Marketplace/ama/
-- Mastering Partner Center: /Mastering-the-Marketplace/partner-center
+- Partner Center: /Mastering-the-Marketplace/partner-center
+- SaaS Accelerator: /Mastering-the-Marketplace/saas-accelerator/
+- SaaS Offers: /Mastering-the-Marketplace/saas/
+- Virtual Machine Offers: /Mastering-the-Marketplace/vm/
 theme:
   name: material
   custom_dir: overrides
@@ -23,8 +23,6 @@ theme:
     logo: fontawesome/brands/microsoft
   favicon: favicon.ico
   features:
-    - navigation.tabs         # Top nav
-    - navigation.tabs.sticky  # Make top nav stay vaisible
     - navigation.sections
 extra: 
   homepage: https://azure.microsoft.com/

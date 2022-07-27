@@ -5,7 +5,6 @@ keywords: Azure Marketplace AppSource
 
 hide:
   - toc
-  - navigation
 
 # Hero section
 title: Mastering The Marketplace
