@@ -72,7 +72,7 @@ This video shows how to subscribe to private SaaS plans in the Microsoft Azure M
 ### Publishing a SaaS Offer
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/AnZDa0Z1z8I" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196318">Video</a> | <a target="_blank" href="./pdfs/03.1-Publishing-a-SaaS-Offer.pdf">PDF</a>
@@ -82,7 +82,7 @@ This detailed video presents the concepts of publishing a SaaS offer and then wa
 ## SaaS Technical Knowledge
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/67E7LPL_aic" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196256">Video</a> | <a target="_blank" href="./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf">PDF</a>
@@ -92,7 +92,7 @@ This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#
 ### SaaS Pricing in Partner Center Publisher Overview
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/xzM4V1I6bRE" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2201523">Video</a> | [PDF](../partner-center/pdfs/03.2-saas-pricing-in-partner-center-publisher-overview.pdf)
@@ -102,7 +102,7 @@ Pricing and billing options for SaaS offers are very flexible and give publisher
 ### SaaS Pricing in Partner Center Publisher Demo
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/2akaTVj87j4" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2201524">Video</a>
@@ -112,7 +112,7 @@ Pricing and billing options for SaaS offers are very flexible and give publisher
 ### SaaS Offer Technical Overview
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/0c-rzJkTV7w" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196315">Video</a> | <a target="_blank" href="./pdfs/04-SaaS-Offer-Technical-Overview.pdf">PDF</a>
@@ -128,7 +128,7 @@ Watch a deep technical overview of how SaaS offers work in the Microsoft Azure M
 ### Azure AD Application Registrations
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/-wjlgxJIlWQ" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196262">Video</a> | <a target="_blank" href="./pdfs/05-Azure-AD-Application-Registrations.pdf">PDF</a>
@@ -144,7 +144,7 @@ This module introduces just enough on this topic to help us build our landing pa
 ### Using the SaaS Offer REST Fulfillment API
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/eizdN6XNyvw" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196320">Video</a> | <a target="_blank" href="./pdfs/06-Using-the-SaaS-Offer-Fulfillment-API.pdf">PDF</a>
@@ -177,7 +177,7 @@ This video shows a sample command line application that can talk to the client l
 ### Building a Simple SaaS Landing Page in .NET
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/QoDXqp3GH_s" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196323">Video</a> | <a target="_blank" href="./pdfs/08-simple-landing-page-dotnet.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/saas-simple-landing-page">Code</a>
@@ -194,7 +194,7 @@ The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it s
 ### Building a Simple SaaS Publisher Portal in .NET
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/bKNFoLfrTHU" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196257">Video</a> | <a target="_blank" href="./pdfs/09-simple-publisher-portal-dotnet.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/saas-simple-publisher-portal">Code</a>
@@ -210,7 +210,7 @@ The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it s
 ### SaaS Webhook Overview
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Fl6CZyrJnw8" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196258">Video</a> | <a target="_blank" href="./pdfs/10.1-simple-webhook-overview.pdf">PDF</a>
@@ -226,6 +226,9 @@ And more! Consider watching this video before moving on to the code-based module
 
 ### Implementing a Simple SaaS Webhook in .NET
 
+<div class="tinyVideo">
+      <iframe src="https://www.youtube.com/embed/higEi441t1Q" frameborder="0" allowfullscreen></iframe>
+</div>
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196159">Video</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/simple-webhook-dotnet-implementing">Code</a>
 
 This code-heavy module focuses on the fundamentals of implementing a SaaS offer webhook as an Azure function using .NET. Concepts are presented in such a way as to be architecture and technology stack agnostic.
@@ -233,7 +236,7 @@ This code-heavy module focuses on the fundamentals of implementing a SaaS offer 
 ### Securing a Simple SaaS Webhook in .NET
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Wifuc5jAY7E" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196421">Video</a> | <a target="_blank" href="./pdfs/10.3-simple-webhook-dotnet-securing.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/simple-webhook-dotnet-securing">Code</a>
@@ -245,7 +248,7 @@ Although utilizing an Azure function built in .NET, topics are presented in such
 ### SaaS Metered Billing Overview
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/DJQ-2-wh6vU" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196314">Video</a> | <a target="_blank" href="./pdfs/11.1-saas-metered-billing-overview.pdf">PDF</a>
@@ -259,7 +262,7 @@ This module presents the fundamentals of billing through the marketplace based o
 ### The SaaS Metered Billing API with REST
 
 <div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/hYqoqbzCbfY" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/dcoSzngO3MQ" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196418">Video</a>
