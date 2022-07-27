@@ -15,7 +15,7 @@
     width: 43%;
     padding: 3%;
     margin: 2%;
-    height: 21em;
+    height: 25em;
     margin-left: 0;
     margin-bottom: 2em;
     box-shadow: 0 0 0.2em silver;
@@ -44,6 +44,11 @@
         margin-bottom: 3em;
         height: auto;
     }
+
+        .landing-tile .md-button {
+            position: relative;
+            bottom: unset;
+        }
 }
 footer {
     background-color: #171717;
