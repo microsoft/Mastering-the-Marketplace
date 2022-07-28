@@ -28,19 +28,11 @@ Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon are the creators of this c
 
 ## Creating Virtual Machine Offers Overview
 
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/NoYChYI27VU" frameborder="0" allowfullscreen></iframe>
-</div>
-
 <a href="https://go.microsoft.com/fwlink/?linkid=2197805" target="_blank">Video</a>
 
 This introductory module takes you from start to finish in creating and publishing virtual machine offers in the Microsoft commercial marketplace. Get an overview of the process from beginning to end before embarking on the more technical details in later modules.
 
 ## Partner Center Overview
-
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/n8R_qBq-gzU" frameborder="0" allowfullscreen></iframe>
-</div>
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2197586" target="_blank">Video</a>
 
@@ -48,19 +40,11 @@ Learn about creating your offers in Partner Center, including private plans, CRM
 
 ## Creating an Offer in Partner Center (Demo)
 
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/BhHhai7RH84" frameborder="0" allowfullscreen></iframe>
-</div>
-
 <a href="https://go.microsoft.com/fwlink/?linkid=2197587" target="_blank">Video</a>
 
 See how to create an offer in Partner Center to include creating the offer, configuring a basic CRM integration, specifying offer properties, listing details, and resell with CSP settings. This video does not go into the specifics of creating the Virtual Machine plans for the offer, which will be seen in a later demo.
 
 ## Creating and Customizing a Virtual Machine (Demo)
-
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/YR-Sve-izi8" frameborder="0" allowfullscreen></iframe>
-</div>
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2197588" target="_blank">Video</a>
 
@@ -68,19 +52,11 @@ Learn how to not only create a Virtual Machine, but how to customize it by addin
 
 ## Generalizing and Capturing a Virtual Machine Image
 
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/vdiaT6SgQl8" frameborder="0" allowfullscreen></iframe>
-</div>
-
 <a href="https://go.microsoft.com/fwlink/?linkid=2197589" target="_blank">Video</a>
 
 Learn what it means to generalize and capture a Virtual Machine so it can be made available in your offer. The examples provided in this overview pertain to both Windows and Linux machines.
 
 ## Generalizing and Capturing a Virtual Machine Image (Demo)
-
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/93Cv1wERLyM" frameborder="0" allowfullscreen></iframe>
-</div>
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2197497" target="_blank">Video</a>
 
@@ -88,19 +64,11 @@ See how to capture both a Linux and Windows Virtual Machine for use in your mark
 
 ## Publish Your Virtual Machine Offer with Partner Center (Demo)
 
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/yg4hx1vvX-0" frameborder="0" allowfullscreen></iframe>
-</div>
-
 <a href="https://go.microsoft.com/fwlink/?linkid=2197498" target="_blank">Video</a>
 
 This demonstration takes you through creating a plan for your Virtual Machine offer, associating the correct image to the plan, and setting other configuration options on your Virtual Machine. After completing the plan configuration you get to see the offer published.
 
 ## Securing Your Virtual Machine
-
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/-MXo93ItRfg" frameborder="0" allowfullscreen></iframe>
-</div>
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2197298" target="_blank">Video</a>
 
@@ -108,19 +76,11 @@ Learn about things you can do to secure your Virtual Machine offer and the image
 
 ## Virtual Machine Automation with Packer Overview
 
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/YV510PUfmck" frameborder="0" allowfullscreen></iframe>
-</div>
-
 <a href="https://go.microsoft.com/fwlink/?linkid=2197900" target="_blank">Video</a>
 
 Learn about the Packer tool that enables automating many of the tasks you’ve seen done by hand up until now. Packer gives you the power to create virtual machines, install software, create images, and more.
 
 ## Virtual Machine Automation with Packer (Demo)
-
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/mkPTS4A2rsw" frameborder="0" allowfullscreen></iframe>
-</div>
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2197723" target="_blank">Video</a>
 
@@ -128,29 +88,17 @@ See how the Packer tool gives you the power to automate many of the tasks needed
 
 ## The Virtual Machine Offer Certification Process 
 
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/R3Op82q_HjI" frameborder="0" allowfullscreen></iframe>
-</div>
-
 <a href="https://go.microsoft.com/fwlink/?linkid=2197191" target="_blank">Video</a>
 
 This quick lecture walks through the Virtual Machine offer certification process and details common reasons why certification may fail for a newly submitted virtual machine offer. This video can save you loads of time by helping you avoid common mistakes or misunderstandings.
 
 ## Virtual Machine Certification Test Tool (Demo)
 
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/KxKhg4h1PD0" frameborder="0" allowfullscreen></iframe>
-</div>
-
 <a href="https://go.microsoft.com/fwlink/?linkid=2197192" target="_blank">Video</a>
 
 There is a tool one can use to help prepare their Virtual Machine image for certification. The Virtual Machine image certification tool is exercised in this video, and we get to see how to set it up and use it to gain confidence that a Virtual Machine image will not be rejected during certification.
 
 ## Purchasing the Virtual Machine Offer
-
-<div class="tinyVideo">
-      <iframe src="https://www.youtube.com/embed/W9lFvcmdrCY" frameborder="0" allowfullscreen></iframe>
-</div>
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2197724" target="_blank">Video</a>
 
