@@ -28,6 +28,10 @@ Get your hands dirty with the [hands-on labs](#hands-on-labs).
 
 ## A SaaS Accelerator Hands-on Tour - The Basics
 
+<div class="tinyVideo">
+      <iframe src="https://www.youtube.com/embed/I9bQlhjNa_8" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196164">Video</a>
 
 This introduction to the accelerator demonstrates the [SaaS Accelerator's](https://aka.ms/SaaSAccelerator) core capabilities showing why it may be a good choice for your marketplace SaaS offer. In three short demos, this video shows its fundamental capabilities. 
@@ -36,11 +40,19 @@ You'll see the landing page, the publisher's subscription management portal, and
 
 ## SaaS Accelerator Architecture
 
+<div class="tinyVideo">
+      <iframe src="https://www.youtube.com/embed/mVosyz61z3I" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196167">Video</a> | <a href="./pdfs/03-architecture.pdf">PDF</a>
 
 This quick video covers the overall architecture of the SaaS Accelerator. The architecture is straightforward and is explained in plain language appropriate for those with any level of experience with Azure.
 
 ## Installing the SaaS Accelerator With the Install Script
+
+<div class="tinyVideo">
+      <iframe src="https://www.youtube.com/embed/BVZTj6fssQ8" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196326">Video</a> | <a href="./pdfs/21-Installing-the-SaaS-Accelerator.pdf">PDF</a>
 
@@ -50,17 +62,29 @@ This video will get you up and running with the SaaS Accelerator in no time at a
 
 ## Invoking Metered Billing with the SaaS Accelerator
 
+<div class="tinyVideo">
+      <iframe src="https://www.youtube.com/embed/DXmyagu98nE" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196161">Video</a>
 
 We look at the metered billing capabilities of the SaaS Accelerator for the Azure Marketplace. This video shows how to manually invoke metered billing events from the SaaS Accelerator without needing to integrate your solution with the SaaS Metering APIs.
 
 ## Custom Landing Page Fields with the SaaS Accelerator
 
+<div class="tinyVideo">
+      <iframe src="https://www.youtube.com/embed/ixqo2sO9rLs" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196166">Video</a>
 
 In addition to showing your subscribers information about their subscription when they arrive at your landing page, you may also want to capture some information from them. This is possible using custom fields on the landing page and this short video shows you how to use them.
 
 ## Configuring Email in the SaaS Accelerator
+
+<div class="tinyVideo">
+      <iframe src="https://www.youtube.com/embed/IniPruOrV8I" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2196165" target="_blank">Video</a>
 
