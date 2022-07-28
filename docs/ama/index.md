@@ -29,6 +29,8 @@ Get your hands dirty with the [hands-on labs](#hands-on-labs). The slides for th
       <iframe src="https://www.youtube.com/embed/fT1IT9Qf-6U" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196307">Video</a>
+
 This module sets the stage for all the others that follow by providing a quick introduction to the course. See what the course will offer in various modules.
 
 ## Managed Applications Overview
@@ -36,6 +38,8 @@ This module sets the stage for all the others that follow by providing a quick i
 <div class="tinyVideo">
       <iframe src="https://www.youtube.com/embed/JJN7TpWCz8A" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196411">Video</a>
 
 Solution Template offers and Azure Managed Application offers are very similar, but there is an important difference. Learn about the two types of managed applications in this module detailing the differences.
 
@@ -45,6 +49,8 @@ Solution Template offers and Azure Managed Application offers are very similar, 
       <iframe src="https://www.youtube.com/embed/gAZ1q10kkV4" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196308">Video</a>
+
 Azure Managed Applications are the transactable Managed App offer type. Get a walkthrough of Azure Managed Applications including their general architecture and usage.
 
 ## Partner Center with Azure Managed Applications Overview
@@ -52,6 +58,8 @@ Azure Managed Applications are the transactable Managed App offer type. Get a wa
 <div class="tinyVideo">
       <iframe src="https://www.youtube.com/embed/N8fgRAoMTNo" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196143">Video</a>
 
 Partner Center is the portal publishers use to create, configure, publish, and monitor their offers in the Microsoft Marketplace. This overview takes you through Partner Center for Azure Managed Applications.
 
@@ -61,6 +69,8 @@ Partner Center is the portal publishers use to create, configure, publish, and m
       <iframe src="https://www.youtube.com/embed/irtf86eV5Ak" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196410">Video</a>
+
 Understanding Partner Center, the publisher's portal, is key to creating great offers. This demo walks through setting up a Partner Center offer for an Azure Managed Application.
 
 ## Azure Managed Application Deployment Package Overview
@@ -68,6 +78,8 @@ Understanding Partner Center, the publisher's portal, is key to creating great o
 <div class="tinyVideo">
       <iframe src="https://www.youtube.com/embed/N8rpGsy8lVU" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196244">Video</a>
 
 The deployment package for Azure Managed Applications is the definition of the application itself. Learn about its components and their role in this quick overview.
 
@@ -77,6 +89,8 @@ The deployment package for Azure Managed Applications is the definition of the a
       <iframe src="https://www.youtube.com/embed/R-pJJ1K_nUc" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196245">Video</a>
+
 This demo walks through working with Azure Managed Application deployment packages. Learn about the usage and components of the ARM template, `mainTemplate.json`, and how to work with `createUiDefinition.json` to create great install experiences.
 
 ## Integrating Virtual Machine Offers into Azure Managed Applications
@@ -84,6 +98,8 @@ This demo walks through working with Azure Managed Application deployment packag
 <div class="tinyVideo">
       <iframe src="https://www.youtube.com/embed/szWKrN2q6XQ" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196246">Video</a>
 
 Deploying a custom virtual machine is a common need when working with Managed Apps. Get an overview of how to integrate a custom Virtual Machine offer into an Azure Managed Application deployment package.
 
@@ -93,6 +109,8 @@ Deploying a custom virtual machine is a common need when working with Managed Ap
       <iframe src="https://www.youtube.com/embed/v8yR03mwFBo" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196249">Video</a>
+
 See the purchasing process of an Azure Managed Application from the customer’s point of view. This module is often helpful for customers looking to familiarize themselves with the purchase process.
 
 ## Managing My Purchased Azure Managed Applications – Demo
@@ -100,6 +118,8 @@ See the purchasing process of an Azure Managed Application from the customer’s
 <div class="tinyVideo">
       <iframe src="https://www.youtube.com/embed/dXdagj_uEW4" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196409">Video</a>
 
 Once a customer has purchased one or more Azure Managed Apps, they may need to manage those subscriptions. See the tools and techniques customers have through the Azure portal for managing their Azure Managed Application subscriptions.
 
@@ -109,6 +129,8 @@ Once a customer has purchased one or more Azure Managed Apps, they may need to m
       <iframe src="https://www.youtube.com/embed/KKN1rQeZumk" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196309">Video</a>
+
 Managing Azure Managed Application customer deployments is the responsibility of the publisher. See the tools techniques publishers use to do this easily and effectively through the Azure portal as well as getting a walkthrough of how to use them.
 
 ## Managing My Customer’s Azure Managed Applications – Demo
@@ -116,6 +138,8 @@ Managing Azure Managed Application customer deployments is the responsibility of
 <div class="tinyVideo">
       <iframe src="https://www.youtube.com/embed/LgQhZwe3TCc" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196243">Video</a>
 
 Once deployed, Azure Managed Applications are managed and maintained by the publisher. This module shows the Azure portal-based tools and practices publishers use to manage their customer’s environments.
 
@@ -125,6 +149,8 @@ Once deployed, Azure Managed Applications are managed and maintained by the publ
       <iframe src="https://www.youtube.com/embed/iQTCnzRSN6c" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196310">Video</a>
+
 Billing for usage-based consumption is a requirement for many Azure Managed Applications. Get a walkthrough of metered billing and an architectural overview of how it works.
 
 ## Metered Billing for Azure Managed Applications – Demo
@@ -133,6 +159,8 @@ Billing for usage-based consumption is a requirement for many Azure Managed Appl
       <iframe src="https://www.youtube.com/embed/t--VFPbHPLM" frameborder="0" allowfullscreen></iframe>
 </div>
 
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196412">Video</a>
+
 See metered billing in action at the REST API level. This module shows metered billing API interaction through Postman.
 
 ## Advanced Deployment Scenarios for Azure Managed Applications
@@ -140,6 +168,8 @@ See metered billing in action at the REST API level. This module shows metered b
 <div class="tinyVideo">
       <iframe src="https://www.youtube.com/embed/BvNMl0sAFsM" frameborder="0" allowfullscreen></iframe>
 </div>
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196306">Video</a>
 
 This brief module covers a few advanced scenarios for Azure Managed Application deployments including containers and IoT integration.
 
