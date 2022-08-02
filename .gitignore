@@ -9,6 +9,7 @@
 *.swp
 Thumbs.db
 .vs/
+.vscode/
 
 # -----------------------
 # Local Development Tools
