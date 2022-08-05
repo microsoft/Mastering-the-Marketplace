@@ -1,7 +1,62 @@
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: 200;
+    font-style: normal;
+    src: url(./fonts/SegoePro-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: 200;
+    font-style: italic;
+    src: url(./fonts/SegoePro-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    font-style: normal;
+    src: url(./fonts/SegoePro-Semilight.ttf);
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: 300;
+    font-style: italic;
+    src: url(./fonts/SegoePro-SemilightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    src: url(./fonts/SegoePro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: italic;
+    src: url(./fonts/SegoePro-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    font-style: normal;
+    src: url(./fonts/SegoePro-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    font-weight: 500;
+    font-style: italic;
+    src: url(./fonts/SegoePro-BoldItalic.ttf);
+}
+
 :root > * {
     --md-primary-fg-color: #0078D4;
-
-    font-family: 'Segoe UI'; 
+    font-family: 'Segoe UI', sans-serif; 
 }
 
 [dir=ltr] .md-header__title {
