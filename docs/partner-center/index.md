@@ -23,9 +23,9 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 
 ---
 
-## Private Offers
+## Working with Private Offers
 
-### Private Offer Overview ISV to Customer Offers
+### ISV to Customer Private Offer Overview
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196150">Video</a> | [PDF](./pdfs/01.1-isv-private-offer-overview.pdf)
 
@@ -67,7 +67,7 @@ This demo takes you through the process of an ISV creating a private offer for s
 
 In this walkthrough video, see the purchase process partners in the Cloud Solution Provider (CSP) program go through to purchase private offers created by ISVs.
 
-## Configuring and Publishing Offers
+## Working with SaaS Offers
 
 ### Publishing a SaaS Offer
 
@@ -87,37 +87,47 @@ Pricing and billing options for SaaS offers are very flexible and give publisher
 
 Pricing and billing options for SaaS offers are very flexible and give publishers many options for how to bill and get paid for their solutions. This video demonstrates how to use Partner Center to create and price a plan from start to finish, including using metered billing options.
 
+### SaaS Purchase Customer Experience
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2202782">Video</a>
+
+Customers may have many choices about what billing and pricing options they would like to subscribe to for a SaaS offer. This video walks through the purchase process from the customer’s point of view showing how to use purchasing tools to simplify the purchase experience.
+
 ### Publishing a Private SaaS Plan
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196256">Video</a> | [PDF](../saas/pdfs/03.2-Publishing-Private-SaaS-Plan.pdf)
 
 This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
 
-### Migrating Listings to SaaS Offers
+### Migrating Listings to SaaS Offers}
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196250">Video</a>
 
 You may have started your online presence in the commercial marketplace with a simple listing to advertise your services. This does not, however, create a transactable offer that can be sold through the marketplace. This video shows how to convert your existing listing into a fully transactable SaaS Offer.
 
-### Configuring a Virtual Machine Offer in Partner Center – Demo
+## Working with Virtual Machine Offers
+
+### Configuring a Virtual Machine Offer with Partner Center Demo
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2197587" target="_blank">Video</a>
 
 See how to create a Virtual Machine offer in Partner Center to include creating the offer, configuring a basic CRM integration, specifying offer properties, listing details, and resell with CSP settings. This video does not go into the specifics of creating the Virtual Machine plans for the offer, which will be seen in a later demo.
 
-## Publish Your Virtual Machine Offer with Partner Center (Demo)
+### Publish a Virtual Machine Offer with Partner Center Demo
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2197498" target="_blank">Video</a>
 
 This demonstration takes you through creating a plan for your Virtual Machine offer, associating the correct image to the plan, and setting other configuration options on your Virtual Machine. After completing the plan configuration you get to see the offer published.
 
-### Partner Center with Azure Managed Applications Overview
+## Working with Azure Managed Application Offers
+
+### Partner Center for Azure Managed Applications Overview
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196143">Video</a>
 
 Partner Center is the portal publishers use to create, configure, publish, and monitor their offers in the Microsoft Marketplace. This overview takes you through Partner Center for Azure Managed Applications.
 
-### Configuring Partner Center for Azure Managed Applications - Demo
+### Partner Center for Azure Managed Applications Demo
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196410">Video</a>
 
