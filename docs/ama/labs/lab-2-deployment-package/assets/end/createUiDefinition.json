@@ -78,7 +78,7 @@
                         "constraints": {
                             "required": true,
                             "regex": "^[a-zA-Z0-9]{12}$",
-                            "validationMessage": "Password must be at least 12 characters long, contain only numbers and letters"
+                            "validationMessage": "Password must be exactly 12 characters long and contain only numbers and letters"
                         },
                         "options": {
                             "hideConfirmation": false
