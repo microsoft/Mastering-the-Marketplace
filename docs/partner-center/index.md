@@ -99,7 +99,7 @@ Customers may have many choices about what billing and pricing options they woul
 
 This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
 
-### Migrating Listings to SaaS Offers}
+### Migrating Listings to SaaS Offers
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196250">Video</a>
 
