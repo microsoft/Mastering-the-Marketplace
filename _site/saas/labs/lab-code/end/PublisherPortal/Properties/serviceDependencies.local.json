@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "identityapp.aad1": {
-      "secretStore": null,
-      "type": "identityapp.aad.callsgraph",
-      "connectionId": "AzureAD:ClientSecret"
-    }
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "identityapp.aad1": {
-      "type": "identityapp.aad",
-      "connectionId": "AzureAD:ClientSecret"
-    }
-  }
-}

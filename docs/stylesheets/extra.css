@@ -1,0 +1,93 @@
+:root > * {
+    --md-primary-fg-color: #0078D4;
+
+    font-family: 'Segoe UI'; 
+}
+
+[dir=ltr] .md-header__title {
+    margin-left: 0;
+}
+
+.landing-tile {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 43%;
+    padding: 3%;
+    margin: 2%;
+    height: 25em;
+    margin-left: 0;
+    margin-bottom: 2em;
+    box-shadow: 0 0 0.2em silver;
+    border-radius: 0.5em;
+}
+
+.landing-tile h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.landing-tile p {
+    font-size: .92em;
+}
+
+.landing-tile .md-button {
+    position: absolute;
+    bottom: 2em;
+}
+
+.landing-tile .linkless-heading {
+    position: relative;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .landing-tile {
+        position: relative;
+        display: block;
+        width: 95%;
+        padding: 6%;
+        margin-bottom: 1em;
+        height: auto;
+    }
+
+    .landing-tile p {
+        font-size: 0.8em;
+    }
+
+        .landing-tile .md-button {
+            position: relative;
+            bottom: unset;
+        }
+}
+footer {
+    background-color: #171717;
+    height: 17vh;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+footer .container .col-1 p{
+    font-size: 13px;
+}
+
+footer .container .col-2 img{ 
+    height: 14vh; 
+    width: auto;
+    align-items:end;
+}
+
+.md-nav__title{
+    display: none;
+}
