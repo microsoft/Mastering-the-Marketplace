@@ -6,7 +6,6 @@ edit_uri: ''
 extra_css: 
     - stylesheets/extra.css
 nav : 
-- Home: 'index.md'
 - Azure Managed Application Offers: /Mastering-the-Marketplace/ama/
 - Partner Center: /Mastering-the-Marketplace/partner-center
 - SaaS Accelerator: /Mastering-the-Marketplace/saas-accelerator/
@@ -25,10 +24,7 @@ theme:
   features:
     - navigation.sections
 extra: 
-  homepage: https://azure.microsoft.com/
-  analytics:
-    provider: google
-    property: G-XXXXXXXXXX # Use production Property ID here
+  homepage: https://microsoft.github.io/Mastering-the-Marketplace/
   generator: false
 markdown_extensions:
   - meta
