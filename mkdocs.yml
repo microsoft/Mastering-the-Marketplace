@@ -25,9 +25,6 @@ theme:
     - navigation.sections
 extra: 
   homepage: https://microsoft.github.io/Mastering-the-Marketplace/
-  analytics:
-    provider: google
-    property: G-XXXXXXXXXX # Use production Property ID here
   generator: false
 markdown_extensions:
   - meta
