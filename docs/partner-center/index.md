@@ -77,7 +77,8 @@ This detailed video presents the concepts of publishing a SaaS offer and then wa
 
 ### SaaS Pricing in Partner Center Publisher Overview
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2201523">Video</a> | [PDF](./pdfs/03.2-saas-pricing-in-partner-center-publisher-overview.pdf)
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2201523">Video</a> | 
+[PDF](../partner-center/pdfs/03.2-saas-pricing-in-partner-center-publisher-overview.pdf)
 
 Pricing and billing options for SaaS offers are very flexible and give publishers many options for how to bill and get paid for their solutions. This video walks through the SaaS pricing models and gives real-world examples of using them effectively.
 
