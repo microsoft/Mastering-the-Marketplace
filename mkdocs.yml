@@ -7,7 +7,7 @@ extra_css:
     - stylesheets/extra.css
 nav : 
 - Azure Managed Application Offers: /Mastering-the-Marketplace/ama/
-- Partner Center: /Mastering-the-Marketplace/partner-center
+- Partner Center: /Mastering-the-Marketplace/partner-center/
 - SaaS Accelerator: /Mastering-the-Marketplace/saas-accelerator/
 - SaaS Offers: /Mastering-the-Marketplace/saas/
 - Virtual Machine Offers: /Mastering-the-Marketplace/vm/
