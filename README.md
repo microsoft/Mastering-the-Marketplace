@@ -1,7 +1,5 @@
 # Mastering the Marketplace
 
-<img src="./images/Azure_Store_Marketplace.png" width="100px" title="Microsoft marketplace" align="left"/>
-
 This content helps you bring your solution to the Microsoft marketplace faster and with more understanding. This library contains self-paced videos, hands-on labs, and sample code.
 
 **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
