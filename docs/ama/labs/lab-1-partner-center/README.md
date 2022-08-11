@@ -51,7 +51,6 @@ In this section you will create an Azure **Data Storage account** using the Azur
 3. Select the **Review and create** at the bottom of the page.You are taken to the final review page and a message should appear at the top of the page, **Validation passed**.
 4. Select the **Create** button.
 
-
 ### CRM leads - Part 2
 
 In this section you will finish configuring leads management by connecting it to the new Data Storage account you just created.
@@ -71,7 +70,7 @@ You have completed the **Offer setup** screen. Proceed to the next exercise.
 
 In this exercise you will fill out the **Properties** section of your offer. 
 
-1. Navigate the to **Properties** page via the left hand navigation.
+Navigate the to **Properties** page via the left hand navigation.
 
 ### Categories
 
@@ -101,12 +100,13 @@ In this exercise, you fill out the **Offer listing** page.
 4. In the **Description** text area, enter "**AMA Workshop 1 description**".
 5. In the **Search keywords** section, you may enter up to 3 keywords.
 6. For the **Privacy policy link** textbox, you may use Microsoft's privacy policy for this workshop. Enter "https://privacy.microsoft.com/en-us/privacystatement". This is for lab purposes. Do not use Microsoft's privacy policy on real offers.
-7. Scroll down to the **Support contact** section and enter the required information. For the field **Support website for Azure Global customers**, enter the link "https://partner.microsoft.com/en-US/support/v2/". Again, this is for lab purposes only, not to be used in a live offer. This would be a link to a page on your own site.
+7. Scroll down to the **Support contact** section and enter the required information. For the field **Support website for Azure Global customers**, enter the link `https://partner.microsoft.com/en-US/support/v2/`. 
+Again, this is for lab purposes only, not to be used in a live offer. This would be a link to a page on your own site.
 8. Scroll down to the **Engineering contact information** section.
 9. Enter the required information.
 10. Scroll down to the **Marketplace media > Logos** section.
 
-Here you will need to upload two logos that must be of the exact right size. Examples are provided for you in the [./lab-1-partner-center/assets](./assets) folder. You can click to navigate to the images or you can drag and drop them.
+Here you will need to upload two logos that must be of the exact right size. Examples are provided for you in [this directory](https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/ama/labs/lab-1-partner-center/assets). Upload these images. If you have cloned this repository they will already be on your local drive.
 
 1. Upload the two images.
 1. For the screenshot, click the **Add image caption** link. Enter whatever you like for a caption.
@@ -166,12 +166,12 @@ Every offer must include at least one plan. In this exercise, you will add two p
 
 1. Click the **Pricing and availability** menu item on the left. 
 1. In the **Markets** section, click the **Edit markets** link. you must select at least one market in which your plan will be available for purchase. Most users will select "United States."
-1.   Select a market.
+1. Select a market.
 1. Click the **Save** button.
 
-In the **Pricing** section you will enter prices of $0 because you don't want this workshop to cost you money when you buy your offer later.
+> ⚠️ In the **Pricing** section you will enter prices of $0 because you don't want this workshop to cost you money when you buy your offer later.
 
-1. For **Price**, enter 0.
+- For **Price**, enter 0.
 
 In this section, we are going to have you do something that will be explained later in the day. It needs to be done upon plan creation, so you will do it now.
 
@@ -182,7 +182,7 @@ In this section, we are going to have you do something that will be explained la
     1. For **Unit of measure**, enter "Scanned page".
     1. For **Price Per** unit, enter 0.0
     1. For **Monthly included in price**, enter 1000.
-1. Click **Add another Dimension**.
+2. Click **Add another Dimension**.
     1. The **Enabled** checkbox is selected. 
     1. For **ID**, enter "write-to-emr".
     1. For **Display name**, enter "EMR Write".
@@ -218,11 +218,11 @@ In this section, you specify details about your plan needed to create the applic
 1. At the bottom of the screen, click the **Review and publish** button.
 2. All circles to the right should be green with a check box in them. If any are grey, fix that section and come back to **Review and publish changes**.
 
-> **DO NOT** publish your offer yet.
+> 🛑 **DO NOT** publish your offer yet. It still needs more configuration, which you'll do in a future lab.
 
 ## Conclusion
 
-Congratulations, you have completed Lab 1, the longest lab in the workshop. Other labs will build upon what you have done here in this lab. In this lab you did the following.
+ Congratulations, you have completed Lab 1, the longest lab in the workshop. Other labs will build upon what you have done here in this lab. 
 
 ## Appendix
 
