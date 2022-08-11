@@ -248,3 +248,5 @@ In this section, you specify details about your plan needed to create the applic
 1. Select **Users** from the dropdown menu.
 1. Search for your user account and click on it.
 1. Find the **Object ID** and copy it to your clipboard.
+
+👈 [Back to Azure Managed Applications labs](../../index.md#labs)

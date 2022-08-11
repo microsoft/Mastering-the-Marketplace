@@ -15,7 +15,7 @@ This lab will take you through the process of administering Managed Applications
 This exercise introduces the primary tool you will use for administering your customer's installations of your solution, **Managed Application Center**. 
 
 1. In the Azure portal, in the search box at the top of the page, enter **Managed Application Center** and select it from the dropdown.
-   > Note this page allows access to tools to manage both **Service Catalog-based** applications and **Marketplace applications**.
+   > 🗒️ Note this page allows access to tools to manage both **Service Catalog-based** applications and **Marketplace applications**.
 2. In the left hand menu, select **Browse > Marketplace applications**. You see a list of all the offers that have been purchased by yur customers.
 3. Click the link **AMA Workshop 01**.
 4. Here you see a list of all customer purchases of your marketplace Managed Applications.
@@ -81,3 +81,5 @@ Congratulations, you have completed Lab 5. In this lab, you did the following.
 1. Learned about the Managed Application Center inside the Azure portal.
 2. Deleted and created a resource within the customer's Managed Resource Group.
 3. Deleted a customer's Azure Managed Application.
+
+👈 [Back to Azure Managed Applications labs](../../index.md#labs)

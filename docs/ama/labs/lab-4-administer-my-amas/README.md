@@ -37,3 +37,5 @@ Congratulations, you have complete Lab 3! In this lab you did the following.
 
 1. Got familiar with the Managed Application dashboard.
 2. Deleted a managed application and showed that it deleted the corresponding resources associated with it.
+
+👈 [Back to Azure Managed Applications labs](../../index.md#labs)

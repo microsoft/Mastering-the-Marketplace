@@ -607,3 +607,5 @@ In this lab you accomplished the following.
 4. Created a deployment package from the artifacts in this lab.
 5. Created a new plan in Partner Center and used your new deployment package in that plan.
 6. Published your offer with its new plan.
+
+👈 [Back to Azure Managed Applications labs](../../index.md#labs)

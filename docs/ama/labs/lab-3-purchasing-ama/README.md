@@ -161,3 +161,4 @@ Congratulations, you have completed Lab 3. In this lab you accomplished the foll
 2. Examined the artifacts deployed by each plan.
 3. Logged into the virtual machine deployed by the Gold plan.
    
+👈 [Back to Azure Managed Applications labs](../../index.md#labs)
