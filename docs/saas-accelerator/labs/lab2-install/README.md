@@ -13,28 +13,16 @@ This lab takes you through a very quick installation process for the SaaS Accele
 
 ## Exercise: Create an install document
 
-Open your favorite text editor and paste the following PowersShell script into a text file.
+1. Visit the [SaaS Accelerator's installation instructions page](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#) and copy the basic installation script.
+
+2. Open your favorite text editor and paste the PowersShell script you copied into a text file. You'll fill out the parameters in this file.
+
+3. Add the following optional parameters to the install script. This will make the script run more simply, without prompting you for these values.
 
 ```powershell
-wget https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.sh; `
-chmod +x dotnet-install.sh; `
-./dotnet-install.sh; `
-$ENV:PATH="$HOME/.dotnet:$ENV:PATH"; `
-git clone https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator.git -b 5.0.0 --depth 1; `
-cd ./Commercial-Marketplace-SaaS-Accelerator/deployment/Templates; `
-Connect-AzureAD -Confirm; `
-.\Deploy.ps1 `
- -WebAppNamePrefix "marketplacesaasgithub-SOME-UNIQUE-STRING" `
- -SQLServerName "marketplacesaasgithub-SOME-UNIQUE-STRING" `
- -SQLAdminLogin "adminlogin" `
- -SQLAdminLoginPassword "a_very_PASSWORD_2_SymB0L@s" `
- -PublisherAdminUsers "user@email.com" `
- -ResourceGroupForDeployment "MarketplaceSaasGitHub" `
- -Location "East US" `
- -PathToARMTemplate ".\deploy.json" `
- -TenantID "xxxx-xxx-xxx-xxx-xxxx"
- -AzureSubscriptionID "xxx-xx-xx-xx-xxxx"
- ```
+-TenantID "xxxx-xxx-xxx-xxx-xxxx" `
+-AzureSubscriptionID "xxx-xx-xx-xx-xxxx" `
+```
 
 ### Defined values
 
@@ -78,13 +66,13 @@ If you see errors in the output of the script, cancel the run of the script by t
 1. Change the `RESOURCE_GROUP` and `WEB_NAME_PREFIX` to new values to prevent collisions.
 1. In the cloud shell, do the following.
 
-   ```bash
-   # go back to home directory
-   cd ~
+```bash
+# go back to home directory
+cd ~
 
-   # delete the repository directory that was created
-   rm -rf ./Commercial-Marketplace-SaaS-Accelerator/
-   ```
+# delete the repository directory that was created
+rm -rf ./Commercial-Marketplace-SaaS-Accelerator/
+```
 
 1. Run the revised script.
 
