@@ -14,8 +14,6 @@ description: Mastering the Marketplace is a learning library for building transa
 
 Mastering the Marketplace is a learning library for building transactable offers on the Microsoft commercial marketplace. This content helps you bring your solution to the marketplace faster and with more understanding. The library contains self-paced videos, hands-on labs, and sample code.
 
----
-
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">Build Custom SaaS Offers</span>
 This comprehensive course takes you through all you need to get a SaaS offer up and running. From landing pages to webhooks, this course will help you get your custom SaaS offer up and running in days instead of weeks. 
