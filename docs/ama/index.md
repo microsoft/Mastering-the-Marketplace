@@ -17,9 +17,9 @@ This course is designed to help you decrease your onboarding when building an Az
 
 ---
 
-**[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
+✉️ **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
 
-Get your hands dirty with the [hands-on labs](#hands-on-labs). The slides for this course, which are used in the following modules, [are here](./pdfs/ama-workshop-slides.pdf).
+▶️ Get your hands dirty with the [hands-on labs](#hands-on-labs). The slides for this course, which are used in the following modules, [are here](./pdfs/ama-workshop-slides.pdf).
 
 ---
 
