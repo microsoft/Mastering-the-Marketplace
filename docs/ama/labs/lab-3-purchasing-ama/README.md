@@ -6,7 +6,9 @@ First, check Partner Center.
 
 > This lab will only work if your offer in is published and visible in the **Publisher signoff** stage of publication as seen on the **Offer overview**. page in **Partner Center**. 
 > 
-> There should be a **Go live** button on the **Offer overview** page. Do **NOT** click this button at any point today as doing so will submit your offer to the certification team to make it live.
+> There should be a **Go live** button on the **Offer overview** page. 
+> 
+> ⚠️ **Do NOT** click this button at any point today as doing so will submit your offer to the certification team to make it live.
 
 ## Exercise 1 - The Silver plan
 
@@ -49,7 +51,7 @@ This exercise takes you through the process of buying your Silver plan, created 
 1. Scroll down to the **Co-Admin Access Permission** section.
 2. Click the checkbox **I agree to the terms and conditions above**.
 3. Click the **Create** button at the bottom of the screen. You are taken to the **Deployment** page. 
-   > Deploying your application may take a couple of minutes.
+   > ⌛ Deploying your application may take a couple of minutes.
 
 #### Deployment screen
 
