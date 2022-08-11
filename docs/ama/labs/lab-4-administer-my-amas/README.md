@@ -4,7 +4,7 @@ hide:
 
 ---
 
-👈 [Back to Azure Managed Applications home](../../index.md)
+👈 [Back to Azure Managed Applications labs](../../index.md#labs)
 
 # Lab 4 - Administering Your Purchased Managed Applications
 
