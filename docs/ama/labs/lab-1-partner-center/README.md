@@ -230,7 +230,9 @@ In this section, you specify details about your plan needed to create the applic
 
 ## Conclusion
 
- Congratulations, you have completed Lab 1, the longest lab in the workshop. Other labs will build upon what you have done here in this lab. 
+Congratulations, you have completed Lab 1, the longest lab in the workshop. Other labs will build upon what you have done here in this lab. 
+
+👈 [Back to Azure Managed Applications labs](../../index.md#labs)
 
 ## Appendix
 
@@ -249,4 +251,3 @@ In this section, you specify details about your plan needed to create the applic
 1. Search for your user account and click on it.
 1. Find the **Object ID** and copy it to your clipboard.
 
-👈 [Back to Azure Managed Applications labs](../../index.md#labs)
