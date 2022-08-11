@@ -12,7 +12,7 @@ description: This lab will walk you through setting up a Virtual Machine Offer i
 micro_nav: false
 ---
 
-> Note: This lab is part of a series of labs for Mastering the Virtual Machine Offers Workshop. You should finish this lab before moving on to the next sections. 
+This lab is part of a series of labs for Mastering the Virtual Machine Offers Workshop. You should finish this lab before moving on to the next sections. 
 
 <!-- no toc -->
 - [Prerequisites before starting this lab](#prerequisites-before-starting-this-lab)
