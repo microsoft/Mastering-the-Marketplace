@@ -36,7 +36,7 @@ Connect-AzureAD -Confirm; `
  -AzureSubscriptionID "xxx-xx-xx-xx-xxxx"
  ```
 
- ### Defined values
+### Defined values
 
 In your text editor, replace each of the below values. They are described below.
 
