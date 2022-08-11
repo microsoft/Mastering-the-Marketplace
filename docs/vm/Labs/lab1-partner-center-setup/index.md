@@ -12,26 +12,26 @@ description: This lab will walk you through setting up a Virtual Machine Offer i
 micro_nav: false
 ---
 
+👈 [Back to Azure Managed Applications labs](../../index.md#labs)
+
 This lab is part of a series of labs for Mastering the Virtual Machine Offers Workshop. You should finish this lab before moving on to the next sections. 
 
 <!-- no toc -->
-- [Prerequisites before starting this lab](#prerequisites-before-starting-this-lab)
-- [Create a new Virtual Machine Offer](#create-a-new-virtual-machine-offer)
-  - [Offer Setup](#offer-setup)
-  - [Properties](#properties)
-  - [Offer listing](#offer-listing)
-  - [Preview audience](#preview-audience)
-  - [Technical configuration](#technical-configuration)
-  - [Plan overview](#plan-overview)
-  - [Resell through CSPs](#resell-through-csps)
-- [Review and Publish](#review-and-publish)
+1. [Prerequisites before starting this lab](#prerequisites-before-starting-this-lab)
+2. [Create a new Virtual Machine Offer](#create-a-new-virtual-machine-offer)
+    - [Offer Setup](#offer-setup)
+    - [Properties](#properties)
+    - [Offer listing](#offer-listing)
+    - [Preview audience](#preview-audience)
+    - [Technical configuration](#technical-configuration)
+    - [Plan overview](#plan-overview)
+    - [Resell through CSPs](#resell-through-csps)
+3. [Review and Publish](#review-and-publish)
 
 ## Prerequisites before starting this lab
 
 1. Partner Center Account with enrollment in the commercial marketplace program
 2. Access to the Azure Portal on the same tenant as is on Partner Center (Same tenancy is required to ensure you can publish images out of Azure Compute Galleries, more on this in the later modules).
-
-<br />
 
 ## Create a new Virtual Machine Offer
 
@@ -47,19 +47,18 @@ The following steps will create an offer on your Partner Center Portal.
 
     Replace the variable YOUR_UNIQUE_STRING with a name unique to your organization
 
-Once the offer is created, navigate to the Offer Setup page by clicking on that tab on the left
+Once the offer is created, navigate to the Offer Setup page by clicking on that tab on the left.
 
-<br />
+## Offer Setup
 
-### Offer Setup
 Offer Setup page will direct you with ways to change your offer alias as well as enable Test Drive. For the purpose of this lab, we will leave everything as is and only configure the Customer leads section.
 
 
-#### Customer leads
+### Customer leads
 
 Here, you will attach your offer to an Azure Data Storage table which will act as a connected Customer Relationship Management system (CRM) for your offer.
 
-#### Create the Azure Storage account
+### Create the Azure Storage account
 
 This is the first time you're using the Azure portal for this class. It is recommended that you install all the resources you'll create in this class into the same Resource Group, just to keep things tidy within your Azure subscription.
 
@@ -72,7 +71,7 @@ This is the first time you're using the Azure portal for this class. It is recom
 1. At the top of the page, click the **Show keys** link, and you see the connection strings for the database.
 1. Copy a connection string to your copy/paste buffer.
 
-#### Configure Customer Leads in Partner Center
+### Configure Customer Leads in Partner Center
 
 1. Go back to the Partner Center tab in your browser.
 1. Select the **Connect** link.
@@ -85,12 +84,10 @@ This is the first time you're using the Azure portal for this class. It is recom
 
 1. Click **Save draft** at the bottom of the page.
 
-<br />
+## Properties
+Navigate to the Properties page by selecting the Properties tab on the left.
 
-### Properties
-You will now navigate to the Properties page by selecting the Properties tab on the left.
-
-#### Categories
+### Categories
 
 You must select at least one category for your offer. Virtual machine offers always appear under the Compute category in Azure Marketplace. For this lab we will be selecting the below configurations.
 
@@ -98,7 +95,7 @@ You must select at least one category for your offer. Virtual machine offers alw
 1. In the left dropdown, select **Compute**.
 1. In the right dropdown, select **Application Infrastructure**.
 
-#### Legal
+### Legal
 We will be using the Microsoft Standard Contract for this lab. You may choose differently when you are publishing to the prod environment.
 
 1. Scroll down to the **Legal** section.
@@ -113,8 +110,10 @@ Navigate to the Offer listing page.
 
 1. In the the **Offer listing** section, for **Search results summary** enter **VM Workshop summary**.
 1. For **Short Description** and **Description**, here is some text you may choose to copy and paste into the text box.
-
-    > Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+    ```text
+    Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    ```
 
 1. In the **Privacy policy link**, enter the public link to the privacy policy for your company if you know it. If not, follow this link to [Microsoft's privacy policy](https://privacy.microsoft.com/privacystatement) and use that URL. 
     >Please note that using Microsoft's privacy policy is only for the purpose of this lab and should not be used for your production offer.
@@ -123,13 +122,11 @@ Navigate to the Offer listing page.
 1. In the **Engineering Contact** section, enter your engineering contact information.
 1. In the **Cloud Solution Provider Program Contact** section, enter the appropriate contact information (Optional)
 
-1. For the Marketplace media section you'll upload 2 images.
-    1. For the **216X216 logo image,** upload the PNG provided in the `./items` directory of **lab1**. This PNG is named "**Contoso-Logo-216x216.png**."
-    1. For the **1280X720** screenshot image, upload the PNG provided in the `./items` directory of **lab1**. This PNG is named "**Screenshots-1280x720.png**."
+1. For the Marketplace media section you'll upload 2 images, both of which are [available here](https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/vm/Labs/lab1-partner-center-setup/items).
+    1. For the **216X216 logo image,** upload the PNG provided. This PNG is named "**Contoso-Logo-216x216.png**."
+    1. For the **1280X720** screenshot image, upload the PNG provided. This PNG is named "**Screenshots-1280x720.png**."
     1. Add a screenshot image caption.
 1. Click the **Save draft** button and correct any errors that be shown before moving on.
-
-<br>
 
 ### Preview audience
 
@@ -137,27 +134,20 @@ Navigate to the Offer listing page.
 1. Enter a **Description** (Optional).
 1. Click **Save draft**.
 
-<br>
-
 ### Technical configuration
 
 Skip this section for this first lab.
 
-<br>
-
 ### Plan overview
 
-Skip this section for this lab.
-
-<br>
+Skip this section for this lab. You'll come back to it later.
 
 ### Resell through CSPs
+
 Finally navigate to the Resell through CSPs tab.
 
 1. Select "No partners in the CSP program."
 1. Click the **Save draft** button at the bottom of the screen.
-
-<br> 
 
 ## Review and Publish
 
@@ -174,4 +164,4 @@ In this short exercise, you will check your work by performing the first action 
 
 **Congratulations!** You have now finished this lab.
 
-If you are in a live class setting, please raise your hand (even if virtually) to indicate you are done with the lab.
+👈 [Back to Azure Managed Applications labs](../../index.md#labs)
