@@ -8,29 +8,28 @@ This exercise introduces **Azure Resource Manager Template Toolkit** (ARM TTK), 
 
 You will clone the ARM TTK repository and bring the code to your local machine where it can be executed using PowerShell. 
 
-If you are not on Windows, you may download PowerShell for your platform.
-
-- [Linux](https://github.com/Azure/arm-ttk/blob/master/arm-ttk/README.md#running-tests-on-linux)
-- [macOS](https://github.com/Azure/arm-ttk/blob/master/arm-ttk/README.md#running-tests-on-macos)
+> If you are not on Windows, you may download PowerShell for your platform.
+> 
+> - [Linux](https://github.com/Azure/arm-ttk/blob/master/arm-ttk/README.md#running-tests-on-linux)
+> - [macOS](https://github.com/Azure/arm-ttk/blob/master/arm-ttk/README.md#running-tests-on-macos)
 
 1. Clone the [ARM TTK repository](https://github.com/Azure/arm-ttk) from GitHub.
 2. Set up ARM TTK to run on your machine by executing the following commands in a PowerShell terminal.
 
-> ```powershell
-> cd "<PATH TO ARM TTK REPO>\arm-ttk\arm-ttk"
-> 
-> Import-Module .\arm-ttk.psd1
-> ```
+```powershell
+cd "<PATH TO ARM TTK REPO>\arm-ttk\arm-ttk"
+ 
+Import-Module .\arm-ttk.psd1
+```
 
-3. From the same directory you may execute the **ARM TTK** tool as shown below. Note the path is looking at the `end` folder, which contains the solution to this lab.
+From the same directory you may execute the **ARM TTK** tool as shown below. Note the path is looking at the `end` folder, which contains the solution to this lab.
 
 ```powershell
 $AMAPackage = "<PATH TO AMA-WORKSHOP>\ama-workshop\lab-2-deployment-package\assets\end\"
 
 Test-AzTemplate -TemplatePath $AMAPackage
 ```
-
-4. See that test pass. The output from ARM TTK should look something like this.
+See that test pass. The output from ARM TTK should look something like this.
 
 ```
 Validating end\createUiDefinition.json
@@ -51,15 +50,14 @@ Validating end\mainTemplate.json
 
 > You will use the **ARM TTK** tool to check the status of your own package files several times during this lab. Because of this, do not close the terminal window between steps.
 
-5. Set up ARM TTK to point at the `begin` directory for validation as shown below.
+Set up ARM TTK to point at the `begin` directory for validation as shown below.
 
- ```powershell
+```powershell
  $AMAPackage = "<PATH TO AMA-WORKSHOP>\ama-workshop\lab-2-deployment-package\assets\begin\"
 ```
+Run the tests as shown below. They should all pass although the `mainTemplate.json` file in the `begin` directory is basically a skeleton you will build on.
 
-6. Run the tests as shown below. They should all pass although the `mainTemplate.json` file in the `begin` directory is basically a skeleton you will build on.
-
- ```powershell
+```powershell
  Test-AzTemplate -TemplatePath $AMAPackage
 ```
 
@@ -140,13 +138,13 @@ There are several parameters the ARM template expects. You will fill them in and
 
 > Take a moment to review the `type` attribute of each parameter. See that you can pass in multiple data types.
 
-3. Run ARM TTK. The following test fails.
+Run ARM TTK. The following test fails.
 
-    ```cmd
-    Parameters Must Be Referenced
-    ```
+```cmd
+Parameters Must Be Referenced
+```
 
-4. Make the variables section look like the following JSON.
+Make the variables section look like the following JSON.
 
 ```json
 "variables": {
@@ -164,13 +162,13 @@ There are several parameters the ARM template expects. You will fill them in and
 }
 ```
 
-5. Run ARM TTK.
+Run ARM TTK.
 
-    > Now there are **parameters** and **variables** that are not being referenced. This means they are not being referenced in the `resources` section which defines the actual resources to be created by the ARM template.
-    >
-    > Note the `itemPrefix` parameter is not reported as an unreferenced parameter since it being used by several other variables.
+Now there are **parameters** and **variables** that are not being referenced. This means they are not being referenced in the `resources` section which defines the actual resources to be created by the ARM template.
 
-6. Add the following resource definitions to the `resources[]` section.
+> 🗒️Note the `itemPrefix` parameter is not reported as an unreferenced parameter since it being used by several other variables.
+
+Add the following resource definitions to the `resources[]` section.
    
 ```json
 {
@@ -539,13 +537,14 @@ The Create UI Definition Sandbox is a tool for testing `createUiDefinition.json`
             }
         
 ```
-7. Check your JSON in the sandbox to ensure it is valid.
+
+Check your JSON in the sandbox to ensure it is valid.
 
 ### The outputs section
 
 Now that you have all of the steps defined in your `createUiDefinition.json` file, you can focus on the `outputs` section, which passes the control values to the ARM template during installation.
 
-1. Fill in the `outputs` section of your `createUiDefinition.json` file with the JSON below.
+Fill in the `outputs` section of your `createUiDefinition.json` file with the JSON below.
 
 ```json
 "adminPassword": "[steps('vmBlade').adminPassword]",
@@ -584,9 +583,9 @@ Now that you have two plans in your offer, it's time to publish your offer.
 1. In Partner Center click the **Review and publish** button at the top right of the page, which takes you to the **Review publish changes** page.
 2. Once all indicators are green, click the **Publish** button at the bottom of the page. You will be taken to the **Offer overview** page where you can monitor the status of your offer as it progresses to the **Publisher signoff** stage. (This requires refreshing the page periodically). 
    
-   > The publishing process can take some time to complete, but should be done in time for the next lab.
+The publishing process can take some time to complete, but should be done in time for the next lab.
 
-  > **DO NOT** go past the **Publisher signoff** stage by clicking the **Go live** button once it appears.
+> ⚠️ **DO NOT** go past the **Publisher signoff** stage by clicking the **Go live** button once it appears.
 
 ## Conclusion
 
