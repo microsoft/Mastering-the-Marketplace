@@ -6,14 +6,14 @@ This content helps you bring your solution to the Microsoft marketplace faster a
 
 ---
 
-[Go here](https://aka.ms/MasteringTheMarketplace) for the Mastering the Marketplace website, or choose a topic based on the offer type you are working on.
+[Go here](https://aka.ms/MasteringTheMarketplace) for the Mastering the Marketplace website, or choose a course based on the offer type you are working on.
 
 <!-- no toc -->
-1. [Virtual Machine Offers](https://aka.ms/MasteringTheMarketplace/vm)
-1. [SaaS Offers](https://aka.ms/MasteringTheMarketplace/saas)
-1. [The SaaS Accelerator](https://aka.ms/MasteringTheMarketplace/saas-accelerator)
-1. [Azure Managed Application Offers](https://aka.ms/MasteringTheMarketplace/ama)
-1. [Using Partner Center](https://aka.ms/MasteringTheMarketplace/pc)
+1. [Mastering Azure Managed Application Offers](https://aka.ms/MasteringTheMarketplace/ama)
+1. [Mastering Partner Center](https://aka.ms/MasteringTheMarketplace/pc)
+1. [mastering SaaS Offers](https://aka.ms/MasteringTheMarketplace/saas)
+1. [Mastering the SaaS Accelerator](https://aka.ms/MasteringTheMarketplace/saas-accelerator)
+1. [Mastering Virtual Machine Offers](https://aka.ms/MasteringTheMarketplace/vm)
 
 You will need to clone this repository to do the hands-on labs including in the courses.
 
