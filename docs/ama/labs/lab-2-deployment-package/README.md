@@ -1,3 +1,11 @@
+---
+hide:
+  - navigation
+
+---
+
+👈 [Back to Azure Managed Applications home](../../index.md)
+
 # Lab 2 - The Managed Application Deployment Package
 
 In this lab, you will edit the artifacts that go into a an Azure Managed Application deployment package. You will run your artifacts through a validation process and package them for use in deployment. Finally, you will create a new plan for your existing offer from [Lab 1](../lab-1-partner-center/README.md) and publish your offer.

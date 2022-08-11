@@ -1,3 +1,11 @@
+---
+hide:
+  - navigation
+
+---
+
+👈 [Back to Azure Managed Applications home](../../index.md)
+
 # Lab 5 - Administering Your Customer’s Managed Applications
 
 This lab will take you through the process of administering Managed Applications your customer has purchased from you. When you are done you will have a feel for what it means to work with your customer's installed applications as a publisher.

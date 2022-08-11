@@ -1,3 +1,11 @@
+---
+hide:
+  - navigation
+
+---
+
+👈 [Back to Azure Managed Applications home](../../index.md)
+
 # Lab 3 - Purchasing an Azure Managed Application
 
 This lab focuses on purchasing the offer and plans you created in [Lab 1](../lab-1-partner-center/README.md) and [Lab 2](../lab-2-deployment-package/README.md).

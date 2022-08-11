@@ -1,3 +1,11 @@
+---
+hide:
+  - navigation
+
+---
+
+👈 [Back to Azure Managed Applications home](../../index.md)
+
 # Lab 4 - Administering Your Purchased Managed Applications
 
 In this lab you will act as the customer. You will explore what it means to manage the Azure managed applications that you purchased.
