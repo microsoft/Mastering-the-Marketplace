@@ -23,7 +23,7 @@ Looking through the webhook code you'll find that it simply prints the REST payl
 1. On the Azure storage dialog, click the **OK** button.
 1. Back on the **Function App (windows)** dialog, click the **Create** button.
 
-> The App Service deployment will run for a little while.
+    > The App Service deployment will run for a little while.
 
 1. On the Publish dialog, click the **Next** button.
 1. On Select the **Publish** option and click the **Finish** button.
