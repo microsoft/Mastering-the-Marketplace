@@ -1,14 +1,17 @@
-# Lab 3: Using the SaaS Accelerator
+---
+hide:
+  - navigation
+---
+
+# Lab 3 - Using the SaaS Accelerator
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)
+
+⚠️ Completion of the previous labs in this course is required for this lab to work.
+
+## Overview
 
 In this lab, you will familiarize you with the SaaS Accelerator, both from the customer and publisher points of view. The goal is to become comfortable with the SaaS Accelerator's landing page and publisher portal, so you (as a publisher) can monitor and manage your SaaS offer subscriptions.
-
-<!-- no toc -->
-  - [Exercise: Customer purchase 1](#exercise-customer-purchase-1)
-  - [Exercise: The first landing page](#exercise-the-first-landing-page)
-  - [Exercise: Customer purchase 2](#exercise-customer-purchase-2)
-  - [Exercise: The second landing page](#exercise-the-second-landing-page)
-  - [Exercise: The publisher activates a subscription](#exercise-the-publisher-activates-a-subscription)
-  - [Explore for a few minutes](#explore-for-a-few-minutes)
 
 ## Exercise: Customer purchase 1
 
@@ -97,6 +100,8 @@ Here are some things you might try.
 - Cancel, or **Unsubscribe**, a subscription from within the publisher portal.
 - Look at the other ways to navigate the publisher portal and see subscriptions and offers.
 
-**Congratulations!** You have finished this lab.
+---
 
-If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
+**Congratulation!** You have finished this lab.
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)

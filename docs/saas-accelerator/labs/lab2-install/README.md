@@ -1,22 +1,22 @@
-# Lab 2: Installing the SaaS Accelerator
+---
+hide:
+  - navigation
+---
+
+# Lab 2 - Installing the SaaS Accelerator
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)
+
+⚠️ Completion of this lab is required for the following labs in the series to work properly.
+
+## Overview
 
 This lab takes you through a very quick installation process for the SaaS Accelerator using the Azure portal Cloud Shell. Once complete, you will have installed the SaaS Accelerator and published your offer in Partner Center.
-
-> **Completion of this lab is required for the following labs in the series to work properly.**
-
-<!-- no toc -->
-1. [Exercise: Create an install document](#exercise-create-an-install-document)
-1. [Exercise: Opening the cloud shell](#exercise-opening-the-cloud-shell)
-1. [Exercise: Running the install script](#exercise-running-the-install-script)
-1. [Exercise: Verify web applications](#exercise-verify-web-applications)
-1. [Exercise: Partner Center Technical Configuration](#exercise-partner-center-technical-configuration)
 
 ## Exercise: Create an install document
 
 1. Visit the [SaaS Accelerator's installation instructions page](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#) and copy the basic installation script.
-
 2. Open your favorite text editor and paste the PowersShell script you copied into a text file. You'll fill out the parameters in this file.
-
 3. Add the following optional parameters to the install script. This will make the script run more simply, without prompting you for these values.
 
 ```powershell
@@ -115,10 +115,12 @@ Now you'll verify the two web application are up and running.
 1. Click **Review and publish**.
 1. Publish your offer.
 
-Publication will take a while. Only after publication completes can you do the next lab.
-
-**Congratulations!** You have finished this lab.
-
-If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
+⚠️ Publication will take a while. Only after publication completes can you do the next lab.
 
 > To watch the publication process, refresh the offer's **Overview** page occasionally. Once your offer reaches the **Publisher preview** stage, you are ready for the next lab. Do NOT press the **Go live** button.
+
+---
+
+**Congratulation!** You have finished this lab.
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)

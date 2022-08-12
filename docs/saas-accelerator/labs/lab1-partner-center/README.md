@@ -1,24 +1,19 @@
-# Lab 1: Creating a SaaS Offer in Partner Center
+---
+hide:
+  - navigation
+---
+
+# Lab 1 - Creating a SaaS Offer in Partner Center
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)
+
+⚠️ Completion of this lab is required for the following labs in the series to work properly.
+
+## Overview
 
 In this lab you will use your Partner Center account to create a **test** SaaS offer with a single plan. This offer will be used for development and testing purposes. This lab will familiarize you with Partner Center and prepare an offer you will publish in the next lab.
 
-> **Completion of this lab is required for the following labs in the series to work properly.**
-
-<!-- no toc -->
-  - [Exercise: Create a New SaaS Offer](#exercise-create-a-new-saas-offer)
-    - [Create a new SaaS offer](#create-a-new-saas-offer)
-    - [Offer setup](#offer-setup)
-    - [Properties](#properties)
-    - [Offer listing](#offer-listing)
-    - [Preview audience](#preview-audience)
-    - [Technical configuration](#technical-configuration)
-    - [Plan overview](#plan-overview)
-  - [Exercise: Create a Plan](#exercise-create-a-plan)
-    - [Create the plan](#create-the-plan)
-    - [Plan Listing](#plan-listing)
-    - [Pricing and availability](#pricing-and-availability)
-  - [Exercise: Resell through CSPs](#exercise-resell-through-csps)
-  - [Exercise: Review and Publish](#exercise-review-and-publish)
+## Prerequisites
 
 You will need the following to complete this lab.
 
@@ -29,7 +24,7 @@ You will need the following to complete this lab.
 
 In this exercise, you will create a new SaaS offer in Partner Center and fill in the information needed to publish it.
 
-### Create a new SaaS offer
+### Create a new SaaS offer in Partner Center
 
 1. From the Home page of [Partner Center](https://partner.microsoft.com/dashboard/home) click the **Commercial Marketplace** button.
 1. Click the **+ New offer** button and at the dropdown and select **Software as a Service**.
@@ -184,6 +179,8 @@ In this short exercise, you will check your work by performing the first action 
 1. Go back to all sections that appear with a gray circle and complete those sections.
 1. Ensure all sections pass except **Technical configuration**, which will be addressed in the next lab.
 
-**Congratulations!** You have finished this lab.
+---
 
-If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
+**Congratulation!** You have finished this lab.
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)
