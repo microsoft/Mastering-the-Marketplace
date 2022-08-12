@@ -18,29 +18,29 @@ In this lab, you will build on what you have accomplished in previous labs. You 
 1. ```https://login.microsoftonline.com/{{tenantId}}/oauth2/v2.0/token``` (replace the {{tenantId}} with [saas-workshop-single-tenant](../lab2-create-landing-page#values-from-the-saas-workshop-single-tenant-app-registration) tenant/directory Id)
 1. For Body, click on ```x-www-form-urlencoded``` radiobutton and enter the below key value pairs
 
-| KEY | VALUE |
-| ----------- | ----------- |
-| ```grant_type``` | ```client_credentials``` |
-| ```client_id``` | ```{{clientId}}``` (replace the {{clientId}} with [saas-workshop-single-tenant](../lab2-create-landing-page#values-from-the-saas-workshop-single-tenant-app-registration) client/application Id) |
-| ```client_secret``` | ```{{clientSecret}}``` (replace the {{clientSecret}} with [saas-workshop-single-tenant](../lab2-create-landing-page#values-from-the-saas-workshop-single-tenant-app-registration) secret) |
-| ```resource``` | ```20e940b3-4c77-4b0b-9a53-9e16a1b010a7``` |
+    | KEY | VALUE |
+    | ----------- | ----------- |
+    | **grant_type** | ```client_credentials``` |
+    | **client_id** | ```{{clientId}}``` (replace the {{clientId}} with [saas-workshop-single-tenant](../    lab2-create-landing-page#values-from-the-saas-workshop-single-tenant-app-registration) client/application Id) |
+    | **client_secret** | ```{{clientSecret}}``` (replace the {{clientSecret}} with [saas-workshop-single-tenant](../    lab2-create-landing-page#values-from-the-saas-workshop-single-tenant-app-registration) secret) |
+    | **resource** | ```20e940b3-4c77-4b0b-9a53-9e16a1b010a7``` |
 
-7. Click Send
+1. Click Send
 1. You should see a json response with access token like below.
 
 ```
 {
-    "token_type": "Bearer",
-    "expires_in": "3599",
-    "ext_expires_in": "3599",
-    "expires_on": "1645893398",
-    "not_before": "1645889498",
-    "resource": "20e940b3-4c77-4b0b-9a53-9e16a1b010a7",
-    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCIsImtpZCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCJ9.eyJhdWQiOiI2MmQ5NGY2Yy1kNTk5LTQ4OWItYTc5Ny0zZTEwZTQyZmJlMjIiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9hNDk5NDQ0YS0zMTBlLTRmOTAtOTI4Yy1kNzA2MDYzYmYzZTkvIiwiaWF0IjoxNjQ1ODg5NDk4LCJuYmYiOjE2NDU4ODk0OTgsImV4cCI6MTY0NTg5MzM5OCwiYWlvIjoiRTJaZ1lHaVFuOWgwVm5sM3BjKzg3R016SFN0MUFBPT0iLCJhcHBpZCI6IjhjYzMyZTU1LWI5OWYtNDY3YS1iMDM0LTMxMjgzZmJjODY2NyIsImFwcGlkYWNyI"
+ "token_type": "Bearer",
+ "expires_in": "3599",
+ "ext_expires_in": "3599",
+ "expires_on": "1645893398",
+ "not_before": "1645889498",
+ "resource": "20e940b3-4c77-4b0b-9a53-9e16a1b010a7",
+ "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXib1hXMCIsImtpZCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCJ9.eyJhdWQiOiI2MmQ5NGY2Yy1kNTk5LTQ4OWItYTc5Ny0zZTEwZTQyZmJlMjIiLCJpc3MiOiJodHRczovL3N0cy53aW5kb3dzLm5ldC9hNDk5NDQ0YS0zMTBlLTRmOTAtOTI4Yy1kNzA2MDzYmYzZTkIiwiaWF0IjoxNjQ1ODg5NDk4LCJuYmYiOjE2NDU4ODk0OTgsImV4cCI6MTY0NTg5MzM5OCwiYWlIjoiRTJaZ1lHaVFuOWgwVm5sM3BjKzg3R016SFN0MUFBPT0iLCJhcHBpZC6IjhjYzMyZTU1LWI5 OWYtNDY3YS1iMDM0LTMxMjgzZmJjODY2NyIsImFwcGlkYWNyI"
 }
 ```
 
-9. Great! Copy the value of the access_token from the response as we will be using this in our next exercise.
+Great! Copy the value of the access_token from the response as we will be using this in our next exercise.
 
 ## Exercise: Invoking the Meter billing API usage event 
 1. On the Postman tool Click + new tab
@@ -51,12 +51,13 @@ In this lab, you will build on what you have accomplished in previous labs. You 
 
 1. For Headers, enter the below key value pairs
 
-| KEY | VALUE |
-| ----------- | ----------- |
-| ```Content-Type``` | ```application/json``` |
-| ```authorization``` | ```{{bearerToken}}``` (replace the {{bearerToken}} with  "Bearer " + access_token value copied from the first exercise) |
+    | KEY | VALUE |
+    | ----------- | ----------- |
+    | **Content-Type** | ```application/json``` |
+    | **authorization** | ```{{bearerToken}}``` (replace the {{bearerToken}} with  "Bearer " + access_token value copied from the first exercise) |
 
 1. For Body, click on ```raw``` radiobutton and enter the below json
+
 ```
 {
   "resourceId": "{{CustomerSaaSSubscriptionId}}",  // Replace {{CustomerSaaSSubscriptionId}} with an active subscritpion Id from your [publisher portal](../lab3-install-pub-portal#exercise-as-a-customer-request-subscription-activation) which is subscribed to plan with dimension)
@@ -65,11 +66,10 @@ In this lab, you will build on what you have accomplished in previous labs. You 
   "effectiveStartTime": "{{eventtime}}",  // ( replace {{eventtime}} with a UTC time from now and until 24 hours back ex: '2022-02-26T17:17:31' )
   "planId": "gold-plan-id"  // PlanId from the Offer plan created in [lab1](../lab1-create-pc-offer#create-the-plan)
 }
-
 ```
 
-1.Click Send
-1. You should see the below response
+Click Send and you should see the below response.
+
 ```
 {
     "usageEventId": "e91feebc-50dc-403b-a32b-93c24cc54ebb",
@@ -82,9 +82,9 @@ In this lab, you will build on what you have accomplished in previous labs. You 
     "effectiveStartTime": "2022-02-26T17:17:31",
     "planId": "gold-plan-id"
 }
-
 ```
-1.This confirms a usage has been repoted to Microsoft to bill the customer aganist that feature usage.
+
+This confirms a usage has been repoted to Microsoft to bill the customer aganist that feature usage.
 
 **Congratulations!** You have finished this lab.
 
