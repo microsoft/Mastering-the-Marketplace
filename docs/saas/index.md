@@ -67,6 +67,12 @@ Customers may have many choices about what billing and pricing options they woul
 
 This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook.
 
+### Publishing a Private SaaS Plan
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196256">Video</a> | <a target="_blank" href="./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf">PDF</a>
+
+This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
+
 
 ### SaaS Pricing in Partner Center Publisher Overview
 
@@ -81,10 +87,6 @@ Pricing and billing options for SaaS offers are very flexible and give publisher
 Pricing and billing options for SaaS offers are very flexible and give publishers many options for how to bill and get paid for their solutions. This video demonstrates how to use Partner Center to create and price a plan from start to finish, including using metered billing options.
 
 ## SaaS Technical Knowledge
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196256">Video</a> | <a target="_blank" href="./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf">PDF</a>
-
-This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
 
 ### SaaS Pricing in Partner Center Publisher Overview
 
