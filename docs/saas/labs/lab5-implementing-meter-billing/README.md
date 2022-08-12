@@ -30,13 +30,13 @@ In this lab, you will build on what you have accomplished in previous labs. You 
 
 ```
 {
- "token_type": "Bearer",
- "expires_in": "3599",
- "ext_expires_in": "3599",
- "expires_on": "1645893398",
- "not_before": "1645889498",
- "resource": "20e940b3-4c77-4b0b-9a53-9e16a1b010a7",
- "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXib1hXMCIsImtpZCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCJ9.eyJhdWQiOiI2MmQ5NGY2Yy1kNTk5LTQ4OWItYTc5Ny0zZTEwZTQyZmJlMjIiLCJpc3MiOiJodHRczovL3N0cy53aW5kb3dzLm5ldC9hNDk5NDQ0YS0zMTBlLTRmOTAtOTI4Yy1kNzA2MDzYmYzZTkIiwiaWF0IjoxNjQ1ODg5NDk4LCJuYmYiOjE2NDU4ODk0OTgsImV4cCI6MTY0NTg5MzM5OCwiYWlIjoiRTJaZ1lHaVFuOWgwVm5sM3BjKzg3R016SFN0MUFBPT0iLCJhcHBpZC6IjhjYzMyZTU1LWI5 OWYtNDY3YS1iMDM0LTMxMjgzZmJjODY2NyIsImFwcGlkYWNyI"
+  "token_type": "Bearer",
+  "expires_in": "3599",
+  "ext_expires_in": "3599",
+  "expires_on": "1645893398",
+  "not_before": "1645889498",
+  "resource": "20e940b3-4c77-4b0b-9a53-9e16a1b010a7",
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXib1hXMCIsImtpZCI6Ik1yNS1BVWliZkJpaTdOZDFqQmViYXhib1hXMCJ9.eyJhdWQiOiI2MmQ5NGY2Yy1kNTk5LTQ4OWItYTc5Ny0zZTEwZTQyZmJlMjIiLCJpc3MiOiJodHRczovL3N0cy53aW5kb3dzLm5ldC9hNDk5NDQ0YS0zMTBlLTRmOTAtOTI4Yy1kNzA2MDzYmYzZTkIiwiaWF0IjoxNjQ1ODg5NDk4LCJuYmYiOjE2NDU4ODk0OTgsImV4cCI6MTY0NTg5MzM5OCwiYWlIjoiRTJaZ1lHaVFuOWgwVm5sM3BjKzg3R016SFN0MUFBPT0iLCJhcHBpZC6IjhjYzMyZTU1LWI5 OWYtNDY3YS1iMDM0LTMxMjgzZmJjODY2NyIsImFwcGlkYWNyI"
 }
 ```
 
@@ -72,15 +72,15 @@ Click Send and you should see the below response.
 
 ```
 {
-    "usageEventId": "e91feebc-50dc-403b-a32b-93c24cc54ebb",
-    ***"status": "Accepted"***,
-    "messageTime": "2022-02-26T19:51:51.2516464Z",
-    "resourceId": "7b853439-4fdf-4170-c542-f19217e11383",
-    "resourceUri": "/subscriptions/bf7adf-hjhj7y-jhjkh887-khkjh/resourceGroups/sb-s/providers/Microsoft.SaaS/resources/saas",
-    "quantity": 1.0,
-    "dimension": "persmsId",
-    "effectiveStartTime": "2022-02-26T17:17:31",
-    "planId": "gold-plan-id"
+  "usageEventId": "e91feebc-50dc-403b-a32b-93c24cc54ebb",
+  ***"status": "Accepted"***,
+  "messageTime": "2022-02-26T19:51:51.2516464Z",
+  "resourceId": "7b853439-4fdf-4170-c542-f19217e11383",
+  "resourceUri": "/subscriptions/bf7adf-hjhj7y-jhjkh887-khkjh/resourceGroups/sb-s/providers/Microsoft.SaaS/resources/saas",
+  "quantity": 1.0,
+  "dimension": "persmsId",
+  "effectiveStartTime": "2022-02-26T17:17:31",
+  "planId": "gold-plan-id"
 }
 ```
 
