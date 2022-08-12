@@ -1,7 +1,6 @@
 ---
 hide:
   - navigation
-
 ---
 
 👈 [Back to Azure Managed Applications labs](../../index.md#labs)
