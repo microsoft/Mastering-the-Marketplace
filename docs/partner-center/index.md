@@ -14,9 +14,13 @@ hide:
 
 These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
-✉️ **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** in this content library.
+Using Partner Center to create and maintain your marketplace offers is a very large topic. We are just getting started with the content we'll publish about Partner Center, so please check back often as this library grows.
 
-Using Partner Center to create and maintain your marketplace offers is a very large topic. **We are just getting started with the content we'll publish about Partner Center**, so please check back often as this library grows.
+[✉️](https://forms.office.com/r/0gCrzhSMkw) **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** from this content, or tell us how we're doing.
+
+[▶️](#hands-on-labs) **[Grow your skills with the hands-on labs](#hands-on-labs)**.
+
+[👈](../index.md) **[Go back to the front page](../index.md)**.
 
 ---
 
