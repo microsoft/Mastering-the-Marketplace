@@ -1,8 +1,17 @@
-# Lab 4: Deploying and Monitoring a Webhook
+---
+hide:
+  - navigation
+---
+
+# Lab 4 - Deploying and Monitoring a Webhook
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)
+
+⚠️ Completion of this lab is required for the following labs in the series to work properly.
+
+## Overview
 
 In this lab, you will build on what you accomplished in previous labs. You will create a SaaS offer webhook and integrate it with your Partner Center SaaS offer configuration, enabling your webhook to respond to subscription change events.
-
-> **Completion of this lab is required for the following labs in the series to work properly.**
 
 The webhook in your Visual Studio solution is an Azure Function. There is no need to change the code in the webhook function at this time.
 
@@ -103,9 +112,11 @@ Don't forget that your offer must be in the **Publisher signoff** stage for the 
 
 Just wait for the Unsubscribe event to show up in the Log window and print the payload to the screen.
 
-## Exercise: Running the entire SaaS subscription workflow
+## Extra: Running the entire SaaS subscription workflow
 
-There is no need to do this to consider yourself done with this lab, but you now have all the elements in place needed to manage a SaaS offer subscription purchase. To exercise all steps of the process do the following.
+You now have all the elements in place needed to manage a SaaS offer subscription purchase. To exercise all steps of the process you can do the following.
+
+🗒️ You do not need to complete the following steps to consider this lab complete. 
 
 1. Purchase the SaaS offer either through Partner Center or as a private offer in the Azure Portal.
 1. Go to the landing page to activate the subscription.
@@ -113,6 +124,8 @@ There is no need to do this to consider yourself done with this lab, but you now
 1. **Cancel the subscription** from the **Subscribed** subscription through the SaaS management tool in the Azure portal.
 1. Watch the webhook function get called with the full payload of the unsubscribed event.
 
-**Congratulations!** You have finished this lab.
+---
 
-If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
+**Congratulation!** You have finished this lab.
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)

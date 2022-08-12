@@ -1,8 +1,22 @@
-# Lab 1: Creating a SaaS Offer in Partner Center
+---
+hide:
+  - navigation
 
-In this lab, you will use your Partner Center account to create a **test** SaaS offer with a single plan. This offer will be used for development and testing purposes.
+---
 
-> **Completion of this lab is required for the following labs in the series to work properly.**
+# Lab 1 - Creating a SaaS Offer in Partner Center
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)
+
+⚠️ Completion of this lab is required for the following labs in the series to work properly.
+
+## Overview
+
+In this lab, you will use your Partner Center account to create a **test** SaaS offer with a single plan. 
+
+This offer will be used for development and testing purposes throughout this lab series.
+
+## Prerequisites
 
 You will need the following to complete this lab.
 
@@ -181,6 +195,10 @@ In this short exercise, you will check your work by performing the first action 
 1. Go back to all sections that appear with a gray circle and complete those sections.
 1. Ensure all sections pass except **Technical configuration**, which will be addressed in the next lab.
 
+---
+
 **Congratulation!** You have finished this lab.
 
-If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
+👈 [Back to SaaS Offer labs](../../index.md#labs)
+
+

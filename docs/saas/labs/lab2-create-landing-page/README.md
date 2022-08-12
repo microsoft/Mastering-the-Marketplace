@@ -1,8 +1,19 @@
-# Lab 2: Creating a Landing Page
+---
+hide:
+  - navigation
+---
+
+# Lab 2 - Creating a Landing Page
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)
+
+⚠️ Completion of this lab is required for the following labs in the series to work properly.
+
+## Overview
 
 In this lab, you will build on what you accomplished in [Lab 1: Creating a SaaS Offer in Partner Center](../lab1-create-pc-offer/README.md). You will deploy a landing page and integrate it with your Partner Center SaaS Offer, enabling publishing of the offer and purchasing the offer in the **Preview** stage of the publication pipeline.
 
-> **Completion of this lab is required for the following labs in the series to work properly.**
+## Prerequisites
 
 For this lab, you will need the following.
 
@@ -11,7 +22,7 @@ For this lab, you will need the following.
 1. Visual Studio 2022 (any version)
 1. Git (optional)
 
-> **Note:** It is possible to complete this using Visual Studio Code, but the instructions will be tailored for using Visual Studio 2022.
+> **Note:** It is possible to complete this using Visual Studio Code, but the instructions are tailored for Visual Studio 2022.
 
 ## Exercise: Compile the Visual Studio Solution
 
@@ -223,6 +234,8 @@ Once you can click the **Azure portal preview** link in Partner Center, do so. Y
 
 1. Click the **Configure account now** button. You are taken to the landing page where you can see details about the subscription you are buying. Note the marketplace purchase token in the query string.
 
-**Congratulations!** You have finished this lab.
+---
 
-If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
+**Congratulation!** You have finished this lab.
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)

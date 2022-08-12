@@ -1,4 +1,13 @@
-# Lab 5: Implementing Meter billing using postman
+---
+hide:
+  - navigation
+---
+
+# Lab 5 - Implementing Meter billing using postman
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)
+
+## Overview
 
 In this lab, you will build on what you have accomplished in previous labs. You will trigger a meter usage event using Postman tool. You can use any API testing tool but for this lab we will be using Postman. 
 
@@ -6,8 +15,6 @@ In this lab, you will build on what you have accomplished in previous labs. You 
 1. Postman tool
 1. Published a SaaS offer with a [customer meter dimension on a plan](../lab1-create-pc-offer#preview-audience) to preview stage.
 1. [App registration information](../lab2-create-landing-page#values-from-the-saas-workshop-single-tenant-app-registration) which is used in the technical configuration of the offer
-
-
 
 ## Exercise: Getting the access token 
 
@@ -20,7 +27,7 @@ In this lab, you will build on what you have accomplished in previous labs. You 
 
     | KEY | VALUE |
     | ----------- | ----------- |
-    | **grant_type** | ```client_credentials``` |
+    | **grant_type** | `client_credentials` |
     | **client_id** | ```{{clientId}}``` (replace the {{clientId}} with [saas-workshop-single-tenant](../    lab2-create-landing-page#values-from-the-saas-workshop-single-tenant-app-registration) client/application Id) |
     | **client_secret** | ```{{clientSecret}}``` (replace the {{clientSecret}} with [saas-workshop-single-tenant](../    lab2-create-landing-page#values-from-the-saas-workshop-single-tenant-app-registration) secret) |
     | **resource** | ```20e940b3-4c77-4b0b-9a53-9e16a1b010a7``` |
@@ -56,7 +63,7 @@ Great! Copy the value of the access_token from the response as we will be using 
     | **Content-Type** | ```application/json``` |
     | **authorization** | ```{{bearerToken}}``` (replace the {{bearerToken}} with  "Bearer " + access_token value copied from the first exercise) |
 
-1. For Body, click on ```raw``` radiobutton and enter the below json
+1. For Body, click on `raw` radiobutton and enter the below json
 
 ```
 {
@@ -73,7 +80,7 @@ Click Send and you should see the below response.
 ```
 {
   "usageEventId": "e91feebc-50dc-403b-a32b-93c24cc54ebb",
-  ***"status": "Accepted"***,
+  "status": "Accepted",
   "messageTime": "2022-02-26T19:51:51.2516464Z",
   "resourceId": "7b853439-4fdf-4170-c542-f19217e11383",
   "resourceUri": "/subscriptions/bf7adf-hjhj7y-jhjkh887-khkjh/resourceGroups/sb-s/providers/Microsoft.SaaS/resources/saas",
@@ -84,8 +91,10 @@ Click Send and you should see the below response.
 }
 ```
 
-This confirms a usage has been repoted to Microsoft to bill the customer aganist that feature usage.
+This confirms a usage event has been reported to Microsoft and this will be billed to the customer.
 
-**Congratulations!** You have finished this lab.
+---
 
-If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
+**Congratulation!** You have finished this lab.
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)

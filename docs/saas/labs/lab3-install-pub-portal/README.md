@@ -1,4 +1,15 @@
-# Lab 3: Installing a Publisher Portal
+---
+hide:
+  - navigation
+---
+
+# Lab 3 - Installing a Publisher Portal
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)
+
+⚠️ Completion of this lab is required for the following labs in the series to work properly.
+
+## Overview
 
 This is a quick lab in which you will create one app registration and deploy a small website used by the publisher for activating customer subscriptions. After you have the new website installed, the customer can use their landing page to request subscription activation and use the publisher portal to activate the subscription.
 
@@ -118,4 +129,8 @@ This exercise puts you back in the role of the publisher, and you will activate 
 
 If you are in a live class setting, please raise your hand in Microsoft Teams to indicate you are done with the lab.
 
+---
 
+**Congratulation!** You have finished this lab.
+
+👈 [Back to SaaS Offer labs](../../index.md#labs)
