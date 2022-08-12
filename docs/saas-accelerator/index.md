@@ -8,7 +8,6 @@ comments: false
 title: Mastering the SaaS Accelerator
 description: This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the SaaS Accelerator project. The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days.
 
-
 hide:
   - navigation
 
@@ -24,7 +23,7 @@ This series of video modules and hands-on labs is designed to help you understan
 
 ---
 
-### A SaaS Accelerator Hands-on Tour - The Basics
+### SaaS Accelerator Overview - A Hands-on Tour
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196164">Video</a>
 
