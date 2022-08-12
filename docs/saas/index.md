@@ -14,11 +14,11 @@ hide:
 
 This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.
 
-[✉️](https://forms.office.com/r/0gCrzhSMkw) **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** from this content, or tell us how we're doing.
+[✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
+ 
+[▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
-[▶️](#hands-on-labs) **[Grow your skills with the hands-on labs](#hands-on-labs)**.
-
-[👈](../index.md) **[Go back to the front page](../index.md)**.
+[👈](../index.md) [Go back to the front page](../index.md).
 
 ---
 

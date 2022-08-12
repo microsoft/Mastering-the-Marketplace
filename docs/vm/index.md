@@ -17,11 +17,11 @@ The content in this course is from a live hands-on workshop. These demo-heavy mo
 
 Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon created this course.
 
-[✉️](https://forms.office.com/r/0gCrzhSMkw) **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** from this content, or tell us how we're doing.
+[✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
+ 
+[▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
-[▶️](#hands-on-labs) **[Grow your skills with the hands-on labs](#hands-on-labs)**.
-
-[👈](../index.md) **[Go back to the front page](../index.md)**.
+[👈](../index.md) [Go back to the front page](../index.md).
 
 ---
 

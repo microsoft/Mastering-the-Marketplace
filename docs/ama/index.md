@@ -15,11 +15,13 @@ hide:
 
 This course is designed to help you decrease your onboarding when building an Azure Managed Application offer. The content is comprised of recordings of a virtual workshop and are divided into small digestible modules for easy consumption. Also included are several hands-on labs to turn your knowledge into skills.
 
-[✉️](https://forms.office.com/r/0gCrzhSMkw) **[Let us know what you need](https://forms.office.com/r/0gCrzhSMkw)** from this content, or tell us how we're doing.
+[✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
+ 
+[▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
-[▶️](#hands-on-labs) **[Grow your skills with the hands-on labs](#hands-on-labs)**. The slides for this course, which are used in the following modules, [are here](./pdfs/ama-workshop-slides.pdf).
+[👈](../index.md) [Go back to the front page](../index.md).
 
-[👈](../index.md) **[Go back to the front page](../index.md)**.
+The slides for this course, which are used in the following content, [are here](./pdfs/ama-workshop-slides.pdf).
 
 ---
 
