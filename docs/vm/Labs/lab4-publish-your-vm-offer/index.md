@@ -10,15 +10,14 @@ description: This lab will walk you through generalizing and capturing an image.
 
 # Micro navigation
 micro_nav: false
+
+hide:
+  - navigation
 ---
 
-> Note: This lab is part of a series of labs for Mastering the Virtual Machine Offers Workshop. You should finish prior ones before moving on to the next sections.
+👈 [Back to Virtual Machine labs](../../index.md#labs)
 
-<!-- no toc -->
-- [Plan Overview](#plan-overview)
-  - [Permissions for Shared Image Gallery](#permissions-for-shared-image-gallery)
-  - [Create a plan on Partner center](#create-a-plan-on-partner-center)
-  - [Review and Publish](#review-and-publish)
+> This lab is part of a series of labs for Mastering the Virtual Machine Offers workshop. You should finish this lab before moving on to the next labs in this course. 
 
 ## Plan Overview
 
@@ -52,12 +51,12 @@ If you are not the owner of the subscription that created the shared image galle
 1. Select the image type, Gen1/Gen2 based on the base image you selected in the VM Creation Lab
 1. Lastly add the image by putting a version number and selecting the image from the created image gallery. 
 
-<br>
-
 ### Review and Publish
 
 Finally click on **Review and publish**. Youshould now see green checkmarks against all the sections and you are now ready to publish. Click on **Publish** at the bottom to start the publishing process.
 
+---
+
 **Congratulations!** You have now finished this lab.
 
-If you are in a live class setting, please raise your hand (even if virtually) to indicate you are done with the lab.
+👈 [Back to Virtual Machine labs](../../index.md#labs)

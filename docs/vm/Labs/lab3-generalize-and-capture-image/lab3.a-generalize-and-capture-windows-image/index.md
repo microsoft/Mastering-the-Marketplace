@@ -10,21 +10,18 @@ description: This lab will walk you through steps to generalize and capture an i
 
 # Micro navigation
 micro_nav: false
+
+hide:
+  - navigation
 ---
 
-> Note: This lab is part of a series of labs for Mastering the Virtual Machine Offers Workshop. You should finish this lab as well as prior ones before moving on to the next sections.
+👈 [Back to Virtual Machine labs](../../../index.md#labs)
 
-<!-- no toc -->
-- [Generalize and Capture](#generalize-and-capture)
-  - [Remote into the Virtual Machine](#remote-into-the-virtual-machine)
-  - [Generalize the Virtual Machine](#generalize-the-virtual-machine)
-- [Capture the Image](#capture-the-image)
-  - [Create an Image](#create-an-image)
-- [Post Image Creation Exercise](#post-image-creation-exercise)
+> This lab is part of a series of labs for Mastering the Virtual Machine Offers workshop. You should finish this lab before moving on to the next labs in this course.
 
 ## Generalize and Capture
 
-In this module, we will remote into the vm and generalize the Virtual machine
+In this module, we will remote into the VM and generalize the Virtual machine
 
 ### Remote into the Virtual Machine
 
@@ -34,8 +31,7 @@ In this module, we will remote into the vm and generalize the Virtual machine
 1. When asked for credentials, make sure to input the username and password you created for the VM.
 1. Accept the certificate and click **Yes** when prompted.
 1. Voila! You are now inside the VM.
-
-> At this point we want to ensure that the VM doesn't have any pending updates. Search for **Check for Updates** and install any updates if there are any pending.
+1. Ensure that the VM doesn't have any pending updates. Search for **Check for Updates** and install any updates if there are any pending.
 
 ### Generalize the Virtual Machine
 
@@ -44,7 +40,7 @@ In this module, we will remote into the vm and generalize the Virtual machine
 1. Check the **Generalize** checkbox under System cleanup actions
 1. From the Shutdown options dropdown, select **Shutdown** and click **OK**
 
-    At this point, your VM will process these commands and in a few minutes will close the application on its own. Please note that the VM should NOT be restarted once it is generalized.
+    > ⚠️ At this point, your VM will process these commands and in a few minutes will close the application on its own. The VM should NOT be restarted once it is generalized.
 
 ## Capture the Image
 
@@ -64,8 +60,6 @@ In this module, we will capture an image from the Generalized VM and store it in
 1. Give your image a version name of **0.0.1** 
 1. Lastly click **Review + Create** at the bottom. Once validation has passed, click **Create**.
 
-<br>
-
 ## Post Image Creation Exercise
 
 In this exercise we will verify that the image is created and ready to be used.
@@ -73,9 +67,9 @@ In this exercise we will verify that the image is created and ready to be used.
 1. Click on the definition you created
 1. You should now see the version number of the image created as well as verify the Provisioning State is **Succeeded** and Replication Status is **Completed**.
 
-
-<br>
+---
 
 **Congratulations!** You have now finished this lab.
 
-If you are in a live class setting, please raise your hand (even if virtually) to indicate you are done with the lab.
+👈 [Back to Virtual Machine labs](../../../index.md#labs)
+

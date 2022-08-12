@@ -10,20 +10,19 @@ description: This lab will walk you through setting up a Virtual Machine Offer i
 
 # Micro navigation
 micro_nav: false
+
+hide:
+  - navigation
 ---
 
-> Note: This lab is part of a series of labs for Mastering the Virtual Machine Offers Workshop. You should finish this lab before moving on to the next sections. 
+👈 [Back to Virtual Machine labs](../../index.md#labs)
 
-<!-- no toc -->
-- [Prerequisites before starting this lab](#prerequisites-before-starting-this-lab)
-- [Purchase your Offer](#purchase-your-offer)
+> This lab is part of a series of labs for Mastering the Virtual Machine Offers workshop. You should finish this lab before moving on to the next labs in this course. 
 
 ## Prerequisites before starting this lab
 
 1. Access to the Azure Portal on the same tenant as is on Partner Center 
 1. An active Azure Subscription to pay for resource creation
-
-<br />
 
 ## Purchase your Offer
 
@@ -35,6 +34,8 @@ micro_nav: false
 1. Once deployment has succeeded, navigate to the resource group that hosts the new vm and copt the Public IP of the Virtual Machine.
 1. Open a new tab and paste the copied Public IP. You will now see the deployed server page with the customized message you added in the Post Deployment script during VM creation.
 
-Congratulations! You have now successfully completed this lab as well as purchased the offer the you created. You can now explore and create new images based on production requirements
+---
 
-If you are in a live class setting, please raise your hand (even if virtually) to indicate you are done with the lab.
+**Congratulations!** You have now successfully completed this lab as well as purchased the offer the you created. You can now explore and create new images based on production requirements
+
+👈 [Back to Virtual Machine labs](../../index.md#labs)

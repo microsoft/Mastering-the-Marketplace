@@ -10,23 +10,14 @@ description: This lab will walk you through setting up a Virtual Machine Offer i
 
 # Micro navigation
 micro_nav: false
+
+hide:
+  - navigation
 ---
 
 👈 [Back to Virtual Machine labs](../../index.md#labs)
 
-This lab is part of a series of labs for Mastering the Virtual Machine Offers Workshop. You should finish this lab before moving on to the next sections. 
-
-<!-- no toc -->
-1. [Prerequisites before starting this lab](#prerequisites-before-starting-this-lab)
-2. [Create a new Virtual Machine Offer](#create-a-new-virtual-machine-offer)
-    - [Offer Setup](#offer-setup)
-    - [Properties](#properties)
-    - [Offer listing](#offer-listing)
-    - [Preview audience](#preview-audience)
-    - [Technical configuration](#technical-configuration)
-    - [Plan overview](#plan-overview)
-    - [Resell through CSPs](#resell-through-csps)
-3. [Review and Publish](#review-and-publish)
+> This lab is part of a series of labs for Mastering the Virtual Machine Offers workshop. You should finish this lab before moving on to the next labs in this course. 
 
 ## Prerequisites before starting this lab
 
@@ -53,7 +44,6 @@ Once the offer is created, navigate to the Offer Setup page by clicking on that 
 
 Offer Setup page will direct you with ways to change your offer alias as well as enable Test Drive. For the purpose of this lab, we will leave everything as is and only configure the Customer leads section.
 
-
 ### Customer leads
 
 Here, you will attach your offer to an Azure Data Storage table which will act as a connected Customer Relationship Management system (CRM) for your offer.
@@ -64,7 +54,7 @@ This is the first time you're using the Azure portal for this class. It is recom
 
 1. Open a new tab for the [Azure portal](https://portal.azure.com) and log in.
 1. Create a Resource Group named **vmworkshop-YOUR_UNIQUE_STRING**. Please note that this is the same unique string you added while creating the offer. 
-1. In the **vmworkshop-YOUR_UNIQUE_STRING** Resource Group, create a standard Azure Storage account. This will be your CRM database, so name it **vmworkshopsayouruniquestring **. Note all characters are lower case for naming a storage account.
+1. In the **vmworkshop-YOUR_UNIQUE_STRING** Resource Group, create a standard Azure Storage account. This will be your CRM database, so name it **vmworkshopsayouruniquestring**. Note all characters are lower case for naming a storage account.
 1. Once the storage account is created, browse to the storage account's overview page.
 1. In the left-hand menu, find the **Security + networking** section.
 1. In that section, find and click on the **Access keys** link.
@@ -79,10 +69,9 @@ This is the first time you're using the Azure portal for this class. It is recom
 1. Enter your **Contact email** and paste in your **Storage account connection string**.
 1. Click the **Validate** link to ensure your connection string is valid.
 1. Click **Connect**.
-
-    For each page, you must click the **Save draft** at the bottom of the page to move on.
-
 1. Click **Save draft** at the bottom of the page.
+
+> ⚠️ For each page, you must click the **Save draft** at the bottom of the page to move on.
 
 ## Properties
 Navigate to the Properties page by selecting the Properties tab on the left.
@@ -96,6 +85,7 @@ You must select at least one category for your offer. Virtual machine offers alw
 1. In the right dropdown, select **Application Infrastructure**.
 
 ### Legal
+
 We will be using the Microsoft Standard Contract for this lab. You may choose differently when you are publishing to the prod environment.
 
 1. Scroll down to the **Legal** section.
@@ -103,15 +93,14 @@ We will be using the Microsoft Standard Contract for this lab. You may choose di
 1. Click **Accept**.
 1. Click the **Save draft** button.
 
-<br/>
+## Offer listing
 
-### Offer listing
 Navigate to the Offer listing page.
 
 1. In the the **Offer listing** section, for **Search results summary** enter **VM Workshop summary**.
 1. For **Short Description** and **Description**, here is some text you may choose to copy and paste into the text box.
     
-    ```text
+    ```
     Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     ```
 
@@ -121,28 +110,27 @@ Navigate to the Offer listing page.
 1. In the **Partner Support Contact** section, enter your contact information.
 1. In the **Engineering Contact** section, enter your engineering contact information.
 1. In the **Cloud Solution Provider Program Contact** section, enter the appropriate contact information (Optional)
-
 1. For the Marketplace media section you'll upload 2 images, both of which are [available here](https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/vm/Labs/lab1-partner-center-setup/items).
     1. For the **216X216 logo image,** upload the PNG provided. This PNG is named "**Contoso-Logo-216x216.png**."
     1. For the **1280X720** screenshot image, upload the PNG provided. This PNG is named "**Screenshots-1280x720.png**."
     1. Add a screenshot image caption.
 1. Click the **Save draft** button and correct any errors that be shown before moving on.
 
-### Preview audience
+## Preview audience
 
 1. In the **Preview audience** section, enter your Azure subscription Id. 
 1. Enter a **Description** (Optional).
 1. Click **Save draft**.
 
-### Technical configuration
-
-Skip this section for this first lab.
-
-### Plan overview
+## Technical configuration
 
 Skip this section for this lab. You'll come back to it later.
 
-### Resell through CSPs
+## Plan overview
+
+Skip this section for this lab. You'll come back to it later.
+
+## Resell through CSPs
 
 Finally navigate to the Resell through CSPs tab.
 

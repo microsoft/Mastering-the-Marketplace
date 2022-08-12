@@ -10,21 +10,14 @@ description: This lab will walk you through creating a Linux based Virtual Machi
 
 # Micro navigation
 micro_nav: false
+
+hide:
+  - navigation
 ---
 
-> Note: This lab is part of a series of labs for Mastering the Virtual Machine Offers Workshop. You should finish this lab as well as prior ones before moving on to the next sections.
+👈 [Back to Virtual Machine labs](../../../index.md#labs)
 
-<!-- no toc -->
-- [Upload Post Deployment Script](#upload-post-deployment-script)
-- [Create a Virtual Machine](#create-a-virtual-machine)
-  - [Basics](#basics)
-  - [Disks](#disks)
-  - [Networking](#networking)
-  - [Management](#management)
-  - [Advanced](#advanced)
-  - [Review + create](#review--create)
-  - [Generate New Keypair](#generate-new-keypair)
-  - [Post VM Creation Exercise](#post-vm-creation-exercise)
+> This lab is part of a series of labs for Mastering the Virtual Machine Offers workshop. You should finish this lab before moving on to the next labs in this course.
 
 ## Upload Post Deployment Script
 
@@ -46,8 +39,6 @@ micro_nav: false
 1. Use the Search bar to search for **Virtual Machine** and hit enter. Select the Virtual Machine offered by Microsoft Azure Service and click on **Create**
 
 At this point you will be taken to the Virtual Machine service with several blades for configuration.
-
-<br>
 
 ### Basics
 
@@ -80,8 +71,6 @@ At this point you will be taken to the Virtual Machine service with several blad
 1. For Select Inbound ports Select **HTTP** as well as **SSH**
 1. Leave the rest as is and Click **Next : Disks >** 
 
-<br>
-
 ### Disks
 
 #### Disk Options
@@ -89,8 +78,6 @@ At this point you will be taken to the Virtual Machine service with several blad
 1. For OS Disk Type, select **Standard HDD (locally-redundant storage)**
 
 Leave the rest of the fields as is on the page and click on **Next : Networking >**
-
-<br>
 
 ### Networking
 
@@ -101,13 +88,9 @@ Leave the rest of the fields as is on the page and click on **Next : Networking 
 
 Leave the rest as is and click on **Next : Management >**
 
-<br>
-
 ### Management
 
 Do not change anything in this section and simply click on **Next : Advanced >**
-
-<br>
 
 ### Advanced
 
@@ -119,7 +102,7 @@ In this module we will demonstrate both, but you should choose to do only once s
 1. Navigate to the custom data and cloud init section
 1. Copy the code from the custom_extension_linux.sh script in this repository and paste it as is
 
-(or)
+**-- OR --**
 
 #### OPTION B. Using Extensions
 
@@ -128,25 +111,17 @@ In this module we will demonstrate both, but you should choose to do only once s
 1. For Script file, browse for the **vmworkshopsayouruniquestring** storage account, select **script** and look for the **custom_extension_linux.sh** Block blob and select it. [If you dont see storage account, please make sure it is in the same region as the VM which is being created]
 1. Under command, modify it to **sh custom_extension_linux.sh**
 
-<br>
-
 Select **Review + create** button at the bottom of the Advanced blade
-
-<br>
 
 ### Review + create
 
 1. In this blade, you should ensure that you receive the **Validation Passed** message at the top. If for any reason you receive a **Validation failed** message, you should go back and review the fields in red.
 1. Lastly take a look at the configurations you have selected and click **Create**
 
-<br>
-
 ### Generate New Keypair
 
 1. A popup will show on the screen to indicate creation of a new Key pair
 1. Select **Download private key and create resource** and save it
-
-<br>
 
 ### Post VM Creation Exercise
 
@@ -155,8 +130,10 @@ Select **Review + create** button at the bottom of the Advanced blade
 1. Copy **Public IP Address** from the created VM and paste it into a browser of your choice. This will show a public facing IP on the internet with a custom Welcome screen. 
 1. Once you see the custom welcome screen, you know that the post deployment script has done its job. 
 
-<br>
+---
 
-**Congratulations!** You have now finished this lab.
+**Congratulations!** You have finished this lab.
 
-If you are in a live class setting, please raise your hand (even if virtually) to indicate you are done with the lab.
+👈 [Back to Virtual Machine labs](../../../index.md#labs)
+
+
