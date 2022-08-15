@@ -141,7 +141,7 @@ An Application Registration is used in the examples when making the first reques
 
 ### The SaaS Client Library for .NET
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196324">Video</a> | <a target="_blank" href="./pdfs/07-The-SaaS-Client-Library-for-.NET.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/the-saas-client-library-for-dotnet">Code</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196324">Video</a> | <a target="_blank" href="./pdfs/07-The-SaaS-Client-Library-for-.NET.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/the-saas-client-library-for-dotnet">Code</a>
 
 This module introduces the [SaaS Client Library for .NET](https://github.com/microsoft/commercial-marketplace-client-dotnet) developers who want to work with the SaaS APIs at a level of abstraction above the REST level.
 
@@ -151,7 +151,7 @@ This video shows a sample command line application that can talk to the client l
 
 ### Building a Simple SaaS Landing Page in .NET
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196323">Video</a> | <a target="_blank" href="./pdfs/08-simple-landing-page-dotnet.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/saas-simple-landing-page">Code</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196323">Video</a> | <a target="_blank" href="./pdfs/08-simple-landing-page-dotnet.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/saas-simple-landing-page">Code</a>
 
 In this module we examine the elements of building a simple landing page and looking at how it works.We examine the following topics.
 
@@ -164,7 +164,7 @@ The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it s
 
 ### Building a Simple SaaS Publisher Portal in .NET
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196257">Video</a> | <a target="_blank" href="./pdfs/09-simple-publisher-portal-dotnet.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/saas-simple-publisher-portal">Code</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196257">Video</a> | <a target="_blank" href="./pdfs/09-simple-publisher-portal-dotnet.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/saas-simple-publisher-portal">Code</a>
 
 In this module we examine the elements of building a publisher portal and at how it works.We examine the following topics.
 
@@ -189,13 +189,13 @@ And more! Consider watching this video before moving on to the code-based module
 
 ### Implementing a Simple SaaS Webhook in .NET
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196159">Video</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/simple-webhook-dotnet-implementing">Code</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196159">Video</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/simple-webhook-dotnet-implementing">Code</a>
 
 This code-heavy module focuses on the fundamentals of implementing a SaaS offer webhook as an Azure function using .NET. Concepts are presented in such a way as to be architecture and technology stack agnostic.
 
 ### Securing a Simple SaaS Webhook in .NET
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196421">Video</a> | <a target="_blank" href="./pdfs/10.3-simple-webhook-dotnet-securing.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/saas/demo-code/simple-webhook-dotnet-securing">Code</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196421">Video</a> | <a target="_blank" href="./pdfs/10.3-simple-webhook-dotnet-securing.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/simple-webhook-dotnet-securing">Code</a>
 
 This security-focused module introduces several techniques for securing a SaaS offer webhook and then dives into code looking at implementations of the techniques presented. This module builds on the concepts and code presented in the module, “[Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)”.
 
