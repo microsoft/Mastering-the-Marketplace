@@ -8,6 +8,8 @@
 *.bak
 *.swp
 Thumbs.db
+.vs/
+.vscode/
 
 # -----------------------
 # Local Development Tools
@@ -22,3 +24,4 @@ Thumbs.db
 .eslintrc
 .jekyll-cache/
 designs/favicon.psd
+.GeneratedMSBuildEditorConfig.editorconfig
