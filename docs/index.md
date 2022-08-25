@@ -25,7 +25,7 @@ This comprehensive course takes you through all you need to get a SaaS offer up 
 
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">The SaaS Accelerator</span>
-Instead of building your own custom SaaS solution, consider using the SaaS Accelerator. The SaaS accelerator is a turnkey reference implementation of the technical requirements for a SaaS offer which can be installed in 20 minutes of less. The project is owned and maintained by an active community and this course will give you everything you need to know about the accelerator. 
+Instead of building your own custom SaaS solution, consider using the SaaS Accelerator. The SaaS accelerator is a turnkey reference implementation of the technical requirements for a SaaS offer which can be installed in 20 minutes.
 
 [Take me to it](/Mastering-the-Marketplace/saas-accelerator){ .md-button }
 </div>
@@ -39,7 +39,7 @@ Virtual machine offers enable you to install your proprietary software on a virt
 
 <div class="landing-tile" markdown="1">
   <span class="linkless-heading">Azure Managed Applications Offers</span>
-With a powerful ARM based deployment model, Azure Managed Applications are popular among those who want to deploy resources into the customer's enviroment, but still maintain control of those resources. Learn the whole story in this course which covers Azure Managed Applications from beginning to end.
+With a powerful ARM based deployment model, Azure Managed Applications are popular among those who want to deploy resources into the customer's environment, but still maintain control of those resources.
 
 [Take me to it](/Mastering-the-Marketplace/ama){ .md-button }
 </div>
@@ -57,5 +57,4 @@ You may find that you need to clone this repository to perform the labs. Feel fr
 
 [View on GitHub  :material-github:](https://github.com/microsoft/Mastering-the-Marketplace){ .md-button .md-button--primary }
 
-<br/>
 <br/>
