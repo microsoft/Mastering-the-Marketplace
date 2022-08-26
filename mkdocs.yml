@@ -6,11 +6,12 @@ edit_uri: ''
 extra_css: 
     - stylesheets/extra.css
 nav : 
-- Azure Managed Application Offers: '/Mastering-the-Marketplace/ama/'
+- Azure Managed Application offers: '/Mastering-the-Marketplace/ama/'
 - Partner Center: '/Mastering-the-Marketplace/partner-center/'
 - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
-- SaaS Offers: '/Mastering-the-Marketplace/saas/'
-- Virtual Machine Offers: '/Mastering-the-Marketplace/vm/'
+- SaaS offers: '/Mastering-the-Marketplace/saas/'
+- Virtual Machine offers: '/Mastering-the-Marketplace/vm/'
+- Learning paths: '/Mastering-the-Marketplace/learning-paths/'
 theme:
   name: material
   custom_dir: overrides
