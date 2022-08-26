@@ -18,8 +18,6 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 
 [✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
  
-[▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
-
 [👈](../index.md) [Go back to the front page](../index.md).
 
 ---
