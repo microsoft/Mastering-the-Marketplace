@@ -14,6 +14,8 @@ description: Mastering the Marketplace is a learning library for building transa
 
 Mastering the Marketplace is an on-demand learning library for building transactable offers on the Microsoft commercial marketplace. The library contains self-paced videos, hands-on labs, and sample code designed to help you get your offers onto the marketplace in less time and with more understanding.
 
+[🚦](./learning-paths/index.md) If you aren't sure where to start, have a look at our [guided learning paths](./learning-paths/index.md)!
+
 [✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or just tell us how we're doing. We love hearing from you and it's completely anonymous.
 
 <div class="landing-tile" markdown="1">
