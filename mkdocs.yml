@@ -11,7 +11,7 @@ nav :
 - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
 - SaaS offers: '/Mastering-the-Marketplace/saas/'
 - Virtual Machine offers: '/Mastering-the-Marketplace/vm/'
-- Learning paths: '/Mastering-the-Marketplace/learning-paths/'
+- Learning paths (Preview): '/Mastering-the-Marketplace/learning-paths/'
 theme:
   name: material
   custom_dir: overrides
