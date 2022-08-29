@@ -22,7 +22,7 @@ This online learning series includes videos, sample code, and hands-on labs mean
 
 ---
 
-The materials on this page come from the Microsoft Teams App Camp. App Camp started as a live event and is now available on-demand. The content here presents the on-demand Teams App Camp materials.
+The materials on this page come from the Microsoft Teams App Camp. App Camp started as a live event and is now available on-demand. The content here presents the on-demand materials.
 
 ## Welcome to App Camp
 
@@ -104,7 +104,7 @@ These videos will help you understand how Teams applications and Azure AD SSO wo
 **Multi-tenant architecture for SaaS apps with Microsoft 365 and Azure Active Directory**
 
 
-## Hand-on labs
+## Hands-on labs
 
 Although the above videos take you through some great materials on various aspects of selling your Teams application, Teams App Camp is fundamentally about building your skills through labs that you can do at your own pace.
 
@@ -132,14 +132,12 @@ If you'd like to watch the labs before doing them, they are here. They're also p
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/AiEDH6N1-ps" frameborder="0" allowfullscreen></iframe>
 </div>
-**Lab A01: Start with a simple web app that uses Azure AD**
-
-
+**Lab A01: Setting up the application with Azure AD**
 <br/>
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/nMnUZ2PQKBc" frameborder="0" allowfullscreen></iframe>
 </div>
-**Lab A02: Create a Teams app with Azure AD Single Sign-On**
+**Lab A02: Creating a Teams app with Azure ADO SSO**
 <br/>
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/pHm_pt5HewQ" frameborder="0" allowfullscreen></iframe>
@@ -149,7 +147,6 @@ If you'd like to watch the labs before doing them, they are here. They're also p
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/qvLofi22paw" frameborder="0" allowfullscreen></iframe>
 </div>
-**Your lab 4 - Add Monetization**
+**Lab 4 - Selling Your SaaS-based Teams Extension**
 
 After completing these four labs, feel free to experiment with the other labs in App Camp to learn even more about building Teams applications and the extension points available.
-
