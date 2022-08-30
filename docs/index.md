@@ -47,6 +47,13 @@ With a powerful ARM based deployment model, Azure Managed Applications are popul
 </div>
 
 <div class="landing-tile" markdown="1">
+<span class="linkless-heading">Mastering Microsoft Teams Offers</span>
+Learn how to build transactable Microsoft Teams applications using SaaS offers as the underlying application. This unique learning experience is powered by Teams App Camp!
+
+[Take me to it](/Mastering-the-Marketplace/teams){ .md-button }
+</div>
+
+<div class="landing-tile" markdown="1">
 <span class="linkless-heading">Mastering Partner Center</span>
 Partner Center is the web portal used to create and publish offers. Learn more about Partner Center in this ever-expanding multi-part course on how to use the portal to publish offers. 
 

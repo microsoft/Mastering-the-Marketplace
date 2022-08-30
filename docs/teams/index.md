@@ -11,6 +11,7 @@ description: This online learning series includes videos, sample code, and hands
 hide:
   - navigation
 ---
+The materials on this page come from the Microsoft Teams App Camp. App Camp started as a live event and is now available on-demand. The content here presents the on-demand materials.
 
 This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your transactable Teams offer on the Microsoft marketplace. If you are building a Teams offer for the marketplace this learning series is for you.
 
@@ -22,9 +23,7 @@ This online learning series includes videos, sample code, and hands-on labs mean
 
 ---
 
-The materials on this page come from the Microsoft Teams App Camp. App Camp started as a live event and is now available on-demand. The content here presents the on-demand materials.
-
-## Welcome to App Camp
+## Welcome to Teams App Camp
 
 This video provides an overview of what you can expect from App Camp and even some introductions by the instructors. This video will also show you the broad strokes of what you'll be doing in the labs!
 
