@@ -48,23 +48,6 @@ This video provides an overview of what you can expect from App Camp and even so
     <iframe src="//www.youtube.com/embed/fk8ul9xcMpc" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Success stories
-
-These Microsoft partners share their successes building and selling their Teams applications via the Microsoft commercial marketplace.
-
-For more video case studies about successful Teams apps, please visit the <a href="https://cloudpartners.transform.microsoft.com/practices/modernworkisv?tab=success-stories" target="_blank">Modern Work ISV Program</a> page.
-
-**Success story: DecisionPoint brings conversational BI to Teams**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/JG5Am5nos1s" frameborder="0" allowfullscreen></iframe>
-</div>
-<br/>
-
-**Success story: My Serious Game brings their EdMill app to Teams**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/rJf-Ertex6g" frameborder="0" allowfullscreen></iframe>
-</div>
-
 ## Monetizing your Teams app
 
 The following videos explain the Microsoft commercial marketplace and how to integrate your application with the e-commerce system that drives it.
