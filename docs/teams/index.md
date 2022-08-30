@@ -134,24 +134,27 @@ The following videos will take you through the labs in detail so you can learn b
 
 If you'd like to watch the labs before doing them, they are here. They're also posted at the beginning of each lab. The instructions should stand on their own - you don't need to watch in order to complete the labs - but they can help if you get stuck or want to understand the labs more deeply.
 
+**Lab A01: Setting up the application with Azure AD**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/AiEDH6N1-ps" frameborder="0" allowfullscreen></iframe>
 </div>
-**Lab A01: Setting up the application with Azure AD**
 <br/>
+
+**Lab A02: Creating a Teams app with Azure ADO SSO**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/nMnUZ2PQKBc" frameborder="0" allowfullscreen></iframe>
 </div>
-**Lab A02: Creating a Teams app with Azure ADO SSO**
 <br/>
+
+**Lab A03: Teams styling and themes**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/pHm_pt5HewQ" frameborder="0" allowfullscreen></iframe>
 </div>
-**Lab A03: Teams styling and themes**
 <br/>
+
+**Lab 4 - Selling Your SaaS-based Teams Extension**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/qvLofi22paw" frameborder="0" allowfullscreen></iframe>
 </div>
-**Lab 4 - Selling Your SaaS-based Teams Extension**
 
 After completing these four labs, feel free to experiment with the other labs in App Camp to learn even more about building Teams applications and the extension points available.
