@@ -33,7 +33,7 @@ This video provides an overview of what you can expect from App Camp and even so
     <iframe src="//www.youtube.com/embed/ntFBgnrTt-s" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## The business behind selling Teams apps
+## The Microsoft Teams marketplace
 
  How can putting your app in the Teams app store generate revenue for you? What benefits does Microsoft offer ISVs who build Teams applications? How will my application appear to Teams users, and how will it help them? These questions and more are answered in the videos in this section.
 
@@ -64,7 +64,7 @@ The following videos explain the Microsoft commercial marketplace and how to int
 </div>
 
 
-## The tech you need to build Teams apps
+## The tech you need
 
 These videos will help you understand how Teams applications and Azure AD SSO work, so you can better understand the labs as you do them.
 
