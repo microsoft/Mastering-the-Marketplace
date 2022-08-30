@@ -26,27 +26,27 @@ The materials on this page come from the Microsoft Teams App Camp. App Camp star
 
 ## Welcome to App Camp
 
-This video provides an overview of what you can expect from App Camp and some introductions by the instructors.
+This video provides an overview of what you can expect from App Camp and even some introductions by the instructors. This video will also show you the broad strokes of what you'll be doing in the labs!
 
-<div class="video">
-    <iframe src="//www.youtube.com/embed/RCyYRvSwjn4" frameborder="0" allowfullscreen></iframe>
-</div>
 **Welcome to Microsoft Teams App Camp!**
+<div class="video">
+    <iframe src="//www.youtube.com/embed/ntFBgnrTt-s" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## The business behind selling Teams apps
 
  How can putting your app in the Teams app store generate revenue for you? What benefits does Microsoft offer ISVs who build Teams applications? How will my application appear to Teams users, and how will it help them? These questions and more are answered in the videos in this section.
 
+**Opportunity for Startups to Build and Grow on Microsoft Teams**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/iho0LJrFp9s" frameborder="0" allowfullscreen></iframe>
 </div>
-**Opportunity for Startups to Build and Grow on Microsoft Teams**
 <br/>
+
+**Microsoft Teams Marketplace Strategy**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/fk8ul9xcMpc" frameborder="0" allowfullscreen></iframe>
 </div>
-**Microsoft Teams Marketplace Strategy**
-
 
 ## Success stories
 
@@ -54,54 +54,59 @@ These Microsoft partners share their successes building and selling their Teams 
 
 For more video case studies about successful Teams apps, please visit the <a href="https://cloudpartners.transform.microsoft.com/practices/modernworkisv?tab=success-stories" target="_blank">Modern Work ISV Program</a> page.
 
+**Success story: DecisionPoint brings conversational BI to Teams**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/JG5Am5nos1s" frameborder="0" allowfullscreen></iframe>
 </div>
-**Success story: DecisionPoint brings conversational BI to Teams**
 <br/>
+
+**Success story: My Serious Game brings their EdMill app to Teams**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/rJf-Ertex6g" frameborder="0" allowfullscreen></iframe>
 </div>
-**Success story: My Serious Game brings their EdMill app to Teams**
 
 ## Monetizing your Teams app
 
 The following videos explain the Microsoft commercial marketplace and how to integrate your application with the e-commerce system that drives it.
 
+**5 Steps to monetize your Teams application**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/_-gbpXZx1D4" frameborder="0" allowfullscreen></iframe>
 </div>
-**5 Steps to monetize your Teams application**
 <br/>
+
+**Publish your app in the Microsoft Teams app store**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/IQf2Zs9Mob8" frameborder="0" allowfullscreen></iframe>
 </div>
-**Publish your app in the Microsoft Teams app store**
 
 
 ## The tech you need to build Teams apps
 
 These videos will help you understand how Teams applications and Azure AD SSO work, so you can better understand the labs as you do them.
 
+**Get started building Microsoft Teams apps**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/EQuB8l4sccg" frameborder="0" allowfullscreen></iframe>
 </div>
-**Get started building Microsoft Teams apps**
 <br/>
+
+**Understanding Single Sign-On (SSO) with Azure AD**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/SaBbfVgqZHc" frameborder="0" allowfullscreen></iframe>
 </div>
-**Understanding Single Sign-On (SSO) with Azure AD**
 <br/>
+
+**Anatomy of a SaaS Application**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/v-Ahdkjs7TY" frameborder="0" allowfullscreen></iframe>
 </div>
-**Anatomy of a SaaS Application**
 <br/>
+
+**Multi-tenant architecture for SaaS apps with Microsoft 365 and Azure Active Directory**
 <div class="tinyVideo">
     <iframe src="//www.youtube.com/embed/RjGVOFm39j0" frameborder="0" allowfullscreen></iframe>
 </div>
-**Multi-tenant architecture for SaaS apps with Microsoft 365 and Azure Active Directory**
 
 
 ## Hands-on labs
