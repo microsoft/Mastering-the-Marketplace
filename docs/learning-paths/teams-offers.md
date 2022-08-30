@@ -18,20 +18,20 @@ The content on this page assumes you are familiar with creating basic Teams appl
 
 - [Monetizing your Teams app](../teams/index.md#monetizing-your-teams-app) (video series)
 - [The Microsoft Teams marketplace](../teams/index.md#the-microsoft-teams-marketplace) (video series)
-- [Choose a pricing model](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/monetize-overview#choose-a-pricing-model)
+- [Choose a pricing model](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/monetize-overview#choose-a-pricing-model)
 
 ## I am a technologist building a Teams offers
 
 - [The technologies you need to know](../teams/index.md#the-tech-you-need) (video series)
 - [Build your own transactable Teams application!](../teams/index.md#hands-on-labs) (hands-on labs)
-- [Build and sell Microsoft Teams apps in Microsoft AppSource and the Microsoft Teams store](https://docs.microsoft.com/en-us/learn/modules/msteams-monetize-apps/) (Microsoft Learn course)
-- [Include a SaaS offer with your Teams app](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/include-saas-offer)
-- [In-app purchases](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/in-app-purchase-flow?tabs=jsonV11)
-- [Testing in the preview stage](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/test-preview-for-monetized-apps)
+- [Build and sell Microsoft Teams apps in Microsoft AppSource and the Microsoft Teams store](https://docs.microsoft.com/learn/modules/msteams-monetize-apps/) (Microsoft Learn course)
+- [Include a SaaS offer with your Teams app](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/include-saas-offer)
+- [In-app purchases](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/in-app-purchase-flow?tabs=jsonV11)
+- [Testing in the preview stage](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/test-preview-for-monetized-apps)
 
 
 ## About the publication process
 
-- [Microsoft Teams store validation guidelines](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)
-- [Resolve issues if your Teams store submission fails](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/resolve-submission-issues)
-- [Common reasons for app validation failure](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/deploy-and-publish/appsource/common-reasons-for-app-validation-failure)
+- [Microsoft Teams store validation guidelines](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)
+- [Resolve issues if your Teams store submission fails](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/resolve-submission-issues)
+- [Common reasons for app validation failure](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/common-reasons-for-app-validation-failure)
