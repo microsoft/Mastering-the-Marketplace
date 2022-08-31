@@ -23,73 +23,81 @@ This online learning series includes videos, sample code, and hands-on labs mean
 
 ---
 
-## Welcome to Teams App Camp
+## Welcome to Teams App Camp!
 
-This video provides an overview of what you can expect from App Camp and even some introductions by the instructors. This video will also show you the broad strokes of what you'll be doing in the labs!
+<a target="_blank" href="https://youtu.be/ntFBgnrTt-s">Video</a>
 
-**Welcome to Microsoft Teams App Camp!**
-<div class="video">
-    <iframe src="//www.youtube.com/embed/ntFBgnrTt-s" frameborder="0" allowfullscreen></iframe>
-</div>
+This welcome video provides an overview of what you can expect from App Camp and even some introductions by the instructors. This video will also show you the broad strokes of what you'll be doing in the labs!
 
 ## The Microsoft Teams marketplace
 
  How can putting your app in the Teams app store generate revenue for you? What benefits does Microsoft offer ISVs who build Teams applications? How will my application appear to Teams users, and how will it help them? These questions and more are answered in the videos in this section.
 
-**Opportunity for Startups to Build and Grow on Microsoft Teams**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/iho0LJrFp9s" frameborder="0" allowfullscreen></iframe>
-</div>
-<br/>
+### Opportunities for Startups
 
-**Microsoft Teams Marketplace Strategy**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/fk8ul9xcMpc" frameborder="0" allowfullscreen></iframe>
-</div>
+<a target="_blank" href="https://youtu.be/iho0LJrFp9s">Video</a>
+
+Meena Millman details opportunities for startups to build transactable Teams applications for the Microsoft commercial marketplace. She also presents some partner success stories of those already building for the platform.
+
+### Microsoft Teams Marketplace Strategy
+
+<a target="_blank" href="https://youtu.be/fk8ul9xcMpc">Video</a>
+
+Masako Kodama introduces us to the larger strategy of the Microsoft Teams platform strategy. She covers custom Teams applications, the Microsoft commercial marketplace, transaction fees, and the M365 ISV benefits program.
 
 ## Monetizing your Teams app
 
 The following videos explain the Microsoft commercial marketplace and how to integrate your application with the e-commerce system that drives it.
 
-**5 Steps to monetize your Teams application**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/_-gbpXZx1D4" frameborder="0" allowfullscreen></iframe>
-</div>
-<br/>
+### 5 Steps to monetize your Teams application
 
-**Publish your app in the Microsoft Teams app store**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/IQf2Zs9Mob8" frameborder="0" allowfullscreen></iframe>
-</div>
+<a target="_blank" href="https://youtu.be/_-gbpXZx1D4">Video</a>
 
+James Skay takes walks through the steps of getting transactable Teams applications into the Microsoft commercial marketplace. He walks through the following activities.
+
+- What is a monetized Teams app?
+- Creating a free Teams app
+- Technical requirements
+- Creating a transactable SaaS offer
+- Linking your offer to a Teams app
+- Submitting your app
+- Next steps
+
+### Publish your app in the Microsoft Teams app store
+
+<a target="_blank" href="https://youtu.be/IQf2Zs9Mob8">Video</a>
+
+The Microsoft Teams App Store gives you access to millions of Microsoft Teams customers around the world! Your apps can be monetized through the Microsoft commercial marketplace to generate revenue.
+
+While there are a lot of videos showing how to build a Teams app, there aren’t many about publishing an app in the Teams app store. In this video, Cloud Solutions Architect Natalia Kats walks you through every step of app publication. 
 
 ## The tech you need
 
 These videos will help you understand how Teams applications and Azure AD SSO work, so you can better understand the labs as you do them.
 
-**Get started building Microsoft Teams apps**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/EQuB8l4sccg" frameborder="0" allowfullscreen></iframe>
-</div>
-<br/>
+### Get started building Microsoft Teams apps
 
-**Understanding Single Sign-On (SSO) with Azure AD**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/SaBbfVgqZHc" frameborder="0" allowfullscreen></iframe>
-</div>
-<br/>
+<a target="_blank" href="https://youtu.be/EQuB8l4sccg">Video</a>
 
-**Anatomy of a SaaS Application**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/v-Ahdkjs7TY" frameborder="0" allowfullscreen></iframe>
-</div>
-<br/>
+In this video, Microsoft Cloud Advocates Bob German and Rabia Williams deep dive into the basic concepts of Microsoft Teams app development. They cover how to get started building apps for Teams in this in-depth tutorial. 
 
-**Multi-tenant architecture for SaaS apps with Microsoft 365 and Azure Active Directory**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/RjGVOFm39j0" frameborder="0" allowfullscreen></iframe>
-</div>
+### Understanding Single Sign-On (SSO) with Azure AD and Microsoft Teams
 
+<a target="_blank" href="https://youtu.be/SaBbfVgqZHc">Video</a>
+
+Microsoft Cloud Advocate Bob German helps you understand the sometimes complex topic of single sign-on. It’s intended as a starting point for developers who want to build Microsoft Teams apps and who need to understand SSO with Azure Active Directory, which is the authentication system used by Teams.
+
+### Anatomy of a SaaS Application
+
+<a target="_blank" href="https://youtu.be/v-Ahdkjs7TY">Video</a>
+
+Microsoft Principal Software Engineer David Starr tours the components and requirements of a SaaS offer. Transactable Teams applications are built on top of SaaS offers and this video covers the anatomy of one in depth. Watch this video to understand what will go into your SaaS application as you build out your Team offer. 
+
+### Multi-tenant architecture for SaaS apps with Microsoft 365 and Azure Active Directory
+
+<a target="_blank" href="https://youtu.be/RjGVOFm39j0">Video</a>
+
+Multi-tenancy is an architecture where multiple tenants share the same physical instance of an app. In this video, you'll learn how to create multi-tenant apps with Microsoft Cloud Advocates Bob German and Rabia Williams. They convert a JavaScript Single Page Application to a multi-tenant application while explaining the concept of multi-tenant apps.  
 
 ## Hands-on labs
 
@@ -110,33 +118,53 @@ The videos in the next section will help you through each lab.
 3. [Teams styling and themes](https://microsoft.github.io/app-camp/aad/A03-after-apply-styling/)
 4. [Selling Your SaaS-based Teams Extension](https://microsoft.github.io/app-camp/aad/Monetization/)
 
-### Supporting lab videos
+### About the lab videos
 
 The following videos will take you through the labs in detail so you can learn by example. Feel free to play and pause the videos as you follow along, building your own Teams application.
 
 If you'd like to watch the labs before doing them, they are here. They're also posted at the beginning of each lab. The instructions should stand on their own - you don't need to watch in order to complete the labs - but they can help if you get stuck or want to understand the labs more deeply.
 
-**Lab A01: Setting up the application with Azure AD**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/AiEDH6N1-ps" frameborder="0" allowfullscreen></iframe>
-</div>
-<br/>
+🥼 After completing these four labs, feel free to experiment with the other labs in App Camp to learn even more about building Teams applications and the extension points available.
 
-**Lab A02: Creating a Teams app with Azure ADO SSO**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/nMnUZ2PQKBc" frameborder="0" allowfullscreen></iframe>
-</div>
-<br/>
+### Lab A01: Setting up the application with Azure AD
 
-**Lab A03: Teams styling and themes**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/pHm_pt5HewQ" frameborder="0" allowfullscreen></iframe>
-</div>
-<br/>
+<a target="_blank" href="https://youtu.be/AiEDH6N1-ps">Video</a>
 
-**Lab 4 - Selling Your SaaS-based Teams Extension**
-<div class="tinyVideo">
-    <iframe src="//www.youtube.com/embed/qvLofi22paw" frameborder="0" allowfullscreen></iframe>
-</div>
+Starting your lab series with AAD. This video walks through the first lab in the series. Watch this video to learn about topics such as the following.
 
-After completing these four labs, feel free to experiment with the other labs in App Camp to learn even more about building Teams applications and the extension points available.
+- Using ngrok
+- Getting your free developer tenant
+- About multi-tenant apps: https://youtu.be/RjGVOFm39j0
+- SSO in Microsoft Teams apps
+- 🛠️ Lab prerequisites
+
+### Lab A02: Creating a Teams app with Azure ADO SSO
+
+<a target="_blank" href="https://youtu.be/nMnUZ2PQKBc">Video</a>
+
+This lab builds on lab A01. In this lab walk through video you will see how to do the following.
+
+- Authorize Microsoft Teams to log users into your app
+- Create the Teams app package
+- Modify the app source code
+- Run your app in Microsoft Teams
+
+### Lab A03: Teams styling and themes
+
+<a target="_blank" href="https://youtu.be/pHm_pt5HewQ">Video</a>
+
+This lab builds on lab A02. In this lab you will learn how to do the following.
+
+- Apply styles based on the Microsoft Teams figma to make your application look like it belongs in Microsoft Teams
+- Display your application with the same color theme the user has selected in Microsoft Teams
+
+### Lab 4 - Selling Your SaaS-based Teams Extension
+
+<a target="_blank" href="https://youtu.be/qvLofi22paw">Video</a>
+
+This lab builds on lab A03. This lab overview walks through the following concepts.
+
+- How users buy your app
+- A mock sample landing page and licensing code
+- Granting consent to access licensing code
+
