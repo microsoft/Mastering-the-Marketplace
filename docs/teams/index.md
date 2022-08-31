@@ -19,7 +19,18 @@ This online learning series includes videos, sample code, and hands-on labs mean
  
 [▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
+[🚦](../learning-paths/teams-offers.md) Not sure where to get started? Try the *Working with  Microsoft Teams Offers* [Learning Path](../learning-paths/teams-offers.md).
+
 [👈](../index.md) [Go back to the front page](../index.md).
+
+## Table of Contents
+
+<!-- no toc -->
+- [Welcome to Teams App Camp!](#welcome-to-teams-app-camp)
+- [The Microsoft Teams marketplace](#the-microsoft-teams-marketplace)
+- [Monetizing your Teams app](#monetizing-your-teams-app)
+- [The tech you need](#the-tech-you-need)
+- [Hands-on labs](#hands-on-labs)
 
 ---
 

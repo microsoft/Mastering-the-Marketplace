@@ -17,10 +17,10 @@ These modules help you understand and use the Partner Center portal to publish y
 Using Partner Center to create and maintain your marketplace offers is a very large topic. We are just getting started with the content we'll publish about Partner Center, so please check back often as this library grows.
 
 [✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
- 
-[👈](../index.md) [Go back to the front page](../index.md).
 
 [🚦](../learning-paths/partner-center.md) Not sure where to get started? Try the *Working with Partner Center* [Learning Path](../learning-paths/partner-center.md).
+ 
+[👈](../index.md) [Go back to the front page](../index.md).
 
 ## Table of Contents
 

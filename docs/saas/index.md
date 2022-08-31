@@ -18,9 +18,16 @@ This online learning series includes videos, sample code, and hands-on labs mean
  
 [▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
+[🚦](../learning-paths/saas-offers.md) Not sure where to get started? Try the *Working with SaaS Offers* [Learning Path](../learning-paths/saas-offers.md).
+
 [👈](../index.md) [Go back to the front page](../index.md).
 
+## Table of Contents
 
+<!-- no toc -->
+- [General SaaS Knowledge](#general-saas-knowledge)
+- [SaaS Technical Knowledge](#saas-technical-knowledge)
+- [Hands-on labs](#hands-on-labs)
 
 ---
 
