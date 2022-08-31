@@ -10,6 +10,8 @@ hide:
 
 🚦 [Learning Paths home](./index.md)
 
+# Working with Microsoft Teams offers
+
 The content on this page assumes you are familiar with creating basic Teams applications. It focuses on topics applicable to selling Teams applications on the Microsoft commercial marketplace.
 
 > **Note:** Content related to creating SaaS applications can be found through the "[Working with SaaS Offers](./saas-offers.md)" learning path.
