@@ -26,11 +26,11 @@ The content on this page assumes you are familiar with creating basic Teams appl
 
 - [The technologies you need to know](../teams/index.md#the-tech-you-need) (video series)
 - [Build your own transactable Teams application!](../teams/index.md#hands-on-labs) (hands-on labs)
+- [Build and Sell Teams Apps in Microsoft AppSource and Teams store](https://microsoftcloudpartner.eventbuilder.com/event/59652) (Marketplace Office Hours)
 - [Build and sell Microsoft Teams apps in Microsoft AppSource and the Microsoft Teams store](https://docs.microsoft.com/learn/modules/msteams-monetize-apps/) (Microsoft Learn course)
 - [Include a SaaS offer with your Teams app](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/include-saas-offer)
 - [In-app purchases](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/in-app-purchase-flow?tabs=jsonV11)
 - [Testing in the preview stage](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/test-preview-for-monetized-apps)
-
 
 ## About the publication process
 

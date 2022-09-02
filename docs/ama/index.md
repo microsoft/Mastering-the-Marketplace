@@ -25,6 +25,27 @@ The slides for this course, which are used in the following content, [are here](
 
 ---
 
+## Table of Contents
+
+<!-- no toc -->
+- [Course Introduction](#course-introduction)
+- [Managed Applications Overview](#managed-applications-overview)
+- [Azure Managed Applications Overview](#azure-managed-applications-overview)
+- [Partner Center with Azure Managed Applications Overview](#partner-center-with-azure-managed-applications-overview)
+- [Configuring Partner Center for Azure Managed Applications - Demo](#configuring-partner-center-for-azure-managed-applications---demo)
+- [Azure Managed Application Deployment Package Overview](#azure-managed-application-deployment-package-overview)
+- [Working with a Azure Managed Application Deployment Package - Demo](#working-with-a-azure-managed-application-deployment-package---demo)
+- [Integrating Virtual Machine Offers into Azure Managed Applications](#integrating-virtual-machine-offers-into-azure-managed-applications)
+- [Purchasing an Azure Managed Application – Demo](#purchasing-an-azure-managed-application--demo)
+- [Managing My Purchased Azure Managed Applications – Demo](#managing-my-purchased-azure-managed-applications--demo)
+- [Managing My Customer’s Azure Managed Applications Overview](#managing-my-customers-azure-managed-applications-overview)
+- [Managing My Customer’s Azure Managed Applications – Demo](#managing-my-customers-azure-managed-applications--demo)
+- [Metered Billing for Azure Managed Applications Overview](#metered-billing-for-azure-managed-applications-overview)
+- [Metered Billing for Azure Managed Applications – Demo](#metered-billing-for-azure-managed-applications--demo)
+- [Advanced Deployment Scenarios for Azure Managed Applications](#advanced-deployment-scenarios-for-azure-managed-applications)
+- [Hands-on labs](#hands-on-labs)
+
+
 ### Course Introduction
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196307">Video</a>
