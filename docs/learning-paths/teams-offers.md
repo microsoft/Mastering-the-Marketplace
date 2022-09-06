@@ -8,9 +8,16 @@ hide:
   - navigation
 ---
 
-🚦 [Learning Paths home](./index.md)
+[Home](../index.md) > [Learning Paths](./index.md)
 
-# Working with Microsoft Teams offers
+# 🚦Working with Microsoft Teams offers
+
+## Table of Contents
+
+<!-- no toc -->
+- [Selling Microsoft Teams applications overview topics](#selling-microsoft-teams-applications-overview-topics)
+- [I am a technologist building a Teams offers](#i-am-a-technologist-building-a-teams-offers)
+- [About the publication process](#about-the-publication-process)
 
 The content on this page assumes you are familiar with creating basic Teams applications. It focuses on topics applicable to selling Teams applications on the Microsoft commercial marketplace.
 
@@ -18,15 +25,15 @@ The content on this page assumes you are familiar with creating basic Teams appl
 
 ## Selling Microsoft Teams applications overview topics
 
-- [Monetizing your Teams app](../teams/index.md#monetizing-your-teams-app) (video series)
-- [The Microsoft Teams marketplace](../teams/index.md#the-microsoft-teams-marketplace) (video series)
+- [Monetizing your Teams app](../teams/index.md#monetizing-your-teams-app) (⏯️video series)
+- [The Microsoft Teams marketplace](../teams/index.md#the-microsoft-teams-marketplace) (⏯️video series)
 - [Choose a pricing model](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/monetize-overview#choose-a-pricing-model)
 
 ## I am a technologist building a Teams offers
 
-- [The technologies you need to know](../teams/index.md#the-tech-you-need) (video series)
-- [Build your own transactable Teams application!](../teams/index.md#hands-on-labs) (hands-on labs)
-- [Build and Sell Teams Apps in Microsoft AppSource and Teams store](https://microsoftcloudpartner.eventbuilder.com/event/59652) (Marketplace Office Hours)
+- [The technologies you need to know](../teams/index.md#the-tech-you-need) (⏯️video series)
+- [Build your own transactable Teams application!](../teams/index.md#hands-on-labs) (🧪hands-on labs)
+- [Build and Sell Teams Apps in Microsoft AppSource and Teams store](https://microsoftcloudpartner.eventbuilder.com/event/59652) (⏲️Marketplace Office Hours)
 - [Build and sell Microsoft Teams apps in Microsoft AppSource and the Microsoft Teams store](https://docs.microsoft.com/learn/modules/msteams-monetize-apps/) (Microsoft Learn course)
 - [Include a SaaS offer with your Teams app](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/include-saas-offer)
 - [In-app purchases](https://docs.microsoft.com/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/in-app-purchase-flow?tabs=jsonV11)

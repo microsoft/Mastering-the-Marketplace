@@ -8,9 +8,20 @@ hide:
   - navigation
 ---
 
-🚦 [Learning Paths home](./index.md)
+[Home](../index.md) > [Learning Paths](./index.md)
 
-# Working with Partner Center
+# 🚦Working with Partner Center
+
+## Table of Contents
+
+<!-- no toc -->
+- [Getting started with Partner Center](#getting-started-with-partner-center)
+- [Working with SaaS offers](#working-with-saas-offers)
+- [Working with Virtual Machine offers](#working-with-virtual-machine-offers)
+- [Working with Azure Managed Application offers](#working-with-azure-managed-application-offers)
+- [Private offers](#private-offers)
+- [Private plans](#private-plans)
+
 
 ## Getting started with Partner Center
 
@@ -22,31 +33,31 @@ hide:
 
 ## Working with SaaS offers
 
-- [Working with SaaS Offers](https://microsoft.github.io/Mastering-the-Marketplace/partner-center/#working-with-saas-offers) (video series)
+- [Working with SaaS Offers](https://microsoft.github.io/Mastering-the-Marketplace/partner-center/#working-with-saas-offers) (⏯️video series)
 - [Plan a SaaS offer](https://docs.microsoft.com/azure/marketplace/plan-saas-offer)
 - [Plan a test and development SaaS offer](https://docs.microsoft.com/azure/marketplace/plan-saas-dev-test-offer)
 
 ## Working with Virtual Machine offers
 
-- [Working with Virtual Machine Offers](https://microsoft.github.io/Mastering-the-Marketplace/partner-center/#working-with-virtual-machine-offers) (video)	
+- [Working with Virtual Machine Offers](https://microsoft.github.io/Mastering-the-Marketplace/partner-center/#working-with-virtual-machine-offers) (⏯️video)	
 - [Plan a virtual machine offer](https://docs.microsoft.com/azure/marketplace/marketplace-virtual-machines)
 - [Create a virtual machine offer](https://docs.microsoft.com/azure/marketplace/azure-vm-offer-setup)
 
 ## Working with Azure Managed Application offers
 
-- [Working with Azure Managed Application offers](https://microsoft.github.io/Mastering-the-Marketplace/partner-center/#working-with-azure-managed-application-offers) (video)	
+- [Working with Azure Managed Application offers](https://microsoft.github.io/Mastering-the-Marketplace/partner-center/#working-with-azure-managed-application-offers) (⏯️video)	
 - [Plan an Azure Managed Application offer](https://docs.microsoft.com/azure/marketplace/plan-azure-application-offer)
 - [Create an Azure application offer](https://docs.microsoft.com/azure/marketplace/azure-app-offer-setup)
 
 ## Private offers
 
-- [Working with Private Offers](https://microsoft.github.io/Mastering-the-Marketplace/partner-center#working-with-private-offers) (video series)
+- [Working with Private Offers](https://microsoft.github.io/Mastering-the-Marketplace/partner-center#working-with-private-offers) (⏯️video series)
 - [ISV to customer private offers](https://docs.microsoft.com/azure/marketplace/isv-customer)
 - [ISV to CSP partner private offers](https://docs.microsoft.com/azure/marketplace/isv-csp-reseller)
 		
 ## Private plans
 
-- [Publishing a Private SaaS Plan](https://microsoft.github.io/Mastering-the-Marketplace/partner-center#publishing-a-private-saas-plan) (video)
-- [Purchasing a Private SaaS Plan](https://microsoft.github.io/Mastering-the-Marketplace/saas#purchasing-a-private-saas-plan) (video)	
+- [Publishing a Private SaaS Plan](https://microsoft.github.io/Mastering-the-Marketplace/partner-center#publishing-a-private-saas-plan) (⏯️video)
+- [Purchasing a Private SaaS Plan](https://microsoft.github.io/Mastering-the-Marketplace/saas#purchasing-a-private-saas-plan) (⏯️video)	
 - [Troubleshooting private plans](https://docs.microsoft.com/azure/marketplace/azure-private-plan-troubleshooting)
 - [Private plans in the Microsoft commercial marketplace](https://docs.microsoft.com/azure/marketplace/private-plans)

@@ -8,11 +8,19 @@ hide:
   - navigation
 ---
 
-🚦 [Learning Paths home](./index.md)
+[Home](../index.md) > [Learning Paths](./index.md)
 
-# Getting started with the commercial marketplace
+# 🚦Getting started with the commercial marketplace
 
+## Table of Contents
 
+<!-- no toc -->
+- [Marketplace essentials](#marketplace-essentials)
+- [Design your offer](#design-your-offer)
+- [Build your offer](#build-your-offer)
+- [Publish your offer](#publish-your-offer)
+- [Go to market with incentive programs](#go-to-market-with-incentive-programs)
+- [Finance and Reporting](#finance-and-reporting)
 
 ## Marketplace essentials
 
@@ -49,7 +57,6 @@ hide:
 
 - [Advanced Certification Overview](https://aka.ms/MOH/AdvancedCertificationOverview) (⏲️ Marketplace Office Hours)
 - [Publishing Overview of Common Certification Errors](https://aka.ms/MOH/CommonCertificationErrors)  (⏲️ Marketplace Office Hours)
-- []()
 
 ## Go to market with incentive programs
 
@@ -57,10 +64,3 @@ hide:
 - [Configure a co-sell solution](https://docs.microsoft.com/partner-center/co-sell-configure)
 - [Cloud Solution Provider program](https://docs.microsoft.com/azure/marketplace/cloud-solution-providers)
 - [Azure Consumption Commitment enrollment (MACC)](https://docs.microsoft.com/azure/marketplace/azure-consumption-commitment-enrollment)
-
-## Finance and Reporting
-
-- []()
-- []()
-- []()
-- []()

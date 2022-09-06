@@ -1,3 +1,15 @@
+---
+# Page settings
+layout: default
+keywords: Azure AppSource Marketplace SaaS
+comments: false
+
+hide:
+  - navigation
+---
+
+[Home](../index.md) > Learning Paths
+
 # 🚦What do you want to learn today?
 
 - [Get started with the Microsoft commercial marketplace](./getting-started.md)
