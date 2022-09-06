@@ -17,7 +17,7 @@ This series of video modules and hands-on labs is designed to help you understan
 
 [✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
  
-[▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
+[🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
 [👈](../index.md) [Go back to the front page](../index.md).
 
@@ -74,7 +74,7 @@ The following hands-on labs build upon each other. Completing them will get a fu
 1. Azure subscription that can create resources
 1. A Partner Center Account
 
-### Labs
+### 🧪Labs
 
 1. [Preparing Partner Center](./labs/lab1-partner-center/README.md)
 2. [Installing the Accelerator](./labs/lab2-install/README.md)

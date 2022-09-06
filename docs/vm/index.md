@@ -21,7 +21,7 @@ Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon created this course.
  
 [🚦](../learning-paths/virtual-machine-offers.md) Not sure where to get started? Try the *Working with Virtual Machine Offers* [Learning Path](../learning-paths/virtual-machine-offers.md).
 
-[▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
+[🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
 [👈](../index.md) [Go back to the front page](../index.md).
 
@@ -119,7 +119,7 @@ Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) 
 - An active Partner Center Account (Please ensure you have enrolled into the Marketplace Offers program)
 - Visual Studio Code or other text editor
 
-### Labs
+### 🧪Labs
 
 1. [Partner Center Setup](./Labs/lab1-partner-center-setup/index.md)
 2. [VM Creation](./Labs/lab2-vm-creation/index.md)

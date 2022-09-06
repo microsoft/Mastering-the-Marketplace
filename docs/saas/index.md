@@ -16,7 +16,7 @@ This online learning series includes videos, sample code, and hands-on labs mean
 
 [✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
  
-[▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
+[🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
 [🚦](../learning-paths/saas-offers.md) Not sure where to get started? Try the *Working with SaaS Offers* [Learning Path](../learning-paths/saas-offers.md).
 
@@ -227,7 +227,7 @@ Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) 
 1. A Partner Center Account
 1. Visual Studio 2022, any version
 
-### Labs
+### 🧪Labs
 
 1. [Creating a SaaS Offer in Partner Center](./labs/lab1-create-pc-offer/README.md)
 1. [Creating a Landing Page](./labs/lab2-create-landing-page/README.md)

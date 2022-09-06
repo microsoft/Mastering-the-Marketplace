@@ -17,7 +17,7 @@ This course is designed to help you decrease your onboarding when building an Az
 
 [✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
  
-[▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
+[🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
 [👈](../index.md) [Go back to the front page](../index.md).
 
@@ -152,7 +152,7 @@ These hand on labs build on top of one another, so progress through them in orde
 
 Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
 
-### Labs
+### 🧪 Labs
 
 1. Lab 1 - [Publishing an Azure Managed Application Offer in Partner Center](./labs/lab-1-partner-center/README.md)
 2. Lab 2 - [The Managed Application Deployment Package](./labs/lab-2-deployment-package/README.md)

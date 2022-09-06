@@ -16,7 +16,7 @@ Mastering the Marketplace is an on-demand learning library for building transact
 
 [🚦](./learning-paths/index.md) If you aren't sure where to start, have a look at our [guided learning paths](./learning-paths/index.md)!
 
-[✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or just tell us how we're doing. We love hearing from you and it's completely anonymous.
+[✉️](https://forms.office.com/r/0gCrzhSMkw) [We love hearing from you](https://forms.office.com/r/0gCrzhSMkw) and it's completely anonymous.
 
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">Build Custom SaaS Offers</span>

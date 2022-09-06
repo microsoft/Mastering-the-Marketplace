@@ -13,7 +13,7 @@ nav :
 - Teams Offers: '/Mastering-the-Marketplace/teams/'
 - Virtual Machine Offers: '/Mastering-the-Marketplace/vm/'
 - "": "/"
-- Learning Paths (Preview): '/Mastering-the-Marketplace/learning-paths/'
+- 🚦Learning Paths (Preview): '/Mastering-the-Marketplace/learning-paths/'
 
 theme:
   name: material

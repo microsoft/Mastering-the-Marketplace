@@ -17,7 +17,7 @@ This online learning series includes videos, sample code, and hands-on labs mean
 
 [✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
  
-[▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
+[🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
 [🚦](../learning-paths/teams-offers.md) Not sure where to get started? Try the *Working with  Microsoft Teams Offers* [Learning Path](../learning-paths/teams-offers.md).
 
@@ -118,7 +118,7 @@ Although the above videos take you through some great materials on various aspec
 
 The labs are hosted on another site, [Microsoft Teams App Camp](https://aka.ms/app-camp). But this section will guide you down the path of the labs you need to complete to understanding how to build a Teams app that can be sold in the marketplace. The application code involved is plain JavaScript without a framework like Angular or React.js behind it, to keep things platform neutral and as simple as possible.
 
-### Lab order and links
+### 🧪Lab order and links
 
 The labs are structured as a series of 3 required labs followed by a "Choose your own adventure" style of labs such that you can explore on your own. Here, you'll find information on four labs, the three required ones plus the lab, "Selling Your SaaS-based Teams Extension."
 
