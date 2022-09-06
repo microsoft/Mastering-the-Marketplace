@@ -5,12 +5,16 @@ keywords: Azure AppSource Marketplace SaaS Teams
 comments: false
 
 # Hero section
-title: Mastering transactable Teams applications with App Camp
 description: This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your transactable Teams offer on the Microsoft marketplace. If you are building a Teams offer for the marketplace this learning series is for you.
 
 hide:
   - navigation
 ---
+
+[Home](../index.md)
+
+# Mastering transactable Teams applications with App Camp
+
 The materials on this page come from the Microsoft Teams App Camp. App Camp started as a live event and is now available on-demand. The content here presents the on-demand materials.
 
 This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your transactable Teams offer on the Microsoft marketplace. If you are building a Teams offer for the marketplace this learning series is for you.
@@ -20,8 +24,6 @@ This online learning series includes videos, sample code, and hands-on labs mean
 [🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
 [🚦](../learning-paths/teams-offers.md) Not sure where to get started? Try the *Working with  Microsoft Teams Offers* [Learning Path](../learning-paths/teams-offers.md).
-
-[👈](../index.md) [Go back to the front page](../index.md).
 
 ## Table of Contents
 

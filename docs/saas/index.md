@@ -5,12 +5,15 @@ keywords: Azure AppSource Marketplace SaaS
 comments: false
 
 # Hero section
-title: Mastering SaaS Offers
 description: This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.
 
 hide:
   - navigation
 ---
+
+[Home](../index.md)
+
+# Mastering SaaS Offers
 
 This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.
 
@@ -19,8 +22,6 @@ This online learning series includes videos, sample code, and hands-on labs mean
 [🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
 [🚦](../learning-paths/saas-offers.md) Not sure where to get started? Try the *Working with SaaS Offers* [Learning Path](../learning-paths/saas-offers.md).
-
-[👈](../index.md) [Go back to the front page](../index.md).
 
 ## Table of Contents
 

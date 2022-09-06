@@ -5,12 +5,16 @@ keywords: Azure AppSource Marketplace Partner Center
 comments: false
 
 # Hero section
-title: Mastering Partner Center
+
 description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
 hide:
   - navigation
 ---
+
+[Home](../index.md)
+
+# Mastering Partner Center
 
 These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
@@ -20,8 +24,6 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 
 [🚦](../learning-paths/partner-center.md) Not sure where to get started? Try the *Working with Partner Center* [Learning Path](../learning-paths/partner-center.md).
  
-[👈](../index.md) [Go back to the front page](../index.md).
-
 ## Table of Contents
 
 <!-- no toc -->
