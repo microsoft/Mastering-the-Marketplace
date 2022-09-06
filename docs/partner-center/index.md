@@ -145,12 +145,10 @@ Partner Center is the portal publishers use to create, configure, publish, and m
 
 Understanding Partner Center, the publisher's portal, is key to creating great offers. This demo walks through setting up a Partner Center offer for an Azure Managed Application.
 
-<!--
 ## More partner Center topics
 
-### Handling multiple currencies
+### Handling multiple currencies for different markets
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=">COMING SOON</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2207055">Video</a>
 
 Plans have specific pricing and may be offered in many regions, many with different currencies. This video walks though how to customize pricing in local currencies per selling region. For example, you may set the price in the US at one rate and the price in other regions for different amounts based on local currencies.
--->
