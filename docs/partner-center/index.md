@@ -31,6 +31,7 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 - [Working with SaaS Offers](#working-with-saas-offers)
 - [Working with Virtual Machine Offers](#working-with-virtual-machine-offers)
 - [Working with Azure Managed Application Offers](#working-with-azure-managed-application-offers)
+- [More Partner Center topics](#more-partner-center-topics)
 
 ---
 
@@ -145,7 +146,7 @@ Partner Center is the portal publishers use to create, configure, publish, and m
 
 Understanding Partner Center, the publisher's portal, is key to creating great offers. This demo walks through setting up a Partner Center offer for an Azure Managed Application.
 
-## More partner Center topics
+## More Partner Center topics
 
 ### Handling multiple currencies for different markets
 
