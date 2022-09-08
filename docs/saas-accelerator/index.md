@@ -75,7 +75,7 @@ The following hands-on labs build upon each other. Completing them will get a fu
 1. Azure subscription that can create resources
 1. A Partner Center Account
 
-### 🧪Labs
+### Labs🧪
 
 1. [Preparing Partner Center](./labs/lab1-partner-center/README.md)
 2. [Installing the Accelerator](./labs/lab2-install/README.md)

@@ -112,7 +112,7 @@ Microsoft Principal Software Engineer David Starr tours the components and requi
 
 Multi-tenancy is an architecture where multiple tenants share the same physical instance of an app. In this video, you'll learn how to create multi-tenant apps with Microsoft Cloud Advocates Bob German and Rabia Williams. They convert a JavaScript Single Page Application to a multi-tenant application while explaining the concept of multi-tenant apps.  
 
-## Hands-on labs
+## Hands-on labs🧪
 
 Although the above videos take you through some great materials on various aspects of selling your Teams application, Teams App Camp is fundamentally about building your skills through labs that you can do at your own pace.
 
@@ -120,7 +120,7 @@ Although the above videos take you through some great materials on various aspec
 
 The labs are hosted on another site, [Microsoft Teams App Camp](https://aka.ms/app-camp). But this section will guide you down the path of the labs you need to complete to understanding how to build a Teams app that can be sold in the marketplace. The application code involved is plain JavaScript without a framework like Angular or React.js behind it, to keep things platform neutral and as simple as possible.
 
-### 🧪Lab order and links
+### Lab order and links
 
 The labs are structured as a series of 3 required labs followed by a "Choose your own adventure" style of labs such that you can explore on your own. Here, you'll find information on four labs, the three required ones plus the lab, "Selling Your SaaS-based Teams Extension."
 

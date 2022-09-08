@@ -228,7 +228,7 @@ Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) 
 1. A Partner Center Account
 1. Visual Studio 2022, any version
 
-### 🧪Labs
+### Labs🧪
 
 1. [Creating a SaaS Offer in Partner Center](./labs/lab1-create-pc-offer/README.md)
 1. [Creating a Landing Page](./labs/lab2-create-landing-page/README.md)
