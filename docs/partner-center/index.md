@@ -27,13 +27,27 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 ## Table of Contents
 
 <!-- no toc -->
+- [General Partner Center Knowledge](#general-partner-center-knowledge)
 - [Working with Private Offers](#working-with-private-offers)
 - [Working with SaaS Offers](#working-with-saas-offers)
 - [Working with Virtual Machine Offers](#working-with-virtual-machine-offers)
 - [Working with Azure Managed Application Offers](#working-with-azure-managed-application-offers)
-- [More Partner Center topics](#more-partner-center-topics)
 
 ---
+
+## General Partner Center Knowledge
+
+### Choosing Your Offer Type
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2207811">Video</a> | [PDF](./pdfs/00.1-choose-offer-type.pdf)
+
+Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? This video walks you through the decision of what type of offer is a good fit for your solution.
+
+### Handling multiple currencies for different markets
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2207055">Video</a>
+
+Plans have specific pricing and may be offered in many regions, many with different currencies. This video walks though how to customize pricing in local currencies per selling region. For example, you may set the price in the US at one rate and the price in other regions for different amounts based on local currencies.
 
 ## Working with Private Offers
 
@@ -145,11 +159,3 @@ Partner Center is the portal publishers use to create, configure, publish, and m
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196410">Video</a>
 
 Understanding Partner Center, the publisher's portal, is key to creating great offers. This demo walks through setting up a Partner Center offer for an Azure Managed Application.
-
-## More Partner Center topics
-
-### Handling multiple currencies for different markets
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2207055">Video</a>
-
-Plans have specific pricing and may be offered in many regions, many with different currencies. This video walks though how to customize pricing in local currencies per selling region. For example, you may set the price in the US at one rate and the price in other regions for different amounts based on local currencies.
