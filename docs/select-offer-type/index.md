@@ -15,6 +15,14 @@ hide:
 # Choosing Your Offer Type
 
 [✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
+
+## Table of Contents
+
+<!-- no toc -->
+- [Offer type selection video](#offer-type-selection-video)
+- [Decision tree](#decision-tree)
+- [More resources and information](#more-resources-and-information)
+
  
 ## Offer type selection video
 
