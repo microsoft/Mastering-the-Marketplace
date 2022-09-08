@@ -28,11 +28,11 @@ hide:
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2207811">Video</a>
 
-Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? This video walks you through the decision of what type of offer is a good fit for your solution.
+Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? This video walks you through the types and some things about them to help you make the decision of what offer type is best for you.
 
 ## Decision tree
 
-Follow the questions in the below image to find the right offer type for you. You may click on the offer types to go to more information in our Learning Paths.
+Building on top of the above video, follow the questions in the below image to find the right offer type for you. 
 
 ![Find your offer type](./assets/select-offer-type.png)
 
