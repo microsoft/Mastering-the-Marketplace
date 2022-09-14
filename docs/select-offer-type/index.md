@@ -4,25 +4,22 @@ layout: default
 keywords: Azure AppSource Marketplace SaaS
 comments: false
 
-title: Find your offer type
-
 hide:
   - navigation
 ---
 
 [Home](../index.md)
 
-# Choosing Your Offer Type
+# Choose Your Offer Type
 
-[✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
+If you aren't certain which offer type you will be creating, this page is for you. Primary considerations for choosing an offer type include billing options and deployment architectures. This page has resources to help walk through these topics as well as any others related to getting started.
 
 ## Table of Contents
 
 <!-- no toc -->
-- [Offer type selection video](#offer-type-selection-video)
-- [Decision tree](#decision-tree)
+- [Video walk through of selecting an offer type](#offer-type-selection-video)
+- [Offer type decision tree](#decision-tree)
 - [More resources and information](#more-resources-and-information)
-
  
 ## Offer type selection video
 
