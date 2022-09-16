@@ -20,13 +20,12 @@ hide:
 - [Build your offer](#build-your-offer)
 - [Publish your offer](#publish-your-offer)
 - [Go to market with incentive programs](#go-to-market-with-incentive-programs)
-- [Finance and Reporting](#finance-and-reporting)
 
 ---
 
 ## Marketplace essentials
 
-- Choosing your Microsoft commercial marketplace offer type (⏯️ video)	(Coming soon))
+- [Choosing your Microsoft commercial marketplace offer type](../select-offer-type/index.md)
 - [Getting Started in Marketplace](https://aka.ms/MOH/GettingStartedinMarketplace) (⏲️ Marketplace Office Hours)
 - [Publishing guide by offer type](https://docs.microsoft.com/azure/marketplace/marketplace-commercial-transaction-capabilities-and-considerations#transact-overview)
 - [Introduction to listing options](https://docs.microsoft.com/azure/marketplace/determine-your-listing-type)
