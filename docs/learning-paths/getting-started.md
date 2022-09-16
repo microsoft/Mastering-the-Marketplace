@@ -56,12 +56,14 @@ hide:
 
 ## Publish your offer
 
+- [Overview of Common Certification Errors](https://aka.ms/MOH/CommonCertificationErrors)  (⏲️ Marketplace Office Hours)
 - [Advanced Certification Overview](https://aka.ms/MOH/AdvancedCertificationOverview) (⏲️ Marketplace Office Hours)
-- [Publishing Overview of Common Certification Errors](https://aka.ms/MOH/CommonCertificationErrors)  (⏲️ Marketplace Office Hours)
 
 ## Go to market with incentive programs
 
 - [Marketplace Rewards Overview](https://aka.ms/MOH/MarketplaceRewardsOverview) (⏲️ Marketplace Office Hours)
-- [Configure a co-sell solution](https://docs.microsoft.com/partner-center/co-sell-configure)
+- [Co-sell with Microsoft sales teams and partners overview](https://docs.microsoft.com/en-us/partner-center/co-sell-overview)
+- [Configure a Co-sell solution](https://docs.microsoft.com/partner-center/co-sell-configure)
+- [Azure Consumption Commitment (MACC) benefit](https://docs.microsoft.com/en-us/marketplace/azure-consumption-commitment-benefit)
+- [Azure Consumption Commitment (MACC) enrollment](https://docs.microsoft.com/azure/marketplace/azure-consumption-commitment-enrollment)
 - [Cloud Solution Provider program](https://docs.microsoft.com/azure/marketplace/cloud-solution-providers)
-- [Azure Consumption Commitment enrollment (MACC)](https://docs.microsoft.com/azure/marketplace/azure-consumption-commitment-enrollment)
