@@ -25,6 +25,24 @@ Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon created this course.
 
 [🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
+## Table of Contents
+
+<!-- no toc -->
+- [Creating Virtual Machine Offers Overview](#creating-virtual-machine-offers-overview)
+- [Partner Center Overview](#partner-center-overview)
+- [Creating an Offer in Partner Center (Demo)](#creating-an-offer-in-partner-center-demo)
+- [Creating and Customizing a Virtual Machine (Demo)](#creating-and-customizing-a-virtual-machine-demo)
+- [Generalizing and Capturing a Virtual Machine Image](#generalizing-and-capturing-a-virtual-machine-image)
+- [Generalizing and Capturing a Virtual Machine Image (Demo)](#generalizing-and-capturing-a-virtual-machine-image-demo)
+- [Publish Your Virtual Machine Offer with Partner Center (Demo)](#publish-your-virtual-machine-offer-with-partner-center-demo)
+- [Securing Your Virtual Machine](#securing-your-virtual-machine)
+- [Virtual Machine Automation with Packer Overview](#virtual-machine-automation-with-packer-overview)
+- [Virtual Machine Automation with Packer (Demo)](#virtual-machine-automation-with-packer-demo)
+- [The Virtual Machine Offer Certification Process](#the-virtual-machine-offer-certification-process)
+- [Virtual Machine Certification Test Tool (Demo)](#virtual-machine-certification-test-tool-demo)
+- [Purchasing the Virtual Machine Offer](#purchasing-the-virtual-machine-offer)
+- [Hands-on labs](#hands-on-labs)
+
 ---
 
 ## Creating Virtual Machine Offers Overview
