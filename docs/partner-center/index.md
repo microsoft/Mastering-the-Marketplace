@@ -25,7 +25,7 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 [🚦](../learning-paths/partner-center.md) Not sure where to get started? Try the [Working with Partner Center Learning Path](../learning-paths/partner-center.md).
 
 - [Find general Partner Center knowledge](./general.md)
-- [Working with Private Offers](./private-offers.md)
+- [Private Offers](./private-offers.md)
 - [Working with SaaS Offers](./saas.md)
 - [Working with Virtual Machine Offers](./vm.md)
 - [Working with Azure Managed Application Offers](./ama.md)
