@@ -18,6 +18,8 @@ hide:
 - [Getting started with Azure Managed Application offers](#getting-started-with-azure-managed-application-offers)
 - [I am a technologist building a Azure Managed Application offer](#i-am-a-technologist-building-a-azure-managed-application-offer)
 
+---
+
 ## Getting started with Azure Managed Application offers
 
 - [Managed Applications Overview](https://microsoft.github.io/Mastering-the-Marketplace/ama/#managed-applications-overview) (⏯️video)

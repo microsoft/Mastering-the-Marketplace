@@ -22,6 +22,8 @@ hide:
 - [Go to market with incentive programs](#go-to-market-with-incentive-programs)
 - [Finance and Reporting](#finance-and-reporting)
 
+---
+
 ## Marketplace essentials
 
 - Choosing your Microsoft commercial marketplace offer type (⏯️ video)	(Coming soon))
