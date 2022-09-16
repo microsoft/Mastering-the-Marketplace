@@ -8,11 +8,11 @@ hide:
   - navigation
 ---
 
-[Home](../index.md) > Learning Paths
+[Home](../index.md)
 
 # 🚦What do you want to learn today?
 
-- [Get started with the Microsoft commercial marketplace](./getting-started.md)
+- [Where to get started](./getting-started.md)
 - [Working with Partner Center](./partner-center.md)
 - [Working with SaaS offers](./saas-offers.md)
 - [Working with the SaaS Accelerator](../saas-accelerator/index.md) (⏯️ on-demand course)
