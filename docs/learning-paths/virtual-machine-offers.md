@@ -22,6 +22,7 @@ hide:
 
 - [Creating Virtual Machine Offers Overview](https://microsoft.github.io/Mastering-the-Marketplace/vm/#creating-virtual-machine-offers-overview) (⏯️video)
 - [Creating an Offer in Partner Center Demo](https://microsoft.github.io/Mastering-the-Marketplace/vm/#creating-and-customizing-a-virtual-machine-demo) (⏯️video)
+- [Create a virtual machine offer for the commercial marketplace](https://learn.microsoft.com/en-us/training/modules/create-vm-offer-commercial-marketplace/) (Microsoft Learn Training)
 - [Plan a virtual machine offer](https://docs.microsoft.com/azure/marketplace/marketplace-virtual-machines)
 - [Create a virtual machine offer](https://docs.microsoft.com/azure/marketplace/azure-vm-offer-setup)
 - [Configure pricing and availability for a virtual machine offer](https://docs.microsoft.com/azure/marketplace/azure-vm-plan-pricing-and-availability)

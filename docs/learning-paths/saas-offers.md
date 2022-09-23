@@ -23,6 +23,7 @@ hide:
 
 - [SaaS Offer Overview](https://microsoft.github.io/Mastering-the-Marketplace/saas/#saas-offer-overview) (⏯️video)	
 - [General SaaS Knowledge](https://microsoft.github.io/Mastering-the-Marketplace/saas/#general-saas-knowledge) (⏯️video series)	
+- [Create a SaaS offer for the commercial marketplace](https://learn.microsoft.com/en-us/training/modules/create-saas-offer-commercial-marketplace/) (Microsoft Learn Training)
 - [Plan a SaaS offer for the commercial marketplace](https://docs.microsoft.com/azure/marketplace/plan-saas-offer)
 - [Create a SaaS offer](https://docs.microsoft.com/azure/marketplace/create-new-saas-offer)
 

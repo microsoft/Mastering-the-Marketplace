@@ -25,7 +25,9 @@ hide:
 
 ## Marketplace essentials
 
-- [Choosing your Microsoft commercial marketplace offer type](../select-offer-type/index.md)
+- [What is the Microsoft commercial marketplace?](https://learn.microsoft.com/en-us/azure/marketplace/overview)
+- [Introduction to the Microsoft commercial marketplace](https://learn.microsoft.com/en-us/training/modules/intro-commercial-marketplace/) (Microsoft Learn Training)
+- [Sell through the commercial marketplace](https://learn.microsoft.com/en-us/training/paths/sell-through-commercial-marketplace) (Microsoft Learn Training)
 - [Getting Started in Marketplace](https://aka.ms/MOH/GettingStartedinMarketplace) (⏲️ Marketplace Office Hours)
 - [Publishing guide by offer type](https://docs.microsoft.com/azure/marketplace/marketplace-commercial-transaction-capabilities-and-considerations#transact-overview)
 - [Introduction to listing options](https://docs.microsoft.com/azure/marketplace/determine-your-listing-type)
@@ -61,6 +63,7 @@ hide:
 
 ## Go to market with incentive programs
 
+- [Go to market through the commercial marketplace](https://learn.microsoft.com/en-us/training/modules/go-to-market-commercial-marketplace/) (Microsoft Learn Training)
 - [Marketplace Rewards Overview](https://aka.ms/MOH/MarketplaceRewardsOverview) (⏲️ Marketplace Office Hours)
 - [Co-sell with Microsoft sales teams and partners overview](https://docs.microsoft.com/en-us/partner-center/co-sell-overview)
 - [Configure a Co-sell solution](https://docs.microsoft.com/partner-center/co-sell-configure)
