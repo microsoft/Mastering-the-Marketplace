@@ -17,4 +17,5 @@ registryServer: "<<youracr>>.azurecr.io"
 extensionRegistrationParameters:
   defaultScope: "cluster"
   billingIdentifier: microsoft.marketplace.example.azure-todo
+  namespace: "<<youracr>>"
   

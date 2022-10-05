@@ -306,6 +306,7 @@ In this section you will update the **manifest.yaml** file.
     `container-labs\container-package\manifest.yaml`
 
 2. Go to `registryServer:` and add your ACR server name.
+3. Go to `namespace` and enter just the prefix of your fully qualified ACR name. 
 
 **Congratulations!** You have now finished this lab and your deployment files are ready for next steps.
 
