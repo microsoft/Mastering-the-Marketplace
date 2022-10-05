@@ -17,7 +17,7 @@ hide:
 
 > **Note:** This lab is part of a series of labs for Mastering Container Offers Workshop. You must finish this lab before moving on to the next sections.
 
-In this lab, you pull pull the CNAB bundler image and use it to create a CNAB bundle from the files you've prepared.
+In this lab, you will pull the CNAB bundler image and use it to create a CNAB bundle from the files you've prepared.
 
 <!-- no toc -->
 - [Download Microsoft's CNAB image](#download-microsofts-cnab-image)
@@ -30,7 +30,7 @@ In this lab, you pull pull the CNAB bundler image and use it to create a CNAB bu
 
 > **About the Microsoft CNAB image**
 >
-> The Microsoft CNAB Docker image contains all the tools needed to turn the files you've created into a CNAB package. This image exists because the opensource CNAB standards are changing frequently and this image is kept up to date with the latest tools to enable you to build a CNAB bundle without all of the manual steps needed.
+> The Microsoft CNAB Docker image contains all the tools needed to turn the files you've created into a CNAB bundle. This image exists because the opensource CNAB standards are changing frequently and this image is kept up to date with the latest tools to enable you to build a CNAB bundle without all of the manual steps needed.
 
 1. Open terminal and run the following command to download Microsoft's CNAB builder image.
 
@@ -64,16 +64,19 @@ In this lab, you pull pull the CNAB bundler image and use it to create a CNAB bu
 
         cd container-package
 
-5. Run the following commands to login to Azure and into your ACR.
+5. Run the following command to login to Azure. Follow the instructions given on the command line to login.
 
         az login
+
+6. Log in to your ACR.
+
         az acr login -n <ACR Server> -u <ACR Admin> -p <ACR password>
 
-6. Run the following command to validate all files going into creating the CNAB bundle. Fix any issues indicated by the tool.
+7. Run the following command to validate all files going into creating the CNAB bundle. Fix any issues indicated by the tool.
 
         cpa verify
 
-7. Run the following command in the container terminal to start building the CNAB bundle and push it to the ACR you defined in the manifest file.
+8. Run the following command in the container terminal to start building the CNAB bundle and push it to the ACR you defined in the manifest file.
 
         cpa buildbundle
 
