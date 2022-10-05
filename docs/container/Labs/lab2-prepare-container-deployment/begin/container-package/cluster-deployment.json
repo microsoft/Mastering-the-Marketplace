@@ -1,0 +1,100 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterResourceName": {
+            "type": "string",
+            "metadata": {
+                "description": "The name of the Managed Cluster resource."
+            }
+        },
+        "extensionResourceName": {
+            "type": "string",
+            "metadata": {
+                "description": "The name of the extension."
+            }
+        },
+        "app-title": {
+            "type": "string",
+            "metadata": {
+                "description": "App Title"
+            }
+        },
+        "app-FrontAppName": {
+            "type": "string",
+            "metadata": {
+                "description": "Input  App  Name"
+            }
+        },
+        "app-FrontAppReplica": {
+            "type": "string",
+            "metadata": {
+                "description": "Enter Replica"
+            }
+        },
+        "app-clusterDNS": {
+            "type": "string",
+            "metadata": {
+                "description": "Enter AKS DNS"
+            }
+        },
+        "app-NameSpace": {
+            "type": "string",
+            "defaultValue": "default",
+            "metadata": {
+                "description": "Enter NameSpace"
+            }
+        }
+    },
+    "variables": {
+        "plan-name": "plan-name",
+        "plan-publisher": "publisherid",
+        "plan-offerID": "offerid",
+        "releaseTrain": "Stable"
+    },
+    "resources": [
+        {
+            "type": "Microsoft.KubernetesConfiguration/extensions",
+            "apiVersion": "2022-03-01",
+            "name": "extensionsusage",
+            "dependsOn": [
+            ],
+            "properties": {
+                "extensionType": "Microsoft.ExtensionsUsage",
+                "releaseTrain": "Stable"
+            },
+            "scope": "[concat('Microsoft.ContainerService/managedClusters/', parameters('clusterResourceName'))]"
+        },
+        {
+            "type": "Microsoft.KubernetesConfiguration/extensions",
+            "apiVersion": "2022-04-02-preview",
+            "name": "[parameters('extensionResourceName')]",
+            "dependsOn": [
+                "extensionsusage"
+            ],
+            "properties": {
+                "extensionType": "[concat(variables('plan-publisher'), '.' , variables('plan-offerID'), '-', variables('plan-name'))]",
+                "autoUpgradeMinorVersion": true,
+                "releaseTrain": "[variables('releaseTrain')]",
+                "configurationSettings": {
+                    "title": "[parameters('app-title')]",
+                    "appFrontLabel": "[parameters('app-FrontAppName')]",
+                    "replicaFrontCount": "[parameters('app-FrontAppReplica')]",
+                     "mongoDBAdmin": "[parameters('app-mongoDBAdmin')]",
+                     "mongoDBPassword": "[parameters('app-mongoDBPassword')]",
+                     "clusterDNS": "[parameters('app-clusterDNS')]",
+                     "nameSpace": "[parameters('app-NameSpace')]"
+
+                },
+                "configurationProtectedSettings": {}
+            },
+            "plan": {
+                "name": "[variables('plan-name')]",
+                "publisher": "[variables('plan-publisher')]",
+                "product": "[variables('plan-offerID')]"
+            },
+            "scope": "[concat('Microsoft.ContainerService/managedClusters/', parameters('clusterResourceName'))]"
+        }
+    ],
+    "outputs": {}
+}

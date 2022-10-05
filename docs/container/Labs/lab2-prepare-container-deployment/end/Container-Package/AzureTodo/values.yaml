@@ -1,0 +1,41 @@
+# Azure Vote UI control
+title: Azure ToDo App
+global:
+  azure:
+    billingIdentifier: microsoft.marketplace.example.azure-todo
+    images:
+      frontend:
+        digest: sha256:e2ad89179bbda7c14533a812d1ce30ec811473b6ed6fefcb293760a0bd27ed38
+        image: nodejstodo
+        registry: docker.io/magdysalem
+
+      backend:
+        digest: sha256:f548240f5a61d1ecfe4c16cc73c8a12c1701bf9d47d0121f110dd5655ebefd55
+        image: mongo
+        registry: docker.io/magdysalem
+# MongoDB Admin
+mongoDBAdmin: mongoadmin
+mongoDBPassword: secret
+
+# Service controls
+serviceType: LoadBalancer
+appFrontLabel: todoapp
+appBackLabel: mongodb
+#ingressName
+clusterDNS: Add-AKS-DNS.aksapp.io
+
+# how many frontends do we want?
+replicaFrontCount: 1
+replicaBackCount: 1
+
+## Where it will be deployed
+nameSpace: default
+
+
+
+
+
+
+
+
+
