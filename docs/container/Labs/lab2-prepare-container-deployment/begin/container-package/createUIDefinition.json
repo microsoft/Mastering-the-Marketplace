@@ -58,7 +58,7 @@
           {
             "name": "title",
             "type": "Microsoft.Common.TextBox",
-            "label": "tile",
+            "label": "Title",
             "defaultValue": "Azure ToDo App",
             "constraints": {
               "required": true
@@ -67,20 +67,17 @@
           {
             "name": "FrontAppName",
             "type": "Microsoft.Common.TextBox",
-            "label": "FrontAppName",
+            "label": "Front App Name",
             "defaultValue": "",
             "constraints": {
               "required": true
             }
           },
 // Add Mongo DB Admin and password Here
-          
-
-          
           {
             "name": "FrontAppReplica",
             "type": "Microsoft.Common.TextBox",
-            "label": "FrontAppReplica",
+            "label": "Front App Replica",
             "defaultValue": "1",
             "constraints": {
               "required": true
@@ -89,7 +86,7 @@
           {
             "name": "clusterDNS",
             "type": "Microsoft.Common.TextBox",
-            "label": "clusterDNS",
+            "label": "Cluster DNS",
             "defaultValue": "",
             "constraints": {
               "required": true
@@ -98,7 +95,7 @@
           {
             "name": "NameSpace",
             "type": "Microsoft.Common.TextBox",
-            "label": "NameSpace",
+            "label": "Namespace",
             "defaultValue": "default",
             "constraints": {
               "required": true
@@ -114,7 +111,6 @@
       "app-title" : "[steps('ExtensionConfiguration').title]",
       "app-FrontAppName" : "[steps('ExtensionConfiguration').FrontAppName]",
       "app-FrontAppImage" : "[steps('ExtensionConfiguration').FrontAppImage]",
-
       "app-FrontAppReplica" : "[steps('ExtensionConfiguration').FrontAppReplica]",
       "app-clusterDNS" : "[steps('ExtensionConfiguration').clusterDNS]",
       "app-NameSpace" : "[steps('ExtensionConfiguration').NameSpace]"
