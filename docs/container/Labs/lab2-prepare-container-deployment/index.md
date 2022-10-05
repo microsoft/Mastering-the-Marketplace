@@ -13,21 +13,22 @@ hide:
 
 [Home](/) > [Container Offers](../../index) > [Labs](../../index.md#labs) 🧪
 
-# Lab 2 - Prepare Container Deployment
+# Lab 2 - Prepare for Container Deployment
 
 > **Note:** This lab is part of a series of labs for Mastering Container Offers Workshop. You must finish this lab before moving on to the next sections.
 
-This lab will take you from start to finish in getting your artifacts ready for publication of your Container Offer.
+This lab will take you from start to finish in getting your artifacts ready for publication of your Container Offer. You'll start by getting containers running locally and move to updating deployment files in preparation for publishing the entire solution to your ACR.
 
 <!-- no toc -->
 - [Getting started](#getting-started)
 - [Prepare Solution Images](#prepare-solution-images)
 - [Run Containers Locally](#run-containers-locally)
 - [Push Images to ACR](#push-images-to-acr)
-- [Create Helm Chart](#create-helm-chart)
-- [Create UI Definition](#create-ui-definition)
-- [Create Cluster Template](#create-cluster-template)
-- [Update the Package Manifest File](#update-the-package-manifest-file)
+- [Helm Chart](#helm-chart)
+- [Update Deployments File](#update-deployments-file)
+- [Update the UI Definition File](#update-the-ui-definition-file)
+- [Update Cluster Template](#update-the-arm-template)
+- [Update Package Manifest File](#update-manifest-file)
 
 ---
 
@@ -144,13 +145,13 @@ You can now see the images in your ACR.
 
     ![ACR View Images](./images/acr-view-images.png)
 
-## Create Helm Chart
+## Helm Chart
 
 In this section will explore the Helm Chart directory `AzureToDo`.
 
 > **About Helm**
 >
-> Helm is the package manager for Kubernetes. In other words, it is used to help you manage Kubernetes applications. Helm is K8s equivalent of `yum` or `apt`. Helm deploys charts, which you can think of as a packaged application.
+> Helm is the package manager for Kubernetes. In other words, it is used to help you manage Kubernetes applications. Helm is the Kubernetes equivalent of `yum` or `apt`. Helm deploys charts, which you can think of as a packaged application.
 
 1. Open  `container-labs\container-package\AzureToDo\values.yaml` in your text editor.
 2. Update lines 10 & 14 with your ACR server name. For example `myacr.azureacr.io`.
@@ -178,24 +179,38 @@ In this section will explore the Helm Chart directory `AzureToDo`.
         mongoDBAdmin: <enter admin name>
         mongoDBPassword: <enter password>
     
-   
-8. Open the following file in your editor.
+## Update Deployments File
+
+> **About deployments.yaml**
+> 
+> This file defines the configuration for a Kubernetes deployment. Settings may be defined that specify details of creating pods, minimum pods in a cluster, scalability, and other settings.
+
+### Modifying deployments.yaml
+
+1. Open the following file in your editor.
     
         container-labs\container-package\AzureToDo\templates\deployments.yaml
 
-9.  Uncomment Line 25 and add the following.
+2.  Uncomment line 25 and add the following.
     
         value: {{ .Values.mongoDBPassword }}
 
-10. Uncomment Line 27 and add the following.
+3. Uncomment line 27 and add the following.
     
         value: {{ .Values.mongoDBAdmin }}
 
-You are done preparing the Helm chart files.
+### Inspecting deployments.yaml
 
-## Create UI Definition
+There are some significant values in `deployments.yaml` that are of interest to us as commercial marketplace publishers.
 
-In this section will update the `createUIDefinition.json` file.
+1. See line 6 that appears as follows.
+
+        billing: {{ .Values.global.azure.billingIdentifier }}
+
+	This instruction will add a tag 
+
+
+## Update the UI Definition File
 
 > **About `createUIDefinition.json`**
 >
@@ -235,13 +250,13 @@ In this section will update the `createUIDefinition.json` file.
 
     This JSON adds the values collected by the new UI controls to the output of the `createUIDefinition.json` file. These values are passed along to the ARM template that creates the resources being deployed.
 
-## Create Cluster Template
-
-In this section you will modify the cluster deployment file.
+## Update the ARM Template
 
 > **About the cluster deployment file**
 >
 > The `cluster-deployment.json` is an ARM template, used for deploying resources into Azure. This file receives the output of `createUIDefinition.json` as input parameters.
+
+### Update the ARM template
 
 1. Open the following file in your editor.
    
@@ -262,11 +277,15 @@ In this section you will modify the cluster deployment file.
             }
         },
 
-## Update the Package Manifest File
+### Inspect the ARM template
+
+Find the resource type `Microsoft.KubernetesConfiguration/extensions`. This is a Kubernetes cluster extension that builds on top of Help to produce an ARM-driven deployment experience.
+
+## Update Manifest File
 
 > **About manifest.yaml**
 >
-> The Kubernetes manifest file defines the configuration for a deployment. Many fields may be defined in the manifest file that specify details of creating pods, minimum pods in a cluster, scalability, and other settings.
+> The manifest file brings together all elements of the deployment package by pointing at the other files you've been updating.
 
 In this section you will update the **manifest.yaml** file.
 

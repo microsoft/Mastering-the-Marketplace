@@ -45,38 +45,6 @@ The Offer Setup page allows changing your offer alias as well as as other functi
 
 1. Under **Setup details** check **Yes, I would like to sell through Microsoft and have Microsoft host transactions on my behalf**
 
-### Customer leads
-
-Here, you will attach your offer to an Azure Data Storage table which will act as a connected Customer Relationship Management system (CRM) for your offer. This is where sales leads will be collected.
-
-It is recommended you install all the resources you'll create in this class into the same Resource Group, just to keep things tidy.
-
-#### Create the Azure Storage account
-
-1. Open a new tab for the [Azure portal](https://portal.azure.com) and log in.
-2. In the **containerworkshop-YOUR_UNIQUE_STRING** Resource Group, create a standard Azure Storage account. This will be your CRM database, so name it **containerworkshopscrmUNIQUE_STRING**. rEPLACE **UNIQUE_STRING** with a different value. 
-   
-    > 🗒️ Note all characters are lower case for naming a storage account and no non-alphanumeric characters are allowed.
-
-3. Once the storage account is created, browse to the storage account's **Overview** page.
-4. In the left-hand menu, find the **Security + networking** section.
-5. Uner the **key1** section click the **Show** button next to the **Connection string** hidden value.
-6. Copy a connection string to your copy/paste buffer.
-
-#### Configure Customer Leads in Partner Center
-
-1. Go back to the Partner Center **Customer leads** in your browser.
-2. Select the **Connect** link.
-3. From the **Lead destination** dropdown, select **Azure Table**.
-4. Enter your **Contact email** and paste in your **Storage account connection string**.
-5. Click the **Validate** link to ensure your connection string is valid.
-6. Click **Connect**.
-7. CLick teh **Connect** button.
-
-    > 🗒️For each page in Partner Center, you must click the **Save draft** at the bottom of the page before moving on.
-
-8. Click **Save draft** at the bottom of the page.
-
 ### Properties
 
 Navigate to the **Properties** tab on the left.
