@@ -13,7 +13,7 @@ hide:
 
 [Home](/) > [Container Offers](../../index) > [Labs](../../index.md#labs) 🧪
 
-# Lab 2 - Prepare  Container Deployment
+# Lab 2 - Prepare Container Deployment
 
 > **Note:** This lab is part of a series of labs for Mastering Container Offers Workshop. You must finish this lab before moving on to the next sections.
 
@@ -27,7 +27,7 @@ This lab will take you from start to finish in getting your artifacts ready for 
 - [Create Helm Chart](#create-helm-chart)
 - [Create UI Definition](#create-ui-definition)
 - [Create Cluster Template](#create-cluster-template)
-- [Update the Manifest File](#update-the-manifest-file)
+- [Update the Package Manifest File](#update-the-package-manifest-file)
 
 ---
 
@@ -262,13 +262,13 @@ In this section you will modify the cluster deployment file.
             }
         },
 
-## Update the Manifest File
+## Update the Package Manifest File
 
 > **About manifest.yaml**
 >
-> TODO:
+> The Kubernetes manifest file defines the configuration for a deployment. Many fields may be defined in the manifest file that specify details of creating pods, minimum pods in a cluster, scalability, and other settings.
 
-In this section you will update the manifest file.
+In this section you will update the **manifest.yaml** file.
 
 1. Open the following file in your editor.
 
