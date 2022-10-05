@@ -39,11 +39,11 @@ In this section you will be creating a brand new Container Offer from scratch. T
 
 ## Offer Setup
 
-The Offer Setup page allows changing your offer alias as well as as other functions. For the purpose of this lab, we will leave everything as is and only configure the **Setup details** and **Customer leads** sections.
+The Offer Setup page allows changing your offer alias as well as as other functions. For the purpose of this lab, we will leave everything as is and only configure the **Setup details**.
 
 ### Setup details
 
-1. Under **Setup details** check **Yes, I would like to sell through Microsoft and have Microsoft host transactions on my behalf**
+Under **Setup details** check **Yes, I would like to sell through Microsoft and have Microsoft host transactions on my behalf**
 
 ### Properties
 
