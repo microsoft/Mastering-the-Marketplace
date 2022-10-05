@@ -69,7 +69,11 @@ In this lab, you pull pull the CNAB bundler image and use it to create a CNAB bu
         az login
         az acr login -n <ACR Server> -u <ACR Admin> -p <ACR password>
 
-6. Run the following command in the container terminal to start building the CNAB bundle and push it to the ACR you defined in the manifest file.
+6. Run the following command to validate all files going into creating the CNAB bundle. Fix any issues indicated by the tool.
+
+        cpa verify
+
+7. Run the following command in the container terminal to start building the CNAB bundle and push it to the ACR you defined in the manifest file.
 
         cpa buildbundle
 
