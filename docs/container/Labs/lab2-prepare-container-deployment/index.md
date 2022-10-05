@@ -21,13 +21,13 @@ This lab will take you from start to finish in getting your artifacts ready for 
 
 <!-- no toc -->
 - [Getting started](#getting-started)
-- [Create Solution's images](#create-solutions-images)
-- [Run Solution Locally](#run-solution-locally)
-- [Push images to ACR](#push-images-to-acr)
+- [Prepare Solution Images](#prepare-solution-images)
+- [Run Containers Locally](#run-containers-locally)
+- [Push Images to ACR](#push-images-to-acr)
 - [Create Helm Chart](#create-helm-chart)
 - [Create UI Definition](#create-ui-definition)
 - [Create Cluster Template](#create-cluster-template)
-- [Create Manifest File](#create-manifest-file)
+- [Update the Manifest File](#update-the-manifest-file)
 
 ---
 
@@ -57,7 +57,7 @@ You will be working with one solution throughout all the labs. To make it easier
 3. Rename the `begin` folder to `container-labs`.
 4. From now on, the labs will refer to `container-labs` when referring to your working folder.
 
-## Create Solution's Images
+## Prepare Solution Images
 
 In this section, you will create a `DockerFile` for solution `Azure ToDo` and publish the image to your ACR created in [the prerequisites exercise](../prerequisites/index.md). The sample solution is a simple to-do application that is already completed for you. The intent of this lab is not to have you write code, but to prepare your container offer artifacts.
 
@@ -106,7 +106,7 @@ In this section, you will create a `DockerFile` for solution `Azure ToDo` and pu
 
         docker images
 
-## Run Solution Locally
+## Run Containers Locally
 
 In this section we will run the solution locally with Docker. 
 
@@ -126,7 +126,7 @@ In this section we will run the solution locally with Docker.
 
 1. Try to create and delete tasks to make sure site is running properly
    
-## Push images to ACR
+## Push Images to ACR
 
 In this section we will publish or **push** the solution images to the ACR you created in prerequisites.
 
