@@ -106,14 +106,13 @@
       }
     ],
     "outputs": {
-      "clusterResourceName": "[steps('basics').ClusterResourceName]",
+      "clusterResourceName": "[basics('ClusterResourceName')]",
       "extensionResourceName": "[steps('ExtensionConfiguration').extensionResourceName]",
-      "app-title" : "[steps('ExtensionConfiguration').title]",
-      "app-FrontAppName" : "[steps('ExtensionConfiguration').FrontAppName]",
-      "app-FrontAppImage" : "[steps('ExtensionConfiguration').FrontAppImage]",
-      "app-FrontAppReplica" : "[steps('ExtensionConfiguration').FrontAppReplica]",
-      "app-clusterDNS" : "[steps('ExtensionConfiguration').clusterDNS]",
-      "app-NameSpace" : "[steps('ExtensionConfiguration').NameSpace]"
+      "app-title": "[steps('ExtensionConfiguration').title]",
+      "app-FrontAppName": "[steps('ExtensionConfiguration').FrontAppName]",
+      "app-FrontAppReplica": "[steps('ExtensionConfiguration').FrontAppReplica]",
+      "app-clusterDNS": "[steps('ExtensionConfiguration').clusterDNS]",
+      "app-NameSpace": "[steps('ExtensionConfiguration').NameSpace]"
     }
   }
 }
