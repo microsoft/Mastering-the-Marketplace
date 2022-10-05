@@ -220,30 +220,42 @@ There are some significant values in `deployments.yaml` that are of interest to 
    
     `container-labs\container-package\createUIDefinition.json`
 
-3. Go to Line 76 and replace `// Add Mongo DB Admin and password Here` with the following JSON.
+2. Add the following JSON to the `resources` section of the ARM template.
    
         {
             "name": "mongoDBAdmin",
             "type": "Microsoft.Common.TextBox",
             "label": "mongoDBAdmin",
+            "toolTip": "Admin name for MongoDB",
             "defaultValue": "",
             "constraints": {
-            "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{4,20}$",
+              "validationMessage": "Between 4 and 20 alphanumeric characters"
             }
-        }, 
-        {
+          },
+          {
             "name": "mongoDBPassword",
             "type": "Microsoft.Common.PasswordBox",
-            "label": "mongoDBPassword",
-            "defaultValue": "",
+            "label": {
+              "password": "No special characters, between 12 and 30 characters long",
+              "confirmPassword": "Passwords must match"
+            },
             "constraints": {
-            "required": true
-            }
-        },
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{12,30}$",
+              "validationMessage": "Must be between 12 and 30 alphanumeric characters long."
+            },
+            "visible": true,
+            "options": {
+              "hideConfirmation": false
+            },
+            "toolTip": "Password for MongoDB admin"
+          },
 
     This JSON introduces two controls that will collect the admin username and password for the MongoDB container that will be created upon installation.
 
-4. Go to line 131 in the `outputs` section and paste the following JSON.
+3. Go to the `outputs` section at the bottom of the file and and add the following JSON.
     
         "app-mongoDBAdmin" : "[steps('ExtensionConfiguration').mongoDBAdmin]",
         "app-mongoDBPassword" : "[steps('ExtensionConfiguration').mongoDBPassword]",

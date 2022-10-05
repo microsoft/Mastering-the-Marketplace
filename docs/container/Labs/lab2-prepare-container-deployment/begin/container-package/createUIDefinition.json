@@ -57,51 +57,64 @@
           },
           {
             "name": "title",
+            "toolTip": "Title",
             "type": "Microsoft.Common.TextBox",
             "label": "Title",
             "defaultValue": "Azure ToDo App",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{4,30}$",
+              "validationMessage": "Between 4 and 30 alphanumeric characters"
             }
           },
           {
             "name": "FrontAppName",
             "type": "Microsoft.Common.TextBox",
-            "label": "Front App Name",
+            "toolTip": "Front App Name",
+            "label": "FrontAppName",
             "defaultValue": "",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{4,30}$",
+              "validationMessage": "Between 4 and 30 alphanumeric characters"
             }
           },
-// Add Mongo DB Admin and password Here
           {
             "name": "FrontAppReplica",
             "type": "Microsoft.Common.TextBox",
-            "label": "Front App Replica",
+            "label": "FrontAppReplica",
             "defaultValue": "1",
+            "toolTip": "Front App Replica",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{6,30}$",
+              "validationMessage": "Between 6 and 30 alphanumeric characters"
             }
           },
           {
             "name": "clusterDNS",
             "type": "Microsoft.Common.TextBox",
-            "label": "Cluster DNS",
+            "label": "clusterDNS",
+            "toolTip": "Cluster DNS",
             "defaultValue": "",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{4,15}$",
+              "validationMessage": "Between 4 and 30 alphanumeric characters"
             }
           },
           {
             "name": "NameSpace",
             "type": "Microsoft.Common.TextBox",
             "label": "Namespace",
+            "toolTip": "Namespace",
             "defaultValue": "default",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{4,30}$",
+              "validationMessage": "Between 4 and 30 alphanumeric characters"
             }
           }
-
         ]
       }
     ],
@@ -112,7 +125,8 @@
       "app-FrontAppName": "[steps('ExtensionConfiguration').FrontAppName]",
       "app-FrontAppReplica": "[steps('ExtensionConfiguration').FrontAppReplica]",
       "app-clusterDNS": "[steps('ExtensionConfiguration').clusterDNS]",
-      "app-NameSpace": "[steps('ExtensionConfiguration').NameSpace]"
+      "app-NameSpace": "[steps('ExtensionConfiguration').NameSpace]",
+      "location": "[location()]"
     }
   }
 }
