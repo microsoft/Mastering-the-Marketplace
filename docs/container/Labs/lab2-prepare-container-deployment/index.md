@@ -23,7 +23,6 @@ This lab will take you from start to finish in getting your artifacts ready for 
 - [Getting started](#getting-started)
 - [Create Solution's images](#create-solutions-images)
 - [Run Solution Locally](#run-solution-locally)
-- [TODO: Remove containers?](#todo-remove-containers)
 - [Push images to ACR](#push-images-to-acr)
 - [Create Helm Chart](#create-helm-chart)
 - [Create UI Definition](#create-ui-definition)
