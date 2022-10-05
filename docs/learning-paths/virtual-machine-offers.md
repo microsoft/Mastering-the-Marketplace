@@ -12,7 +12,8 @@ hide:
 
 # 🚦Working with Virtual Machine offers
 
-## Table of Contents
+## Table of Contentsmkdocs serve
+
 
 <!-- no toc -->
 - [Getting started creating Virtual Machine offers](#getting-started-creating-virtual-machine-offers)
