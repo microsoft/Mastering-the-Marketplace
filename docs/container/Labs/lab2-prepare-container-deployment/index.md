@@ -42,9 +42,10 @@ If **Admin user** is not enabled on your ACR, select **Settings > Access** keys 
 ![ACR Admin](./images/acr.png)
 
 Capture the following values as you will need them throughout the remainder of the labs.
+  
   - Login server
   - Username
-  - password
+  - Password
 
 ### ❗Your working folder
 
