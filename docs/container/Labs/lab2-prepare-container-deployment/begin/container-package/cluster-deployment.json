@@ -50,7 +50,8 @@
         "plan-name": "plan-name",
         "plan-publisher": "publisherid",
         "plan-offerID": "offerid",
-        "releaseTrain": "Stable"
+        "releaseTrain": "Stable",
+        "clusterExtensionTypeName": "[concat(variables('plan-publisher'), '.' , variables('plan-offerID'), '-', variables('plan-name'))]"
     },
     "resources": [
         {
@@ -73,7 +74,7 @@
                 "extensionsusage"
             ],
             "properties": {
-                "extensionType": "[concat(variables('plan-publisher'), '.' , variables('plan-offerID'), '-', variables('plan-name'))]",
+                "extensionType": "[variables('clusterExtensionTypeName')]",
                 "autoUpgradeMinorVersion": true,
                 "releaseTrain": "[variables('releaseTrain')]",
                 "configurationSettings": {
@@ -84,9 +85,7 @@
                      "mongoDBPassword": "[parameters('app-mongoDBPassword')]",
                      "clusterDNS": "[parameters('app-clusterDNS')]",
                      "nameSpace": "[parameters('app-NameSpace')]"
-
-                },
-                "configurationProtectedSettings": {}
+                }
             },
             "plan": {
                 "name": "[variables('plan-name')]",

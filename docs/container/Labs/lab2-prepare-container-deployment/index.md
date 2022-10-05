@@ -27,7 +27,7 @@ This lab will take you from start to finish in getting your artifacts ready for 
 - [Helm Chart](#helm-chart)
 - [Update Deployments File](#update-deployments-file)
 - [Update the UI Definition File](#update-the-ui-definition-file)
-- [Update Cluster Template](#update-the-arm-template)
+- [Update the ARM Template](#update-the-arm-template)
 - [Update Package Manifest File](#update-manifest-file)
 
 ---
