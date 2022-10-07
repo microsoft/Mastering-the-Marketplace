@@ -20,47 +20,11 @@ hide:
 In this lab, you will pull the CNAB bundler image and use it to create a CNAB bundle from the files you've prepared.
 
 <!-- no toc -->
-- [Give the Marketplace access to your ACR](#give-the-marketplace-access-to-your-acr)
 - [Download Microsoft's CNAB image](#download-microsofts-cnab-image)
 - [Create and upload the CNAB Bundle](#create-and-upload-the-cnab-bundle)
 - [Verify the published bundle image](#verify-the-published-bundle-image)
 
 ---
-
-## Give the Marketplace access to your ACR
-
-The Azure Marketplace will host your CNAB in a Marketplace special ACR of its own. You must grant access to the Microsoft ACR by creating a special service principal in your tenant.
-
-1. Run the following commands to add the service principal.
-
-        az login
-        az ad sp create --id 32597670-3e15-4def-8851-614ff48c1efa
-
-    Note this ID for use in the following steps.
-
-2. Get the ID of your ACR.
-
-        az acr show --name <ACR Server> --query "id" --output tsv
-
-    Note the full ID for the use in the following steps.
-
-3. Create a role assignment to grant the service principal the ability to pull from your registry using the values you obtained earlier.
-
-    > 🗒️ To assign Azure roles, you must have the following.
-    >
-    > `Microsoft.Authorization/roleAssignments/write` permissions, such as **User Access Administrator** or **Owner**.
-
-    Run the following command.
-
-        az role assignment create --assignee <service-principal-id> --scope <registry-id> --role acrpull
-
-4. The `Microsoft.PartnerCenterIngestion` resource provider must be registered on the same subscription used to create your Azure Container Registry. Use the following command to do the registration.
-
-        az provider register --namespace Microsoft.PartnerCenterIngestion --subscription <subscription-id> --wait
-
-    Use the following command to monitor the progress of the provider registration to ensure it completes successfully.
-
-        az provider show -n Microsoft.PartnerCenterIngestion --subscription <subscription-id>
 
 ## Download Microsoft's CNAB image
 

@@ -17,9 +17,15 @@ hide:
 
 [Home](/) > [Container Offers](../../../container/index.md) > [Prerequisites](./index.md)
 
-# Create Azure Container Registry Prerequisite
+# Azure Container Registry (ACR) Prerequisite
 
-This page walks through creating an Azure Container Registry (ACR) for use in the Container Offers lab.
+<!-- no toc -->
+- [Create the ACR](#create-the-acr)
+- [Give the Marketplace access to your ACR](#give-the-marketplace-access-to-your-acr)
+
+## Create the ACR
+
+This exercise walks through creating an Azure Container Registry (ACR) for use in the Container Offers lab.
 
 1. Sign in to the [Azure portal](https://portal.azure.com)
 2. Select **Create a resource** > **Containers** > **Container Registry**.
@@ -40,6 +46,45 @@ This page walks through creating an Azure Container Registry (ACR) for use in th
 
 9. Take note of the registry name and the value of the **Login server**, which is a fully qualified name ending with `azurecr.io`. You will use these values later.
 
-**Congratulations!** You now have an Azure Container Registry to use in the labs.
+## Give the Marketplace access to your ACR
+
+The Azure Marketplace will host your CNAB in a Marketplace special ACR of its own. You must grant access to the Microsoft ACR by creating a special service principal in your tenant. 
+
+> 🗒️ To perform these steps you must have the [Azure CLI installed](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli).
+
+1. Run the following commands to add the service principal.
+
+        az login
+        az ad sp create --id 32597670-3e15-4def-8851-614ff48c1efa
+
+    Note this ID for use in the following steps.
+
+2. Get the ID of your ACR.
+
+        az acr show --name <ACR Server> --query "id" --output tsv
+
+    Note the full ID for the use in the following steps.
+
+3. Create a role assignment to grant the service principal the ability to pull from your registry using the values you obtained earlier.
+
+    > 🗒️ To assign Azure roles, you must have the following.
+    >
+    > `Microsoft.Authorization/roleAssignments/write` permissions, such as **User Access Administrator** or **Owner**.
+
+    Run the following command.
+
+        az role assignment create --assignee <service-principal-id> --scope <registry-id> --role acrpull
+
+4. The `Microsoft.PartnerCenterIngestion` resource provider must be registered on the same subscription used to create your Azure Container Registry. Use the following command to do the registration.
+
+        az provider register --namespace Microsoft.PartnerCenterIngestion --subscription <subscription-id> --wait
+
+    Use the following command to monitor the progress of the provider registration to ensure it completes successfully.
+
+        az provider show -n Microsoft.PartnerCenterIngestion --subscription <subscription-id>
+
+
+
+**Congratulations!** You now have an Azure Container Registry to use in the labs and perhaps eventually for your production offers.
 
 Go back to the [lab prerequisites](index.md) and follow on with remaining steps.
