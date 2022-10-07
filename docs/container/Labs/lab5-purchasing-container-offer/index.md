@@ -28,10 +28,10 @@ This lab puts you in the role of a customer who will purchase the offer you have
 
 ## Purchase your Offer
 
-1. You created an AKS cluster in the prerequisties to these labs. If that AKS cluster is stopped, **start it**.
-2. Open Partner Center in your browser.
+1. You created an AKS cluster in the prerequisites to these labs. If that AKS cluster is stopped, **start it**.
+2. Open [Partner Center](https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview) in your browser.
 3. Navigate to the **Offer Overview** page and click the offer you created earlier.
-4. Select the plan you want to purchase from the drop down list and click **Create**
+4. Select the plan you want to purchase from the drop down list and click **Create**.
 5. Under the **Basics** tab, configure the Subscription, Resource Group and Cluster name. You will select the cluster we created in [Lab0](../prerequisites/)
 6. Under the **Extension Setting** Fill all the missing fields. 
 
