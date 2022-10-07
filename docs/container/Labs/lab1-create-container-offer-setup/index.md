@@ -7,6 +7,8 @@ comments: false
 hide:
 - navigation
 
+title: Lab 1
+
 # Micro navigation
 micro_nav: false
 ---
