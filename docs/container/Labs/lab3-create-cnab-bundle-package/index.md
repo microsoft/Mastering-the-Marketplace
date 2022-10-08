@@ -34,51 +34,45 @@ In this lab, you will pull the CNAB bundler image and use it to create a CNAB bu
 >
 > The Microsoft CNAB Docker image contains all the tools needed to turn the files you've created into a CNAB bundle. This image exists because the opensource CNAB standards are changing frequently and this image is kept up to date with the latest tools to enable you to build a CNAB bundle without all of the manual steps needed.
 
-1. Open terminal and run the following command to download Microsoft's CNAB builder image.
+Open terminal and run the following command to download Microsoft's CNAB builder image.
 
-        docker pull mcr.microsoft.com/container-package-app:latest
-
-    > 🗒️ It may take a few minutes to download the image
+		docker pull mcr.microsoft.com/container-package-app:latest
 
 ## Create and upload the CNAB Bundle
 
 1. You'll now start the the CNAB container in interactive mode, sharing a volume. Provide the full path to your `container-labs` directory where indicated.
 
-    Below is an example of this command.
+    Below is an **example** of this command.
 
-            docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /mnt/c/Users/david/projects/container-labs:/data --entrypoint "/bin/bash" mcr.microsoft.com/container-package-app:latest
+        docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /mnt/c/Users/david/projects/container-labs:/data --entrypoint "/bin/bash" mcr.microsoft.com/container-package-app:latest
 
     The following is the command to run. Replace [path to container-labs] with your complete path from the root of your drive.
 
-            docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v [path to container-labs]:/data --entrypoint "/bin/bash" mcr.microsoft.com/container-package-app:latest
+        docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v [path to container-labs]:/data --entrypoint "/bin/bash" mcr.microsoft.com/container-package-app:latest
 
     > After the container starts, you will be on the command line in the `container-package-app` container itself. Commands executed here will run within the container.
 
-2. Run the following docker command to ensure the `mcr.microsoft.com/container-package-app:latest` container is running.
-
-        docker ps
-
-3. Run the following command to enter the shared volume.
+2. Run the following command to enter the shared volume.
 
         cd data
 
-4. Run the following to go into the `container-package` folder.
+3. Run the following to go into the `container-package` folder.
 
         cd container-package
 
-5. If not logged into Azure, run the following command to login. Follow the instructions given on the command line.
+4. If not logged into Azure, run the following command to login. Follow the instructions given on the command line.
 
         az login
 
-6. Log in to your ACR.
+5. Log in to your ACR.
 
         az acr login -n <ACR Server> -u <ACR Admin> -p <ACR password>
 
-7. Run the following command to validate all files going into creating the CNAB bundle. Fix any issues indicated by the tool.
+6. Run the following command to validate all files going into creating the CNAB bundle. Fix any issues indicated by the tool.
 
         cpa verify
 
-8. Run the following command in the container terminal to start building the CNAB bundle and push it to the ACR you defined in the manifest file.
+7. Run the following command in the container terminal to start building the CNAB bundle and push it to the ACR you defined in the manifest file.
 
         cpa buildbundle
 

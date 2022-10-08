@@ -48,18 +48,18 @@ In this lab, you will complete the rest of the required setup on Partner Center 
 1. Go to the **Technical Configuration** tab. 
 2. For the Cluster extension type, enter `**YOUR-COMPANY-NAME**.AzureToDoApp'.
 3. Click the **Add CNAB Bundle** link and the **Azure Container Registry** dialog appears.
-4. Select your ACR as **Registry**.
-5. For **Repo** select `com.nonmicrosoft.azuretodoapptest-installer`.
-6. For **CNAB Bundle**, select the 1.0.0 version you published earlier.
-7. Click **Add CNAB Bundle**.
-   
+      
       ![](./images/plan.png)
 
+4. Select your ACR as **Registry**.
+5. For **Repo** select `com.nonmicrosoft.azuretodoapptest-installer`.
+6. For **CNAB Bundle**, select the `1.0.0` version you published earlier.
+7. Click **Add CNAB Bundle**.
 8. Click **Save draft**.
 
 ## Review and Publish
 
-Finally click on **Review and publish**. 
+Finally click the **Review and publish** button. 
 
 You should now see green checkmarks against all the sections and you are now ready to publish. Click on **Publish** at the bottom to start the publishing process.
 
