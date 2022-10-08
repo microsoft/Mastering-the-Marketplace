@@ -36,7 +36,7 @@ In this lab, you will pull the CNAB bundler image and use it to create a CNAB bu
 
 Open terminal and run the following command to download Microsoft's CNAB builder image.
 
-		docker pull mcr.microsoft.com/container-package-app:latest
+    docker pull mcr.microsoft.com/container-package-app:latest
 
 ## Create and upload the CNAB Bundle
 
@@ -89,17 +89,16 @@ Now that the CNAB bundle has been built, you'll ensure it is in place in your AC
 1. Log into Azure Portal
 2. Open your ACR resource
 3. Click on **Services > Repositories**
-4. You will the see `com.nonmicrosoft.azuretodoapptest-installer` bundle.
+4. You will see two repositories.
+      - `com.nonmicrosoft.azuretodoapptest`
+      - `com.nonmicrosoft.azuretodoapptest-installer`
 
-    ![ACR](./images/image4.png)
+    > **About the `-installer` repository**
+    >
+    > The CNAB bundle manifests in the base (`com.nonmicrosoft.azuretodoapptest`) repository refer to CNAB bundles in the `-installer` repository. Therefore, the -`installer` CNAB bundles are present in the ACR and may not be deleted, but are not the ones you will select for deployment via Partner Center in the next lab.
 
-5. Click on AzureTodo-installer bundle then click on Tag
-
-    ![Tag](./images/image5.png)
-
-6. Click the tag to inspect the manifest
-
-    ![](./images/image3.png)
+5. Click on `com.nonmicrosoft.azuretodoapptest` bundle.
+6. Click the `1.0.0` tag to inspect **Artifact reference** and **manifest** for that CNAB bundle.
 
 **Congratulations!** You have created and uploaded a CNAB bundle. You have also finished this lab.
 
