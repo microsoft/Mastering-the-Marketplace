@@ -149,13 +149,13 @@ You can now see the images in your ACR.
 
 ## Helm Chart
 
-In this section will explore the Helm Chart directory `AzureToDo`.
+In this section will explore the Helm Chart directory `AzureTodo`.
 
 > **About Helm**
 >
 > Helm is the package manager for Kubernetes. In other words, it is used to help you manage Kubernetes applications. Helm is the Kubernetes equivalent of `yum` or `apt`. Helm deploys charts, which you can think of as a packaged application.
 
-1. Open  `container-labs\container-package\AzureToDo\values.yaml` in your text editor.
+1. Open  `container-labs\container-package\AzureTodo\values.yaml` in your text editor.
 2. Update lines 10 & 14 with your ACR server name. For example `myacr.azureacr.io`.
 3. Get the image digest of your `todojs:v1` image.
    
@@ -191,7 +191,7 @@ In this section will explore the Helm Chart directory `AzureToDo`.
 
 1. Open the following file in your editor.
     
-        container-labs\container-package\AzureToDo\templates\deployments.yaml
+        container-labs\container-package\AzureTodo\templates\deployments.yaml
 
 2.  Uncomment line 25 and add the following.
     

@@ -10,7 +10,7 @@ restrictions:
   openShiftAllowed: True
   nodeType: Linux
   newClusterRequired: False
-helmChart: "./AzureToDo"
+helmChart: "./AzureTodo"
 clusterArmTemplate: "./cluster-deployment.json"
 uiDefinition: "./createUIDefinition.json"
 registryServer: "<<youracr>>.azurecr.io"

@@ -93,7 +93,7 @@ Now that the CNAB bundle has been built, you'll ensure it is in place in your AC
 
     ![ACR](./images/image4.png)
 
-5. Click on AzureToDo-installer bundle then click on Tag
+5. Click on AzureTodo-installer bundle then click on Tag
 
     ![Tag](./images/image5.png)
 
