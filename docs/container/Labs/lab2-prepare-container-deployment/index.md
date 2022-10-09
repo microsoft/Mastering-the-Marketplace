@@ -41,14 +41,14 @@ This lab will take you from start to finish in getting your artifacts ready for 
 ### Azure Container Registry (ACR)
 
 If **Admin user** is not enabled on your ACR, select **Settings > Access** keys in the left menu and enable it in the Azure portal as shown in the following image.
-   
+
 ![ACR Admin](./images/acr.png)
 
 Capture the following values as you will need them throughout the remainder of the labs.
   
-  - Login server
-  - Username
-  - Password
+- Login server
+- Username
+- Password
 
 ### ❗Your working folder
 
@@ -66,11 +66,11 @@ You will be working with one solution throughout all the labs. To make it easier
 In this section, you will create a `DockerFile` for solution `Azure ToDo` and publish the image to your ACR created in [the prerequisites exercise](../prerequisites/index.md). The sample solution is a simple to-do application that is already completed for you. The intent of this lab is not to have you write code, but to prepare your container offer artifacts.
 
 1. Using your text editor, open the following Dockerfile.
-    
+
         container-labs/code/Dockerfile
 
 2. Add the following code to the Dockerfile taking care not to delete the first line.
-        
+
         # Create app directory
         WORKDIR /usr/src/app
 
@@ -90,23 +90,19 @@ In this section, you will create a `DockerFile` for solution `Azure ToDo` and pu
         CMD [ "npm", "start" ]
 
 3. Ensure Docker Desktop is running. 
-4. Open a terminal window (WSL2 on Windows) and run the following commands to login into ACR server. 
-
-        docker login <ACR Login Server Name> -u <ACR admin> -p <ACR password>
-
-5. Run the following commands to build the image.
+4. Run the following commands to build the image.
 
         cd `container-labs\code`
         docker build -t <ACR Login Server Name>/todojs:v1 .
 
-6. The solution uses MongoDB for storage. You're going to run MongoDB in another container.
-   
+5. The solution uses MongoDB for storage. You're going to run MongoDB in another container.
+
     Run the following commands to pull mongodb image locally and tag it.
 
         docker pull mongo:latest 
         docker tag mongo:latest <ACR Server name>/mongo:latest
 
-7. If you enter the following command, you should see the two local images prefixed with your ACR name.
+6. If you enter the following command, you should see the two local images prefixed with your ACR name.
 
         docker images
 
@@ -114,36 +110,43 @@ In this section, you will create a `DockerFile` for solution `Azure ToDo` and pu
 
 In this section we will run the solution locally with Docker. 
 
-1. Start by running MongoDB locally. Specify an `admin username` and `password` of your choice for the mongoDB instance. 
-    
+1. Start by running MongoDB locally. Specify an `admin username` and `password` of your choice for the mongoDB instance.
+
         docker run -d -e MONGO_INITDB_ROOT_USERNAME:<admin username> -e MONGO_INITDB_ROOT_PASSWORD:<password> -p 27017:27017 --name mongotodo  mongo:latest
-    
-1. Start the main web application 
-    
+
+2. Start the main AzureTodo web application container.
+
         docker run -d --link mongotodo:mongotodo -p 3000:3000 -e ENVIRONMENT:development -e DATABASE_NAME:azure-todo-app -e DATABASE_URL=mongodb://mongotodo:27017 <ACR Login Server Name>/todojs:v1 
-    
-1. Verify the containers are running correctly. Run the following command to see the two containers.
-    
+
+3. Verify the containers are running correctly. Run the following command to see the two containers.
+
         docker ps
 
-1. Browse the web application by going to <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>
+4. Browse the web application by going to <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>
 
-1. Try to create and delete tasks to make sure site is running properly
-   
+5. Try to create and delete tasks to make sure site is running properly
+
 ## Push Images to ACR
 
 In this section we will publish or **push** the solution images to the ACR you created in prerequisites.
 
-```
-docker push <ACR Server name>/todojs:v1
-docker push <ACR Server name>/mongo:latest
-```
+1. Open a terminal window (WSL2 on Windows) and run the following commands to login into ACR server. 
 
-You can now see the images in your ACR. 
+        docker login <ACR Login Server Name> -u <ACR admin> -p <ACR password>
 
-1. Open the <a href="http://portal.azure.com" target="_blank">Azure portal</a> and browse to your ACR. 
-2. In the left menu, select **Services > Repositories**.
-3. You should see an a view like the following image.
+2. Push the `todo.js` image to your ACR.
+
+        docker push <ACR Server name>/todojs:v1
+
+3. Push the mongot image to your ACR.
+
+        docker push <ACR Server name>/mongo:latest
+
+    You can now see the images in your ACR.
+
+4. Open the [Azure portal](https://portal.azure.com) and browse to your ACR.
+5. In the left menu, select **Services > Repositories**.
+6. You should see an a view like the following image.
 
     ![ACR View Images](./images/acr-view-images.png)
 
@@ -158,59 +161,48 @@ In this section will explore the Helm Chart directory `AzureTodo`.
 1. Open  `container-labs\container-package\AzureTodo\values.yaml` in your text editor.
 2. Update lines 10 & 14 with your ACR server name. For example `myacr.azureacr.io`.
 3. Get the image digest of your `todojs:v1` image.
-   
+
     > **Image Digest** 
     > 
     > The image digest is the hash of the image index or image manifest JSON document.
-   
+
     To get image digest of your `todojs:v1 ` image run following command.
 
          docker inspect image <ACR Server name>/todojs:v1 
 
 4. Locate the value of the `Id` key and copy it.
 
-    ![](./images/digest.png)
-    
+        ![](./images/digest.png)
+
 5. Paste the Id value onto line 8.
 6. Update line 12 with `mongo:latest` image digest. To get image digest run following command.
-   
+
         docker inspect image <ACR Server name>/mongo:latest
 
 7. Under section `MongoDB Admin` Add the following key/value pairs.
-    
+
         mongoDBAdmin: <enter admin name>
         mongoDBPassword: <enter password>
-    
+
 ## Update Deployments File
 
 > **About deployments.yaml**
-> 
+>
 > This file defines the configuration for a Kubernetes deployment. Settings may be defined that specify details of creating pods, minimum pods in a cluster, scalability, and other settings.
 
 ### Modifying deployments.yaml
 
 1. Open the following file in your editor.
-    
+
         container-labs\container-package\AzureTodo\templates\deployments.yaml
 
-2.  Uncomment line 25 and add the following.
-    
+2. Uncomment line 25 and add the following.
+
         value: {{ .Values.mongoDBPassword }}
 
 3. Uncomment line 27 and add the following.
-    
+
         value: {{ .Values.mongoDBAdmin }}
-
-### Inspecting deployments.yaml
-
-There are some significant values in `deployments.yaml` that are of interest to us as commercial marketplace publishers.
-
-1. See line 6 that appears as follows.
-
-        billing: {{ .Values.global.azure.billingIdentifier }}
-
-	This instruction will add a tag 
-
 
 ## Update the UI Definition File
 
@@ -219,11 +211,11 @@ There are some significant values in `deployments.yaml` that are of interest to 
 > The createUIDefinition.json file is used to customize the customer's interface during the installation process. It allows for various controls to be shown on the screen to collect values needed to install the application.
 
 1. Open the following file in your editor. 
-   
+
     `container-labs\container-package\createUIDefinition.json`
 
 2. Add the following JSON to the `resources` section of the ARM template.
-   
+
         {
             "name": "mongoDBAdmin",
             "type": "Microsoft.Common.TextBox",
@@ -258,7 +250,7 @@ There are some significant values in `deployments.yaml` that are of interest to 
     This JSON introduces two controls that will collect the admin username and password for the MongoDB container that will be created upon installation.
 
 3. Go to the `outputs` section at the bottom of the file and and add the following JSON.
-    
+
         "app-mongoDBAdmin" : "[steps('ExtensionConfiguration').mongoDBAdmin]",
         "app-mongoDBPassword" : "[steps('ExtensionConfiguration').mongoDBPassword]",
 
@@ -273,23 +265,23 @@ There are some significant values in `deployments.yaml` that are of interest to 
 ### Update the ARM template
 
 1. Open the following file in your editor.
-   
+
     `container-labs\container-package\cluster-deployment.json`
 
 2. add the following parameters to the parameters section.
-    
+
         "app-mongoDBAdmin": {
             "type": "string",
             "metadata": {
-                "description": "Enter Mongo DB password"
+                "description": "Enter Mongo DB admin username"
             }
         },
         "app-mongoDBPassword": {
             "type": "secureString",
             "metadata": {
-                "description": "Enter Mongo DB Admin"
+                "description": "Enter Mongo DB password"
             }
-        },
+        }
 
 ### Inspect the ARM template
 
