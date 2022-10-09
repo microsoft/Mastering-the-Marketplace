@@ -60,17 +60,17 @@ Open terminal and run the following command to download Microsoft's CNAB builder
 
         cd container-package
 
-4. If not logged into Azure, run the following command to login. Follow the instructions given on the command line.
+4. Run the following command to validate all files going into creating the CNAB bundle. Fix any issues indicated by the tool.
+
+        cpa verify
+
+5. If not logged into Azure, run the following command to login. Follow the instructions given on the command line.
 
         az login
 
-5. Log in to your ACR.
+6. Log in to your ACR.
 
         az acr login -n <ACR Server> -u <ACR Admin> -p <ACR password>
-
-6. Run the following command to validate all files going into creating the CNAB bundle. Fix any issues indicated by the tool.
-
-        cpa verify
 
 7. Run the following command in the container terminal to start building the CNAB bundle and push it to the ACR you defined in the manifest file.
 
@@ -93,9 +93,9 @@ Now that the CNAB bundle has been built, you'll ensure it is in place in your AC
       - `com.nonmicrosoft.azuretodoapptest`
       - `com.nonmicrosoft.azuretodoapptest-installer`
 
-    > **About the `-installer` repository**
+    > **About the `-installer` images**
     >
-    > The CNAB bundle manifests in the base (`com.nonmicrosoft.azuretodoapptest`) repository refer to CNAB bundles in the `-installer` repository. Therefore, the -`installer` CNAB bundles are present in the ACR and may not be deleted, but are not the ones you will select for deployment via Partner Center in the next lab.
+    > The CNAB bundle manifest for the `com.nonmicrosoft.azuretodoapptest` bundle refers to the `com.nonmicrosoft.azuretodoapptest-installer` image. Therefore, the `com.nonmicrosoft.azuretodoapptest-installer` image must be in the ACR and may not be deleted.
 
 5. Click on `com.nonmicrosoft.azuretodoapptest` bundle.
 6. Click the `1.0.0` tag to inspect **Artifact reference** and **manifest** for that CNAB bundle.
