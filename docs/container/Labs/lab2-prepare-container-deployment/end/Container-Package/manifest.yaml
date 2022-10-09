@@ -1,7 +1,7 @@
 applicationName: com.nonmicrosoft.azuretodoapptest
 publisher: "Contoso Test Publisher"
 description: "A test package for the marketplace CNAB structure with existing cluster only."
-version: 1.0.0 #Must be semver
+version: 1.0.0
 restrictions:
   minCores: 4
   minNodes: 1
@@ -13,8 +13,10 @@ restrictions:
 helmChart: "./AzureTodo"
 clusterArmTemplate: "./cluster-deployment.json"
 uiDefinition: "./createUIDefinition.json"
-registryServer: "<<youracr>>.azurecr.io"
+registryServer: "dsacr01.azurecr.io"
 extensionRegistrationParameters:
   defaultScope: "cluster"
   billingIdentifier: microsoft.marketplace.example.azure-todo
+  namespace: "dsacr01"
+  
   

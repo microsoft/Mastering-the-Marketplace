@@ -2,27 +2,28 @@
 title: Azure ToDo App
 global:
   azure:
-    billingIdentifier: microsoft.marketplace.example.azure-todo
+    billingIdentifier: DONOTMODIFY
     images:
       frontend:
-        digest: sha256:e2ad89179bbda7c14533a812d1ce30ec811473b6ed6fefcb293760a0bd27ed38
-        image: nodejstodo
-        registry: docker.io/magdysalem
-
+        digest: sha256:ac654125c21e37e2fdb6a5b3c22f1dad4c4628236cf58f8a606d9c5183e4c1c9
+        image: todojs
+        registry: dsacr01.azurecr.io
       backend:
-        digest: sha256:f548240f5a61d1ecfe4c16cc73c8a12c1701bf9d47d0121f110dd5655ebefd55
+        digest: sha256:e0b1614551474ee2f3c3ef7c9706b5e19f2107aa36b73c910522af9fa8eb756e
         image: mongo
-        registry: docker.io/magdysalem
+        registry: dsacr01.azurecr.io
+
 # MongoDB Admin
-mongoDBAdmin: mongoadmin
-mongoDBPassword: secret
+mongoDBAdmin: dstarr
+mongoDBPassword: password21!!
 
 # Service controls
 serviceType: LoadBalancer
 appFrontLabel: todoapp
 appBackLabel: mongodb
+
 #ingressName
-clusterDNS: Add-AKS-DNS.aksapp.io
+clusterDNS: ""
 
 # how many frontends do we want?
 replicaFrontCount: 1
@@ -30,12 +31,3 @@ replicaBackCount: 1
 
 ## Where it will be deployed
 nameSpace: default
-
-
-
-
-
-
-
-
-

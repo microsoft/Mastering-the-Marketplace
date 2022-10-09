@@ -24,7 +24,7 @@ spec:
         - name: MONGO_INITDB_ROOT_PASSWORD
           value: {{ .Values.mongoDBPassword }}
         - name: MONGO_INITDB_ROOT_USERNAME
-          value: {{ .Values.mongoDBAdmin }}          
+          value: {{ .Values.mongoDBAdmin }}
         resources:
           requests:
             cpu: 250m

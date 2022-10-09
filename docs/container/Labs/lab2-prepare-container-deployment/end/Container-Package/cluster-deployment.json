@@ -23,37 +23,38 @@
         "app-FrontAppName": {
             "type": "string",
             "metadata": {
-                "description": "Input value 1"
-            }
-        },
-        "app-mongoDBAdmin": {
-            "type": "string",
-            "metadata": {
-                "description": "Input value 2"
-            }
-        },
-        "app-mongoDBPassword": {
-            "type": "string",
-            "metadata": {
-                "description": "Input value 2"
+                "description": "Input  App  Name"
             }
         },
         "app-FrontAppReplica": {
             "type": "string",
             "metadata": {
-                "description": "Input value 2"
+                "description": "Enter Replica"
             }
         },
         "app-clusterDNS": {
             "type": "string",
             "metadata": {
-                "description": "Input value 2"
+                "description": "Enter AKS DNS"
             }
         },
         "app-NameSpace": {
             "type": "string",
+            "defaultValue": "default",
             "metadata": {
-                "description": "Input value 2"
+                "description": "Enter NameSpace"
+            }
+        },
+        "app-mongoDBAdmin": {
+            "type": "string",
+            "metadata": {
+                "description": "Enter Mongo DB admin username"
+            }
+        },
+        "app-mongoDBPassword": {
+            "type": "secureString",
+            "metadata": {
+                "description": "Enter Mongo DB password"
             }
         }
     },
@@ -61,7 +62,8 @@
         "plan-name": "plan-name",
         "plan-publisher": "publisherid",
         "plan-offerID": "offerid",
-        "releaseTrain": "Stable"
+        "releaseTrain": "Stable",
+        "clusterExtensionTypeName": "[concat(variables('plan-publisher'), '.' , variables('plan-offerID'), '-', variables('plan-name'))]"
     },
     "resources": [
         {
@@ -84,7 +86,7 @@
                 "extensionsusage"
             ],
             "properties": {
-                "extensionType": "[concat(variables('plan-publisher'), '.' , variables('plan-offerID'), '-', variables('plan-name'))]",
+                "extensionType": "[variables('clusterExtensionTypeName')]",
                 "autoUpgradeMinorVersion": true,
                 "releaseTrain": "[variables('releaseTrain')]",
                 "configurationSettings": {
@@ -92,12 +94,10 @@
                     "appFrontLabel": "[parameters('app-FrontAppName')]",
                     "replicaFrontCount": "[parameters('app-FrontAppReplica')]",
                     "mongoDBAdmin": "[parameters('app-mongoDBAdmin')]",
-                     "mongoDBPassword": "[parameters('app-mongoDBPassword')]",
-                     "clusterDNS": "[parameters('app-clusterDNS')]",
-                     "nameSpace": "[parameters('app-NameSpace')]"
-
-                },
-                "configurationProtectedSettings": {}
+                    "mongoDBPassword": "[parameters('app-mongoDBPassword')]",
+                    "clusterDNS": "[parameters('app-clusterDNS')]",
+                    "nameSpace": "[parameters('app-NameSpace')]"
+                }
             },
             "plan": {
                 "name": "[variables('plan-name')]",

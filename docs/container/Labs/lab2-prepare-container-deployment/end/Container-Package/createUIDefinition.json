@@ -57,81 +57,108 @@
           },
           {
             "name": "title",
+            "toolTip": "Title",
             "type": "Microsoft.Common.TextBox",
-            "label": "Extension Resource name",
+            "label": "Title",
             "defaultValue": "Azure ToDo App",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{4,30}$",
+              "validationMessage": "Between 4 and 30 alphanumeric characters"
             }
           },
           {
             "name": "FrontAppName",
             "type": "Microsoft.Common.TextBox",
-            "label": "Extension Resource name",
+            "toolTip": "Front App Name",
+            "label": "FrontAppName",
             "defaultValue": "",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{4,30}$",
+              "validationMessage": "Between 4 and 30 alphanumeric characters"
             }
           },
           {
             "name": "mongoDBAdmin",
             "type": "Microsoft.Common.TextBox",
-            "label": "Extension Resource name",
+            "label": "mongoDBAdmin",
+            "toolTip": "Admin name for MongoDB",
             "defaultValue": "",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{4,20}$",
+              "validationMessage": "Between 4 and 20 alphanumeric characters"
             }
-          }, 
+          },
           {
             "name": "mongoDBPassword",
             "type": "Microsoft.Common.PasswordBox",
-            "label": "Extension Resource name",
-            "defaultValue": "",
+            "label": {
+              "password": "No special characters, between 12 and 30 characters long",
+              "confirmPassword": "Passwords must match"
+            },
             "constraints": {
-              "required": true
-            }
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{12,30}$",
+              "validationMessage": "Must be between 12 and 30 alphanumeric characters long."
+            },
+            "visible": true,
+            "options": {
+              "hideConfirmation": false
+            },
+            "toolTip": "Password for MongoDB admin"
           },
           {
             "name": "FrontAppReplica",
             "type": "Microsoft.Common.TextBox",
-            "label": "Extension Resource name",
+            "label": "FrontAppReplica",
             "defaultValue": "1",
+            "toolTip": "Front App Replica",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{6,30}$",
+              "validationMessage": "Between 6 and 30 alphanumeric characters"
             }
           },
           {
             "name": "clusterDNS",
             "type": "Microsoft.Common.TextBox",
-            "label": "Extension Resource name",
+            "label": "clusterDNS",
+            "toolTip": "Cluster DNS",
             "defaultValue": "",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{4,15}$",
+              "validationMessage": "Between 4 and 30 alphanumeric characters"
             }
           },
           {
             "name": "NameSpace",
             "type": "Microsoft.Common.TextBox",
-            "label": "Extension Resource name",
+            "label": "Namespace",
+            "toolTip": "Namespace",
             "defaultValue": "default",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{4,30}$",
+              "validationMessage": "Between 4 and 30 alphanumeric characters"
             }
           }
-
         ]
       }
     ],
     "outputs": {
-      "clusterResourceName": "[steps('basics').ClusterResourceName]",
+      "clusterResourceName": "[basics('ClusterResourceName')]",
       "extensionResourceName": "[steps('ExtensionConfiguration').extensionResourceName]",
-      "app-title" : "[steps('ExtensionConfiguration').title]",
-      "app-FrontAppName" : "[steps('ExtensionConfiguration').FrontAppName]",
+      "app-title": "[steps('ExtensionConfiguration').title]",
+      "app-FrontAppName": "[steps('ExtensionConfiguration').FrontAppName]",
+      "app-FrontAppReplica": "[steps('ExtensionConfiguration').FrontAppReplica]",
+      "app-clusterDNS": "[steps('ExtensionConfiguration').clusterDNS]",
       "app-mongoDBAdmin" : "[steps('ExtensionConfiguration').mongoDBAdmin]",
       "app-mongoDBPassword" : "[steps('ExtensionConfiguration').mongoDBPassword]",
-      "app-FrontAppReplica" : "[steps('ExtensionConfiguration').FrontAppReplica]",
-      "app-clusterDNS" : "[steps('ExtensionConfiguration').clusterDNS]",
-      "app-NameSpace" : "[steps('ExtensionConfiguration').NameSpace]"
+      "app-NameSpace": "[steps('ExtensionConfiguration').NameSpace]",
+      "location": "[location()]"
     }
   }
 }
