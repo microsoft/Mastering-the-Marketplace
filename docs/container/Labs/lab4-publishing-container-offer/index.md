@@ -31,8 +31,20 @@ In this lab, you will complete the rest of the required setup on Partner Center 
 
 1. Go to your Partner Center account inside the Container offer you created earlier.
 2. Select the **Plan overview** section and click on **New Plan**. Give your plan a unique `Plan Id` and `Plan name` and click Create.
-3. In the **Plan listing** tab, give your plan a name, description and summary.
-4. Click **Save Draft**.
+
+### Plan listing
+
+1. Open the **Plan listing** .
+2. You can edit the plan name if you wish.
+3. Fill in the **Plan summary**. Here is some text you can use if you wish.
+
+      Plan Summary - Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+
+4. FIll in the **Plan description**. Here is some text you can use if you wish.
+
+      Plan description - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+
+5. Click **Save Draft**.
 
 ### Pricing and availability
 
@@ -40,15 +52,14 @@ In this lab, you will complete the rest of the required setup on Partner Center 
 1. For the **Edit Market** section, select at least one market in which to sell your product. This is typically the United States.
 1. Under **Pricing**  select  **Custom price**.
 1. Select **Per Core** and enter price as **0** USD/hour. For this workshop, you don't want to charge your account when testing.
-1. Switch the plan visibility to **Private** and put in the **Tenant Id** of the tenant that will be buying the plan. For this practice workshop, the tenant is typically the same that holds your ACR and AKS services.
 1. Click **Save Draft**.
-    
+
 ### Technical configuration
-    
+
 1. Go to the **Technical Configuration** tab. 
 2. For the Cluster extension type, enter `**YOUR-COMPANY-NAME**.AzureTodoApp'.
 3. Click the **Add CNAB Bundle** link and the **Azure Container Registry** dialog appears.
-      
+
       ![Add CNAB Bundle](./images/plan.png)
 
 4. Select your ACR as **Registry**.
