@@ -13,7 +13,7 @@ hide:
 - navigation
 ---
 
-[Home](/) > [Container Offers](../../index) > [Labs](../../index.md#labs) 🧪
+[Home](/) > [Container Offers](../../) > [Labs](../../index.md#labs) 🧪
 
 # Lab 4 - Publishing the Container Offer
 
