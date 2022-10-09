@@ -45,7 +45,8 @@ The Offer Setup page allows changing your offer alias as well as as other functi
 
 ### Setup details
 
-Under **Setup details** check **Yes, I would like to sell through Microsoft and have Microsoft host transactions on my behalf**
+1. Under **Setup details** check **Yes, I would like to sell through Microsoft and have Microsoft host transactions on my behalf**.
+2. Click **Save draft**.
 
 ### Properties
 
@@ -53,13 +54,13 @@ Navigate to the **Properties** tab on the left.
 
 #### Categories
 
-You must select at least one category for your offer. Container offers always appear under the Compute category in Azure Marketplace. For this lab we will be selecting the below configurations.
+You must select at least one category for your offer. Container offers always appear under the Compute category in Azure Marketplace.
 
 1. Click the **+ Categories** link.
 1. In the left dropdown, select **Containers**.
 1. In the right dropdown, select **Kubernetes App**.
 
-#### Legal
+#### Leg al
 
 You will use the Microsoft Standard Contract for this lab. You may choose differently when you are publishing to a production environment.
 
@@ -74,21 +75,23 @@ Navigate to the **Offer listing** page in the left hand menu.
 
 1. In the the **Search results summary** section, enter some text. Here is some text you may copy and paste for this purpose.
 
-    > Quis aute iure reprehenderit in voluptate ...
+        Quis aute iure reprehenderit in voluptate ...
 
 2. For **Short Description** and **Description** sections, here is some text you may choose to copy and paste into the text boxes.
 
-    > Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-3. In the **Privacy policy link**, enter the public link to the privacy policy for your company if you know it. If not, use the following link: `https://privacy.microsoft.com/privacystatement`. 
-   
+3. In the **Privacy policy link**, enter the public link to the privacy policy for your company if you know it. If not, use the following link.
+
+        https://privacy.microsoft.com/privacystatement
+
     > ⚠️ Please note that using Microsoft's privacy policy is only for the purpose of this lab and should not be used for your production offer.
 
 4. In the **Support Contact** section, enter your contact information.
 5. In the **Engineering Contact** section, enter your engineering contact information.
 6. For the Marketplace media section you'll upload 2 images.
-    1. For the **216X216 logo image,** upload the PNG provided in the `./items` directory of **lab1**. This PNG is named "**Contoso-Logo-216x216.png**."
-    2. For the **1280X720** screenshot image, upload the PNG provided in the `./items` directory of **lab1**. This PNG is named "**Screenshots-1280x720.png**."
+    1. For the **216x216** logo image, upload the PNG provided in the `./items` directory of **lab1**. This PNG is named "[Contoso-Logo-216x216.png](./items/Contoso-Logo-216x216.png)."
+    2. For the **1280x720** screenshot image, upload the PNG provided in the `./items` directory of **lab1**. This PNG is named "[Screenshots-1280x720.png](./items/Screenshots-1280x720.png)."
     3. Add a screenshot image caption.
 7. Click the **Save draft** button and correct any errors that be shown before moving on.
 
@@ -120,3 +123,5 @@ Here, you can check your work by performing the first action of the publication 
 **Congratulations!** You have now finished this lab.
 
 [Continue to Lab 2](../lab2-prepare-container-deployment/index.md)
+
+[def]: items/Contoso-Logo-216x216.png
