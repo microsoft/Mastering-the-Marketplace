@@ -99,7 +99,7 @@ Navigate to the **Offer listing** page in the left hand menu.
 
 The preview audience specifies the subscriptions that will be able to test the offer before it goes, when it is in the **Preview** state. Everyone using the subscription will be able to purchasae the offer when in Preview (test) mode.
 
-1. In the **Preview audience** section, enter your Azure subscription Id. 
+1. In the **Preview audience** section, enter your Azure subscription Id.
 1. Enter a **Description** (Optional).
 1. Click **Save draft**.
 
@@ -115,13 +115,10 @@ Here, you can check your work by performing the first action of the publication 
 1. In the upper right corner of the page, click the link for **Review and publish**.
 1. Looking to the right side of the page, notice that some sections have a green circle and at least one is gray. The gray sections are not yet complete, preventing you from taking the next step of publishing your offer.
 
-    > 🗒️The **Plan overview** section of the offer will not pass review and should be gray. This is okay for now as we need to fill out the **Plan overview** tab and you can't do that until we have a VM image. All other sections should be green.
+    > 🗒️The **Plan overview** section of the offer will not pass review and should be gray. All other sections should be green. This is okay as you'll finish this section in a later lab.
 
-1. Ensure all sections pass and are green except **Plan overview**, which will be addressed in the next lab.
-1. Go back to all other sections that appear with a gray circle and complete those sections with the guidance provided above.
+1. Go back to all any other sections that appear with a gray circle and complete those sections with the guidance provided above.
 
 **Congratulations!** You have now finished this lab.
 
 [Continue to Lab 2](../lab2-prepare-container-deployment/index.md)
-
-[def]: items/Contoso-Logo-216x216.png
