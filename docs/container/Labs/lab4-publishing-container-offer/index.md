@@ -63,7 +63,7 @@ In this lab, you will complete the rest of the required setup on Partner Center 
       ![Add CNAB Bundle](./images/plan.png)
 
 4. Select your ACR as **Registry**.
-5. For **Repo** select `com.nonmicrosoft.azuretodoapptest-installer`.
+5. For **Repo** select `com.nonmicrosoft.azuretodoapptest`.
 6. For **CNAB Bundle**, select the `1.0.0` version you published earlier.
 7. Click **Add CNAB Bundle**.
 8. Click **Save draft**.
