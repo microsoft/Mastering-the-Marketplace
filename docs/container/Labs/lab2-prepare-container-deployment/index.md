@@ -166,9 +166,11 @@ In this section will explore the Helm Chart directory `AzureTodo`.
     > 
     > The image digest is the hash of the image index or image manifest JSON document.
 
-    To get image digest of your `todojs:v1 ` image run following command.
+    One way to get image digest of your `todojs:v1 ` image run following command.
 
-         docker inspect image <ACR Server name>/todojs:v1 
+         docker inspect image <ACR Server name>/todojs:v1
+
+    You could also inspect the image you pushed to the ACR earlier. Just open the repository in the ACR and each version of an image will have its **Digest** shown there.
 
 4. Locate the value of the `Id` key and copy it.
 
