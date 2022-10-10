@@ -7,6 +7,8 @@ comments: false
 # Micro navigation
 micro_nav: false
 
+title: Lab Prerequisites
+
 hide:
 - navigation
 ---
