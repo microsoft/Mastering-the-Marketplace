@@ -162,25 +162,15 @@ In this section will explore the Helm Chart directory `AzureTodo`.
 2. Update lines 10 & 14 with your ACR server name. For example `myacr.azureacr.io`.
 3. Get the image digest of your `todojs:v1` image.
 
-    > **Image Digest** 
-    > 
+    > **Image Digest**
+    >
     > The image digest is the hash of the image index or image manifest JSON document.
 
-    One way to get image digest of your `todojs:v1 ` image run following command.
+    Inspect the images you pushed to the ACR earlier. Open each repository in the ACR and see that individual versions of an image will have their own **Digest** value.
 
-         docker inspect image <ACR Server name>/todojs:v1
-
-    You could also inspect the image you pushed to the ACR earlier. Just open the repository in the ACR and each version of an image will have its **Digest** shown there.
-
-4. Locate the value of the `Id` key and copy it.
-
-        ![](./images/digest.png)
-
-5. Paste the Id value onto line 8.
-6. Update line 12 with `mongo:latest` image digest. To get image digest run following command.
-
-        docker inspect image <ACR Server name>/mongo:latest
-
+4. Locate the value of the **digest** and copy it.
+5. Paste the value onto line 8.
+6. Update line 12 with `mongo:latest` image digest.
 7. Under section `MongoDB Admin` Add the following key/value pairs.
 
         mongoDBAdmin: <enter admin name>
