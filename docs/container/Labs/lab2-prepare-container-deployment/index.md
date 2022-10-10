@@ -160,7 +160,7 @@ In this section will explore the Helm Chart directory `AzureTodo`.
 
 1. Open  `container-labs\container-package\AzureTodo\values.yaml` in your text editor.
 2. Update lines 10 & 14 with your ACR server name. For example `myacr.azureacr.io`.
-3. Get the image digest of your `todojs:v1` image.
+3. Locate the value of the `todojs:v1` digest and copy it.
 
     > **Image Digest**
     >
@@ -168,10 +168,9 @@ In this section will explore the Helm Chart directory `AzureTodo`.
 
     Inspect the images you pushed to the ACR earlier. Open each repository in the ACR and see that individual versions of an image will have their own **Digest** value.
 
-4. Locate the value of the **digest** and copy it.
-5. Paste the value onto line 8.
-6. Update line 12 with `mongo:latest` image digest.
-7. Under section `MongoDB Admin` Add the following key/value pairs.
+4. Paste the `todojs:v1` digest value onto line 8.
+5. Update line 12 with `mongo:latest` image digest.
+6. Under section `MongoDB Admin` Add the following key/value pairs.
 
         mongoDBAdmin: <enter admin name>
         mongoDBPassword: <enter password>
