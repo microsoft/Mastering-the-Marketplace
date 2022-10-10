@@ -30,7 +30,7 @@ hide:
 
 ## Hands-on labs
 
-The following hands-on labs build upon each other. They take you through the complete process of creating and publishing a Container offer in the Microsoft commercial marketplace. 
+The following hands-on labs build upon each other. They take you through the complete process of creating and publishing a Container Offer in the Microsoft commercial marketplace.
 
 ### Prerequisites
 

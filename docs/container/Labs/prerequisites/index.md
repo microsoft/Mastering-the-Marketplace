@@ -15,7 +15,7 @@ hide:
 
 # Lab Prerequisites
 
-There are several must-have and some nice-to-have prerequisites for completing the labs in the Mastering COntainer offers course.
+There are several must-have and some nice-to-have prerequisites for completing the labs in the Mastering Container offers course.
 
 ## Accounts
 
