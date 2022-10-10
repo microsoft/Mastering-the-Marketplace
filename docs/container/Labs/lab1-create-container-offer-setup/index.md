@@ -81,19 +81,23 @@ Navigate to the **Offer listing** page in the left hand menu.
 
         Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-3. In the **Privacy policy link**, enter the public link to the privacy policy for your company if you know it. If not, use the following link.
+3. Somewhere in the description, add teh phrase "Kubernetes app."
+
+    > 🗒️ This ensures the offer shows up in the correct search results.
+
+4. In the **Privacy policy link**, enter the public link to the privacy policy for your company if you know it. If not, use the following link.
 
         https://privacy.microsoft.com/privacystatement
 
     > ⚠️ Please note that using Microsoft's privacy policy is only for the purpose of this lab and should not be used for your production offer.
 
-4. In the **Support Contact** section, enter your contact information.
-5. In the **Engineering Contact** section, enter your engineering contact information.
-6. For the Marketplace media section you'll upload 2 images.
+5. In the **Support Contact** section, enter your contact information.
+6. In the **Engineering Contact** section, enter your engineering contact information.
+7. For the Marketplace media section you'll upload 2 images.
     1. For the **216x216** logo image, upload the PNG provided in the `./items` directory of **lab1**. This PNG is named "[Contoso-Logo-216x216.png](./items/Contoso-Logo-216x216.png)."
     2. For the **1280x720** screenshot image, upload the PNG provided in the `./items` directory of **lab1**. This PNG is named "[Screenshots-1280x720.png](./items/Screenshots-1280x720.png)."
     3. Add a screenshot image caption.
-7. Click the **Save draft** button and correct any errors that be shown before moving on.
+8. Click the **Save draft** button and correct any errors that be shown before moving on.
 
 ### Preview audience
 
