@@ -13,7 +13,7 @@ title: Lab 1
 micro_nav: false
 ---
 
-[Home](/) > [Container Offers](../../) > [Labs](../../index.md#labs) 🧪
+[Home](../../../) > [Container Offers](../../) > [Labs](../../index.md#labs) 🧪
 
 # Lab 1 - Partner Center Setup for a Container Offer
 

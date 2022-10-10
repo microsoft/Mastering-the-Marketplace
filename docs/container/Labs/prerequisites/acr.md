@@ -15,7 +15,7 @@ hide:
 
 ---
 
-[Home](/) > [Container Offers](../../../container/index.md) > [Prerequisites](./index.md)
+[Home](../../../) > [Container Offers](../../../container/index.md) > [Prerequisites](./index.md)
 
 # Azure Container Registry (ACR) Prerequisite
 

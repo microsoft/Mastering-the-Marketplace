@@ -13,7 +13,7 @@ hide:
 - navigation
 ---
 
-[Home](/) > [Container Offers](../../../container/index.md) > [Labs](../../index.md)
+[Home](../../../) > [Container Offers](../../../container/index.md) > [Labs](../../index.md)
 
 # Lab Prerequisites
 

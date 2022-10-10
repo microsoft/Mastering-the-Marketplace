@@ -14,7 +14,7 @@ hide:
 - navigation
 ---
 
-[Home](/) > [Container Offers](../../../container/index.md) > [Prerequisites](./index.md)
+[Home](../../../) > [Container Offers](../../../container/index.md) > [Prerequisites](./index.md)
 
 # Install Docker Desktop
 
