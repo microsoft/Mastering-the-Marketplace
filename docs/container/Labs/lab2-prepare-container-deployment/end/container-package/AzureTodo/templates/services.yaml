@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.appBackLabel }}-svc
+  labels:
+    name: {{ .Values.appBackLabel }}-svc
+spec:
+  ports:
+  - port: 27017
+  selector:
+    app: {{ .Values.appBackLabel }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.appFrontLabel }}-svc
+  labels:
+    name: {{ .Values.appFrontLabel }}-svc
+spec:
+  type: {{ .Values.serviceType }}
+  ports:
+  - port: 80
+  selector:
+    app: {{ .Values.appFrontLabel }}

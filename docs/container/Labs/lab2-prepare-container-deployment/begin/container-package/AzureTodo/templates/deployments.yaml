@@ -1,0 +1,80 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.appBackLabel }}
+  labels:
+    billing: {{ .Values.global.azure.billingIdentifier }}
+spec:
+  replicas: {{ .Values.replicaBackCount }}
+  selector:
+    matchLabels:
+      app: {{ .Values.appBackLabel }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.appBackLabel }}
+    spec:
+      containers:
+      - name: {{ .Values.appBackLabel }}
+        image: "{{ .Values.global.azure.images.backend.registry }}/{{ .Values.global.azure.images.backend.image }}@{{ .Values.global.azure.images.backend.digest }}"
+        ports:
+        - containerPort: 27017
+          name: {{ .Values.appBackLabel }}
+        env:
+        - name: MONGO_INITDB_ROOT_PASSWORD
+          #value: 
+        - name: MONGO_INITDB_ROOT_USERNAME
+          #value: 
+        resources:
+          requests:
+            cpu: 250m
+            memory: 500Mi
+          limits:
+            cpu: 1000m
+            memory: 1Gi
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.appFrontLabel }}
+  labels:
+    billing: {{ .Values.global.azure.billingIdentifier }}
+spec:
+  replicas: {{ .Values.replicaFrontCount }}
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  minReadySeconds: 5 
+  selector:
+    matchLabels:
+      app: {{ .Values.appFrontLabel }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.appFrontLabel }}
+    spec:
+      containers:
+      - name: {{ .Values.appFrontLabel }}
+        image: "{{ .Values.global.azure.images.frontend.registry }}/{{ .Values.global.azure.images.frontend.image }}@{{ .Values.global.azure.images.frontend.digest }}" 
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: 1000m
+            memory: 1Gi
+          limits:
+            cpu: 2000m
+            memory: 2Gi
+        env:
+        - name: ENVIRONMENT
+          value: development
+        - name: DATABASE_NAME
+          value: azure-todo-app
+        - name: DATABASE_URL
+          value: mongodb://{{ .Values.mongoDBAdmin }}:{{ .Values.mongoDBPassword }}@{{ .Values.serviceNameFront }}.{{ .Values.nameSpace }}.svc.cluster.local:27017/
+        - name: PORT
+          value: "80"
+# Add if operator to env vars

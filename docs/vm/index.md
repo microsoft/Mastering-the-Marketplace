@@ -6,12 +6,14 @@ comments: false
 hide:
   - navigation
 
-
 # Hero section
-title: Mastering Virtual Machine Offers
 description: The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
 
 ---
+
+[Home](../index.md)
+
+# Mastering Virtual Machine Offers
 
 The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
 
@@ -19,9 +21,27 @@ Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon created this course.
 
 [✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
  
-[▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
+[🚦](../learning-paths/virtual-machine-offers.md) Not sure where to get started? Try the *Working with Virtual Machine Offers* [Learning Path](../learning-paths/virtual-machine-offers.md).
 
-[👈](../index.md) [Go back to the front page](../index.md).
+[🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
+
+## Table of Contents
+
+<!-- no toc -->
+- [Creating Virtual Machine Offers Overview](#creating-virtual-machine-offers-overview)
+- [Partner Center Overview](#partner-center-overview)
+- [Creating an Offer in Partner Center (Demo)](#creating-an-offer-in-partner-center-demo)
+- [Creating and Customizing a Virtual Machine (Demo)](#creating-and-customizing-a-virtual-machine-demo)
+- [Generalizing and Capturing a Virtual Machine Image](#generalizing-and-capturing-a-virtual-machine-image)
+- [Generalizing and Capturing a Virtual Machine Image (Demo)](#generalizing-and-capturing-a-virtual-machine-image-demo)
+- [Publish Your Virtual Machine Offer with Partner Center (Demo)](#publish-your-virtual-machine-offer-with-partner-center-demo)
+- [Securing Your Virtual Machine](#securing-your-virtual-machine)
+- [Virtual Machine Automation with Packer Overview](#virtual-machine-automation-with-packer-overview)
+- [Virtual Machine Automation with Packer (Demo)](#virtual-machine-automation-with-packer-demo)
+- [The Virtual Machine Offer Certification Process](#the-virtual-machine-offer-certification-process)
+- [Virtual Machine Certification Test Tool (Demo)](#virtual-machine-certification-test-tool-demo)
+- [Purchasing the Virtual Machine Offer](#purchasing-the-virtual-machine-offer)
+- [Hands-on labs](#hands-on-labs)
 
 ---
 
@@ -117,7 +137,7 @@ Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) 
 - An active Partner Center Account (Please ensure you have enrolled into the Marketplace Offers program)
 - Visual Studio Code or other text editor
 
-### Labs
+### Labs🧪
 
 1. [Partner Center Setup](./Labs/lab1-partner-center-setup/index.md)
 2. [VM Creation](./Labs/lab2-vm-creation/index.md)

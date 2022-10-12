@@ -5,7 +5,7 @@ keywords: Azure AppSource Marketplace Virtual Machine
 comments: false
 
 # Hero section
-title: Mastering Azure Managed Application Offers
+
 description: This course is designed to help you decrease your onboarding when building an Azure Managed Application offer.
 
 hide:
@@ -13,17 +13,40 @@ hide:
 
 ---
 
+[Home](../index.md)
+
+# Mastering Azure Managed Application Offers
+
 This course is designed to help you decrease your onboarding when building an Azure Managed Application offer. The content is comprised of recordings of a virtual workshop and are divided into small digestible modules for easy consumption. Also included are several hands-on labs to turn your knowledge into skills.
 
 [✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
  
-[▶️](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
-
-[👈](../index.md) [Go back to the front page](../index.md).
+[🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
 The slides for this course, which are used in the following content, [are here](./pdfs/ama-workshop-slides.pdf).
 
 ---
+
+## Table of Contents
+
+<!-- no toc -->
+- [Course Introduction](#course-introduction)
+- [Managed Applications Overview](#managed-applications-overview)
+- [Azure Managed Applications Overview](#azure-managed-applications-overview)
+- [Partner Center with Azure Managed Applications Overview](#partner-center-with-azure-managed-applications-overview)
+- [Configuring Partner Center for Azure Managed Applications - Demo](#configuring-partner-center-for-azure-managed-applications---demo)
+- [Azure Managed Application Deployment Package Overview](#azure-managed-application-deployment-package-overview)
+- [Working with a Azure Managed Application Deployment Package - Demo](#working-with-a-azure-managed-application-deployment-package---demo)
+- [Integrating Virtual Machine Offers into Azure Managed Applications](#integrating-virtual-machine-offers-into-azure-managed-applications)
+- [Purchasing an Azure Managed Application – Demo](#purchasing-an-azure-managed-application--demo)
+- [Managing My Purchased Azure Managed Applications – Demo](#managing-my-purchased-azure-managed-applications--demo)
+- [Managing My Customer’s Azure Managed Applications Overview](#managing-my-customers-azure-managed-applications-overview)
+- [Managing My Customer’s Azure Managed Applications – Demo](#managing-my-customers-azure-managed-applications--demo)
+- [Metered Billing for Azure Managed Applications Overview](#metered-billing-for-azure-managed-applications-overview)
+- [Metered Billing for Azure Managed Applications – Demo](#metered-billing-for-azure-managed-applications--demo)
+- [Advanced Deployment Scenarios for Azure Managed Applications](#advanced-deployment-scenarios-for-azure-managed-applications)
+- [Hands-on labs](#hands-on-labs)
+
 
 ### Course Introduction
 
@@ -131,7 +154,7 @@ These hand on labs build on top of one another, so progress through them in orde
 
 Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
 
-### Labs
+### Labs 🧪 
 
 1. Lab 1 - [Publishing an Azure Managed Application Offer in Partner Center](./labs/lab-1-partner-center/README.md)
 2. Lab 2 - [The Managed Application Deployment Package](./labs/lab-2-deployment-package/README.md)

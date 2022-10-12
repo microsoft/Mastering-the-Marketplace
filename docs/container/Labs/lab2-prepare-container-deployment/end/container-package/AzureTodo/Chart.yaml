@@ -1,0 +1,7 @@
+apiVersion: v2
+description: A Helm chart for Kubernetes
+name: azure-todo-app
+version: 0.0.1
+type: application
+appVersion: "1.0.0"
+icon: https://microsoft.github.io/Mastering-the-Marketplace/assets/logo-footer.png
