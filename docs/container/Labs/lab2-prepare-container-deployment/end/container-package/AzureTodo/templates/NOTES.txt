@@ -1,0 +1,9 @@
+The Azure Vote application has been started on your Kubernetes cluster.
+
+Title: {{ .Values.title }}
+Vote 1 value: {{ .Values.value1 }}
+Vote 2 value: {{ .Values.value2 }}
+
+The externally accessible IP address can take a minute or so to provision. Run the following command to monitor the provisioning status. Once an External IP address has been provisioned, brows to this IP address to access the Azure Vote application.
+
+kubectl get service -l name={{ .Values.serviceNameFront }} -w
