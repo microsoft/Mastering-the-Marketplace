@@ -27,26 +27,7 @@ This lab puts you in the role of a customer who will purchase the offer you have
 
 ---
 
-> **Note:** If the your offer is not published yet please proceed to [Purchase Azure Vote Offer](#purchase-azure-vote-offer)
 ## Purchase your Offer
-
-1. You created an AKS cluster in the prerequisites to these labs. If that AKS cluster is stopped, **start it**.
-2. Open [Partner Center](https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview) in your browser.
-3. Navigate to the **Offer Overview** page and click the offer you created earlier.
-4. Select the plan you want to purchase from the drop down list and click **Create**.
-5. Under the **Basics** tab, configure the Subscription, Resource Group and Cluster name. You will select the cluster we created in [Lab0](../prerequisites/)
-6. Under the **Extension Setting** Fill all the missing fields. 
-
-    ![](./images/resources.png)
-
-
-## TODO: Access Solution
-
-Add section to access the solution running on AKS
-
-
-
-## Purchase Azure Vote Offer
 1. You created an AKS cluster in the prerequisites to these labs. If that AKS cluster is stopped, **start it**.
 2. Open [Azure Portal Marketplace](https://portal.azure.com/#view/Microsoft_Azure_Marketplace/MarketplaceOffersBlade/selectedMenuItemId/home) in your browser.
 3. Search for **Azure Vote K8s App Demo Offer** then click on Offer to  **Create**. 
