@@ -27,7 +27,40 @@ This lab puts you in the role of a customer who will purchase the offer you have
 
 ---
 
+> **Note:** If the your offer is not published yet please proceed to [Purchase Azure Vote Offer](#purchase-azure-vote-offer)
 ## Purchase your Offer
+1. You created an AKS cluster in the prerequisites to these labs. If that AKS cluster is stopped, **start it**.
+2. Open [Azure Portal Marketplace](https://portal.azure.com/#view/Microsoft_Azure_Marketplace/MarketplaceOffersBlade/selectedMenuItemId/home) in your browser.
+3. Search for **Azure Vote K8s App Demo Offer** then click on Offer to  **Create**. 
+4. Select **Test Plan**  and click **Create**.
+5. Under the **Basics** tab, Select the Subscription and Resource Group 
+6. Under the **Cluser Details** tab, Select the cluster we created in [Lab0](../prerequisites/)
+7. Under the **Cluster Extension Details** Fill all the missing fields. 
+
+   ![](./images/azurevoteresources.png)
+
+## Access Azure Vote Solution
+1. In **Azure Portal** Open your Cluster blade
+   
+   ![](./images/cluster.png)
+
+1. Click on **Workloads** to verify **Azure Vote** Pods are up and running
+   
+   ![](./images/clusterworkload.png)
+
+1. Click on **Servoces and Ingresses** to locate **Azure-vote-front** service and Click on **External IP Address**
+
+   ![](./images/clusterservice.png)
+
+
+1. Azure Vote front app will load on new Tab
+
+   ![](./images/azurevote.png)
+
+
+
+
+## Purchase Azure Vote Offer
 1. You created an AKS cluster in the prerequisites to these labs. If that AKS cluster is stopped, **start it**.
 2. Open [Azure Portal Marketplace](https://portal.azure.com/#view/Microsoft_Azure_Marketplace/MarketplaceOffersBlade/selectedMenuItemId/home) in your browser.
 3. Search for **Azure Vote K8s App Demo Offer** then click on Offer to  **Create**. 
