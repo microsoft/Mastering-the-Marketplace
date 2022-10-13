@@ -141,7 +141,7 @@ In this section we will publish or **push** the solution images to the ACR you c
 
         docker push <ACR Server name>/todojs:v1
 
-3. Push the mongot image to your ACR.
+3. Push the mongo image to your ACR.
 
         docker push <ACR Server name>/mongo:latest
 
@@ -170,6 +170,13 @@ In this section will explore the Helm Chart directory `AzureTodo`.
     > The image digest is the hash of the image index or image manifest JSON document.
 
     Inspect the images you pushed to the ACR earlier. Open each repository in the ACR and see that individual versions of an image will have their own **Digest** value.
+
+    > **Get Digest from local image**
+    >
+    > Run `docker inspect <myacr>.azureacr.io\todojs:v1` you can locate the disget value under **RepoDigests**
+
+    >![](./images/digest.png)
+
 
 4. Paste the `todojs:v1` digest value onto line 8.
 5. Update line 12 with `mongo:latest` image digest.
