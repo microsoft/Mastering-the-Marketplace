@@ -59,25 +59,13 @@
         }
     },
     "variables": {
-        "plan-name": "plan-name",
-        "plan-publisher": "publisherid",
-        "plan-offerID": "offerid",
-        "releaseTrain": "Stable",
-        "clusterExtensionTypeName": "[concat(variables('plan-publisher'), '.' , variables('plan-offerID'), '-', variables('plan-name'))]"
+        "plan-name": "DONOTMODIFY",
+        "plan-publisher": "DONOTMODIFY",
+        "plan-offerID": "DONOTMODIFY",
+        "releaseTrain": "DONOTMODIFY",
+        "clusterExtensionTypeName": "DONOTMODIFY"
     },
     "resources": [
-        {
-            "type": "Microsoft.KubernetesConfiguration/extensions",
-            "apiVersion": "2022-03-01",
-            "name": "extensionsusage",
-            "dependsOn": [
-            ],
-            "properties": {
-                "extensionType": "Microsoft.ExtensionsUsage",
-                "releaseTrain": "Stable"
-            },
-            "scope": "[concat('Microsoft.ContainerService/managedClusters/', parameters('clusterResourceName'))]"
-        },
         {
             "type": "Microsoft.KubernetesConfiguration/extensions",
             "apiVersion": "2022-04-02-preview",

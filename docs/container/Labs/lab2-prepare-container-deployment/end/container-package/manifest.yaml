@@ -13,10 +13,9 @@ restrictions:
 helmChart: "./AzureTodo"
 clusterArmTemplate: "./cluster-deployment.json"
 uiDefinition: "./createUIDefinition.json"
-registryServer: "dsacr01.azurecr.io"
+registryServer: "<<Your ACR>>.azurecr.io"
 extensionRegistrationParameters:
   defaultScope: "cluster"
-  billingIdentifier: microsoft.marketplace.example.azure-todo
-  namespace: "dsacr01"
+  namespace: "<<ADD namespace>>"
   
   
