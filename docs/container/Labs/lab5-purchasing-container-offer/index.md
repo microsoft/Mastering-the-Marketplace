@@ -27,7 +27,7 @@ This lab puts you in the role of a customer who will purchase the offer you have
 
 ---
 
-> **Note:** If the your offer is not published yet please proceed to #Purchase-Azure-Vote-Offer
+> **Note:** If the your offer is not published yet please proceed to [Purchase Azure Vote Offer](#purchase-azure-vote-offer)
 ## Purchase your Offer
 
 1. You created an AKS cluster in the prerequisites to these labs. If that AKS cluster is stopped, **start it**.
