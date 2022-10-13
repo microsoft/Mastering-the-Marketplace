@@ -2,7 +2,7 @@
 title: Azure ToDo App
 global:
   azure:
-    billingIdentifier: microsoft.marketplace.example.azure-todo
+    billingIdentifier: DONOTMODIFY
     images:
       frontend:
         digest: << ADD digest >>
@@ -27,7 +27,7 @@ replicaFrontCount: 1
 replicaBackCount: 1
 
 ## Where it will be deployed
-nameSpace: default
+nameSpace: << ADD PublisherID>>
 
 
 

@@ -109,14 +109,17 @@ In this section, you will create a `DockerFile` for solution `Azure ToDo` and pu
 ## Run Containers Locally
 
 In this section we will run the solution locally with Docker. 
+1. Create a user-defined bridge network 
+
+        docker network create todo-net
 
 1. Start by running MongoDB locally. Specify an `admin username` and `password` of your choice for the mongoDB instance.
 
-        docker run -d -e MONGO_INITDB_ROOT_USERNAME:<admin username> -e MONGO_INITDB_ROOT_PASSWORD:<password> -p 27017:27017 --name mongotodo  mongo:latest
+        docker run -d --net todo-net -e MONGO_INITDB_ROOT_USERNAME:<admin username> -e MONGO_INITDB_ROOT_PASSWORD:<password> -p 27017:27017 --name mongotodo  mongo:latest
 
 2. Start the main AzureTodo web application container.
 
-        docker run -d --link mongotodo:mongotodo -p 3000:3000 -e ENVIRONMENT:development -e DATABASE_NAME:azure-todo-app -e DATABASE_URL=mongodb://mongotodo:27017 <ACR Login Server Name>/todojs:v1 
+        docker run -d --net todo-net -p 3000:3000 -e ENVIRONMENT:development -e DATABASE_NAME:azure-todo-app -e DATABASE_URL=mongodb://mongotodo:27017 <ACR Login Server Name>/todojs:v1 
 
 3. Verify the containers are running correctly. Run the following command to see the two containers.
 
@@ -175,6 +178,7 @@ In this section will explore the Helm Chart directory `AzureTodo`.
         mongoDBAdmin: <enter admin name>
         mongoDBPassword: <enter password>
 
+30. Update line 30 with your publisher ID. You can get your publisher ID from [Partner Center](https://partner.microsoft.com/en-us/dashboard/account/v3/organization/legalinfo#mpn) 
 ## Update Deployments File
 
 > **About deployments.yaml**
@@ -205,8 +209,7 @@ In this section will explore the Helm Chart directory `AzureTodo`.
 
     `container-labs\container-package\createUIDefinition.json`
 
-2. Add the following JSON to the `resources` section of the ARM template.
-
+2. Add the following JSON to the `elements` section.
         {
             "name": "mongoDBAdmin",
             "type": "Microsoft.Common.TextBox",
@@ -291,7 +294,7 @@ In this section you will update the **manifest.yaml** file.
     `container-labs\container-package\manifest.yaml`
 
 2. Go to `registryServer:` and add your ACR server name.
-3. Go to `namespace` and enter just the prefix of your fully qualified ACR name. 
+3. Go to `namespace` and enter your publisherID
 
 **Congratulations!** You have now finished this lab and your deployment files are ready for next steps.
 

@@ -14,7 +14,7 @@ global:
         registry: dsacr01.azurecr.io
 
 # MongoDB Admin
-mongoDBAdmin: dstarr
+mongoDBAdmin: admin
 mongoDBPassword: password21!!
 
 # Service controls
@@ -30,4 +30,4 @@ replicaFrontCount: 1
 replicaBackCount: 1
 
 ## Where it will be deployed
-nameSpace: default
+nameSpace: <<ADD namespace>>
