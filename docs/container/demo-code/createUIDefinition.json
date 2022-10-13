@@ -58,64 +58,84 @@
           {
             "name": "title",
             "type": "Microsoft.Common.TextBox",
-            "label": "Extension Resource name",
+            "label": "Deployment title",
             "defaultValue": "Azure ToDo App",
+            "toolTip": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long.",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{6,30}$",
+              "validationMessage": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long."
             }
           },
           {
             "name": "FrontAppName",
             "type": "Microsoft.Common.TextBox",
-            "label": "Extension Resource name",
+            "label": "ToDo App Name",
+            "toolTip": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long.",
             "defaultValue": "",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{6,30}$",
+              "validationMessage": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long."
             }
           },
           {
             "name": "mongoDBAdmin",
             "type": "Microsoft.Common.TextBox",
-            "label": "Extension Resource name",
+            "label": "DB Admin",
+            "toolTip": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long.",
             "defaultValue": "",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{6,30}$",
+              "validationMessage": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long."
             }
           }, 
           {
             "name": "mongoDBPassword",
-            "type": "Microsoft.Common.PasswordBox",
-            "label": "Extension Resource name",
-            "defaultValue": "",
+            "type": "Microsoft.Common.TextBox",
+            "label": "DB Password",
+            "toolTip": "Only alphanumeric characters are allowed",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z@$!%*#?&]{6,30}$",
+              "validationMessage": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long."
             }
           },
           {
             "name": "FrontAppReplica",
             "type": "Microsoft.Common.TextBox",
-            "label": "Extension Resource name",
+            "label": "Replica",
+            "toolTip": "Only numeric value are allowed.",
             "defaultValue": "1",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[1-9]{1,2}$",
+              "validationMessage": "Only numeric  1-99."
             }
           },
           {
             "name": "clusterDNS",
             "type": "Microsoft.Common.TextBox",
-            "label": "Extension Resource name",
+            "label": "Cluster DNS",
+            "toolTip": "Only alphanumeric characters are allowed",
             "defaultValue": "",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z-.]{6,100}$",
+              "validationMessage": "Only alphanumeric characters are allowed, and the value must be 6-100 characters long."
             }
           },
           {
             "name": "NameSpace",
             "type": "Microsoft.Common.TextBox",
-            "label": "Extension Resource name",
+            "label": "NameSpace",
+            "toolTip": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long.",
             "defaultValue": "default",
             "constraints": {
-              "required": true
+              "required": true,
+              "regex": "^[a-z0-9A-Z]{6,30}$",
+              "validationMessage": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long."
             }
           }
 
@@ -123,7 +143,7 @@
       }
     ],
     "outputs": {
-      "clusterResourceName": "[steps('basics').ClusterResourceName]",
+      "clusterResourceName": "[basics('ClusterResourceName')]",
       "extensionResourceName": "[steps('ExtensionConfiguration').extensionResourceName]",
       "app-title" : "[steps('ExtensionConfiguration').title]",
       "app-FrontAppName" : "[steps('ExtensionConfiguration').FrontAppName]",
@@ -131,7 +151,8 @@
       "app-mongoDBPassword" : "[steps('ExtensionConfiguration').mongoDBPassword]",
       "app-FrontAppReplica" : "[steps('ExtensionConfiguration').FrontAppReplica]",
       "app-clusterDNS" : "[steps('ExtensionConfiguration').clusterDNS]",
-      "app-NameSpace" : "[steps('ExtensionConfiguration').NameSpace]"
+      "app-NameSpace" : "[steps('ExtensionConfiguration').NameSpace]",
+      "location": "[location()]"
     }
   }
 }
