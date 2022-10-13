@@ -174,9 +174,8 @@ In this section will explore the Helm Chart directory `AzureTodo`.
     > **Get Digest from local image**
     >
     > Run `docker inspect <myacr>.azureacr.io\todojs:v1` you can locate the disget value under **RepoDigests**
-    
-    >![](./images/digest.png)
 
+    >![](./images/digest.png)
 
 
 4. Paste the `todojs:v1` digest value onto line 8.
