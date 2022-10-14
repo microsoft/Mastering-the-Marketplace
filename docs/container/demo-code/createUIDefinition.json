@@ -47,7 +47,7 @@
             "type": "Microsoft.Common.TextBox",
             "label": "Extension Resource name",
             "defaultValue": "",
-            "toolTip": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long.",
+            "toolTip": "Extension Resource name",
             "constraints": {
               "required": true,
               "regex": "^[a-z0-9A-Z]{6,30}$",
@@ -60,7 +60,7 @@
             "type": "Microsoft.Common.TextBox",
             "label": "Deployment title",
             "defaultValue": "Azure ToDo App",
-            "toolTip": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long.",
+            "toolTip": "Title",
             "constraints": {
               "required": true,
               "regex": "^[a-z0-9A-Z]{6,30}$",
@@ -71,7 +71,7 @@
             "name": "FrontAppName",
             "type": "Microsoft.Common.TextBox",
             "label": "ToDo App Name",
-            "toolTip": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long.",
+            "toolTip": "FrontAppName",
             "defaultValue": "",
             "constraints": {
               "required": true,
@@ -83,7 +83,7 @@
             "name": "mongoDBAdmin",
             "type": "Microsoft.Common.TextBox",
             "label": "DB Admin",
-            "toolTip": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long.",
+            "toolTip": "DB Admin",
             "defaultValue": "",
             "constraints": {
               "required": true,
@@ -95,7 +95,7 @@
             "name": "mongoDBPassword",
             "type": "Microsoft.Common.TextBox",
             "label": "DB Password",
-            "toolTip": "Only alphanumeric characters are allowed",
+            "toolTip": "DB Password",
             "constraints": {
               "required": true,
               "regex": "^[a-z0-9A-Z@$!%*#?&]{6,30}$",
@@ -106,7 +106,7 @@
             "name": "FrontAppReplica",
             "type": "Microsoft.Common.TextBox",
             "label": "Replica",
-            "toolTip": "Only numeric value are allowed.",
+            "toolTip": "FrontAppReplica",
             "defaultValue": "1",
             "constraints": {
               "required": true,
@@ -118,7 +118,7 @@
             "name": "clusterDNS",
             "type": "Microsoft.Common.TextBox",
             "label": "Cluster DNS",
-            "toolTip": "Only alphanumeric characters are allowed",
+            "toolTip": "Cluster DNS",
             "defaultValue": "",
             "constraints": {
               "required": true,
@@ -130,12 +130,12 @@
             "name": "NameSpace",
             "type": "Microsoft.Common.TextBox",
             "label": "NameSpace",
-            "toolTip": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long.",
+            "toolTip": "NameSpace",
             "defaultValue": "default",
             "constraints": {
               "required": true,
-              "regex": "^[a-z0-9A-Z]{6,30}$",
-              "validationMessage": "Only alphanumeric characters are allowed, and the value must be 6-30 characters long."
+              "regex": "^[a-z0-9A-Z]{4,100}$",
+              "validationMessage": "Only alphanumeric characters are allowed, and the value must be 6-100 characters long."
             }
           }
 
