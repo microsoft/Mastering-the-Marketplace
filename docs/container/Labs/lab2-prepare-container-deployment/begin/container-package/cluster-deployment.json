@@ -14,6 +14,12 @@
                 "description": "The name of the extension."
             }
         },
+        "location": {
+            "type": "string",
+            "metadata": {
+                "description": "location"
+            }
+        },
         "app-title": {
             "type": "string",
             "metadata": {
@@ -83,5 +89,11 @@
             "scope": "[concat('Microsoft.ContainerService/managedClusters/', parameters('clusterResourceName'))]"
         }
     ],
-    "outputs": {}
+    "outputs": {
+        
+      "location": {
+        "type": "string",
+        "value": "[parameters('location')]"
+        }
+    }
 }

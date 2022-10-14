@@ -111,8 +111,8 @@
             "defaultValue": "default",
             "constraints": {
               "required": true,
-              "regex": "^[a-z0-9A-Z]{4,30}$",
-              "validationMessage": "Between 4 and 30 alphanumeric characters"
+              "regex": "^[a-z0-9A-Z]{4,100}$",
+              "validationMessage": "Between 4 and 100 alphanumeric characters"
             }
           }
         ]
