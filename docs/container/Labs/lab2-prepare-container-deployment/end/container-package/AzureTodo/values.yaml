@@ -5,13 +5,14 @@ global:
     billingIdentifier: DONOTMODIFY
     images:
       frontend:
-        digest: sha256:ac654125c21e37e2fdb6a5b3c22f1dad4c4628236cf58f8a606d9c5183e4c1c9
-        image: todojs
-        registry: dsacr01.azurecr.io
+        digest: sha256:6cf5d9916016353e217e036e9985660c27d62aa0c99ef3c71731f8e84084aa73
+        image: nodejstodo
+        registry: docker.io/magdysalem
+
       backend:
         digest: sha256:e0b1614551474ee2f3c3ef7c9706b5e19f2107aa36b73c910522af9fa8eb756e
         image: mongo
-        registry: dsacr01.azurecr.io
+        registry: docker.io/magdysalem
 
 # MongoDB Admin
 mongoDBAdmin: admin
