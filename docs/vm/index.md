@@ -41,6 +41,7 @@ Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon created this course.
 - [The Virtual Machine Offer Certification Process](#the-virtual-machine-offer-certification-process)
 - [Virtual Machine Certification Test Tool (Demo)](#virtual-machine-certification-test-tool-demo)
 - [Purchasing the Virtual Machine Offer](#purchasing-the-virtual-machine-offer)
+- [Virtual Machine Software Reservations Overview](#virtual-machine-software-reservations-overview)
 - [Hands-on labs](#hands-on-labs)
 
 ---
