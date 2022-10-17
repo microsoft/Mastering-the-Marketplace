@@ -123,6 +123,12 @@ There is a tool one can use to help prepare their Virtual Machine image for cert
 
 The offer is now complete and ready to test in Partner Center. In this video, experience buying the completed Virtual Machine offer from the point of view of the customer.
 
+## Virtual Machine Software Reservations Overview
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2212418" target="_blank">Video</a>
+
+This module provides an overview of what Virtual Machine software reservations are and expands on various billing scenarios and publishing on the marketplace. You will also learn the publisher and customer experience of using VM software reservations.
+
 ---
 
 ## Hands-on labs
