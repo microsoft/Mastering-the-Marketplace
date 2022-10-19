@@ -7,16 +7,17 @@ extra_css:
     - stylesheets/extra.css
 nav : 
 - Azure Managed Application Offers: '/Mastering-the-Marketplace/ama/'
+- Container Offers for K8s apps 🆕: '/Mastering-the-Marketplace/container/'
+- Partner Center: '/Mastering-the-Marketplace/partner-center/'
 - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
 - SaaS Offers: '/Mastering-the-Marketplace/saas/'
-- Teams Offers: '/Mastering-the-Marketplace/teams/'
 - Virtual Machine Offers: '/Mastering-the-Marketplace/vm/'
-- Partner Center: '/Mastering-the-Marketplace/partner-center/'
+- Teams Offers: '/Mastering-the-Marketplace/teams/'
 - "": "/"
 - "": "/"
 - "": "/"
 - Choose Your Offer Type: '/Mastering-the-Marketplace/select-offer-type/'
-- Learning Paths (Preview): '/Mastering-the-Marketplace/learning-paths/'
+- Learning Paths: '/Mastering-the-Marketplace/learning-paths/'
 
 theme:
   name: material

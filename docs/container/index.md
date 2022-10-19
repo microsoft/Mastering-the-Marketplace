@@ -5,7 +5,7 @@ keywords: Azure AppSource Marketplace Container Offer
 comments: false
 
 # Hero section
-title: Mastering Container Offers
+title: Mastering Container Offers for Kubernetes apps
 description: This course will take you from working with a local app through publishing a Container Offer to the Microsoft commercial marketplace.
 
 # Micro navigation
@@ -17,7 +17,7 @@ hide:
 
 [Home](../index.md)
 
-# Mastering Container Offers
+# Mastering Container Offers for Kubernetes apps
 
 Container offers for Kubernetes applications is a transactable offer type for deploying solution containers into an Azure Kubernetes Service in the customer's subscription. This course will take you from an overview to deep understanding of the offer type. The large majority of the course is demo-first.
 
