@@ -108,8 +108,9 @@ In this section, you will create a `DockerFile` for solution `Azure ToDo` and pu
 
 ## Run Containers Locally
 
-In this section we will run the solution locally with Docker. 
-1. Create a user-defined bridge network 
+In this section we will run the solution locally with Docker.
+
+1. Create a user-defined bridge network.
 
         docker network create todo-net
 
@@ -117,17 +118,17 @@ In this section we will run the solution locally with Docker.
 
         docker run -d --net todo-net -e MONGO_INITDB_ROOT_USERNAME:<admin username> -e MONGO_INITDB_ROOT_PASSWORD:<password> -p 27017:27017 --name mongotodo  mongo:latest
 
-2. Start the main AzureTodo web application container.
+1. Start the main AzureTodo web application container.
 
         docker run -d --net todo-net -p 3000:3000 -e ENVIRONMENT:development -e DATABASE_NAME:azure-todo-app -e DATABASE_URL=mongodb://mongotodo:27017 <ACR Login Server Name>/todojs:v1 
 
-3. Verify the containers are running correctly. Run the following command to see the two containers.
+1. Verify the containers are running correctly. Run the following command to see the two containers.
 
         docker ps
 
-4. Browse the web application by going to <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>
+1. Browse the web application by going to <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>
 
-5. Try to create and delete tasks to make sure site is running properly
+1. Try to create and delete tasks to make sure site is running properly
 
 ## Push Images to ACR
 
@@ -141,7 +142,7 @@ In this section we will publish or **push** the solution images to the ACR you c
 
         docker push <ACR Server name>/todojs:v1
 
-3. Push the mongot image to your ACR.
+3. Push the mongo image to your ACR.
 
         docker push <ACR Server name>/mongo:latest
 
@@ -170,6 +171,13 @@ In this section will explore the Helm Chart directory `AzureTodo`.
     > The image digest is the hash of the image index or image manifest JSON document.
 
     Inspect the images you pushed to the ACR earlier. Open each repository in the ACR and see that individual versions of an image will have their own **Digest** value.
+
+    > **Get Digest from local image**
+    >
+    > Run `docker inspect <myacr>.azureacr.io\todojs:v1` you can locate the disget value under **RepoDigests**
+
+    >![](./images/digest.png)
+
 
 4. Paste the `todojs:v1` digest value onto line 8.
 5. Update line 12 with `mongo:latest` image digest.
@@ -210,6 +218,7 @@ In this section will explore the Helm Chart directory `AzureTodo`.
     `container-labs\container-package\createUIDefinition.json`
 
 2. Add the following JSON to the `elements` section.
+
         {
             "name": "mongoDBAdmin",
             "type": "Microsoft.Common.TextBox",

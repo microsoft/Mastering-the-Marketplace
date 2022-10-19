@@ -74,7 +74,8 @@ Finally click the **Review and publish** button.
 
 You should now see green checkmarks against all the sections and you are now ready to publish. Click on **Publish** at the bottom to start the publishing process.
 
-It will take a while for the offer to publish before you can move on to the next lab.
+> **Note:** It will take a while for the offer to publish ETA 2 days due to certification process.
+
 
 **Congratulations!** You have now finished this lab.
 
