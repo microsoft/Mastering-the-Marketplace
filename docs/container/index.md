@@ -115,7 +115,7 @@ This module focuses on creating a plan within an already existing offer. This ha
 
 In this brief demo, you see how customers purchase a Kubernetes app and deploy it into their K8s cluster. You’ll see the process from marketplace to deployed and running application.
 
-## Unsubscribe from a Kubernetes app that You Purchased
+## Unsubscribe from a Kubernetes App that You Purchased
 
 <a href="" target="_blank">Video</a>
 
