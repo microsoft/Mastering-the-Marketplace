@@ -28,6 +28,7 @@ This online learning series includes videos, sample code, and hands-on labs mean
 <!-- no toc -->
 - [Find general topics about SaaS offers](./general-topics.md)
 - [SaaS offer technical topics](./tech-topics.md)
+- [Working with SaaS offers in Partner Center](../partner-center/saas)
 
 ---
 
