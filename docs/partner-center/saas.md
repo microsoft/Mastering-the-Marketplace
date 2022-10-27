@@ -7,13 +7,12 @@ comments: false
 # Hero section
 
 description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
-
+title: Working with SaaS Offers in Partner Center
 hide:
   - navigation
 ---
 
 [Home](../index.md) > [Mastering Partner Center](./index.md)
-
 
 # Working with SaaS Offers in Partner Center
 
