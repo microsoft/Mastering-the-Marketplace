@@ -15,7 +15,7 @@ hide:
 
 [Home](../../../) > [Container Offers](../../) > [Labs](../../index.md#labs) 🧪
 
-# Lab 5 - Purchasing the Container Offer
+# Lab 4 - Purchasing the Container Offer
 
 > **Note:** This lab is part of a series of labs for Mastering Container Offers Workshop. 
 
