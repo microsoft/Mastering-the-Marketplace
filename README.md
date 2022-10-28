@@ -10,10 +10,12 @@ This content helps you bring your solution to the Microsoft marketplace faster a
 
 <!-- no toc -->
 1. [Mastering Azure Managed Application Offers](https://aka.ms/MasteringTheMarketplace/ama)
-1. [Mastering Partner Center](https://aka.ms/MasteringTheMarketplace/pc)
-1. [mastering SaaS Offers](https://aka.ms/MasteringTheMarketplace/saas)
-1. [Mastering the SaaS Accelerator](https://aka.ms/MasteringTheMarketplace/saas-accelerator)
-1. [Mastering Virtual Machine Offers](https://aka.ms/MasteringTheMarketplace/vm)
+2. [Mastering Container Offers for Kubernetes apps](https://aka.ms/MasteringTheMarketplace/container)
+3. [Mastering Partner Center](https://aka.ms/MasteringTheMarketplace/pc)
+4. [mastering SaaS Offers](https://aka.ms/MasteringTheMarketplace/saas)
+5. [Mastering the SaaS Accelerator](https://aka.ms/MasteringTheMarketplace/saas-accelerator)
+6. [Mastering Virtual Machine Offers](https://aka.ms/MasteringTheMarketplace/vm)
+7. [Mastering Teams Offers](https://aka.ms/MasteringTheMarketplace/teams)
 
 You will need to clone this repository to do the hands-on labs including in the courses.
 

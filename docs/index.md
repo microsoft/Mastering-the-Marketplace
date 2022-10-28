@@ -33,6 +33,22 @@ Instead of building your own custom SaaS solution, consider using the SaaS Accel
 </div>
 
 <div class="landing-tile" markdown="1">
+<span class="linkless-heading">Mastering Partner Center</span>
+Partner Center is the web portal used to create and publish offers. Learn more about Partner Center in this ever-expanding multi-part course on how to use the portal to publish offers.
+
+[Take me to it](/Mastering-the-Marketplace/partner-center){ .md-button }
+</div>
+
+
+<div class="landing-tile" markdown="1">
+<span class="linkless-heading">Mastering Container offers for Kubernetes apps</span>
+Get from the start line to the finish in creating and publishing a Container offer for K8s app in this hands-on demo heavy course.
+
+[Take me to it](/Mastering-the-Marketplace/container){ .md-button }
+</div>
+
+
+<div class="landing-tile" markdown="1">
  <span class="linkless-heading">Virtual Machine Offers</span>
 Virtual machine offers enable you to install your proprietary software on a virtual machine and license it with the virtual machine itself. If you are considering using a virtual machine offer, this thorough course and hands-on labs will take you from start to finish in getting your offer up and running. 
 
@@ -53,16 +69,9 @@ Learn how to build transactable Microsoft Teams applications using SaaS offers a
 [Take me to it](/Mastering-the-Marketplace/teams){ .md-button }
 </div>
 
-<div class="landing-tile" markdown="1">
-<span class="linkless-heading">Mastering Partner Center</span>
-Partner Center is the web portal used to create and publish offers. Learn more about Partner Center in this ever-expanding multi-part course on how to use the portal to publish offers. 
-
-[Take me to it](/Mastering-the-Marketplace/partner-center){ .md-button }
-</div>
-
 ---
 
-You may find that you need to clone this repository to perform the labs. Feel free to clone or fork and we are always happy to take PRs! 
+You may find that you need to clone this repository to perform the labs. Feel free to clone or fork and we are always happy to take PRs!
 
 [View on GitHub  :material-github:](https://github.com/microsoft/Mastering-the-Marketplace){ .md-button .md-button--primary }
 

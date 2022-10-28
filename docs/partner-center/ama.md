@@ -14,7 +14,6 @@ hide:
 
 [Home](../index.md) > [Mastering Partner Center](./index.md)
 
-
 # Working with Azure Managed Application Offers in Partner Center
 
 <!-- no toc -->

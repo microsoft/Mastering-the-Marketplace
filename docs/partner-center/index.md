@@ -12,7 +12,7 @@ hide:
   - navigation
 ---
 
-[Home](../index.md)
+[Home](../)
 
 # Mastering Partner Center
 
@@ -23,6 +23,8 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 [✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
 
 [🚦](../learning-paths/partner-center.md) Not sure where to get started? Try the [Working with Partner Center Learning Path](../learning-paths/partner-center.md).
+
+## Partner Center topics
 
 - [Find general Partner Center knowledge](./general.md)
 - [Private Offers](./private-offers.md)

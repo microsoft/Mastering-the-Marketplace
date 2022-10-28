@@ -1,4 +1,3 @@
-
 The Azure Vote application has been started on your Kubernetes cluster.
 
 Title: {{ .Values.title }}
