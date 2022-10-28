@@ -137,8 +137,7 @@ Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) 
 
 ### Labs 🧪
 
-1. [Set Up the Container Offer](./Labs/lab1-create-container-offer-setup/index.md)
-2. [Prepare Container Deployment](./Labs/lab2-prepare-container-deployment/index.md)
-3. [Create the CNAB Bundle Package](Labs/lab3-create-cnab-bundle-package/index.md)
-4. [Publishing Container Offer](./Labs/lab4-publishing-container-offer/index.md)
-5. [Purchasing Container Offer](Labs/lab5-purchasing-container-offer/index.md)
+1. [Prepare Container Deployment](./Labs/lab1-prepare-container-deployment/index.md)
+2. [Create the CNAB Bundle Package](Labs/lab2-create-cnab-bundle-package/index.md)
+3. [Publishing Container Offer](./Labs/lab3-publishing-container-offer/index.md)
+4. [Purchasing Container Offer](Labs/lab4-purchasing-container-offer/index.md)

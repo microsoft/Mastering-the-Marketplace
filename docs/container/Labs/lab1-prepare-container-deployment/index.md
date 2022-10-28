@@ -7,7 +7,7 @@ comments: false
 # Micro navigation
 micro_nav: false
 
-title: Lab 2
+title: Lab 1
 
 hide:
 - navigation
@@ -15,7 +15,7 @@ hide:
 
 [Home](../../../) > [Container Offers](../../) > [Labs](../../index.md#labs) 🧪
 
-# Lab 2 - Prepare for Container Deployment
+# Lab 1 - Prepare for Container Deployment
 
 > **Note:** This lab is part of a series of labs for Mastering Container Offers Workshop. You must finish this lab before moving on to the next sections.
 
@@ -56,7 +56,7 @@ This section is extrememly important for working easily through the labs.
 
 You will be working with one solution throughout all the labs. To make it easier to work with the solution, you will make a copy of the solution folder and move it to a location of your choice outside the Git repository folder that holds these labs.
 
-1. Copy the folder `<path to Git repo>/docs/container/lab2-prepare-container-deployment/begin`.
+1. Copy the folder `<path to Git repo>/docs/container/lab1-prepare-container-deployment/begin`.
 2. Copy this folder to a location of your choice. `c:\projects\begin` for example.
 3. Rename the `begin` folder to `container-labs`.
 4. From now on, the labs will refer to `container-labs` when referring to your working folder.
@@ -307,4 +307,4 @@ In this section you will update the **manifest.yaml** file.
 
 **Congratulations!** You have now finished this lab and your deployment files are ready for next steps.
 
-[Continue to Lab 3](../lab3-create-cnab-bundle-package/index.md)
+[Continue to Lab 2](../lab2-create-cnab-bundle-package/index.md)
