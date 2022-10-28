@@ -7,7 +7,7 @@ comments: false
 # Micro navigation
 micro_nav: false
 
-title: Lab 3
+title: Lab 2
 
 hide:
 - navigation
@@ -102,4 +102,4 @@ Now that the CNAB bundle has been built, you'll ensure it is in place in your AC
 
 **Congratulations!** You have created and uploaded a CNAB bundle. You have also finished this lab.
 
-[Continue to Lab 4](../lab4-publishing-container-offer/index.md)
+[Continue to Lab 3](../lab3-publishing-container-offer/index.md)

@@ -1,31 +1,32 @@
 ---
 # Page settings
 layout: default
-keywords: Azure Marketplace Container
+keywords: Azure Marketplace Container Offer Mastering the Marketplace
 comments: false
-
-hide:
-- navigation
-
-title: Lab 1
 
 # Micro navigation
 micro_nav: false
+
+title: Lab 3
+
+hide:
+- navigation
 ---
 
 [Home](../../../) > [Container Offers](../../) > [Labs](../../index.md#labs) 🧪
 
-# Lab 1 - Partner Center Setup for a Container Offer
+# Lab 3 - Publishing the Container Offer
 
 > **Note:** This lab is part of a series of labs for Mastering Container Offers Workshop. You must finish this lab before moving on to the next sections.
 
-This lab will walk you through setting up a Container Offer in [Partner Center](https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview). You will need a Partner Center account and need to have enrolled into the commercial marketplace program in order to be able to create offers in the marketplace.
-
-## Table of Contents
+In this lab, you will complete the rest of the required setup on Partner Center to publish your offer. The only section that should need completion in Partner Center is Plan Overview. If you have any other sections pending completion, please complete them before moving on to this lab.
 
 <!-- no toc -->
 - [Create a new Container Offer](#create-a-new-container-offer)
 - [Review and Publish](#review-and-publish)
+- [Create a plan on Partner center](#create-a-plan-on-partner-center)
+- [Review and Publish](#review-and-publish)
+
 
 ## Create a new Container Offer
 
@@ -94,8 +95,8 @@ Navigate to the **Offer listing** page in the left hand menu.
 5. In the **Support Contact** section, enter your contact information.
 6. In the **Engineering Contact** section, enter your engineering contact information.
 7. For the Marketplace media section you'll upload 2 images.
-    1. For the **216x216** logo image, upload the PNG provided in the `./items` directory of **lab1**. This PNG is named "[Contoso-Logo-216x216.png](./items/Contoso-Logo-216x216.png)."
-    2. For the **1280x720** screenshot image, upload the PNG provided in the `./items` directory of **lab1**. This PNG is named "[Screenshots-1280x720.png](./items/Screenshots-1280x720.png)."
+    1. For the **216x216** logo image, upload the PNG provided in the `./images` directory of **lab1**. This PNG is named "[Contoso-Logo-216x216.png](./images/Contoso-Logo-216x216.png)."
+    2. For the **1280x720** screenshot image, upload the PNG provided in the `./images` directory of **lab1**. This PNG is named "[Screenshots-1280x720.png](./images/Screenshots-1280x720.png)."
     3. Add a screenshot image caption.
 8. Click the **Save draft** button and correct any errors that be shown before moving on.
 
@@ -107,22 +108,56 @@ The preview audience specifies the subscriptions that will be able to test the o
 1. Enter a **Description** (Optional).
 1. Click **Save draft**.
 
-### Plan overview
 
-Skip this section for this lab. You will come back to it later.
+### Plan overview
+1. Select the **Plan overview** section and click on **New Plan**. 
+1. Give your plan a unique `Plan Id` and `Plan name` and click Create.
+
+### Plan listing
+
+1. Open the **Plan listing** .
+2. You can edit the plan name if you wish.
+3. Fill in the **Plan summary**. Here is some text you can use if you wish.
+
+      Plan Summary - Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
+
+4. Fill in the **Plan description**. Here is some text you can use if you wish.
+
+      Plan description - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
+
+5. Click **Save Draft**.
+
+### Pricing and availability
+
+1. Open the **Pricing and availability** tab.
+1. For the **Edit Market** section, select at least one market in which to sell your product. This is typically the United States.
+1. Under **Pricing**  select  **Custom price**.
+1. Select **Per Core** and enter price as **0** USD/hour. For this workshop, you don't want to charge your account when testing.
+1. Click **Save Draft**.
+
+### Technical configuration
+
+1. Go to the **Technical Configuration** tab. 
+2. For the Cluster extension type, enter `**YOUR-COMPANY-NAME**.AzureTodoApp'.
+3. Click the **Add CNAB Bundle** link and the **Azure Container Registry** dialog appears.
+
+      ![Add CNAB Bundle](./images/plan.png)
+
+4. Select your ACR as **Registry**.
+5. For **Repo** select `com.nonmicrosoft.azuretodoapptest`.
+6. For **CNAB Bundle**, select the `1.0.0` version you published earlier.
+7. Click **Add CNAB Bundle**.
+8. Click **Save draft**.
 
 ## Review and Publish
 
-Here, you can check your work by performing the first action of the publication process. You will submit your offer to an automated compliance checker to see if it is ready to be published.
+Finally click the **Review and publish** button. 
 
-1. Navigate to the **Offer overview** page.
-1. In the upper right corner of the page, click the link for **Review and publish**.
-1. Looking to the right side of the page, notice that some sections have a green circle and at least one is gray. The gray sections are not yet complete, preventing you from taking the next step of publishing your offer.
+You should now see green checkmarks against all the sections and you are now ready to publish. Click on **Publish** at the bottom to start the publishing process.
 
-    > 🗒️The **Plan overview** section of the offer will not pass review and should be gray. All other sections should be green. This is okay as you'll finish this section in a later lab.
+> **Note:** It will take a while for the offer to publish ETA 2 days due to certification process.
 
-1. Go back to all any other sections that appear with a gray circle and complete those sections with the guidance provided above.
 
 **Congratulations!** You have now finished this lab.
 
-[Continue to Lab 2](../lab2-prepare-container-deployment/index.md)
+[Continue to Lab 4](../lab4-purchasing-container-offer/index.md)
