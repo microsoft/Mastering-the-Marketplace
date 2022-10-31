@@ -117,14 +117,8 @@ The preview audience specifies the subscriptions that will be able to test the o
 
 1. Open the **Plan listing** .
 2. You can edit the plan name if you wish.
-3. Fill in the **Plan summary**. Here is some text you can use if you wish.
-
-      Plan Summary - Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
-
-4. Fill in the **Plan description**. Here is some text you can use if you wish.
-
-      Plan description - Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-
+3. Fill in the **Plan summary**. Add relevant text here as your plan summary.
+4. Fill in the **Plan description**. Add relevant text here as your plan description.
 5. Click **Save Draft**.
 
 ### Pricing and availability
