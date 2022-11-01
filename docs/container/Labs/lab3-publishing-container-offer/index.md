@@ -24,9 +24,8 @@ In this lab, you will complete the rest of the required setup on Partner Center 
 <!-- no toc -->
 - [Create a new Container Offer](#create-a-new-container-offer)
 - [Review and Publish](#review-and-publish)
-- [Create a plan on Partner center](#create-a-plan-on-partner-center)
+- [Create a plan on Partner center](#plan-overview)
 - [Review and Publish](#review-and-publish)
-
 
 ## Create a new Container Offer
 
@@ -49,11 +48,11 @@ The Offer Setup page allows changing your offer alias as well as as other functi
 1. Under **Setup details** check **Yes, I would like to sell through Microsoft and have Microsoft host transactions on my behalf**.
 2. Click **Save draft**.
 
-### Properties
+## Properties
 
 Navigate to the **Properties** tab on the left.
 
-#### Categories
+### Categories
 
 You must select at least one category for your offer. Container offers always appear under the Compute category in Azure Marketplace.
 
@@ -61,7 +60,7 @@ You must select at least one category for your offer. Container offers always ap
 1. In the left dropdown, select **Containers**.
 1. In the right dropdown, select **Kubernetes App**.
 
-#### Leg al
+### Legal
 
 You will use the Microsoft Standard Contract for this lab. You may choose differently when you are publishing to a production environment.
 
@@ -70,11 +69,11 @@ You will use the Microsoft Standard Contract for this lab. You may choose differ
 3. Click **Accept**.
 4. Click the **Save draft** button.
 
-### Offer listing
+## Offer listing
 
 Navigate to the **Offer listing** page in the left hand menu.
 
-1. In the the **Search results summary** section, enter some text. Here is some text you may copy and paste for this purpose.
+1. In the the **Search results summary** section, enter some text. Here is some text you may copy and paste for this purpose.Of course you would use real verbage in your plan.
 
         Quis aute iure reprehenderit in voluptate ...
 
@@ -100,16 +99,16 @@ Navigate to the **Offer listing** page in the left hand menu.
     3. Add a screenshot image caption.
 8. Click the **Save draft** button and correct any errors that be shown before moving on.
 
-### Preview audience
+## Preview audience
 
-The preview audience specifies the subscriptions that will be able to test the offer before it goes, when it is in the **Preview** state. Everyone using the subscription will be able to purchasae the offer when in Preview (test) mode.
+The preview audience specifies the subscriptions that will be able to test the offer before it goes, when it is in the **Preview** state. Everyone using the subscription will be able to purchase the offer when in Preview (test) mode.
 
 1. In the **Preview audience** section, enter your Azure subscription Id.
 1. Enter a **Description** (Optional).
 1. Click **Save draft**.
 
+## Plan overview
 
-### Plan overview
 1. Select the **Plan overview** section and click on **New Plan**. 
 1. Give your plan a unique `Plan Id` and `Plan name` and click Create.
 
@@ -145,12 +144,11 @@ The preview audience specifies the subscriptions that will be able to test the o
 
 ## Review and Publish
 
-Finally click the **Review and publish** button. 
+Finally click the **Review and publish** button.
 
-You should now see green checkmarks against all the sections and you are now ready to publish. Click on **Publish** at the bottom to start the publishing process.
+You should now see green checkmarks for all the sections. This means you ready to publish. Click on **Publish** at the bottom to start the publishing process.
 
 > **Note:** It will take a while for the offer to publish ETA 2 days due to certification process.
-
 
 **Congratulations!** You have now finished this lab.
 
