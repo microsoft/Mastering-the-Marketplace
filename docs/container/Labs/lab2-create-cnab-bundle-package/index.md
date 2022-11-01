@@ -7,7 +7,7 @@ comments: false
 # Micro navigation
 micro_nav: false
 
-title: Lab 3
+title: Lab 2
 
 hide:
 - navigation
@@ -15,7 +15,7 @@ hide:
 
 [Home](../../../) > [Container Offers](../../) > [Labs](../../index.md#labs) 🧪
 
-# Lab 3 - Create CNAB Bundle
+# Lab 2 - Create CNAB Bundle
 
 > **Note:** This lab is part of a series of labs for Mastering Container Offers Workshop. You must finish this lab before moving on to the next sections.
 
@@ -102,4 +102,4 @@ Now that the CNAB bundle has been built, you'll ensure it is in place in your AC
 
 **Congratulations!** You have created and uploaded a CNAB bundle. You have also finished this lab.
 
-[Continue to Lab 4](../lab4-publishing-container-offer/index.md)
+[Continue to Lab 3](../lab3-publishing-container-offer/index.md)
