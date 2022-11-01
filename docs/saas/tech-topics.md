@@ -24,8 +24,7 @@ hide:
 - [Building a Simple SaaS Landing Page in .NET](#building-a-simple-saas-landing-page-in-net)
 - [Building a Simple SaaS Publisher Portal in .NET](#building-a-simple-saas-publisher-portal-in-net)
 - [SaaS Webhook Overview](#saas-webhook-overview)
-- [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
-- [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
+- [Building a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
 - [SaaS Metered Billing Overview](#saas-metered-billing-overview)
 - [The SaaS Metered Billing API with REST](#the-saas-metered-billing-api-with-rest)
 
@@ -123,14 +122,6 @@ And more! Consider watching this video before moving on to the code-based module
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196159">Video</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/simple-webhook-dotnet-implementing">Code</a>
 
 This code-heavy module focuses on the fundamentals of implementing a SaaS offer webhook as an Azure function using .NET. Concepts are presented in such a way as to be architecture and technology stack agnostic.
-
-## Securing a Simple SaaS Webhook in .NET
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196421">Video</a> | <a target="_blank" href="./pdfs/10.3-simple-webhook-dotnet-securing.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/simple-webhook-dotnet-securing">Code</a>
-
-This security-focused module introduces several techniques for securing a SaaS offer webhook and then dives into code looking at implementations of the techniques presented. This module builds on the concepts and code presented in the module, “[Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)”.
-
-Although utilizing an Azure function built in .NET, topics are presented in such a way as to be architecture and technology stack agnostic.
 
 ## SaaS Metered Billing Overview
 
