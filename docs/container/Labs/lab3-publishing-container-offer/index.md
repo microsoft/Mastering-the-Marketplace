@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: Azure Marketplace Container Offer Mastering the Marketplace
+keywords: Azure Marketplace Container offer Mastering the Marketplace
 comments: false
 
 # Micro navigation
@@ -13,28 +13,31 @@ hide:
 - navigation
 ---
 
-[Home](../../../) > [Container Offers](../../) > [Labs](../../index.md#labs) 🧪
+[Home](../../../) > [Container offers](../../) > [Labs](../../index.md#labs) 🧪
 
-# Lab 3 - Publishing the Container Offer
+# Lab 3 - Publishing the Container offer
 
-> **Note:** This lab is part of a series of labs for Mastering Container Offers Workshop. You must finish this lab before moving on to the next sections.
+> **Note:** This lab is part of a series of labs for Mastering Container offers Workshop. You must finish this lab before moving on to the next sections.
 
-In this lab, you will complete the rest of the required setup on Partner Center to publish your offer. The only section that should need completion in Partner Center is Plan Overview. If you have any other sections pending completion, please complete them before moving on to this lab.
+In this lab, you will create and publish a Container offer in Partner Center. This lab requires a Partner Center account.
 
 <!-- no toc -->
-- [Create a new Container Offer](#create-a-new-container-offer)
+- [Create a new Container offer](#create-a-new-container-offer)
+- [Offer Setup](#offer-setup)
+- [Properties](#properties)
+- [Offer listing](#offer-listing)
+- [Preview audience](#preview-audience)
+- [Plan overview](#plan-overview)
 - [Review and Publish](#review-and-publish)
-- [Create a plan on Partner center](#plan-overview)
-- [Review and Publish](#review-and-publish)
 
-## Create a new Container Offer
+## Create a new Container offer
 
-In this section you will be creating a brand new Container Offer from scratch. This will be used for publishing the offer once the rest of your labs are complete.
+In this section you will be creating a brand new Container offer from scratch. This will be used for publishing the offer once the rest of your labs are complete.
 
-1. On the Homepage of Partner Center, look for Marketplace Offers and click that tile. If you have disabled Workspaces, then it will be visible as Commercial Marketplace.
+1. On the homepage of Partner Center, look for the **Marketplace Offers** tile and click it. If you have disabled Workspaces, then it will be visible as Commercial Marketplace.
 2. Click the **+ New Offer** button and select **Azure Container** from the dropdown.
 3. Enter a unique **Offer ID** and an **Offer Alias** as described below.
-    - Offer ID: **containerworkshop-YOUR_UNIQUE_STRING** (Replace the **YOUR_UNIQUE_STRING** with a value of your choice)
+    - Offer ID: **cw-YOUR_UNIQUE_STRING** (Replace the **YOUR_UNIQUE_STRING** with a value of your choice)
     - Offer Alias: **Container Workshop**
     - Submit the new offer.
 4. Once the offer is created, navigate to the **Offer Setup** page by clicking on that tab on the left
@@ -54,7 +57,7 @@ Navigate to the **Properties** tab on the left.
 
 ### Categories
 
-You must select at least one category for your offer. Container offers always appear under the Compute category in Azure Marketplace.
+You must select at least one category for your offer. COntainer offers must be mapped as below so they are displayed in the right place in the marketplace.
 
 1. Click the **+ Categories** link.
 1. In the left dropdown, select **Containers**.
@@ -62,7 +65,7 @@ You must select at least one category for your offer. Container offers always ap
 
 ### Legal
 
-You will use the Microsoft Standard Contract for this lab. You may choose differently when you are publishing to a production environment.
+You will use the *Microsoft Standard Contract* for this lab. You may choose differently when you are publishing to a production environment.
 
 1. Scroll down to the **Legal** section.
 2. Select "Use the Standard Contract for Microsoft’s commercial marketplace?" checkbox
@@ -73,7 +76,7 @@ You will use the Microsoft Standard Contract for this lab. You may choose differ
 
 Navigate to the **Offer listing** page in the left hand menu.
 
-1. In the the **Search results summary** section, enter some text. Here is some text you may copy and paste for this purpose.Of course you would use real verbage in your plan.
+1. In the the **Search results summary** section, enter some text. Here is some text you may copy and paste for this purpose.Of course you would use real verbiage in your plan.
 
         Quis aute iure reprehenderit in voluptate ...
 
@@ -81,7 +84,7 @@ Navigate to the **Offer listing** page in the left hand menu.
 
         Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-3. Somewhere in the description, add teh phrase "Kubernetes app."
+3. Somewhere in the description, add the phrase "Kubernetes app."
 
     > 🗒️ This ensures the offer shows up in the correct search results.
 
@@ -94,22 +97,22 @@ Navigate to the **Offer listing** page in the left hand menu.
 5. In the **Support Contact** section, enter your contact information.
 6. In the **Engineering Contact** section, enter your engineering contact information.
 7. For the Marketplace media section you'll upload 2 images.
-    1. For the **216x216** logo image, upload the PNG provided in the `./images` directory of **lab1**. This PNG is named "[Contoso-Logo-216x216.png](./images/Contoso-Logo-216x216.png)."
-    2. For the **1280x720** screenshot image, upload the PNG provided in the `./images` directory of **lab1**. This PNG is named "[Screenshots-1280x720.png](./images/Screenshots-1280x720.png)."
+    1. For the **216x216** logo image, upload the PNG provided in the `./images` directory of **lab3**. This PNG is here: "[Contoso-Logo-216x216.png](./images/Contoso-Logo-216x216.png)."
+    2. For the **1280x720** screenshot image, upload the PNG provided in the `./images` directory of **lab1**. This PNG is here: "[Screenshots-1280x720.png](./images/Screenshots-1280x720.png)."
     3. Add a screenshot image caption.
 8. Click the **Save draft** button and correct any errors that be shown before moving on.
 
 ## Preview audience
 
-The preview audience specifies the subscriptions that will be able to test the offer before it goes, when it is in the **Preview** state. Everyone using the subscription will be able to purchase the offer when in Preview (test) mode.
+The preview audience specifies the subscriptions that will be able to test the offer before it goes live, when it is in the **Preview** state. Everyone using the Preview audience subscription will be able to purchase the offer when in Preview (test) mode.
 
-1. In the **Preview audience** section, enter your Azure subscription Id.
+1. In the **Preview audience** section, enter your Azure subscription Id to use for testing.
 1. Enter a **Description** (Optional).
 1. Click **Save draft**.
 
 ## Plan overview
 
-1. Select the **Plan overview** section and click on **New Plan**. 
+1. Select the **Plan overview** section and click on **New Plan**.
 1. Give your plan a unique `Plan Id` and `Plan name` and click Create.
 
 ### Plan listing
