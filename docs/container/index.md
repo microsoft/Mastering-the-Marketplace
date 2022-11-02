@@ -123,7 +123,7 @@ In this walkthrough video, you’ll see how to get rid of an application you may
 
 ## Hands-on labs
 
-The following hands-on labs build upon each other. They take you through the complete process of creating and publishing a Container Offer in the Microsoft commercial marketplace.
+The following hands-on labs build upon each other. They take you through the complete process of creating and publishing a Container offer in the Microsoft commercial marketplace.
 
 ### Prerequisites
 
@@ -138,6 +138,6 @@ Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) 
 ### Labs 🧪
 
 1. [Prepare Container Deployment](./Labs/lab1-prepare-container-deployment/index.md)
-2. [Create the CNAB Bundle Package](Labs/lab2-create-cnab-bundle-package/index.md)
-3. [Publishing Container Offer](./Labs/lab3-publishing-container-offer/index.md)
-4. [Purchasing Container Offer](Labs/lab4-purchasing-container-offer/index.md)
+2. [Create a CNAB Bundle Package](Labs/lab2-create-cnab-bundle-package/index.md)
+3. [Publishing a Container offer](./Labs/lab3-publishing-container-offer/index.md)
+4. [Purchasing a Container offer](Labs/lab4-purchasing-container-offer/index.md)
