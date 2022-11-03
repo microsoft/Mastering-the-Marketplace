@@ -79,6 +79,12 @@ This hands-on demo introduces the application to be throughout the course and sh
 - Run the demo application
 - Push application images to an ACR
 
+## Scanning Images for Vulnerabilities
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2214918" target="_blank">Video</a>
+
+In this comprehensive demo you’ll learn how to identify vulnerabilities in your images that can prevent your Container offer from passing certification. Not only will you see Microsoft Defender for Cloud in action, but you’ll see how to patch a container and prepare its’ image for publication to an ACR so that it no longer contains vulnerabilities.
+
 ## Preparing CNAB Bundle Artifacts
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2212266" target="_blank">Video</a>
