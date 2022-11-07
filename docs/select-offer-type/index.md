@@ -24,7 +24,7 @@ If you aren't certain which offer type you will be creating, this page is for yo
 
 Building on top of the above video, follow the questions in the below image to find the right offer type for you. 
 
-![Find your offer type](./assets/select-offer-type.png)
+![Find your offer type](./assets/offer-type-flow.png)
 
 ## More resources and information
 
