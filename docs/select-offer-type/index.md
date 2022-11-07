@@ -17,15 +17,8 @@ If you aren't certain which offer type you will be creating, this page is for yo
 ## Table of Contents
 
 <!-- no toc -->
-- [Video walk through of selecting an offer type](#offer-type-selection-video)
 - [Offer type decision tree](#decision-tree)
 - [More resources and information](#more-resources-and-information)
- 
-## Offer type selection video
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2207811">Video</a>
-
-Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? This video walks you through the types and some things about them to help you make the decision of what offer type is best for you.
 
 ## Decision tree
 
