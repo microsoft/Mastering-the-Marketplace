@@ -28,16 +28,18 @@ Container offers for Kubernetes applications is a transactable offer type for de
 ## Table of Contents
 
 <!-- no toc -->
+- [Table of Contents](#table-of-contents)
 - [Container Offer for Kubernetes Apps Overview](#container-offer-for-kubernetes-apps-overview)
 - [Container Offer Billing Overview](#container-offer-billing-overview)
 - [Container Offer Technical Overview](#container-offer-technical-overview)
 - [Deploying Solution Images to an Azure Container Registry](#deploying-solution-images-to-an-azure-container-registry)
+- [Scanning Images for Vulnerabilities](#scanning-images-for-vulnerabilities)
 - [Preparing CNAB Bundle Artifacts](#preparing-cnab-bundle-artifacts)
 - [Generating the CNAB Bundle](#generating-the-cnab-bundle)
 - [Create a Container Offer in Partner Center](#create-a-container-offer-in-partner-center)
 - [Create a Container Offer Plan in Partner Center](#create-a-container-offer-plan-in-partner-center)
 - [Subscribe to a Kubernetes App in the Commercial Marketplace](#subscribe-to-a-kubernetes-app-in-the-commercial-marketplace)
-- [Unsubscribe from a Kubernetes app that You Purchased](#unsubscribe-from-a-kubernetes-app-that-you-purchased)
+- [Unsubscribe from a Kubernetes App that You Purchased](#unsubscribe-from-a-kubernetes-app-that-you-purchased)
 - [Hands-on labs](#hands-on-labs)
 
 ---
