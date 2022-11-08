@@ -186,7 +186,8 @@ In this section will explore the Helm Chart directory `AzureTodo`.
         mongoDBAdmin: <enter admin name>
         mongoDBPassword: <enter password>
 
-30. Update line 30 with your publisher ID. You can get your publisher ID from [Partner Center](https://partner.microsoft.com/en-us/dashboard/account/v3/organization/legalinfo#mpn) 
+7. Update line 30 with namespace from your choice i.e contoso
+
 ## Update Deployments File
 
 > **About deployments.yaml**
@@ -303,7 +304,7 @@ In this section you will update the **manifest.yaml** file.
     `container-labs\container-package\manifest.yaml`
 
 2. Go to `registryServer:` and add your ACR server name.
-3. Go to `namespace` and enter your publisherID
+3. Go to `namespace` and the same namespace you enter under helm value file.
 
 **Congratulations!** You have now finished this lab and your deployment files are ready for next steps.
 

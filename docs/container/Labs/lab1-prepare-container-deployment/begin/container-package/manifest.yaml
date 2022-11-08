@@ -16,5 +16,5 @@ uiDefinition: "./createUIDefinition.json"
 registryServer: "<<youracr>>.azurecr.io"
 extensionRegistrationParameters:
   defaultScope: "cluster"
-  namespace: "<<ADD Publisher ID>>"
+  namespace: "<<enter namespace i.e contoso>>"
   

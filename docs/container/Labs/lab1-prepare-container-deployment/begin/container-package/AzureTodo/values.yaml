@@ -27,7 +27,7 @@ replicaFrontCount: 1
 replicaBackCount: 1
 
 ## Where it will be deployed
-nameSpace: << ADD PublisherID>>
+nameSpace: << enter namespace i.e contoso >>
 
 
 
