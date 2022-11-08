@@ -61,7 +61,7 @@ The Azure Marketplace will host your CNAB in a Marketplace special ACR of its ow
 
 2. Get the ID of your ACR.
 
-        az acr show --name <ACR Server> --query "id" --output tsv
+        az acr show --resource-group myResourceGroup --name <ACR Server> --query "id" --output tsv
 
     Note the full ID for the use in the following steps.
 
