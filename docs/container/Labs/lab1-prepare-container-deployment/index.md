@@ -56,7 +56,7 @@ This section is extrememly important for working easily through the labs.
 
 You will be working with one solution throughout all the labs. To make it easier to work with the solution, you will make a copy of the solution folder and move it to a location of your choice outside the Git repository folder that holds these labs.
 
-1. Copy the folder `<path to Git repo>/docs/container/lab1-prepare-container-deployment/begin`.
+1. Copy the folder `<path to Git repo>/docs/container/Labs/lab1-prepare-container-deployment/begin`.
 2. Copy this folder to a location of your choice. `c:\projects\begin` for example.
 3. Rename the `begin` folder to `container-labs`.
 4. From now on, the labs will refer to `container-labs` when referring to your working folder.
