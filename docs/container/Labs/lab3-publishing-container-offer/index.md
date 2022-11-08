@@ -57,7 +57,7 @@ Navigate to the **Properties** tab on the left.
 
 ### Categories
 
-You must select at least one category for your offer. COntainer offers must be mapped as below so they are displayed in the right place in the marketplace.
+You must select at least one category for your offer. Container offers must be mapped as below so they are displayed in the right place in the marketplace.
 
 1. Click the **+ Categories** link.
 1. In the left dropdown, select **Containers**.
