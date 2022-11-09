@@ -14,24 +14,15 @@ hide:
 
 If you aren't certain which offer type you will be creating, this page is for you. Primary considerations for choosing an offer type include billing options and deployment architectures. This page has resources to help walk through these topics as well as any others related to getting started.
 
-## Table of Contents
-
 <!-- no toc -->
-- [Video walk through of selecting an offer type](#offer-type-selection-video)
 - [Offer type decision tree](#decision-tree)
 - [More resources and information](#more-resources-and-information)
- 
-## Offer type selection video
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2207811">Video</a>
-
-Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? This video walks you through the types and some things about them to help you make the decision of what offer type is best for you.
 
 ## Decision tree
 
 Building on top of the above video, follow the questions in the below image to find the right offer type for you. 
 
-![Find your offer type](./assets/select-offer-type.png)
+![Find your offer type](./assets/offer-type-flow.png)
 
 ## More resources and information
 
