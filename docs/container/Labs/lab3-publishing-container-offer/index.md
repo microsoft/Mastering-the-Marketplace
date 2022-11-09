@@ -19,7 +19,8 @@ hide:
 
 > **Note:** This lab is part of a series of labs for Mastering Container offers Workshop. You must finish this lab before moving on to the next sections.
 
-> **Important:** 
+> [!IMPORTANT] 
+>
 > In order to complete this lab, you must signup for public preview [here](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR0isU_qQJglCq3xE2-4gcIRUMFRIQk05Rk5WQlRPR05BVlhRQzNaMk9YOC4u)
 
 In this lab, you will create and publish a Container offer in Partner Center. This lab requires a Partner Center account.

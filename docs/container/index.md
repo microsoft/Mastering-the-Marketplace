@@ -127,7 +127,8 @@ The following hands-on labs build upon each other. They take you through the com
 
 ### Prerequisites
 
-> **Important:** 
+> [!IMPORTANT] 
+>
 > In order to complete this lab, you must signup for public preview [here](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR0isU_qQJglCq3xE2-4gcIRUMFRIQk05Rk5WQlRPR05BVlhRQzNaMk9YOC4u)
 
 There are prerequisites to these labs. Several accounts and pieces of software are required to perform the labs. Please visit the link below and complete the prerequisites detailed there before starting Lab 1.

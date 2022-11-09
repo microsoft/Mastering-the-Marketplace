@@ -17,7 +17,8 @@ hide:
 
 # Lab Prerequisites
 
-> **Important:** 
+> [!IMPORTANT] 
+>
 > In order to complete this lab, you must signup for public preview [here](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR0isU_qQJglCq3xE2-4gcIRUMFRIQk05Rk5WQlRPR05BVlhRQzNaMk9YOC4u)
 
 There are several must-have and some nice-to-have prerequisites for completing the labs in the Mastering Container offers course.
