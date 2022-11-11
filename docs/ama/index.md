@@ -27,8 +27,6 @@ The slides for this course, which are used in the following content, [are here](
 
 ---
 
-## Table of Contents
-
 <!-- no toc -->
 - [Course Introduction](#course-introduction)
 - [Managed Applications Overview](#managed-applications-overview)

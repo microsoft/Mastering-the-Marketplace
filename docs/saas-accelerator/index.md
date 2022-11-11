@@ -22,7 +22,7 @@ This series of video modules and hands-on labs is designed to help you understan
  
 [🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
-## Table of Contents
+---
 
 <!-- no toc -->
 - [SaaS Accelerator Overview - A Hands-on Tour](#saas-accelerator-overview---a-hands-on-tour)

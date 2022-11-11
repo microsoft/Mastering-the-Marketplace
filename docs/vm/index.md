@@ -25,7 +25,7 @@ Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon created this course.
 
 [🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
 
-## Table of Contents
+---
 
 <!-- no toc -->
 - [Creating Virtual Machine Offers Overview](#creating-virtual-machine-offers-overview)
