@@ -25,10 +25,12 @@ This online learning series includes videos, sample code, and hands-on labs mean
 
 [🚦](../learning-paths/saas-offers.md) Not sure where to get started? Try the *Working with SaaS Offers* [Learning Path](../learning-paths/saas-offers.md).
 
+---
+
 ## SaaS offer topics
 
 <!-- no toc -->
-- [General topics about SaaS offers](./general-topics.md) (of interest to publishers and customers)
+- [SaaS offer general topics](./general-topics.md) (of interest to publishers and customers)
 - [SaaS offer technical topics](./tech-topics.md)
 - [Working with SaaS offers in Partner Center](../partner-center/saas)
 
