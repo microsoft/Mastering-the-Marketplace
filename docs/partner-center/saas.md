@@ -23,6 +23,7 @@ hide:
 - [SaaS Purchase Customer Experience](#saas-purchase-customer-experience)
 - [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
 - [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
+- [Reporting and Insights for Multi-year SaaS Offers](#reporting-and-insights-for-multi-year-saas-offers)
 
 ---
 
@@ -62,3 +63,11 @@ This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196250">Video</a>
 
 You may have started your online presence in the commercial marketplace with a simple listing to advertise your services. This does not, however, create a transactable offer that can be sold through the marketplace. This video shows how to convert your existing listing into a fully transactable SaaS Offer.
+
+## Reporting and Insights for Multi-year SaaS Offers
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2215839">Video</a>
+
+This module walks through reporting for multi-year SaaS and the reporting widgets available that display information about subscriptions, orders and pricing models including growth trends over time.
+
+Additionally, various downloadable formats including CSV and PDFs for detailed reporting are explained in detail.

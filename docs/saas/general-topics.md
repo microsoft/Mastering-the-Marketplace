@@ -24,6 +24,7 @@ hide:
 - [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
 - [SaaS Pricing Options in Partner Center Publisher Overview](#saas-pricing-in-partner-center-publisher-overview)
 - [SaaS Pricing Options in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
+- [Reporting and Insights for Multi-year SaaS Offers](#reporting-and-insights-for-multi-year-saas-offers)
 
 **[Customer experience](#customer-experience)**
 
@@ -70,6 +71,14 @@ Pricing and billing options for SaaS offers are very flexible and give publisher
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2201524">Video</a>
 
 Pricing and billing options for SaaS offers are very flexible and give publishers many options for how to bill and get paid for their solutions. This video demonstrates how to use Partner Center to create and price a plan from start to finish, including using metered billing options.
+
+### Reporting and Insights for Multi-year SaaS Offers
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2215839">Video</a>
+
+This module walks through reporting for multi-year SaaS and the reporting widgets available that display information about subscriptions, orders and pricing models including growth trends over time.
+
+Additionally, various downloadable formats including CSV and PDFs for detailed reporting are explained in detail.
 
 ## Customer experience
 
