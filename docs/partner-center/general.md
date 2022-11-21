@@ -8,13 +8,15 @@ comments: false
 
 description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
+title: Partner Center General Topics
+
 hide:
   - navigation
 ---
 
 [Home](../index.md) > [Mastering Partner Center](./index.md)
 
-# General Partner Center Knowledge
+# Partner Center General Topics
 
 <!-- no toc -->
 - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)

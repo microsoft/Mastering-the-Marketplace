@@ -29,7 +29,7 @@ Using Partner Center to create and maintain your marketplace offers is a very la
 ## Partner Center topics
 
 - [Private Offers](./private-offers.md)
-- [Partner Center general knowledge](./general.md)
+- [Partner Center General Topics](./general.md)
 - [Working with SaaS Offers](./saas.md)
 - [Working with Virtual Machine Offers](./vm.md)
 - [Working with Azure Managed Application Offers](./ama.md)
