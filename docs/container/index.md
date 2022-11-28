@@ -5,7 +5,7 @@ keywords: Azure AppSource Marketplace Container Offer
 comments: false
 
 # Hero section
-title: Mastering Container Offers for Kubernetes apps
+title: Mastering container offers for Kubernetes apps
 description: This course will take you from working with a local app through publishing a Container Offer to the Microsoft commercial marketplace.
 
 # Micro navigation
@@ -17,7 +17,7 @@ hide:
 
 [Home](../index.md)
 
-# Mastering Container Offers for Kubernetes apps
+# Mastering container offers for Kubernetes apps
 
 Container offers for Kubernetes applications is a transactable offer type for deploying solution containers into an Azure Kubernetes Service in the customer's subscription. This course will take you from an overview to deep understanding of the offer type. The large majority of the course is demo-first.
 
@@ -28,21 +28,22 @@ Container offers for Kubernetes applications is a transactable offer type for de
 ---
 
 <!-- no toc -->
-- [Container Offer for Kubernetes Apps Overview](#container-offer-for-kubernetes-apps-overview)
-- [Container Offer Billing Overview](#container-offer-billing-overview)
-- [Container Offer Technical Overview](#container-offer-technical-overview)
-- [Deploying Solution Images to an Azure Container Registry](#deploying-solution-images-to-an-azure-container-registry)
-- [Preparing CNAB Bundle Artifacts](#preparing-cnab-bundle-artifacts)
-- [Generating the CNAB Bundle](#generating-the-cnab-bundle)
-- [Create a Container Offer in Partner Center](#create-a-container-offer-in-partner-center)
-- [Create a Container Offer Plan in Partner Center](#create-a-container-offer-plan-in-partner-center)
-- [Subscribe to a Kubernetes App in the Commercial Marketplace](#subscribe-to-a-kubernetes-app-in-the-commercial-marketplace)
-- [Unsubscribe from a Kubernetes app that You Purchased](#unsubscribe-from-a-kubernetes-app-that-you-purchased)
+- [Container offer for Kubernetes apps overview](#container-offer-for-kubernetes-apps-overview)
+- [Container offer billing overview](#container-offer-billing-overview)
+- [Container offer technical overview](#container-offer-technical-overview)
+- [Deploying solution images to an Azure Container Registry](#deploying-solution-images-to-an-azure-container-registry)
+- [Scanning container images for vulnerabilities](#scanning-container-images-for-vulnerabilities)
+- [Preparing CNAB bundle artifacts](#preparing-cnab-bundle-artifacts)
+- [Generating the CNAB bundle](#generating-the-cnab-bundle)
+- [Create a container offer in Partner Center](#create-a-container-offer-in-partner-center)
+- [Create a container offer plan in Partner Center](#create-a-container-offer-plan-in-partner-center)
+- [Subscribe to a Kubernetes app in the Commercial Marketplace](#subscribe-to-a-kubernetes-app-in-the-commercial-marketplace)
+- [Unsubscribe from a purchased Kubernetes app](#unsubscribe-from-a-purchased-kubernetes-app)
 - [Hands-on labs](#hands-on-labs)
 
 ---
 
-## Container Offer for Kubernetes Apps Overview
+## Container offer for Kubernetes apps overview
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2212264" target="_blank">Video</a> | [PDF](./pdfs/01.1-overview.pdf)
 
@@ -52,13 +53,13 @@ This video introduces Container Offers for Kubernetes Applications, a transactab
 - Benefits of the offer type
 - Container offers in the marketplace
 
-## Container Offer Billing Overview
+## Container offer billing overview
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2212265" target="_blank">Video</a> | [PDF](./pdfs/01.2-billing-overview.pdf)
 
 How to price and bill your solution is such a commonly visited topic that we’re providing a quick module on the subject. In this module you’ll learn about transactable offers, the pricing models for container offers, and the nomenclature of offers and plans.
 
-## Container Offer Technical Overview
+## Container offer technical overview
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2212638" target="_blank">Video</a> | [PDF](./pdfs/02.1-technical-overview.pdf)
 
@@ -69,7 +70,7 @@ This module provides a comprehensive overview of Container offers for Kubernetes
 - Packaging the artifacts
 - Deploying the final product
 
-## Deploying Solution Images to an Azure Container Registry
+## Deploying solution images to an Azure Container Registry
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2212158" target="_blank">Video</a>
 
@@ -79,13 +80,13 @@ This hands-on demo introduces the application to be throughout the course and sh
 - Run the demo application
 - Push application images to an ACR
 
-## Scanning Images for Vulnerabilities
+## Scanning container images for vulnerabilities
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2214918" target="_blank">Video</a>
 
 In this comprehensive demo you’ll learn how to identify vulnerabilities in your images that can prevent your Container offer from passing certification. Not only will you see Microsoft Defender for Cloud in action, but you’ll see how to patch a container and prepare its’ image for publication to an ACR so that it no longer contains vulnerabilities.
 
-## Preparing CNAB Bundle Artifacts
+## Preparing CNAB bundle artifacts
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2212266" target="_blank">Video</a>
 
@@ -97,31 +98,31 @@ In this hands-on module, learn about the artifacts needed to create your final C
 - Marketplace deployment files
 - The CNAB manifest
 
-## Generating the CNAB Bundle
+## Generating the CNAB bundle
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2212639" target="_blank">Video</a>
 
 This module demonstrates the process of creating a CNAB bundle for publication to the Microsoft commercial marketplace. This video is primarily on the command line and shows using the publicly available CNAB bundling tool available from the Microsoft public Azure Container Registry.
 
-## Create a Container Offer in Partner Center
+## Create a container offer in Partner Center
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2212160" target="_blank">Video</a>
 
 In this all-demo module, you’ll see what is needed to create a Container Offer in Partner Center. The demo walks through all sections of creating an offer except for creating plans. Plan creation is shown in the next video of the course.
 
-## Create a Container Offer Plan in Partner Center
+## Create a container offer plan in Partner Center
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2212159" target="_blank">Video</a>
 
 This module focuses on creating a plan within an already existing offer. This hands-on demo walks through setting up a new plan in Partner Center including the technical configuration of the plan, in which we map the CNAB bundle to the new plan.
 
-## Subscribe to a Kubernetes App in the Commercial Marketplace
+## Subscribe to a Kubernetes app in the Commercial Marketplace
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2212161" target="_blank">Video</a>
 
 In this brief demo, you see how customers purchase a Kubernetes app and deploy it into their K8s cluster. You’ll see the process from marketplace to deployed and running application.
 
-## Unsubscribe from a Kubernetes App that You Purchased
+## Unsubscribe from a purchased Kubernetes app
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2212267" target="_blank">Video</a>
 
