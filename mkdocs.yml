@@ -6,18 +6,19 @@ edit_uri: ''
 extra_css: 
     - stylesheets/extra.css
 nav : 
-- Azure Managed Application Offers: '/Mastering-the-Marketplace/ama/'
-- Container Offers for K8s apps 🆕: '/Mastering-the-Marketplace/container/'
+- Azure Managed Application offers: '/Mastering-the-Marketplace/ama/'
+- Container offers for K8s apps 🆕: '/Mastering-the-Marketplace/container/'
 - Partner Center: '/Mastering-the-Marketplace/partner-center/'
 - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
-- SaaS Offers: '/Mastering-the-Marketplace/saas/'
-- Virtual Machine Offers: '/Mastering-the-Marketplace/vm/'
-- Teams Offers: '/Mastering-the-Marketplace/teams/'
+- SaaS offers: '/Mastering-the-Marketplace/saas/'
+- Virtual Machine offers: '/Mastering-the-Marketplace/vm/'
+- Teams offers: '/Mastering-the-Marketplace/teams/'
 - "": "/"
 - "": "/"
 - "": "/"
-- Choose Your Offer Type: '/Mastering-the-Marketplace/select-offer-type/'
-- Learning Paths: '/Mastering-the-Marketplace/learning-paths/'
+- Choose your offer type: '/Mastering-the-Marketplace/misc/select-offer-type'
+- Choose your learning path: '/Mastering-the-Marketplace/learning-paths/'
+- Site change log: '/Mastering-the-Marketplace/misc/change-log'
 
 theme:
   name: material
