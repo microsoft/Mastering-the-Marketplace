@@ -8,12 +8,48 @@ hide:
   - navigation
 ---
 
-# Marketplace Pathfinder Proof of Concept
+# Marketplace Bot Proof of Concept
+
+<style>
+  html, body {
+      height: 100%;
+  }
+  body {
+      margin: 0;
+  }
+  h1 {
+      font-size: 16px;
+      font-family: Segoe UI;
+      line-height: 20px;
+      color: whitesmoke;
+      display: table-cell;
+      padding: 13px 0px 0px 20px;
+  }
+  .heading {
+      background-color: black;
+      height: 50px;
+  }
+  .main {
+      margin: 18px;
+      border-radius: 4px;
+  }
+
+  div[role="form"]{
+      background-color: black;
+  }
+  #webchat {
+      position: fixed;
+      height: calc(100% - 50px);
+      width: 100%;
+      top: 50px;
+      overflow: hidden;
+  }
+</style>
 
 <iframe 
     src="https://web.preview.powerva.microsoft.com/environments/839eace6-59ab-4243-97ec-a5b8fcc104e4/bots/new_bot_26502aa7d017484a9307e0f09788f489/webchat"
-    frameborder="0" 
-    style="width: 100%; height: 600px; border: 1px">
+    frameborder="1"
+    style="width: 100%; height: 600px;">
 </iframe>
 
 <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
