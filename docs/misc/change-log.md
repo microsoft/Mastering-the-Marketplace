@@ -12,6 +12,8 @@ comments: false
 
 | Date | Change | Type |
 ---| ---| ---|
+| 12/1/2022 | [Purchasing a SaaS offer from the Azure Marketplace](../saas/general-topics.md#purchasing-a-saas-offer-from-the-azure-marketplace) | New |
+| 12/1/2022 | [Purchasing a SaaS offer from AppSource](../saas/general-topics.md#purchasing-a-saas-offer-from-appsource) | New |
 | 11/3/2022 | [Scanning container images for vulnerabilities](../container/index.md#scanning-container-images-for-vulnerabilities) | New |
 | 10/24/2022 | [Private offers for customers overview](../partner-center/private-offers.md#private-offers-for-customers-overview) | Updated |
 | 10/21/2022 | [Virtual Machine software reservations overview](../vm/index.md#virtual-machine-software-reservations-overview) | New |

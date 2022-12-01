@@ -32,7 +32,6 @@ hide:
 - [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
 - [Purchasing a Public SaaS Offer with Different Pricing Models](#purchasing-a-public-saas-offer-with-different-pricing-models)
 
-
 ---
 
 ## Publisher experience
