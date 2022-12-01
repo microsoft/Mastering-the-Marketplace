@@ -82,16 +82,17 @@ Additionally, various downloadable formats including CSV and PDFs for detailed r
 
 ## Customer experience
 
-### Purchasing a SaaS Offer
+### Purchasing a SaaS offer from the Azure Marketplace
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196322">Video</a> | <a target="_blank" href="./pdfs/02.1-Purchasing-a-SaaS-Offer.pdf">PDF</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2218020">Video</a>
 
-This video offers a guided step-by-step process to purchasing SaaS applications in the #Microsoft Azure Marketplace from the customers point of view, including the following topics.
+This video demonstrates the customer purchasing process when subscribing to a SaaS offer from within the Azure Marketplace.
 
-- SaaS Offer Subscription Flow
-- Subscribing From the Azure Marketplace
-- Subscribing From the Azure Portal
-- The SaaS Management Service
+### Purchasing a SaaS offer from AppSource
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2217862">Video</a>
+
+This video demonstrates the customer purchasing process when subscribing to a SaaS offer from within the AppSource storefront.
 
 ### Purchasing a Private SaaS Plan
 

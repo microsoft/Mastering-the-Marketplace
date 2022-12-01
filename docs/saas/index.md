@@ -30,7 +30,7 @@ This online learning series includes videos, sample code, and hands-on labs mean
 ## SaaS offer topics
 
 <!-- no toc -->
-- [SaaS offer general topics](./general-topics.md) (of interest to publishers and customers)
+- [SaaS offer general knowledge topics](./general-topics.md) (of interest to publishers and customers)
 - [SaaS offer technical topics](./tech-topics.md)
 - [Working with SaaS offers in Partner Center](../partner-center/saas)
 
