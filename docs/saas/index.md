@@ -15,24 +15,21 @@ hide:
 
 # Mastering SaaS offers
 
-These modules help you understand and implement SaaS offers to publish your commercial marketplace offer.
+This on-demand learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft commercial marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.
 
-This online learning series includes videos, sample code, and hands-on labs meant to speed your time to publishing your custom SaaS offer on the Microsoft commercial marketplace. If you are building a SaaS offer for the marketplace this learning series is for you.
-
-[✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
- 
-[🧪](#hands-on-labs) [Grow your skills with hands-on labs](#hands-on-labs).
-
-[🚦](../learning-paths/saas-offers.md) Not sure where to get started? Try the *Working with SaaS Offers* [Learning Path](../learning-paths/saas-offers.md).
-
----
-
-## SaaS offer topics
+## Choose a SaaS offer topic area
 
 <!-- no toc -->
 - [SaaS offer general knowledge topics](./general-topics.md) (of interest to publishers and customers)
 - [SaaS offer technical topics](./tech-topics.md)
 - [Working with SaaS offers in Partner Center](../partner-center/saas)
+- [🧪](#hands-on-labs) [Grow your skills with hands-on labs](#hands-on-labs).
+
+---
+
+[✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
+
+[🚦](../learning-paths/saas-offers.md) Not sure where to get started? Try the *Working with SaaS Offers* [Learning Path](../learning-paths/saas-offers.md).
 
 ---
 
