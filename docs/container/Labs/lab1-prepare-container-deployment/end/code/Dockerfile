@@ -1,14 +1,14 @@
-FROM node:18-alpine3.15
+FROM node:18.12-alpine3.17
 
 # Create app directory
 WORKDIR /usr/src/app
-
+RUN apk update
 # Copy solution package file
 COPY package*.json ./
 
 # Install app dependencies
 RUN npm install
-
+RUN npm audit fix --force
 # Copy all files
 COPY . .
 

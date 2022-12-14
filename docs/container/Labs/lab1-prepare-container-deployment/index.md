@@ -73,13 +73,13 @@ In this section, you will create a `DockerFile` for solution `Azure ToDo` and pu
 
         # Create app directory
         WORKDIR /usr/src/app
-
+        RUN apk update
         # Copy solution package file
         COPY package*.json ./
 
         # Install app dependencies
         RUN npm install
-
+        RUN npm audit fix --force
         # Copy all files
         COPY . .
 
