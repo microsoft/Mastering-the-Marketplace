@@ -17,8 +17,6 @@ description: The content in this course is from a live hands-on workshop. These 
 
 The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
 
-Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon created this course.
-
 [✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
  
 [🚦](../learning-paths/virtual-machine-offers.md) Not sure where to get started? Try the *Working with Virtual Machine Offers* [Learning Path](../learning-paths/virtual-machine-offers.md).
@@ -42,7 +40,9 @@ Neelavarsha Duddanahalli Kumar Mahesh and Julio Colon created this course.
 - [Virtual Machine Certification Test Tool (Demo)](#virtual-machine-certification-test-tool-demo)
 - [Purchasing the Virtual Machine Offer](#purchasing-the-virtual-machine-offer)
 - [Virtual Machine Software Reservations Overview](#virtual-machine-software-reservations-overview)
+- [Securing virtual machines and containers for certification](#securing-virtual-machines-and-containers-for-certification)
 - [Hands-on labs](#hands-on-labs)
+
 
 ---
 
@@ -129,6 +129,12 @@ The offer is now complete and ready to test in Partner Center. In this video, ex
 <a href="https://go.microsoft.com/fwlink/?linkid=2212418" target="_blank">Video</a>
 
 This module provides an overview of what Virtual Machine software reservations are and expands on various billing scenarios and publishing on the marketplace. You will also learn the publisher and customer experience of using VM software reservations.
+
+## Securing virtual machines and containers for certification
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2220888" target="_blank">Video</a> | [PDF](./pdfs/0.0-securing-vm-and-container-images-overview.pdf)
+
+The last thing you want is to create and publish an offer only to have it fail Microsoft’s certification process. This module provides important tips and effective practices for securing virtual machines and containers before publication to the Azure Marketplace, so your offer makes it through certification the first time.
 
 ---
 

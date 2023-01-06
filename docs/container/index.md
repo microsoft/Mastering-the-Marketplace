@@ -39,6 +39,7 @@ Container offers for Kubernetes applications is a transactable offer type for de
 - [Create a container offer plan in Partner Center](#create-a-container-offer-plan-in-partner-center)
 - [Subscribe to a Kubernetes app in the Commercial Marketplace](#subscribe-to-a-kubernetes-app-in-the-commercial-marketplace)
 - [Unsubscribe from a purchased Kubernetes app](#unsubscribe-from-a-purchased-kubernetes-app)
+- [Securing virtual machines and containers for certification](#securing-virtual-machines-and-containers-for-certification)
 - [Hands-on labs](#hands-on-labs)
 
 ---
@@ -127,6 +128,12 @@ In this brief demo, you see how customers purchase a Kubernetes app and deploy i
 <a href="https://go.microsoft.com/fwlink/?linkid=2212267" target="_blank">Video</a>
 
 In this walkthrough video, you’ll see how to get rid of an application you may have purchased, and stop being billed for that app. We use the command line with the az CLI and KubeCtl to perform these operations.
+
+## Securing virtual machines and containers for certification
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2220888" target="_blank">Video</a> | [PDF](./pdfs/0.0-securing-vm-and-container-images-overview.pdf)
+
+The last thing you want is to create and publish an offer only to have it fail Microsoft’s certification process. This module provides important tips and effective practices for securing virtual machines and containers before publication to the Azure Marketplace, so your offer makes it through certification the first time.
 
 ## Hands-on labs
 

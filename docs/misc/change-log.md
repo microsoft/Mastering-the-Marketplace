@@ -12,6 +12,7 @@ comments: false
 
 | Date | Change | Type |
 ---| ---| ---|
+| 1/6/2023 | [Securing virtual machines and containers for certification](../vm/index.md#securing-virtual-machines-and-containers-for-certification) | New |
 | 12/1/2022 | [Purchasing a SaaS offer from the Azure Marketplace](../saas/general-topics.md#purchasing-a-saas-offer-from-the-azure-marketplace) | New |
 | 12/1/2022 | [Purchasing a SaaS offer from AppSource](../saas/general-topics.md#purchasing-a-saas-offer-from-appsource) | New |
 | 11/3/2022 | [Scanning container images for vulnerabilities](../container/index.md#scanning-container-images-for-vulnerabilities) | New |
