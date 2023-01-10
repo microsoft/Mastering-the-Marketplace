@@ -9,8 +9,8 @@ nav :
 - Azure Managed Application offers: '/Mastering-the-Marketplace/ama/'
 - Container offers for K8s apps: '/Mastering-the-Marketplace/container/'
 - Partner Center: '/Mastering-the-Marketplace/partner-center/'
-- SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
 - SaaS offers: '/Mastering-the-Marketplace/saas/'
+- SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
 - Virtual Machine offers: '/Mastering-the-Marketplace/vm/'
 - Teams offers: '/Mastering-the-Marketplace/teams/'
 - "": "/"
