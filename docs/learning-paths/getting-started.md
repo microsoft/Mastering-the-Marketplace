@@ -12,8 +12,6 @@ hide:
 
 # 🚦Getting started with the commercial marketplace
 
-## Table of Contents
-
 <!-- no toc -->
 - [Marketplace essentials](#marketplace-essentials)
 - [Design your offer](#design-your-offer)

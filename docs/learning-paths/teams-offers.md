@@ -12,8 +12,6 @@ hide:
 
 # 🚦Working with Microsoft Teams offers
 
-## Table of Contents
-
 <!-- no toc -->
 - [Selling Microsoft Teams applications overview topics](#selling-microsoft-teams-applications-overview-topics)
 - [I am a technologist building a Teams offers](#i-am-a-technologist-building-a-teams-offers)

@@ -12,12 +12,12 @@ hide:
 
 # 🚦Working with SaaS Offers
 
-## Table of Contents
-
 <!-- no toc -->
 - [Getting started creating a SaaS offer](#getting-started-creating-a-saas-offer)
 - [I am a technologist building a SaaS offer](#i-am-a-technologist-building-a-saas-offer)
 - [I want to learn about the SaaS Accelerator](#i-want-to-learn-about-the-saas-accelerator)
+
+---
 
 ## Getting started creating a SaaS offer
 

@@ -12,8 +12,6 @@ hide:
 
 # 🚦Working with Partner Center
 
-## Table of Contents
-
 <!-- no toc -->
 - [Getting started with Partner Center](#getting-started-with-partner-center)
 - [Working with SaaS offers](#working-with-saas-offers)
@@ -22,6 +20,7 @@ hide:
 - [Private offers](#private-offers)
 - [Private plans](#private-plans)
 
+---
 
 ## Getting started with Partner Center
 
