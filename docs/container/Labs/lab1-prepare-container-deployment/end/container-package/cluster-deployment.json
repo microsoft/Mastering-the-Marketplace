@@ -77,9 +77,6 @@
             "type": "Microsoft.KubernetesConfiguration/extensions",
             "apiVersion": "2022-04-02-preview",
             "name": "[parameters('extensionResourceName')]",
-            "dependsOn": [
-                "extensionsusage"
-            ],
             "properties": {
                 "extensionType": "[variables('clusterExtensionTypeName')]",
                 "autoUpgradeMinorVersion": true,
