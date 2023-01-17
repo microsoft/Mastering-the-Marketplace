@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: Azure AppSource Marketplace SaaS
+keywords: Azure AppSource Marketplace Getting Started
 comments: false
 
 hide:
@@ -11,8 +11,6 @@ hide:
 [Home](../index.md) > [Learning Paths](./index.md)
 
 # 🚦Getting started with the commercial marketplace
-
-## Table of Contents
 
 <!-- no toc -->
 - [Marketplace essentials](#marketplace-essentials)
@@ -37,6 +35,7 @@ hide:
 
 ## Design your offer
 
+- [Choose your offer type](../misc/select-offer-type)
 - [Creating Plans and Pricing for your SaaS Offer](https://aka.ms/MOH/PlansAndPricing) (⏲️ Marketplace Office Hours)
 - [Customer Subscription Lifecycle](https://aka.ms/MOH/CustomerSubscriptionLifecycle) (⏲️ Marketplace Office Hours)
 
