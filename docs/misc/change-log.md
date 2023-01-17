@@ -12,6 +12,7 @@ comments: false
 
 | Date | Change | Type |
 ---| ---| ---|
+| 1/17/2023 | [Private offers vs. private plans](../partner-center/private-offers.md#private-offers-vs-private-plans) | New |
 | 1/6/2023 | [Securing virtual machines and containers for certification](../vm/index.md#securing-virtual-machines-and-containers-for-certification) | New |
 | 12/1/2022 | [Purchasing a SaaS offer from the Azure Marketplace](../saas/general-topics.md#purchasing-a-saas-offer-from-the-azure-marketplace) | New |
 | 12/1/2022 | [Purchasing a SaaS offer from AppSource](../saas/general-topics.md#purchasing-a-saas-offer-from-appsource) | New |
