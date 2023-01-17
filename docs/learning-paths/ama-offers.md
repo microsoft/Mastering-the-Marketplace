@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: Azure AppSource Marketplace SaaS
+keywords: Azure AppSource Marketplace Managed Applications
 comments: false
 
 hide:
@@ -12,9 +12,7 @@ hide:
 
 # 🚦Working with Azure Managed Application offers
 
-## Table of Contents
-
-<!-- no toc-->
+<!-- no toc -->
 - [Getting started with Azure Managed Application offers](#getting-started-with-azure-managed-application-offers)
 - [I am a technologist building a Azure Managed Application offer](#i-am-a-technologist-building-a-azure-managed-application-offer)
 

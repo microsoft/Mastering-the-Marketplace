@@ -12,11 +12,11 @@ hide:
 
 # 🚦Working with Virtual Machine offers
 
-## Table of Contents
-
 <!-- no toc -->
 - [Getting started creating Virtual Machine offers](#getting-started-creating-virtual-machine-offers)
 - [I am a technologist building Virtual Machine offers](#i-am-a-technologist-building-virtual-machine-offers)
+
+---
 
 ## Getting started creating Virtual Machine offers
 
