@@ -17,15 +17,24 @@ hide:
 # Private offers in Partner Center
 
 <!-- no toc -->
+- [Private offers vs. private plans](#private-offers-vs-private-plans)
 - [Private offers for customers overview](#private-offers-for-customers-overview)
 - [Private offers for customers creation](#private-offers-for-customers-creation)
 - [Private offers for customers acceptance](#private-offers-for-customers-acceptance)
 - [Private offers for customers purchase experience](#private-offers-for-customers-purchase-experience)
-- [Private offers for CSP partners preview](#private-offers-for-csp-partners-pverview)
+- [Private offers for CSP partners preview](#private-offers-for-csp-partners-preview)
 - [Private offers for CSP partners creation](#private-offers-for-csp-partners-creation)
 - [Private offers for CSP partners purchase process](#private-offers-for-csp-partners-purchase-process)
 
 ---
+
+## Private offers vs. private plans
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2222237">Video</a> | [PDF](./pdfs/02.4-private-offer-vs-plan.pdf)
+
+There are two features of the marketplace that allow for selling solutions to a customer at a private negotiated price point. Those features are private offers and private plans. It’s important to know the difference between them as you decide on the technique you’ll use when offering custom pricing to individual customers.
+
+This module introduces the similarities and basic details of each to help you decide which feature is best for you.
 
 ## Private offers for customers overview
 
