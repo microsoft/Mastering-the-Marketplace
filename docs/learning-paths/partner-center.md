@@ -53,10 +53,10 @@ hide:
 - [Working with Private Offers](https://microsoft.github.io/Mastering-the-Marketplace/partner-center#working-with-private-offers) (⏯️video series)
 - [ISV to customer private offers](https://docs.microsoft.com/azure/marketplace/isv-customer)
 - [ISV to CSP partner private offers](https://docs.microsoft.com/azure/marketplace/isv-csp-reseller)
-		
+
 ## Private plans
 
-- [Publishing a Private SaaS Plan](https://microsoft.github.io/Mastering-the-Marketplace/partner-center#publishing-a-private-saas-plan) (⏯️video)
-- [Purchasing a Private SaaS Plan](https://microsoft.github.io/Mastering-the-Marketplace/saas#purchasing-a-private-saas-plan) (⏯️video)	
+- [Publishing a Private SaaS Plan](../saas/general-topics.md#publishing-a-private-saas-plan) (⏯️video)
+- [Purchasing a Private SaaS Plan](../saas/general-topics.md#purchasing-a-private-saas-plan) (⏯️video)
 - [Troubleshooting private plans](https://docs.microsoft.com/azure/marketplace/azure-private-plan-troubleshooting)
 - [Private plans in the Microsoft commercial marketplace](https://docs.microsoft.com/azure/marketplace/private-plans)
