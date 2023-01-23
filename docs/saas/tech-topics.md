@@ -32,7 +32,7 @@ hide:
 
 ## SaaS Offer Technical Overview
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196315">Video</a> | <a target="_blank" href="./pdfs/04-SaaS-Offer-Technical-Overview.pdf">PDF</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196315">Video</a> | [PDF](./pdfs/04-SaaS-Offer-Technical-Overview.pdf)
 
 Watch a deep technical overview of how SaaS offers work in the Microsoft Azure Marketplace. Learn how the API flows and interactions should work and how to build your landing page. Topics include the following.
 
@@ -44,7 +44,7 @@ Watch a deep technical overview of how SaaS offers work in the Microsoft Azure M
 
 ## Azure AD Application Registrations
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196262">Video</a> | <a target="_blank" href="./pdfs/05-Azure-AD-Application-Registrations.pdf">PDF</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196262">Video</a> | [PDF](./pdf/../pdfs/05-Azure-AD-Application-Registrations.pdf)
 
 In this module we look at a generic topic, application registrations for Azure Active Directory because we’ll need to use them in our upcoming modules. They give us a mechanism to authenticate to Azure AD, which is a requirement of the landing page, if you recall.
 
@@ -56,7 +56,7 @@ This module introduces just enough on this topic to help us build our landing pa
 
 ## Using the SaaS Offer REST Fulfillment API
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196320">Video</a> | <a target="_blank" href="./pdfs/06-Using-the-SaaS-Offer-Fulfillment-API.pdf">PDF</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196320">Video</a> | [PDF](./pdfs/06-Using-the-SaaS-Offer-Fulfillment-API.pdf)
 
 See the SaaS Fulfillment REST API in action as we send it through its paces using Postman. You’ll learn how to authenticate with Azure Active Directory, resolve and activate subscriptions just like your Landing Page does, and see many other features of the API.
 
@@ -71,7 +71,7 @@ An Application Registration is used in the examples when making the first reques
 
 ## The SaaS Client Library for .NET
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196324">Video</a> | <a target="_blank" href="./pdfs/07-The-SaaS-Client-Library-for-.NET.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/the-saas-client-library-for-dotnet">Code</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196324">Video</a> | [PDF](./pdfs/07-The-SaaS-Client-Library-for-.NET.pdf) | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/the-saas-client-library-for-dotnet">Code</a>
 
 This module introduces the [SaaS Client Library for .NET](https://github.com/microsoft/commercial-marketplace-client-dotnet) developers who want to work with the SaaS APIs at a level of abstraction above the REST level.
 
@@ -81,7 +81,7 @@ This video shows a sample command line application that can talk to the client l
 
 ## Building a Simple SaaS Landing Page in .NET
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196323">Video</a> | <a target="_blank" href="./pdfs/08-simple-landing-page-dotnet.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/saas-simple-landing-page">Code</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196323">Video</a> | [PDF](./pdfs/08-simple-landing-page-dotnet.pdf) | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/saas-simple-landing-page">Code</a>
 
 In this module we examine the elements of building a simple landing page and looking at how it works.We examine the following topics.
 
@@ -94,7 +94,7 @@ The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it s
 
 ## Building a Simple SaaS Publisher Portal in .NET
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196257">Video</a> | <a target="_blank" href="./pdfs/09-simple-publisher-portal-dotnet.pdf">PDF</a> | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/saas-simple-publisher-portal">Code</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196257">Video</a> | [PDF](./pdfs/09-simple-publisher-portal-dotnet.pdf) | <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/saas/demo-code/saas-simple-publisher-portal">Code</a>
 
 In this module we examine the elements of building a publisher portal and at how it works.We examine the following topics.
 
@@ -106,7 +106,7 @@ The technology stack used is C#, ASP.NET MVC, and Razor views, just to keep it s
 
 ## SaaS Webhook Overview
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196258">Video</a> | <a target="_blank" href="./pdfs/10.1-simple-webhook-overview.pdf">PDF</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196258">Video</a> | [PDF](./pdfs/10.1-simple-webhook-overview.pdf)
 
 This technical overview of the SaaS webhook explains the following concepts of the SaaS offer webhook.
 
@@ -125,7 +125,7 @@ This code-heavy module focuses on the fundamentals of implementing a SaaS offer 
 
 ## SaaS Metered Billing Overview
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196314">Video</a> | <a target="_blank" href="./pdfs/11.1-saas-metered-billing-overview.pdf">PDF</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196314">Video</a> | [PDF](./pdfs/11.1-saas-metered-billing-overview.pdf)
 
 This module presents the fundamentals of billing through the marketplace based on usage, or metered billing. IT covers several areas of metered billing including the following.
 

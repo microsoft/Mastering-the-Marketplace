@@ -20,10 +20,9 @@ This on-demand learning series includes videos, sample code, and hands-on labs m
 ## Choose a SaaS offer topic area
 
 <!-- no toc -->
-- [SaaS offer general knowledge topics](./general-topics.md) (of interest to publishers and customers)
 - [SaaS offer technical topics](./tech-topics.md)
+- [SaaS offer general knowledge topics](./general-topics.md) (of interest to publishers and customers)
 - [Working with SaaS offers in Partner Center](../partner-center/saas)
-- [🧪](#hands-on-labs) [Grow your skills with hands-on labs](#hands-on-labs).
 
 ---
 
