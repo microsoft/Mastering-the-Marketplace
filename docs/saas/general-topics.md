@@ -16,7 +16,7 @@ hide:
 
 # SaaS offer general knowledge topics
 
-**[Publisher experience](#publisher-experience)**
+**[Publisher experience topics](#publisher-experience)**
 <!-- no toc -->
 - [SaaS Offer Overview](#saas-offer-overview)
 - [Publishing a SaaS Offer](#publishing-a-saas-offer)
@@ -25,7 +25,7 @@ hide:
 - [SaaS Pricing in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
 - [Reporting and Insights for Multi-year SaaS Offers](#reporting-and-insights-for-multi-year-saas-offers)
 
-**[Customer experience](#customer-experience)**
+**[Customer experience topics](#customer-experience)**
 <!-- no toc -->
 - [Purchasing a SaaS offer from the Azure Marketplace](#purchasing-a-saas-offer-from-the-azure-marketplace)
 - [Purchasing a SaaS offer from AppSource](#purchasing-a-saas-offer-from-appsource)
@@ -38,7 +38,7 @@ hide:
 
 ### SaaS Offer Overview
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196417">Video</a> | <a target="_blank" href="./pdfs/01-SaaS-Offer-Overview.pdf">PDF</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196417">Video</a> | [PDF](./pdfs/01-SaaS-Offer-Overview.pdf)
 
 This module offers a technical overview of Microsoft Azure Marketplace SaaS Offers, including the following topics.
 
@@ -49,13 +49,13 @@ This module offers a technical overview of Microsoft Azure Marketplace SaaS Offe
 
 ### Publishing a SaaS Offer
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196318">Video</a> | <a target="_blank" href="./pdfs/03.1-Publishing-a-SaaS-Offer.pdf">PDF</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196318">Video</a> | [PDF](.//pdfs/03.1-Publishing-a-SaaS-Offer.pdf)
 
 This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook.
 
 ### Publishing a Private SaaS Plan
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196256">Video</a> | <a target="_blank" href="./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf">PDF</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196256">Video</a> | [PDF](./pdfs/03.2-Publishing-Private-SaaS-Plan.pdf)
 
 This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
 
@@ -95,7 +95,7 @@ This video demonstrates the customer purchasing process when subscribing to a Sa
 
 ### Purchasing a Private SaaS Plan
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196255">Video</a> | <a target="_blank" href="./pdfs/02.2-Purchasing-a-Private-SaaS-Plan.pdf">PDF</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196255">Video</a> | [PDF](./pdfs/02.2-Purchasing-a-Private-SaaS-Plan.pdf)
 
 This video shows how to subscribe to private SaaS plans in the Microsoft Azure Marketplace. Topics include the following.
 
