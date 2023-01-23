@@ -32,19 +32,20 @@ The slides for this course, which are used in the following content, [are here](
 - [Managed Applications Overview](#managed-applications-overview)
 - [Azure Managed Applications Overview](#azure-managed-applications-overview)
 - [Partner Center with Azure Managed Applications Overview](#partner-center-with-azure-managed-applications-overview)
-- [Configuring Partner Center for Azure Managed Applications - Demo](#configuring-partner-center-for-azure-managed-applications---demo)
+- [Configuring Partner Center for Azure Managed Applications](#configuring-partner-center-for-azure-managed-applications)
 - [Azure Managed Application Deployment Package Overview](#azure-managed-application-deployment-package-overview)
-- [Working with a Azure Managed Application Deployment Package - Demo](#working-with-a-azure-managed-application-deployment-package---demo)
+- [Working with a Azure Managed Application Deployment Package](#working-with-a-azure-managed-application-deployment-package)
 - [Integrating Virtual Machine Offers into Azure Managed Applications](#integrating-virtual-machine-offers-into-azure-managed-applications)
-- [Purchasing an Azure Managed Application – Demo](#purchasing-an-azure-managed-application--demo)
-- [Managing My Purchased Azure Managed Applications – Demo](#managing-my-purchased-azure-managed-applications--demo)
+- [Purchasing an Azure Managed Application](#purchasing-an-azure-managed-application)
+- [Managing My Purchased Azure Managed Applications](#managing-my-purchased-azure-managed-applications)
 - [Managing My Customer’s Azure Managed Applications Overview](#managing-my-customers-azure-managed-applications-overview)
-- [Managing My Customer’s Azure Managed Applications – Demo](#managing-my-customers-azure-managed-applications--demo)
+- [Managing My Customer’s Azure Managed Applications](#managing-my-customers-azure-managed-applications)
 - [Metered Billing for Azure Managed Applications Overview](#metered-billing-for-azure-managed-applications-overview)
-- [Metered Billing for Azure Managed Applications – Demo](#metered-billing-for-azure-managed-applications--demo)
+- [Metered Billing for Azure Managed Applications](#metered-billing-for-azure-managed-applications)
 - [Advanced Deployment Scenarios for Azure Managed Applications](#advanced-deployment-scenarios-for-azure-managed-applications)
 - [Hands-on labs](#hands-on-labs)
 
+---
 
 ### Course Introduction
 
@@ -70,7 +71,7 @@ Azure Managed Applications are the transactable Managed App offer type. Get a wa
 
 Partner Center is the portal publishers use to create, configure, publish, and monitor their offers in the Microsoft Marketplace. This overview takes you through Partner Center for Azure Managed Applications.
 
-### Configuring Partner Center for Azure Managed Applications - Demo
+### Configuring Partner Center for Azure Managed Applications
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196410">Video</a>
 
@@ -82,7 +83,7 @@ Understanding Partner Center, the publisher's portal, is key to creating great o
 
 The deployment package for Azure Managed Applications is the definition of the application itself. Learn about its components and their role in this quick overview.
 
-### Working with a Azure Managed Application Deployment Package - Demo
+### Working with a Azure Managed Application Deployment Package
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196245">Video</a>
 
@@ -94,13 +95,13 @@ This demo walks through working with Azure Managed Application deployment packag
 
 Deploying a custom virtual machine is a common need when working with Managed Apps. Get an overview of how to integrate a custom Virtual Machine offer into an Azure Managed Application deployment package.
 
-### Purchasing an Azure Managed Application – Demo
+### Purchasing an Azure Managed Application
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196249">Video</a>
 
 See the purchasing process of an Azure Managed Application from the customer’s point of view. This module is often helpful for customers looking to familiarize themselves with the purchase process.
 
-### Managing My Purchased Azure Managed Applications – Demo
+### Managing My Purchased Azure Managed Applications
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196409">Video</a>
 
@@ -112,7 +113,7 @@ Once a customer has purchased one or more Azure Managed Apps, they may need to m
 
 Managing Azure Managed Application customer deployments is the responsibility of the publisher. See the tools techniques publishers use to do this easily and effectively through the Azure portal as well as getting a walkthrough of how to use them.
 
-### Managing My Customer’s Azure Managed Applications – Demo
+### Managing My Customer’s Azure Managed Applications
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196243">Video</a>
 
@@ -124,7 +125,7 @@ Once deployed, Azure Managed Applications are managed and maintained by the publ
 
 Billing for usage-based consumption is a requirement for many Azure Managed Applications. Get a walkthrough of metered billing and an architectural overview of how it works.
 
-### Metered Billing for Azure Managed Applications – Demo
+### Metered Billing for Azure Managed Applications
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196412">Video</a>
 
