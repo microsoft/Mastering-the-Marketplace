@@ -18,6 +18,11 @@ The links on this page go to videos ⏯️.
 
 ---
 
+## Working with Private Offers
+
+- [Private offers for customers acceptance](https://go.microsoft.com/fwlink/?linkid=2196149)
+- [Private offers for customers purchase experience](https://go.microsoft.com/fwlink/?linkid=2196251)
+
 ## Working with SaaS offers
 
 - [Purchasing a SaaS offer from the Azure Marketplace](https://go.microsoft.com/fwlink/?linkid=2218020)
