@@ -12,7 +12,8 @@ comments: false
 
 | Date | Change | Type |
 ---| ---| ---|
-| 1/23/2023 | [Customer buying offers - learning path](../learning-paths/customer.md) | New |
+| 1/24/2023 | [Get your Azure Billing ID](../learning-paths/customer.md#get-your-azure-billing-id) | New |
+| 1/23/2023 | [Get your Azure Tenant ID](../learning-paths/customer.md#get-your-azure-tenant-id) | New |
 | 1/17/2023 | [Private offers vs. private plans](../partner-center/private-offers.md#private-offers-vs-private-plans) | New |
 | 1/6/2023 | [Securing virtual machines and containers for certification](../vm/index.md#securing-virtual-machines-and-containers-for-certification) | New |
 | 12/1/2022 | [Purchasing a SaaS offer from the Azure Marketplace](../saas/general-topics.md#purchasing-a-saas-offer-from-the-azure-marketplace) | New |
