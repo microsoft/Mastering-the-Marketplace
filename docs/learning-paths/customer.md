@@ -34,8 +34,8 @@ This module offers a very quick demo on how to find you Azure Tenant ID. This is
 
 ## Working with Private Offers
 
-- [Private offers for customers acceptance](https://go.microsoft.com/fwlink/?linkid=2196149)
-- [Private offers for customers purchase experience](https://go.microsoft.com/fwlink/?linkid=2196251)
+- [Accepting Private Offers](https://go.microsoft.com/fwlink/?linkid=2196149)
+- [Purchasing Private Offers](https://go.microsoft.com/fwlink/?linkid=2196251)
 
 ## Working with SaaS offers
 
@@ -46,7 +46,7 @@ This module offers a very quick demo on how to find you Azure Tenant ID. This is
 
 ## Working with Virtual Machine offers
 
-- [Purchasing the Virtual Machine Offer](https://go.microsoft.com/fwlink/?linkid=2197724)
+- [Purchasing a Virtual Machine Offer](https://go.microsoft.com/fwlink/?linkid=2197724)
 - [Virtual Machine Software Reservations Overview](https://go.microsoft.com/fwlink/?linkid=2212418)
 
 ## Working with Container for K8s applications
@@ -57,5 +57,4 @@ This module offers a very quick demo on how to find you Azure Tenant ID. This is
 ## Working with Azure Managed Application offers
 
 - [Purchasing an Azure Managed Application](https://go.microsoft.com/fwlink/?linkid=2196249)
-- [Managing My Purchased Azure Managed Applications](https://go.microsoft.com/fwlink/?linkid=2196409)
-
+- [Managing my purchased Azure Managed Applications](https://go.microsoft.com/fwlink/?linkid=2196409)
