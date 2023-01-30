@@ -24,9 +24,10 @@ hide:
 - [Building a Simple SaaS Landing Page in .NET](#building-a-simple-saas-landing-page-in-net)
 - [Building a Simple SaaS Publisher Portal in .NET](#building-a-simple-saas-publisher-portal-in-net)
 - [SaaS Webhook Overview](#saas-webhook-overview)
-- [Building a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
+- [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
 - [SaaS Metered Billing Overview](#saas-metered-billing-overview)
 - [The SaaS Metered Billing API with REST](#the-saas-metered-billing-api-with-rest)
+- [Programmatic Access to Reporting and Insights](#programmatic-access-to-reporting-and-insights)
 
 ---
 
@@ -138,3 +139,15 @@ This module presents the fundamentals of billing through the marketplace based o
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196418">Video</a>
 
 We exercise the SaaS Billing REST API using Postman to illustrate how the API works. You’ll learn how the inputs to each API event and how to use the results, and finally how to invoke usage events in the metering API itself. This module is primarily demo.
+
+## Programmatic Access to Reporting and Insights
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2223619">Video</a> | [PDF](../partner-center/pdfs/03.6-programmatic-access-to-reporting-and-insights.pdf)
+
+This technical module demonstrates how to work with Partner Center reports and insights using the Partner Center API. This video shows technical details of working with the Partner Center API and is intended for technologists interested in automating marketplace reporting.
+
+- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=0s">00:00</a> – Overview
+- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=49s">00:49</a> – Prerequisites
+- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=149s">02:29</a> – Demo
+- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=680s">11:20</a> – Commercial marketplace documentation
+- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=732s">12:12</a> – Summary
