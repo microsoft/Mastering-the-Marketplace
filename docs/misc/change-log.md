@@ -12,6 +12,7 @@ comments: false
 
 | Date | Change | Type |
 ---| ---| ---|
+| 1/30/2023 | [Programmatic Access to Reporting and Insights](../partner-center/saas.md#programmatic-access-to-reporting-and-insights) | New |
 | 1/24/2023 | [Get your Azure Billing ID](../learning-paths/customer.md#get-your-azure-billing-id) | New |
 | 1/23/2023 | [Get your Azure Tenant ID](../learning-paths/customer.md#get-your-azure-tenant-id) | New |
 | 1/17/2023 | [Private offers vs. private plans](../partner-center/private-offers.md#private-offers-vs-private-plans) | New |
