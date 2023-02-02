@@ -31,6 +31,7 @@ This series of video modules and hands-on labs is designed to help you understan
 - [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
 - [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
 - [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
+- [Setting up a development environment for the SaaS Accelerator](#setting-up-a-development-environment-for-the-saas-accelerator)
 - [Hands-on labs](#hands-on-labs)
 
 ---
@@ -74,6 +75,22 @@ In addition to showing your subscribers information about their subscription whe
 <a href="https://go.microsoft.com/fwlink/?linkid=2196165" target="_blank">Video</a>
 
 You will likely want to receive email when a subscription changes state. For example, when a someone unsubscribes from your offer. This video shows how to configure the email setting within the SaaS Accelerator and get those notifications coming right to your inbox.
+
+## Setting up a development environment for the SaaS Accelerator
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2224222" target="_blank">Video</a> | [PDF](./pdfs/08-setting-up-a-dev-env.pdf)
+
+If you want to customize the SaaS Accelerator to suit your environment, it can be a somewhat involved process. This video takes you from installing the accelerator, to debugging locally, through re-deploying it with your own code. The video is rather lengthy, so use the chapter links below to skip to the exact section you want to see.
+
+- [00:00 – Overview]((https://www.youtube.com/watch?v=H8p9n1bVTjY&t=0s))
+- [01:29 - Deploying to Azure and Partner Center](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=89s)
+- [08:04 - Configure Azure resources for local development](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=484s)
+- [11:21 - Getting the code from GitHub](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=681s)
+- [13:45 - Configuring local project settings](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=825s)
+- [18:46 - Running the admin site locally](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=1126s)
+- [19:54 - Running the landing page site locally](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=1194s)
+- [25:40 - Deploying changes to Azure](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=1540s)
+- [30:42 – Summary](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=1842s)
 
 ---
 
