@@ -82,7 +82,7 @@ You will likely want to receive email when a subscription changes state. For exa
 
 If you want to customize the SaaS Accelerator to suit your environment, it can be a somewhat involved process. This video takes you from installing the accelerator, to debugging locally, through re-deploying it with your own code. The video is rather lengthy, so use the chapter links below to skip to the exact section you want to see.
 
-- [00:00 – Overview]((https://www.youtube.com/watch?v=H8p9n1bVTjY&t=0s))
+- [00:00 – Overview](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=0s)
 - [01:29 - Deploying to Azure and Partner Center](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=89s)
 - [08:04 - Configure Azure resources for local development](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=484s)
 - [11:21 - Getting the code from GitHub](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=681s)
