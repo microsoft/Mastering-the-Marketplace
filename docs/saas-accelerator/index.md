@@ -27,7 +27,7 @@ This series of video modules and hands-on labs is designed to help you understan
 <!-- no toc -->
 - [SaaS Accelerator Overview - A Hands-on Tour](#saas-accelerator-overview---a-hands-on-tour)
 - [SaaS Accelerator Architecture](#saas-accelerator-architecture)
-- [Installing the SaaS Accelerator With the Install Script](#installing-the-saas-accelerator-with-the-install-script)
+- [Installing the SaaS Accelerator with the Azure portal cloud shell](#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell)
 - [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
 - [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
 - [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
@@ -50,13 +50,20 @@ You'll see the landing page, the publisher's subscription management portal, and
 
 This quick video covers the overall architecture of the SaaS Accelerator. The architecture is straightforward and is explained in plain language appropriate for those with any level of experience with Azure.
 
-## Installing the SaaS Accelerator With the Install Script
+## Installing the SaaS Accelerator with the Azure portal cloud shell
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196326">Video</a> | <a href="./pdfs/21-Installing-the-SaaS-Accelerator.pdf">PDF</a>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196326">Video</a>
 
-Installing the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) is simple. This video walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. 
+Installing the SaaS Accelerator is straightforward. This module walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. It covers initial installati9on via the Azure cloud shell, configuring Partner Center, and even updating your SaaS Accelerator installation to a new version.
 
-This video will get you up and running with the SaaS Accelerator in no time at all! You will need to copy and paste some [PowerShell script from here](https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#installating-the-azure-marketplace-saas-accelerator-using-azure-cloud-shell).
+Follow along and you will be up and running with the SaaS Accelerator in no time!
+
+- [00:00 – Overview](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=0s)
+- [01:08 - A typical installation](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=68s)
+- [06:30 - Configuring Partner Center](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=390s)
+- [09:05 - What got deployed](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=545s)
+- [10:33 - Updating an existing installation](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=633s)
+- [13:48 – Summary](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=828s)
 
 ## Invoking Metered Billing with the SaaS Accelerator
 
