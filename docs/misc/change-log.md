@@ -12,6 +12,7 @@ comments: false
 
 | Date | Change | Type |
 ---| ---| ---|
+| 2/15/2023 | [Deprecating and restoring virtual machine images](../vm/index.md#deprecating-and-restoring-virtual-machine-images) |
 | 2/3/2023 | [Installing the SaaS Accelerator with the Azure portal cloud shell](../saas-accelerator/index.md#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell) |
 | 2/2/2023 | [Setting up a development environment for the SaaS Accelerator](../saas-accelerator/index.md#setting-up-a-development-environment-for-the-saas-accelerator) |
 | 1/30/2023 | [Programmatic Access to Reporting and Insights](../partner-center/saas.md#programmatic-access-to-reporting-and-insights) |

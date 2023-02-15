@@ -8,7 +8,6 @@ hide:
 
 # Hero section
 description: The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
-
 ---
 
 [Home](../index.md)
@@ -41,8 +40,8 @@ The content in this course is from a live hands-on workshop. These demo-heavy mo
 - [Purchasing the Virtual Machine Offer](#purchasing-the-virtual-machine-offer)
 - [Virtual Machine Software Reservations Overview](#virtual-machine-software-reservations-overview)
 - [Securing virtual machines and containers for certification](#securing-virtual-machines-and-containers-for-certification)
+- [Deprecating and restoring virtual machine images](#deprecating-and-restoring-virtual-machine-images)
 - [Hands-on labs](#hands-on-labs)
-
 
 ---
 
@@ -135,6 +134,17 @@ This module provides an overview of what Virtual Machine software reservations a
 <a href="https://go.microsoft.com/fwlink/?linkid=2220888" target="_blank">Video</a> | [PDF](./pdfs/0.0-securing-vm-and-container-images-overview.pdf)
 
 The last thing you want is to create and publish an offer only to have it fail Microsoft’s certification process. This module provides important tips and effective practices for securing virtual machines and containers before publication to the Azure Marketplace, so your offer makes it through certification the first time.
+
+## Deprecating and restoring virtual machine images
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2225068" target="_blank">Video</a>
+
+This video guides you through deprecating and restoring Virtual Machine images that have been published on the Azure Marketplace. You'll learn the steps to deprecate images, understand the window of deprecation, and how to undo changes within the restore window. Whether you're a seasoned Azure user or just starting out, this video provides valuable insights into the deprecation and restoration process.
+
+- [00:00 – Overview](https://www.youtube.com/watch?v=mUORIL39fnM&t=0s)
+- [00:58 – Deprecate an image](https://www.youtube.com/watch?v=mUORIL39fnM&t=58s)
+- [04:41 - Restore an image](https://www.youtube.com/watch?v=mUORIL39fnM&t=281s)
+- [06:49 – Summary](https://www.youtube.com/watch?v=mUORIL39fnM&t=409s)
 
 ---
 
