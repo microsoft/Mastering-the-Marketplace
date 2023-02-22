@@ -12,6 +12,7 @@ hide:
 In this lab, you will build on what you have accomplished in previous labs. You will trigger a meter usage event using Postman tool. You can use any API testing tool but for this lab we will be using Postman. 
 
 ## Prerequisites
+
 1. Postman tool
 1. Published a SaaS offer with a [customer meter dimension on a plan](../lab1-create-pc-offer#preview-audience) to preview stage.
 1. [App registration information](../lab2-create-landing-page#values-from-the-saas-workshop-single-tenant-app-registration) which is used in the technical configuration of the offer
@@ -30,7 +31,7 @@ In this lab, you will build on what you have accomplished in previous labs. You 
     | **grant_type** | `client_credentials` |
     | **client_id** | ```{{clientId}}``` (replace the {{clientId}} with [saas-workshop-single-tenant](../    lab2-create-landing-page#values-from-the-saas-workshop-single-tenant-app-registration) client/application Id) |
     | **client_secret** | ```{{clientSecret}}``` (replace the {{clientSecret}} with [saas-workshop-single-tenant](../    lab2-create-landing-page#values-from-the-saas-workshop-single-tenant-app-registration) secret) |
-    | **resource** | ```20e940b3-4c77-4b0b-9a53-9e16a1b010a7``` |
+    | **scope** | ```20e940b3-4c77-4b0b-9a53-9e16a1b010a7/.default``` |
 
 1. Click Send
 1. You should see a json response with access token like below.
