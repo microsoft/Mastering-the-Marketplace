@@ -5,23 +5,28 @@ repo_name: microsoft/Mastering-the-Marketplace
 edit_uri: ''
 extra_css: 
     - stylesheets/extra.css
-nav : 
-- Azure Managed Application offers: '/Mastering-the-Marketplace/ama/'
-- Container offers for K8s apps: '/Mastering-the-Marketplace/container/'
-- Partner Center: '/Mastering-the-Marketplace/partner-center/'
-- SaaS offers: '/Mastering-the-Marketplace/saas/'
-- SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
-- Virtual Machine offers: '/Mastering-the-Marketplace/vm/'
-- Teams offers: '/Mastering-the-Marketplace/teams/'
-- "": "/"
-- "": "/"
-- "": "/"
-- For customers: '/Mastering-the-Marketplace/learning-paths/customer'
-- Select your offer type: '/Mastering-the-Marketplace/misc/select-offer-type'
-- Choose your learning path: '/Mastering-the-Marketplace/learning-paths/'
-- Site change log: '/Mastering-the-Marketplace/misc/change-log'
+
+nav:
+  - Content by offer type:
+    - Azure Managed Application offers: '/Mastering-the-Marketplace/ama/'
+    - Container offers for K8s apps: '/Mastering-the-Marketplace/container/'
+    - SaaS offers: '/Mastering-the-Marketplace/saas/'
+    - Virtual Machine offers: '/Mastering-the-Marketplace/vm/'
+    - Teams offers: '/Mastering-the-Marketplace/teams/'
+  - Bonus content:
+    - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
+    - Partner Center: '/Mastering-the-Marketplace/partner-center/'
+    - Select your offer type: '/Mastering-the-Marketplace/misc/select-offer-type'
+  - Other:
+    - Content for customers: '/Mastering-the-Marketplace/learning-paths/customer'
+    - Learning paths: '/Mastering-the-Marketplace/learning-paths/'
+    - Site change log: '/Mastering-the-Marketplace/misc/change-log'
+    - ✉️ Contact us: 'https://forms.office.com/r/0gCrzhSMkw'
 
 theme:
+  features:
+    - navigation.sections
+    - navigation.expand
   name: material
   custom_dir: overrides
   palette: 
@@ -31,11 +36,11 @@ theme:
     repo: fontawesome/brands/github
     logo: fontawesome/brands/microsoft
   favicon: favicon.ico
-  features:
-    - navigation.sections
+
 extra: 
   homepage: https://microsoft.github.io/Mastering-the-Marketplace/
   generator: false
+
 markdown_extensions:
   - meta
   - attr_list

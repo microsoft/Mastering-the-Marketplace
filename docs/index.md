@@ -12,13 +12,9 @@ description: Mastering the Marketplace is a learning library for building transa
 
 ---
 
-Mastering the Marketplace is an on-demand learning library for building transactable offers on the Microsoft commercial marketplace. The library contains self-paced videos, hands-on labs, and sample code designed to help you get your offers onto the marketplace in less time and with more understanding.
+Mastering the Marketplace is an on-demand learning library for building transactable offers on the Microsoft commercial marketplace. The library contains on-demand videos, hands-on labs, and sample code designed to help you get your offers onto the marketplace in less time with more understanding.
 
 > 📆 Check out <a href="https://microsoftcloudpartner.eventbuilder.com/MarketplaceOverviewandQAforPartners" target="_blank">Marketplace Office Hours</a> for live webinars on all topics related to publishing your offer to the marketplace. Sessions are presented multiple times per week, and you'll even find links to our full-day *Mastering the Marketplace* workshops.
-
-[🚦](./learning-paths/index.md) If you aren't sure where to start, have a look at our [guided learning paths](./learning-paths/index.md)!
-
-[✉️](https://forms.office.com/r/0gCrzhSMkw) [We love hearing from you](https://forms.office.com/r/0gCrzhSMkw) and it's completely anonymous.
 
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">Build Custom SaaS Offers</span>
