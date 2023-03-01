@@ -16,13 +16,8 @@ description: The content in this course is from a live hands-on workshop. These 
 
 The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
 
-[✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
  
 [🚦](../learning-paths/virtual-machine-offers.md) Not sure where to get started? Try the *Working with Virtual Machine Offers* [Learning Path](../learning-paths/virtual-machine-offers.md).
-
-[🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
-
----
 
 <!-- no toc -->
 - [Creating Virtual Machine Offers Overview](#creating-virtual-machine-offers-overview)
@@ -41,7 +36,7 @@ The content in this course is from a live hands-on workshop. These demo-heavy mo
 - [Virtual Machine Software Reservations Overview](#virtual-machine-software-reservations-overview)
 - [Securing virtual machines and containers for certification](#securing-virtual-machines-and-containers-for-certification)
 - [Deprecating and restoring virtual machine images](#deprecating-and-restoring-virtual-machine-images)
-- [Hands-on labs](#hands-on-labs)
+- [🧪](#hands-on-labs) [Hands-on labs](#hands-on-labs)
 
 ---
 

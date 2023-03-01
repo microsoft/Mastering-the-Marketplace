@@ -14,10 +14,6 @@ hide:
 
 Using Partner Center to create and maintain your marketplace offers is a very large topic, so the topics are split into multiple pages. Visit the links below to learn about specific topics related to Partner Center.
 
----
-
-## Choose a Partner Center topic area
-
 - [Private Offers](./private-offers.md)
 - [Partner Center General Topics](./general.md)
 - [Working with SaaS Offers](./saas.md)

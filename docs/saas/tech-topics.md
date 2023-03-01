@@ -28,6 +28,7 @@ hide:
 - [SaaS Metered Billing Overview](#saas-metered-billing-overview)
 - [The SaaS Metered Billing API with REST](#the-saas-metered-billing-api-with-rest)
 - [Programmatic Access to Reporting and Insights](#programmatic-access-to-reporting-and-insights)
+- [Hands-on labs](#hands-on-labs)
 
 ---
 
@@ -151,3 +152,23 @@ This technical module demonstrates how to work with Partner Center reports and i
 - <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=149s">02:29</a> – Demo
 - <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=680s">11:20</a> – Commercial marketplace documentation
 - <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=732s">12:12</a> – Summary
+
+## Hands-on labs
+
+These hands-on labs focus on technical topics and are typically of use to technologists. They build upon each other. Perform them in sequential order to get a fully functional SaaS Offer published and working for your test environment.
+
+Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
+
+### Prerequisites
+
+1. Azure subscription that can create resources
+1. A Partner Center Account
+1. Visual Studio 2022, any version
+
+### Labs🧪
+
+1. [Creating a SaaS Offer in Partner Center](./labs/lab1-create-pc-offer/README.md)
+1. [Creating a Landing Page](./labs/lab2-create-landing-page/README.md)
+1. [Installing a Publisher Portal](./labs/lab3-install-pub-portal/README.md)
+1. [Deploying and Monitoring a Webhook](./labs/lab4-create-webhook/README.md)
+1. [Implementing Meter billing](./labs/lab5-implementing-meter-billing/README.md)

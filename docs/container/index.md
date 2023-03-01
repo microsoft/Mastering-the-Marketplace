@@ -17,15 +17,9 @@ hide:
 
 [Home](../index.md)
 
-# Mastering container offers for Kubernetes apps
+# Mastering Container offers for Kubernetes apps
 
 Container offers for Kubernetes applications is a transactable offer type for deploying solution containers into an Azure Kubernetes Service in the customer's subscription. This course will take you from an overview to deep understanding of the offer type. The large majority of the course is demo-first.
-
-[✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
-
-🧪 [Grow your skills with the hands-on labs](#hands-on-labs).
-
----
 
 <!-- no toc -->
 - [Container offer for Kubernetes apps overview](#container-offer-for-kubernetes-apps-overview)
@@ -40,7 +34,7 @@ Container offers for Kubernetes applications is a transactable offer type for de
 - [Subscribe to a Kubernetes app in the Commercial Marketplace](#subscribe-to-a-kubernetes-app-in-the-commercial-marketplace)
 - [Unsubscribe from a purchased Kubernetes app](#unsubscribe-from-a-purchased-kubernetes-app)
 - [Securing virtual machines and containers for certification](#securing-virtual-machines-and-containers-for-certification)
-- [Hands-on labs](#hands-on-labs)
+- [🧪](#hands-on-labs) [Hands-on labs](#hands-on-labs)
 
 ---
 

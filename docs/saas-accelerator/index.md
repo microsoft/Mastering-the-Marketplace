@@ -18,12 +18,6 @@ hide:
 
 This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project. The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days.
 
-[✉️](https://forms.office.com/r/0gCrzhSMkw) [Let us know what you need](https://forms.office.com/r/0gCrzhSMkw) from this content, or tell us how we're doing.
- 
-[🧪](#hands-on-labs) [Grow your skills with the hands-on labs](#hands-on-labs).
-
----
-
 <!-- no toc -->
 - [SaaS Accelerator Overview - A Hands-on Tour](#saas-accelerator-overview---a-hands-on-tour)
 - [SaaS Accelerator Architecture](#saas-accelerator-architecture)
@@ -32,7 +26,7 @@ This series of video modules and hands-on labs is designed to help you understan
 - [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
 - [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
 - [Setting up a development environment for the SaaS Accelerator](#setting-up-a-development-environment-for-the-saas-accelerator)
-- [Hands-on labs](#hands-on-labs)
+- [🧪](#hands-on-labs) [Hands-on labs](#hands-on-labs)
 
 ---
 
