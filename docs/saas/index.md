@@ -16,7 +16,7 @@ hide:
 # Mastering SaaS offers
 
 <!-- no toc -->
-- [SaaS offer technical topics](./tech-topics.md)
+- [SaaS offer technical course](./tech-topics.md)
 - [SaaS offer general knowledge topics](./general-topics.md) (of interest to publishers and customers)
 - [Working with SaaS offers in Partner Center](../partner-center/saas)
 

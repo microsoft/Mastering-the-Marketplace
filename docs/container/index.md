@@ -19,7 +19,7 @@ hide:
 
 # Mastering Container offers for Kubernetes apps
 
-Container offers for Kubernetes applications is a transactable offer type for deploying solution containers into an Azure Kubernetes Service in the customer's subscription. This course will take you from an overview to deep understanding of the offer type. The large majority of the course is demo-first.
+This course covers transactable container offers designed for deploying solutions into Azure Kubernetes Service within the customer's subscription. With a focus on practical demonstrations, this course provides a comprehensive understanding of the offer type, from overview to in-depth insights.
 
 <!-- no toc -->
 - [Container offer for Kubernetes apps overview](#container-offer-for-kubernetes-apps-overview)

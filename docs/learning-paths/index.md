@@ -12,8 +12,8 @@ hide:
 
 # 🚦What do you want to learn today?
 
-- [Topics for customers buying offers in the marketplace](./customer.md)
-- [Getting started with the Microsoft commercial marketplace](./getting-started.md)
+- [Getting started with the marketplace](./getting-started.md)
+- [Topics for your customers](./customer.md)
 - [Working with Partner Center](./partner-center.md)
 - [Working with SaaS offers](./saas-offers.md)
 - [Working with Virtual Machine offers](./virtual-machine-offers.md)
