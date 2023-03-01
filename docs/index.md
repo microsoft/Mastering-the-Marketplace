@@ -12,7 +12,7 @@ description: Mastering the Marketplace is a learning library for building transa
 
 ---
 
-Mastering the Marketplace is an on-demand learning library for building transactable offers on the Microsoft commercial marketplace. The library contains on-demand videos, hands-on labs, and sample code designed to help you get your offers onto the marketplace in less time with more understanding.
+You have reached the the most comprehensive on-demand content available to help you develop transactable offers for the Microsoft commercial marketplace. This site features instructional videos, interactive hands-on labs, and sample code to provide a better understanding of technical topics for the marketplace.
 
 > 📆 Check out <a href="https://microsoftcloudpartner.eventbuilder.com/MarketplaceOverviewandQAforPartners" target="_blank">Marketplace Office Hours</a> for live webinars on all topics related to publishing your offer to the marketplace. Sessions are presented multiple times per week, and you'll even find links to our full-day *Mastering the Marketplace* workshops.
 
@@ -66,11 +66,3 @@ Learn how to build transactable Microsoft Teams applications using SaaS offers a
 
 [Take me to it](/Mastering-the-Marketplace/teams){ .md-button }
 </div>
-
----
-
-You may find that you need to clone this repository to perform the labs. Feel free to clone or fork and we are always happy to take PRs!
-
-[View on GitHub  :material-github:](https://github.com/microsoft/Mastering-the-Marketplace){ .md-button .md-button--primary }
-
-<br/>
