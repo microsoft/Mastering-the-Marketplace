@@ -16,11 +16,11 @@ nav:
   - Bonus content:
     - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
     - Partner Center: '/Mastering-the-Marketplace/partner-center/'
-    - Select your offer type: '/Mastering-the-Marketplace/misc/select-offer-type'
+    - For your customers: '/Mastering-the-Marketplace/learning-paths/customer'
+    - Choose your offer type: '/Mastering-the-Marketplace/misc/select-offer-type'
   - Other:
-    - Content for customers: '/Mastering-the-Marketplace/learning-paths/customer'
-    - Learning paths: '/Mastering-the-Marketplace/learning-paths/'
-    - Site change log: '/Mastering-the-Marketplace/misc/change-log'
+    - 🚦Learning paths: '/Mastering-the-Marketplace/learning-paths/'
+    - 🗒️Site change log: '/Mastering-the-Marketplace/misc/change-log'
     - ✉️ Contact us: 'https://forms.office.com/r/0gCrzhSMkw'
 
 theme:
