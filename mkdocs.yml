@@ -8,11 +8,11 @@ extra_css:
 
 nav:
   - Content by offer type:
-    - Azure Managed Application offers: '/Mastering-the-Marketplace/ama/'
+    - Azure Managed Applications: '/Mastering-the-Marketplace/ama/'
     - Container offers for K8s apps: '/Mastering-the-Marketplace/container/'
-    - SaaS offers: '/Mastering-the-Marketplace/saas/'
-    - Virtual Machine offers: '/Mastering-the-Marketplace/vm/'
-    - Teams offers: '/Mastering-the-Marketplace/teams/'
+    - SaaS: '/Mastering-the-Marketplace/saas/'
+    - Virtual Machines: '/Mastering-the-Marketplace/vm/'
+    - Teams: '/Mastering-the-Marketplace/teams/'
   - Bonus content:
     - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
     - Partner Center: '/Mastering-the-Marketplace/partner-center/'
