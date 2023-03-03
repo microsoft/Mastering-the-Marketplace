@@ -7,7 +7,7 @@ extra_css:
     - stylesheets/extra.css
 
 nav:
-  - Content by offer type:
+  - Courses by offer type:
     - Azure Managed Applications: '/Mastering-the-Marketplace/ama/'
     - Container offers for K8s apps: '/Mastering-the-Marketplace/container/'
     - SaaS: '/Mastering-the-Marketplace/saas/'
@@ -16,9 +16,9 @@ nav:
   - Bonus content:
     - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
     - Partner Center: '/Mastering-the-Marketplace/partner-center/'
-    - For your customers: '/Mastering-the-Marketplace/learning-paths/customer'
   - More resources:
     - 🚦Learning paths: '/Mastering-the-Marketplace/learning-paths/'
+    - 🔎For your customers: '/Mastering-the-Marketplace/learning-paths/customer'
     - 🌐 Choose your offer type: '/Mastering-the-Marketplace/misc/select-offer-type'
     - 📆 Marketplace Office Hours: 'https://microsoftcloudpartner.eventbuilder.com/MarketplaceOverviewandQAforPartners'
     - 🗒️Site change log: '/Mastering-the-Marketplace/misc/change-log'

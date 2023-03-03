@@ -7,8 +7,8 @@ comments: false
 
 # 🚦What do you want to learn today?
 
-- [Getting started](./getting-started.md)
-- [Topics for your customers](./customer.md)
+- [Getting started with the marketplace](./getting-started.md)
+- [For your customers](./customer.md)
 - [Working with Partner Center](./partner-center.md)
 - [Working with SaaS offers](./saas-offers.md)
 - [Working with Virtual Machine offers](./virtual-machine-offers.md)

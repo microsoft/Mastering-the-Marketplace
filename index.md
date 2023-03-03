@@ -22,6 +22,10 @@ grid_navigation:
       excerpt: The SaaS Accelerator is a turn key reference implementation of a SaaS offer. Install in 20 minutes!
       cta: Take me to it
       url: '/saas-accelerator'
+    - title: Mastering Partner Center
+      excerpt: How-to content for working with the publisher's portal
+      cta: Take me to it
+      url: '/partner-center'
     - title: Virtual Machine offers
       excerpt: Create VM offers to publish in the Azure Marketplace
       cta: Take me to it
@@ -30,8 +34,4 @@ grid_navigation:
       excerpt: For those building Managed Apps for the Azure Marketplace
       cta: Take me to it
       url: '/ama'
-    - title: Mastering Partner Center
-      excerpt: How-to content for working with the publisher's portal
-      cta: Take me to it
-      url: '/partner-center'
 ---
