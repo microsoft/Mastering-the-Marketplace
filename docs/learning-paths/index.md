@@ -3,16 +3,11 @@
 layout: default
 keywords: Azure AppSource Marketplace SaaS
 comments: false
-
-hide:
-  - navigation
 ---
-
-[Home](../index.md)
 
 # 🚦What do you want to learn today?
 
-- [Getting started with the marketplace](./getting-started.md)
+- [Getting started](./getting-started.md)
 - [Topics for your customers](./customer.md)
 - [Working with Partner Center](./partner-center.md)
 - [Working with SaaS offers](./saas-offers.md)

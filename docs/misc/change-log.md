@@ -6,8 +6,6 @@ comments: false
 
 ---
 
-[Home](../index.md)
-
 # Site change log
 
 | Date | Change | Type |
