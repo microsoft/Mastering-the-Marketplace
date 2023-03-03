@@ -41,6 +41,9 @@ theme:
 extra: 
   homepage: https://microsoft.github.io/Mastering-the-Marketplace/
   generator: false
+  analytics:
+    provider: google
+    property: G-QFBKKPKXNV
 
 markdown_extensions:
   - meta
