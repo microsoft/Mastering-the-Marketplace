@@ -4,13 +4,13 @@ layout: default
 keywords: Azure AppSource Marketplace Partner Center
 comments: false
 
+title: Mastering Partner Center
+
 hide:
-  - navigation
+  - toc
 ---
 
-[Home](../)
 
-# Mastering Partner Center
 
 <div class="sub-page-tile" markdown="1">
   <span class="linkless-heading">Private Offers</span>

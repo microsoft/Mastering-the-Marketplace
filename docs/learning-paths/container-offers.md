@@ -3,15 +3,9 @@
 layout: default
 keywords: Azure AppSource Marketplace Containers
 comments: false
-
+title: 🚦Learning path - Working with Container Offers
 hide:
-  - navigation
----
-
-[Home](../index.md) > [Learning Paths](./index.md)
-
-# 🚦Working with Container Offers
-
+  - toc
 ---
 
 - [Mastering Container offers for Kubernetes apps](../container/index.md) (⏯️ 🧪 complete on-demand course)

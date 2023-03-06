@@ -3,14 +3,10 @@
 layout: default
 keywords: Azure AppSource Marketplace Virtual Machines
 comments: false
-
+title: 🚦Learning path - Working with Virtual Machine offers
 hide:
-  - navigation
+  - toc
 ---
-
-[Home](../index.md) > [Learning Paths](./index.md)
-
-# 🚦Working with Virtual Machine offers
 
 <!-- no toc -->
 - [Getting started creating Virtual Machine offers](#getting-started-creating-virtual-machine-offers)

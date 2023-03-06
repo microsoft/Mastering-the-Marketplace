@@ -1,22 +1,22 @@
 ---
 # Page settings
 layout: default
-keywords: Azure AppSoure Marketplace Virtual Machine
+keywords: Azure AppSource Marketplace Virtual Machine
 comments: false
+
+title: Mastering Virtual Machine Offers
+
 hide:
-  - navigation
+  - toc
 
 # Hero section
 description: The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
 ---
 
-[Home](../index.md)
 
-# Mastering Virtual Machine Offers
 
 The content in this course is from a live hands-on workshop. These demo-heavy modules take you all the way from creating a new virtual machine in Azure through publishing a custom virtual machine offer to the Microsoft commercial marketplace. If you are looking to publish a new virtual machine offer, this series will get you from beginner to advanced in a short time.
 
- 
 [🚦](../learning-paths/virtual-machine-offers.md) Not sure where to get started? Try the *Working with Virtual Machine Offers* [Learning Path](../learning-paths/virtual-machine-offers.md).
 
 <!-- no toc -->

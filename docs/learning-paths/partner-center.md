@@ -3,14 +3,10 @@
 layout: default
 keywords: Azure AppSource Marketplace SaaS
 comments: false
-
+title: 🚦 Learning path - Working with Partner Center
 hide:
-  - navigation
+  - toc
 ---
-
-[Home](../index.md) > [Learning Paths](./index.md)
-
-# 🚦Working with Partner Center
 
 <!-- no toc -->
 - [Getting started with Partner Center](#getting-started-with-partner-center)

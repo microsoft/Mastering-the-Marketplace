@@ -3,14 +3,10 @@
 layout: default
 keywords: Azure AppSource Marketplace Customer
 comments: false
-
+title: 🚦Learning path - For customers
 hide:
-  - navigation
+  - toc
 ---
-
-[Home](../index.md) > [Learning Paths](./index.md)
-
-# 🚦Customer learning path
 
 This learning path is for customers purchasing and using products from the Microsoft commercial marketplace.
 It covers various topics to help them work with publishers and offers in the marketplace.

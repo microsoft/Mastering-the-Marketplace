@@ -5,7 +5,7 @@ keywords: Azure AppSource Marketplace Container Offer
 comments: false
 
 # Hero section
-title: Mastering container offers for Kubernetes apps
+title: Mastering Container offers for Kubernetes apps
 description: This course will take you from working with a local app through publishing a Container Offer to the Microsoft commercial marketplace.
 
 # Micro navigation

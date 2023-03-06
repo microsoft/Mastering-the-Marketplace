@@ -5,7 +5,7 @@ keywords: Azure AppSource Marketplace SaaS
 comments: false
 
 hide:
-  - navigation
+  - toc
 ---
 
 [Home](../index.md)

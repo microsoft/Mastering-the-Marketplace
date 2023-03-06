@@ -4,13 +4,11 @@ layout: default
 keywords: Azure AppSource Marketplace Getting Started
 comments: false
 
+title: 🚦Learning path - Getting started with the marketplace
+
 hide:
-  - navigation
+- toc
 ---
-
-[Home](../index.md) > [Learning Paths](./index.md)
-
-# 🚦Getting started with the commercial marketplace
 
 <!-- no toc -->
 - [Marketplace essentials](#marketplace-essentials)

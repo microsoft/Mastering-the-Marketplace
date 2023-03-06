@@ -3,23 +3,21 @@
 layout: default
 keywords: Azure AppSource Marketplace SaaS
 comments: false
-
+title: 🚦Learning path - Working with Microsoft Teams offers
 hide:
-  - navigation
+  - toc
 ---
 
-[Home](../index.md) > [Learning Paths](./index.md)
+The content on this page assumes you are familiar with creating basic Teams applications. It focuses on topics applicable to selling Teams applications on the Microsoft commercial marketplace.
 
-# 🚦Working with Microsoft Teams offers
+> **Note:** Content related to creating SaaS applications can be found through the "[Working with SaaS Offers](./saas-offers.md)" learning path.
 
 <!-- no toc -->
 - [Selling Microsoft Teams applications overview topics](#selling-microsoft-teams-applications-overview-topics)
 - [I am a technologist building a Teams offers](#i-am-a-technologist-building-a-teams-offers)
 - [About the publication process](#about-the-publication-process)
 
-The content on this page assumes you are familiar with creating basic Teams applications. It focuses on topics applicable to selling Teams applications on the Microsoft commercial marketplace.
-
-> **Note:** Content related to creating SaaS applications can be found through the "[Working with SaaS Offers](./saas-offers.md)" learning path.
+---
 
 ## Selling Microsoft Teams applications overview topics
 

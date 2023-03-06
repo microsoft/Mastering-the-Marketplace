@@ -3,14 +3,10 @@
 layout: default
 keywords: Azure AppSource Marketplace Managed Applications
 comments: false
-
+title: 🚦Learning path - Working with Azure Managed Application offers
 hide:
-  - navigation
+  - toc
 ---
-
-[Home](../index.md) > [Learning Paths](./index.md)
-
-# 🚦Working with Azure Managed Application offers
 
 <!-- no toc -->
 - [Getting started with Azure Managed Application offers](#getting-started-with-azure-managed-application-offers)

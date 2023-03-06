@@ -3,9 +3,12 @@
 layout: default
 keywords: Azure AppSource Marketplace SaaS
 comments: false
----
 
-# 🚦What do you want to learn today?
+title: 🚦Learning paths - What do you want to learn today?
+
+hide: 
+  - toc
+---
 
 - [Getting started with the marketplace](./getting-started.md)
 - [For your customers](./customer.md)

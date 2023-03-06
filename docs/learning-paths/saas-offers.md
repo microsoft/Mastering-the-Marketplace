@@ -3,14 +3,10 @@
 layout: default
 keywords: Azure AppSource Marketplace SaaS
 comments: false
-
+title: 🚦Learning path - Working with SaaS Offers
 hide:
-  - navigation
+  - toc
 ---
-
-[Home](../index.md) > [Learning Paths](./index.md)
-
-# 🚦Working with SaaS Offers
 
 <!-- no toc -->
 - [Getting started creating a SaaS offer](#getting-started-creating-a-saas-offer)
