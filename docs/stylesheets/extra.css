@@ -85,6 +85,11 @@
     margin-bottom: 0.5em;
 }
 
+.sub-page-tile .md-button {
+    position: absolute;
+    bottom: 2em;
+}
+
 .landing-tile {
     position: relative;
     display: inline-block;
