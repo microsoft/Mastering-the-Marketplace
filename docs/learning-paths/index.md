@@ -12,9 +12,9 @@ hide:
 
 - [Getting started with the marketplace](./getting-started.md)
 - [For your customers](./customer.md)
+- [Working with Azure Managed Application offers](./ama-offers.md)
+- [Working with Container offers for Kubernetes apps](./container-offers.md)
 - [Working with Partner Center](./partner-center.md)
 - [Working with SaaS offers](./saas-offers.md)
 - [Working with Virtual Machine offers](./virtual-machine-offers.md)
-- [Working with Azure Managed Application offers](./ama-offers.md)
-- [Working with Container offers for Kubernetes apps](./container-offers.md)
 - [Working with Microsoft Teams offers](./teams-offers.md)
