@@ -5,16 +5,12 @@ keywords: Azure AppSource Marketplace Partner Center
 comments: false
 
 # Hero section
-
+title: Private offers in Partner Center
 description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
 hide:
-  - navigation
+  - toc
 ---
-
-[Home](../index.md) > [Mastering Partner Center](./index.md)
-
-# Private offers in Partner Center
 
 <!-- no toc -->
 - [Private offers vs. private plans](#private-offers-vs-private-plans)

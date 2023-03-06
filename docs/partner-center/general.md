@@ -5,18 +5,12 @@ keywords: Azure AppSource Marketplace Partner Center
 comments: false
 
 # Hero section
-
+title: Partner Center General Topics
 description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
-title: Partner Center General Topics
-
 hide:
-  - navigation
+  - toc
 ---
-
-[Home](../index.md) > [Mastering Partner Center](./index.md)
-
-# Partner Center General Topics
 
 <!-- no toc -->
 - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)

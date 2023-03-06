@@ -5,16 +5,12 @@ keywords: Azure AppSource Marketplace Partner Center
 comments: false
 
 # Hero section
-
+title: Working with Azure Managed Application Offers in Partner Center
 description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
 hide:
-  - navigation
+  - toc
 ---
-
-[Home](../index.md) > [Mastering Partner Center](./index.md)
-
-# Working with Azure Managed Application Offers in Partner Center
 
 <!-- no toc -->
 - [Partner Center for Azure Managed Applications Overview](#partner-center-for-azure-managed-applications-overview)
