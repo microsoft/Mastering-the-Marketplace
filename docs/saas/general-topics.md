@@ -5,16 +5,12 @@ keywords: Azure AppSource Marketplace SaaS
 comments: false
 
 # Hero section
-
+title: SaaS offer general topics
 description: These topics focus on helping you understand general topics regarding SaaS offers for the Microsoft commercial marketplace.
 
 hide:
-  - navigation
+  - toc
 ---
-
-[Home](../index.md) > [Mastering SaaS offers](./index.md)
-
-# SaaS offer general knowledge topics
 
 **[Publisher experience topics](#publisher-experience)**
 <!-- no toc -->

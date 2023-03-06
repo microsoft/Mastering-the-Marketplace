@@ -5,16 +5,12 @@ keywords: Azure AppSource Marketplace Partner Center
 comments: false
 
 # Hero section
-
+title: Working with SaaS Offers in Partner Center
 description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 title: Working with SaaS Offers in Partner Center
 hide:
-  - navigation
+  - toc
 ---
-
-[Home](../index.md) > [Mastering Partner Center](./index.md)
-
-# Working with SaaS Offers in Partner Center
 
 <!-- no toc -->
 - [Publishing a SaaS Offer](#publishing-a-saas-offer)

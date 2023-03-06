@@ -18,10 +18,10 @@ nav:
     - Partner Center: '/Mastering-the-Marketplace/partner-center/'
   - More resources:
     - 🌐 Choose your offer type: '/Mastering-the-Marketplace/misc/select-offer-type'
-    - 🚦Learning paths: '/Mastering-the-Marketplace/learning-paths/'
-    - 🔎For your customers: '/Mastering-the-Marketplace/learning-paths/customer'
+    - 🚦 Learning paths: '/Mastering-the-Marketplace/learning-paths/'
+    - 🔎 For your customers: '/Mastering-the-Marketplace/learning-paths/customer'
     - 📆 Marketplace Office Hours: 'https://microsoftcloudpartner.eventbuilder.com/MarketplaceOverviewandQAforPartners'
-    - 🗒️Site change log: '/Mastering-the-Marketplace/misc/change-log'
+    - 🗒️ Site change log: '/Mastering-the-Marketplace/misc/change-log'
     - ✉️ Contact us: 'https://forms.office.com/r/0gCrzhSMkw'
 
 theme:
