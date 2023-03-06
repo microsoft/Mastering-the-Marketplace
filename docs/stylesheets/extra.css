@@ -63,6 +63,28 @@
     margin-left: 0;
 }
 
+.sub-page-tile {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 43%;
+    padding: 3%;
+    margin: 2%;
+    height: 15em;
+    margin-left: 0;
+    margin-bottom: 2em;
+    box-shadow: 0 0 0.2em silver;
+    border-radius: 0.5em;
+}
+
+.sub-page-tile .linkless-heading {
+    position: relative;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5em;
+}
+
 .landing-tile {
     position: relative;
     display: inline-block;
@@ -91,7 +113,7 @@
     bottom: 2em;
 }
 
-.landing-tile .linkless-heading {
+.landing-tile .linkless-heading  {
     position: relative;
     font-size: 1.5em;
     font-weight: bold;
