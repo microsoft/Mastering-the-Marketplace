@@ -9,11 +9,13 @@ comments: false
 description: This course is designed to help you decrease your onboarding when building an Azure Managed Application offer.
 
 hide:
-  - navigation
+  - toc
+
+theme:
+  features:
+    - navigation.top
 
 ---
-
-[Home](../index.md)
 
 # Mastering Azure Managed Application Offers
 

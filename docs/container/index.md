@@ -12,12 +12,8 @@ description: This course will take you from working with a local app through pub
 micro_nav: false
 
 hide:
-- navigation
+- toc
 ---
-
-[Home](../index.md)
-
-# Mastering Container offers for Kubernetes apps
 
 This course covers transactable container offers designed for deploying solutions into Azure Kubernetes Service within the customer's subscription. With a focus on practical demonstrations, this course provides a comprehensive understanding of the offer type, from overview to in-depth insights.
 
