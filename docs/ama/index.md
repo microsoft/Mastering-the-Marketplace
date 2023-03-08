@@ -17,8 +17,6 @@ theme:
 
 title: Mastering Azure Managed Application Offers
 
-search:
-  - boost: 2
 ---
 
 This course streamlines the Azure Managed Application offer-building onboarding process. It consists of virtual workshop recordings segmented into easily digestible modules, along with practical hands-on labs to apply your newly acquired knowledge.
