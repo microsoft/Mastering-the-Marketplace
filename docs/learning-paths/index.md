@@ -10,7 +10,7 @@ hide:
   - toc
 
 search:
-  - boost: 1
+  - boost: 2
 ---
 
 - [Getting started with the marketplace](./getting-started.md)
