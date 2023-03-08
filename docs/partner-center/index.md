@@ -8,9 +8,6 @@ title: Mastering Partner Center
 
 hide:
   - toc
-
-search:
-  - boost: 1
 ---
 
 

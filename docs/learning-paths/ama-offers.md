@@ -6,9 +6,6 @@ comments: false
 title: 🚦Learning path - Working with Azure Managed Application offers
 hide:
   - toc
-
-search:
-  - boost: 2
 ---
 
 <!-- no toc -->

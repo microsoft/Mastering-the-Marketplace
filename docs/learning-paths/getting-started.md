@@ -8,9 +8,6 @@ title: 🚦Learning path - Getting started with the marketplace
 
 hide:
 - toc
-
-search:
-  - boost: 2
 ---
 
 <!-- no toc -->

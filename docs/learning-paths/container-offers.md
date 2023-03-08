@@ -6,9 +6,6 @@ comments: false
 title: 🚦Learning path - Working with Container Offers
 hide:
   - toc
-
-search:
-  - boost: 2
 ---
 
 - [Mastering Container offers for Kubernetes apps](../container/index.md) (⏯️ 🧪 complete on-demand course)

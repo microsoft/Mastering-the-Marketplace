@@ -6,9 +6,6 @@ comments: false
 title: 🚦Learning path - For customers
 hide:
   - toc
-
-search:
-  - boost: 2
 ---
 
 This learning path is for customers purchasing and using products from the Microsoft commercial marketplace.
