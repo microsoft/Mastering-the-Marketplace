@@ -16,10 +16,6 @@ theme:
     - navigation.top
 
 title: Mastering Azure Managed Application Offers
-
-search:
-  - boost: 1
-
 ---
 
 This course streamlines the Azure Managed Application offer-building onboarding process. It consists of virtual workshop recordings segmented into easily digestible modules, along with practical hands-on labs to apply your newly acquired knowledge.
@@ -154,7 +150,7 @@ These hand on labs build on top of one another, so progress through them in orde
 
 Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
 
-### Labs 🧪 
+### Labs 🧪
 
 1. Lab 1 - [Publishing an Azure Managed Application Offer in Partner Center](./labs/lab-1-partner-center/README.md)
 2. Lab 2 - [The Managed Application Deployment Package](./labs/lab-2-deployment-package/README.md)
