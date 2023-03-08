@@ -12,6 +12,9 @@ description: This series of video modules and hands-on labs is designed to help 
 
 hide:
   - toc
+
+search:
+  - boost: 1
 ---
 
 The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days. This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project.

@@ -10,6 +10,9 @@ description: These topics focus on helping you understand general topics regardi
 
 hide:
   - toc
+
+search:
+  - boost: 1
 ---
 
 SaaS offers are a popular deployment architecture for deploying offers onto the Azure marketplace. The below course takes you through SaaS offers from start to finish.

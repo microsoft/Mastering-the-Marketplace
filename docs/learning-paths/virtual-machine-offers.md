@@ -6,6 +6,9 @@ comments: false
 title: 🚦Learning path - Working with Virtual Machine offers
 hide:
   - toc
+
+search:
+  - boost: 2
 ---
 
 <!-- no toc -->

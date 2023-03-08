@@ -8,6 +8,9 @@ title: 🚦Learning paths - What do you want to learn today?
 
 hide: 
   - toc
+
+search:
+  - boost: 1
 ---
 
 - [Getting started with the marketplace](./getting-started.md)

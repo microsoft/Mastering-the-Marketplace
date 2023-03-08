@@ -1,6 +1,9 @@
 ---
 hide:
   - navigation
+
+search:
+  exclude: true
 ---
 
 # Lab 2 - Installing the SaaS Accelerator

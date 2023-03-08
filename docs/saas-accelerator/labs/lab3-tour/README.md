@@ -1,6 +1,9 @@
 ---
 hide:
   - navigation
+
+search:
+  exclude: true
 ---
 
 # Lab 3 - Using the SaaS Accelerator

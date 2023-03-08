@@ -6,6 +6,9 @@ comments: false
 title: 🚦Learning path - Working with SaaS Offers
 hide:
   - toc
+
+search:
+  - boost: 2
 ---
 
 <!-- no toc -->

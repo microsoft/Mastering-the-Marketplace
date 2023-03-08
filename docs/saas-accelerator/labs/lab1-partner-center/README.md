@@ -1,6 +1,9 @@
 ---
 hide:
   - navigation
+
+search:
+  exclude: true
 ---
 
 # Lab 1 - Creating a SaaS Offer in Partner Center
