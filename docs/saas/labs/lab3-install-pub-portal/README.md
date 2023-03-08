@@ -1,6 +1,8 @@
 ---
 hide:
   - navigation
+search:
+    exclude: true
 ---
 
 # Lab 3 - Installing a Publisher Portal

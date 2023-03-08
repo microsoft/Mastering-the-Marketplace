@@ -1,6 +1,9 @@
 ---
 hide:
   - navigation
+
+search:
+    exclude: true
 ---
 
 # Lab 5 - Implementing Meter billing using postman

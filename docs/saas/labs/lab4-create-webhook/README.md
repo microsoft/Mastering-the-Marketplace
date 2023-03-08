@@ -1,6 +1,8 @@
 ---
 hide:
   - navigation
+search:
+    exclude: true
 ---
 
 # Lab 4 - Deploying and Monitoring a Webhook

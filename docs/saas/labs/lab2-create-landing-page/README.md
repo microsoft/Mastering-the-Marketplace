@@ -1,6 +1,8 @@
 ---
 hide:
-  - navigation
+  - toc
+search:
+    exclude: true
 ---
 
 # Lab 2 - Creating a Landing Page
