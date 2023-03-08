@@ -6,9 +6,6 @@ comments: false
 title: 🚦Learning path - Working with Microsoft Teams offers
 hide:
   - toc
-
-search:
-  - boost: 2
 ---
 
 The content on this page assumes you are familiar with creating basic Teams applications. It focuses on topics applicable to selling Teams applications on the Microsoft commercial marketplace.

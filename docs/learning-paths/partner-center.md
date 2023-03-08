@@ -6,9 +6,6 @@ comments: false
 title: 🚦 Learning path - Working with Partner Center
 hide:
   - toc
-
-search:
-  - boost: 2
 ---
 
 <!-- no toc -->

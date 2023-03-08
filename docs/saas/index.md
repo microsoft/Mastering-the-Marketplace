@@ -11,9 +11,6 @@ title: SaaS offer topics
 
 hide:
   - toc
-
-search:
-  - boost: 1
 ---
 
 <div class="sub-page-tile" markdown="1">
