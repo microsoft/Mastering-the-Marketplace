@@ -4,9 +4,10 @@ layout: default
 keywords: Azure AppSource Marketplace
 comments: false
 
+title: Site change log
+hide:
+  - toc
 ---
-
-# Site change log
 
 | Date | Change | Type |
 ---| ---| ---|

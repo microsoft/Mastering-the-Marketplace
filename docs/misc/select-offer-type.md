@@ -6,13 +6,11 @@ comments: false
 
 hide:
   - toc
+
+title: Choose Your Offer Type
 ---
 
-[Home](../index.md)
-
-# Choose Your Offer Type
-
-If you aren't certain which offer type you will be creating, this page is for you. Primary considerations for choosing an offer type include billing options and deployment architectures. This page has resources to help walk through these topics as well as any others related to getting started.
+If you are deciding which offer type you will be creating, this page is for you. Primary considerations for choosing an offer type include billing options and deployment architectures. This page has resources to help walk through these topics as well as any others related to getting started.
 
 ## Decision tree
 
