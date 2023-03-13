@@ -11,6 +11,8 @@ search:
 
 ⚠️ Completion of this lab is required for the following labs in the series to work properly.
 
+💀 The code in this lab is **NOT** meant to be used for production environments. It is a simple example with no error handling, no custom workflows, and is for learning purposes only.
+
 ## Overview
 
 This is a quick lab in which you will create one app registration and deploy a small website used by the publisher for activating customer subscriptions. After you have the new website installed, the customer can use their landing page to request subscription activation and use the publisher portal to activate the subscription.
