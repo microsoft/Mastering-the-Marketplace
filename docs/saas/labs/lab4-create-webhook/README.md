@@ -11,7 +11,7 @@ search:
 
 ⚠️ Completion of this lab is required for the following labs in the series to work properly.
 
-💀 The code in this lab is **NOT** meant to be used for production environments. It is a simple example with no error handling, no custom workflows, and is for learning purposes only.
+> 💀 The code in this lab is **NOT** meant to be used for production environments. It is a simple example with no error handling, no custom workflows, and is for learning purposes only.
 
 ## Overview
 

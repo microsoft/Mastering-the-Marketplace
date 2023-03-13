@@ -10,7 +10,7 @@ search:
 
 👈 [Back to SaaS Offer labs](../../index.md#labs)
 
-💀 The code in this lab is **NOT** meant to be used for production environments. It is a simple example with no error handling, no custom workflows, and is for learning purposes only.
+> 💀 The code in this lab is **NOT** meant to be used for production environments. It is a simple example with no error handling, no custom workflows, and is for learning purposes only.
 
 ## Overview
 
