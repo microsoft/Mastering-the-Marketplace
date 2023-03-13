@@ -11,6 +11,8 @@ search:
 
 ⚠️ Completion of this lab is required for the following labs in the series to work properly.
 
+💀 The code in this lab is **NOT** meant to be used for production environments. It is a simple example with no error handling, no custom workflows, and is for learning purposes only.
+
 ## Overview
 
 In this lab, you will use your Partner Center account to create a **test** SaaS offer with a single plan. 
@@ -166,7 +168,6 @@ The Plan has several components to it, all of which must be completed.
 1. Leave **Billing term** as **Monthly**.
 1. Enter 0 for the cost per month.
 
-
 **For Marketplace Metering Service dimensions:**
 
 1. Click the  **Add a Custom Meter Dimension (Max 30)** link. This will create a new row. Enter the below values.
@@ -201,5 +202,3 @@ In this short exercise, you will check your work by performing the first action 
 **Congratulation!** You have finished this lab.
 
 👈 [Back to SaaS Offer labs](../../index.md#labs)
-
-

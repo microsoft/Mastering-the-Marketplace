@@ -254,6 +254,8 @@ We exercise the SaaS Billing REST API using Postman to illustrate how the API wo
 
 ## Hands-on labs
 
+💀 The code in this lab is **NOT** meant to be used for production environments. It is a simple example with no error handling, no custom workflows, and is for learning purposes only.
+
 These hands-on labs focus on technical topics and are typically of use to technologists. They build upon each other. Perform them in sequential order to get a fully functional SaaS Offer published and working for your test environment.
 
 Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.

@@ -11,6 +11,8 @@ search:
 
 ⚠️ Completion of this lab is required for the following labs in the series to work properly.
 
+💀 The code in this lab is **NOT** meant to be used for production environments. It is a simple example with no error handling, no custom workflows, and is for learning purposes only.
+
 ## Overview
 
 In this lab, you will build on what you accomplished in previous labs. You will create a SaaS offer webhook and integrate it with your Partner Center SaaS offer configuration, enabling your webhook to respond to subscription change events.

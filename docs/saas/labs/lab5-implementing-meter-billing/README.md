@@ -10,6 +10,8 @@ search:
 
 👈 [Back to SaaS Offer labs](../../index.md#labs)
 
+💀 The code in this lab is **NOT** meant to be used for production environments. It is a simple example with no error handling, no custom workflows, and is for learning purposes only.
+
 ## Overview
 
 In this lab, you will build on what you have accomplished in previous labs. You will trigger a meter usage event using Postman tool. You can use any API testing tool but for this lab we will be using Postman. 
