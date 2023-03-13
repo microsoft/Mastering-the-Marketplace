@@ -24,6 +24,7 @@ The SaaS Accelerator provides a fully functional community-led SaaS reference im
 - [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
 - [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
 - [Setting up a development environment for the SaaS Accelerator](#setting-up-a-development-environment-for-the-saas-accelerator)
+- [Replacing application secrets for the SaaS Accelerator](#replacing-application-secrets-for-the-saas-accelerator)
 - [🧪](#hands-on-labs) [Hands-on labs](#hands-on-labs)
 
 ---
@@ -90,6 +91,20 @@ If you want to customize the SaaS Accelerator to suit your environment, it can b
 - [19:54 - Running the landing page site locally](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=1194s)
 - [25:40 - Deploying changes to Azure](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=1540s)
 - [30:42 – Summary](https://www.youtube.com/watch?v=H8p9n1bVTjY&t=1842s)
+
+## Replacing application secrets for the SaaS Accelerator
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2197498" target="_blank">Video</a> | [PDF](pdfs/10-renewing-application-secrets.pdf)
+
+In this instructional video, you'll learn how to replace application secrets for the SaaS Accelerator. The video is packed with demos that show you step-by-step how to replace your application secrets before they expire, causing errors on your landing page and admin portal. If you're experiencing these issues, this video will guide you through the process of correcting them, ensuring your SaaS Accelerator is running smoothly.
+
+- [00:00 - Overview](https://www.youtube.com/watch?v=YZSgR_Qgiew&t=0s)
+- [01:00 - Impact of an expired application secret](https://www.youtube.com/watch?v=YZSgR_Qgiew&t=60s)
+- [02:15 - Steps of replacing secrets in Key Vault](https://www.youtube.com/watch?v=YZSgR_Qgiew&t=135s)
+- [02:47 - Demo: replacing secrets in Key Vault](https://www.youtube.com/watch?v=YZSgR_Qgiew&t=167s)
+- [07:00 - Steps of replacing secrets in App Service config](https://www.youtube.com/watch?v=YZSgR_Qgiew&t=420s)
+- [07:29 - Demo: Replacing secrets in App Service config](https://www.youtube.com/watch?v=YZSgR_Qgiew&t=449s)
+- [10:07 - Summary](https://www.youtube.com/watch?v=YZSgR_Qgiew&t=607s)
 
 ---
 
