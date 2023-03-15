@@ -37,6 +37,12 @@ This introduction to the accelerator demonstrates the [SaaS Accelerator's](https
 
 You'll see the landing page, the publisher's subscription management portal, and the customer's subscription management capabilities in action!
 
+- [00:00 – Overview](https://www.youtube.com/watch?v=I9bQlhjNa_8&t=0s)
+- [00:57 – Landing Page Demo](https://www.youtube.com/watch?v=I9bQlhjNa_8&t=57s)
+- [02:55 – Publisher Subscription Management Portal](https://www.youtube.com/watch?v=I9bQlhjNa_8&t=175s)
+- [04:17 – Customer Subscription Management](https://www.youtube.com/watch?v=I9bQlhjNa_8&t=257s)
+- [05:15 – Summary](https://www.youtube.com/watch?v=I9bQlhjNa_8&t=315s)
+
 ## SaaS Accelerator Architecture
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196167">Video</a> | <a href="./pdfs/03-architecture.pdf">PDF</a>
@@ -64,6 +70,11 @@ Follow along and you will be up and running with the SaaS Accelerator in no time
 
 We look at the metered billing capabilities of the SaaS Accelerator for the Azure Marketplace. This video shows how to manually invoke metered billing events from the SaaS Accelerator without needing to integrate your solution with the SaaS Metering APIs.
 
+- [00:00 – Overview](https://www.youtube.com/watch?v=DXmyagu98nE&t=0s)
+- [00:32 – Metered Billing on Partner Center](https://www.youtube.com/watch?v=DXmyagu98nE&t=32s)
+- [02:37 – Metered Billing on Publisher Portal](https://www.youtube.com/watch?v=DXmyagu98nE&t=157s)
+- [04:45 – Summary](https://www.youtube.com/watch?v=DXmyagu98nE&t=285s)
+
 ## Custom Landing Page Fields with the SaaS Accelerator
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196166">Video</a>
@@ -75,6 +86,11 @@ In addition to showing your subscribers information about their subscription whe
 <a href="https://go.microsoft.com/fwlink/?linkid=2196165" target="_blank">Video</a>
 
 You will likely want to receive email when a subscription changes state. For example, when a someone unsubscribes from your offer. This video shows how to configure the email setting within the SaaS Accelerator and get those notifications coming right to your inbox.
+
+- [00:00 – Overview](https://www.youtube.com/watch?v=IniPruOrV8I&t=0s)
+- [00:52 – Demo with SendGrid](https://www.youtube.com/watch?v=IniPruOrV8I&t=52s)
+- [03:31 – Demo with admin portal](https://www.youtube.com/watch?v=IniPruOrV8I&t=211s)
+- [06:47 – Summary](https://www.youtube.com/watch?v=IniPruOrV8I&t=407s)
 
 ## Setting up a development environment for the SaaS Accelerator
 
