@@ -61,18 +61,6 @@ This video offers a technical overview of #Microsoft Azure Marketplace SaaS offe
 - 07:53 - [Pricing models](https://www.youtube.com/watch?v=9PCTioPbI8M&t=473s)
 - 13:31 - [Summary](https://www.youtube.com/watch?v=9PCTioPbI8M&t=811s)
 
-## Purchasing a SaaS offer
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196322">Video</a> | [PDF](./pdfs/02.1-Purchasing-a-SaaS-Offer.pdf)
-
-This video offers a technical overview of #Microsoft Azure Marketplace SaaS offers. It shows what you need to get started creating a SaaS offer of your own.
-
-- 00:00 – [Overview](https://www.youtube.com/watch?v=9PCTioPbI8M&t=0s)
-- 00:57 - [Microsoft commercial marketplace](https://www.youtube.com/watch?v=9PCTioPbI8M&t=57s)
-- 05:01 - [SaaS offer creation process](https://www.youtube.com/watch?v=9PCTioPbI8M&t=301s)
-- 07:53 - [Pricing models](https://www.youtube.com/watch?v=9PCTioPbI8M&t=473s)
-- 13:31 - [Summary](https://www.youtube.com/watch?v=9PCTioPbI8M&t=811s)
-
 ## Purchasing a Private SaaS Plan
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196255">Video</a> | [PDF](./pdfs/02.2-Purchasing-a-Private-SaaS-Plan.pdf)
