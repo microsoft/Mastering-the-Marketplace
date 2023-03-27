@@ -153,10 +153,8 @@ The preview audience specifies the subscriptions that will be able to test the o
 
 Finally click the **Review and publish** button.
 
-You should now see green checkmarks for all the sections. This means you ready to publish. Click on **Publish** at the bottom to start the publishing process.
+You should now see green check marks for all the sections. This means you ready to publish. 
 
-> **Note:** It will take a while for the offer to publish ETA 2 days due to certification process.
+> ⚠️ **Note:** Do not actually publish this test offer. Publishing Container offers triggers a manual certification process and your offer will not be accepted for certification.
 
 **Congratulations!** You have now finished this lab.
-
-[Continue to Lab 4](../lab4-purchasing-container-offer/index.md)
