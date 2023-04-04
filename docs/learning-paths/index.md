@@ -17,4 +17,4 @@ hide:
 - [Working with Partner Center](./partner-center.md)
 - [Working with SaaS offers](./saas-offers.md)
 - [Working with Virtual Machine offers](./virtual-machine-offers.md)
-- [Working with Microsoft Teams offers](./teams-offers.md)
+<!-- - [Working with Microsoft Teams offers](./teams-offers.md) -->
