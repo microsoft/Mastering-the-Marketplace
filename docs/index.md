@@ -14,8 +14,6 @@ description: Mastering the Marketplace is a learning library for building transa
 
 You have reached the the most comprehensive on-demand content available to help you develop transactable offers for the Microsoft commercial marketplace. This site features instructional videos, interactive hands-on labs, and sample code to provide a better understanding of technical topics for the marketplace.
 
-> 📆 Check out <a href="https://microsoftcloudpartner.eventbuilder.com/MarketplaceOverviewandQAforPartners" target="_blank">Marketplace Office Hours</a> for live webinars on all topics related to publishing your offer to the marketplace. Sessions are presented multiple times per week, and you'll even find links to our full-day *Mastering the Marketplace* workshops.
-
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">Build Custom SaaS Offers</span>
 This comprehensive course takes you through all you need to get a SaaS offer up and running. From landing pages to webhooks, this course will help you get your custom SaaS offer up and running in days instead of weeks. 
