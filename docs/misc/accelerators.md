@@ -13,6 +13,13 @@ Marketplace technical accelerators are a set of tools and templates that help yo
 
 Resources on this page include both technical accelerators and example references.
 
+<!-- no toc -->
+- [SaaS Accelerator](#saas-accelerator)
+- [SaaS client libraries and REST scripts](#saas-client-libraries-and-rest-scripts)
+- [Managed Apps Accelerator ToolKit](#managed-apps-accelerator-toolkit)
+
+---
+
 ## SaaS Accelerator
 
 The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days. In support of the Saas Accelerator, the Mastering the Marketplace content library has a complete course on how to build a SaaS offer using the SaaS Accelerator.
