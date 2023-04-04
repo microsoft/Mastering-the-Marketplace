@@ -16,11 +16,15 @@ nav:
   - Bonus content:
     - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
     - Partner Center: '/Mastering-the-Marketplace/partner-center/'
+    - Private offers: '/Mastering-the-Marketplace/partner-center/private-offers'
+  - Events:
+    - Webinars: 'https://aka.ms/MTMwebinars'
+    - Live workshops: 'https://aka.ms/MTMworkshops'
   - More resources:
+    - ⚙️ Technical Accelerators: 'https://aka.ms/MTMaccelerate'
     - 🌐 Choose your offer type: '/Mastering-the-Marketplace/misc/select-offer-type'
     - 🚦 Learning paths: '/Mastering-the-Marketplace/learning-paths/'
     - 🔎 For your customers: '/Mastering-the-Marketplace/learning-paths/customer'
-    - 📆 Marketplace Office Hours: 'https://microsoftcloudpartner.eventbuilder.com/MarketplaceOverviewandQAforPartners'
     - 🗒️ Site change log: '/Mastering-the-Marketplace/misc/change-log'
     - ✉️ Contact us: 'https://forms.office.com/r/0gCrzhSMkw'
 
