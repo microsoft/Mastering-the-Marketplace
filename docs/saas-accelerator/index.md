@@ -17,15 +17,16 @@ hide:
 The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days. This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project.
 
 <!-- no toc -->
-- [SaaS Accelerator Overview - A Hands-on Tour](#saas-accelerator-overview---a-hands-on-tour)
+- [SaaS Accelerator Overview - A Hands-on Tour](#saas-accelerator-overview-a-hands-on-tour)
 - [SaaS Accelerator Architecture](#saas-accelerator-architecture)
 - [Installing the SaaS Accelerator with the Azure portal cloud shell](#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell)
+- [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
 - [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
 - [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
-- [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
 - [Setting up a development environment for the SaaS Accelerator](#setting-up-a-development-environment-for-the-saas-accelerator)
 - [Replacing application secrets for the SaaS Accelerator](#replacing-application-secrets-for-the-saas-accelerator)
-- [🧪](#hands-on-labs) [Hands-on labs](#hands-on-labs)
+- [Hands-on labs](#hands-on-labs)
+
 
 ---
 
@@ -33,7 +34,7 @@ The SaaS Accelerator provides a fully functional community-led SaaS reference im
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196164">Video</a>
 
-This introduction to the accelerator demonstrates the [SaaS Accelerator's](https://aka.ms/SaaSAccelerator) core capabilities showing why it may be a good choice for your marketplace SaaS offer. In three short demos, this video shows its fundamental capabilities. 
+This introduction to the accelerator demonstrates the [SaaS Accelerator's](https://aka.ms/SaaSAccelerator) core capabilities showing why it may be a good choice for your marketplace SaaS offer. In three short demos, this video shows its fundamental capabilities.
 
 You'll see the landing page, the publisher's subscription management portal, and the customer's subscription management capabilities in action!
 
@@ -64,6 +65,17 @@ Follow along and you will be up and running with the SaaS Accelerator in no time
 - [10:33 - Updating an existing installation](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=633s)
 - [13:48 – Summary](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=828s)
 
+## Configuring Email in the SaaS Accelerator
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2196165" target="_blank">Video</a>
+
+You will likely want to receive email when a subscription changes state. For example, when a someone unsubscribes from your offer. This video shows how to configure the email setting within the SaaS Accelerator and get those notifications coming right to your inbox.
+
+- [00:00 – Overview](https://www.youtube.com/watch?v=IniPruOrV8I&t=0s)
+- [00:52 – Demo with SendGrid](https://www.youtube.com/watch?v=IniPruOrV8I&t=52s)
+- [03:31 – Demo with admin portal](https://www.youtube.com/watch?v=IniPruOrV8I&t=211s)
+- [06:47 – Summary](https://www.youtube.com/watch?v=IniPruOrV8I&t=407s)
+
 ## Invoking Metered Billing with the SaaS Accelerator
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196161">Video</a>
@@ -80,17 +92,6 @@ We look at the metered billing capabilities of the SaaS Accelerator for the Azur
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196166">Video</a>
 
 In addition to showing your subscribers information about their subscription when they arrive at your landing page, you may also want to capture some information from them. This is possible using custom fields on the landing page and this short video shows you how to use them.
-
-## Configuring Email in the SaaS Accelerator
-
-<a href="https://go.microsoft.com/fwlink/?linkid=2196165" target="_blank">Video</a>
-
-You will likely want to receive email when a subscription changes state. For example, when a someone unsubscribes from your offer. This video shows how to configure the email setting within the SaaS Accelerator and get those notifications coming right to your inbox.
-
-- [00:00 – Overview](https://www.youtube.com/watch?v=IniPruOrV8I&t=0s)
-- [00:52 – Demo with SendGrid](https://www.youtube.com/watch?v=IniPruOrV8I&t=52s)
-- [03:31 – Demo with admin portal](https://www.youtube.com/watch?v=IniPruOrV8I&t=211s)
-- [06:47 – Summary](https://www.youtube.com/watch?v=IniPruOrV8I&t=407s)
 
 ## Setting up a development environment for the SaaS Accelerator
 
