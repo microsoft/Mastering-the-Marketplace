@@ -61,9 +61,14 @@ The Metered Billing Accelerator is a tool to help you build and deploy your mete
 
 - [Metered Billing Accelerator on GitHub](https://github.com/microsoft/metered-billing-accelerator)
 
-## Managed Apps Accelerator ToolKit
+## Commercial Marketplace samples
 
-This toolkit focuses on different ways to emit metered billing events from Azure Managed Applications. The scripts and code provided are not fully functional implementations, but starting points to help you rapidly build your offer.
+A collection of sample projects to enable various marketplace scenarios. See this GitHub repository for details.
 
-- [Managed Apps Accelerator ToolKit on GitHub](https://github.com/microsoft/commercial-marketplace-ama-metering-accelerator/blob/main/README.md)
+- [Commercial Marketplace samples](https://github.com/microsoft/commercial-marketplace-samples)
 
+## ARM-TTK validation tool
+
+A PowerShell tool for analyzing and testing Azure Resource Manager templates and CreateUiDefinition.json files. The tests will check a for coding best practices.
+
+- [ARM-TTK validation tool](https://github.com/Azure/arm-ttk)
