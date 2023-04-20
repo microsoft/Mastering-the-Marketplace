@@ -111,7 +111,7 @@ If you want to customize the SaaS Accelerator to suit your environment, it can b
 
 ## Replacing application secrets for the SaaS Accelerator
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2197498" target="_blank">Video</a> | [PDF](pdfs/10-renewing-application-secrets.pdf)
+<a href="https://go.microsoft.com/fwlink/?linkid=2227720" target="_blank">Video</a> | [PDF](pdfs/10-renewing-application-secrets.pdf)
 
 In this instructional video, you'll learn how to replace application secrets for the SaaS Accelerator. The video is packed with demos that show you step-by-step how to replace your application secrets before they expire, causing errors on your landing page and admin portal. If you're experiencing these issues, this video will guide you through the process of correcting them, ensuring your SaaS Accelerator is running smoothly.
 
