@@ -18,11 +18,12 @@ hide:
 The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days. This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project.
 
 <!-- no toc -->
-- [SaaS Accelerator Overview - A Hands-on Tour](#saas-accelerator-overview-a-hands-on-tour)
+- [SaaS Accelerator Overview - A Hands-on Tour](#saas-accelerator-overview---a-hands-on-tour)
 - [SaaS Accelerator Architecture](#saas-accelerator-architecture)
 - [Installing the SaaS Accelerator with the Azure portal cloud shell](#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell)
 - [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
 - [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
+- [Scheduling metered billing events](#scheduling-metered-billing-events)
 - [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
 - [Setting up a development environment for the SaaS Accelerator](#setting-up-a-development-environment-for-the-saas-accelerator)
 - [Replacing application secrets for the SaaS Accelerator](#replacing-application-secrets-for-the-saas-accelerator)
@@ -86,6 +87,19 @@ We look at the metered billing capabilities of the SaaS Accelerator for the Azur
 - [00:32 – Metered Billing on Partner Center](https://www.youtube.com/watch?v=DXmyagu98nE&t=32s)
 - [02:37 – Metered Billing on Publisher Portal](https://www.youtube.com/watch?v=DXmyagu98nE&t=157s)
 - [04:45 – Summary](https://www.youtube.com/watch?v=DXmyagu98nE&t=285s)
+
+## Scheduling metered billing events
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2236579" target="_blank">Video</a>
+
+This module introduces the metered billing scheduler feature of the SaaS Accelerator, used to schedule calls to the metered billing service right from within the publisher portal. Learn about the feature, how to enable it, how to schedule a billing event and how to troubleshoot common issues.
+
+- [00:00 – Overview](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=0s)
+- [00:39 – About the scheduler](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=39s)
+- [02:09 – Enabling the feature in the publisher portal](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=129s)
+- [05:42 – Scheduling a billing event](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=342s)
+- [08:18 – Monitoring and logging](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=498s)
+- [09:26 – Summary](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=566s)
 
 ## Custom Landing Page Fields with the SaaS Accelerator
 
