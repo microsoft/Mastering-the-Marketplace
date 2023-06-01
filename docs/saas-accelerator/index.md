@@ -141,15 +141,4 @@ In this instructional video, you'll learn how to replace application secrets for
 
 ## Hands-on labs
 
-The following hands-on labs build upon each other. Completing them will get a fully functional SaaS Accelerator offer published and working for a test environment.
-
-### Prerequisites
-
-1. Azure subscription that can create resources
-1. A Partner Center Account
-
-### Labs🧪
-
-1. [Preparing Partner Center](./labs/lab1-partner-center/README.md)
-2. [Installing the Accelerator](./labs/lab2-install/README.md)
-3. [Using the Accelerator](./labs/lab3-tour/README.md)
+To perform the hands-on labs, visit [this GitHub repository](https://github.com/Azure/mtm-tech-enablement-labs), which is home to the Mastering the Marketplace labs.

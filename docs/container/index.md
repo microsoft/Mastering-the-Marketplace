@@ -127,24 +127,4 @@ The last thing you want is to create and publish an offer only to have it fail M
 
 ## Hands-on labs
 
-The following hands-on labs build upon each other. They take you through the complete process of creating and publishing a Container offer in the Microsoft commercial marketplace.
-
-### Prerequisites
-
-> ⚠️IMPORTANT
->
-> To complete the labs that use partner Center, you must sign up for the Container offers public preview [here](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR0isU_qQJglCq3xE2-4gcIRUMFRIQk05Rk5WQlRPR05BVlhRQzNaMk9YOC4u)
-
-There are prerequisites to these labs. Several accounts and pieces of software are required to perform the labs. Please visit the link below and complete the prerequisites detailed there before starting Lab 1.
-
-[Technical Prerequisites](./Labs/prerequisites/index.md)
-
-### Getting started
-
-Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
-
-### Labs 🧪
-
-1. [Prepare Container Deployment](./Labs/lab1-prepare-container-deployment/index.md)
-2. [Create a CNAB Bundle Package](Labs/lab2-create-cnab-bundle-package/index.md)
-3. [Publishing a Container offer](./Labs/lab3-publishing-container-offer/index.md)
+To perform the hands-on labs, visit [this GitHub repository](https://github.com/Azure/mtm-tech-enablement-labs), which is home to the Mastering the Marketplace labs.
