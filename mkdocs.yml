@@ -16,6 +16,10 @@ nav:
     - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
     - Partner Center: '/Mastering-the-Marketplace/partner-center/'
     - Private offers: '/Mastering-the-Marketplace/partner-center/private-offers'
+  - Events:
+    - Webinars: 'https://aka.ms/MTMwebinars'
+    - Live workshops: 'https://aka.ms/MTMworkshops'
+    - Office Hours: 'https://aka.ms/MTMofficehours'
   - More resources:
     - ⚙️ Technical Accelerators: '/Mastering-the-Marketplace/misc/accelerators'
     - 🌐 Choose your offer type: '/Mastering-the-Marketplace/misc/select-offer-type'
@@ -23,10 +27,6 @@ nav:
     - 🔎 For your customers: '/Mastering-the-Marketplace/learning-paths/customer'
     - 🗒️ Site change log: '/Mastering-the-Marketplace/misc/change-log'
     - ✉️ Contact us: 'https://forms.office.com/r/0gCrzhSMkw'
-  - Events:
-    - Webinars: 'https://aka.ms/MTMwebinars'
-    - Live workshops: 'https://aka.ms/MTMworkshops'
-    - Office Hours: 'https://aka.ms/MTMofficehours'
   
 theme:
   features:
