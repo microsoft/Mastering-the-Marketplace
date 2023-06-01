@@ -17,7 +17,8 @@ Resources on this page include both technical accelerators and example reference
 - [SaaS Accelerator](#saas-accelerator)
 - [SaaS client libraries and tools](#saas-client-libraries-and-tools)
 - [Metered Billing Accelerator](#metered-billing-accelerator)
-- [Managed Apps Accelerator ToolKit](#managed-apps-accelerator-toolkit)
+- [Commercial Marketplace solutions](#commercial-marketplace-solutions)
+- [ARM-TTK validation tool](#arm-ttk-validation-tool)
 
 ---
 
@@ -61,11 +62,11 @@ The Metered Billing Accelerator is a tool to help you build and deploy your mete
 
 - [Metered Billing Accelerator on GitHub](https://github.com/microsoft/metered-billing-accelerator)
 
-## Commercial Marketplace samples
+## Commercial Marketplace solutions
 
-A collection of sample projects to enable various marketplace scenarios. See this GitHub repository for details.
+A collection of starter solutions to enable various marketplace scenarios. See this GitHub repository for details.
 
-- [Commercial Marketplace samples](https://github.com/microsoft/commercial-marketplace-samples)
+- [Commercial Marketplace solutions](https://github.com/microsoft/commercial-marketplace-solutions)
 
 ## ARM-TTK validation tool
 
