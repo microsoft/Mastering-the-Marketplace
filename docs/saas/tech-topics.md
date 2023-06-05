@@ -53,13 +53,15 @@ This video offers a technical overview of #Microsoft Azure Marketplace SaaS offe
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196315">Video</a> | [PDF](./pdfs/04-SaaS-Offer-Technical-Overview.pdf)
 
-This video offers a technical overview of #Microsoft Azure Marketplace SaaS offers. It shows what you need to get started creating a SaaS offer of your own.
+Watch a deep technical overview of how SaaS offers work in the Microsoft Azure Marketplace. Learn how the API flows and interactions should work and how to build your landing page. Topics include the following.
 
-- 00:00 – [Overview](https://www.youtube.com/watch?v=9PCTioPbI8M&t=0s)
-- 00:57 - [Microsoft commercial marketplace](https://www.youtube.com/watch?v=9PCTioPbI8M&t=57s)
-- 05:01 - [SaaS offer creation process](https://www.youtube.com/watch?v=9PCTioPbI8M&t=301s)
-- 07:53 - [Pricing models](https://www.youtube.com/watch?v=9PCTioPbI8M&t=473s)
-- 13:31 - [Summary](https://www.youtube.com/watch?v=9PCTioPbI8M&t=811s)
+[00:00 - Overview](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=0s)
+[00:45 - Flow overview](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=45s)
+[02:15 - The Landing Page​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=135s)
+[03:38 - SaaS Offer Purchase Flow in Depth​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=218s)
+[07:53 - SaaS Offer Fulfillment API​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=473s)
+[09:20 - Metered Billing Overview​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=560s)
+[11:33 - SaaS Offer Webhook​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=693s)
 
 ## Purchasing a Private SaaS Plan
 
@@ -151,8 +153,6 @@ See the SaaS Fulfillment API in action as we send it through its paces using Pos
 
 This module introduces the SaaS Client Library for .NET developer who want to work with the SaaS APIs at a level of abstraction above the REST level. The client library is a fully functional .NET package that you can install and use in your applications, and you’ll see how to do just that.
 
-This video shows a sample command line application that can talk to the client library API and the code is available on the repository.
-
 - 00:00 – [Overview](https://www.youtube.com/watch?v=uihNXaDBXVQ&t=0s)
 - 00:37 - [Introducing the client library](https://www.youtube.com/watch?v=uihNXaDBXVQ&t=37s)
 - 03:05 - [A simple application](https://www.youtube.com/watch?v=uihNXaDBXVQ&t=185s)
@@ -227,7 +227,7 @@ This security-focused module introduces several techniques for securing a SaaS o
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196314">Video</a> | [PDF](./pdfs/11.1-saas-metered-billing-overview.pdf)
 
-This module presents the fundamentals of billing through the marketplace based on usage, or metered billing. IT covers several areas of metered billing including the following.
+This module presents the fundamentals of billing through the marketplace based on usage, or metered billing. It covers several areas of metered billing including the following.
 
 - 00:00 – [Overview](https://www.youtube.com/watch?v=DJQ-2-wh6vU&t=0s)
 - 01:23 – [Demo](https://www.youtube.com/watch?v=DJQ-2-wh6vU&t=83s)
