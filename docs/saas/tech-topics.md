@@ -17,7 +17,6 @@ SaaS offers are a popular deployment architecture for deploying offers onto the 
 <!-- no toc -->
 - [SaaS Offer Overview](#saas-offer-overview)
 - [SaaS Offer Technical Overview](#saas-offer-technical-overview)
-- [Purchasing a SaaS offer](#purchasing-a-saas-offer)
 - [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
 - [Purchasing a SaaS offer from the Azure Marketplace](#purchasing-a-saas-offer-from-the-azure-marketplace)
 - [Purchasing a SaaS offer from AppSource](#purchasing-a-saas-offer-from-appsource)
