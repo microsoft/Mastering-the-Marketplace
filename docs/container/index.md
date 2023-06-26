@@ -30,7 +30,8 @@ This course covers transactable container offers designed for deploying solution
 - [Subscribe to a Kubernetes app in the Commercial Marketplace](#subscribe-to-a-kubernetes-app-in-the-commercial-marketplace)
 - [Unsubscribe from a purchased Kubernetes app](#unsubscribe-from-a-purchased-kubernetes-app)
 - [Securing virtual machines and containers for certification](#securing-virtual-machines-and-containers-for-certification)
-- [🧪](#hands-on-labs) [Hands-on labs](#hands-on-labs)
+- [Hands-on labs](#hands-on-labs) 🧪
+
 
 ---
 
