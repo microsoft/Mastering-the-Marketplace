@@ -54,7 +54,7 @@ How to price and bill your solution is such a commonly visited topic that we’r
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2212638" target="_blank">Video</a> | [PDF](./pdfs/02.1-technical-overview.pdf)
 
-This module provides a comprehensive overview of Container offers for Kubernetes apps. Topics include the following.
+This module provides a comprehensive technical overview of Container offers for Kubernetes apps. Topics include the following.
 
 - The development lifecycle
 - About CNAB bundles
