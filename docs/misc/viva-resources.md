@@ -24,9 +24,8 @@ References and links on this page support the following Learning Paths in Micros
 SaaS offers enable a popular deployment architecure for offering software solutions in the Azure marketplace. This course enables you to create SaaS offers and to assist partners in publishing their SaaS offers to the marketplace.
 
 - [Viva Learning Path link](https://learningpath.microsoft.com/7987)
-- [Complete on-demand public course with slide PDFs](../saas/tech-topics.md).
-
-To perform the hands-on labs, visit [this GitHub repository](https://github.com/Azure/mtm-tech-enablement-labs), home to the Mastering the Marketplace labs.
+- [Complete on-demand public course with slide PDFs](../saas/tech-topics.md)
+- [Hands-on labs](https://github.com/Azure/mtm-tech-enablement-labs) 🧪
 
 
 ## Mastering Virtual Machine offers for the Azure Marketplace
@@ -34,24 +33,21 @@ To perform the hands-on labs, visit [this GitHub repository](https://github.com/
 A very popular way for ISV's to sell their products to customers, Virtual Machine offers enable deploying the ISV's software on a custom VM into the customer's Azure tenant. This course enables you to create VM offers and learn to assist partners in publishing their offers to the marketplace.
 
 - Viva Learning Path link - Coming soon.
-- [Complete on-demand public course with slide PDFs](../vm/index.md).
-
-[Go here](../vm/index.md#hands-on-labs) to perform the hands-on labs that will take you from creating an initial custom Virtual Machine all the way through publishing a VM offer in Partner Center.
+- [Complete on-demand public course with slide PDFs](../vm/index.md)
+- [Hands-on labs](../vm/index.md#hands-on-labs) 🧪
 
 ## Mastering Container offers for Kubernetes apps for the Azure Marketplace
 
 Container offers for Kubernetes apps enable customers to deploy the ISV's solution containers to their own Azure Kubernetes Service. This course shows you how to create Container offers and learn to assist partners in publishing their offers to the marketplace.
 
 - Viva Learning Path link - Coming soon.
-- [Complete on-demand public course with slide PDFs](../container/index.md).
-
-To perform the hands-on labs, visit [this GitHub repository](https://github.com/Azure/mtm-tech-enablement-labs), home to the Mastering the Marketplace labs.
+- [Complete on-demand public course with slide PDFs](../container/index.md)
+- [Hands-on labs](https://github.com/Azure/mtm-tech-enablement-labs) 🧪
 
 ## Mastering Azure Managed Application offers for the Azure Marketplace
 
 Managed Application offers enable ISVs to create solutions using any Azure service deployable via ARM templates. The solution deploys into the customer's Azure tenant and offers various models for maintaining the core solution after deployment. This course enables you to create Managed Application offers and learn to assist partners in publishing their offers to the marketplace.
 
 - Viva Learning Path link - Coming soon.
-- [Complete on-demand public course with slide PDFs](../ama/index.md).
-
-[Go here](../ama/index.md#hands-on-labs) to perform the hands-on labs that will take you from start to finish in publishing a Managed Application offer.
+- [Complete on-demand public course with slide PDFs](../ama/index.md)
+- [Hands-on labs](../ama/index.md#hands-on-labs) 🧪
