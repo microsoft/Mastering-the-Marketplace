@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 6/28/2023 | [Installing the SaaS Accelerator from the Azure Marketplace](../saas-accelerator/index.md#installing-the-saas-accelerator-from-the-azure-marketplace) |
 | 5/16/2023 | [Scheduling metered billing events](../saas-accelerator/index.md#scheduling-metered-billing-events) |
 | 5/15/2023 | [Choose your offer type video](./select-offer-type.md) |
 | 2/15/2023 | [Deprecating and restoring virtual machine images](../vm/index.md#deprecating-and-restoring-virtual-machine-images) |
