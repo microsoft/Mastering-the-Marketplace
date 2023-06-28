@@ -21,6 +21,7 @@ The SaaS Accelerator provides a fully functional community-led SaaS reference im
 - [SaaS Accelerator Overview - A Hands-on Tour](#saas-accelerator-overview---a-hands-on-tour)
 - [SaaS Accelerator Architecture](#saas-accelerator-architecture)
 - [Installing the SaaS Accelerator with the Azure portal cloud shell](#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell)
+- [Installing the SaaS Accelerator from the Azure Marketplace](#installing-the-saas-accelerator-from-the-azure-marketplace)
 - [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
 - [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
 - [Scheduling metered billing events](#scheduling-metered-billing-events)
@@ -65,6 +66,22 @@ Follow along and you will be up and running with the SaaS Accelerator in no time
 - [09:05 - What got deployed](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=545s)
 - [10:33 - Updating an existing installation](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=633s)
 - [13:48 – Summary](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=828s)
+
+## Installing the SaaS Accelerator from the Azure Marketplace
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2241002">Video</a>
+
+The SaaS Accelerator may be installed directly from the Azure Marketplace. Although the process involves several steps, it may be the right install path for you, and this video walks through all the required steps to get the SaaS Accelerator working from its offer in the Azure Marketplace.
+
+- [00:00 – Overview](https://www.youtube.com/watch?v=B5l5p9LvDSU&t=0s)
+- [01:15 – Prerequisites](https://www.youtube.com/watch?v=B5l5p9LvDSU&t=75s)
+- [01:33 – Step 1: Preinstallation](https://www.youtube.com/watch?v=B5l5p9LvDSU&t=93s)
+- [02:00 – Step 2: Installation](https://www.youtube.com/watch?v=B5l5p9LvDSU&t=120s)
+- [02:40 – Step 3: Post-installation](https://www.youtube.com/watch?v=B5l5p9LvDSU&t=160s)
+- [03:38 – Updating an existing installation](https://www.youtube.com/watch?v=B5l5p9LvDSU&t=218s)
+- [04:01 – Demo all steps](https://www.youtube.com/watch?v=B5l5p9LvDSU&t=241s)
+- [13:59 – Summary](https://www.youtube.com/watch?v=B5l5p9LvDSU&t=839s)
+
 
 ## Configuring Email in the SaaS Accelerator
 
