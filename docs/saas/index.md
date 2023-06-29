@@ -14,14 +14,14 @@ hide:
 ---
 
 <div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">SaaS Technical Course</span>
+  <span class="linkless-heading">Mastering SaaS offers course</span>
   A complete technical enablement course with video and hands-on labs.
 
 [Take me to it](/Mastering-the-Marketplace/saas/tech-topics){ .md-button }
 </div>
 
 <div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">General SaaS Topics</span>
+  <span class="linkless-heading">General SaaS topics</span>
   Content of interest to those creating SaaS offers and customers buying them.
 
 [Take me to it](/Mastering-the-Marketplace/saas/general-topics){ .md-button }
