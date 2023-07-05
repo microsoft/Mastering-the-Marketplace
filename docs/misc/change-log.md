@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 7/5/2023 | [14 new Marketplace Mini videos](./marketplace-minis.md) |
 | 6/28/2023 | [Installing the SaaS Accelerator from the Azure Marketplace](../saas-accelerator/index.md#installing-the-saas-accelerator-from-the-azure-marketplace) |
 | 5/16/2023 | [Scheduling metered billing events](../saas-accelerator/index.md#scheduling-metered-billing-events) |
 | 5/15/2023 | [Choose your offer type video](./select-offer-type.md) |
