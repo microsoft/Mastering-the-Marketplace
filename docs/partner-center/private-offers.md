@@ -13,6 +13,7 @@ hide:
 ---
 
 <!-- no toc -->
+- [Get Your Azure Billing ID](#get-your-azure-billing-id)
 - [Private offers vs. private plans](#private-offers-vs-private-plans)
 - [Private offers for customers overview](#private-offers-for-customers-overview)
 - [Private offers for customers creation](#private-offers-for-customers-creation)
@@ -23,6 +24,12 @@ hide:
 - [Private offers for CSP partners purchase process](#private-offers-for-csp-partners-purchase-process)
 
 ---
+
+## Get Your Azure Billing ID
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2222693">Video</a>
+
+This module offers a very quick demo on how to find you Azure Billing ID. This is particularly useful for marketplace customers who are buying a Private Offer with negotiated pricing from a seller. To create the Private Offer, the seller needs the customer’s Billing ID. This video shows you how to find it.
 
 ## Private offers vs. private plans
 

@@ -29,7 +29,7 @@ hide:
 
 <div class="sub-page-tile" markdown="1">
   <span class="linkless-heading">SaaS Offers in Partner Center</span>
-  Topics useful for those building SaaS offers in Portal Center.
+  Topics useful for those building SaaS offers in Partner Center.
 
 [Take me to it](/Mastering-the-Marketplace/partner-center/saas){ .md-button }
 </div>
