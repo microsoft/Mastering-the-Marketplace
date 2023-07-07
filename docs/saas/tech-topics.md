@@ -54,13 +54,13 @@ This video offers a technical overview of #Microsoft Azure Marketplace SaaS offe
 
 Watch a deep technical overview of how SaaS offers work in the Microsoft Azure Marketplace. Learn how the API flows and interactions should work and how to build your landing page. Topics include the following.
 
-[00:00 - Overview](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=0s)
-[00:45 - Flow overview](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=45s)
-[02:15 - The Landing Page​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=135s)
-[03:38 - SaaS Offer Purchase Flow in Depth​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=218s)
-[07:53 - SaaS Offer Fulfillment API​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=473s)
-[09:20 - Metered Billing Overview​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=560s)
-[11:33 - SaaS Offer Webhook​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=693s)
+- [00:00 - Overview](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=0s)
+- [00:45 - Flow overview](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=45s)
+- [02:15 - The Landing Page​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=135s)
+- [03:38 - SaaS Offer Purchase Flow in Depth​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=218s)
+- [07:53 - SaaS Offer Fulfillment API​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=473s)
+- [09:20 - Metered Billing Overview​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=560s)
+- [11:33 - SaaS Offer Webhook​](https://www.youtube.com/watch?v=0c-rzJkTV7w&t=693s)
 
 ## Purchasing a Private SaaS Plan
 
