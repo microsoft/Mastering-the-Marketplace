@@ -18,7 +18,6 @@ hide:
 - [Private offers for customers overview](#private-offers-for-customers-overview)
 - [Private offers for customers creation](#private-offers-for-customers-creation)
 - [Private offers for customers acceptance](#private-offers-for-customers-acceptance)
-- [Private offers for customers purchase experience](#private-offers-for-customers-purchase-experience)
 - [Private offers for CSP partners preview](#private-offers-for-csp-partners-preview)
 - [Private offers for CSP partners creation](#private-offers-for-csp-partners-creation)
 - [Private offers for CSP partners purchase process](#private-offers-for-csp-partners-purchase-process)
@@ -60,11 +59,13 @@ This demo takes you through the process of an ISV creating a private offer for s
 
 In this walk through video, see the customer experience for accepting an ISV to Customer private offer.
 
+<!-- 
 ## Private offers for customers purchase experience
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196251">Video</a> 
 
 In this walk through video, see the customer experience for viewing details of their private offer in the Azure portal and deploying the product.
+-->
 
 ## Private offers for CSP partners preview
 
