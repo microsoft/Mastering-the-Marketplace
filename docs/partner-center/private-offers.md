@@ -22,6 +22,9 @@ hide:
 - [Private offers for CSP partners preview](#private-offers-for-csp-partners-preview)
 - [Private offers for CSP partners creation](#private-offers-for-csp-partners-creation)
 - [Private offers for CSP partners purchase process](#private-offers-for-csp-partners-purchase-process)
+- [Multi-party private offer: Publisher creates one for use by partner](#multi-party-private-offer-publisher-creates-one-for-use-by-partner)
+- [Multi-party private offer: Partner uses one to sell to end customer](#multi-party-private-offer-partner-uses-one-to-sell-to-end-customer)
+
 
 ---
 
