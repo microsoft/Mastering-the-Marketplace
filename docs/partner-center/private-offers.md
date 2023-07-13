@@ -80,3 +80,27 @@ This demo takes you through the process of an ISV creating a private offer for s
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196145">Video</a>
 
 In this walkthrough video, see the purchase process partners in the Cloud Solution Provider (CSP) program go through to purchase private offers created by ISVs.
+
+## Multi-party private offer: Publisher creates one for use by partner
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2241258">Video</a>
+
+In this comprehensive video, we explore how publishers create multi-party private offers specifically tailored for sale through a re-selling partner. Join us as we provide a comprehensive explanation, step-by-step instructions, and an engaging live demonstration.
+
+- 00:00 - [Overview](https://www.youtube.com/watch?v=6AmdYEvSxso&t=0s)
+- 00:55 – [About multi-party private offers](https://www.youtube.com/watch?v=6AmdYEvSxso&t=55s)
+- 05:31 - [Demo: Creating a multi-party private offer]( https://www.youtube.com/watch?v=6AmdYEvSxso&t=331s)
+- 13:25 – [Summary]( https://www.youtube.com/watch?v=6AmdYEvSxso&t=805s)
+
+
+## Multi-party private offer: Partner uses one to sell to end customer 
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2241428">Video</a>
+
+In this informative video, we explore the process of creating and re-selling multi-party private offers that reseller partners can make available to their end customers. Join us as we provide a comprehensive explanation, step-by-step instructions, and an engaging live demonstration.
+
+- 00:00 - [Overview](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=0s)
+- 00:38 – [About multi-party private offers](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=38s)
+- 03:50 - [Demo: Preparing to sell a MPO](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=230s)
+- 08:28 - [Summary](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=508s)
+
