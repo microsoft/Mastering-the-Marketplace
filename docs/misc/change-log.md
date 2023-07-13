@@ -11,6 +11,8 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 7/13/2023 | [Multi-party private offer: Publisher creates one for use by partner](https://go.microsoft.com/fwlink/?linkid=2241258) |
+| 7/13/2023 | [Multi-party private offer: Partner uses one to sell to end customer](https://go.microsoft.com/fwlink/?linkid=2241428) |
 | 7/5/2023 | [14 new Marketplace Mini videos](./marketplace-minis.md) |
 | 6/28/2023 | [Installing the SaaS Accelerator from the Azure Marketplace](../saas-accelerator/index.md#installing-the-saas-accelerator-from-the-azure-marketplace) |
 | 5/16/2023 | [Scheduling metered billing events](../saas-accelerator/index.md#scheduling-metered-billing-events) |
