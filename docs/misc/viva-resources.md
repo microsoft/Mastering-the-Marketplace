@@ -9,7 +9,7 @@ hide:
   - toc
 ---
 
-References and links on this page support the following Learning Paths in Microsoft Viva.
+References and links on this page support the following courses in Microsoft Viva.
 
 <!-- no toc -->
 - [Mastering SaaS offers for the Azure Marketplace](#mastering-saas-offers-for-the-azure-marketplace)
