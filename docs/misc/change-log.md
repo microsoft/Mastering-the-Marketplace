@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 7/17/2023 | [New Ways to sell and deploy Azure Applications](https://go.microsoft.com/fwlink/?linkid=2242303) |
 | 7/13/2023 | [Multi-party private offer: Publisher creates one for use by partner](https://go.microsoft.com/fwlink/?linkid=2241258) |
 | 7/13/2023 | [Multi-party private offer: Partner uses one to sell to end customer](https://go.microsoft.com/fwlink/?linkid=2241428) |
 | 7/5/2023 | [14 new Marketplace Mini videos](./marketplace-minis.md) |
