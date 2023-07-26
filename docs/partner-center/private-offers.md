@@ -64,21 +64,6 @@ This module shows activating and purchasing a Private Offer from the standpoint 
 - 05:20 - [Purchasing a Private Offer](https://www.youtube.com/watch?v=TANUlgLuVqI&t=320s)
 - 08:01 – [Summary](https://www.youtube.com/watch?v=TANUlgLuVqI&t=481s)
 
-<!-- 
-## Private offers for customers acceptance
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196149">Video</a>
-
-In this walk through video, see the customer experience for accepting an ISV to Customer private offer.
-
-
-## Private offers for customers purchase experience
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196251">Video</a> 
-
-In this walk through video, see the customer experience for viewing details of their private offer in the Azure portal and deploying the product.
--->
-
 ## Private offers for CSP partners preview
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196414">Video</a> | [PDF](./pdfs/2.0-csp-private-offer-overview.pdf)
