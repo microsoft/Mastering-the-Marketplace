@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 7/26/2023 | [Accepting and purchasing a Private Offer: The customer experience](https://go.microsoft.com/fwlink/?linkid=2243274) |
 | 7/17/2023 | [New Ways to sell and deploy Azure Applications](https://go.microsoft.com/fwlink/?linkid=2242303) |
 | 7/13/2023 | [Multi-party private offer: Publisher creates one for use by partner](https://go.microsoft.com/fwlink/?linkid=2241258) |
 | 7/13/2023 | [Multi-party private offer: Partner uses one to sell to end customer](https://go.microsoft.com/fwlink/?linkid=2241428) |

@@ -17,13 +17,12 @@ hide:
 - [Private offers vs. private plans](#private-offers-vs-private-plans)
 - [Private offers for customers overview](#private-offers-for-customers-overview)
 - [Private offers for customers creation](#private-offers-for-customers-creation)
-- [Private offers for customers acceptance](#private-offers-for-customers-acceptance)
+- [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
 - [Private offers for CSP partners preview](#private-offers-for-csp-partners-preview)
 - [Private offers for CSP partners creation](#private-offers-for-csp-partners-creation)
 - [Private offers for CSP partners purchase process](#private-offers-for-csp-partners-purchase-process)
 - [Multi-party private offer: Publisher creates one for use by partner](#multi-party-private-offer-publisher-creates-one-for-use-by-partner)
 - [Multi-party private offer: Partner uses one to sell to end customer](#multi-party-private-offer-partner-uses-one-to-sell-to-end-customer)
-
 
 ---
 
@@ -53,13 +52,26 @@ Learn how private offers work for marketplace publishers offering them directly 
 
 This demo takes you through the process of an ISV creating a private offer for sale to a customer.
 
+## Accepting and purchasing a Private Offer: The customer experience
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2243274">Video</a>
+
+This module shows activating and purchasing a Private Offer from the standpoint of an end customer. The content is useful for anyone looking to understand the customer’s Private Offer experience.
+
+- 00:00 - [Overview](https://www.youtube.com/watch?v=TANUlgLuVqI&t=0s)
+- 00:52 - [Steps and permissions to purchasing](https://www.youtube.com/watch?v=TANUlgLuVqI&t=52s)
+- 02:48 - [Accepting a Private Offer](https://www.youtube.com/watch?v=TANUlgLuVqI&t=168s)
+- 05:20 - [Purchasing a Private Offer](https://www.youtube.com/watch?v=TANUlgLuVqI&t=320s)
+- 08:01 – [Summary](https://www.youtube.com/watch?v=TANUlgLuVqI&t=481s)
+
+<!-- 
 ## Private offers for customers acceptance
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196149">Video</a>
 
 In this walk through video, see the customer experience for accepting an ISV to Customer private offer.
 
-<!-- 
+
 ## Private offers for customers purchase experience
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196251">Video</a> 

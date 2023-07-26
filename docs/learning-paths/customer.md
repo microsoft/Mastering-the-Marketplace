@@ -30,15 +30,25 @@ This module offers a very quick demo on how to find you Azure Tenant ID. This is
 
 ## Working with Private Offers
 
-- [Accepting Private Offers](https://go.microsoft.com/fwlink/?linkid=2196149)
-- [Purchasing Private Offers](https://go.microsoft.com/fwlink/?linkid=2196251)
+
+### Accepting and purchasing a Private Offer: The customer experience
+
+[Video](https://go.microsoft.com/fwlink/?linkid=2243274)
+  
+  This module shows activating and purchasing a Private Offer from the standpoint of an end customer. The content is useful for anyone looking to understand the customer’s Private Offer experience.
+
+  - 00:00 - [Overview](https://www.youtube.com/watch?v=TANUlgLuVqI&t=0s)
+  - 00:52 - [Steps and permissions to purchasing](https://www.youtube.com/watch?v=TANUlgLuVqI&t=52s)
+  - 02:48 - [Accepting a Private Offer](https://www.youtube.com/watch?v=TANUlgLuVqI&t=168s)
+  - 05:20 - [Purchasing a Private Offer](https://www.youtube.com/watch?v=TANUlgLuVqI&t=320s)
+  - 08:01 – [Summary](https://www.youtube.com/watch?v=TANUlgLuVqI&t=481s)
 
 ## Working with SaaS offers
 
 - [Purchasing a SaaS offer from the Azure Marketplace](https://go.microsoft.com/fwlink/?linkid=2218020)
 - [Purchasing a Private SaaS Plan](https://go.microsoft.com/fwlink/?linkid=2196255)
 - [Purchasing a Public SaaS Offer with Different Pricing Models](https://go.microsoft.com/fwlink/?linkid=2202782)
-- [Purchasing a SaaS offer from AppSource](https://go.microsoft.com/fwlink/?linkid=2217862))
+- [Purchasing a SaaS offer from AppSource](https://go.microsoft.com/fwlink/?linkid=2217862)
 
 ## Working with Virtual Machine offers
 
