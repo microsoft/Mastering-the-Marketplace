@@ -23,7 +23,7 @@ References and links on this page support the following courses in Microsoft Viv
 
 SaaS offers enable a popular deployment architecure for offering software solutions in the Azure marketplace. This course enables you to create SaaS offers and to assist partners in publishing their SaaS offers to the marketplace.
 
-- [The Viva Learning Path](https://learningpath.microsoft.com/7987)
+- [The Viva Learning Path](https://learningplayer.microsoft.com/activity/s9267926/launch)
 - [Complete on-demand public course with slide PDFs](../saas/tech-topics.md)
 - [Hands-on labs](https://github.com/Azure/mtm-tech-enablement-labs) 🧪
 
