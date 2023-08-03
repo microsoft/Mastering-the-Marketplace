@@ -13,20 +13,20 @@ hide:
 ---
 
 <!-- no toc -->
-- [Get Your Azure Billing ID](#get-your-azure-billing-id)
+- [Find Your Azure Billing ID](#find-your-azure-billing-id)
 - [Private offers vs. private plans](#private-offers-vs-private-plans)
 - [Private offers for customers overview](#private-offers-for-customers-overview)
-- [Private offers for customers creation](#private-offers-for-customers-creation)
+- [Creating private offers for customers](#creating-private-offers-for-customers)
+- [Creating a multi-party private offer for customers](#creating-a-multi-party-private-offer-for-customers)
 - [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
-- [Private offers for CSP partners preview](#private-offers-for-csp-partners-preview)
-- [Private offers for CSP partners creation](#private-offers-for-csp-partners-creation)
+- [Private offers for CSP partners overview](#private-offers-for-csp-partners-overview)
+- [Creating private offers for CSP partners](#creating-private-offers-for-csp-partners)
 - [Private offers for CSP partners purchase process](#private-offers-for-csp-partners-purchase-process)
-- [Multi-party private offer: Publisher creates one for use by partner](#multi-party-private-offer-publisher-creates-one-for-use-by-partner)
-- [Multi-party private offer: Partner uses one to sell to end customer](#multi-party-private-offer-partner-uses-one-to-sell-to-end-customer)
+- [Creating multi-party private offers for CSP partners](#craeting-multi-party-private-offers-for-csp-partners)
 
 ---
 
-## Get Your Azure Billing ID
+## Find Your Azure Billing ID
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2222693">Video</a>
 
@@ -46,11 +46,22 @@ This module introduces the similarities and basic details of each to help you de
 
 Learn how private offers work for marketplace publishers offering them directly to customers. This module provides an overview of private offers and explores some deeper details about how they work.
 
-## Private offers for customers creation
+## Creating private offers for customers
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196151">Video</a>
 
 This demo takes you through the process of an ISV creating a private offer for sale to a customer.
+
+## Creating a multi-party private offer for customers
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2241428">Video</a>
+
+In this informative video, we explore the process of creating and re-selling multi-party private offers that reseller partners can make available to their end customers. Join us as we provide a comprehensive explanation, step-by-step instructions, and an engaging live demonstration.
+
+- 00:00 - [Overview](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=0s)
+- 00:38 – [About multi-party private offers](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=38s)
+- 03:50 - [Demo: Preparing to sell a MPO](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=230s)
+- 08:28 - [Summary](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=508s)
 
 ## Accepting and purchasing a Private Offer: The customer experience
 
@@ -64,13 +75,13 @@ This module shows activating and purchasing a Private Offer from the standpoint 
 - 05:20 - [Purchasing a Private Offer](https://www.youtube.com/watch?v=TANUlgLuVqI&t=320s)
 - 08:01 – [Summary](https://www.youtube.com/watch?v=TANUlgLuVqI&t=481s)
 
-## Private offers for CSP partners preview
+## Private offers for CSP partners overview
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196414">Video</a> | [PDF](./pdfs/2.0-csp-private-offer-overview.pdf)
 
 Learn about private offers for Cloud Solution Providers in this overview of the capability in Partner Center.
 
-## Private offers for CSP partners creation
+## Creating private offers for CSP partners
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196413">Video</a>
 
@@ -82,7 +93,7 @@ This demo takes you through the process of an ISV creating a private offer for s
 
 In this walkthrough video, see the purchase process partners in the Cloud Solution Provider (CSP) program go through to purchase private offers created by ISVs.
 
-## Multi-party private offer: Publisher creates one for use by partner
+## Creating multi-party private offers for CSP partners
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2241258">Video</a>
 
@@ -94,14 +105,4 @@ In this comprehensive video, we explore how publishers create multi-party privat
 - 13:25 – [Summary]( https://www.youtube.com/watch?v=6AmdYEvSxso&t=805s)
 
 
-## Multi-party private offer: Partner uses one to sell to end customer 
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2241428">Video</a>
-
-In this informative video, we explore the process of creating and re-selling multi-party private offers that reseller partners can make available to their end customers. Join us as we provide a comprehensive explanation, step-by-step instructions, and an engaging live demonstration.
-
-- 00:00 - [Overview](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=0s)
-- 00:38 – [About multi-party private offers](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=38s)
-- 03:50 - [Demo: Preparing to sell a MPO](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=230s)
-- 08:28 - [Summary](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=508s)
 
