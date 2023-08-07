@@ -18,19 +18,19 @@ hide:
 This course covers transactable container offers designed for deploying solutions into Azure Kubernetes Service within the customer's subscription. With a focus on practical demonstrations, this course provides a comprehensive understanding of the offer type, from overview to in-depth insights.
 
 <!-- no toc -->
-- [Container offer for Kubernetes apps overview](#container-offer-for-kubernetes-apps-overview)
-- [Container offer billing overview](#container-offer-billing-overview)
-- [Container offer technical overview](#container-offer-technical-overview)
-- [Deploying solution images to an Azure Container Registry](#deploying-solution-images-to-an-azure-container-registry)
-- [Scanning container images for vulnerabilities](#scanning-container-images-for-vulnerabilities)
-- [Preparing CNAB bundle artifacts](#preparing-cnab-bundle-artifacts)
-- [Generating the CNAB bundle](#generating-the-cnab-bundle)
-- [Create a container offer in Partner Center](#create-a-container-offer-in-partner-center)
-- [Create a container offer plan in Partner Center](#create-a-container-offer-plan-in-partner-center)
-- [Subscribe to a Kubernetes app in the Commercial Marketplace](#subscribe-to-a-kubernetes-app-in-the-commercial-marketplace)
-- [Unsubscribe from a purchased Kubernetes app](#unsubscribe-from-a-purchased-kubernetes-app)
-- [Securing virtual machines and containers for certification](#securing-virtual-machines-and-containers-for-certification)
-- [Hands-on labs](#hands-on-labs) 🧪
+1. [Container offer for Kubernetes apps overview](#container-offer-for-kubernetes-apps-overview)
+1. [Container offer billing overview](#container-offer-billing-overview)
+1. [Container offer technical overview](#container-offer-technical-overview)
+1. [Deploying solution images to an Azure Container Registry](#deploying-solution-images-to-an-azure-container-registry)
+1. [Scanning container images for vulnerabilities](#scanning-container-images-for-vulnerabilities)
+1. [Preparing CNAB bundle artifacts](#preparing-cnab-bundle-artifacts)
+1. [Generating the CNAB bundle](#generating-the-cnab-bundle)
+1. [Create a container offer in Partner Center](#create-a-container-offer-in-partner-center)
+1. [Create a container offer plan in Partner Center](#create-a-container-offer-plan-in-partner-center)
+1. [Subscribe to a Kubernetes app in the Commercial Marketplace](#subscribe-to-a-kubernetes-app-in-the-commercial-marketplace)
+1. [Unsubscribe from a purchased Kubernetes app](#unsubscribe-from-a-purchased-kubernetes-app)
+1. [Securing virtual machines and containers for certification](#securing-virtual-machines-and-containers-for-certification)
+1. [Hands-on labs](#hands-on-labs) 🧪
 
 
 ---

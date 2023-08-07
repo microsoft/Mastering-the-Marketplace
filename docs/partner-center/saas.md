@@ -13,14 +13,14 @@ hide:
 ---
 
 <!-- no toc -->
-- [Publishing a SaaS Offer](#publishing-a-saas-offer)
-- [SaaS Purchase Customer Experience](#saas-purchase-customer-experience)
-- [SaaS Pricing in Partner Center Publisher Overview](#saas-pricing-in-partner-center-publisher-overview)
-- [SaaS Pricing in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
-- [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
-- [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
-- [Reporting and Insights for Multi-year SaaS Offers](#reporting-and-insights-for-multi-year-saas-offers)
-- [Programmatic Access to Reporting and Insights](#programmatic-access-to-reporting-and-insights)
+1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
+1. [SaaS Purchase Customer Experience](#saas-purchase-customer-experience)
+1. [SaaS Pricing in Partner Center Publisher Overview](#saas-pricing-in-partner-center-publisher-overview)
+1. [SaaS Pricing in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
+1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
+1. [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
+1. [Reporting and Insights for Multi-year SaaS Offers](#reporting-and-insights-for-multi-year-saas-offers)
+1. [Programmatic Access to Reporting and Insights](#programmatic-access-to-reporting-and-insights)
 
 ---
 

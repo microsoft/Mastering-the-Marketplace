@@ -14,8 +14,8 @@ hide:
 ---
 
 <div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">Mastering SaaS offers course</span>
-  A complete technical enablement course with video and hands-on labs.
+  <span class="linkless-heading">Mastering SaaS tech course</span>
+  Technical enablement with video and hands-on labs.
 
 [Take me to it](/Mastering-the-Marketplace/saas/tech-topics){ .md-button }
 </div>

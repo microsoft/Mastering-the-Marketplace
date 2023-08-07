@@ -43,22 +43,22 @@ The slides for this course [are here](./pdfs/ama-workshop-slides.pdf).
 ---
 
 <!-- no toc -->
-- [Course Introduction](#course-introduction)
-- [Managed Applications Overview](#managed-applications-overview)
-- [Azure Managed Applications Overview](#azure-managed-applications-overview)
-- [Partner Center with Azure Managed Applications Overview](#partner-center-with-azure-managed-applications-overview)
-- [Configuring Partner Center for Azure Managed Applications](#configuring-partner-center-for-azure-managed-applications)
-- [Azure Managed Application Deployment Package Overview](#azure-managed-application-deployment-package-overview)
-- [Working with a Azure Managed Application Deployment Package](#working-with-a-azure-managed-application-deployment-package)
-- [Integrating Virtual Machine Offers into Azure Managed Applications](#integrating-virtual-machine-offers-into-azure-managed-applications)
-- [Purchasing an Azure Managed Application](#purchasing-an-azure-managed-application)
-- [Managing My Purchased Azure Managed Applications](#managing-my-purchased-azure-managed-applications)
-- [Managing My Customer’s Azure Managed Applications Overview](#managing-my-customers-azure-managed-applications-overview)
-- [Managing My Customer’s Azure Managed Applications](#managing-my-customers-azure-managed-applications)
-- [Metered Billing for Azure Managed Applications Overview](#metered-billing-for-azure-managed-applications-overview)
-- [Metered Billing for Azure Managed Applications](#metered-billing-for-azure-managed-applications)
-- [Advanced Deployment Scenarios for Azure Managed Applications](#advanced-deployment-scenarios-for-azure-managed-applications)
-- [🧪](#hands-on-labs) [Hands-on labs](#hands-on-labs)
+1. [Course Introduction](#course-introduction)
+1. [Managed Applications Overview](#managed-applications-overview)
+1. [Azure Managed Applications Overview](#azure-managed-applications-overview)
+1. [Partner Center with Azure Managed Applications Overview](#partner-center-with-azure-managed-applications-overview)
+1. [Configuring Partner Center for Azure Managed Applications](#configuring-partner-center-for-azure-managed-applications)
+1. [Azure Managed Application Deployment Package Overview](#azure-managed-application-deployment-package-overview)
+1. [Working with a Azure Managed Application Deployment Package](#working-with-a-azure-managed-application-deployment-package)
+1. [Integrating Virtual Machine Offers into Azure Managed Applications](#integrating-virtual-machine-offers-into-azure-managed-applications)
+1. [Purchasing an Azure Managed Application](#purchasing-an-azure-managed-application)
+1. [Managing My Purchased Azure Managed Applications](#managing-my-purchased-azure-managed-applications)
+1. [Managing My Customer’s Azure Managed Applications Overview](#managing-my-customers-azure-managed-applications-overview)
+1. [Managing My Customer’s Azure Managed Applications](#managing-my-customers-azure-managed-applications)
+1. [Metered Billing for Azure Managed Applications Overview](#metered-billing-for-azure-managed-applications-overview)
+1. [Metered Billing for Azure Managed Applications](#metered-billing-for-azure-managed-applications)
+1. [Advanced Deployment Scenarios for Azure Managed Applications](#advanced-deployment-scenarios-for-azure-managed-applications)
+1. [🧪](#hands-on-labs) [Hands-on labs](#hands-on-labs)
 
 ---
 

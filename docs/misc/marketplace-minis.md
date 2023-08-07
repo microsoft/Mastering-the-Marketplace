@@ -14,20 +14,20 @@ Marketplace Minis are short to-the-point videos that explain concepts in three m
 
 
 <!-- no toc -->
-- [An introduction to the Metered Billing Accelerator](#an-introduction-to-the-metered-billing-accelerator)
-- [Benefits of private offers](#benefits-of-private-offers)
-- [Benefits of the SaaS Accelerator](#benefits-of-the-saas-accelerator)
-- [Choosing the best billing model for your offer](#choosing-the-best-billing-model-for-your-offer)
-- [Creating a marketplace offer](#creating-a-marketplace-offer)
-- [Determining your offer type](#determining-your-offer-type)
-- [Evaluating and creating container offers for Kubernetes apps](#evaluating-and-creating-container-offers-for-kubernetes-apps)
-- [Evaluating and publishing virtual machine offers](#evaluating-and-publishing-virtual-machine-offers)
-- [Evaluating Azure Managed Application offers](#evaluating-azure-managed-application-offers)
-- [Marketplace Publisher account setup](#marketplace-publisher-account-setup)
-- [Testing a SaaS offer](#testing-a-saas-offer)
-- [Three tips for building Teams Apps](#three-tips-for-building-teams-apps)
-- [Understanding SaaS offers](#understanding-saas-offers)
-- [What is metered billing?](#what-is-metered-billing)
+1. [An introduction to the Metered Billing Accelerator](#an-introduction-to-the-metered-billing-accelerator)
+1. [Benefits of private offers](#benefits-of-private-offers)
+1. [Benefits of the SaaS Accelerator](#benefits-of-the-saas-accelerator)
+1. [Choosing the best billing model for your offer](#choosing-the-best-billing-model-for-your-offer)
+1. [Creating a marketplace offer](#creating-a-marketplace-offer)
+1. [Determining your offer type](#determining-your-offer-type)
+1. [Evaluating and creating container offers for Kubernetes apps](#evaluating-and-creating-container-offers-for-kubernetes-apps)
+1. [Evaluating and publishing virtual machine offers](#evaluating-and-publishing-virtual-machine-offers)
+1. [Evaluating Azure Managed Application offers](#evaluating-azure-managed-application-offers)
+1. [Marketplace Publisher account setup](#marketplace-publisher-account-setup)
+1. [Testing a SaaS offer](#testing-a-saas-offer)
+1. [Three tips for building Teams Apps](#three-tips-for-building-teams-apps)
+1. [Understanding SaaS offers](#understanding-saas-offers)
+1. [What is metered billing?](#what-is-metered-billing)
 
 ---
 

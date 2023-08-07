@@ -13,16 +13,16 @@ hide:
 ---
 
 <!-- no toc -->
-- [Find Your Azure Billing ID](#find-your-azure-billing-id)
-- [Private offers vs. private plans](#private-offers-vs-private-plans)
-- [Private offers for customers overview](#private-offers-for-customers-overview)
-- [Creating private offers for customers](#creating-private-offers-for-customers)
-- [Creating a multi-party private offer for customers](#creating-a-multi-party-private-offer-for-customers)
-- [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
-- [Private offers for CSP partners overview](#private-offers-for-csp-partners-overview)
-- [Creating private offers for CSP partners](#creating-private-offers-for-csp-partners)
-- [Private offers for CSP partners purchase process](#private-offers-for-csp-partners-purchase-process)
-- [Creating multi-party private offers for CSP partners](#craeting-multi-party-private-offers-for-csp-partners)
+1. [Find Your Azure Billing ID](#find-your-azure-billing-id)
+1. [Private offers vs. private plans](#private-offers-vs-private-plans)
+1. [Private offers for customers overview](#private-offers-for-customers-overview)
+1. [Creating private offers for customers](#creating-private-offers-for-customers)
+1. [Creating a multi-party private offer for customers](#creating-a-multi-party-private-offer-for-customers)
+1. [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
+1. [Private offers for CSP partners overview](#private-offers-for-csp-partners-overview)
+1. [Creating private offers for CSP partners](#creating-private-offers-for-csp-partners)
+1. [Private offers for CSP partners purchase process](#private-offers-for-csp-partners-purchase-process)
+1. [Creating multi-party private offers for CSP partners](#craeting-multi-party-private-offers-for-csp-partners)
 
 ---
 

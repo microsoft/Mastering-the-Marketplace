@@ -18,17 +18,17 @@ hide:
 The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days. This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project.
 
 <!-- no toc -->
-- [SaaS Accelerator Overview - A Hands-on Tour](#saas-accelerator-overview---a-hands-on-tour)
-- [SaaS Accelerator Architecture](#saas-accelerator-architecture)
-- [Installing the SaaS Accelerator with the Azure portal cloud shell](#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell)
-- [Installing the SaaS Accelerator from the Azure Marketplace](#installing-the-saas-accelerator-from-the-azure-marketplace)
-- [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
-- [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
-- [Scheduling metered billing events](#scheduling-metered-billing-events)
-- [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
-- [Setting up a development environment for the SaaS Accelerator](#setting-up-a-development-environment-for-the-saas-accelerator)
-- [Replacing application secrets for the SaaS Accelerator](#replacing-application-secrets-for-the-saas-accelerator)
-- [Hands-on labs](#hands-on-labs)
+1. [SaaS Accelerator Overview - A Hands-on Tour](#saas-accelerator-overview---a-hands-on-tour)
+1. [SaaS Accelerator Architecture](#saas-accelerator-architecture)
+1. [Installing the SaaS Accelerator with the Azure portal cloud shell](#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell)
+1. [Installing the SaaS Accelerator from the Azure Marketplace](#installing-the-saas-accelerator-from-the-azure-marketplace)
+1. [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
+1. [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
+1. [Scheduling metered billing events](#scheduling-metered-billing-events)
+1. [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
+1. [Setting up a development environment for the SaaS Accelerator](#setting-up-a-development-environment-for-the-saas-accelerator)
+1. [Replacing application secrets for the SaaS Accelerator](#replacing-application-secrets-for-the-saas-accelerator)
+1. [Hands-on labs](#hands-on-labs)
 
 ---
 
