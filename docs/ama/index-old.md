@@ -19,9 +19,7 @@ title: Mastering Azure Managed Application Offers
 
 ---
 
-## New Ways to sell and deploy Azure Applications
-
-**Updated functionality!**
+## New Ways to sell and deploy Azure Applications ❗
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2242303">Video</a> | [PDF](./pdfs/00.0-ma-temp-overview.pdf)
 
