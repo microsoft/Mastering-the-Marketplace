@@ -143,6 +143,19 @@ This module introduces the metered billing capabilities of Managed Applications.
 - <a href="https://www.youtube.com/watch?v=XHp1XW0c8Nw&t=385s" target="_blank">06:25 – Metered billing scenarios</a>
 - <a href="https://www.youtube.com/watch?v=XHp1XW0c8Nw&t=630s" target="_blank">10:30 – Summary</a>
 
+## Metered billing technical details
+
+<a href="https://aka.ms/AAmn5s6" target="_blank">Video</a> | <a href="./pdfs/12.2-ma-metered-billing-technical.pdf" target="_blank">PDF</a>
+
+In this module, you’ll learn about the technical aspects of calling the metered billing API. This includes different architectures for creating your reporting system as well as a demo showing the API being called to invoke usage events.
+
+<a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=0s" target="_blank">00:00 – Overview</a>
+<a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=60s" target="_blank">01:00 – Direct reporting</a>
+<a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=119s" target="_blank">01:59 – Centralized reporting</a>
+<a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=232s" target="_blank">03:52 – Working with the metered billing API</a>
+<a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=372s" target="_blank">06:12 – Demo: Working with the metered billing API</a>
+<a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=709s" target="_blank">11:49 – Summary</a>
+
 ---
 
 ## Hands-on labs
