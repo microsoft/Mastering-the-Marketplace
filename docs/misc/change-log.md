@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 9/12/2023 | [Metered billing technical details](../ama/index.md#metered-billing-technical-details) |
 | 9/6/2023 | [Mastering Managed Applications:](../ama/index.md)  New course with 10 new modules! |
 | 7/26/2023 | [Accepting and purchasing a Private Offer: The customer experience](https://go.microsoft.com/fwlink/?linkid=2243274) |
 | 7/17/2023 | [New Ways to sell and deploy Azure Applications](https://go.microsoft.com/fwlink/?linkid=2242303) |

@@ -36,6 +36,7 @@ This course details the Managed Application offer-building and onboarding proces
 1. [Working with mainTemplate.json](#working-with-maintemplatejson)
 1. [Managed Applications webhook](#managed-applications-webhook)
 1. [Metered billing overview](#metered-billing-overview)
+1. [Metered billing technical details](#metered-billing-technical-details)
 1. [Hands-on labs](#hands-on-labs)
 
 ---
