@@ -21,10 +21,6 @@ title: Mastering Managed Application Offers
 
 This course details the Managed Application offer-building and onboarding process. It consists of on-demand video modules, slides, and practical hands-on labs to apply your newly acquired knowledge.
 
->❗This course references the ARM template `cluster-deployment.json` in many places. Although using this filename will work technically, the recommended filename is `mainTemplate.json`. 
->
-> The videos linked from this page were created before the recommended change in filename.
-
 ---
 
 <!-- no toc -->
