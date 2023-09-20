@@ -11,6 +11,7 @@ hide:
 <!-- no toc -->
 - [Getting started with Azure Managed Application offers](#getting-started-with-azure-managed-application-offers)
 - [I am a technologist building a Azure Managed Application offer](#i-am-a-technologist-building-a-azure-managed-application-offer)
+- [Test](#test)
 
 ---
 
@@ -31,3 +32,5 @@ hide:
 - [Marketplace metered billing APIs](https://docs.microsoft.com/azure/marketplace/marketplace-metering-service-apis)
 - [Partner Center submission API to onboard Azure apps in Partner Center](https://docs.microsoft.com/azure/marketplace/azure-app-apis)
 - [Create UI Definition Sandbox](https://portal.azure.com/?feature.customPortal=false#view/Microsoft_Azure_CreateUIDef/SandboxBlade)
+
+## Test
