@@ -17,12 +17,12 @@ hide:
 1. [Private offers vs. private plans](#private-offers-vs-private-plans)
 1. [Private offers for customers overview](#private-offers-for-customers-overview)
 1. [Creating private offers for customers](#creating-private-offers-for-customers)
-1. [Creating a multi-party private offer for customers](#creating-a-multi-party-private-offer-for-customers)
+1. [Creating a multiparty private offer for customers](#creating-a-multi-party-private-offer-for-customers)
 1. [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
 1. [Private offers for CSP partners overview](#private-offers-for-csp-partners-overview)
 1. [Creating private offers for CSP partners](#creating-private-offers-for-csp-partners)
 1. [Private offers for CSP partners purchase process](#private-offers-for-csp-partners-purchase-process)
-1. [Creating multi-party private offers for CSP partners](#craeting-multi-party-private-offers-for-csp-partners)
+1. [Creating multiparty private offers for selling partners](#creating-multi-party-private-offers-for-csp-partners)
 
 ---
 
@@ -93,7 +93,7 @@ This demo takes you through the process of an ISV creating a private offer for s
 
 In this walkthrough video, see the purchase process partners in the Cloud Solution Provider (CSP) program go through to purchase private offers created by ISVs.
 
-## Creating multi-party private offers for CSP partners
+## Creating multi-party private offers for selling partners
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2241258">Video</a>
 
