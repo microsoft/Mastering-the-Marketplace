@@ -60,12 +60,17 @@ Installing the SaaS Accelerator is straightforward. This module walks you throug
 
 Follow along and you will be up and running with the SaaS Accelerator in no time!
 
+> **Special note:** Find the latest cloud shell install script for the SaaS Accelerator here.
+> <a href="https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#basic-installation-script" target="_blank">Latest install script</a>
+
 - [00:00 – Overview](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=0s)
 - [01:08 - A typical installation](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=68s)
 - [06:30 - Configuring Partner Center](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=390s)
 - [09:05 - What got deployed](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=545s)
 - [10:33 - Updating an existing installation](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=633s)
 - [13:48 – Summary](https://www.youtube.com/watch?v=hQJQJu77WhQ&t=828s)
+
+
 
 ## Installing the SaaS Accelerator from the Azure Marketplace
 
