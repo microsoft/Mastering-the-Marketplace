@@ -163,4 +163,4 @@ In this instructional video, you'll learn how to replace application secrets for
 
 ## Hands-on labs
 
-To perform the hands-on labs, visit [this GitHub repository](https://github.com/Azure/mtm-tech-enablement-labs), which is home to the Mastering the Marketplace labs.
+To perform the hands-on labs, visit [this GitHub repository](https://github.com/Azure/mtm-labs), which is home to the Mastering the Marketplace labs.
