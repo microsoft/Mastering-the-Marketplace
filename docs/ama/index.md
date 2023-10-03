@@ -21,6 +21,8 @@ title: Mastering Managed Application Offers
 
 This course details the Managed Application offer-building and onboarding process. It consists of on-demand video modules, slides, and practical hands-on labs to apply your newly acquired knowledge.
 
+> This is a new version of an older course. Content from the previous version of this course may be [found here](./index-old.md).
+
 ---
 
 <!-- no toc -->

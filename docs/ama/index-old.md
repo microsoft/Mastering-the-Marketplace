@@ -19,21 +19,6 @@ title: Mastering Azure Managed Application Offers
 
 ---
 
-## New Ways to sell and deploy Azure Applications ❗
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2242303">Video</a> | [PDF](./pdfs/00.0-ma-temp-overview.pdf)
-
-This video introduces new options for Managed Applications, covering new features for your deployment architecture. This video is a must-watch for anyone developing Managed Applications for the Azure Marketplace.
-
-- 00:00 – [Overview](https://www.youtube.com/watch?v=D2jAZ48-ROo&t=0s)
-- 01:16 - [How things have been working](https://www.youtube.com/watch?v=D2jAZ48-ROo&t=76s)
-- 06:13 - [Publisher management](https://www.youtube.com/watch?v=D2jAZ48-ROo&t=373s)
-- 09:25 - [Customer access](https://www.youtube.com/watch?v=D2jAZ48-ROo&t=565s)
-- 11:34 - [Deployment modes](https://www.youtube.com/watch?v=D2jAZ48-ROo&t=694s)
-- 16:04 – [Summary](https://www.youtube.com/watch?v=D2jAZ48-ROo&t=964s)
-
----
-
 This course streamlines the Azure Managed Application offer-building onboarding process. It consists of virtual workshop recordings segmented into easily digestible modules, along with practical hands-on labs to apply your newly acquired knowledge.
 
 The slides for this course [are here](./pdfs/ama-workshop-slides.pdf).
