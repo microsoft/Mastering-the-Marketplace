@@ -132,4 +132,4 @@ The last thing you want is to create and publish an offer only to have it fail M
 
 ## Hands-on labs
 
-To perform the hands-on labs, visit [this GitHub repository](https://github.com/Azure/mtm-tech-enablement-labs), which is home to the Mastering the Marketplace labs.
+To perform the hands-on labs, visit [this GitHub repository](https://github.com/Azure/mtm-labs), which is home to the Mastering the Marketplace labs.

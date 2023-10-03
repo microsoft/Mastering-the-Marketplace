@@ -241,4 +241,4 @@ We exercise the SaaS Billing REST API using Postman to illustrate how the API wo
 
 ## Hands-on labs
 
-To perform the hands-on labs, visit [this GitHub repository](https://github.com/Azure/mtm-tech-enablement-labs), which is home to the Mastering the Marketplace labs.
+To perform the hands-on labs, visit [this GitHub repository](https://github.com/Azure/mtm-labss), which is home to the Mastering the Marketplace labs.
