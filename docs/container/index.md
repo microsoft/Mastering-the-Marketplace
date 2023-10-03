@@ -17,9 +17,13 @@ hide:
 
 This course covers transactable container offers designed for deploying solutions into Azure Kubernetes Service within the customer's subscription. With a focus on practical demonstrations, this course provides a comprehensive understanding of the offer type, from overview to in-depth insights.
 
->❗This course references the ARM template `cluster-deployment.json` in many places. Although using this filename will work technically, the recommended filename is `mainTemplate.json`. 
+>❗This course references the ARM template `cluster-deployment.json` in many places. Although using this filename will work, the recommended filename is `mainTemplate.json` by convention. 
 >
 > The videos linked from this page were created before the recommended change in filename.
+
+> 👩‍💻 Terminal commands used in the demos throughout this course are available [here](./demo-steps.sh).
+
+
 
 <!-- no toc -->
 1. [Container offer for Kubernetes apps overview](#container-offer-for-kubernetes-apps-overview)
