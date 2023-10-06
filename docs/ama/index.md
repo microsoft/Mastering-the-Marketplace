@@ -37,6 +37,7 @@ This course details the Managed Application offer-building and onboarding proces
 1. [Managed Applications webhook](#managed-applications-webhook)
 1. [Metered billing overview](#metered-billing-overview)
 1. [Metered billing technical details](#metered-billing-technical-details)
+1. [Deploying a custom virtual machine offer](#deploying-a-custom-virtual-machine-offer)
 1. [Hands-on labs](#hands-on-labs)
 
 ---
