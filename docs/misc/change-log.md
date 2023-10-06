@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 10/6/2023 | [Deploying a custom virtual machine offer](../ama/index.md#deploying-a-custom-virtual-machine-offer) |
 | 9/12/2023 | [Metered billing technical details](../ama/index.md#metered-billing-technical-details) |
 | 9/6/2023 | [Mastering Managed Applications:](../ama/index.md)  New course with 10 new modules! |
 | 7/26/2023 | [Accepting and purchasing a Private Offer: The customer experience](https://go.microsoft.com/fwlink/?linkid=2243274) |

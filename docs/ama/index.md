@@ -157,6 +157,19 @@ In this module, you’ll learn about the technical aspects of calling the metere
 - <a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=372s" target="_blank">06:12 – Demo: Working with the metered billing API</a>
 - <a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=709s" target="_blank">11:49 – Summary</a>
 
+## Deploying a custom virtual machine offer
+
+<a href="https://aka.ms/AAmzczc" target="_blank">Video</a> | <a href="./code/14.0-ma-deploy-custom-vm.zip">Code</a>
+
+This demo-heavy module takes you through the process of deploying a custom virtual machine with a Managed Application. You’ll see all the steps involved including configuring things in Partner Center and how to author the deployment package files. Notice the code used in this module is available for download above.
+
+- <a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=0s" target="_blank">00:00 – Overview</a>
+- <a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=48s" target="_blank">00:48 – Scenario overview</a>
+- <a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=229s" target="_blank">03:49 – The custom VM offer in Partner Center – Demo</a>
+- <a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=428s" target="_blank">07:08 – The deployment package – Demo</a>
+- <a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=731s" target="_blank">12:11 – The deployment process – Demo</a>
+- <a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=906s" target="_blank">15:06 – Summary</a>
+
 ---
 
 ## Hands-on labs
