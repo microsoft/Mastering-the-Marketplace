@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 10/25/2023 | [Deploying a base VM image with your custom software](../ama/index.md#deploying-a-base-vm-image-with-your-custom-software) |
 | 10/25/2023 | [Marketplace incentives](../partner-center/general.md#marketplace-incentive-programs) |
 | 10/6/2023 | [Deploying a custom virtual machine offer](../ama/index.md#deploying-a-custom-virtual-machine-offer) |
 | 9/12/2023 | [Metered billing technical details](../ama/index.md#metered-billing-technical-details) |

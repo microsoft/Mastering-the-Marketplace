@@ -26,19 +26,20 @@ This course details the Managed Application offer-building and onboarding proces
 ---
 
 <!-- no toc -->
-1. [Managed Applications overview](#managed-applications-overview)
-1. [Managed Application deployment options](#managed-application-deployment-options)
-1. [Purchasing an Azure Application: The customer experience](#purchasing-an-azure-application-the-customer-experience)
-1. [Managing my Managed Applications: The customer experience](#managing-my-managed-applications-the-customer-experience)
-1. [Administering customer subscriptions: The publisher experience](#administering-customer-subscriptions-the-publisher-experience)
-1. [The deployment package](#the-deployment-package)
-1. [Working with createUiDefinition.json](#working-with-createuidefinitionjson)
-1. [Working with mainTemplate.json](#working-with-maintemplatejson)
-1. [Managed Applications webhook](#managed-applications-webhook)
-1. [Metered billing overview](#metered-billing-overview)
-1. [Metered billing technical details](#metered-billing-technical-details)
-1. [Deploying a custom virtual machine offer](#deploying-a-custom-virtual-machine-offer)
-1. [Hands-on labs](#hands-on-labs)
+- [Managed Applications overview](#managed-applications-overview)
+- [Managed Application deployment options](#managed-application-deployment-options)
+- [Purchasing an Azure Application: The customer experience](#purchasing-an-azure-application-the-customer-experience)
+- [Managing my Managed Applications: The customer experience](#managing-my-managed-applications-the-customer-experience)
+- [Administering customer subscriptions: The publisher experience](#administering-customer-subscriptions-the-publisher-experience)
+- [The deployment package](#the-deployment-package)
+- [Working with createUiDefinition.json](#working-with-createuidefinitionjson)
+- [Working with mainTemplate.json](#working-with-maintemplatejson)
+- [Managed Applications webhook](#managed-applications-webhook)
+- [Metered billing overview](#metered-billing-overview)
+- [Metered billing technical details](#metered-billing-technical-details)
+- [Deploying a custom virtual machine offer](#deploying-a-custom-virtual-machine-offer)
+- [Deploying a base VM image with your custom software](#deploying-a-base-vm-image-with-your-custom-software)
+- [Hands-on labs](#hands-on-labs)
 
 ---
 
@@ -170,6 +171,19 @@ This demo-heavy module takes you through the process of deploying a custom virtu
 - <a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=428s" target="_blank">07:08 – The deployment package – Demo</a>
 - <a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=731s" target="_blank">12:11 – The deployment process – Demo</a>
 - <a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=906s" target="_blank">15:06 – Summary</a>
+
+## Deploying a base VM image with your custom software
+
+<a href="https://aka.ms/AAn7ni6" target="_blank">Video</a> | [PDF](./pdfs/15.0-ma-deploy-base-vm.pdf) | <a href="./code/15.0-ma-deploy-base-vm.zip">Code</a>
+
+This deployment model is an alternative to deploying a custom virtual machine as part of your Managed Application. In this module, you’ll see how to deploy a base Azure VM and then install your software on it with a script that runs as part of the deployment process.
+
+- [00 – Overview](https://www.youtube.com/watch?v=_ej526aRobE&t=0s)
+- [01:02 – Scenario overview](https://www.youtube.com/watch?v=_ej526aRobE&t=62s)
+- [05:10 – The deployment package – Demo](https://www.youtube.com/watch?v=_ej526aRobE&t=310s)
+- [12:42 – The deployment process – Demo](https://www.youtube.com/watch?v=_ej526aRobE&t=762s)
+- [17:34 – Summary](https://www.youtube.com/watch?v=_ej526aRobE&t=1054s)
+
 
 ---
 
