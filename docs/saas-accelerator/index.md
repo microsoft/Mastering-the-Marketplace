@@ -18,25 +18,34 @@ hide:
 The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days. This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project.
 
 <!-- no toc -->
-1. [SaaS Accelerator Overview - A Hands-on Tour](#saas-accelerator-overview---a-hands-on-tour)
-1. [SaaS Accelerator Architecture](#saas-accelerator-architecture)
-1. [Installing the SaaS Accelerator with the Azure portal cloud shell](#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell)
-1. [Installing the SaaS Accelerator from the Azure Marketplace](#installing-the-saas-accelerator-from-the-azure-marketplace)
-1. [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
-1. [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
-1. [Scheduling metered billing events](#scheduling-metered-billing-events)
-1. [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
-1. [Setting up a development environment for the SaaS Accelerator](#setting-up-a-development-environment-for-the-saas-accelerator)
-1. [Replacing application secrets for the SaaS Accelerator](#replacing-application-secrets-for-the-saas-accelerator)
-1. [Hands-on labs](#hands-on-labs)
+- [SaaS Accelerator introduction](#saas-accelerator-introduction)
+- [SaaS Accelerator hands-on tour](#saas-accelerator-hands-on-tour)
+- [SaaS Accelerator Architecture](#saas-accelerator-architecture)
+- [Installing the SaaS Accelerator with the Azure portal cloud shell](#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell)
+- [Installing the SaaS Accelerator from the Azure Marketplace](#installing-the-saas-accelerator-from-the-azure-marketplace)
+- [Configuring Email in the SaaS Accelerator](#configuring-email-in-the-saas-accelerator)
+- [Invoking Metered Billing with the SaaS Accelerator](#invoking-metered-billing-with-the-saas-accelerator)
+- [Scheduling metered billing events](#scheduling-metered-billing-events)
+- [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
+- [Setting up a development environment for the SaaS Accelerator](#setting-up-a-development-environment-for-the-saas-accelerator)
+- [Replacing application secrets for the SaaS Accelerator](#replacing-application-secrets-for-the-saas-accelerator)
+- [Hands-on labs](#hands-on-labs)
+
+
 
 ---
 
-## SaaS Accelerator Overview - A Hands-on Tour
+## SaaS Accelerator introduction
+
+<a target="_blank" href="https://aka.ms/AAn9yda">Video</a>
+
+This short video introduces the <a href="https://aka.ms/SaaSAccelerator" target="blank">SaaS Accelerator</a>, a tool for integrating your SaaS offer with the Microsoft commercial marketplace. This powerful solution meets all the technical requirements for SaaS offers in the marketplace and more! Learn about the SaaS Accelerator and how you can get started in under 15 minutes without writing code.
+
+## SaaS Accelerator hands-on tour
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196164">Video</a>
 
-This introduction to the accelerator demonstrates the [SaaS Accelerator's](https://aka.ms/SaaSAccelerator) core capabilities showing why it may be a good choice for your marketplace SaaS offer. In three short demos, this video shows its fundamental capabilities.
+This introduction to the accelerator demonstrates the SaaS Accelerator's core capabilities showing why it may be a good choice for your marketplace SaaS offer. In three short demos, this video shows its fundamental capabilities.
 
 You'll see the landing page, the publisher's subscription management portal, and the customer's subscription management capabilities in action!
 
