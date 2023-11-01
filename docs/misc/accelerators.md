@@ -1,7 +1,7 @@
 ---
 # Page settings
 layout: default
-keywords: Azure AppSource
+keywords: Azure Marketplace Accelerators
 comments: false
 
 title: Marketplace Technical Accelerators
