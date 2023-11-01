@@ -67,7 +67,7 @@ There are two solutions for enhancing the metered billing capabilities of your s
 
 ### Custom Meters Accelerator
 
-A production-ready opensource solution that enables partners to implement and manage advanced meter models for Managed Application offers.​ This solution enables scheduling billing events to occur in the future.
+A production-ready opensource solution that enables partners to implement and manage advanced meter models for Managed Application offers, such as yearly and milestone payments.​ This solution enables scheduling billing events to occur in the future.
 
 ​Empowers partners to surpass the constraints of current meter features, tailoring meter approaches to fit unique business requirements.
 
