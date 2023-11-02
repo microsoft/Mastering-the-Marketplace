@@ -13,23 +13,28 @@ title: Choose Your Offer Type
 If you are deciding which offer type you will be creating, this page is for you. Primary considerations for choosing an offer type include billing options and deployment architectures. This page has resources to help walk through these topics as well as any others related to getting started.
 
 <!-- no toc -->
-- [Choose your offer type - Video walkthrough](#choose-your-offer-type---video-walkthrough)
-- [Supprting articles](#supprting-articles)
-- [Choose your offer flowchart](#choose-your-offer-flowchart)
+- [Choose your offer type: Video walkthrough](#choose-your-offer-type-video-walkthrough)
+- [Choose your offer type: Flowchart](#choose-your-offer-type-flowchart)
+- [Supporting articles](#supporting-articles)
 - [About SaaS offers](#about-saas-offers)
 - [About Virtual Machine offers](#about-virtual-machine-offers)
 - [About Azure Managed Application offers](#about-azure-managed-application-offers)
 - [About Container offers for Kubernetes apps](#about-container-offers-for-kubernetes-apps)
 - [Microsoft Learn documentation](#microsoft-learn-documentation)
 
-
-## Choose your offer type - Video walkthrough
+## Choose your offer type: Video walkthrough
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2236766" target="_blank">Video</a>
 
 The Azure Marketplace enables several types of deployment architectures. Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? This video walks you through the decision of what type of offer is a good fit for your solution.
 
-## Supprting articles
+## Choose your offer type: Flowchart
+
+Building on top of the above video, follow the questions in the below image to find the right offer type for you.
+
+![Find your offer type](./assets/offer-type-flow.png)
+
+## Supporting articles
 
 The following articles present the different offer types available for the Azure Marketplace and detail the steps of using each.
 
@@ -37,13 +42,6 @@ The following articles present the different offer types available for the Azure
 - [Exploring SaaS Offers in the Microsoft Commercial Marketplace: Essential Elements and Best Practices](https://techcommunity.microsoft.com/t5/marketplace-blog-for-partners/exploring-saas-offers-in-the-microsoft-commercial-marketplace/ba-p/3792559)
 - [Exploring Virtual Machine offers in the Azure marketplace](https://techcommunity.microsoft.com/t5/marketplace-blog-for-partners/exploring-virtual-machine-offers-in-the-azure-marketplace/ba-p/3779854)
 - [Container offers for Kubernetes apps: A step-by-step guide](https://techcommunity.microsoft.com/t5/marketplace-blog-for-partners/container-offers-for-kubernetes-apps-a-step-by-step-guide/ba-p/3804283)
-
-
-## Choose your offer flowchart
-
-Building on top of the above video, follow the questions in the below image to find the right offer type for you. 
-
-![Find your offer type](./assets/offer-type-flow.png)
 
 ## About SaaS offers
 
