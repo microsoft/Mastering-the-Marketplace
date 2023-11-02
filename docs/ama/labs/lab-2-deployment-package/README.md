@@ -12,32 +12,33 @@ In this lab, you will edit the artifacts that go into a an Azure Managed Applica
 
 ## Exercise 1 - ARM TTK
 
-This exercise introduces **Azure Resource Manager Template Toolkit** (ARM TTK), a tool that runs in PowerShell and validates the artifacts in your deployment package. The ARM TTK tool runs tests that ensure valid `mainTemplate.json` and `createUiDefinition ` files.
+This exercise introduces **Azure Resource Manager Template Toolkit** (ARM TTK), a tool that runs in PowerShell and validates the artifacts in your deployment package. The ARM TTK tool runs tests that ensure valid `mainTemplate.json` and `createUiDefinition` files.
 
-You will clone the ARM TTK repository and bring the code to your local machine where it can be executed using PowerShell. 
+You will clone the ARM TTK repository and bring the code to your local machine where it can be executed using PowerShell.
 
 > If you are not on Windows, you may download PowerShell for your platform.
-> 
+>
 > - [Linux](https://github.com/Azure/arm-ttk/blob/master/arm-ttk/README.md#running-tests-on-linux)
 > - [macOS](https://github.com/Azure/arm-ttk/blob/master/arm-ttk/README.md#running-tests-on-macos)
 
 1. Clone the [ARM TTK repository](https://github.com/Azure/arm-ttk) from GitHub.
 2. Set up ARM TTK to run on your machine by executing the following commands in a PowerShell terminal.
 
-```powershell
+```
 cd "<PATH TO ARM TTK REPO>\arm-ttk\arm-ttk"
- 
+
 Import-Module .\arm-ttk.psd1
 ```
 
-From the same directory you may execute the **ARM TTK** tool as shown below. Note the path is looking at the `end` folder, which contains the solution to this lab.
+3.From the same directory you may execute the **ARM TTK** tool as shown below. Note the path is looking at the `end` folder, which contains the solution to this lab.
 
-```powershell
+```
 $AMAPackage = "<PATH TO AMA-WORKSHOP>\ama-workshop\lab-2-deployment-package\assets\end\"
 
 Test-AzTemplate -TemplatePath $AMAPackage
 ```
-See that test pass. The output from ARM TTK should look something like this.
+
+4.See that test pass. The output from ARM TTK should look something like this.
 
 ```
 Validating end\createUiDefinition.json
@@ -58,22 +59,23 @@ Validating end\mainTemplate.json
 
 > You will use the **ARM TTK** tool to check the status of your own package files several times during this lab. Because of this, do not close the terminal window between steps.
 
-Set up ARM TTK to point at the `begin` directory for validation as shown below.
+5.Set up ARM TTK to point at the `begin` directory for validation as shown below.
 
-```powershell
- $AMAPackage = "<PATH TO AMA-WORKSHOP>\ama-workshop\lab-2-deployment-package\assets\begin\"
-```
-Run the tests as shown below. They should all pass although the `mainTemplate.json` file in the `begin` directory is basically a skeleton you will build on.
+   ```
+  $AMAPackage = "<PATH TO AMA-WORKSHOP>\ama-workshop\lab-2-deployment-package\assets\begin\"
+  ```
 
-```powershell
- Test-AzTemplate -TemplatePath $AMAPackage
-```
+6.Run the tests as shown below. They should all pass although the `mainTemplate.json` file in the `begin` directory is basically a skeleton you will build on.
+
+  ```
+  Test-AzTemplate -TemplatePath $AMAPackage
+  ```
 
 ## Exercise 2 - `mainTemplate.json`
 
 Here you will build out a ARM template that deploys a virtual machine along with some other Azure services.
 
-The basic outline of a `mainTemplate.json` ARM template looks like this. 
+The basic outline of a `mainTemplate.json` ARM template looks like this.
 
 ```json
 {
@@ -144,18 +146,17 @@ There are several parameters the ARM template expects. You will fill them in and
 }
 ```
 
-> Take a moment to review the `type` attribute of each parameter. See that you can pass in multiple data types.
+  > Take a moment to review the `type` attribute of each parameter. See that you can pass in multiple data types.
 
-Run ARM TTK. The following test fails.
+3.Run ARM TTK. The following test fails.
 
 ```cmd
 Parameters Must Be Referenced
 ```
 
-Make the variables section look like the following JSON.
+4.Add the following variables to the **variables** section of the ARM template.
 
 ```json
-"variables": {
   "itemPrefix": "[concat('ama', uniqueString(resourceGroup().id))]",
   "addressPrefix": "10.0.0.0/16",
   "domainNameLabel": "[concat(variables('itemPrefix'), '-dnl')]",
@@ -167,17 +168,16 @@ Make the variables section look like the following JSON.
   "subnetPrefix": "10.0.0.0/24",
   "subnetRef": "[resourceId('Microsoft.Network/virtualNetworks/subnets', variables('virtualNetworkName'), variables('subnetName'))]",
   "virtualNetworkName": "[concat(variables('itemPrefix'), '-vnet')]"
-}
 ```
 
-Run ARM TTK.
+5.Run ARM TTK.
 
 Now there are **parameters** and **variables** that are not being referenced. This means they are not being referenced in the `resources` section which defines the actual resources to be created by the ARM template.
 
 > 🗒️Note the `itemPrefix` parameter is not reported as an unreferenced parameter since it being used by several other variables.
 
-Add the following resource definitions to the `resources[]` section.
-   
+6.Add the following resource definitions to the `resources[]` section.
+
 ```json
 {
   "type": "Microsoft.Storage/storageAccounts",
@@ -335,25 +335,26 @@ Add the following resource definitions to the `resources[]` section.
 
 > Take moment to examine the different resources that will be created by this ARM template.
 
-7. Run ARM TTK. One test should fail.
+7.Run ARM TTK. One test should fail.
 
-    > ```terminal
-    > apiVersions Should Be Recent
-    > ```
+  ```
+    apiVersions Should Be Recent
+  ```
 
-8. The resource type of `Microsoft.Storage/storageAccounts` has an old API version. Fix this problem as recommended by ARM TTK.
+8.The resource type of `Microsoft.Storage/storageAccounts` has an old API version. Fix this problem as recommended by ARM TTK.
 
-9. Ensure ARM TTK passes with no errors.
+9.Ensure ARM TTK passes with no errors.
 
 Your ARM template is complete.
 
-## Exercise 4 - `createUiDefinition.json`
+## Exercise 3 - `createUiDefinition.json`
 
-This exercise will take you through creating the file that defines the user experience for installing your solution via the `mainTemplate.json` created in Exercise 3.
+This exercise will take you through creating the file that defines the user experience for installing your solution via the `mainTemplate.json` created in Exercise 2.
 
 The role of the `createUiDefinition.json` file is to do the following.
-   1. Provide parameters to the `mainTemplate.json` ARM template.
-   2. Provide an installation user experience for the customer.
+
+1. Provide parameters to the `mainTemplate.json` ARM template.
+2. Provide an installation user experience for the customer.
 
 The main components of a `createUiDefinition.json` file looks like this.
 
@@ -374,7 +375,7 @@ The main components of a `createUiDefinition.json` file looks like this.
 
 1. Create the file `createUiDefinition.json` in your `begin` folder.
 2. Paste the above JSON into the new file.
-3. Run ARM TTK. You get several errors on the `createUiDefinition.json` file because the sections of the file are yet filled in yet. 
+3. Run ARM TTK. You get several errors on the `createUiDefinition.json` file because the sections of the file are yet filled in yet.
 
 ### The Create UI Definition Sandbox
 
@@ -392,14 +393,15 @@ The Create UI Definition Sandbox is a tool for testing `createUiDefinition.json`
 1. Go back to your `createUiDefinition.json` file.
 2. Add the following JSON into the `steps[]` array. This will add a new tab, or blade, to the experience the customer will see during installation.
 
-```json
-{
-  "name": "prefixBlade",
-  "bladeTitle": "Item Prefix",
-  "label": "Item Prefix",
-  "elements": []
-}
-```
+    ```json
+    {
+      "name": "prefixBlade",
+      "bladeTitle": "Item Prefix",
+      "label": "Item Prefix",
+      "elements": []
+    }
+    ```
+
 3. Paste the JSON from your file in the [Create UI Definition Sandbox](https://portal.azure.com/?feature.customPortal=false#blade/Microsoft_Azure_CreateUIDef/SandboxBlade). You should see a new **Item Prefix** tab.
 4. Click the **Item Prefix** tab.
     > The blade is blank and has no controls on it.
@@ -483,7 +485,7 @@ The Create UI Definition Sandbox is a tool for testing `createUiDefinition.json`
                         "toolTip": "Password for the VM",
                         "constraints": {
                             "required": true,
-                            "regex": "^[a-zA-Z0-9]{12}$",
+                            "regex": "^[a-zA-Z0-9]{12,}$",
                             "validationMessage": "Password must be at least 12 characters long, contain only numbers and letters"
                         },
                         "options": {
@@ -546,13 +548,13 @@ The Create UI Definition Sandbox is a tool for testing `createUiDefinition.json`
         
 ```
 
-Check your JSON in the sandbox to ensure it is valid.
+10.Check your JSON in the sandbox to ensure it is valid.
 
 ### The outputs section
 
 Now that you have all of the steps defined in your `createUiDefinition.json` file, you can focus on the `outputs` section, which passes the control values to the ARM template during installation.
 
-Fill in the `outputs` section of your `createUiDefinition.json` file with the JSON below.
+1. Fill in the `outputs` section of your `createUiDefinition.json` file with the JSON below.
 
 ```json
 "adminPassword": "[steps('vmBlade').adminPassword]",
@@ -565,15 +567,16 @@ Fill in the `outputs` section of your `createUiDefinition.json` file with the JS
 "vmName": "[steps('vmBlade').vmName]"
 ```
 
-> Note how the output keys match the input parameter names in the `mainTemplate.json` ARM template. 
+> Note how the output keys match the input parameter names in the `mainTemplate.json` ARM template.
 > Also note how the values reference blade values, except for the `location()` function, which is a required output value.
 
-2. Check your files with **ARM TTK**.
-3. Check your JSON in the sandbox.
+2.Check your files with **ARM TTK**.
+
+3.Check your JSON in the sandbox.
 
 Your `createUiDefinition.json` is now complete.
 
-## Exercise 5 - Deploying your deployment package files
+## Exercise 4 - Deploying your deployment package files
 
 In this exercise, you will create a second plan in the offer you created in [Lab 1](../lab-1-partner-center/README.md).
 
@@ -584,20 +587,20 @@ In this exercise, you will create a second plan in the offer you created in [Lab
 5. Create a new plan named **Gold** in your offer. Use the same techniques you used in Lab 1 to create your **Silver** plan.
    > When you get to the **Pricing and availability** section of your new offer, remember to check the boxes and fill in the units on the metered billing dimensions.
 
-## Exercise 6 - Publish your offer
+## Exercise 5 - Publish your offer
 
 Now that you have two plans in your offer, it's time to publish your offer.
 
 1. In Partner Center click the **Review and publish** button at the top right of the page, which takes you to the **Review publish changes** page.
-2. Once all indicators are green, click the **Publish** button at the bottom of the page. You will be taken to the **Offer overview** page where you can monitor the status of your offer as it progresses to the **Publisher signoff** stage. (This requires refreshing the page periodically). 
-   
+2. Once all indicators are green, click the **Publish** button at the bottom of the page. You will be taken to the **Offer overview** page where you can monitor the status of your offer as it progresses to the **Publisher signoff** stage. (This requires refreshing the page periodically).
+
 The publishing process can take some time to complete, but should be done in time for the next lab.
 
 > ⚠️ **DO NOT** go past the **Publisher signoff** stage by clicking the **Go live** button once it appears.
 
 ## Conclusion
 
-Great job, you've finished lab 2! 
+Great job, you've finished lab 2!
 
 In this lab you accomplished the following.
 
