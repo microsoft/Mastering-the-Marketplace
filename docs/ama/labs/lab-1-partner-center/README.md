@@ -37,7 +37,6 @@ In this section you will fill our the **Offer setup** portion of your offer. You
 1. Scroll down to the **Customer leads** section.
 1. Click the **Connect** link.
 1. Click the **Lead destination dropdown** and note you may integrate your lead collection with several types of CRMs. In this exercise you will connect to an **Azure table**, so select that option from the dropdown.
-1. Put in your email address.
 
 You must create the Azure table storage account in the Azure portal to connect to for lead management.
 
@@ -55,8 +54,7 @@ In this section you will create an Azure **Data Storage account** using the Azur
 1. For storage account name, type in a string that will be unique across azure. Try something like **amaworshopleads002**, where **002** is a random number between 001 and 999.
 1. For the **Region** select a region near you.
 2. Under **Redundancy**, select **Locally-redundant storage (LRS)**. This is the least expensive storage account type.
-3. Select the **Review and create** at the bottom of the page.You are taken to the final review page and a message should appear at the top of the page, **Validation passed**.
-4. Select the **Create** button.
+3. Select the **Review** at the bottom of the page. You are taken to the final review page. If there are no errors, press the **Create** button at the bottom of the page.
 
 ### CRM leads - Part 2
 
@@ -215,7 +213,7 @@ In this section, you specify details about your plan needed to create the applic
 1. For **Package file (.zip)** you will upload a ZIP file containing the deployment package needed. You may drag an drop or click to brose to the ZIP file.
     1. There is a file in the `lab-1-partner-center\assets` assets folder named `silver-plan-deployment-package.zip`. Upload it.
 1. Navigate to the **Public Azure** section near the bottom of the screen.
-    1. For the **Azure Active Directory tenant ID** section, enter your Tenant ID from the Azure portal. If you aren't sure how to find your Tenant ID, [click here](#finding-your-tenant-id) and then come back to this section when you are done.
+    1. For the **Microsoft Entra tenant ID** section, enter your Tenant ID from the Azure portal. If you aren't sure how to find your Tenant ID, [click here](#finding-your-tenant-id) and then come back to this section when you are done.
     2. For the **Authorizations** section, under **Principal ID**, enter the ID of your own account from the Azure portal. If you aren't sure how to find your account ID, [click here](#finding-your-user-account-id) and come back to this section when you are done.
     3. For **Role definition**, select **Owner**.
 2. Click the **Save draft** button at the bottom of the screen.

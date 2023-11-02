@@ -26,9 +26,9 @@ This exercise takes you through the process of buying your Silver plan, created 
 
 1. Open the [Azure portal](https://portal.azure.com/) and log in.
 2. At the top of the screen click the **Create a resource** button. You are taken to the public Azure marketplace.
-    > In Lab 1, you configured your offer to be available to your subscription while in the **Publisher signoff** stage. This makes your offer a private one and you need to navigate to the private offers part of the marketplace to purchase it.
+    In Lab 1, you configured your offer to be available to your subscription while in the **Publisher signoff** stage. This makes your offer a private one and you need to navigate to the private offers part of the marketplace to purchase it.
 3. Under the search box, click the link that reads **See more in the Marketplace**.
-4. On this page you see a pink bar at the top of the screen telling you that you have private offers available. Click the link that reads **View private products**.
+4. On this page you see a pink bar at the top of the screen telling you that you have private offers available. Click the link that reads **View private plans**.
 5. Locate your offer named **AMA Workshop 1 (preview)** and click on that tile. You are taken to the offer's purchase page, which is in **Preview** mode.
 
 ### Purchasing the Silver plan
@@ -45,7 +45,7 @@ This exercise takes you through the process of buying your Silver plan, created 
 7. In the **Managed Application Details** section, enter the following.
    1. **Application name:** workshopapp1
    2. **Managed Resource Group**: workshopapp1-mrg
-8. At the bottom of the screen, click the **Next: Storage setting** button.
+8. At the bottom of the screen, click the **Next:** button.
 
 #### Storage settings tab
 
@@ -71,7 +71,7 @@ You are taken to the **managed application** instance.
 
 ## Exercise 2 - The deployed application
 
-In this exercise you will tour the **workshopapp1** managed application you've just purchased. 
+In this exercise you will tour the **workshopapp1** managed application you've just purchased.
 
 ### The managed application
 
@@ -98,7 +98,7 @@ In this exercise you will go through the process of buying your Gold plan, creat
 ### Purchasing the Gold plan
 
 1. Click the link to **Home** in the top left corner of the screen.
-2. Under **Azure services**, click **Create a resource**.
+2. Under **Azure services**, click **Create a resource**. Then, under the search box, click the link that reads **See more in the Marketplace.**
 3. Go back to the **Private offers** section of the marketplace and find the **AMA Workshop 1** offer.
 4. Purchase the **Gold** plan. Using the values as follows in the setup screens.
    1. Basics tab
@@ -137,8 +137,8 @@ Here you will actually log in into the virtual machine deployed by your Managed 
 
 #### Windows users
 
-1. Select **RDP** from the dropdown.
-2. Click the button **Download RDP** file.
+1. Press **Select** in the **Native RDP** box.
+2. Click the button **Download RDP file**.
 3. When prompted, click the **Open** button on the **Downloads** dialog. This will launch your remote desktop client.
 4. Enter the **username and password** you entered when purchasing the Managed Application.
 5. Connect to the remote machine.
@@ -147,11 +147,11 @@ Here you will actually log in into the virtual machine deployed by your Managed 
 
 #### Mac and Linux users
 
-1. Select **SSH** from the dropdown.
-2. Follow the instruction on the page, under **Connect via SSH with client**.
+1. Click **More ways to connect**, then select **Native SSH** from the dropdown.
+2. Follow the instruction on the page, under **Connect via SSH with client** to enable SSH on the Windows VM.
 3. Use the **username and password** you entered while purchasing the Managed Application to log in to the virtual machine.
     > Note you are currently in the role of a customer, and you have remoted into a virtual machine inside the **Managed Resource Group**.
-6. Disconnect from the virtual machine.
+4. Disconnect from the virtual machine.
 
 ## Conclusion
 
