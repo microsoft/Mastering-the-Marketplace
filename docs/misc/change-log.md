@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 11/2/2023 | [Updated Managed Application labs](../ama/index.md#hands-on-labs) |
 | 10/30/2023 | [SaaS Accelerator introduction](../saas-accelerator/index.md#saas-accelerator-introduction) |
 | 10/25/2023 | [Deploying a base VM image with your custom software](../ama/index.md#deploying-a-base-vm-image-with-your-custom-software) |
 | 10/25/2023 | [Marketplace incentives](../partner-center/general.md#marketplace-incentive-programs) |
