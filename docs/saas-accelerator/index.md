@@ -29,9 +29,8 @@ The SaaS Accelerator provides a fully functional community-led SaaS reference im
 - [Custom Landing Page Fields with the SaaS Accelerator](#custom-landing-page-fields-with-the-saas-accelerator)
 - [Setting up a development environment for the SaaS Accelerator](#setting-up-a-development-environment-for-the-saas-accelerator)
 - [Replacing application secrets for the SaaS Accelerator](#replacing-application-secrets-for-the-saas-accelerator)
+- [Using the external notification feature](#using-the-external-notification-feature)
 - [Hands-on labs](#hands-on-labs)
-
-
 
 ---
 
@@ -167,6 +166,19 @@ In this instructional video, you'll learn how to replace application secrets for
 - [07:00 - Steps of replacing secrets in App Service config](https://www.youtube.com/watch?v=YZSgR_Qgiew&t=420s)
 - [07:29 - Demo: Replacing secrets in App Service config](https://www.youtube.com/watch?v=YZSgR_Qgiew&t=449s)
 - [10:07 - Summary](https://www.youtube.com/watch?v=YZSgR_Qgiew&t=607s)
+
+## Using the external notification feature
+
+<a href="https://aka.ms/AAnfiiw" target="_blank">Video</a> | [PDF](./pdfs/12-setup-external-notification.pdf)
+
+The external notification feature feature enables publishers to set up an external notification URL to receive event notifications for specific actions performed by customers. Publishers can configure the URL to which notifications will be sent.
+
+This SaaS Accelerator feature enables publishers to integrate automated workflows between the SaaS Accelerator and their internal systems, allowing for scenarios such as automated creation of customer accounts.
+
+- [00:00 – Overview](https://www.youtube.com/watch?v=A7TKSE08dAY&t=0s)
+- [00:29 - The external notification feature](https://www.youtube.com/watch?v=A7TKSE08dAY&t=29s)
+- [04:06 – Feature demo](https://www.youtube.com/watch?v=A7TKSE08dAY&t=246s)
+- [06:19 – Summary](https://www.youtube.com/watch?v=A7TKSE08dAY&t=379s)
 
 ---
 

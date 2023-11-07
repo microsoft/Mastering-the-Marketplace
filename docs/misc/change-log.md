@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 11/7/2023 | [Using the external notification feature](../saas-accelerator/index.md#using-the-external-notification-feature) (SaaS Accelerator) |
 | 11/2/2023 | [Updated Managed Application labs](../ama/index.md#hands-on-labs) |
 | 10/30/2023 | [SaaS Accelerator introduction](../saas-accelerator/index.md#saas-accelerator-introduction) |
 | 10/25/2023 | [Deploying a base VM image with your custom software](../ama/index.md#deploying-a-base-vm-image-with-your-custom-software) |
