@@ -184,27 +184,8 @@ This deployment model is an alternative to deploying a custom virtual machine as
 - [12:42 – The deployment process – Demo](https://www.youtube.com/watch?v=_ej526aRobE&t=762s)
 - [17:34 – Summary](https://www.youtube.com/watch?v=_ej526aRobE&t=1054s)
 
-
 ---
 
 ## Hands-on labs
 
-These hand on labs build on top of one another, so progress through them in order to get a fully functional Azure Managed Application published and working for a test environment.
-
-### Prerequisites
-
-1. Azure subscription that can create resources
-1. A Partner Center Account
-1. VS Code or other text editor
-
-### Getting started
-
-Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
-
-### Labs 🧪
-
-1. Lab 1 - [Publishing an Azure Managed Application Offer in Partner Center](./labs/lab-1-partner-center/README.md)
-2. Lab 2 - [The Managed Application Deployment Package](./labs/lab-2-deployment-package/README.md)
-3. Lab 3 - [Purchasing an Azure Managed Application](./labs/lab-3-purchasing-ama/README.md)
-4. Lab 4 - [Administering Your Purchased Managed Applications](./labs/lab-4-administer-my-amas/README.md)
-5. Lab 5 - [Administering Your Customer’s Managed Applications](./labs/lab-5-administer-customer-amas/README.md)
+To perform the hands-on labs, visit [this GitHub repository](https://github.com/Azure/mtm-labs), which is home to the Mastering the Marketplace labs.
