@@ -24,17 +24,16 @@ Join us for live hands-on workshops where you will learn how to take your market
 | June 6, 2023 | [Mastering Container for Kubernetes apps](https://microsoftcloudpartner.eventbuilder.com/event/72448) |
 -->
 
-
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">Build Custom SaaS Offers</span>
 This comprehensive course takes you through all you need to get a SaaS offer up and running. From landing pages to webhooks, this course will help you get your custom SaaS offer up and running in days instead of weeks. 
 
-[Take me to it](/Mastering-the-Marketplace/saas/){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/saas/tech-topics){ .md-button }
 </div>
 
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">The SaaS Accelerator</span>
-Instead of building your own custom SaaS solution, consider using the SaaS Accelerator. The SaaS accelerator is a turnkey reference implementation of the technical requirements for a SaaS offer which can be installed in 20 minutes.
+Instead of building your own custom SaaS solution, consider using the SaaS Accelerator. The SaaS accelerator is a turnkey solution meeting the technical requirements for a SaaS offer and can be installed in 20 minutes.
 
 [Take me to it](/Mastering-the-Marketplace/saas-accelerator){ .md-button }
 </div>
