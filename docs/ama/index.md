@@ -21,8 +21,6 @@ title: Mastering Managed Application Offers
 
 This course details the Managed Application offer-building and onboarding process. It consists of on-demand video modules, slides, and practical hands-on labs to apply your newly acquired knowledge.
 
-> This is a new version of an older course. Content from the previous version of this course may be [found here](./index-old.md).
-
 ---
 
 <!-- no toc -->
@@ -178,7 +176,7 @@ This demo-heavy module takes you through the process of deploying a custom virtu
 
 This deployment model is an alternative to deploying a custom virtual machine as part of your Managed Application. In this module, you’ll see how to deploy a base Azure VM and then install your software on it with a script that runs as part of the deployment process.
 
-- [00 – Overview](https://www.youtube.com/watch?v=_ej526aRobE&t=0s)
+- [00:00 – Overview](https://www.youtube.com/watch?v=_ej526aRobE&t=0s)
 - [01:02 – Scenario overview](https://www.youtube.com/watch?v=_ej526aRobE&t=62s)
 - [05:10 – The deployment package – Demo](https://www.youtube.com/watch?v=_ej526aRobE&t=310s)
 - [12:42 – The deployment process – Demo](https://www.youtube.com/watch?v=_ej526aRobE&t=762s)

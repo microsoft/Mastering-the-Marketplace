@@ -10,7 +10,7 @@ nav:
   - Full length courses:
     - SaaS: '/Mastering-the-Marketplace/saas/'
     - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
-    - Azure Managed Applications: '/Mastering-the-Marketplace/ama/'
+    - Managed Applications: '/Mastering-the-Marketplace/ama/'
     - Container offers for K8s apps: '/Mastering-the-Marketplace/container/'
     - Virtual Machines: '/Mastering-the-Marketplace/vm/'
   - Bonus content:
