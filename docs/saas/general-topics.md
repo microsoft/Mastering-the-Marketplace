@@ -12,21 +12,21 @@ hide:
   - toc
 ---
 
-**[Publisher experience topics](#publisher-experience)**
 <!-- no toc -->
-- [SaaS Offer Overview](#saas-offer-overview)
-- [Publishing a SaaS Offer](#publishing-a-saas-offer)
-- [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
-- [SaaS Pricing in Partner Center Publisher Overview](#saas-pricing-in-partner-center-publisher-overview)
-- [SaaS Pricing in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
-- [Reporting and Insights for Multi-year SaaS Offers](#reporting-and-insights-for-multi-year-saas-offers)
+- [Publisher experience](#publisher-experience)
+    - [SaaS Offer Overview](#saas-offer-overview)
+    - [Publishing a SaaS Offer](#publishing-a-saas-offer)
+    - [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
+    - [SaaS Pricing in Partner Center Publisher Overview](#saas-pricing-in-partner-center-publisher-overview)
+    - [SaaS Pricing in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
+    - [Reporting and Insights for Multi-year SaaS Offers](#reporting-and-insights-for-multi-year-saas-offers)
+- [Customer experience](#customer-experience)
+    - [Purchasing a SaaS offer from the Azure Marketplace](#purchasing-a-saas-offer-from-the-azure-marketplace)
+    - [Purchasing a SaaS offer from AppSource](#purchasing-a-saas-offer-from-appsource)
+    - [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
+    - [Purchasing a Public SaaS Offer with Different Pricing Models](#purchasing-a-public-saas-offer-with-different-pricing-models)
 
-**[Customer experience topics](#customer-experience)**
-<!-- no toc -->
-- [Purchasing a SaaS offer from the Azure Marketplace](#purchasing-a-saas-offer-from-the-azure-marketplace)
-- [Purchasing a SaaS offer from AppSource](#purchasing-a-saas-offer-from-appsource)
-- [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
-- [Purchasing a Public SaaS Offer with Different Pricing Models](#purchasing-a-public-saas-offer-with-different-pricing-models)
+
 
 ---
 
