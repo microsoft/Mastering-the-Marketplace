@@ -13,8 +13,6 @@ hide:
 description: This content focuses on the non-technical aspects of the marketplace.
 ---
 
-This content focuses on the non-technical aspects of the marketplace.
-
 <!-- no toc -->
 
 ---
