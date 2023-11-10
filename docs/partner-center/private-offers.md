@@ -19,10 +19,10 @@ hide:
 - [Creating private offers](#creating-private-offers)
 - [Creating a multiparty private offer](#creating-a-multiparty-private-offer)
 - [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
-- [Private offers for CSP partners overview](#private-offers-for-csp-partners-overview)
-- [Creating private offers for CSP partners](#creating-private-offers-for-csp-partners)
-- [Private offers for CSP partners purchase process](#private-offers-for-csp-partners-purchase-process)
-- [Creating multiparty private offers for CSP partners](#creating-multiparty-private-offers-for-csp-partners)
+- [Private offers for selling partners overview](#private-offers-for-selling-partners-overview)
+- [Creating private offers for selling partners](#creating-private-offers-for-selling-partners)
+- [Private offers for selling partners purchase process](#private-offers-for-selling-partners-purchase-process)
+- [Creating multiparty private offers for selling partners](#creating-multiparty-private-offers-for-selling-partners)
 
 ---
 
@@ -75,25 +75,25 @@ This module shows activating and purchasing a Private Offer from the standpoint 
 - 05:20 - [Purchasing a Private Offer](https://www.youtube.com/watch?v=TANUlgLuVqI&t=320s)
 - 08:01 – [Summary](https://www.youtube.com/watch?v=TANUlgLuVqI&t=481s)
 
-## Private offers for CSP partners overview
+## Private offers for selling partners overview
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196414">Video</a> | [PDF](./pdfs/2.0-csp-private-offer-overview.pdf)
 
 Learn about private offers for Cloud Solution Providers in this overview of the capability in Partner Center.
 
-## Creating private offers for CSP partners
+## Creating private offers for selling partners
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196413">Video</a>
 
 This demo takes you through the process of an ISV creating a private offer for sale to a Cloud Solution Provider. 
 
-## Private offers for CSP partners purchase process
+## Private offers for selling partners purchase process
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196145">Video</a>
 
 In this walkthrough video, see the purchase process partners in the Cloud Solution Provider (CSP) program go through to purchase private offers created by ISVs.
 
-## Creating multiparty private offers for CSP partners
+## Creating multiparty private offers for selling partners
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2241258">Video</a>
 
