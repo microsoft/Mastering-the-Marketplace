@@ -14,6 +14,8 @@ description: This content focuses on the non-technical aspects of the marketplac
 ---
 
 <!-- no toc -->
+- [Marketplace incentive programs](#marketplace-incentive-programs)
+- [Choosing your offer type](./select-offer-type.md)
 
 ---
 
