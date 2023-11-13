@@ -15,7 +15,7 @@ hide:
 <!-- no toc -->
 - [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
 - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
-  
+
 ---
 
 ## Navigating Partner Center accounts and identifiers

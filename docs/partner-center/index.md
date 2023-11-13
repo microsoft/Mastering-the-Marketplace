@@ -11,6 +11,13 @@ hide:
 ---
 
 <div class="sub-page-tile" markdown="1">
+  <span class="linkless-heading">General Partner Center topics</span>
+  Topics supporting common activities within Partner Center.
+
+  [Take me to it](/Mastering-the-Marketplace/partner-center/general){ .md-button }
+</div>
+
+<div class="sub-page-tile" markdown="1">
   <span class="linkless-heading">Private Offers</span>
   Everthing you need to create and publish Private Offers.
 
@@ -43,11 +50,4 @@ hide:
   🚦Don't know where to start? Try the Partner Center Learning Path.
 
   [Take me to it](/Mastering-the-Marketplace/learning-paths/partner-center){ .md-button }
-</div>
-
-<div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">General Partner Center topics</span>
-  Various topics supporting activities within Partner Center.
-
-  [Take me to it](/Mastering-the-Marketplace/partner-center/general){ .md-button }
 </div>
