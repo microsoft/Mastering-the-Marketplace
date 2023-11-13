@@ -13,9 +13,19 @@ hide:
 ---
 
 <!-- no toc -->
+- [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
 - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
   
 ---
+
+## Navigating Partner Center accounts and identifiers
+
+<a target="_blank" href="https://aka.ms/AAnlvrh">Video</a> | [PDF](./pdfs/05-pc-ids.pdf)
+
+
+Setting up and configuring Partner Center to best serve your organization’s needs is paramount to a good experience in the portal and ongoing involvement in the marketplace program. This module covers scenarios of interest to organizations configuring their Partner Center accounts or looking for identifiers in Partner Center commonly used in account management and support scenarios.
+
+Understand PartnerOne accounts and identities, publishers and their associated IDs, and more.
 
 ## Handling multiple currencies for different markets
 
