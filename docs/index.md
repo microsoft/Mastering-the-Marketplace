@@ -47,19 +47,12 @@ Partner Center is the web portal used to create and publish offers. Learn more a
 
 
 <div class="landing-tile" markdown="1">
-<span class="linkless-heading">Mastering Container offers for Kubernetes apps</span>
-Get from the start line to the finish in creating and publishing a Container offer for K8s app in this hands-on demo heavy course.
+<span class="linkless-heading">All about Private Offers</span>
+Provate Offers are a powerful feature of marketplace allowing custom deal negotiation. Learn all about them here.
 
-[Take me to it](/Mastering-the-Marketplace/container){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/partner-center/private-offers){ .md-button }
 </div>
 
-
-<div class="landing-tile" markdown="1">
- <span class="linkless-heading">Virtual Machine Offers</span>
-Virtual machine offers enable you to install your proprietary software on a virtual machine and license it with the virtual machine itself. If you are considering using a virtual machine offer, this thorough course and hands-on labs will take you from start to finish in getting your offer up and running. 
-
-[Take me to it](/Mastering-the-Marketplace/vm){ .md-button }
-</div>
 
 <div class="landing-tile" markdown="1">
   <span class="linkless-heading">Azure Managed Applications Offers</span>
