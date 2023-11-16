@@ -13,57 +13,33 @@ hide:
 ---
 
 <!-- no toc -->
-- [Find Your Azure Billing ID](#find-your-azure-billing-id)
-- [Private offers vs. private plans](#private-offers-vs-private-plans)
-- [Private offers overview](#private-offers-overview)
-- [Creating private offers](#creating-private-offers)
-- [Creating a multiparty private offer](#creating-a-multiparty-private-offer)
-- [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
-- [Private offers for selling partners overview](#private-offers-for-selling-partners-overview)
-- [Creating private offers for selling partners](#creating-private-offers-for-selling-partners)
-- [Private offers for selling partners purchase process](#private-offers-for-selling-partners-purchase-process)
-- [Creating multiparty private offers for selling partners](#creating-multiparty-private-offers-for-selling-partners)
+- [For customers](#for-customers)
+    - [Find Your Azure Billing ID](#find-your-azure-billing-id)
+    - [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
+- [All about private offers](#all-about-private-offers)
+    - [Private offers overview](#private-offers-overview)
+    - [Private offers vs. private plans](#private-offers-vs-private-plans)
+- [For ISVs selling direct to customers](#for-isvs-selling-direct-to-customers)
+    - [Creating private offers](#creating-private-offers)
+    - [Creating a multiparty private offer](#creating-a-multiparty-private-offer)
+  - [ISVs with selling partners](#isvs-with-selling-partners)
+    - [Private offers for selling partners overview](#private-offers-for-selling-partners-overview)
+    - [Creating private offers for selling partners](#creating-private-offers-for-selling-partners)
+    - [Private offers for selling partners purchase process](#private-offers-for-selling-partners-purchase-process)
+    - [Creating multiparty private offers for selling partners](#creating-multiparty-private-offers-for-selling-partners)
+
 
 ---
 
-## Find Your Azure Billing ID
+## For customers
+
+### Find Your Azure Billing ID
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2222693">Video</a>
 
 This module offers a very quick demo on how to find you Azure Billing ID. This is particularly useful for marketplace customers who are buying a Private Offer with negotiated pricing from a seller. To create the Private Offer, the seller needs the customer’s Billing ID. This video shows you how to find it.
 
-## Private offers vs. private plans
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2222237">Video</a> | [PDF](./pdfs/02.4-private-offer-vs-plan.pdf)
-
-There are two features of the marketplace that allow for selling solutions to a customer at a private negotiated price point. Those features are private offers and private plans. It’s important to know the difference between them as you decide on the technique you’ll use when offering custom pricing to individual customers.
-
-This module introduces the similarities and basic details of each to help you decide which feature is best for you.
-
-## Private offers overview
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196150">Video</a> | [PDF](./pdfs/01.1-isv-private-offer-overview.pdf)
-
-Learn how private offers work for marketplace publishers offering them directly to customers. This module provides an overview of private offers and explores some deeper details about how they work.
-
-## Creating private offers
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196151">Video</a>
-
-This demo takes you through the process of an ISV creating a private offer for sale to a customer.
-
-## Creating a multiparty private offer
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2241428">Video</a>
-
-In this informative video, we explore the process of creating and re-selling multiparty private offers that reseller partners can make available to their end customers. Join us as we provide a comprehensive explanation, step-by-step instructions, and an engaging live demonstration.
-
-- 00:00 - [Overview](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=0s)
-- 00:38 – [About multiparty private offers](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=38s)
-- 03:50 - [Demo: Preparing to sell a MPO](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=230s)
-- 08:28 - [Summary](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=508s)
-
-## Accepting and purchasing a Private Offer: The customer experience
+### Accepting and purchasing a Private Offer: The customer experience
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2243274">Video</a>
 
@@ -75,25 +51,62 @@ This module shows activating and purchasing a Private Offer from the standpoint 
 - 05:20 - [Purchasing a Private Offer](https://www.youtube.com/watch?v=TANUlgLuVqI&t=320s)
 - 08:01 – [Summary](https://www.youtube.com/watch?v=TANUlgLuVqI&t=481s)
 
-## Private offers for selling partners overview
+## All about private offers
+
+### Private offers overview
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196150">Video</a> | [PDF](./pdfs/01.1-isv-private-offer-overview.pdf)
+
+Learn how private offers work for marketplace publishers offering them directly to customers. This module provides an overview of private offers and explores some deeper details about how they work.
+
+### Private offers vs. private plans
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2222237">Video</a> | [PDF](./pdfs/02.4-private-offer-vs-plan.pdf)
+
+There are two features of the marketplace that allow for selling solutions to a customer at a private negotiated price point. Those features are private offers and private plans. It’s important to know the difference between them as you decide on the technique you’ll use when offering custom pricing to individual customers.
+
+This module introduces the similarities and basic details of each to help you decide which feature is best for you.
+
+## For ISVs selling direct to customers
+
+### Creating private offers
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196151">Video</a>
+
+This demo takes you through the process of an ISV creating a private offer for sale to a customer.
+
+### Creating a multiparty private offer
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2241428">Video</a>
+
+In this informative video, we explore the process of creating and re-selling multiparty private offers that reseller partners can make available to their end customers. Join us as we provide a comprehensive explanation, step-by-step instructions, and an engaging live demonstration.
+
+- 00:00 - [Overview](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=0s)
+- 00:38 – [About multiparty private offers](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=38s)
+- 03:50 - [Demo: Preparing to sell a MPO](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=230s)
+- 08:28 - [Summary](https://www.youtube.com/watch?v=4VJKzg5LfA8&t=508s)
+
+## ISVs with selling partners
+
+### Private offers for selling partners overview
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196414">Video</a> | [PDF](./pdfs/2.0-csp-private-offer-overview.pdf)
 
 Learn about private offers for Cloud Solution Providers in this overview of the capability in Partner Center.
 
-## Creating private offers for selling partners
+### Creating private offers for selling partners
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196413">Video</a>
 
 This demo takes you through the process of an ISV creating a private offer for sale to a Cloud Solution Provider. 
 
-## Private offers for selling partners purchase process
+### Private offers for selling partners purchase process
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196145">Video</a>
 
 In this walkthrough video, see the purchase process partners in the Cloud Solution Provider (CSP) program go through to purchase private offers created by ISVs.
 
-## Creating multiparty private offers for selling partners
+### Creating multiparty private offers for selling partners
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2241258">Video</a>
 
@@ -103,6 +116,3 @@ In this comprehensive video, we explore how publishers create multiparty private
 - 00:55 – [About multiparty private offers](https://www.youtube.com/watch?v=6AmdYEvSxso&t=55s)
 - 05:31 - [Demo: Creating a multiparty private offer]( https://www.youtube.com/watch?v=6AmdYEvSxso&t=331s)
 - 13:25 – [Summary]( https://www.youtube.com/watch?v=6AmdYEvSxso&t=805s)
-
-
-
