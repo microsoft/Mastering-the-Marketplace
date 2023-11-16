@@ -13,21 +13,20 @@ hide:
 ---
 
 <!-- no toc -->
-- [For customers](#for-customers)
+- **[For customers](#for-customers)**
     - [Find Your Azure Billing ID](#find-your-azure-billing-id)
     - [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
-- [All about private offers](#all-about-private-offers)
+- **[All about private offers](#all-about-private-offers)**
     - [Private offers overview](#private-offers-overview)
     - [Private offers vs. private plans](#private-offers-vs-private-plans)
-- [For ISVs selling direct to customers](#for-isvs-selling-direct-to-customers)
+- **[ISVs selling direct to customers](#isvs-selling-direct-to-customers)**
     - [Creating private offers](#creating-private-offers)
     - [Creating a multiparty private offer](#creating-a-multiparty-private-offer)
-  - [ISVs with selling partners](#isvs-with-selling-partners)
+- **[ISVs with selling partners](#isvs-with-selling-partners)**
     - [Private offers for selling partners overview](#private-offers-for-selling-partners-overview)
     - [Creating private offers for selling partners](#creating-private-offers-for-selling-partners)
     - [Private offers for selling partners purchase process](#private-offers-for-selling-partners-purchase-process)
     - [Creating multiparty private offers for selling partners](#creating-multiparty-private-offers-for-selling-partners)
-
 
 ---
 
@@ -67,7 +66,7 @@ There are two features of the marketplace that allow for selling solutions to a 
 
 This module introduces the similarities and basic details of each to help you decide which feature is best for you.
 
-## For ISVs selling direct to customers
+## ISVs selling direct to customers
 
 ### Creating private offers
 
