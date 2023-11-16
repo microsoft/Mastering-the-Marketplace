@@ -4,50 +4,141 @@ layout: default
 keywords: Azure AppSource Marketplace Partner Center
 comments: false
 
+# Hero section
 title: Mastering Partner Center
+description: These modules help you understand and use the Partner Center portal to publish your commercial marketplace offer.
 
 hide:
   - toc
 ---
 
-<div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">General Partner Center topics</span>
-  Topics supporting common activities within Partner Center.
+<!-- no toc -->
+- **[Partner Center general topics](#partner-center-general-topics)**
+    - [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
+    - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
+    - [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
+- **[Working with SaaS offers in Partner Center](#working-with-saas-offers-in-partner-center)**
+    - [Publishing a SaaS Offer](#publishing-a-saas-offer)
+    - [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
+    - [SaaS Purchase Customer Experience](#saas-purchase-customer-experience)
+    - [SaaS Pricing in Partner Center Publisher Overview](#saas-pricing-in-partner-center-publisher-overview)
+    - [SaaS Pricing in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
+    - [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
+    - [Reporting and Insights for Multi-year SaaS Offers](#reporting-and-insights-for-multi-year-saas-offers)
+- **[Working with Managed Application offers in Partner Center](#working-with-managed-application-offers-in-partner-center)**
+    - [Partner Center for Azure Managed Applications Overview](#partner-center-for-azure-managed-applications-overview)
+    - [Partner Center for Azure Managed Applications Demo](#partner-center-for-azure-managed-applications-demo)
+- **[Working with virtual machine offers in Partner Center](#working-with-virtual-machine-offers-in-partner-center)**
+    - [Configuring a Virtual Machine Offer with Partner Center Demo](#configuring-a-virtual-machine-offer-with-partner-center-demo)
+    - [Publish a Virtual Machine Offer with Partner Center Demo](#publish-a-virtual-machine-offer-with-partner-center-demo)
 
-  [Take me to it](/Mastering-the-Marketplace/partner-center/general){ .md-button }
-</div>
 
-<div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">Private Offers</span>
-  Everthing you need to create and publish Private Offers.
 
-  [Take me to it](/Mastering-the-Marketplace/partner-center/private-offers){ .md-button }
-</div>
+> **[About Private Offers](./private-offers.md)**
+>
+> Private offers are a Partner Center topic unto themsleves and relevant content may be found [here](./private-offers.md).
 
-<div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">Working with SaaS offers</span>
-  Topics useful for those building SaaS offers in Partner Center.
+---
 
-  [Take me to it](/Mastering-the-Marketplace/partner-center/saas){ .md-button }
-</div>
+## Partner Center general topics
 
-<div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">Working with VM offers</span>
-  Content useful for those building Virtual Machine offers in Partner Center.
+### Navigating Partner Center accounts and identifiers
 
-  [Take me to it](/Mastering-the-Marketplace/partner-center/vm){ .md-button }
-</div>
+<a target="_blank" href="https://aka.ms/AAnlvrh">Video</a> | [PDF](./pdfs/05-pc-ids.pdf)
 
-<div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">Managed Application offers</span>
-  Content useful for those building Azure Managed Applications offers in Partner Center.
+Setting up and configuring Partner Center to best serve your organization’s needs is paramount to a good experience in the portal and ongoing involvement in the marketplace program. This module covers scenarios of interest to organizations configuring their Partner Center accounts or looking for identifiers in Partner Center commonly used in account management and support scenarios.
 
-  [Take me to it](/Mastering-the-Marketplace/partner-center/ama){ .md-button }
-</div>
+Understand PartnerOne accounts and identities, publishers and their associated IDs, and more.
 
-<div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">Partner Center Learning Path</span>
-  🚦Don't know where to start? Try the Partner Center Learning Path.
+### Handling multiple currencies for different markets
 
-  [Take me to it](/Mastering-the-Marketplace/learning-paths/partner-center){ .md-button }
-</div>
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2207055">Video</a>
+
+Plans have specific pricing and may be offered in many regions, many with different currencies. This video walks though how to customize pricing in local currencies per selling region. For example, you may set the price in the US at one rate and the price in other regions for different amounts based on local currencies.
+
+### Programmatic access to reporting and insights
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2223619">Video</a> | [PDF](./pdfs/03.6-programmatic-access-to-reporting-and-insights.pdf)
+
+This technical module demonstrates how to work with Partner Center reports and insights using the Partner Center API. This video shows technical details of working with the Partner Center API and is intended for technologists interested in automating marketplace reporting.
+
+- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=0s">00:00</a> – Overview
+- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=49s">00:49</a> – Prerequisites
+- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=149s">02:29</a> – Demo
+- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=680s">11:20</a> – Commercial marketplace documentation
+- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=732s">12:12</a> – Summary
+
+## Working with SaaS offers in Partner Center
+
+### Publishing a SaaS Offer
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196318">Video</a> | [PDF](../saas/pdfs/03.1-Publishing-a-SaaS-Offer.pdf)
+
+This detailed video presents the concepts of publishing a SaaS offer and then walks through the steps of doing so in Partner Center. This module goes all the way from creating an offer, to adding and plan, and finally publishing the offer live. It also speaks to the need of developers to have a sandbox environment in which they can test and development the landing page and webhook.
+
+### Migrating Listings to SaaS Offers
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196250">Video</a>
+
+You may have started your online presence in the commercial marketplace with a simple listing to advertise your services. This does not, however, create a transactable offer that can be sold through the marketplace. This video shows how to convert your existing listing into a fully transactable SaaS Offer.
+
+### SaaS Purchase Customer Experience
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2202782">Video</a>
+
+Customers may have many choices about what billing and pricing options they would like to subscribe to for a SaaS offer. This video walks through the purchase process from the customer’s point of view showing how to use purchasing tools to simplify the purchase experience.
+
+### SaaS Pricing in Partner Center Publisher Overview
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2201523">Video</a> | 
+[PDF](../partner-center/pdfs/03.2-saas-pricing-in-partner-center-publisher-overview.pdf)
+
+Pricing and billing options for SaaS offers are very flexible and give publishers many options for how to bill and get paid for their solutions. This video walks through the SaaS pricing models and gives real-world examples of using them effectively.
+
+### SaaS Pricing in Partner Center Publisher Demo
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2201524">Video</a>
+
+Pricing and billing options for SaaS offers are very flexible and give publishers many options for how to bill and get paid for their solutions. This video demonstrates how to use Partner Center to create and price a plan from start to finish, including using metered billing options.
+
+### Publishing a Private SaaS Plan
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196256">Video</a> | [PDF](../saas/pdfs/03.2-Publishing-Private-SaaS-Plan.pdf)
+
+This brief video builds upon what you learned in, “[Publishing a SaaS Offer](#publishing-a-saas-offer).” It presents the concepts of using private plans and then shows how to do so inside Partner Center.
+
+### Reporting and Insights for Multi-year SaaS Offers
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2215839">Video</a>
+
+This module walks through reporting for multi-year SaaS and the reporting widgets available that display information about subscriptions, orders and pricing models including growth trends over time.
+
+Additionally, various downloadable formats including CSV and PDFs for detailed reporting are explained in detail.
+
+## Working with Managed Application offers in Partner Center
+
+### Partner Center for Azure Managed Applications Overview
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196143">Video</a>
+
+Partner Center is the portal publishers use to create, configure, publish, and monitor their offers in the Microsoft Marketplace. This overview takes you through Partner Center for Azure Managed Applications.
+
+### Partner Center for Azure Managed Applications Demo
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196410">Video</a>
+
+Understanding Partner Center, the publisher's portal, is key to creating great offers. This demo walks through setting up a Partner Center offer for an Azure Managed Application.
+
+## Working with virtual machine offers in Partner Center
+
+### Configuring a Virtual Machine Offer with Partner Center Demo
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2197587" target="_blank">Video</a>
+
+See how to create a Virtual Machine offer in Partner Center to include creating the offer, configuring a basic CRM integration, specifying offer properties, listing details, and resell with CSP settings. This video does not go into the specifics of creating the Virtual Machine plans for the offer, which will be seen in a later demo.
+
+### Publish a Virtual Machine Offer with Partner Center Demo
+
+<a href="https://go.microsoft.com/fwlink/?linkid=2197498" target="_blank">Video</a>
+
+This demonstration takes you through creating a plan for your Virtual Machine offer, associating the correct image to the plan, and setting other configuration options on your Virtual Machine. After completing the plan configuration you get to see the offer published.
