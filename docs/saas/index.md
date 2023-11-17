@@ -14,24 +14,24 @@ hide:
 ---
 
 <div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">Full SaaS technical course</span>
-  Complete on-demand course with video and hands-on labs.
+  <span class="linkless-heading">SaaS offers in Partner Center</span>
+  Topics useful for those working with SaaS offers in Partner Center.
 
-[Take me to it](/Mastering-the-Marketplace/saas/tech-topics){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/partner-center/saas){ .md-button }
 </div>
 
 <div class="sub-page-tile" markdown="1">
   <span class="linkless-heading">Business-focused SaaS topics</span>
-  Content of interest to those ISVs and customers in working with SaaS offers.
+  Content for the ISV and customer experiences in working with SaaS offers.
 
 [Take me to it](/Mastering-the-Marketplace/saas/general-topics){ .md-button }
 </div>
 
 <div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">SaaS Offers in Partner Center</span>
-  Topics useful for those working with SaaS offers in Partner Center.
+  <span class="linkless-heading">Full SaaS technical course</span>
+  Complete on-demand course with video and hands-on labs.
 
-[Take me to it](/Mastering-the-Marketplace/partner-center/saas){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/saas/tech-topics){ .md-button }
 </div>
 
 <div class="sub-page-tile" markdown="1">

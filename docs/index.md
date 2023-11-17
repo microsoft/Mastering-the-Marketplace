@@ -25,17 +25,13 @@ Join us for live hands-on workshops where you will learn how to take your market
 -->
 
 <div class="landing-tile" markdown="1">
- <span class="linkless-heading">Build Custom SaaS Offers</span>
-This comprehensive course takes you through all you need to get a SaaS offer up and running. From landing pages to webhooks, this course will help you get your custom SaaS offer up and running in days instead of weeks. 
+ <span class="linkless-heading">Choose your offer type</span>
 
-[Take me to it](/Mastering-the-Marketplace/saas/tech-topics){ .md-button }
-</div>
+Deciding which offer type to use? This page is for you.
 
-<div class="landing-tile" markdown="1">
- <span class="linkless-heading">The SaaS Accelerator</span>
-Instead of building your own custom SaaS solution, consider using the SaaS Accelerator. The SaaS accelerator is a turnkey solution meeting the technical requirements for a SaaS offer and can be installed in 20 minutes.
+The included decision tree and supporting video will help you understand the different offer types and choose the one best suited for your solution.
 
-[Take me to it](/Mastering-the-Marketplace/saas-accelerator){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/biz/select-offer-type){ .md-button }
 </div>
 
 <div class="landing-tile" markdown="1">
@@ -46,17 +42,44 @@ Partner Center is the web portal used to create and publish offers. Learn more a
 </div>
 
 
-<div class="landing-tile" markdown="1">
-<span class="linkless-heading">All about Private Offers</span>
-Provate Offers are a powerful feature of marketplace allowing custom deal negotiation. Learn all about them here.
 
-[Take me to it](/Mastering-the-Marketplace/partner-center/private-offers){ .md-button }
+<div class="landing-tile" markdown="1">
+ <span class="linkless-heading">Building SaaS offers technical course</span>
+This comprehensive course takes you through all you need to get a SaaS offer up and running. From landing pages to webhooks, this course will help you get your custom SaaS offer up and running in days instead of weeks. 
+
+[Take me to it](/Mastering-the-Marketplace/saas/tech-topics){ .md-button }
 </div>
 
+<div class="landing-tile" markdown="1">
+ <span class="linkless-heading">Use the SaaS Accelerator</span>
+Instead of building your own custom SaaS solution, consider using the SaaS Accelerator. The SaaS accelerator is a turnkey solution meeting the technical requirements for a SaaS offer and can be installed in 20 minutes.
+
+[Take me to it](/Mastering-the-Marketplace/saas-accelerator){ .md-button }
+</div>
 
 <div class="landing-tile" markdown="1">
-  <span class="linkless-heading">Azure Managed Applications Offers</span>
+  <span class="linkless-heading">Mastering Managed Applications offers</span>
 With a powerful ARM based deployment model, Azure Managed Applications are popular among those who want to deploy resources into the customer's environment, but still maintain control of those resources.
+
+[Take me to it](/Mastering-the-Marketplace/ama){ .md-button }
+</div>
+
+<div class="landing-tile" markdown="1">
+  <span class="linkless-heading">Mastering virtual machine offers</span>
+
+Virtual machines are a popular way to deliver solutions to customers. Learn how in this comprehensive course on building VM offers.
+
+You'll learn everything from how to package your solution to how to make it available on the Azure marketplace.
+
+[Take me to it](/Mastering-the-Marketplace/ama){ .md-button }
+</div>
+
+<div class="landing-tile" markdown="1">
+  <span class="linkless-heading">Mastering container offers</span>
+
+Do you want to deliver your software solution in containers that can run on your customer's Azure Kubernetes Service? 
+
+Learn how in this demo-heavy technical course taht takes you step-by-step through the process.
 
 [Take me to it](/Mastering-the-Marketplace/ama){ .md-button }
 </div>
