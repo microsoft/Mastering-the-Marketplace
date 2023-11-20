@@ -11,12 +11,12 @@ hide:
 
 | Date | Change |
 ---| ---|
-| 11/13/2023 | [Navigating Partner Center accounts and identifiers](../partner-center/general.md#navigating-partner-center-accounts-and-identifiers) |
+| 11/13/2023 | [Navigating Partner Center accounts and identifiers](../partner-center/index.md#navigating-partner-center-accounts-and-identifiers) |
 | 11/7/2023 | [Using the external notification feature](../saas-accelerator/index.md#using-the-external-notification-feature) (SaaS Accelerator) |
 | 11/2/2023 | [Updated Managed Application labs](../ama/index.md#hands-on-labs) |
 | 10/30/2023 | [SaaS Accelerator introduction](../saas-accelerator/index.md#saas-accelerator-introduction) |
 | 10/25/2023 | [Deploying a base VM image with your custom software](../ama/index.md#deploying-a-base-vm-image-with-your-custom-software) |
-| 10/25/2023 | [Marketplace incentives](../partner-center/general.md#marketplace-incentive-programs) |
+| 10/25/2023 | [Marketplace incentives](../biz/index.md#marketplace-incentive-programs) |
 | 10/6/2023 | [Deploying a custom virtual machine offer](../ama/index.md#deploying-a-custom-virtual-machine-offer) |
 | 9/12/2023 | [Metered billing technical details](../ama/index.md#metered-billing-technical-details) |
 | 9/6/2023 | [Mastering Managed Applications:](../ama/index.md)  New course with 10 new modules! |
@@ -27,7 +27,7 @@ hide:
 | 7/5/2023 | [14 new Marketplace Mini videos](./marketplace-minis.md) |
 | 6/28/2023 | [Installing the SaaS Accelerator from the Azure Marketplace](../saas-accelerator/index.md#installing-the-saas-accelerator-from-the-azure-marketplace) |
 | 5/16/2023 | [Scheduling metered billing events](../saas-accelerator/index.md#scheduling-metered-billing-events) |
-| 5/15/2023 | [Choose your offer type video](./select-offer-type.md) |
+| 5/15/2023 | [Choose your offer type video](../biz/select-offer-type.md) |
 | 2/15/2023 | [Deprecating and restoring virtual machine images](../vm/index.md#deprecating-and-restoring-virtual-machine-images) |
 | 2/3/2023 | [Installing the SaaS Accelerator with the Azure portal cloud shell](../saas-accelerator/index.md#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell) |
 | 2/2/2023 | [Setting up a development environment for the SaaS Accelerator](../saas-accelerator/index.md#setting-up-a-development-environment-for-the-saas-accelerator) |
