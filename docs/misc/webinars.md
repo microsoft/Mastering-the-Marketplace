@@ -15,6 +15,8 @@ Workshops vary in length, but typically run 4-6 hours, depending on the topic. S
 
 ## Register for upcoming workshops!
 
+More workshops coming in the new year. Check back with us.
+
 | Date | Workshop |
 |--- | --- |
 | Dec. 5, 2023 | [Mastering Managed Application offers](https://microsoftcloudpartner.eventbuilder.com/event/77964?source=MTMCL) |
