@@ -13,7 +13,7 @@ The workshops below are live in a virtual environment. These events are opportun
 
 Workshops vary in length, but typically run 4-6 hours, depending on the topic. See the event's page for details.
 
-## Upcoming workshops
+## Register for upcoming workshops!
 
 | Date | Workshop |
 |--- | --- |
