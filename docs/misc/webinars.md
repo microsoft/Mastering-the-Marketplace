@@ -15,10 +15,15 @@ Workshops vary in length, but typically run 4-6 hours, depending on the topic. S
 
 ## Register for upcoming workshops!
 
-More workshops coming in the new year. Check back with us.
+More workshops coming in the new year. Check back with us to register.
 
 | Date | Workshop |
 |--- | --- |
-| Dec. 5, 2023 | [Mastering Managed Application offers](https://microsoftcloudpartner.eventbuilder.com/event/77964?source=MTMCL) |
+| 12/5/2023 | [Mastering Managed Application offers](https://microsoftcloudpartner.eventbuilder.com/event/77964?source=MTMCL) |
+| 1/9/2024	|	Mastering SaaS offers |
+| 1/23/2024	|	Mastering the SaaS Accelerator |
+| 2/6/2024	|	Mastering virtual machine offers |
+| 2/20/2024	|	Mastering container offers |
+| 3/12/2024	|	Mastering Managed Application offers |
 
 
