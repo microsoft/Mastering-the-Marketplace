@@ -12,7 +12,7 @@ description: Mastering the Marketplace is a learning library for building transa
 
 ---
 
-You have reached the the most comprehensive on-demand content available to help you develop transactable offers for the Microsoft commercial marketplace. This site features instructional videos, interactive hands-on labs, and sample code to provide a better understanding of technical topics for the marketplace.
+You have reached the the most comprehensive on-demand content available to help you develop transactable offers for the Microsoft commercial marketplace. This site features instructional videos, interactive hands-on labs, and sample code to provide a better understanding of the marketplace.
 
 ## Live workshops!
 
