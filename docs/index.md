@@ -8,21 +8,17 @@ hide:
 
 # Hero section
 title: Mastering the Marketplace
-description: Mastering the Marketplace is a learning library for building transactable offers on the Microsoft commercial marketplace. This content helps you bring your solution to the marketplace faster and with more understanding. The library contains self-paced videos, hands-on labs, and sample code. 
+description: Mastering the Marketplace is a learning library for building transactable offers on the Microsoft commercial marketplace. This content helps you bring your solution to the marketplace faster and with more understanding. The library contains self-paced videos, hands-on labs, and sample code.
 
 ---
 
 You have reached the the most comprehensive on-demand content available to help you develop transactable offers for the Microsoft commercial marketplace. This site features instructional videos, interactive hands-on labs, and sample code to provide a better understanding of technical topics for the marketplace.
 
-<!--
-## Live workshops from Mastering the Marketplace
+## Live workshops!
 
-Join us for live hands-on workshops where you will learn how to take your marketplace offer from concept to production.
+Learn from your favorite MTM content authors in a live virtual workshop focused on specific technologies and offer types. Workshops are a great opportunity to get from concept to reality in building your solutions for the marketplace.
 
-| Date | Workshop |
-|--- | --- |
-| June 6, 2023 | [Mastering Container for Kubernetes apps](https://microsoftcloudpartner.eventbuilder.com/event/72448) |
--->
+[Learn more here!](./misc/workshops.md)
 
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">Choose your offer type</span>
