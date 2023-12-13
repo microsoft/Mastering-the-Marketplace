@@ -14,9 +14,11 @@ description: Mastering the Marketplace is a learning library for building transa
 
 You have reached the the most comprehensive on-demand content available to help you develop transactable offers for the Microsoft commercial marketplace. This site features instructional videos, interactive hands-on labs, and sample code to provide a better understanding of the marketplace.
 
-## Live workshops!
+## Live workshops
 
-Learn from your favorite MTM content authors in a live virtual workshop focused on specific technologies and offer types. Workshops are a great opportunity to get from concept to reality in building your solutions for the marketplace.
+**New 2024 workshops posted!**
+
+Learn from your favorite Mastering the Marketplace content authors in live virtual workshops focused on specific technologies and offer types. Workshops are a great opportunity to get from concept to reality in building your solutions for the marketplace.
 
 [Learn more here!](./misc/workshops.md)
 
