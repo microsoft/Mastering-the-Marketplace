@@ -42,6 +42,15 @@ hide:
 
 ## Partner Center general topics
 
+### Getting started with Partner Center
+
+<a target="_blank" href="https://aka.ms/AAogzq3">Video</a>
+
+The first thing a marketplace publisher must do is register as a Microsoft partner and join the Commercial Marketplace program. This provides access to Partner Center, where partners work to publish their marketplace offers.
+
+This module shows the most common partner registration flow along with the first steps partners will take in Partner Center to ensure it is set up appropriately.
+
+
 ### Navigating Partner Center accounts and identifiers
 
 <a target="_blank" href="https://aka.ms/AAnlvrh">Video</a> | [PDF](./pdfs/05-pc-ids.pdf)
