@@ -13,27 +13,32 @@ hide:
 ---
 
 <!-- no toc -->
-- **[Partner Center general topics](#partner-center-general-topics)**
-    - [Getting started with Partner Center](#getting-started-with-partner-center)
-    - [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
-    - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
-    - [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
-- **[Working with SaaS offers in Partner Center](#working-with-saas-offers-in-partner-center)**
-    - [Publishing a SaaS Offer](#publishing-a-saas-offer)
-    - [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
-    - [SaaS Purchase Customer Experience](#saas-purchase-customer-experience)
-    - [SaaS Pricing in Partner Center Publisher Overview](#saas-pricing-in-partner-center-publisher-overview)
-    - [SaaS Pricing in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
-    - [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
-    - [Reporting and Insights for Multi-year SaaS Offers](#reporting-and-insights-for-multi-year-saas-offers)
-- **[Working with Managed Application offers in Partner Center](#working-with-managed-application-offers-in-partner-center)**
-    - [Partner Center for Azure Managed Applications Overview](#partner-center-for-azure-managed-applications-overview)
-    - [Partner Center for Azure Managed Applications Demo](#partner-center-for-azure-managed-applications-demo)
-- **[Working with virtual machine offers in Partner Center](#working-with-virtual-machine-offers-in-partner-center)**
-    - [Configuring a Virtual Machine Offer with Partner Center Demo](#configuring-a-virtual-machine-offer-with-partner-center-demo)
-    - [Publish a Virtual Machine Offer with Partner Center Demo](#publish-a-virtual-machine-offer-with-partner-center-demo)
+**[Partner Center general topics](#partner-center-general-topics)**
 
+  - [Getting started with Partner Center](#getting-started-with-partner-center)
+  - [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
+  - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
+  - [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
 
+**[Working with SaaS offers in Partner Center](#working-with-saas-offers-in-partner-center)**
+
+  - [Publishing a SaaS Offer](#publishing-a-saas-offer)
+  - [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
+  - [SaaS Purchase Customer Experience](#saas-purchase-customer-experience)
+  - [SaaS Pricing in Partner Center Publisher Overview](#saas-pricing-in-partner-center-publisher-overview)
+  - [SaaS Pricing in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
+  - [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
+  - [Reporting and Insights for Multi-year SaaS Offers](#reporting-and-insights-for-multi-year-saas-offers)
+
+**[Working with Managed Application offers in Partner Center](#working-with-managed-application-offers-in-partner-center)**
+
+  - [Partner Center for Azure Managed Applications Overview](#partner-center-for-azure-managed-applications-overview)
+  - [Partner Center for Azure Managed Applications Demo](#partner-center-for-azure-managed-applications-demo)
+
+**[Working with virtual machine offers in Partner Center](#working-with-virtual-machine-offers-in-partner-center)**
+
+  - [Configuring a Virtual Machine Offer with Partner Center Demo](#configuring-a-virtual-machine-offer-with-partner-center-demo)
+  - [Publish a Virtual Machine Offer with Partner Center Demo](#publish-a-virtual-machine-offer-with-partner-center-demo)
 
 > **[About Private Offers](./private-offers.md)**
 >
