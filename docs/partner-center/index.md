@@ -14,6 +14,7 @@ hide:
 
 <!-- no toc -->
 - **[Partner Center general topics](#partner-center-general-topics)**
+    - [Getting started with Partner Center](#getting-started-with-partner-center)
     - [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
     - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
     - [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
