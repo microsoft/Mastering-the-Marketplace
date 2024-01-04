@@ -11,7 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
-<!-- | 1/4/2024 | [Getting started with Partner Center](../partner-center/index.md#getting-started-with-partner-center) | -->
+| 1/4/2024 | [Getting started with Partner Center](../partner-center/index.md#getting-started-with-partner-center) |
 | 11/13/2023 | [Navigating Partner Center accounts and identifiers](../partner-center/index.md#navigating-partner-center-accounts-and-identifiers) |
 | 11/7/2023 | [Using the external notification feature](../saas-accelerator/index.md#using-the-external-notification-feature) (SaaS Accelerator) |
 | 11/2/2023 | [Updated Managed Application labs](../ama/index.md#hands-on-labs) |

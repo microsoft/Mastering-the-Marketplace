@@ -14,7 +14,7 @@ hide:
 
 <!-- no toc -->
 - **[Partner Center general topics](#partner-center-general-topics)**
-    <!-- - [Getting started with Partner Center](#getting-started-with-partner-center) -->
+    - [Getting started with Partner Center](#getting-started-with-partner-center)
     - [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
     - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
     - [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
@@ -43,14 +43,20 @@ hide:
 
 ## Partner Center general topics
 
-<!-- ### Getting started with Partner Center
+### Getting started with Partner Center
 
 <a target="_blank" href="https://aka.ms/AAogzq3">Video</a>
 
 The first thing a marketplace publisher must do is register as a Microsoft partner and join the Commercial Marketplace program. This provides access to Partner Center, where partners work to publish their marketplace offers.
 
-This module shows the most common partner registration flow along with the first steps partners will take in Partner Center to ensure it is set up appropriately. -->
+This module shows the most common partner registration flow along with the first steps partners will take in Partner Center to ensure it is set up appropriately.
 
+- <a target="_blank" href="https://www.youtube.com/watch?v=xIrWNK055Bc">00:00 – Overview</a>
+- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=62">01:02 – Becoming a partner</a>
+- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=117">01:57 – Partner Center</a>
+- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=257">04:17 – The commercial marketplace program</a>
+- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=317">05:17 – Adding Partner Center users</a>
+- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=410">06:48 – Summary</a>
 
 ### Navigating Partner Center accounts and identifiers
 
