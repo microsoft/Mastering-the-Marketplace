@@ -3,28 +3,31 @@
 layout: default
 keywords: Azure AppSource Marketplace Customer
 comments: false
-title: 🚦Learning path - For customers
+title: For customers
 hide:
   - toc
 ---
 
 This learning path is for customers purchasing and using products from the Microsoft commercial marketplace.
 It covers various topics to help them work with publishers and offers in the marketplace.
-The links on this page go to videos ⏯️.
 
 <!-- no toc -->
-- [Finding relevant Azure IDs](#finding-relevant-azure-ids)
-    - [Get Your Azure Billing ID (Useful for private offers)](#get-your-azure-billing-id-useful-for-private-offers)
-    - [Get Your Azure Tenant ID (useful for private plans)](#get-your-azure-tenant-id-useful-for-private-plans)
-- [Working with Private Offers](#working-with-private-offers)
-    - [Private offers for customers overview](#private-offers-for-customers-overview)
-    - [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
+**[Finding relevant Azure IDs](#finding-relevant-azure-ids)**
+
+  - [Get Your Azure Billing ID (Useful for private offers)](#get-your-azure-billing-id-useful-for-private-offers)
+  - [Get Your Azure Tenant ID (useful for private plans)](#get-your-azure-tenant-id-useful-for-private-plans)
+
+**[Working with Private Offers](#working-with-private-offers)**
+
+  - [Private offers for customers overview](#private-offers-for-customers-overview)
+  - [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
+
+**Explore by offer type**
+
 - [Working with SaaS offers](#working-with-saas-offers)
 - [Working with Virtual Machine offers](#working-with-virtual-machine-offers)
 - [Working with Container for K8s applications](#working-with-container-for-k8s-applications)
 - [Working with Azure Managed Application offers](#working-with-azure-managed-application-offers)
-    - [Purchasing an Azure Application: The customer experience](#purchasing-an-azure-application-the-customer-experience)
-    - [Managing my Managed Applications: The customer experience](#managing-my-managed-applications-the-customer-experience)
 
 
 ---
