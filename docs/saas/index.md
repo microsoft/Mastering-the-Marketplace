@@ -38,7 +38,7 @@ hide:
   <span class="linkless-heading">SaaS Accelerator course</span>
   Complete on-demand course with video and hands-on labs.
 
-[Take me to it](/Mastering-the-Marketplace/partner-center/saas){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/saas-accelerator){ .md-button }
 </div>
 
 <div class="sub-page-tile" markdown="1">
