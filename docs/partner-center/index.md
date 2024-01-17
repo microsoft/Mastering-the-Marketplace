@@ -13,26 +13,32 @@ hide:
 ---
 
 <!-- no toc -->
-- **[Partner Center general topics](#partner-center-general-topics)**
-    - [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
-    - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
-    - [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
-- **[Working with SaaS offers in Partner Center](#working-with-saas-offers-in-partner-center)**
-    - [Publishing a SaaS Offer](#publishing-a-saas-offer)
-    - [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
-    - [SaaS Purchase Customer Experience](#saas-purchase-customer-experience)
-    - [SaaS Pricing in Partner Center Publisher Overview](#saas-pricing-in-partner-center-publisher-overview)
-    - [SaaS Pricing in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
-    - [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
-    - [Reporting and Insights for Multi-year SaaS Offers](#reporting-and-insights-for-multi-year-saas-offers)
-- **[Working with Managed Application offers in Partner Center](#working-with-managed-application-offers-in-partner-center)**
-    - [Partner Center for Azure Managed Applications Overview](#partner-center-for-azure-managed-applications-overview)
-    - [Partner Center for Azure Managed Applications Demo](#partner-center-for-azure-managed-applications-demo)
-- **[Working with virtual machine offers in Partner Center](#working-with-virtual-machine-offers-in-partner-center)**
-    - [Configuring a Virtual Machine Offer with Partner Center Demo](#configuring-a-virtual-machine-offer-with-partner-center-demo)
-    - [Publish a Virtual Machine Offer with Partner Center Demo](#publish-a-virtual-machine-offer-with-partner-center-demo)
+**[Partner Center general topics](#partner-center-general-topics)**
 
+  - [Getting started with Partner Center](#getting-started-with-partner-center)
+  - [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
+  - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
+  - [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
 
+**[Working with SaaS offers in Partner Center](#working-with-saas-offers-in-partner-center)**
+
+  - [Publishing a SaaS Offer](#publishing-a-saas-offer)
+  - [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
+  - [SaaS Purchase Customer Experience](#saas-purchase-customer-experience)
+  - [SaaS Pricing in Partner Center Publisher Overview](#saas-pricing-in-partner-center-publisher-overview)
+  - [SaaS Pricing in Partner Center Publisher Demo](#saas-pricing-in-partner-center-publisher-demo)
+  - [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
+  - [Reporting and Insights for Multi-year SaaS Offers](#reporting-and-insights-for-multi-year-saas-offers)
+
+**[Working with Managed Application offers in Partner Center](#working-with-managed-application-offers-in-partner-center)**
+
+  - [Partner Center for Azure Managed Applications Overview](#partner-center-for-azure-managed-applications-overview)
+  - [Partner Center for Azure Managed Applications Demo](#partner-center-for-azure-managed-applications-demo)
+
+**[Working with virtual machine offers in Partner Center](#working-with-virtual-machine-offers-in-partner-center)**
+
+  - [Configuring a Virtual Machine Offer with Partner Center Demo](#configuring-a-virtual-machine-offer-with-partner-center-demo)
+  - [Publish a Virtual Machine Offer with Partner Center Demo](#publish-a-virtual-machine-offer-with-partner-center-demo)
 
 > **[About Private Offers](./private-offers.md)**
 >
@@ -41,6 +47,21 @@ hide:
 ---
 
 ## Partner Center general topics
+
+### Getting started with Partner Center
+
+<a target="_blank" href="https://aka.ms/AAofj3k">Video</a>
+
+The first thing a marketplace publisher must do is register as a Microsoft partner and join the Commercial Marketplace program. This provides access to Partner Center, where partners work to publish their marketplace offers.
+
+This module shows the most common partner registration flow along with the first steps partners will take in Partner Center to ensure it is set up appropriately.
+
+- <a target="_blank" href="https://www.youtube.com/watch?v=xIrWNK055Bc">00:00 – Overview</a>
+- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=62">01:02 – Becoming a partner</a>
+- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=117">01:57 – Partner Center</a>
+- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=257">04:17 – The commercial marketplace program</a>
+- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=317">05:17 – Adding Partner Center users</a>
+- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=410">06:48 – Summary</a>
 
 ### Navigating Partner Center accounts and identifiers
 

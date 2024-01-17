@@ -124,6 +124,8 @@ We look at the metered billing capabilities of the SaaS Accelerator for the Azur
 
 This module introduces the metered billing scheduler feature of the SaaS Accelerator, used to schedule calls to the metered billing service right from within the publisher portal. Learn about the feature, how to enable it, how to schedule a billing event and how to troubleshoot common issues.
 
+> The technique to enable metered billing as per this video has been updated. The setting to enable the scheduler is no longer an application configuration setting, and is now a database setting. An updated video is in development.
+
 - [00:00 – Overview](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=0s)
 - [00:39 – About the scheduler](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=39s)
 - [02:09 – Enabling the feature in the publisher portal](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=129s)
