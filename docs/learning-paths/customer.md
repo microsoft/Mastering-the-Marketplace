@@ -48,6 +48,20 @@ This module offers a very quick demo on how to find you Azure Tenant ID. This is
 
 ## Working with Private Offers
 
+### Using the Azure Marketplace Check Eligibility tool
+
+<a href="https://www.youtube.com/watch?v=0Oh4UmaSYfU" target="_blank">Video</a> | [PDF](./pdfs/02.0-check-eligibility-tool.pdf)
+
+When you have negotiated a custom price for a product being sold on the marketplace, the seller will need some information from you to complete the offer. Additionally, you will need to ensure you have the permissions needed to make a purchase from the marketplace. 
+The Check Eligibility tool will help you through all of these steps. This video walks through the tool and how to use it.
+- [00:00 – Overview](https://www.youtube.com/watch?v=0Oh4UmaSYfU&t=0s)
+- [01:06 – Introducing the tool](https://www.youtube.com/watch?v=0Oh4UmaSYfU&t=66s)
+ - [02:27 – Demo: Using the Check Eligibility tool](https://www.youtube.com/watch?v=0Oh4UmaSYfU&t=147s)
+- [03:49 – Understanding the tool output](https://www.youtube.com/watch?v=0Oh4UmaSYfU&t=229s)
+- [07:05 – Demo: Turning on marketplace purchase permissions](https://www.youtube.com/watch?v=0Oh4UmaSYfU&t=425s)
+- [08:50 – Summary](https://www.youtube.com/watch?v=0Oh4UmaSYfU&t=530s)
+
+
 ### Private offers for customers overview
 
 <a href="https://go.microsoft.com/fwlink/?linkid=2196150" target="_blank">Video</a>
