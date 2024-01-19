@@ -17,8 +17,9 @@ It covers various topics to help them work with publishers and offers in the mar
   - [Get Your Azure Billing ID (Useful for private offers)](#get-your-azure-billing-id-useful-for-private-offers)
   - [Get Your Azure Tenant ID (useful for private plans)](#get-your-azure-tenant-id-useful-for-private-plans)
 
-**[Working with Private Offers](#working-with-private-offers)**
+**[Working with Private Offers and Private Plans](#working-with-private-offers-and-private-plans)**
 
+  - [Using the Azure Marketplace Check Eligibility tool](#using-the-azure-marketplace-check-eligibility-tool)
   - [Private offers for customers overview](#private-offers-for-customers-overview)
   - [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
 
@@ -46,7 +47,7 @@ This module offers a very quick demo on how to find you Azure Billing ID. This i
 
 This module offers a very quick demo on how to find you Azure Tenant ID. This is particularly useful for marketplace customers who are buying a Private Plan with negotiated pricing from a seller. To create the Private Plan, the seller needs the customer’s Tenant ID. This video shows you how to find it.
 
-## Working with Private Offers
+## Working with Private Offers and Private Plans
 
 ### Using the Azure Marketplace Check Eligibility tool
 
