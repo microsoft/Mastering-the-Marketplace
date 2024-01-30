@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 1/29/2024 | [What to expect in your marketplace selling journey](../biz/index.md#what-to-expect-in-your-marketplace-selling-journey) |
 | 1/19/2024 | [Using the Azure Marketplace Check Eligibility tool](../learning-paths/customer.md#using-the-azure-marketplace-check-eligibility-tool) |
 | 1/4/2024 | [Getting started with Partner Center](../partner-center/index.md#getting-started-with-partner-center) |
 | 11/13/2023 | [Navigating Partner Center accounts and identifiers](../partner-center/index.md#navigating-partner-center-accounts-and-identifiers) |
