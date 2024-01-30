@@ -10,14 +10,26 @@ hide:
   - toc
 
 # Hero section
-description: This content focuses on the non-technical aspects of the marketplace.
+description: This content focuses on the non-technical aspects of the marketplace including the business pf selling.
 ---
 
 <!-- no toc -->
+- [What to expect in your marketplace selling journey](#what-to-expect-in-your-marketplace-selling-journey)
 - [Marketplace incentive programs](#marketplace-incentive-programs)
 - [Choosing your offer type](./select-offer-type.md)
 
 ---
+## What to expect in your marketplace selling journey
+
+<a target="_blank" href="https://aka.ms/AAotbdd">Video</a> | [PDF](./pdfs/03.0-marketplace-journey.pdf)
+
+This module walks through the stages you will experience when selling your solution on the marketplace. If you are curious what the journey looks like for marketplace sellers, this content is for you.
+
+[00:00 – Overview](https://www.youtube.com/watch?v=SkZTutcixKE&t=0s)
+[00:55 - Partner Center setup](https://www.youtube.com/watch?v=SkZTutcixKE&t=55s)
+[02:37 - Creating the offer](https://www.youtube.com/watch?v=SkZTutcixKE&t=157s)
+[06:34 - Post-publish](https://www.youtube.com/watch?v=SkZTutcixKE&t=394s)
+[08:15 - Summary and recap](https://www.youtube.com/watch?v=SkZTutcixKE&t=495s)
 
 ## Marketplace incentive programs
 
