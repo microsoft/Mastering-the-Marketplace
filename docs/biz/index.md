@@ -25,11 +25,11 @@ description: This content focuses on the non-technical aspects of the marketplac
 
 This module walks through the stages you will experience when selling your solution on the marketplace. If you are curious what the journey looks like for marketplace sellers, this content is for you.
 
-[00:00 – Overview](https://www.youtube.com/watch?v=SkZTutcixKE&t=0s)
-[00:55 - Partner Center setup](https://www.youtube.com/watch?v=SkZTutcixKE&t=55s)
-[02:37 - Creating the offer](https://www.youtube.com/watch?v=SkZTutcixKE&t=157s)
-[06:34 - Post-publish](https://www.youtube.com/watch?v=SkZTutcixKE&t=394s)
-[08:15 - Summary and recap](https://www.youtube.com/watch?v=SkZTutcixKE&t=495s)
+- [00:00 – Overview](https://www.youtube.com/watch?v=SkZTutcixKE&t=0s)
+- [00:55 - Partner Center setup](https://www.youtube.com/watch?v=SkZTutcixKE&t=55s)
+- [02:37 - Creating the offer](https://www.youtube.com/watch?v=SkZTutcixKE&t=157s)
+- [06:34 - Post-publish](https://www.youtube.com/watch?v=SkZTutcixKE&t=394s)
+- [08:15 - Summary and recap](https://www.youtube.com/watch?v=SkZTutcixKE&t=495s)
 
 ## Marketplace incentive programs
 
