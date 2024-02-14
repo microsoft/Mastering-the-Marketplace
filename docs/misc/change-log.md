@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 2/14/2024 | [Azure Marketplace QuickStart](../biz/index.md#azure-marketplace-quickstart) |
 | 1/29/2024 | [What to expect in your marketplace selling journey](../biz/index.md#what-to-expect-in-your-marketplace-selling-journey) |
 | 1/19/2024 | [Using the Azure Marketplace Check Eligibility tool](../learning-paths/customer.md#using-the-azure-marketplace-check-eligibility-tool) |
 | 1/4/2024 | [Getting started with Partner Center](../partner-center/index.md#getting-started-with-partner-center) |

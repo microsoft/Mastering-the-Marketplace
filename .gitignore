@@ -25,3 +25,6 @@ Thumbs.db
 .jekyll-cache/
 designs/favicon.psd
 .GeneratedMSBuildEditorConfig.editorconfig
+
+env/
+.env

@@ -14,11 +14,31 @@ description: This content focuses on the non-technical aspects of the marketplac
 ---
 
 <!-- no toc -->
+- [Azure Marketplace QuickStart](#azure-marketplace-quickstart)
 - [What to expect in your marketplace selling journey](#what-to-expect-in-your-marketplace-selling-journey)
 - [Marketplace incentive programs](#marketplace-incentive-programs)
 - [Choosing your offer type](./select-offer-type.md)
 
 ---
+
+## Azure Marketplace QuickStart
+
+<a target="_blank" href="https://www.youtube.com/watch?v=gHOPdN8pOkw">Video</a> | [PDF](./pdfs/01.0-amp-quickstart.pdf)
+
+New to the Azure Marketplace? This video is for you!
+
+You’ll learn what the Azure Marketplace is as well as explore various aspects of buying and selling on the marketplace. This includes the various types of offers in the marketplace, the benefits you can take advantage of when transacting, and different ways to navigate through the experience.
+
+- [00:00](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=0s) - Overview 
+- [01:08](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=68s) - Azure Marketplace overview 
+- [04:57](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=297s) - Public offers 
+- [08:15](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=495s) - Private plans 
+- [10:36](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=636s) - Private offers 
+- [15:15](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=915s) - MACC eligible offers 
+- [17:13](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=1033s) - The Private Azure Marketplace 
+- [18:27](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=1107s) - Summary
+
+
 ## What to expect in your marketplace selling journey
 
 <a target="_blank" href="https://aka.ms/AAotbdd">Video</a> | [PDF](./pdfs/03.0-marketplace-journey.pdf)
