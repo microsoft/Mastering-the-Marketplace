@@ -120,18 +120,19 @@ We look at the metered billing capabilities of the SaaS Accelerator for the Azur
 
 ## Scheduling metered billing events
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2236579" target="_blank">Video</a>
+<a href="https://www.youtube.com/watch?v=ZsLR9RAcdTc" target="_blank">Video</a>
 
 This module introduces the metered billing scheduler feature of the SaaS Accelerator, used to schedule calls to the metered billing service right from within the publisher portal. Learn about the feature, how to enable it, how to schedule a billing event and how to troubleshoot common issues.
 
-> The technique to enable metered billing as per this video has been updated. The setting to enable the scheduler is no longer an application configuration setting, and is now a database setting. An updated video is in development.
+This video applies to **version 7.5.0 and above** of the SaaS Accelerator. If you are running an earlier version, please see the video on installing the accelerator for instructions on how to upgrade your installation.
 
-- [00:00 – Overview](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=0s)
-- [00:39 – About the scheduler](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=39s)
-- [02:09 – Enabling the feature in the publisher portal](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=129s)
-- [05:42 – Scheduling a billing event](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=342s)
-- [08:18 – Monitoring and logging](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=498s)
-- [09:26 – Summary](https://www.youtube.com/watch?v=IoXsoVpyhxY&list=PLmsFUfdnGr3wU_FrzwgElLTNSKTZ2CBOj&index=10&t=566s)
+- [00:00](https://www.youtube.com/watch?v=ZsLR9RAcdTc&t=0s) – Overview 
+- [00:54](https://www.youtube.com/watch?v=ZsLR9RAcdTc&t=54s) – About the scheduler 
+- [02:48](https://www.youtube.com/watch?v=ZsLR9RAcdTc&t=168s) – Enabling the feature in the publisher portal 
+- [03:59](https://www.youtube.com/watch?v=ZsLR9RAcdTc&t=239s) – Scheduling a billing event 
+- [05:07](https://www.youtube.com/watch?v=ZsLR9RAcdTc&t=307s) – Monitoring and logging 
+- [05:56](https://www.youtube.com/watch?v=ZsLR9RAcdTc&t=356s) – Summary
+
 
 ## Custom Landing Page Fields with the SaaS Accelerator
 
