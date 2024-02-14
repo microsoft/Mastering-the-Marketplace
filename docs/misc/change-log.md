@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 2/14/2024 | [Microsoft Marketplace Playbook for partners](./playbooks/index.md#microsoft-marketplace-playbook-for-partners) |
 | 2/14/2024 | [Scheduling metered billing events](../saas-accelerator/index.md#scheduling-metered-billing-events) (update) |
 | 2/14/2024 | [Azure Marketplace QuickStart](../biz/index.md#azure-marketplace-quickstart) |
 | 1/29/2024 | [What to expect in your marketplace selling journey](../biz/index.md#what-to-expect-in-your-marketplace-selling-journey) |
