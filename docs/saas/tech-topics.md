@@ -128,23 +128,18 @@ This video should help you get a jump start on configuring application registrat
 
 ## Using the SaaS Offer Fulfillment API
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196320">Video</a> | [PDF](./pdfs/06-Using-the-SaaS-Offer-Fulfillment-API.pdf)
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196320">Video</a>
 
-See the SaaS Fulfillment API in action as we send it through its paces using Postman. You’ll learn how to authenticate with Azure Active Directory, resolve and activate subscriptions just like your Landing Page does, and see many other features of the API.
+See the SaaS Fulfillment API in action as we send it through its paces using Postman. 
 
-- 00:00 – [Overview](https://www.youtube.com/watch?v=eizdN6XNyvw&t=0s)
-- 00:40 – [Documentation](https://www.youtube.com/watch?v=eizdN6XNyvw&t=40s)
-- 01:01 - [What can we do](https://www.youtube.com/watch?v=eizdN6XNyvw&t=61s)
-- 01:37 – [Prerequisites](https://www.youtube.com/watch?v=eizdN6XNyvw&t=97s)
-- 02:49 - [Partner center](https://www.youtube.com/watch?v=eizdN6XNyvw&t=169s)
-- 04:53 - [Subscription complete](https://www.youtube.com/watch?v=eizdN6XNyvw&t=293s)
-- 05:15 - [Configure an account](https://www.youtube.com/watch?v=eizdN6XNyvw&t=315s)
-- 09:08 - [Resolving a subscription](https://www.youtube.com/watch?v=eizdN6XNyvw&t=548s)
-- 10:53 - [Activating a subscription](https://www.youtube.com/watch?v=eizdN6XNyvw&t=653s)
-- 13:16 - [List available plans](https://www.youtube.com/watch?v=eizdN6XNyvw&t=796s)
-- 15:07 - [Change plan](https://www.youtube.com/watch?v=eizdN6XNyvw&t=907s)
-- 16:08 - [Patch operation](https://www.youtube.com/watch?v=eizdN6XNyvw&t=968s)
-- 18:43 – [Summary](https://www.youtube.com/watch?v=eizdN6XNyvw&t=1123s)
+You’ll learn how to authenticate with Azure Active Directory, resolve and activate subscriptions just like your Landing Page does, and see many other features of the API.
+
+- [00:00 – Overview](https://www.youtube.com/watch?v=V_G4pOy0Sdo&t=0s)
+- [00:32 - About the API](https://www.youtube.com/watch?v=V_G4pOy0Sdo&t=32s)
+- [01:08 - Preparing to use the API](https://www.youtube.com/watch?v=V_G4pOy0Sdo&t=68s)
+- [03:37 - Demo: Using the API with Postman](https://www.youtube.com/watch?v=V_G4pOy0Sdo&t=217s)
+- [13:41 - Summary](https://www.youtube.com/watch?v=V_G4pOy0Sdo&t=821s)
+
 
 ## The SaaS Client Library for .NET
 
