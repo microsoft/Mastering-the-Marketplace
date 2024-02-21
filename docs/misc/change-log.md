@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 2/20/2024 | [Using the SaaS Fulfillment API with REST](../saas/tech-topics.md#using-the-saas-offer-fulfillment-api) |
 | 2/14/2024 | [Microsoft Marketplace Playbook for partners](./playbooks/index.md#microsoft-marketplace-playbook-for-partners) |
 | 2/14/2024 | [Scheduling metered billing events](../saas-accelerator/index.md#scheduling-metered-billing-events) (update) |
 | 2/14/2024 | [Azure Marketplace QuickStart](../biz/index.md#azure-marketplace-quickstart) |
