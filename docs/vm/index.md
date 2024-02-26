@@ -145,20 +145,4 @@ This video guides you through deprecating and restoring Virtual Machine images t
 
 ## Hands-on labs
 
-The following hands-on labs build upon each other. They take you through the complete process of creating and publishing a virtual machine offer in the Microsoft commercial marketplace. 
-
-Clone [this repository](https://github.com/microsoft/Mastering-the-Marketplace) to your local machine. You will need some artifacts from the lab folders to complete the labs.
-
-### Prerequisites
-
-- An Azure Subscription to create resources
-- An active Partner Center Account (Please ensure you have enrolled into the Marketplace Offers program)
-- Visual Studio Code or other text editor
-
-### Labs🧪
-
-1. [Partner Center Setup](./Labs/lab1-partner-center-setup/index.md)
-2. [VM Creation](./Labs/lab2-vm-creation/index.md)
-3. [Generalize and Capture Image](Labs/lab3-generalize-and-capture-image/index.md)
-4. [Publish the Offer](./Labs/lab4-publish-your-vm-offer/index.md)
-5. [Purchase your Offer](Labs/lab5-purchase-your-offer/index.md)
+To perform the hands-on labs, visit [this GitHub repository](https://github.com/Azure/mtm-labs), which is home to the Mastering the Marketplace labs.
