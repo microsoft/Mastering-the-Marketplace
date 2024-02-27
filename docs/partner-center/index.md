@@ -17,6 +17,7 @@ hide:
 
   - [Getting started with Partner Center](#getting-started-with-partner-center)
   - [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
+  - [Role based access control in Partner Center](#role-based-access-control-in-partner-center)
   - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
   - [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
 
@@ -70,6 +71,25 @@ This module shows the most common partner registration flow along with the first
 Setting up and configuring Partner Center to best serve your organization’s needs is paramount to a good experience in the portal and ongoing involvement in the marketplace program. This module covers scenarios of interest to organizations configuring their Partner Center accounts or looking for identifiers in Partner Center commonly used in account management and support scenarios.
 
 Understand PartnerOne accounts and identities, publishers and their associated IDs, and more.
+
+### Role based access control in Partner Center
+
+<a target="_blank" href="https://aka.ms/AApbiyy">Video</a> | [PDF](./pdfs/08-role-based-access-control-in-partner-center.pdf)
+
+This video provides a comprehensive overview of how role-based access control (RBAC) functions within Partner Center including the fundamental concepts of RBAC, detailing how permissions are assigned to different roles within Partner Center to regulate access to resources as well as common RBAC scenarios to easily guide partners with assigning appropriate roles.
+
+- [00:00 – Overview](https://www.youtube.com/watch?v=iADm0LQYowI&t=0s)
+- [00:37 – Role based access control](https://www.youtube.com/watch?v=iADm0LQYowI&t=37s)
+- [04:47 – Common RBAC Scenarios](https://www.youtube.com/watch?v=iADm0LQYowI&t=287s)
+- [04:51 – Add or update owner](https://www.youtube.com/watch?v=iADm0LQYowI&t=291s)
+- [05:28 – Account verification in partner center](https://www.youtube.com/watch?v=iADm0LQYowI&t=328s)
+- [06:03 – Enroll into new developer programs](https://www.youtube.com/watch?v=iADm0LQYowI&t=363s)
+- [06:30 – Create marketplace offers](https://www.youtube.com/watch?v=iADm0LQYowI&t=390s)
+- [07:07 – Manage referrals](https://www.youtube.com/watch?v=iADm0LQYowI&t=427s)
+- [07:20 – Marketplace insights](https://www.youtube.com/watch?v=iADm0LQYowI&t=440s)
+- [07:38 – Manage payout and tax profiles](https://www.youtube.com/watch?v=iADm0LQYowI&t=458s)
+- [07:56 – View payout reports and earnings](https://www.youtube.com/watch?v=iADm0LQYowI&t=476s)
+- [08:06 – Summary](https://www.youtube.com/watch?v=iADm0LQYowI&t=486s)
 
 ### Handling multiple currencies for different markets
 
