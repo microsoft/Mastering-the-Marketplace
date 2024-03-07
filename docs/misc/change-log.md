@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 3/7/2024 | [Container offer for Kubernetes apps overview](../container/index.md#container-offer-for-kubernetes-apps-overview) (update) |
 | 2/27/2024 | [Role based access in Partner Center](../partner-center/index.md#role-based-access-control-in-partner-center) |
 | 2/20/2024 | [Using the SaaS Fulfillment API with REST](../saas/tech-topics.md#using-the-saas-offer-fulfillment-api) |
 | 2/14/2024 | [Microsoft Marketplace Playbook for partners](./playbooks/index.md#microsoft-marketplace-playbook-for-partners) |
