@@ -22,7 +22,6 @@ SaaS offers are a popular deployment architecture for deploying offers onto the 
 1. [Purchasing a SaaS offer from AppSource](#purchasing-a-saas-offer-from-appsource)
 1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
 1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
-1. [Azure AD Application Registrations](#azure-ad-application-registrations)
 1. [Using the SaaS Offer Fulfillment API](#using-the-saas-offer-fulfillment-api)
 1. [The SaaS Client Library for .NET](#the-saas-client-library-for-net)
 1. [Building a Simple Landing Page in .NET](#building-a-simple-landing-page-in-net)
@@ -112,19 +111,6 @@ This brief video builds upon what you learned in, “Publishing a SaaS Offer.”
 - 00:35 - [About private plans](https://www.youtube.com/watch?v=67E7LPL_aic&t=35s)
 - 03:02 - [Creating a private SaaS plan](https://www.youtube.com/watch?v=67E7LPL_aic&t=182s)
 - 07:11 - [Summary](https://www.youtube.com/watch?v=67E7LPL_aic&t=431s)
-
-## Azure AD Application Registrations
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196262">Video</a> | [PDF](./pdfs/05-Azure-AD-Application-Registrations.pdf)
-
-In this module we look at a generic topic, application registrations for Azure Active Directory because we’ll need to use them in our upcoming modules. They give us a mechanism to authenticate to Azure AD, which is a requirement of the landing page, if you recall.
-
-This video should help you get a jump start on configuring application registrations for the apps we’ll be building in the next few modules.
-
-- 00:00 – [Overview](https://www.youtube.com/watch?v=-wjlgxJIlWQ&t=0s)
-- 02:06 - [Multi tenant vs single tenant](https://www.youtube.com/watch?v=-wjlgxJIlWQ&t=126s)
-- 05:36 - [Registering an application](https://www.youtube.com/watch?v=-wjlgxJIlWQ&t=336s)
-- 15:12 - [Summary](https://www.youtube.com/watch?v=-wjlgxJIlWQ&t=912s)
 
 ## Using the SaaS Offer Fulfillment API
 
