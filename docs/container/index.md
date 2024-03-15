@@ -39,12 +39,11 @@ This course covers transactable container offers designed for deploying solution
 1. [Securing virtual machines and containers for certification](#securing-virtual-machines-and-containers-for-certification)
 1. [Hands-on labs](#hands-on-labs) 🧪
 
-
 ---
 
 ## Container offer for Kubernetes apps overview
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2212264" target="_blank">Video</a> | [PDF](./pdfs/01.1-overview.pdf)
+<a href="https://go.microsoft.com/fwlink/?linkid=2212264" target="_blank">Video</a> | [PDF](./pdfs/01.1-overview-2.pdf)
 
 This video introduces Container Offers for Kubernetes Applications, a transactable offer type in the Azure Marketplace. After viewing this module you’ll understand the terminology used in this marketplace offer type and gain a deeper understanding of publishing one. Present in this module are the following sections.
 
