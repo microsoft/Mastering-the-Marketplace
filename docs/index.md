@@ -22,12 +22,6 @@ Webinars occur almost daily and cover all things marketplace from technical impl
 
 [Register for webinars here!](https://aka.ms/MTMwebinars)
 
-**New 2024 workshops posted!**
-
-Learn from your favorite Mastering the Marketplace content authors in live virtual workshops focused on specific technologies and offer types. Workshops are a great opportunity to get from concept to reality in building your solutions for the marketplace.
-
-[Sign up for a workshop!](https://aka.ms/MTMworkshops)
-
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">Choose your offer type</span>
 

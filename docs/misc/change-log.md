@@ -11,7 +11,6 @@ hide:
 
 | Date | Change |
 ---| ---|
-
 | 3/18/2024 | [Navigate admin consent on a SaaS offer landing page](../saas/general-topics.md#navigate-admin-consent-on-a-saas-offer-landing-page) |
 | 3/7/2024 | [Container offer for Kubernetes apps overview](../container/index.md#container-offer-for-kubernetes-apps-overview) (update) |
 | 2/27/2024 | [Role based access in Partner Center](../partner-center/index.md#role-based-access-control-in-partner-center) |
