@@ -25,8 +25,7 @@ hide:
     - [Purchasing a SaaS offer from AppSource](#purchasing-a-saas-offer-from-appsource)
     - [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
     - [Purchasing a Public SaaS Offer with Different Pricing Models](#purchasing-a-public-saas-offer-with-different-pricing-models)
-
-
+    - [Navigate admin consent on a SaaS offer landing page](#navigate-admin-consent-on-a-saas-offer-landing-page)
 
 ---
 
@@ -103,3 +102,16 @@ This video shows how to subscribe to private SaaS plans in the Microsoft Azure M
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2202782">Video</a>
 
 Customers may have many choices about what billing and pricing options they would like to subscribe to for a SaaS offer. This video walks through the purchase process from the customer’s point of view showing how to use purchasing tools to simplify the purchase experience.
+
+### Navigate admin consent on a SaaS offer landing page
+
+<a target="_blank" href="https://aka.ms/AApmitc">Video</a> | [PDF](./pdfs/04.0-navigate-admin-consent-on-landing-page.pdf)
+
+When purchasing a SaaS product, the customer is required to visit the publisher’s landing page. Because the landing page uses Azure Entra single sign on, the customer must log in to the page. In some cases, customer accounts may not have the right to do this without their Azure admin’s consent.
+
+This video guide helps customers navigate user consent and admin consent settings of enterprise apps on the Azure portal. The video provides an overview of the flow of consent on the landing page as well as how apps are configured for that design, along with demonstrations.
+
+- 00:00 – [Overview](https://www.youtube.com/watch?v=JahYByh-2Q8&t=0s )
+- 00:39 – [SSO and app consent for the landing page](https://www.youtube.com/watch?v=JahYByh-2Q8&t=39s)
+- 03:23 – [Configure enterprise app consent](https://www.youtube.com/watch?v=JahYByh-2Q8&t=203s)
+- 06:20 – [Summary](https://www.youtube.com/watch?v=JahYByh-2Q8&t=380s)
