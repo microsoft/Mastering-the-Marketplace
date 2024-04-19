@@ -7,18 +7,19 @@ extra_css:
     - stylesheets/extra.css
 
 nav:
-  - Full length courses:
-    - SaaS: '/Mastering-the-Marketplace/saas/'
-    - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
-    - Managed Applications: '/Mastering-the-Marketplace/ama/'
-    - Container offers for K8s apps: '/Mastering-the-Marketplace/container/'
-    - Virtual Machines: '/Mastering-the-Marketplace/vm/'
+  - SaaS: '/Mastering-the-Marketplace/saas/'
+  - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
+  - Managed Applications: '/Mastering-the-Marketplace/ama/'
+  - Virtual Machines: '/Mastering-the-Marketplace/vm/'
+  - Container offers for K8s apps: '/Mastering-the-Marketplace/container/'
+  - Partner Center: '/Mastering-the-Marketplace/partner-center/'
+
   - Bonus content:
-    - Partner Center: '/Mastering-the-Marketplace/partner-center/'
     - Private offers: '/Mastering-the-Marketplace/partner-center/private-offers'
     - Doing business in the marketplace: '/Mastering-the-Marketplace/biz'
     - For customers: '/Mastering-the-Marketplace/learning-paths/customer'
     - Marketplace Minis: '/Mastering-the-Marketplace/misc/marketplace-minis'
+  
   - More resources:
     - 🌐 Choose your offer type: '/Mastering-the-Marketplace/biz/select-offer-type'
     - 📙 Marketplace playbooks: '/Mastering-the-Marketplace/misc/playbooks'
