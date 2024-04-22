@@ -33,7 +33,7 @@ hide:
 - [Creating a CSP partner private offer for ISVs](#creating-a-csp-partner-private-offer-for-isvs)
 - [Purchasing CSP partner private offers for CSP partners](#purchasing-csp-partner-private-offers-for-csp-partners)
 - [Creating multiparty private offers for ISVs](#creating-multiparty-private-offers-for-isvs)
-- [Creating multiparty private offers for selling partners](#creating-multiparty-private-offers-for-selling-partners)
+- [ISVs with selling partners](#isvs-with-selling-partners)
 
 
 ---
@@ -111,7 +111,7 @@ In this comprehensive video, we explore how publishers create multiparty private
 - 05:31 - [Demo: Creating a multiparty private offer]( https://www.youtube.com/watch?v=6AmdYEvSxso&t=331s)
 - 13:25 – [Summary]( https://www.youtube.com/watch?v=6AmdYEvSxso&t=805s)
 
-### Creating multiparty private offers for selling partners
+### ISVs with selling partners
 
 <a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2241428">Video</a>
 
