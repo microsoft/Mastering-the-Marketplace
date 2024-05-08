@@ -12,23 +12,18 @@ title: Choose your offer type
 
 If you are deciding which offer type you will be creating, this page is for you. Primary considerations for choosing an offer type include deployment architectures and billing models. This page has resources to help walk through these topics as well as any others related to getting started.
 
-<!-- no toc -->
-- [Choose your offer type](#choose-your-offer-type)
-- [Supporting content](#supporting-content)
-    - [About SaaS offers](#about-saas-offers)
-    - [About Virtual Machine offers](#about-virtual-machine-offers)
-    - [About Azure Managed Application offers](#about-azure-managed-application-offers)
-    - [About Container offers for Kubernetes apps](#about-container-offers-for-kubernetes-apps)
-    - [Microsoft Learn documentation](#microsoft-learn-documentation)
-
-
-## Choose your offer type
-
-The Azure Marketplace enables several types of deployment architectures. Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? This model walks through the decision of what type of offer is a good fit for your solution.
+The Azure Marketplace enables several types of deployment architectures. Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? THe following model walks through which offer type is a good fit for your solution.
 
 ![Find your offer type](./assets/0.03-choose-offer-type.png)
 
 ## Supporting content
+
+<!-- no toc -->
+- [About SaaS offers](#about-saas-offers)
+- [About Virtual Machine offers](#about-virtual-machine-offers)
+- [About Container offers for Kubernetes apps](#about-container-offers-for-kubernetes-apps)
+- [About Azure Managed Application offers](#about-azure-managed-application-offers)
+
 
 ### About SaaS offers
 
