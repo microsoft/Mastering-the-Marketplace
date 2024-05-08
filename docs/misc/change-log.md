@@ -60,10 +60,8 @@ hide:
 | 10/24/2022 | [Private offers for customers overview](../partner-center/private-offers.md#private-offers-for-customers-overview) | Updated |
 | 10/21/2022 | [Virtual Machine software reservations overview](../vm/index.md#virtual-machine-software-reservations-overview) |
 | 10/19/2022 | [**Complete course:** Mastering Container offers for Kubernetes apps](../../container/) |
-| 9/8/2022 | [Choose your offer type](../misc/select-offer-type.md) |
-| 9/5/2022  | [Handling multiple currencies for different markets](../partner-center/general.md#handling-multiple-currencies-for-different-markets) |
+| 9/5/2022  | [Handling multiple currencies for different markets](../partner-center/index.md#handling-multiple-currencies-for-different-markets) |
 | 8/27/2022 | [Learning Paths](../../learning-paths/) |
 | 8/1/2022 | [Purchasing a SaaS offer](../saas/general-topics.md#purchasing-a-saas-offer) |
-| 8/1/2022 | [Anatomy of a SaaS application](../teams/index.md#anatomy-of-a-saas-application) |
 | 7/12/2022 | [SaaS pricing in Partner Center publisher overview](../saas/general-topics.md#saas-pricing-in-partner-center-publisher-overview) |
 | 7/12/2022 | [SaaS pricing in Partner Center publisher demo](../saas/general-topics.md#saas-pricing-in-partner-center-publisher-demo) |
