@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 5/8/2024 | [Choosing your offer type](../biz/select-offer-type.md) (Infographic) |
 | 4/18/2024 | [Verifying account details in Partner Center](../partner-center/index.md#verifying-account-details-in-partner-center) (new) |
 | 4/18/2024 | [Setting up a tax profile in Partner Center](../partner-center/index.md#setting-up-a-tax-profile-in-partner-center)  (new) |
 | 4/18/2024 | [Setting up a payout profile in Partner Center](../partner-center/index.md#setting-up-a-payout-profile-in-partner-center)  (new) |

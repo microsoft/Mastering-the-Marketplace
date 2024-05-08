@@ -10,11 +10,10 @@ hide:
 title: Choose your offer type
 ---
 
-If you are deciding which offer type you will be creating, this page is for you. Primary considerations for choosing an offer type include billing options and deployment architectures. This page has resources to help walk through these topics as well as any others related to getting started.
+If you are deciding which offer type you will be creating, this page is for you. Primary considerations for choosing an offer type include deployment architectures and billing models. This page has resources to help walk through these topics as well as any others related to getting started.
 
 <!-- no toc -->
-- [Choose your offer type: Video walkthrough](#choose-your-offer-type-video-walkthrough)
-- [Choose your offer type: Flowchart](#choose-your-offer-type-flowchart)
+- [Choose your offer type](#choose-your-offer-type)
 - [Supporting content](#supporting-content)
     - [About SaaS offers](#about-saas-offers)
     - [About Virtual Machine offers](#about-virtual-machine-offers)
@@ -23,17 +22,11 @@ If you are deciding which offer type you will be creating, this page is for you.
     - [Microsoft Learn documentation](#microsoft-learn-documentation)
 
 
-## Choose your offer type: Video walkthrough
+## Choose your offer type
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2236766" target="_blank">Video</a>
+The Azure Marketplace enables several types of deployment architectures. Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? This model walks through the decision of what type of offer is a good fit for your solution.
 
-The Azure Marketplace enables several types of deployment architectures. Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? This video walks you through the decision of what type of offer is a good fit for your solution.
-
-## Choose your offer type: Flowchart
-
-Building on top of the above video, follow the questions in the below image to find the right offer type for you.
-
-![Find your offer type](./assets/offer-type-flow.png)
+![Find your offer type](./assets/0.03-choose-offer-type.png)
 
 ## Supporting content
 
@@ -77,8 +70,3 @@ Container offers for K8s apps enable bundling your software into container image
 - Runs in the customer’s tenant and subscription
 - Pricing is based on usage of the product
 - Supports metered billing
-
-### Microsoft Learn documentation
-
-- <a target="_blank" href="https://docs.microsoft.com/azure/marketplace/publisher-guide-by-offer-type">Publishing guide by offer type</a>
-- <a target="_blank" href="https://docs.microsoft.com/en-us/azure/marketplace/marketplace-commercial-transaction-capabilities-and-considerations#transact-overview">The transact overview</a> helps you understand some of the differences between transactable offer types.
