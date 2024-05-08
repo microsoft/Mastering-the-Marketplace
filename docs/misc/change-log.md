@@ -45,7 +45,7 @@ hide:
 | 7/5/2023 | [14 new Marketplace Mini videos](./marketplace-minis.md) (new) |
 | 6/28/2023 | [Installing the SaaS Accelerator from the Azure Marketplace](../saas-accelerator/index.md#installing-the-saas-accelerator-from-the-azure-marketplace) |
 | 5/16/2023 | [Scheduling metered billing events](../saas-accelerator/index.md#scheduling-metered-billing-events) |
-| 5/15/2023 | [Choose your offer type video](../biz/select-offer-type.md) |
+| 5/15/2023 | Choose your offer type video (Removed pending re-recording) |
 | 2/15/2023 | [Deprecating and restoring virtual machine images](../vm/index.md#deprecating-and-restoring-virtual-machine-images) |
 | 2/3/2023 | [Installing the SaaS Accelerator with the Azure portal cloud shell](../saas-accelerator/index.md#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell) |
 | 2/2/2023 | [Setting up a development environment for the SaaS Accelerator](../saas-accelerator/index.md#setting-up-a-development-environment-for-the-saas-accelerator) |
