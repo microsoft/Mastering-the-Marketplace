@@ -12,7 +12,7 @@ title: Choose your offer type
 
 If you are deciding which offer type you will be creating, this page is for you. Primary considerations for choosing an offer type include deployment architectures and billing models. This page has resources to help walk through these topics as well as any others related to getting started.
 
-The Azure Marketplace enables several types of deployment architectures. Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? THe following model walks through which offer type is a good fit for your solution.
+The Azure Marketplace enables several types of deployment architectures. Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? The following model walks through which offer type is a good fit for your solution.
 
 ![Find your offer type](./assets/0.03-choose-offer-type.png)
 
