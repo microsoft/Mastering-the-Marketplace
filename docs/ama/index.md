@@ -31,10 +31,8 @@ This course details the Managed Application offer-building and onboarding proces
 1. [Working with createUiDefinition.json](#working-with-createuidefinitionjson)
 1. [Working with mainTemplate.json](#working-with-maintemplatejson)
 1. [Managed Applications webhook](#managed-applications-webhook)
-1. [Metered billing overview](#metered-billing-overview)
 1. [Metered billing technical details](#metered-billing-technical-details)
 1. [Deploying a custom virtual machine offer](#deploying-a-custom-virtual-machine-offer)
-1. [Deploying a base VM image with your custom software](#deploying-a-base-vm-image-with-your-custom-software)
 
 - [Hands-on labs](#hands-on-labs)
 
@@ -132,17 +130,6 @@ You may configure an optional webhook for Managed Applications that listens for 
 - <a href="https://www.youtube.com/watch?v=TdiruxQMNpk&t=656s" target="_blank">10:56 - Demo: Inspecting the webhook payload</a>
 - <a href="https://www.youtube.com/watch?v=TdiruxQMNpk&t=730s" target="_blank">12:10 - Summary</a>
 
-## Metered billing overview
-
-<a href="https://aka.ms/AAmi8tx" target="_blank">Video</a> | <a href="./pdfs/12.1-ma-metered-billing-overview.pdf" target="_blank">PDF</a>
-
-This module introduces the metered billing capabilities of Managed Applications. It covers what metered billing is and how it works at a high level, along with how to configure them in Partner Center. Additionally, this module includes some scenarios describing how to use the capability creatively.
-
-- <a href="https://www.youtube.com/watch?v=XHp1XW0c8Nw&t=0s" target="_blank">00:00 – Overview</a>
-- <a href="https://www.youtube.com/watch?v=XHp1XW0c8Nw&t=46s" target="_blank">00:46 – How metered billing works</a>
-- <a href="https://www.youtube.com/watch?v=XHp1XW0c8Nw&t=385s" target="_blank">06:25 – Metered billing scenarios</a>
-- <a href="https://www.youtube.com/watch?v=XHp1XW0c8Nw&t=630s" target="_blank">10:30 – Summary</a>
-
 ## Metered billing technical details
 
 <a href="https://aka.ms/AAmn5s6" target="_blank">Video</a> | <a href="./pdfs/12.2-ma-metered-billing-technical.pdf" target="_blank">PDF</a>
@@ -168,18 +155,6 @@ This demo-heavy module takes you through the process of deploying a custom virtu
 - <a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=428s" target="_blank">07:08 – The deployment package – Demo</a>
 - <a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=731s" target="_blank">12:11 – The deployment process – Demo</a>
 - <a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=906s" target="_blank">15:06 – Summary</a>
-
-## Deploying a base VM image with your custom software
-
-<a href="https://aka.ms/AAn7ni6" target="_blank">Video</a> | [PDF](./pdfs/15.0-ma-deploy-base-vm.pdf) | <a href="./code/15.0-ma-deploy-base-vm.zip">Code</a>
-
-This deployment model is an alternative to deploying a custom virtual machine as part of your Managed Application. In this module, you’ll see how to deploy a base Azure VM and then install your software on it with a script that runs as part of the deployment process.
-
-- [00:00 – Overview](https://www.youtube.com/watch?v=_ej526aRobE&t=0s)
-- [01:02 – Scenario overview](https://www.youtube.com/watch?v=_ej526aRobE&t=62s)
-- [05:10 – The deployment package – Demo](https://www.youtube.com/watch?v=_ej526aRobE&t=310s)
-- [12:42 – The deployment process – Demo](https://www.youtube.com/watch?v=_ej526aRobE&t=762s)
-- [17:34 – Summary](https://www.youtube.com/watch?v=_ej526aRobE&t=1054s)
 
 ---
 
