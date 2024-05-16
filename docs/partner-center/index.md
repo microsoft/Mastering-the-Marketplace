@@ -43,9 +43,9 @@ The content here addresses the most commonly asked questions about the portal.
 
 <!-- no toc -->
 - [Commercial marketplace reporting in Partner Center](#commercial-marketplace-reporting-in-partner-center)
+- [Marketplace insights dashboard in commercial marketplace analytics](#marketplace-insights-dashboard-in-commercial-marketplace-analytics)
 - [Reporting and Insights for multi-year SaaS offers](#reporting-and-insights-for-multi-year-saas-offers)
 - [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
-
 
 **All about Private Offers**
 
@@ -245,6 +245,23 @@ Subsequent videos in the Partner Center course will cover the other dashboards a
 - 04:07 - <a target="_blank" href="https://www.youtube.com/watch?v=16bZkqCqw5o&t=247s">Introducing the Summary dashboard</a>
 - 05:00 - <a target="_blank" href="https://www.youtube.com/watch?v=16bZkqCqw5o&t=300s">Summary dashboard widgets tour</a>
 - 08:36 – <a target="_blank" href="https://www.youtube.com/watch?v=16bZkqCqw5o&t=516s">Summary</a>
+
+### Marketplace insights dashboard in commercial marketplace analytics
+
+<a target="_blank" href="https://aka.ms/AAqh2po">Video</a>
+
+Wondering about the functionality of the Marketplace Insights dashboard and how it works? In this module, we 
+provide an overview of the Marketplace insights dashboard in Commercial Marketplace Analytics in Partner Center.
+
+- <a target="_blank" href="https://www.youtube.com/watch?v=T8QezW8amNI&t=0s">0:00 – Overview
+- <a target="_blank" href="https://www.youtube.com/watch?v=T8QezW8amNI&t=55s">0:55 – Introduction to the Marketplace Insights dashboard
+- <a target="_blank" href="https://www.youtube.com/watch?v=T8QezW8amNI&t=116s">1:56 – Common dashboard elements
+- <a target="_blank" href="https://www.youtube.com/watch?v=T8QezW8amNI&t=201s">3:21 – Marketplace Insights dashboard widget tour
+- <a target="_blank" href="https://www.youtube.com/watch?v=T8QezW8amNI&t=318s">5:18 – Summary</a>
+
+
+
+
 
 ### Reporting and insights for multi-year SaaS offers
 
