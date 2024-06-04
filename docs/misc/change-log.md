@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 6/4/2024 | [Choose your Azure marketplace offer type](../biz/select-offer-type.md) (update) |
 | 6/4/2024 | [Securing your SaaS offer webhook](../saas/tech-topics.md#securing-your-saas-offer-webhook) (update) |
 | 5/16/2024 | [Marketplace insights dashboard in commercial marketplace analytics](../partner-center/index.md#marketplace-insights-dashboard-in-commercial-marketplace-analytics) (new) |
 | 5/8/2024 | [Choosing your offer type](../biz/select-offer-type.md) (Infographic) |
