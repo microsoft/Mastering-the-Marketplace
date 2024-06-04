@@ -28,7 +28,7 @@ SaaS offers are a popular deployment architecture for deploying offers onto the 
 1. [Building a Simple SaaS Publisher Portal in .NET](#building-a-simple-saas-publisher-portal-in-net)
 1. [SaaS Webhook Overview](#saas-webhook-overview)
 1. [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
-1. [Securing a Simple SaaS Webhook in .NET](#securing-a-simple-saas-webhook-in-net)
+1. [Securing your SaaS offer webhook](securing-your-saas-offer-webhook)
 1. [SaaS Metered Billing Overview](#saas-metered-billing-overview)
 1. [The SaaS Metered Billing API with REST](#the-saas-metered-billing-api-with-rest)
 1. [Hands-on labs](#hands-on-labs)
@@ -193,15 +193,23 @@ This code-heavy module focuses on the fundamentals of implementing a SaaS offer 
 - 04:17 - [Viewing the payload](https://www.youtube.com/watch?v=higEi441t1Q&t=257s)
 - 05:56 – [Summary](https://www.youtube.com/watch?v=higEi441t1Q&t=356s)
 
-## Securing a Simple SaaS Webhook in .NET
+## Securing your SaaS offer webhook
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196421">Video</a> | [PDF](./pdfs/10.3-simple-webhook-dotnet-securing.pdf)
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196421">Video</a> | [PDF](./pdfs/10.3-simple-webhook-dotnet-securing-v2.pdf) | [Code](./code/10.3-simple-webhook-dotnet-securing-v2.zip)
 
-This security-focused module introduces several techniques for securing a SaaS offer webhook and then dives into code looking at implementations of the techniques presented. This module builds on the code presented in the module, “Implementing a Simple SaaS Webhook in .NET”. Although utilizing an Azure function built in .NET, concepts are presented in such a way as to be architecture and technology stack agnostic.
+This security-focused module introduces several techniques for securing a SaaS offer webhook and then dives into implementations of the techniques presented. The two techniques covered are using an Azure Function as a webhook and using a Logic app. 
 
-- 00:00 – [Overview](https://www.youtube.com/watch?v=Wifuc5jAY7E&t=0s)
-- 02:33 – [Securing the webhook](https://www.youtube.com/watch?v=Wifuc5jAY7E&t=153s)
-- 13:37 – [Summary](https://www.youtube.com/watch?v=Wifuc5jAY7E&t=817s)
+Although the Azure Function example is implemented in .NET, it is done so in a way that illustrates core concepts for any development stack.
+
+- 00:00 - <a target="_blank" href="https://www.youtube.com/watch?v=iWPte1PLMdw&t=0s">Overview</a>
+- 01:16 - <a target="_blank" href="https://www.youtube.com/watch?v=iWPte1PLMdw&t=76s">Basic webhook flow</a>
+- 02:54 - <a target="_blank" href="https://www.youtube.com/watch?v=iWPte1PLMdw&t=174s">Implementing webhook security</a>
+- 05:25 - <a target="_blank" href="https://www.youtube.com/watch?v=iWPte1PLMdw&t=325s">Demo: Inspecting the marketplace JWT</a>
+- 07:07 - <a target="_blank" href="https://www.youtube.com/watch?v=iWPte1PLMdw&t=427s">Demo: Securing a webhook implemented in .NET</a>
+- 12:18 - <a target="_blank" href="https://www.youtube.com/watch?v=iWPte1PLMdw&t=738s">Demo: Securing a webhook implemented with a Logic app</a>
+- 16:50 - <a target="_blank" href="https://www.youtube.com/watch?v=iWPte1PLMdw&t=1010s">A security anti-pattern</a>
+- 19:38 - <a target="_blank" href="https://www.youtube.com/watch?v=iWPte1PLMdw&t=1178s">Summary</a>
+
 
 ## SaaS Metered Billing Overview
 
