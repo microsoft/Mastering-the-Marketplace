@@ -28,7 +28,7 @@ SaaS offers are a popular deployment architecture for deploying offers onto the 
 1. [Building a Simple SaaS Publisher Portal in .NET](#building-a-simple-saas-publisher-portal-in-net)
 1. [SaaS Webhook Overview](#saas-webhook-overview)
 1. [Implementing a Simple SaaS Webhook in .NET](#implementing-a-simple-saas-webhook-in-net)
-1. [Securing your SaaS offer webhook](securing-your-saas-offer-webhook)
+1. [Securing your SaaS offer webhook](#securing-your-saas-offer-webhook)
 1. [SaaS Metered Billing Overview](#saas-metered-billing-overview)
 1. [The SaaS Metered Billing API with REST](#the-saas-metered-billing-api-with-rest)
 1. [Hands-on labs](#hands-on-labs)
