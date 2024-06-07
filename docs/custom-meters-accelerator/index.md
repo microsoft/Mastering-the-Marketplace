@@ -1,4 +1,17 @@
-# Mastering the Custom Meters Accelerator
+---
+# Page settings
+layout: default
+
+comments: false
+
+# Hero section
+title: Mastering the Custom Meters Accelerator
+
+description: The Custom Meter Accelerator is a production-ready solution, opensource project that enables marketplace partners to manage billing terms for Azure Marketplace Container offers.  
+
+hide:
+  - toc
+---
 
 The Custom Meter Accelerator is a production-ready solution, opensource project that enables marketplace partners to manage billing terms for Azure Marketplace Container offers.  
 
