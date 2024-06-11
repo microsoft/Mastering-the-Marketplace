@@ -19,7 +19,7 @@ SaaS offers are a popular deployment architecture for deploying offers onto the 
 1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
 1. [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
 1. [Purchasing a SaaS offer from the Azure Marketplace](#purchasing-a-saas-offer-from-the-azure-marketplace)
-1.- [Purchasing a SaaS offer from AppSource](#purchasing-a-saas-offer-from-appsource)
+1. [Purchasing a SaaS offer from AppSource](#purchasing-a-saas-offer-from-appsource)
 1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
 1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
 1. [Microsoft Entra ID configuration for your SaaS offer](#microsoft-entra-id-configuration-for-your-saas-offer)
