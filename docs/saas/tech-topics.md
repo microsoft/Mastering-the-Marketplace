@@ -19,9 +19,10 @@ SaaS offers are a popular deployment architecture for deploying offers onto the 
 1. [SaaS Offer Technical Overview](#saas-offer-technical-overview)
 1. [Purchasing a Private SaaS Plan](#purchasing-a-private-saas-plan)
 1. [Purchasing a SaaS offer from the Azure Marketplace](#purchasing-a-saas-offer-from-the-azure-marketplace)
-1. [Purchasing a SaaS offer from AppSource](#purchasing-a-saas-offer-from-appsource)
+1.- [Purchasing a SaaS offer from AppSource](#purchasing-a-saas-offer-from-appsource)
 1. [Publishing a SaaS Offer](#publishing-a-saas-offer)
 1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
+1. [Microsoft Entra ID configuration for your SaaS offer](#microsoft-entra-id-configuration-for-your-saas-offer)
 1. [Using the SaaS Offer Fulfillment API](#using-the-saas-offer-fulfillment-api)
 1. [The SaaS Client Library for .NET](#the-saas-client-library-for-net)
 1. [Building a Simple Landing Page in .NET](#building-a-simple-landing-page-in-net)
@@ -111,6 +112,21 @@ This brief video builds upon what you learned in, “Publishing a SaaS Offer.”
 - 00:35 - [About private plans](https://www.youtube.com/watch?v=67E7LPL_aic&t=35s)
 - 03:02 - [Creating a private SaaS plan](https://www.youtube.com/watch?v=67E7LPL_aic&t=182s)
 - 07:11 - [Summary](https://www.youtube.com/watch?v=67E7LPL_aic&t=431s)
+
+## Microsoft Entra ID configuration for your SaaS offer
+
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196262">Video</a> | [PDF](./pdfs/05-Azure-AD-Application-Registrations%20-%20v3.pdf)
+
+In this module we look at a generic topic, application registrations for Entra ID. We’ll need this knowledge in upcoming modules. Application registrations give us a mechanism to authenticate to Entra ID, which is a requirement of the SaaS offer’s landing page, if you recall.
+
+This video should help you get a jump start on configuring application registrations for the apps we’ll be building in the next few modules.
+
+- <a target="_blank" href="https://www.youtube.com/watch?v=DMK1BslBKvU&t=0s">00:00 – Overview</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=DMK1BslBKvU&t=100s">01:40 – Application Registrations in Microsoft Entra ID</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=DMK1BslBKvU&t=320s">05:20 – Single- vs. multi-tenant</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=DMK1BslBKvU&t=659s">10:59 – User consent and scopes</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=DMK1BslBKvU&t=908s">15:08 – A sample solution architecture</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=DMK1BslBKvU&t=1063s">17:43 - Summary</a>
 
 ## Using the SaaS Offer Fulfillment API
 
