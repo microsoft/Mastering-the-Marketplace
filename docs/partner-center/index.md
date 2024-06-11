@@ -100,11 +100,11 @@ This video provides an overview of account verification in Partner Center and gu
 
 In this module, we cover how to setup a tax profile in Partner Center for the Commercial Marketplace program and discuss how to resolve common issues that may arise.
 
-- 0:00 – <a target="_blank" href="https://www.youtube.com/watch?v=54ATV_GPS5c&t=0s">Overview</a>
-- 1:07 – <a target="_blank" href="https://www.youtube.com/watch?v=54ATV_GPS5c&t=67s">Introduction to tax profiles</a>
-- 2:22 – <a target="_blank" href="https://www.youtube.com/watch?v=54ATV_GPS5c&t=142s">Setting up a tax profile</a>
-- 5:30 – <a target="_blank" href="https://www.youtube.com/watch?v=54ATV_GPS5c&t=330s">Suggestions for resolving common issues</a>
-- 7:25 – <a target="_blank" href="https://www.youtube.com/watch?v=54ATV_GPS5c&t=445s">Summary</a>
+- 0:00 – <a target="_blank" href="https://www.youtube.com/watch?v=V3MJfE2wb1Y&t=0s">Overview</a>
+- 1:07 – <a target="_blank" href="https://www.youtube.com/watch?v=V3MJfE2wb1Y&t=61s">Introduction to tax profiles</a>
+- 2:22 – <a target="_blank" href="https://www.youtube.com/watch?v=V3MJfE2wb1Y&t=114s">Setting up a tax profile</a>
+- 5:30 – <a target="_blank" href="https://www.youtube.com/watch?v=V3MJfE2wb1Y&t=350s">Suggestions for resolving common issues</a>
+- 7:25 – <a target="_blank" href="https://www.youtube.com/watch?v=V3MJfE2wb1Y&t=466s">Summary</a>
 
 
 ### Setting up a payout profile in Partner Center
@@ -113,11 +113,11 @@ In this module, we cover how to setup a tax profile in Partner Center for the Co
 
 In this module, we cover how to setup a payout profile in Partner Center for the Commercial Marketplace program and discuss how to resolve common issues that may arise.
 
-- 00:00 – <a target="_blank" href="https://www.youtube.com/watch?v=y6FA7bDuAhg&t=0s">Overview</a>
-- 00:58 – <a target="_blank" href="https://www.youtube.com/watch?v=y6FA7bDuAhg&t=58s">Introduction to payout profiles</a>
-- 02:32 – <a target="_blank" href="https://www.youtube.com/watch?v=y6FA7bDuAhg&t=152s">Setting up a payout profile</a>
-- 05:52 – <a target="_blank" href="https://www.youtube.com/watch?v=y6FA7bDuAhg&t=352s">Suggestions for resolving common issues</a>
-- 07:07 – <a target="_blank" href="https://www.youtube.com/watch?v=y6FA7bDuAhg&t=427s">Summary</a>
+- 00:00 – <a target="_blank" href="https://www.youtube.com/watch?v=aFQilqWhYCc&t=0s">Overview</a>
+- 00:58 – <a target="_blank" href="https://www.youtube.com/watch?v=aFQilqWhYCc&t=38s">Introduction to payout profiles</a>
+- 02:32 – <a target="_blank" href="https://www.youtube.com/watch?v=aFQilqWhYCc&t=115s">Setting up a payout profile</a>
+- 05:52 – <a target="_blank" href="https://www.youtube.com/watch?v=aFQilqWhYCc&t=321s">Suggestions for resolving common issues</a>
+- 07:07 – <a target="_blank" href="https://www.youtube.com/watch?v=aFQilqWhYCc&t=376s">Summary</a>
 
 ### Role based access control in Partner Center
 
