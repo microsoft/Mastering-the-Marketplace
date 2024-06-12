@@ -147,14 +147,14 @@ This video provides a comprehensive overview of how role-based access control (R
 When setting up offers in Partner Center, there are some sections that are shared by multiple offer types. This video covers those sections, and shows how to configure your offer in these sections.
 Subsequent videos in the Partner Center course cover the sections of Partner Center that are unique to each offer type.
 
-- 00:00 – <a target="_blank" href="https://www.youtube.com/watch?v=3XFVe2ayiik&t=0s">Overview</a>
-- 01:07 - <a target="_blank" href="https://www.youtube.com/watch?v=3XFVe2ayiik&t=67s">Creating new offers in Partner Center</a>
-- 03:20 - <a target="_blank" href="https://www.youtube.com/watch?v=3XFVe2ayiik&t=200s">Common offer information</a>
-- 04:45 - <a target="_blank" href="https://www.youtube.com/watch?v=3XFVe2ayiik&t=285s">Offer overview section</a>
-- 08:25 - <a target="_blank" href="https://www.youtube.com/watch?v=3XFVe2ayiik&t=505s">Offer listing section</a>
-- 15:40 - <a target="_blank" href="https://www.youtube.com/watch?v=3XFVe2ayiik&t=940s">Cosell with Microsoft</a>
-- 16:30 - <a target="_blank" href="https://www.youtube.com/watch?v=3XFVe2ayiik&t=990s">Resell through CSPs</a>
-- 18:20 – <a target="_blank" href="https://www.youtube.com/watch?v=3XFVe2ayiik&t=1100s">Summary</a>
+- 00:00 – <a target="_blank" href="https://www.youtube.com/watch?v=o9IMF2logY8&t=0s">Overview</a>
+- 01:07 - <a target="_blank" href="https://www.youtube.com/watch?v=o9IMF2logY8&t=67s">Creating new offers in Partner Center</a>
+- 03:20 - <a target="_blank" href="https://www.youtube.com/watch?v=o9IMF2logY8&t=200s">Common offer information</a>
+- 04:45 - <a target="_blank" href="https://www.youtube.com/watch?v=o9IMF2logY8&t=285s">Offer overview section</a>
+- 08:25 - <a target="_blank" href="https://www.youtube.com/watch?v=o9IMF2logY8&t=505s">Offer listing section</a>
+- 15:40 - <a target="_blank" href="https://www.youtube.com/watch?v=o9IMF2logY8&t=940s">Cosell with Microsoft</a>
+- 16:30 - <a target="_blank" href="https://www.youtube.com/watch?v=o9IMF2logY8&t=990s">Resell through CSPs</a>
+- 18:20 – <a target="_blank" href="https://www.youtube.com/watch?v=o9IMF2logY8&t=1100s">Summary</a>
 
 ### Creating SaaS offers in Partner Center
 
