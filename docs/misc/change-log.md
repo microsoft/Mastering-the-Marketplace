@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 6/18/2024 | [Orders dashboard in commercial marketplace analytics](../partner-center/index.md#orders-dashboard-in-commercial-marketplace-analytics) (new) |
 | 6/11/2024 | [Microsoft Entra ID configuration for your SaaS offer](../saas/tech-topics.md#microsoft-entra-id-configuration-for-your-saas-offer) (new) |
 | 6/4/2024 | [Choose your Azure marketplace offer type](../biz/select-offer-type.md) (update) |
 | 6/4/2024 | [Securing your SaaS offer webhook](../saas/tech-topics.md#securing-your-saas-offer-webhook) (update) |

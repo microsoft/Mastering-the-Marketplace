@@ -37,14 +37,15 @@ The content here addresses the most commonly asked questions about the portal.
 - [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
 - [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
 - [Creating VM offers in Partner Center](#creating-vm-offers-in-partner-center)
-  - [Creating Managed Application offers in Partner Center](#creating-managed-application-offers-in-partner-center)
+- [Creating Managed Application offers in Partner Center](#creating-managed-application-offers-in-partner-center)
 
 **[Reporting and insights in Partner Center](#reporting-and-insights-in-partner-center)**
 
 <!-- no toc -->
 - [Commercial marketplace reporting in Partner Center](#commercial-marketplace-reporting-in-partner-center)
 - [Marketplace insights dashboard in commercial marketplace analytics](#marketplace-insights-dashboard-in-commercial-marketplace-analytics)
-- [Reporting and Insights for multi-year SaaS offers](#reporting-and-insights-for-multi-year-saas-offers)
+- [Orders dashboard in commercial marketplace analytics](#orders-dashboard-in-commercial-marketplace-analytics)
+- [Reporting and insights for multi-year SaaS offers](#reporting-and-insights-for-multi-year-saas-offers)
 - [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
 
 **All about Private Offers**
@@ -259,9 +260,19 @@ provide an overview of the Marketplace insights dashboard in Commercial Marketpl
 - <a target="_blank" href="https://www.youtube.com/watch?v=T8QezW8amNI&t=201s">3:21 – Marketplace Insights dashboard widget tour
 - <a target="_blank" href="https://www.youtube.com/watch?v=T8QezW8amNI&t=318s">5:18 – Summary</a>
 
+### Orders dashboard in commercial marketplace analytics
 
+<a target="_blank" href="https://aka.ms/AAqvx42">Video</a>
 
+The Orders dashboard in the Orders dashboard in Commercial Marketplace Analytics in Partner Center provides insights into subscription trends and orders by offers.
 
+This video takes you through the Orders dashboard and how to use it effectively.
+
+- <a target="_blank" href="https://www.youtube.com/watch?v=0sHNNN7zMvc&t=0s">0:00 – Overview</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=0sHNNN7zMvc&t=32s">0:32 – Introduction to the Orders dashboard</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=0sHNNN7zMvc&t=81s">1:21 – Common dashboard elements</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=0sHNNN7zMvc&t=198s">3:18 - Orders dashboard widget tour</a>
+- <a target="_blank" href="https://www.youtube.com/watch?v=0sHNNN7zMvc&t=380s">6:20 – Summary</a>
 
 ### Reporting and insights for multi-year SaaS offers
 
