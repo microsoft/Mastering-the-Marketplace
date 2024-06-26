@@ -52,6 +52,8 @@ This module introduces Azure Applications and Managed Applications at a high lev
 
 ## Billing and pricing for Azure Applications
 
+<a href="https://aka.ms/AAr3a3w" target="_blank">Video</a>
+
 Azure Applications provide for charging customers for your software solution and for any maintenance services you provide. Accordingly, configuring billing and pricing for Azure Applications isn’t always intuitive.
 
 This video walks through the options for charging customers provided by Azure Applications, both Solution Template and Managed Application offers. After viewing this video, you’ll understand how to configure pricing for your solution.
