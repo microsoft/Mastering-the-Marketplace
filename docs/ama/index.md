@@ -23,16 +23,19 @@ This course details the Managed Application offer-building and onboarding proces
 
 <!-- no toc -->
 1. [Managed Applications overview](#managed-applications-overview)
-1. [Managed Application deployment options](#managed-application-deployment-options)
-1. [Purchasing an Azure Application: The customer experience](#purchasing-an-azure-application-the-customer-experience)
-1. [Managing my Managed Applications: The customer experience](#managing-my-managed-applications-the-customer-experience)
-1. [Administering customer subscriptions: The publisher experience](#administering-customer-subscriptions-the-publisher-experience)
-1. [The deployment package](#the-deployment-package)
-1. [Working with createUiDefinition.json](#working-with-createuidefinitionjson)
-1. [Working with mainTemplate.json](#working-with-maintemplatejson)
-1. [Managed Applications webhook](#managed-applications-webhook)
-1. [Metered billing technical details](#metered-billing-technical-details)
-1. [Deploying a custom virtual machine offer](#deploying-a-custom-virtual-machine-offer)
+1.  [Billing and pricing for Azure Applications](#billing-and-pricing-for-azure-applications)
+1.  [Managed Application deployment options](#managed-application-deployment-options)
+1.  [Purchasing an Azure Application: The customer experience]1. #purchasing-an-azure-application-the-customer-experience)
+1.  [Managing my Managed Applications: The customer experience](#managing-my-managed-applications-the-customer-experience)
+1.  [Administering customer subscriptions: The publisher experience](#administering-customer-subscriptions-the-publisher-experience)
+1.  [The deployment package](#the-deployment-package)
+1.  [Working with createUiDefinition.json](#working-with-createuidefinitionjson)
+1.  [Working with mainTemplate.json](#working-with-maintemplatejson)
+1.  [Managed Applications webhook](#managed-applications-webhook)
+1.  [Metered billing technical details](#metered-billing-technical-details)
+1.  [Deploying a custom virtual machine offer](#deploying-a-custom-virtual-machine-offer)
+1.  [Hands-on labs](#hands-on-labs)
+
 
 - [Hands-on labs](#hands-on-labs)
 
