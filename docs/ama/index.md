@@ -50,6 +50,12 @@ This module introduces Azure Applications and Managed Applications at a high lev
 - <a href="https://www.youtube.com/watch?v=jIIDRnj7XsY&t=547s" target="_blank">09:07 – Managed Applications in the Azure Marketplace</a>
 - <a href="https://www.youtube.com/watch?v=jIIDRnj7XsY&t=774s" target="_blank">12:54 - Summary</a>
 
+## Billing and pricing for Azure Applications
+
+Azure Applications provide for charging customers for your software solution and for any maintenance services you provide. Accordingly, configuring billing and pricing for Azure Applications isn’t always intuitive.
+
+This video walks through the options for charging customers provided by Azure Applications, both Solution Template and Managed Application offers. After viewing this video, you’ll understand how to configure pricing for your solution.
+
 ## Managed Application deployment options
 
 <a href="https://aka.ms/AAmi8te" target="_blank">Video</a> | <a href="./pdfs/03.0-ma-deployment-options.pdf" target="_blank">PDF</a>
