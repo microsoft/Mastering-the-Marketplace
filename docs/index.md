@@ -52,7 +52,7 @@ This comprehensive content takes you through all you need to get a SaaS offer up
  <span class="linkless-heading">Mastering the SaaS Accelerator</span>
 Instead of building your own custom SaaS solution, consider using the SaaS Accelerator. The SaaS accelerator is a turnkey solution meeting the technical requirements for a SaaS offer and can be installed in 20 minutes.
 
-[Take me to it](/Mastering-the-Marketplace/saas-accelerator){ .md-button }
+[Take me to it](https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator){ .md-button }
 </div>
 
 <div class="landing-tile" markdown="1">

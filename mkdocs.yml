@@ -8,7 +8,7 @@ extra_css:
 
 nav:
   - SaaS: '/Mastering-the-Marketplace/saas/'
-  - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator/'
+  - SaaS Accelerator: 'https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator'
   - Managed Applications: '/Mastering-the-Marketplace/ama/'
   - Virtual Machines: '/Mastering-the-Marketplace/vm/'
   - Container offers for K8s apps: '/Mastering-the-Marketplace/container/'
