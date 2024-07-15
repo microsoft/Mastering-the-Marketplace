@@ -21,7 +21,7 @@ grid_navigation:
     - title: The SaaS Accelerator
       excerpt: The SaaS Accelerator is a turn key reference implementation of a SaaS offer. Install in 20 minutes!
       cta: Take me to it
-      url: 'https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator'
+      url: 'https://aka.ms/MasteringTheMarketplace/sa'
     - title: Mastering Partner Center
       excerpt: How-to content for working with the publisher's portal
       cta: Take me to it
