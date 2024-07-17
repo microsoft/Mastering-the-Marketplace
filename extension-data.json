@@ -10,18 +10,33 @@
         },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "target_title": "PC Offers overview content",
+            "target_title": "PC Offers overview content 1",
+            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+            "jquery_selector": "foo",
+            "event": "load"
+        },
+        {
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+            "target_title": "PC Offers overview content 2",
             "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
             "jquery_selector": "foo",
             "event": "load"
         },
         {
             "page_url": "https://github.com",
-            "target_title": "GitHub video 1",
+            "target_title": "GitHub content 1",
+            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+            "jquery_selector": "foo",
+            "event": "load"
+        },
+        {
+            "page_url": "https://github.com",
+            "target_title": "GitHub content 2",
             "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
             "jquery_selector": "foo",
             "event": "load"
         }
+
     ],
     "recent_content": [
         {
