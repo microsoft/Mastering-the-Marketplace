@@ -1,6 +1,6 @@
 
 {
-    "private-offer-page": "https://elegantcode.com/",
+    "private_offer_page": "https://elegantcode.com/",
     "page_overlays": [
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/",
