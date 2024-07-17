@@ -1,15 +1,25 @@
 
 {
+    "private-offer-page": "https://elegantcode.com/",
     "page_overlays": [
         {
-            "page": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "video_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/",
+            "target_title": "PC video 1",
+            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
             "jquery_selector": "foo",
             "event": "load"
         },
         {
-            "page": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "video_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+            "target_title": "PC video 2",
+            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+            "jquery_selector": "foo",
+            "event": "load"
+        },
+        {
+            "page_url": "https://github.com",
+            "target_title": "GitHub video 1",
+            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
             "jquery_selector": "foo",
             "event": "load"
         }
