@@ -2,15 +2,15 @@
     "private_offer_page": "https://elegantcode.com/",
     "page_overlays": [
         {
-            "page_url": "https://partner.microsoft.com/en-us/dashboard/",
-            "target_title": "PC video 1",
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
+            "target_title": "PC dashboard home content",
             "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
             "jquery_selector": "foo",
             "event": "load"
         },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "target_title": "PC video 2",
+            "target_title": "PC Offers overview content",
             "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
             "jquery_selector": "foo",
             "event": "load"
