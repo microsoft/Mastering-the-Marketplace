@@ -17,7 +17,7 @@ hide:
 
 The SaaS Accelerator is offered under the MIT License as open source software and is not supported by Microsoft. 
 
-If you need help with the accelerator or would like to report defects or feature requests use the Issues feature on [the GitHub repository](https://aka.ms/SaaSAccelerator).
+**If you need help** with the accelerator or would like to report defects or feature requests use the Issues feature on [the GitHub repository](https://aka.ms/SaaSAccelerator).
 
 The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days. This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the [SaaS Accelerator](https://aka.ms/SaaSAccelerator) project.
 
