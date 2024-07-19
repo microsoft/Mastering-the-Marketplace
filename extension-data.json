@@ -10,8 +10,8 @@
         },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "target_title": "PC Offers overview content 1",
-            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+            "target_title": "Mastering the SaaS Accelerator",
+            "target_url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
             "jquery_selector": "foo",
             "event": "load"
         },
@@ -46,6 +46,10 @@
         {
             "url": "https://go.microsoft.com/fwlink/?linkid=2196262",
             "title": "Microsoft Entra ID configuration for your SaaS offer"
+        },
+        {
+            "title": "Mastering the SaaS Accelerator",
+            "url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/"
         }
     ]
 }
