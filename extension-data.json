@@ -1,10 +1,17 @@
 {
     "private_offer_page": "https://hugos-msft.github.io/sandbox/",
-    "guided_tour": [
+    "guided_tour": 
+        {
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
+            "media_url": "https://github.com/microsoft/Mastering,-the-Marketplace/raw/main/guided_tour/Outro.mp4",
+            "title": "Sample video 1",
+            "media_type": "video",
+            "jquery_selector": "#workspace-nav-offers-homepagelink"
+        },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
             "media_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
-            "title": "Sample audio",
+            "title": "Sample audio 3",
             "media_type": "audio",
             "jquery_selector": "#workspace-nav-offers-homepagelink"
         },
@@ -22,6 +29,13 @@
             "media_type": "audio",
             "jquery_selector": ""
         }
+        {
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
+            "media_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
+            "title": "Sample video 2",
+            "media_type": "video",
+            "jquery_selector": "#workspace-nav-offers-homepagelink"
+        },
         
     ],
    
