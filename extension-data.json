@@ -5,6 +5,11 @@
             "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
             "media_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
             "jquery_selector": "#workspace-nav-offers-homepagelink"
+        },
+        {
+            "page_url": "https://guthub.com",
+            "media_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
+            "jquery_selector": "none"
         }
     ],
    
