@@ -11,14 +11,14 @@
         {
             "page_url": "https://github.com",
             "media_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
-            "title": "Sample audio",
+            "title": "Sample audio 1",
             "media_type": "audio",
             "jquery_selector": ""
         },
         {
             "page_url": "https://github.com",
             "media_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
-            "title": "Sample audio",
+            "title": "Sample audio 2",
             "media_type": "audio",
             "jquery_selector": ""
         }
