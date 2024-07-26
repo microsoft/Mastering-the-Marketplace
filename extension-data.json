@@ -1,56 +1,63 @@
 {
     "private_offer_page": "https://hugos-msft.github.io/sandbox/",
-    "guided_tour": 
+    "page_content": [
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
             "media_url": "https://github.com/microsoft/Mastering,-the-Marketplace/raw/main/guided_tour/Outro.mp4",
             "title": "Sample video 1",
-            "media_type": "video",
+            "content_type": "video",
             "jquery_selector": "#workspace-nav-offers-homepagelink"
         },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
             "media_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
             "title": "Sample audio 3",
-            "media_type": "audio",
+            "content_type": "audio",
             "jquery_selector": "#workspace-nav-offers-homepagelink"
         },
         {
             "page_url": "https://github.com",
             "media_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
             "title": "Sample audio 1",
-            "media_type": "audio",
+            "content_type": "audio",
             "jquery_selector": ""
         },
         {
             "page_url": "https://github.com",
             "media_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
             "title": "Sample audio 2",
-            "media_type": "audio",
+            "content_type": "audio",
             "jquery_selector": ""
-        }
+        },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
             "media_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
             "title": "Sample video 2",
-            "media_type": "video",
+            "content_type": "video",
             "jquery_selector": "#workspace-nav-offers-homepagelink"
         },
-        
-    ],
-   
-    "page_overlays": [
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
             "target_title": "PC dashboard home content",
             "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
             "jquery_selector": "foo",
+            "content_type": "link",
             "event": "load"
+        },
+        {
+            "page_url": "https://github.com",
+            "target_title": "Did you know?",
+            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+            "jquery_selector": "#create-new-button",
+            "content_type": "hint",
+            "event": "load",
+            "text": "Use this dropdown to create new marketplace offers."
         },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
             "target_title": "Mastering the SaaS Accelerator",
             "target_url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
+            "content_type": "link",
             "jquery_selector": "foo",
             "event": "load"
         },
@@ -59,6 +66,7 @@
             "target_title": "PC Offers overview content 2",
             "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
             "jquery_selector": "foo",
+            "content_type": "link",
             "event": "load"
         },
         {
@@ -66,6 +74,7 @@
             "target_title": "GitHub content 1",
             "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
             "jquery_selector": "foo",
+            "content_type": "link",
             "event": "load"
         },
         {
@@ -73,9 +82,9 @@
             "target_title": "GitHub content 2",
             "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
             "jquery_selector": "foo",
+            "content_type": "link",
             "event": "load"
         }
-
     ],
     "recent_content": [
         {
