@@ -1,9 +1,9 @@
 {
     "private_offer_page": "https://hugos-msft.github.io/sandbox/",
-    "page_content": 
+    "page_content": [
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
-            "media_url": "https://github.com/microsoft/Mastering,-the-Marketplace/raw/main/guided_tour/Outro.mp4",
+            "media_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
             "title": "Sample video 1",
             "content_type": "video",
             "jquery_selector": "#workspace-nav-offers-homepagelink"
@@ -96,8 +96,8 @@
             "title": "Microsoft Entra ID configuration for your SaaS offer"
         },
         {
-            "title": "Mastering the SaaS Accelerator",
-            "url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/"
+            "url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
+            "title": "Mastering the SaaS Accelerator"
         }
     ]
 }
