@@ -96,17 +96,17 @@
     ],
     "recent_content": [
         {
-            "url": "https://aka.ms/AAr3a3w",
+            "target_url": "https://aka.ms/AAr3a3w",
             "target_title": "Billing and pricing for Azure Applications",
             "content_type": "video"
         },
         {
-            "url": "https://go.microsoft.com/fwlink/?linkid=2196262",
+            "target_url": "https://go.microsoft.com/fwlink/?linkid=2196262",
             "target_title": "Microsoft Entra ID configuration for your SaaS offer",
             "content_type": "video"
         },
         {
-            "url": "https://aka.ms/MasteringTheMarketplace/sa",
+            "target_url": "https://aka.ms/MasteringTheMarketplace/sa",
             "target_title": "Mastering the SaaS Accelerator (full length course)",
             "content_type": "link"
         }
