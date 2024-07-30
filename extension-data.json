@@ -31,6 +31,22 @@
             "event": "load"
         },
         {
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+            "target_title": "Mastering the SaaS Accelerator (full course)",
+            "target_url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
+            "content_type": "link",
+            "jquery_selector": "foo",
+            "event": "load"
+        },
+        {
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+            "target_title": "PC Offers overview content 2",
+            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+            "jquery_selector": "foo",
+            "content_type": "link",
+            "event": "load"
+        },
+        {
             "page_url": "https://github.com",
             "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
             "title": "Sample audio 1",
@@ -52,22 +68,6 @@
             "content_type": "hint",
             "event": "load",
             "text": "Use this dropdown to create new marketplace offers."
-        },
-        {
-            "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "target_title": "Mastering the SaaS Accelerator",
-            "target_url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
-            "content_type": "link",
-            "jquery_selector": "foo",
-            "event": "load"
-        },
-        {
-            "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "target_title": "PC Offers overview content 2",
-            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-            "jquery_selector": "foo",
-            "content_type": "link",
-            "event": "load"
         },
         {
             "page_url": "https://github",
