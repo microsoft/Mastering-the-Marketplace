@@ -1,5 +1,5 @@
 {
-    "private_offer_page": "https://hugos-msft.github.io/sandbox/",
+    "private_offer_page": "https://elegantcode.com",
     "page_content": [
         {
             "page_url": "https://raw.githubusercontent.com/microsoft/Mastering-the-Marketplace/main/extension-data.json",
@@ -105,7 +105,7 @@
         },
         {
             "url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
-            "title": "Mastering the SaaS Accelerator"
+            "title": "Mastering the SaaS Accelerator (full course)"
         }
     ]
 }
