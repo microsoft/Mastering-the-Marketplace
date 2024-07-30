@@ -4,21 +4,21 @@
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
             "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
-            "title": "Sample video 1",
+            "target_title": "Sample video 1",
             "content_type": "video",
             "jquery_selector": "#workspace-nav-offers-homepagelink"
         },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
             "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
-            "title": "Sample audio 3",
+            "target_title": "Sample audio 3",
             "content_type": "audio",
             "jquery_selector": "#workspace-nav-offers-homepagelink"
         },
         {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
             "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
-            "title": "Sample video 2",
+            "target_title": "Sample video 2",
             "content_type": "video",
             "jquery_selector": "#workspace-nav-offers-homepagelink"
         },
@@ -49,14 +49,14 @@
         {
             "page_url": "https://github.com",
             "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
-            "title": "Sample audio 1",
+            "target_title": "Sample audio 1",
             "content_type": "audio",
             "jquery_selector": ""
         },
         {
             "page_url": "https://github.com",
             "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
-            "title": "Sample audio 2",
+            "target_title": "Sample audio 2",
             "content_type": "audio",
             "jquery_selector": ""
         },
@@ -72,7 +72,7 @@
         {
             "page_url": "https://github",
             "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
-            "title": "Create a new marketplace offer",
+            "target_title": "Create a new marketplace offer",
             "content_type": "bubble",
             "jquery_selector": "#workspace-nav-offers-homepagelink",
             "text": "I am here"            
@@ -97,17 +97,17 @@
     "recent_content": [
         {
             "url": "https://aka.ms/AAr3a3w",
-            "title": "Billing and pricing for Azure Applications",
+            "target_title": "Billing and pricing for Azure Applications",
             "content_type": "video"
         },
         {
             "url": "https://go.microsoft.com/fwlink/?linkid=2196262",
-            "title": "Microsoft Entra ID configuration for your SaaS offer",
+            "target_title": "Microsoft Entra ID configuration for your SaaS offer",
             "content_type": "video"
         },
         {
             "url": "https://aka.ms/MasteringTheMarketplace/sa",
-            "title": "Mastering the SaaS Accelerator (full length course)",
+            "target_title": "Mastering the SaaS Accelerator (full length course)",
             "content_type": "link"
         }
     ]
