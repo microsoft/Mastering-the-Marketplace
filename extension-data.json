@@ -82,7 +82,7 @@
             "target_title": "Create a new marketplace offer",
             "content_type": "bubble",
             "jquery_selector": "#workspace-nav-offers-homepagelink",
-            "text": "I am here"            
+            "text": "I am here"
         },
         {
             "page_url": "https://github.com",
