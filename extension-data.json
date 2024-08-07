@@ -2,6 +2,13 @@
     "private_offer_page": "https://elegantcode.com",
     "page_content": [
         {
+            "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+            "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
+            "target_title": "Sample video 1",
+            "content_type": "bubble",
+            "jquery_selector": "$('button').has('span:contains('New offer')')"
+        },
+        {
             "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
             "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
             "target_title": "Sample video 1",
