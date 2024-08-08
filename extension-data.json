@@ -5,7 +5,7 @@
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
         "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
         "content_type": "bubble",
-        "jquery_selector": "span:contains('New offer')",
+        "jquery_selector": "button[data-automation-id='create-new-button']",
         "text": "this is a text test"
       },
       {
