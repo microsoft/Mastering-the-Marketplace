@@ -6,7 +6,7 @@
         "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
         "content_type": "bubble",
         "jquery_selector": "button[data-automation-id='create-new-button']",
-        "text": "this is a text test"
+        "text": "Step #1 - Use this drop down to select the offer type to publish."
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
