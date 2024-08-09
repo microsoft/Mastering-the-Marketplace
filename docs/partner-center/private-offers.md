@@ -15,24 +15,24 @@ hide:
 **[For customers](#for-customers)**
 
 <!-- no toc -->
-- [Find Your Azure Billing ID](#find-your-azure-billing-id)
-- [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
+1. [Find Your Azure Billing ID](#find-your-azure-billing-id)
+1. [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
 
 **[All about private offers](#all-about-private-offers)**
 
 <!-- no toc -->
-- [Private offers overview](#private-offers-overview)
-- [Private offers vs. private plans](#private-offers-vs-private-plans)
-- [Creating private offers](#creating-private-offers)
+1. [Private offers overview](#private-offers-overview)
+1. [Private offers vs. private plans](#private-offers-vs-private-plans)
+1. [Creating private offers](#creating-private-offers)
 
 **[ISVs with selling partners](#isvs-with-selling-partners)**
     
 <!-- no toc -->
-- [Overview of CSP partner private offer for ISVs](#overview-of-csp-partner-private-offer-for-isvs)
-- [Creating a CSP partner private offer for ISVs](#creating-a-csp-partner-private-offer-for-isvs)
-- [Purchasing CSP partner private offers for CSP partners](#purchasing-csp-partner-private-offers-for-csp-partners)
-- [Creating multiparty private offers for ISVs](#creating-multiparty-private-offers-for-isvs)
-- [Creating multiparty private offers for selling partners](#creating-multiparty-private-offers-for-selling-partners)
+1. [Overview of CSP partner private offer for ISVs](#overview-of-csp-partner-private-offer-for-isvs)
+1. [Creating a CSP partner private offer for ISVs](#creating-a-csp-partner-private-offer-for-isvs)
+1. [Purchasing CSP partner private offers for CSP partners](#purchasing-csp-partner-private-offers-for-csp-partners)
+1. [Creating multiparty private offers for ISVs](#creating-multiparty-private-offers-for-isvs)
+1. [Creating multiparty private offers for selling partners](#creating-multiparty-private-offers-for-selling-partners)
 
 
 ---

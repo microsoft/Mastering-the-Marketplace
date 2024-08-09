@@ -19,34 +19,34 @@ The content here addresses the most commonly asked questions about the portal.
 **[Partner Center general topics](#partner-center-general-topics)**
 
 <!-- no toc -->
-- [Getting started with Partner Center](#getting-started-with-partner-center)
-- [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
-- [Verifying account details in Partner Center](#verifying-account-details-in-partner-center)
-- [Setting up a tax profile in Partner Center](#setting-up-a-tax-profile-in-partner-center)
-- [Setting up a payout profile in Partner Center](#setting-up-a-payout-profile-in-partner-center)
-- [Role based access control in Partner Center](#role-based-access-control-in-partner-center)
+1. [Getting started with Partner Center](#getting-started-with-partner-center)
+1. [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
+1. [Verifying account details in Partner Center](#verifying-account-details-in-partner-center)
+1. [Setting up a tax profile in Partner Center](#setting-up-a-tax-profile-in-partner-center)
+1. [Setting up a payout profile in Partner Center](#setting-up-a-payout-profile-in-partner-center)
+1. [Role based access control in Partner Center](#role-based-access-control-in-partner-center)
 
 **[Creating offers in Partner Center](#creating-offers-in-partner-center)**
 
 <!-- no toc -->
-- [Providing information common to all offer types in Partner Center](#providing-information-common-to-all-offer-types-in-partner-center)
-- [Creating SaaS offers in Partner Center](#creating-saas-offers-in-partner-center)
-- [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
-- [SaaS Pricing in Partner Center publisher overview](#saas-pricing-in-partner-center-publisher-overview)
-- [SaaS Pricing in Partner Center publisher demo](#saas-pricing-in-partner-center-publisher-demo)
-- [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
-- [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
-- [Creating VM offers in Partner Center](#creating-vm-offers-in-partner-center)
-- [Creating Managed Application offers in Partner Center](#creating-managed-application-offers-in-partner-center)
+1. [Providing information common to all offer types in Partner Center](#providing-information-common-to-all-offer-types-in-partner-center)
+1. [Creating SaaS offers in Partner Center](#creating-saas-offers-in-partner-center)
+1. [Migrating Listings to SaaS Offers](#migrating-listings-to-saas-offers)
+1. [SaaS Pricing in Partner Center publisher overview](#saas-pricing-in-partner-center-publisher-overview)
+1. [SaaS Pricing in Partner Center publisher demo](#saas-pricing-in-partner-center-publisher-demo)
+1. [Publishing a Private SaaS Plan](#publishing-a-private-saas-plan)
+1. [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
+1. [Creating VM offers in Partner Center](#creating-vm-offers-in-partner-center)
+1. [Creating Managed Application offers in Partner Center](#creating-managed-application-offers-in-partner-center)
 
 **[Reporting and insights in Partner Center](#reporting-and-insights-in-partner-center)**
 
 <!-- no toc -->
-- [Commercial marketplace reporting in Partner Center](#commercial-marketplace-reporting-in-partner-center)
-- [Marketplace insights dashboard in commercial marketplace analytics](#marketplace-insights-dashboard-in-commercial-marketplace-analytics)
-- [Orders dashboard in commercial marketplace analytics](#orders-dashboard-in-commercial-marketplace-analytics)
-- [Reporting and insights for multi-year SaaS offers](#reporting-and-insights-for-multi-year-saas-offers)
-- [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
+1. [Commercial marketplace reporting in Partner Center](#commercial-marketplace-reporting-in-partner-center)
+1. [Marketplace insights dashboard in commercial marketplace analytics](#marketplace-insights-dashboard-in-commercial-marketplace-analytics)
+1. [Orders dashboard in commercial marketplace analytics](#orders-dashboard-in-commercial-marketplace-analytics)
+1. [Reporting and insights for multi-year SaaS offers](#reporting-and-insights-for-multi-year-saas-offers)
+1. [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
 
 **All about Private Offers**
 

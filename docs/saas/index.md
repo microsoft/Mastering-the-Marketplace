@@ -38,12 +38,5 @@ hide:
   <span class="linkless-heading">SaaS Accelerator course</span>
   Complete on-demand course with video and hands-on labs.
 
-[Take me to it](/Mastering-the-Marketplace/saas-accelerator){ .md-button }
-</div>
-
-<div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">SaaS Learning Path</span>
-  Don't know where to start? Try the SaaS Learning Path.
-
-[Take me to it](/Mastering-the-Marketplace/learning-paths/saas-offers){ .md-button }
+[Take me to it](https://aka.ms/MasteringTheMarketplace/sa){ .md-button }
 </div>

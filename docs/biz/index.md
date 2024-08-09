@@ -14,10 +14,10 @@ description: This content focuses on the non-technical aspects of the marketplac
 ---
 
 <!-- no toc -->
-- [Azure Marketplace QuickStart](#azure-marketplace-quickstart)
-- [What to expect in your marketplace selling journey](#what-to-expect-in-your-marketplace-selling-journey)
-- [Marketplace incentive programs](#marketplace-incentive-programs)
-- [Choosing your offer type](./select-offer-type.md)
+1. [Azure Marketplace QuickStart](#azure-marketplace-quickstart)
+1. [What to expect in your marketplace selling journey](#what-to-expect-in-your-marketplace-selling-journey)
+1. [Marketplace incentive programs](#marketplace-incentive-programs)
+1. [Choosing your offer type](./select-offer-type.md)
 
 ---
 

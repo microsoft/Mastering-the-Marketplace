@@ -14,23 +14,25 @@ It covers various topics to help them work with publishers and offers in the mar
 [Azure Marketplace QuickStart](#azure-marketplace-quickstart)
 
 <!-- no toc -->
-**[Finding relevant Azure IDs](#finding-relevant-azure-ids)**
+**Finding relevant Azure IDs**
 
-  - [Get Your Azure Billing ID (Useful for private offers)](#get-your-azure-billing-id-useful-for-private-offers)
-  - [Get Your Azure Tenant ID (useful for private plans)](#get-your-azure-tenant-id-useful-for-private-plans)
+1. [Get Your Azure Billing ID (Useful for private offers)](#get-your-azure-billing-id-useful-for-private-offers)
+1. [Get Your Azure Tenant ID (useful for private plans)](#get-your-azure-tenant-id-useful-for-private-plans)
 
-**[Working with Private Offers and Private Plans](#working-with-private-offers-and-private-plans)**
+**Working with Private Offers and Private Plans**
 
-  - [Using the Azure Marketplace Check Eligibility tool](#using-the-azure-marketplace-check-eligibility-tool)
-  - [Private offers for customers overview](#private-offers-for-customers-overview)
-  - [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
+<!--no toc -->
+1. [Using the Azure Marketplace Check Eligibility tool](#using-the-azure-marketplace-check-eligibility-tool)
+1. [Private offers for customers overview](#private-offers-for-customers-overview)
+1. [Accepting and purchasing a Private Offer: The customer experience](#accepting-and-purchasing-a-private-offer-the-customer-experience)
 
 **Explore by offer type**
 
-- [Working with SaaS offers](#working-with-saas-offers)
-- [Working with Virtual Machine offers](#working-with-virtual-machine-offers)
-- [Working with Container for K8s applications](#working-with-container-for-k8s-applications)
-- [Working with Azure Managed Application offers](#working-with-azure-managed-application-offers)
+<!-- no toc -->
+1. [Working with SaaS offers](#working-with-saas-offers)
+1. [Working with Virtual Machine offers](#working-with-virtual-machine-offers)
+1. [Working with Container for K8s applications](#working-with-container-for-k8s-applications)
+1. [Working with Azure Managed Application offers](#working-with-azure-managed-application-offers)
 
 ---
 
