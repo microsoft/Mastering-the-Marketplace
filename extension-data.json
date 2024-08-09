@@ -20,7 +20,7 @@
         "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
         "target_title": "Sample audio 3",
         "content_type": "audio",
-        "jquery_selector": "he-task-item:contains('Private Offers')"
+        "jquery_selector": "he-task-item:contains('Private offers')"
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
