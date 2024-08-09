@@ -13,14 +13,14 @@
         "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
         "target_title": "Sample video 1",
         "content_type": "video",
-        "jquery_selector": "span:contains('Overview')"
+        "jquery_selector": "mix-command-bar"
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
         "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
         "target_title": "Sample audio 3",
         "content_type": "audio",
-        "jquery_selector": "span:contains('Overview')"
+        "jquery_selector": "he-task-item:contains('Private offers')"
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
@@ -36,7 +36,7 @@
         "target_title": "Mastering the SaaS Accelerator (full course)",
         "target_url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
         "content_type": "link",
-        "jquery_selector": "foo",
+        "jquery_selector": "span:contains('Overview')",
         "event": "load"
       },
       {
