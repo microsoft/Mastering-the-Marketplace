@@ -1,55 +1,122 @@
 {
-    "private_offer_page": "https://elegantcode.com/",
-    "page_overlays": [
-        {
-            "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
-            "target_title": "PC dashboard home content",
-            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-            "jquery_selector": "foo",
-            "event": "load"
-        },
-        {
-            "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "target_title": "Mastering the SaaS Accelerator",
-            "target_url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
-            "jquery_selector": "foo",
-            "event": "load"
-        },
-        {
-            "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-            "target_title": "PC Offers overview content 2",
-            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-            "jquery_selector": "foo",
-            "event": "load"
-        },
-        {
-            "page_url": "https://github.com",
-            "target_title": "GitHub content 1",
-            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-            "jquery_selector": "foo",
-            "event": "load"
-        },
-        {
-            "page_url": "https://github.com",
-            "target_title": "GitHub content 2",
-            "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-            "jquery_selector": "foo",
-            "event": "load"
-        }
+    "private_offer_page": "https://elegantcode.com",
+    "page_content": [
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
+        "content_type": "bubble",
+        "jquery_selector": "button[data-automation-id='create-new-button']",
+        "text": "Step #1 - Use this drop down to select the offer type to publish."
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
+        "target_title": "Sample video 1",
+        "content_type": "video",
+        "jquery_selector": "span:contains('Overview')"
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
+        "target_title": "Sample audio 3",
+        "content_type": "audio",
+        "jquery_selector": "span:contains('Overview')"
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_title": "Did you know?",
+        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+        "jquery_selector": "#create-new-button",
+        "content_type": "hint",
+        "event": "load",
+        "text": "Use this dropdown to create new marketplace offers."
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_title": "Mastering the SaaS Accelerator (full course)",
+        "target_url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
+        "content_type": "link",
+        "jquery_selector": "foo",
+        "event": "load"
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
+        "target_title": "Sample video 2",
+        "content_type": "video",
+        "jquery_selector": "#workspace-nav-offers-homepagelink"
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
+        "target_title": "PC dashboard home content",
+        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+        "jquery_selector": "foo",
+        "content_type": "link",
+        "event": "load"
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_title": "PC Offers overview content 2",
+        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+        "jquery_selector": "foo",
+        "content_type": "link",
+        "event": "load"
+      },
+      {
+        "page_url": "https://github.com",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
+        "target_title": "Sample audio 1",
+        "content_type": "audio",
+        "jquery_selector": ""
+      },
+      {
+        "page_url": "https://github.com",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
+        "target_title": "Sample audio 2",
+        "content_type": "audio",
+        "jquery_selector": ""
+      },
 
+      {
+        "page_url": "https://github",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
+        "target_title": "Create a new marketplace offer",
+        "content_type": "bubble",
+        "jquery_selector": "#workspace-nav-offers-homepagelink",
+        "text": "I am here"
+      },
+      {
+        "page_url": "https://github.com",
+        "target_title": "GitHub content 1",
+        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+        "jquery_selector": "foo",
+        "content_type": "link",
+        "event": "load"
+      },
+      {
+        "page_url": "https://github.com",
+        "target_title": "GitHub content 2",
+        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+        "jquery_selector": "foo",
+        "content_type": "link",
+        "event": "load"
+      }
     ],
     "recent_content": [
-        {
-            "url": "https://aka.ms/AAr3a3w",
-            "title": "Billing and pricing for Azure Applications"
-        },
-        {
-            "url": "https://go.microsoft.com/fwlink/?linkid=2196262",
-            "title": "Microsoft Entra ID configuration for your SaaS offer"
-        },
-        {
-            "title": "Mastering the SaaS Accelerator",
-            "url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/"
-        }
+      {
+        "target_url": "https://aka.ms/AAr3a3w",
+        "target_title": "Billing and pricing for Azure Applications",
+        "content_type": "video"
+      },
+      {
+        "target_url": "https://go.microsoft.com/fwlink/?linkid=2196262",
+        "target_title": "Microsoft Entra ID configuration for your SaaS offer",
+        "content_type": "video"
+      },
+      {
+        "target_url": "https://aka.ms/MasteringTheMarketplace/sa",
+        "target_title": "Mastering the SaaS Accelerator (full length course)",
+        "content_type": "link"
+      }
     ]
-}
+  }
