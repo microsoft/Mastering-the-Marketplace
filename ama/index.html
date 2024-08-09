@@ -1,0 +1,1033 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="This course is designed to help you decrease your onboarding when building an Azure Managed Application offers.">
+      
+      
+      
+        <link rel="canonical" href="https://microsoft.github.io/Mastering-the-Marketplace/ama/">
+      
+      
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>Mastering Managed Application Offers - Mastering the Marketplace</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-QFBKKPKXNV"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-QFBKKPKXNV",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-QFBKKPKXNV",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  <meta content="https://blogs.microsoft.com/wp-content/uploads/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" property="image">
+  <meta content="https://blogs.microsoft.com/wp-content/uploads/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" property="og:image">
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#0078D4" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#managed-applications-overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://microsoft.github.io/Mastering-the-Marketplace/" title="Mastering the Marketplace" class="md-header__button md-logo" aria-label="Mastering the Marketplace" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 32h214.6v214.6H0V32zm233.4 0H448v214.6H233.4V32zM0 265.4h214.6V480H0V265.4zm233.4 0H448V480H233.4V265.4z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mastering the Marketplace
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Mastering Managed Application Offers
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/microsoft/Mastering-the-Marketplace" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    microsoft/Mastering-the-Marketplace
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://microsoft.github.io/Mastering-the-Marketplace/" title="Mastering the Marketplace" class="md-nav__button md-logo" aria-label="Mastering the Marketplace" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 32h214.6v214.6H0V32zm233.4 0H448v214.6H233.4V32zM0 265.4h214.6V480H0V265.4zm233.4 0H448V480H233.4V265.4z"/></svg>
+
+    </a>
+    Mastering the Marketplace
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/microsoft/Mastering-the-Marketplace" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    microsoft/Mastering-the-Marketplace
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aka.ms/MasteringTheMarketplace/sa" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS Accelerator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/ama/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managed Applications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/vm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Virtual Machines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/container/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Container offers for K8s apps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Partner Center
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Bonus content
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Bonus content
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/private-offers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Private offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/biz" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Doing business in the marketplace
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/learning-paths/customer" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    For customers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/misc/marketplace-minis" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Marketplace Minis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    More resources
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            More resources
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/biz/select-offer-type" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🌐 Choose your offer type
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aka.ms/MTMwebinars" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🖥️ Live webinars
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/misc/accelerators" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ⚙️ Technical Accelerators
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/misc/playbooks" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    📙 Marketplace playbooks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/learning-paths/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🚦 Learning paths
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/misc/change-log" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🗒️ Site change log
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://forms.office.com/r/0gCrzhSMkw" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ✉️ Contact us
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#managed-applications-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managed Applications overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#billing-and-pricing-for-azure-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      Billing and pricing for Azure Applications
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managed-application-deployment-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managed Application deployment options
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purchasing-an-azure-application-the-customer-experience" class="md-nav__link">
+    <span class="md-ellipsis">
+      Purchasing an Azure Application: The customer experience
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managing-my-managed-applications-the-customer-experience" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing my Managed Applications: The customer experience
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#administering-customer-subscriptions-the-publisher-experience" class="md-nav__link">
+    <span class="md-ellipsis">
+      Administering customer subscriptions: The publisher experience
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-deployment-package" class="md-nav__link">
+    <span class="md-ellipsis">
+      The deployment package
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-createuidefinitionjson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Working with createUiDefinition.json
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-maintemplatejson" class="md-nav__link">
+    <span class="md-ellipsis">
+      Working with mainTemplate.json
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#managed-applications-webhook" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managed Applications webhook
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metered-billing-technical-details" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metered billing technical details
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploying-a-custom-virtual-machine-offer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying a custom virtual machine offer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hands-on-labs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hands-on labs
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Mastering Managed Application Offers</h1>
+
+<p>This course details the Managed Application offer-building and onboarding process. It consists of on-demand video modules, slides, and practical <a href="#hands-on-labs">hands-on labs</a> to apply your newly acquired knowledge.</p>
+<!-- no toc -->
+<ol>
+<li><a href="#managed-applications-overview">Managed Applications overview</a></li>
+<li><a href="#billing-and-pricing-for-azure-applications">Billing and pricing for Azure Applications</a></li>
+<li><a href="#managed-application-deployment-options">Managed Application deployment options</a></li>
+<li><a href="#purchasing-an-azure-application-the-customer-experience">Purchasing an Azure Application: The customer experience</a></li>
+<li><a href="#managing-my-managed-applications-the-customer-experience">Managing my Managed Applications: The customer experience</a></li>
+<li><a href="#administering-customer-subscriptions-the-publisher-experience">Administering customer subscriptions: The publisher experience</a></li>
+<li><a href="#the-deployment-package">The deployment package</a></li>
+<li><a href="#working-with-createuidefinitionjson">Working with createUiDefinition.json</a></li>
+<li><a href="#working-with-maintemplatejson">Working with mainTemplate.json</a></li>
+<li><a href="#managed-applications-webhook">Managed Applications webhook</a></li>
+<li><a href="#metered-billing-technical-details">Metered billing technical details</a></li>
+<li><a href="#deploying-a-custom-virtual-machine-offer">Deploying a custom virtual machine offer</a></li>
+<li><a href="#hands-on-labs">Hands-on labs</a></li>
+</ol>
+<hr />
+<h2 id="managed-applications-overview">Managed Applications overview<a class="headerlink" href="#managed-applications-overview" title="Permanent link">#</a></h2>
+<p><a href="https://aka.ms/AAmighb" target="_blank">Video</a> | <a href="./pdfs/02.0-ma-overview.pdf" target="_blank">PDF</a></p>
+<p>This module introduces Azure Applications and Managed Applications at a high level. It also covers the difference between private and public Managed Applications. If you are looking to understand the basic value proposition and architecture of Managed Applications this video is for you.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=jIIDRnj7XsY&t=0s" target="_blank">00:00 – Overview</a></li>
+<li><a href="https://www.youtube.com/watch?v=jIIDRnj7XsY&t=48s" target="_blank">00:48 – Azure Applications in a nutshell</a></li>
+<li><a href="https://www.youtube.com/watch?v=jIIDRnj7XsY&t=167s" target="_blank">02:47 – Managed Applications overview</a></li>
+<li><a href="https://www.youtube.com/watch?v=jIIDRnj7XsY&t=547s" target="_blank">09:07 – Managed Applications in the Azure Marketplace</a></li>
+<li><a href="https://www.youtube.com/watch?v=jIIDRnj7XsY&t=774s" target="_blank">12:54 - Summary</a></li>
+</ul>
+<h2 id="billing-and-pricing-for-azure-applications">Billing and pricing for Azure Applications<a class="headerlink" href="#billing-and-pricing-for-azure-applications" title="Permanent link">#</a></h2>
+<p><a href="https://aka.ms/AAr3a3w" target="_blank">Video</a></p>
+<p>Azure Applications provide for charging customers for your software solution and for any maintenance services you provide. Accordingly, configuring billing and pricing for Azure Applications isn’t always intuitive.</p>
+<p>This video walks through the options for charging customers provided by Azure Applications, both Solution Template and Managed Application offers. After viewing this video, you’ll understand how to configure pricing for your solution.</p>
+<h2 id="managed-application-deployment-options">Managed Application deployment options<a class="headerlink" href="#managed-application-deployment-options" title="Permanent link">#</a></h2>
+<p><a href="https://aka.ms/AAmi8te" target="_blank">Video</a> | <a href="./pdfs/03.0-ma-deployment-options.pdf" target="_blank">PDF</a></p>
+<p>This module examines the different deployment modes for Managed Applications. Managed Apps may be configured in different ways for both publisher and customer access to the Managed Resource Group. Use this video to learn the implications of this and choose the right deployment mode for your application.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=oURBQITPzsU&t=0s" target="_blank">00:00 – Overview</a></li>
+<li><a href="https://www.youtube.com/watch?v=oURBQITPzsU&t=51s" target="_blank">00:51 – Publisher management</a></li>
+<li><a href="https://www.youtube.com/watch?v=oURBQITPzsU&t=227s" target="_blank">03:47 – Customer access</a></li>
+<li><a href="https://www.youtube.com/watch?v=oURBQITPzsU&t=351s" target="_blank">05:51 – Deployment modes</a></li>
+<li><a href="https://www.youtube.com/watch?v=oURBQITPzsU&t=536s" target="_blank">08:56 – Summary</a></li>
+</ul>
+<h2 id="purchasing-an-azure-application-the-customer-experience">Purchasing an Azure Application: The customer experience<a class="headerlink" href="#purchasing-an-azure-application-the-customer-experience" title="Permanent link">#</a></h2>
+<p><a href="https://aka.ms/AAmi12a" target="_blank">Video</a></p>
+<p>In this demo-heavy module customers will learn how to manage their subscriptions to Managed Applications and get an idea of the capabilities a customer has when accessing the Managed Resource Group associated with each Managed Application.</p>
+<h2 id="managing-my-managed-applications-the-customer-experience">Managing my Managed Applications: The customer experience<a class="headerlink" href="#managing-my-managed-applications-the-customer-experience" title="Permanent link">#</a></h2>
+<p><a href="https://aka.ms/AAmi12d" target="_blank">Video</a></p>
+<p>This demo-only video shows customers how to administer their Managed Application purchases. It also examines customer access to the associated Managed Resource Groups.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=CD2K2gNCfno&t=0s" target="_blank">00:00 – Overview</a></li>
+<li><a href="https://www.youtube.com/watch?v=CD2K2gNCfno&t=56s" target="_blank">00:56 – The Managed Application dashboard in the Azure portal</a></li>
+<li><a href="https://www.youtube.com/watch?v=CD2K2gNCfno&t=278s" target="_blank">04:38 – Managed Resource Group access</a></li>
+<li><a href="https://www.youtube.com/watch?v=CD2K2gNCfno&t=387s" target="_blank">06:27 – Summary</a></li>
+</ul>
+<h2 id="administering-customer-subscriptions-the-publisher-experience">Administering customer subscriptions: The publisher experience<a class="headerlink" href="#administering-customer-subscriptions-the-publisher-experience" title="Permanent link">#</a></h2>
+<p><a href="https://aka.ms/AAmi8tk" target="_blank">Video</a></p>
+<p>This quick demo shows how a publisher can use the Managed Applications center service in the Azure portal to administer the solution inside a customer’s Managed Resource Group.</p>
+<h2 id="the-deployment-package">The deployment package<a class="headerlink" href="#the-deployment-package" title="Permanent link">#</a></h2>
+<p><a href="https://aka.ms/AAmi8tm" target="_blank">Video</a> | <a href="./pdfs/07.0-ma-deployment-package.pdf" target="_blank">PDF</a></p>
+<p>Get an overview of the deployment package required for all Managed Applications. This module covers the deployment package format and provides a high-level look at the contents of the file. Future modules of this course focus on the individual files found in the deployment package.</p>
+<h2 id="working-with-createuidefinitionjson">Working with createUiDefinition.json<a class="headerlink" href="#working-with-createuidefinitionjson" title="Permanent link">#</a></h2>
+<p><a href="https://aka.ms/AAmi8tr" target="_blank">Video</a> | <a href="./pdfs/08.0-ma-createuidefinition.pdf" target="_blank">PDF</a></p>
+<p>Dive deep into the createUiDefinition.json file and learn how to develop a useful and compelling user experience for customer deployments. This module shows the structure and usage of the createUiDefinition.json file as well as providing some great tips on working with this file.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=y00DmZLy374&t=0s" target="_blank">00:00 - Overview</a></li>
+<li><a href="https://www.youtube.com/watch?v=y00DmZLy374&t=51s" target="_blank">00:51 – CreateUiDefinition overview</a></li>
+<li><a href="https://www.youtube.com/watch?v=y00DmZLy374&t=382s" target="_blank">06:22 – Demo: createUiDefinition.json walkthrough</a></li>
+<li><a href="https://www.youtube.com/watch?v=y00DmZLy374&t=620s" target="_blank">10:20 – Demo: The development sandbox</a></li>
+<li><a href="https://www.youtube.com/watch?v=y00DmZLy374&t=847s" target="_blank">14:07 – Demo: Dynamic elements</a></li>
+<li><a href="https://www.youtube.com/watch?v=y00DmZLy374&t=1092s" target="_blank">18:12 – Summary</a></li>
+</ul>
+<h2 id="working-with-maintemplatejson">Working with mainTemplate.json<a class="headerlink" href="#working-with-maintemplatejson" title="Permanent link">#</a></h2>
+<p><a href="https://aka.ms/AAmi12k" target="_blank">Video</a></p>
+<p>This demo-only module explores the ARM template required by Managed Applications in the deployment package. </p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=0n34R31oxjU&t=0s" target="_blank">00:00 – Overview</a></li>
+<li><a href="https://www.youtube.com/watch?v=0n34R31oxjU&t=61s" target="_blank">01:01 – ARM templates in Azure</a></li>
+<li><a href="https://www.youtube.com/watch?v=0n34R31oxjU&t=254s" target="_blank">04:14 – ARM template nomenclature</a></li>
+<li><a href="https://www.youtube.com/watch?v=0n34R31oxjU&t=392s" target="_blank">06:32 – Testing with ARM-TTK</a></li>
+<li><a href="https://www.youtube.com/watch?v=0n34R31oxjU&t=703s" target="_blank">11:43 – Summary</a></li>
+</ul>
+<h2 id="managed-applications-webhook">Managed Applications webhook<a class="headerlink" href="#managed-applications-webhook" title="Permanent link">#</a></h2>
+<p><a href="https://aka.ms/AAmi12o" target="_blank">Video</a> | <a href="./pdfs/11.0-ma-webhook.pdf" target="_blank">PDF</a></p>
+<p>You may configure an optional webhook for Managed Applications that listens for events from the Azure Marketplace emitted during deployment of the application. This module offers and overview of the webhook as well as a complete demo on how it works.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=TdiruxQMNpk&t=0s" target="_blank">00:00 - Overview</a></li>
+<li><a href="https://www.youtube.com/watch?v=TdiruxQMNpk&t=46s" target="_blank">00:46 - Webhook overview</a></li>
+<li><a href="https://www.youtube.com/watch?v=TdiruxQMNpk&t=430s" target="_blank">07:10 - Webhook demo scenario</a></li>
+<li><a href="https://www.youtube.com/watch?v=TdiruxQMNpk&t=501s" target="_blank">08:21 - Demo: Partner Center configuration</a></li>
+<li><a href="https://www.youtube.com/watch?v=TdiruxQMNpk&t=555s" target="_blank">09:15 - Demo: Customer purchase process</a></li>
+<li><a href="https://www.youtube.com/watch?v=TdiruxQMNpk&t=656s" target="_blank">10:56 - Demo: Inspecting the webhook payload</a></li>
+<li><a href="https://www.youtube.com/watch?v=TdiruxQMNpk&t=730s" target="_blank">12:10 - Summary</a></li>
+</ul>
+<h2 id="metered-billing-technical-details">Metered billing technical details<a class="headerlink" href="#metered-billing-technical-details" title="Permanent link">#</a></h2>
+<p><a href="https://aka.ms/AAmn5s6" target="_blank">Video</a> | <a href="./pdfs/12.2-ma-metered-billing-technical.pdf" target="_blank">PDF</a></p>
+<p>In this module, you’ll learn about the technical aspects of calling the metered billing API. This includes different architectures for creating your reporting system as well as a demo showing the API being called to invoke usage events.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=0s" target="_blank">00:00 – Overview</a></li>
+<li><a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=60s" target="_blank">01:00 – Direct reporting</a></li>
+<li><a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=119s" target="_blank">01:59 – Centralized reporting</a></li>
+<li><a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=232s" target="_blank">03:52 – Working with the metered billing API</a></li>
+<li><a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=372s" target="_blank">06:12 – Demo: Working with the metered billing API</a></li>
+<li><a href="https://www.youtube.com/watch?v=4uFS5v6eLM0&t=709s" target="_blank">11:49 – Summary</a></li>
+</ul>
+<h2 id="deploying-a-custom-virtual-machine-offer">Deploying a custom virtual machine offer<a class="headerlink" href="#deploying-a-custom-virtual-machine-offer" title="Permanent link">#</a></h2>
+<p><a href="https://aka.ms/AAmzczc" target="_blank">Video</a> | <a href="./code/14.0-ma-deploy-custom-vm.zip">Code</a></p>
+<p>This demo-heavy module takes you through the process of deploying a custom virtual machine with a Managed Application. You’ll see all the steps involved including configuring things in Partner Center and how to author the deployment package files. Notice the code used in this module is available for download above.</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=0s" target="_blank">00:00 – Overview</a></li>
+<li><a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=48s" target="_blank">00:48 – Scenario overview</a></li>
+<li><a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=229s" target="_blank">03:49 – The custom VM offer in Partner Center – Demo</a></li>
+<li><a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=428s" target="_blank">07:08 – The deployment package – Demo</a></li>
+<li><a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=731s" target="_blank">12:11 – The deployment process – Demo</a></li>
+<li><a href="https://www.youtube.com/watch?v=-uuulKPRFpo&t=906s" target="_blank">15:06 – Summary</a></li>
+</ul>
+<hr />
+<h2 id="hands-on-labs">Hands-on labs<a class="headerlink" href="#hands-on-labs" title="Permanent link">#</a></h2>
+<p>To perform the hands-on labs, visit <a href="https://github.com/Azure/mtm-labs">this GitHub repository</a>, which is home to the Mastering the Marketplace labs.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        ﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="col-1">
+                <hr>
+                <p class="site-footer__copyright">Copyright &copy; 2024. - Microsoft, Inc. <br>All rights reserved.</p>
+
+            </div><!-- /.col -->
+            <div class="col-2">
+                <img alt="Microsoft Azure logo." src="/Mastering-the-Marketplace/assets/logo-footer.png" class="site-footer__logoimage">
+            </div><!-- /.col -->
+        </div>
+    </footer><!-- /.site-footer -->
+
+</body>
+</html>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.expand"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
+</html>
