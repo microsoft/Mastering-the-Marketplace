@@ -83,7 +83,7 @@ This demo takes you through the process of an ISV creating a private offer for s
 
 ### Overview of CSP partner private offer for ISVs
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196414">Video</a> | [PDF](./pdfs/2.0-csp-private-offer-overview.pdf)
+<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196414">Video</a>
 
 Learn about private offers for Cloud Solution Providers in this overview of the capability in Partner Center.
 
