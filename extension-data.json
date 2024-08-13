@@ -35,7 +35,7 @@
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
         "target_title": "Offer Selection",
         "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
-        "jquery_selector": "foo",
+        "jquery_selector": "#create-new-button",
         "content_type": "diagram",
         "event": "load"
       },
