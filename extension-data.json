@@ -33,6 +33,14 @@
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
+        "target_title": "Offer Selection",
+        "target_url": "https://microsoft.github.io/Mastering-the-Marketplace/biz/assets/0.03-choose-offer-type.png",
+        "jquery_selector": "foo",
+        "content_type": "diagram",
+        "event": "load"
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
         "target_title": "Mastering the SaaS Accelerator (full course)",
         "target_url": "https://partner.microsoft.com/en-us/training/assets/collection/mastering-the-saas-accelerator#/",
         "content_type": "link",
@@ -76,7 +84,6 @@
         "content_type": "audio",
         "jquery_selector": ""
       },
-
       {
         "page_url": "https://github",
         "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
@@ -99,6 +106,22 @@
         "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
         "jquery_selector": "foo",
         "content_type": "link",
+        "event": "load"
+      },
+      {
+        "page_url": "https://github.com",
+        "target_title": "GitHub content 2",
+        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+        "jquery_selector": "foo",
+        "content_type": "diagram",
+        "event": "load"
+      },
+      {
+        "page_url": "https://github.com",
+        "target_title": "GitHub content 2",
+        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
+        "jquery_selector": "foo",
+        "content_type": "tool",
         "event": "load"
       }
     ],
