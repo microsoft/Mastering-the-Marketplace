@@ -14,10 +14,10 @@ buttons:
       external_url: true
 
 grid_navigation:
-    - title: Build Custom SaaS offers
+    - title: Build Custom SaaS offers 9for developers)
       excerpt: How to build your own SaaS solution for the Azure Marketplace
       cta: Take me to it
-      url: '/saas'
+      url: 'https://aka.ms/MasteringTheMarketplace/saasdev'
     - title: The SaaS Accelerator
       excerpt: The SaaS Accelerator is a turn key reference implementation of a SaaS offer. Install in 20 minutes!
       cta: Take me to it

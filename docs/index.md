@@ -36,16 +36,21 @@ The included decision tree and supporting video will help you understand the dif
 <span class="linkless-heading">Mastering Partner Center</span>
 Partner Center is the web portal used to create and publish offers. Learn more about Partner Center in this ever-expanding multi-part course on how to use the portal to publish offers.
 
-[Take me to it](/Mastering-the-Marketplace/partner-center){ .md-button }
+[Take me to it](https://aka.ms/MasteringTheMarketplace/pc){ .md-button }
 </div>
-
-
 
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">Mastering SaaS offers</span>
-This comprehensive content takes you through all you need to get a SaaS offer up and running. From landing pages to webhooks, the technical course will help you get your SaaS offer up and running in days instead of weeks. 
+Get started creating, publishing, and purchasing SaaS offers in the marketplace. This course is appropriate for anyone interested in SaaS offers..
 
-[Take me to it](/Mastering-the-Marketplace/saas){ .md-button }
+[Take me to it](https://aka.ms/MasteringTheMarketplace/saas){ .md-button }
+</div>
+
+<div class="landing-tile" markdown="1">
+ <span class="linkless-heading">Mastering SaaS offers (for developers)</span>
+This comprehensive technical content takes you through all you need to get a SaaS offer up and running. From landing pages to webhooks, the technical course will help you get your SaaS offer up and running in days instead of weeks.
+
+[Take me to it](https://aka.ms/MasteringTheMarketplace/saasdev){ .md-button }
 </div>
 
 <div class="landing-tile" markdown="1">
@@ -59,7 +64,7 @@ Instead of building your own custom SaaS solution, consider using the SaaS Accel
   <span class="linkless-heading">Mastering Managed Applications offers</span>
 With a powerful ARM based deployment model, Azure Managed Applications are popular among those who want to deploy resources into the customer's environment, but still maintain control of those resources.
 
-[Take me to it](/Mastering-the-Marketplace/ama){ .md-button }
+[Take me to it](https://aka.ms/MasteringTheMarketplace/ama){ .md-button }
 </div>
 
 <div class="landing-tile" markdown="1">
@@ -69,7 +74,7 @@ Virtual machines are a popular way to deliver solutions to customers. Learn how 
 
 You'll learn everything from how to package your solution to how to make it available on the Azure marketplace.
 
-[Take me to it](/Mastering-the-Marketplace/vm){ .md-button }
+[Take me to it](https://aka.ms/MasteringTheMarketplace/vm){ .md-button }
 </div>
 
 <div class="landing-tile" markdown="1">
@@ -79,5 +84,5 @@ Do you want to deliver your software solution in containers that can run on your
 
 Learn how in this demo-heavy technical course taht takes you step-by-step through the process.
 
-[Take me to it](/Mastering-the-Marketplace/container){ .md-button }
+[Take me to it](https://aka.ms/MasteringTheMarketplace/container){ .md-button }
 </div>
