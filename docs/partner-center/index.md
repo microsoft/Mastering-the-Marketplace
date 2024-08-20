@@ -15,7 +15,7 @@ hide:
 The modules on this page cover a variety of topics related to Partner Center. 
 The content here addresses the most commonly asked questions about the portal.
 
-**[Creating offers in Partner Center](#creating-offers-in-partner-center)**
+**Creating offers in Partner Center**
 
 <!-- no toc -->
 1. [Providing information common to all offer types in Partner Center](#providing-information-common-to-all-offer-types-in-partner-center)
@@ -27,19 +27,6 @@ The content here addresses the most commonly asked questions about the portal.
 1. [Handling multiple currencies for different markets](#handling-multiple-currencies-for-different-markets)
 1. [Creating VM offers in Partner Center](#creating-vm-offers-in-partner-center)
 1. [Creating Managed Application offers in Partner Center](#creating-managed-application-offers-in-partner-center)
-
-**[Reporting and insights in Partner Center](#reporting-and-insights-in-partner-center)**
-
-<!-- no toc -->
-1. [Commercial marketplace reporting in Partner Center](#commercial-marketplace-reporting-in-partner-center)
-1. [Marketplace insights dashboard in commercial marketplace analytics](#marketplace-insights-dashboard-in-commercial-marketplace-analytics)
-1. [Orders dashboard in commercial marketplace analytics](#orders-dashboard-in-commercial-marketplace-analytics)
-1. [Reporting and insights for multi-year SaaS offers](#reporting-and-insights-for-multi-year-saas-offers)
-1. [Programmatic access to reporting and insights](#programmatic-access-to-reporting-and-insights)
-
-**All about Private Offers**
-
-> Private offers are a Partner Center topic unto themselves and a full course on [Private Offers may be found here](./private-offers.md).
 
 ---
 
@@ -133,67 +120,3 @@ When working in Partner Center to set up a new Managed Application offer, there 
 - 10:53 - <a target="_blank" href="https://www.youtube.com/watch?v=UnVw0CYveRE&t=653s">Technical configuration</a>
 - 12:30 - <a target="_blank" href="https://www.youtube.com/watch?v=UnVw0CYveRE&t=750s">Plan overview</a>
 - 27:39 - <a target="_blank" href="https://www.youtube.com/watch?v=UnVw0CYveRE&t=1659s">Summary</a>
-
-## Reporting and insights in Partner Center
-
-### Commercial marketplace reporting in Partner Center
-
-<a target="_blank" href="https://aka.ms/AAq2k43">Video</a>
-
-This video walks through how to use the Summary dashboard in commercial marketplace analytics to understand the performance of published marketplace offers through graphs, trends, aggregate data.
-
-Subsequent videos in the Partner Center course will cover the other dashboards and reports available.
-
-- 00:00 – <a target="_blank" href="https://www.youtube.com/watch?v=16bZkqCqw5o&t=0s">Overview</a>
-- 00:57 - <a target="_blank" href="https://www.youtube.com/watch?v=16bZkqCqw5o&t=57s">Commercial marketplace analytics</a>
-- 02:21 - <a target="_blank" href="https://www.youtube.com/watch?v=16bZkqCqw5o&t=141s">Common dashboard elements</a>
-- 04:07 - <a target="_blank" href="https://www.youtube.com/watch?v=16bZkqCqw5o&t=247s">Introducing the Summary dashboard</a>
-- 05:00 - <a target="_blank" href="https://www.youtube.com/watch?v=16bZkqCqw5o&t=300s">Summary dashboard widgets tour</a>
-- 08:36 – <a target="_blank" href="https://www.youtube.com/watch?v=16bZkqCqw5o&t=516s">Summary</a>
-
-### Marketplace insights dashboard in commercial marketplace analytics
-
-<a target="_blank" href="https://aka.ms/AAqh2po">Video</a>
-
-Wondering about the functionality of the Marketplace Insights dashboard and how it works? In this module, we 
-provide an overview of the Marketplace insights dashboard in Commercial Marketplace Analytics in Partner Center.
-
-- <a target="_blank" href="https://www.youtube.com/watch?v=T8QezW8amNI&t=0s">0:00 – Overview
-- <a target="_blank" href="https://www.youtube.com/watch?v=T8QezW8amNI&t=55s">0:55 – Introduction to the Marketplace Insights dashboard
-- <a target="_blank" href="https://www.youtube.com/watch?v=T8QezW8amNI&t=116s">1:56 – Common dashboard elements
-- <a target="_blank" href="https://www.youtube.com/watch?v=T8QezW8amNI&t=201s">3:21 – Marketplace Insights dashboard widget tour
-- <a target="_blank" href="https://www.youtube.com/watch?v=T8QezW8amNI&t=318s">5:18 – Summary</a>
-
-### Orders dashboard in commercial marketplace analytics
-
-<a target="_blank" href="https://aka.ms/AAqvx42">Video</a>
-
-The Orders dashboard in the Orders dashboard in Commercial Marketplace Analytics in Partner Center provides insights into subscription trends and orders by offers.
-
-This video takes you through the Orders dashboard and how to use it effectively.
-
-- <a target="_blank" href="https://www.youtube.com/watch?v=0sHNNN7zMvc&t=0s">0:00 – Overview</a>
-- <a target="_blank" href="https://www.youtube.com/watch?v=0sHNNN7zMvc&t=32s">0:32 – Introduction to the Orders dashboard</a>
-- <a target="_blank" href="https://www.youtube.com/watch?v=0sHNNN7zMvc&t=81s">1:21 – Common dashboard elements</a>
-- <a target="_blank" href="https://www.youtube.com/watch?v=0sHNNN7zMvc&t=198s">3:18 - Orders dashboard widget tour</a>
-- <a target="_blank" href="https://www.youtube.com/watch?v=0sHNNN7zMvc&t=380s">6:20 – Summary</a>
-
-### Reporting and insights for multi-year SaaS offers
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2215839">Video</a>
-
-This module walks through reporting for multi-year SaaS and the reporting widgets available that display information about subscriptions, orders and pricing models including growth trends over time.
-
-Additionally, various downloadable formats including CSV and PDFs for detailed reporting are explained in detail.
-
-### Programmatic access to reporting and insights
-
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2223619">Video</a> | [PDF](./pdfs/03.6-programmatic-access-to-reporting-and-insights.pdf)
-
-This technical module demonstrates how to work with Partner Center reports and insights using the Partner Center API. This video shows technical details of working with the Partner Center API and is intended for technologists interested in automating marketplace reporting.
-
-- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=0s">00:00</a> – Overview
-- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=49s">00:49</a> – Prerequisites
-- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=149s">02:29</a> – Demo
-- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=680s">11:20</a> – Commercial marketplace documentation
-- <a target="_blank" href="https://www.youtube.com/watch?v=-YEy5VBsSdk&t=732s">12:12</a> – Summary
