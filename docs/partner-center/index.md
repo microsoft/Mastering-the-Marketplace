@@ -15,17 +15,6 @@ hide:
 The modules on this page cover a variety of topics related to Partner Center. 
 The content here addresses the most commonly asked questions about the portal.
 
-
-**[Partner Center general topics](#partner-center-general-topics)**
-
-<!-- no toc -->
-1. [Getting started with Partner Center](#getting-started-with-partner-center)
-1. [Navigating Partner Center accounts and identifiers](#navigating-partner-center-accounts-and-identifiers)
-1. [Verifying account details in Partner Center](#verifying-account-details-in-partner-center)
-1. [Setting up a tax profile in Partner Center](#setting-up-a-tax-profile-in-partner-center)
-1. [Setting up a payout profile in Partner Center](#setting-up-a-payout-profile-in-partner-center)
-1. [Role based access control in Partner Center](#role-based-access-control-in-partner-center)
-
 **[Creating offers in Partner Center](#creating-offers-in-partner-center)**
 
 <!-- no toc -->
@@ -53,91 +42,6 @@ The content here addresses the most commonly asked questions about the portal.
 > Private offers are a Partner Center topic unto themselves and a full course on [Private Offers may be found here](./private-offers.md).
 
 ---
-
-## Partner Center general topics
-
-### Getting started with Partner Center
-
-<a target="_blank" href="https://aka.ms/AAofj3k">Video</a>
-
-The first thing a marketplace publisher must do is register as a Microsoft partner and join the Commercial Marketplace program. This provides access to Partner Center, where partners work to publish their marketplace offers.
-
-This module shows the most common partner registration flow along with the first steps partners will take in Partner Center to ensure it is set up appropriately.
-
-- <a target="_blank" href="https://www.youtube.com/watch?v=xIrWNK055Bc">00:00 – Overview</a>
-- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=62">01:02 – Becoming a partner</a>
-- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=117">01:57 – Partner Center</a>
-- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=257">04:17 – The commercial marketplace program</a>
-- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=317">05:17 – Adding Partner Center users</a>
-- <a target="_blank" href="https://youtu.be/xIrWNK055Bc?t=410">06:48 – Summary</a>
-
-### Navigating Partner Center accounts and identifiers
-
-<a target="_blank" href="https://aka.ms/AAnlvrh">Video</a> | [PDF](./pdfs/05-pc-ids.pdf)
-
-Setting up and configuring Partner Center to best serve your organization’s needs is paramount to a good experience in the portal and ongoing involvement in the marketplace program. This module covers scenarios of interest to organizations configuring their Partner Center accounts or looking for identifiers in Partner Center commonly used in account management and support scenarios.
-
-Understand PartnerOne accounts and identities, publishers and their associated IDs, and more.
-
-### Verifying account details in Partner Center
-
-<a target="_blank" href="https://aka.ms/AAq3uyh">Video</a>
-
-When you enroll in a new Partner program in Partner Center, or change legal details in your profile, Microsoft verifies the information you provide is true and accurate. 
-
-This video provides an overview of account verification in Partner Center and guidance on how to resolve some common issues that arise during account verification.
-
-- 00:00 - <a target="_blank" href="https://www.youtube.com/watch?v=8SDVYjDbffY&t=0s">Overview</a>
-- 00:48 – <a target="_blank" href="https://www.youtube.com/watch?v=8SDVYjDbffY&t=48s">Introducing account verification</a>
-- 03:14 – <a target="_blank" href="https://www.youtube.com/watch?v=8SDVYjDbffY&t=194s">Check account verification status</a>
-- 05:17 - <a target="_blank" href="https://www.youtube.com/watch?v=8SDVYjDbffY&t=317s">Email ownership verification</a>
-- 06:58 – <a target="_blank" href="https://www.youtube.com/watch?v=8SDVYjDbffY&t=418s">Appeal a rejected application</a>
-- 09:43 – <a target="_blank" href="https://www.youtube.com/watch?v=8SDVYjDbffY&t=583s">Suggestions for resolving common issues</a>
-- 12:02 – <a target="_blank" href="https://www.youtube.com/watch?v=8SDVYjDbffY&t=722s">Summary</a>
-
-### Setting up a tax profile in Partner Center
-
-<a target="_blank" href="https://aka.ms/AAq3uyj">Video</a>
-
-In this module, we cover how to setup a tax profile in Partner Center for the Commercial Marketplace program and discuss how to resolve common issues that may arise.
-
-- 0:00 – <a target="_blank" href="https://www.youtube.com/watch?v=V3MJfE2wb1Y&t=0s">Overview</a>
-- 1:07 – <a target="_blank" href="https://www.youtube.com/watch?v=V3MJfE2wb1Y&t=61s">Introduction to tax profiles</a>
-- 2:22 – <a target="_blank" href="https://www.youtube.com/watch?v=V3MJfE2wb1Y&t=114s">Setting up a tax profile</a>
-- 5:30 – <a target="_blank" href="https://www.youtube.com/watch?v=V3MJfE2wb1Y&t=350s">Suggestions for resolving common issues</a>
-- 7:25 – <a target="_blank" href="https://www.youtube.com/watch?v=V3MJfE2wb1Y&t=466s">Summary</a>
-
-
-### Setting up a payout profile in Partner Center
-
-<a target="_blank" href="https://aka.ms/AAq2crn">Video</a>
-
-In this module, we cover how to setup a payout profile in Partner Center for the Commercial Marketplace program and discuss how to resolve common issues that may arise.
-
-- 00:00 – <a target="_blank" href="https://www.youtube.com/watch?v=aFQilqWhYCc&t=0s">Overview</a>
-- 00:58 – <a target="_blank" href="https://www.youtube.com/watch?v=aFQilqWhYCc&t=38s">Introduction to payout profiles</a>
-- 02:32 – <a target="_blank" href="https://www.youtube.com/watch?v=aFQilqWhYCc&t=115s">Setting up a payout profile</a>
-- 05:52 – <a target="_blank" href="https://www.youtube.com/watch?v=aFQilqWhYCc&t=321s">Suggestions for resolving common issues</a>
-- 07:07 – <a target="_blank" href="https://www.youtube.com/watch?v=aFQilqWhYCc&t=376s">Summary</a>
-
-### Role based access control in Partner Center
-
-<a target="_blank" href="https://aka.ms/AApbiyy">Video</a> | [PDF](./pdfs/08-role-based-access-control-in-partner-center.pdf)
-
-This video provides a comprehensive overview of how role-based access control (RBAC) functions within Partner Center including the fundamental concepts of RBAC, detailing how permissions are assigned to different roles within Partner Center to regulate access to resources as well as common RBAC scenarios to easily guide partners with assigning appropriate roles.
-
-- [00:00 – Overview](https://www.youtube.com/watch?v=iADm0LQYowI&t=0s)
-- [00:37 – Role based access control](https://www.youtube.com/watch?v=iADm0LQYowI&t=37s)
-- [04:47 – Common RBAC Scenarios](https://www.youtube.com/watch?v=iADm0LQYowI&t=287s)
-- [04:51 – Add or update owner](https://www.youtube.com/watch?v=iADm0LQYowI&t=291s)
-- [05:28 – Account verification in partner center](https://www.youtube.com/watch?v=iADm0LQYowI&t=328s)
-- [06:03 – Enroll into new developer programs](https://www.youtube.com/watch?v=iADm0LQYowI&t=363s)
-- [06:30 – Create marketplace offers](https://www.youtube.com/watch?v=iADm0LQYowI&t=390s)
-- [07:07 – Manage referrals](https://www.youtube.com/watch?v=iADm0LQYowI&t=427s)
-- [07:20 – Marketplace insights](https://www.youtube.com/watch?v=iADm0LQYowI&t=440s)
-- [07:38 – Manage payout and tax profiles](https://www.youtube.com/watch?v=iADm0LQYowI&t=458s)
-- [07:56 – View payout reports and earnings](https://www.youtube.com/watch?v=iADm0LQYowI&t=476s)
-- [08:06 – Summary](https://www.youtube.com/watch?v=iADm0LQYowI&t=486s)
 
 ## Creating offers in Partner Center
 

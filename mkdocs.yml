@@ -13,10 +13,14 @@ nav:
   - Managed Applications: 'https://aka.ms/MasteringTheMarketplace/ama'
   - Virtual Machines: 'https://aka.ms/MasteringTheMarketplace/vm'
   - Container offers for K8s apps: 'https://aka.ms/MasteringTheMarketplace/container'
-  - Partner Center: 'https://aka.ms/MasteringTheMarketplace/pc'
+  
+  - Partner Center:
+    - Private offers: 'https://aka.ms/MasteringTheMarketplace/po'
+    - General topics: 'https://aka.ms/MasteringTheMarketplace/pc'
+    - Creating offers: '/Mastering-the-Marketplace/partner-center/#creating-offers-in-partner-center'
+    - Reporting and insights: '/Mastering-the-Marketplace/partner-center/#reporting-and-insights-in-partner-center'
 
   - Bonus content:
-    - Private offers: 'https://aka.ms/MasteringTheMarketplace/po'
     - Doing business in the marketplace: '/Mastering-the-Marketplace/biz'
     - For customers: '/Mastering-the-Marketplace/learning-paths/customer'
     - Marketplace Minis: '/Mastering-the-Marketplace/misc/marketplace-minis'
