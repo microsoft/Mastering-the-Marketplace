@@ -170,6 +170,7 @@ footer .container .col-2 img{
     align-items:end;
 }
 
-.md-nav__title{
-    display: none;
+.md-nav__link {
+    color: #0078D4;
 }
+
