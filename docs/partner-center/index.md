@@ -12,12 +12,34 @@ hide:
   - toc
 ---
 
-Partner Center content is now hosted on the Microsoft partner site.
+<div class="sub-page-tile" markdown="1">
+  <span class="linkless-heading">Partner Center general topics</span>
+  For anyone who wants to use Partner Center to create and publish offers in the marketplace.
 
-Find Partner Center courses at the links below.
+[Take me to it](/Mastering-the-Marketplace/partner-center/pc-general){ .md-button }
+</div>
 
-- [Partner Center general topics](https://aka.ms/MasteringTheMarketplace/pc)
-- [Creating offers in Partner Center](https://partner.microsoft.com/en-US/asset/collection/creating-marketplace-offers-in-partner-center#/)
-- [Partner Center reporting and insights](https://partner.microsoft.com/en-US/asset/collection/partner-center-reporting-and-insights#/)
- 
-Additionally, here is a complete course on [Private Offers](https://aka.ms/MasteringTheMarketplace/po).
+<div class="sub-page-tile" markdown="1">
+  <span class="linkless-heading">Private Offers</span>
+  
+  What you need to know tabout creating and effectively using marketplace Private Offers.
+
+[Take me to it](/Mastering-the-Marketplace/partner-center/private-offers){ .md-button }
+</div>
+
+<div class="sub-page-tile" markdown="1">
+  <span class="linkless-heading">Creating new offers</span>
+  
+  See how to create different offer types in Partner Center.
+
+[Take me to it](/Mastering-the-Marketplace/partner-center/pc-create-offers){ .md-button }
+</div>
+
+
+<div class="sub-page-tile" markdown="1">
+  <span class="linkless-heading">Reporting and insights</span>
+  
+  Insights about your marketplace solutions, customers, and subscriptions in Partner Center.
+
+[Take me to it](/Mastering-the-Marketplace/partner-center/pc-insights){ .md-button }
+</div>
