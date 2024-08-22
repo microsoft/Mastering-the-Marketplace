@@ -4,7 +4,7 @@ layout: default
 keywords: Azure Marketplace Partner Center
 comments: false
 
-title: The business of marketplace
+title: Doing business in the marketplace
 
 hide:
   - toc
@@ -13,55 +13,74 @@ hide:
 description: This content focuses on the non-technical aspects of the marketplace including the business pf selling.
 ---
 
+This learning path covers topics that will be of interest to those who are considering selling their software solutions in the marketplace. 
+
+Topics include incentive programs, getting started with the marketplace, and how to choose the right offer type for your solution.
+
+---
+
 <!-- no toc -->
 1. [Azure Marketplace QuickStart](#azure-marketplace-quickstart)
 1. [What to expect in your marketplace selling journey](#what-to-expect-in-your-marketplace-selling-journey)
 1. [Marketplace incentive programs](#marketplace-incentive-programs)
-1. [Choosing your offer type](./select-offer-type.md)
+1. [Choosing your Azure Marketplace offer type](#choosing-your-azure-marketplace-offer-type)
 
 ---
 
 ## Azure Marketplace QuickStart
 
-<a target="_blank" href="https://www.youtube.com/watch?v=gHOPdN8pOkw">Video</a> | [PDF](./pdfs/01.0-amp-quickstart.pdf)
+<a target="_blank" href="https://partner.microsoft.com/en-us/training/assets/detail/microsoft-azure-marketplace-quickstart-mp4">Video</a> | [PDF](./pdfs/01.0-amp-quickstart.pdf)
 
 New to the Azure Marketplace? This video is for you!
 
-You’ll learn what the Azure Marketplace is as well as explore various aspects of buying and selling on the marketplace. This includes the various types of offers in the marketplace, the benefits you can take advantage of when transacting, and different ways to navigate through the experience.
+You’ll learn what the Azure Marketplace is as well as explore various aspects of buying and selling on the marketplace. 
 
-- [00:00](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=0s) - Overview 
-- [01:08](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=68s) - Azure Marketplace overview 
-- [04:57](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=297s) - Public offers 
-- [08:15](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=495s) - Private plans 
-- [10:36](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=636s) - Private offers 
-- [15:15](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=915s) - MACC eligible offers 
-- [17:13](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=1033s) - The Private Azure Marketplace 
-- [18:27](https://www.youtube.com/watch?v=gHOPdN8pOkw&t=1107s) - Summary
+This includes the various types of offers in the marketplace, the benefits you can take advantage of when transacting, and different ways to navigate through the experience.
+
+- Azure Marketplace overview 
+- Public offers 
+- Private plans 
+- Private offers 
+- MACC eligible offers 
+- The Private Azure Marketplace 
 
 
 ## What to expect in your marketplace selling journey
 
-<a target="_blank" href="https://aka.ms/AAotbdd">Video</a> | [PDF](./pdfs/03.0-marketplace-journey.pdf)
+<a target="_blank" href="https://partner.microsoft.com/en-us/training/assets/detail/what-to-expect-in-your-marketplace-selling-journey-mp4">Video</a> | [PDF](./pdfs/03.0-marketplace-journey.pdf)
 
-This module walks through the stages you will experience when selling your solution on the marketplace. If you are curious what the journey looks like for marketplace sellers, this content is for you.
+This module walks through the stages you will experience when selling your solution on the marketplace. 
 
-- [00:00 – Overview](https://www.youtube.com/watch?v=SkZTutcixKE&t=0s)
-- [00:55 - Partner Center setup](https://www.youtube.com/watch?v=SkZTutcixKE&t=55s)
-- [02:37 - Creating the offer](https://www.youtube.com/watch?v=SkZTutcixKE&t=157s)
-- [06:34 - Post-publish](https://www.youtube.com/watch?v=SkZTutcixKE&t=394s)
-- [08:15 - Summary and recap](https://www.youtube.com/watch?v=SkZTutcixKE&t=495s)
+If you are curious what the journey looks like for marketplace sellers, this content is for you.
+
+- Partner Center setup
+- Creating the offer
+- Post-publish
+
 
 ## Marketplace incentive programs
 
-<a target="_blank" href="https://aka.ms/AAn80hc">Video</a> | [PDF](./pdfs/02.1-marketplace-incentives.pdf)
+<a target="_blank" href="https://partner.microsoft.com/en-us/training/assets/detail/marketplace-incentive-programs-mp4">Video</a> | [PDF](./pdfs/02.1-marketplace-incentives.pdf)
 
-In this video, we dive deep into three incredible incentive programs offered by Microsoft Azure: Marketplace Rewards, Co-sell, and MACC (Microsoft Azure Consumption Commitment). Watch as we break down each program, providing you with a comprehensive understanding of how they work and how you can benefit from them.
+In this video, we dive deep into three incredible incentive programs offered by Microsoft Azure: Marketplace Rewards, Co-sell, and MACC (Microsoft Azure Consumption Commitment). 
 
-- [00:00 – Overview](https://www.youtube.com/watch?v=wUp7beFfYa4&t=0s)
-- [00:50 – Benefits of transactable offers](https://www.youtube.com/watch?v=wUp7beFfYa4&t=50s)
-- [03:28 – Marketplace rewards](https://www.youtube.com/watch?v=wUp7beFfYa4&t=208s)
-- [06:36 – Co-sell](https://www.youtube.com/watch?v=wUp7beFfYa4&t=396s)
-- [10:44 – Azure IP Co-sell](https://www.youtube.com/watch?v=wUp7beFfYa4&t=644s)
-- [13:33 – Microsoft Azure Consumption Commitment (MACC)](https://www.youtube.com/watch?v=wUp7beFfYa4&t=813s)
-- [15:51 – Summary ](https://www.youtube.com/watch?v=wUp7beFfYa4&t=951s)
-  
+Watch as we break down each program, providing you with a comprehensive understanding of how they work and how you can benefit from them.
+
+- Benefits of transactable offers
+- Marketplace rewards
+- Co-sell
+- Azure IP Co-sell
+- Microsoft Azure Consumption Commitment (MACC)
+
+## Choosing your Azure Marketplace offer type
+
+<a target="_blank" href="https://partner.microsoft.com/en-us/training/assets/detail/choosing-your-azure-marketplace-offer-type-mp4">Video</a>
+
+If you're deciding which offer type you'll be creating, this module is for you. 
+
+Primary considerations for choosing an offer type include deployment architectures and billing models. This video walks through these topics and others that relate to getting started.
+
+- SaaS offers
+- Virtual Machine offers
+- Container offers
+- Managed Application
