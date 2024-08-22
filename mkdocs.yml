@@ -7,8 +7,8 @@ extra_css:
     - stylesheets/extra.css
 
 nav:
-  - SaaS: 'https://aka.ms/MasteringTheMarketplace/saas'
-  - SaaS for developers: 'https://aka.ms/MasteringTheMarketplace/saasdev'
+  - SaaS: '/Mastering-the-Marketplace/saas/general-topics/'
+  - SaaS for developers: '/Mastering-the-Marketplace/saas/dev'
   - SaaS Accelerator: 'https://aka.ms/MasteringTheMarketplace/sa'
   - Managed Applications: 'https://aka.ms/MasteringTheMarketplace/ama'
   - Virtual Machines: 'https://aka.ms/MasteringTheMarketplace/vm'
