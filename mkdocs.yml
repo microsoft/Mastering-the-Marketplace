@@ -9,7 +9,7 @@ extra_css:
 nav:
   - SaaS: '/Mastering-the-Marketplace/saas/general-topics/'
   - SaaS for developers: '/Mastering-the-Marketplace/saas/dev'
-  - SaaS Accelerator: 'https://aka.ms/MasteringTheMarketplace/sa'
+  - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator'
   - Managed Applications: 'https://aka.ms/MasteringTheMarketplace/ama'
   - Virtual Machines: 'https://aka.ms/MasteringTheMarketplace/vm'
   - Container offers for K8s apps: 'https://aka.ms/MasteringTheMarketplace/container'
