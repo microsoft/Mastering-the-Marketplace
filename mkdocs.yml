@@ -12,7 +12,7 @@ nav:
   - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator'
   - Managed Applications: '/Mastering-the-Marketplace/ama'
   - Virtual Machines: '/Mastering-the-Marketplace/vm'
-  - Container offers for K8s apps: 'https://aka.ms/MasteringTheMarketplace/container'
+  - Container offers for K8s apps: '/Mastering-the-Marketplace/container'
   
   - Partner Center:
     - Private offers: '/Mastering-the-Marketplace/partner-center/private-offers'

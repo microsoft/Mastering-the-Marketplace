@@ -15,7 +15,9 @@ hide:
 - toc
 ---
 
-This course covers transactable container offers designed for deploying solutions into Azure Kubernetes Service within the customer's subscription. With a focus on practical demonstrations, this course provides a comprehensive understanding of the offer type, from overview to in-depth insights.
+This course covers transactable container offers that are designed for deploying solutions into Azure Kubernetes Service (AKS) within the customer's subscription.
+
+With a focus on practical demonstrations, this learning path provides a comprehensive understanding of the offer type, from overview to in-depth insights.
 
 
 > **Notices about this course**
@@ -23,6 +25,8 @@ This course covers transactable container offers designed for deploying solution
 >❗This course references the ARM template `cluster-deployment.json` in many places. Although using this filename will work, the recommended filename is `mainTemplate.json` by convention. The videos linked from this page were created before the recommended change in filename.
 >
 > 👩‍💻 Terminal commands used in the demos throughout this course are available [here](./demo-steps.sh).
+
+---
 
 <!-- no toc -->
 1. [Container offer for Kubernetes apps overview](#container-offer-for-kubernetes-apps-overview)
@@ -43,7 +47,7 @@ This course covers transactable container offers designed for deploying solution
 
 ## Container offer for Kubernetes apps overview
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2212264" target="_blank">Video</a> | [PDF](./pdfs/01.1-overview-2.pdf)
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/container-offer-for-kubernetes-apps-overview-mp4" target="_blank">Video</a> | [PDF](./pdfs/01.1-overview-2.pdf)
 
 This video introduces Container Offers for Kubernetes Applications, a transactable offer type in the Azure Marketplace. After viewing this module you’ll understand the terminology used in this marketplace offer type and gain a deeper understanding of publishing one. Present in this module are the following sections.
 
@@ -53,13 +57,13 @@ This video introduces Container Offers for Kubernetes Applications, a transactab
 
 ## Container offer billing overview
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2212265" target="_blank">Video</a> | [PDF](./pdfs/01.2-billing-overview.pdf)
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/container-offer-billing-overview-mp4" target="_blank">Video</a> | [PDF](./pdfs/01.2-billing-overview.pdf)
 
 How to price and bill your solution is such a commonly visited topic that we’re providing a quick module on the subject. In this module you’ll learn about transactable offers, the pricing models for container offers, and the nomenclature of offers and plans.
 
 ## Container offer technical overview
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2212638" target="_blank">Video</a> | [PDF](./pdfs/02.1-technical-overview.pdf)
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/container-offer-technical-overview-mp4" target="_blank">Video</a> | [PDF](./pdfs/02.1-technical-overview.pdf)
 
 This module provides a comprehensive technical overview of Container offers for Kubernetes apps. Topics include the following.
 
@@ -70,7 +74,7 @@ This module provides a comprehensive technical overview of Container offers for 
 
 ## Deploying solution images to an Azure Container Registry
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2212158" target="_blank">Video</a>
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/deploying-solution-images-to-an-azure-container-registry-mp4" target="_blank">Video</a>
 
 This hands-on demo introduces the application to be throughout the course and shows preparing an Azure Container Registry. Finally, you’ll see how to push your solution’s images to your own ACR. Sections include the following.
 
@@ -80,13 +84,13 @@ This hands-on demo introduces the application to be throughout the course and sh
 
 ## Scanning container images for vulnerabilities
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2214918" target="_blank">Video</a>
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/scanning-container-images-for-vulnerabilities-mp4" target="_blank">Video</a>
 
 In this comprehensive demo you’ll learn how to identify vulnerabilities in your images that can prevent your Container offer from passing certification. Not only will you see Microsoft Defender for Cloud in action, but you’ll see how to patch a container and prepare its’ image for publication to an ACR so that it no longer contains vulnerabilities.
 
 ## Preparing CNAB bundle artifacts
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2212266" target="_blank">Video</a>
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/preparing-cnab-bundle-artifacts-mp4" target="_blank">Video</a>
 
 In this hands-on module, learn about the artifacts needed to create your final CNAB bundle. This video explores what they are and looks at some details in each. You’ll see the following.
 
@@ -98,37 +102,41 @@ In this hands-on module, learn about the artifacts needed to create your final C
 
 ## Generating the CNAB bundle
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2212639" target="_blank">Video</a>
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/generating-the-cnab-bundle-mp4" target="_blank">Video</a>
 
 This module demonstrates the process of creating a CNAB bundle for publication to the Microsoft commercial marketplace. This video is primarily on the command line and shows using the publicly available CNAB bundling tool available from the Microsoft public Azure Container Registry.
 
 ## Create a container offer in Partner Center
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2212160" target="_blank">Video</a>
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/creating-a-container-offer-in-partner-center-mp4" target="_blank">Video</a>
 
-In this all-demo module, you’ll see what is needed to create a Container Offer in Partner Center. The demo walks through all sections of creating an offer except for creating plans. Plan creation is shown in the next video of the course.
+In this all-demo module, you’ll see what is needed to create a Container Offer in Partner Center. 
+
+The demo walks through all sections of creating an offer except for creating plans. Plan creation is shown in the next video of the course.
 
 ## Create a container offer plan in Partner Center
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2212159" target="_blank">Video</a>
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/creating-a-container-offer-in-partner-center-mp4" target="_blank">Video</a>
 
-This module focuses on creating a plan within an already existing offer. This hands-on demo walks through setting up a new plan in Partner Center including the technical configuration of the plan, in which we map the CNAB bundle to the new plan.
+This module focuses on creating a plan within an already existing offer. 
+
+This hands-on demo walks through setting up a new plan in Partner Center including the technical configuration of the plan, in which we map the CNAB bundle to the new plan.
 
 ## Subscribe to a Kubernetes app in the Commercial Marketplace
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2212161" target="_blank">Video</a>
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/subscribing-to-a-kubernetes-app-in-the-commercial-marketplace-mp4" target="_blank">Video</a>
 
 In this brief demo, you see how customers purchase a Kubernetes app and deploy it into their K8s cluster. You’ll see the process from marketplace to deployed and running application.
 
 ## Unsubscribe from a purchased Kubernetes app
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2212267" target="_blank">Video</a>
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/unsubscribing-from-a-kubernetes-app-that-you-purchased-mp4" target="_blank">Video</a>
 
 In this walkthrough video, you’ll see how to get rid of an application you may have purchased, and stop being billed for that app. We use the command line with the az CLI and KubeCtl to perform these operations.
 
 ## Securing virtual machines and containers for certification
 
-<a href="https://go.microsoft.com/fwlink/?linkid=2220888" target="_blank">Video</a> | [PDF](./pdfs/0.0-securing-vm-and-container-images-overview.pdf)
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/securing-vms-and-containers-for-certification-mp4" target="_blank">Video</a> | [PDF](./pdfs/0.0-securing-vm-and-container-images-overview.pdf)
 
 The last thing you want is to create and publish an offer only to have it fail Microsoft’s certification process. This module provides important tips and effective practices for securing virtual machines and containers before publication to the Azure Marketplace, so your offer makes it through certification the first time.
 
