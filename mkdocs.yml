@@ -23,7 +23,7 @@ nav:
   - Bonus content:
     - For customers: '/Mastering-the-Marketplace/customers'
     - Doing business in the marketplace: '/Mastering-the-Marketplace/biz'
-    - Marketplace Minis: '/Mastering-the-Marketplace/misc/marketplace-minis'
+    # - Marketplace Minis: '/Mastering-the-Marketplace/misc/marketplace-minis'
   
   - More resources:
     - 🌐 Choose your offer type: '/Mastering-the-Marketplace/biz/select-offer-type'
