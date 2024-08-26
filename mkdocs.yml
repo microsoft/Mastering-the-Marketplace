@@ -10,7 +10,7 @@ nav:
   - SaaS: '/Mastering-the-Marketplace/saas/general-topics/'
   - SaaS for developers: '/Mastering-the-Marketplace/saas/dev'
   - SaaS Accelerator: '/Mastering-the-Marketplace/saas-accelerator'
-  - Managed Applications: 'https://aka.ms/MasteringTheMarketplace/ama'
+  - Managed Applications: '/Mastering-the-Marketplace/ama'
   - Virtual Machines: '/Mastering-the-Marketplace/vm'
   - Container offers for K8s apps: 'https://aka.ms/MasteringTheMarketplace/container'
   
