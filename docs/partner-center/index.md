@@ -20,14 +20,6 @@ hide:
 </div>
 
 <div class="sub-page-tile" markdown="1">
-  <span class="linkless-heading">Private Offers</span>
-  
-  What you need to know tabout creating and effectively using marketplace Private Offers.
-
-[Take me to it](/Mastering-the-Marketplace/partner-center/private-offers){ .md-button }
-</div>
-
-<div class="sub-page-tile" markdown="1">
   <span class="linkless-heading">Creating new offers</span>
   
   See how to create different offer types in Partner Center.
@@ -35,6 +27,13 @@ hide:
 [Take me to it](/Mastering-the-Marketplace/partner-center/pc-create-offers){ .md-button }
 </div>
 
+<div class="sub-page-tile" markdown="1">
+  <span class="linkless-heading">Private Offers</span>
+  
+  What you need to know tabout creating and effectively using marketplace Private Offers.
+
+[Take me to it](/Mastering-the-Marketplace/partner-center/private-offers){ .md-button }
+</div>
 
 <div class="sub-page-tile" markdown="1">
   <span class="linkless-heading">Reporting and insights</span>

@@ -14,14 +14,6 @@ description: Mastering the Marketplace is a learning library for building transa
 
 You have reached the the most comprehensive on-demand content available to help you develop transactable offers for the Microsoft commercial marketplace. This site features instructional videos, interactive hands-on labs, and sample code to provide a better understanding of the marketplace.
 
-## Live events!
-
-**Live and recorded webinars**
-
-Webinars occur almost daily and cover all things marketplace from technical implementations to accelerating your business. Not only can you attend live, but workshops are recorded for later viewing.
-
-[Register for webinars here!](https://aka.ms/MTMwebinars)
-
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">Choose your offer type</span>
 
@@ -36,35 +28,35 @@ The included decision tree and supporting video will help you understand the dif
 <span class="linkless-heading">Mastering Partner Center</span>
 Partner Center is the web portal used to create and publish offers. Learn more about Partner Center in this ever-expanding multi-part course on how to use the portal to publish offers.
 
-[Take me to it](https://aka.ms/MasteringTheMarketplace/pc){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/partner-center/){ .md-button }
 </div>
 
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">Mastering SaaS offers</span>
 Get started creating, publishing, and purchasing SaaS offers in the marketplace. This course is appropriate for anyone interested in SaaS offers..
 
-[Take me to it](https://aka.ms/MasteringTheMarketplace/saas){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/saas){ .md-button }
 </div>
 
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">Mastering SaaS offers (for developers)</span>
 This comprehensive technical content takes you through all you need to get a SaaS offer up and running. From landing pages to webhooks, the technical course will help you get your SaaS offer up and running in days instead of weeks.
 
-[Take me to it](https://aka.ms/MasteringTheMarketplace/saasdev){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/saas/dev){ .md-button }
 </div>
 
 <div class="landing-tile" markdown="1">
  <span class="linkless-heading">Mastering the SaaS Accelerator</span>
 Instead of building your own custom SaaS solution, consider using the SaaS Accelerator. The SaaS accelerator is a turnkey solution meeting the technical requirements for a SaaS offer and can be installed in 20 minutes.
 
-[Take me to it](https://aka.ms/MasteringTheMarketplace/sa){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/saas-accelerator){ .md-button }
 </div>
 
 <div class="landing-tile" markdown="1">
   <span class="linkless-heading">Mastering Managed Applications offers</span>
 With a powerful ARM based deployment model, Azure Managed Applications are popular among those who want to deploy resources into the customer's environment, but still maintain control of those resources.
 
-[Take me to it](https://aka.ms/MasteringTheMarketplace/ama){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/ama){ .md-button }
 </div>
 
 <div class="landing-tile" markdown="1">
@@ -74,7 +66,7 @@ Virtual machines are a popular way to deliver solutions to customers. Learn how 
 
 You'll learn everything from how to package your solution to how to make it available on the Azure marketplace.
 
-[Take me to it](https://aka.ms/MasteringTheMarketplace/vm){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/vm){ .md-button }
 </div>
 
 <div class="landing-tile" markdown="1">
@@ -84,5 +76,5 @@ Do you want to deliver your software solution in containers that can run on your
 
 Learn how in this demo-heavy technical course taht takes you step-by-step through the process.
 
-[Take me to it](https://aka.ms/MasteringTheMarketplace/container){ .md-button }
+[Take me to it](/Mastering-the-Marketplace/container){ .md-button }
 </div>
