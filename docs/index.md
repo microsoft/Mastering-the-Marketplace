@@ -52,13 +52,13 @@ Instead of building your own custom SaaS solution, consider using the SaaS Accel
 [Take me to it](/Mastering-the-Marketplace/saas-accelerator){ .md-button }
 </div>
 
-<!-- <div class="landing-tile" markdown="1">
+<div class="landing-tile" markdown="1">
   <span class="linkless-heading">Mastering Professional Service offers</span>
 
 Professional Service offers in the marketplace enable ISVs to create transactable offers for their services supporting either custom or Microsoft software.
 
 [Take me to it](/Mastering-the-Marketplace/pro-services){ .md-button }
-</div> -->
+</div>
 
 <div class="landing-tile" markdown="1">
   <span class="linkless-heading">Mastering Managed Applications offers</span>

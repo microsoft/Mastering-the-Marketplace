@@ -11,6 +11,10 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 8/4/2024 | [Professional Service offers overview](../pro-services/index.md#professional-service-offers-overview) (new) |
+| 8/4/2024 | [Publishing a Professional Service offer supporting your software](../pro-services/index.md#publishing-a-professional-service-offer-supporting-your-software) (new) |
+| 8/4/2024 | [Publishing a Professional Service offer supporting Microsoft software](../pro-services/index.md#publishing-a-professional-service-offer-supporting-microsoft-software) (new) |
+| 8/4/2024 | [Creating a Private Offer to sell your Professional Service offer](../pro-services/index.md#creating-a-private-offer-to-sell-your-professional-service-offer) (new) |
 | 6/26/2024 | [Billing and pricing for Azure Applications](../ama/index.md#billing-and-pricing-for-azure-applications) (new) |
 | 6/18/2024 | [Orders dashboard in commercial marketplace analytics](../partner-center/index.md#orders-dashboard-in-commercial-marketplace-analytics) (new) |
 | 6/11/2024 | [Microsoft Entra ID configuration for your SaaS offer](../saas/tech-topics.md#microsoft-entra-id-configuration-for-your-saas-offer) (new) |
