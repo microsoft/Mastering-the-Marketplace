@@ -60,7 +60,6 @@ hide:
 | 2/15/2023 | [Deprecating and restoring virtual machine images](../vm/index.md#deprecating-and-restoring-virtual-machine-images) |
 | 2/3/2023 | [Installing the SaaS Accelerator with the Azure portal cloud shell](https://aka.ms/MasteringTheMarketplace/sa) |
 | 2/2/2023 | [Setting up a development environment for the SaaS Accelerator](https://aka.ms/MasteringTheMarketplace/sa) |
-| 1/30/2023 | [Programmatic Access to Reporting and Insights](../partner-center/saas.md#programmatic-access-to-reporting-and-insights) |
 | 1/24/2023 | [Get your Azure Billing ID](../learning-paths/customer.md#get-your-azure-billing-id) |
 | 1/23/2023 | [Get your Azure Tenant ID](../learning-paths/customer.md#get-your-azure-tenant-id) |
 | 1/17/2023 | [Private offers vs. private plans](../partner-center/private-offers.md#private-offers-vs-private-plans) |
