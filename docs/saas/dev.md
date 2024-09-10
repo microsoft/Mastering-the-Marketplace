@@ -66,7 +66,7 @@ This module goes all the way from creating an offer, to adding and plan, and fin
 
 ## SaaS Offer Technical Overview
 
-<a target="_blank" href="https://go.microsoft.com/fwlink/?linkid=2196315">Video</a> | [PDF](./pdfs/04-SaaS-Offer-Technical-Overview.pdf)
+<a target="_blank" href="https://partner.microsoft.com/en-us/training/assets/detail/saas-offer-technical-overview-mp4">Video</a> | [PDF](./pdfs/04-SaaS-Offer-Technical-Overview.pdf)
 
 Watch a deep technical overview of how SaaS offers work in the Microsoft Azure Marketplace. 
 
