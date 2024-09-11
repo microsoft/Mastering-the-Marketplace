@@ -98,6 +98,7 @@
         "target_title": "Create a new marketplace offer",
         "content_type": "bubble",
         "jquery_selector": "h2:contains('Plan overview')",
+        "left": 200,
         "text": "I am here"
       },
       {
