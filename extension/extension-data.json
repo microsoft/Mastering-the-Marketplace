@@ -83,13 +83,21 @@
         "target_title": "Sample audio 2",
         "content_type": "audio",
         "jquery_selector": ""
-      },
+      },      
       {
         "page_url": "https://github",
         "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/extension/media/Outro.mp4",
         "target_title": "Create a new marketplace offer",
         "content_type": "bubble",
         "jquery_selector": "#workspace-nav-offers-homepagelink",
+        "text": "I am here"
+      },
+      {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/extension/media/Outro.mp4",
+        "target_title": "Create a new marketplace offer",
+        "content_type": "bubble",
+        "jquery_selector": "h2:contains('Plan overview')",
         "text": "I am here"
       },
       {
