@@ -1,5 +1,5 @@
 {
-    "private_offer_page": "https://elegantcode.com",
+    "private_offer_page": "https://to-be-determined.com",
     "page_content": [
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
@@ -68,60 +68,6 @@
         "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
         "jquery_selector": "foo",
         "content_type": "link",
-        "event": "load"
-      },
-      {
-        "page_url": "https://github.com",
-        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
-        "target_title": "Sample audio 1",
-        "content_type": "audio",
-        "jquery_selector": ""
-      },
-      {
-        "page_url": "https://github.com",
-        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
-        "target_title": "Sample audio 2",
-        "content_type": "audio",
-        "jquery_selector": ""
-      },
-      {
-        "page_url": "https://github",
-        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
-        "target_title": "Create a new marketplace offer",
-        "content_type": "bubble",
-        "jquery_selector": "#workspace-nav-offers-homepagelink",
-        "text": "I am here"
-      },
-      {
-        "page_url": "https://github.com",
-        "target_title": "GitHub content 1",
-        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-        "jquery_selector": "foo",
-        "content_type": "link",
-        "event": "load"
-      },
-      {
-        "page_url": "https://github.com",
-        "target_title": "GitHub content 2",
-        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-        "jquery_selector": "foo",
-        "content_type": "link",
-        "event": "load"
-      },
-      {
-        "page_url": "https://github.com",
-        "target_title": "GitHub content 2",
-        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-        "jquery_selector": "foo",
-        "content_type": "diagram",
-        "event": "load"
-      },
-      {
-        "page_url": "https://github.com",
-        "target_title": "GitHub content 2",
-        "target_url": "https://www.youtube.com/watch?v=6v2L2UGZJAM",
-        "jquery_selector": "foo",
-        "content_type": "tool",
         "event": "load"
       }
     ],
