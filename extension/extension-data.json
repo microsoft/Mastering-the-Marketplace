@@ -3,21 +3,21 @@
     "page_content": [
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/extension/media/Outro.mp4",
         "content_type": "bubble",
         "jquery_selector": "button[data-automation-id='create-new-button']",
         "text": "Step #1 - Use this drop down to select the offer type to publish."
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/extension/media/Outro.mp4",
         "target_title": "Sample video 1",
         "content_type": "video",
         "jquery_selector": "mix-command-bar"
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
-        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/home_workspace_marketplace_offers.mp3",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/extension/media/home_workspace_marketplace_offers.mp3",
         "target_title": "Sample audio 3",
         "content_type": "audio",
         "jquery_selector": "he-task-item:contains('Private offers')"
@@ -49,7 +49,7 @@
       },
       {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/home",
-        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/guided_tour/Outro.mp4",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/extension/media/Outro.mp4",
         "target_title": "Sample video 2",
         "content_type": "video",
         "jquery_selector": "#workspace-nav-offers-homepagelink"
