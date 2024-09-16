@@ -2,6 +2,15 @@
     "private_offer_page": "https://to-be-determined.com",
     "page_content": [
       {
+        "page_url": "https://partner.microsoft.com/en-us/dashboard/commercial-marketplace/offers/*/overview",
+        "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/extension/media/Outro.mp4",
+        "target_title": "Create a new marketplace offer",
+        "content_type": "bubble",
+        "jquery_selector": "h2:contains('Plan overview')",
+        "left": 200,
+        "text": "I am here"
+      },
+      {
         "page_url": "https://partner.microsoft.com/en-us/dashboard/marketplace-offers/overview",
         "target_url": "https://github.com/microsoft/Mastering-the-Marketplace/raw/main/extension/media/Outro.mp4",
         "content_type": "bubble",
