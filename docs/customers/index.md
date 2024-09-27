@@ -95,7 +95,7 @@ This video shows how to subscribe to private SaaS plans in the Azure Marketplace
 
 ## Navigating admin consent on a SaaS offer landing page
 
-<a href="https://partner.microsoft.com/en-us/training/assets/detail/using-the-microsoft-azure-marketplace-check-eligibility-tool-mp4" target="_blank">Video</a>
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/navigating-admin-consent-on-a-saas-offer-landing-page-mp4" target="_blank">Video</a>
 
 When customers purchase a SaaS product, they're required to visit the publisher's landing page.
 
