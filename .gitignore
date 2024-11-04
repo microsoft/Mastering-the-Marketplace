@@ -26,5 +26,5 @@ Thumbs.db
 designs/favicon.psd
 .GeneratedMSBuildEditorConfig.editorconfig
 
-env/
-.env
+.venv/
+.venv
