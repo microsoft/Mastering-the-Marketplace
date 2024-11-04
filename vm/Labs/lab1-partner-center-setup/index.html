@@ -1,0 +1,1122 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="This lab will walk you through setting up a Virtual Machine Offer in Partner Center. You will need to ensure that you have created an account in Partner Center and have enrolled into the commercial marketplace program in order to be able to create Offers in the Marketplace.">
+      
+      
+      
+        <link rel="canonical" href="https://microsoft.github.io/Mastering-the-Marketplace/vm/Labs/lab1-partner-center-setup/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Lab 1 - Partner Center Setup for a Virtual Machine Offer - Mastering the Marketplace</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-QFBKKPKXNV"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-QFBKKPKXNV",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-QFBKKPKXNV",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  <meta content="https://blogs.microsoft.com/wp-content/uploads/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" property="image">
+  <meta content="https://blogs.microsoft.com/wp-content/uploads/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" property="og:image">
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#0078D4" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#prerequisites-before-starting-this-lab" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://microsoft.github.io/Mastering-the-Marketplace/" title="Mastering the Marketplace" class="md-header__button md-logo" aria-label="Mastering the Marketplace" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 32h214.6v214.6H0zm233.4 0H448v214.6H233.4zM0 265.4h214.6V480H0zm233.4 0H448V480H233.4z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mastering the Marketplace
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Lab 1 - Partner Center Setup for a Virtual Machine Offer
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/microsoft/Mastering-the-Marketplace" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    microsoft/Mastering-the-Marketplace
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://microsoft.github.io/Mastering-the-Marketplace/" title="Mastering the Marketplace" class="md-nav__button md-logo" aria-label="Mastering the Marketplace" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 32h214.6v214.6H0zm233.4 0H448v214.6H233.4zM0 265.4h214.6V480H0zm233.4 0H448V480H233.4z"/></svg>
+
+    </a>
+    Mastering the Marketplace
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/microsoft/Mastering-the-Marketplace" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    microsoft/Mastering-the-Marketplace
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas/general-topics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas/dev" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS for developers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas-accelerator" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS Accelerator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/ama" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managed Applications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/vm" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Virtual Machines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/container" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Container offers for K8s apps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/pro-services" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Professional Service offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Partner Center
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Partner Center
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/private-offers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Private offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/pc-general" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General topics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/pc-create-offers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/pc-insights" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reporting and insights
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Bonus content
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Bonus content
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/customers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    For customers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/biz" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Doing business in the marketplace
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    More resources
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            More resources
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/biz/select-offer-type" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🌐 Choose your offer type
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aka.ms/MTMwebinars" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🖥️ Live webinars
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/misc/change-log" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🗒️ Site change log
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://forms.office.com/r/0gCrzhSMkw" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ✉️ Contact us
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-before-starting-this-lab" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites before starting this lab
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-a-new-virtual-machine-offer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a new Virtual Machine Offer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#offer-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Offer Setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Offer Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#customer-leads" class="md-nav__link">
+    <span class="md-ellipsis">
+      Customer leads
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-the-azure-storage-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create the Azure Storage account
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configure-customer-leads-in-partner-center" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configure Customer Leads in Partner Center
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Properties
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Properties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categories
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Legal
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#offer-listing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Offer listing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preview-audience" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preview audience
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technical-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical configuration
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plan-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plan overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resell-through-csps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resell through CSPs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-and-publish" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review and Publish
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Lab 1 - Partner Center Setup for a Virtual Machine Offer</h1>
+
+<p>👈 <a href="../../#labs">Back to Virtual Machine labs</a></p>
+<blockquote>
+<p>This lab is part of a series of labs for Mastering the Virtual Machine Offers workshop. You should finish this lab before moving on to the next labs in this course. </p>
+</blockquote>
+<h2 id="prerequisites-before-starting-this-lab">Prerequisites before starting this lab<a class="headerlink" href="#prerequisites-before-starting-this-lab" title="Permanent link">#</a></h2>
+<ol>
+<li>Partner Center Account with enrollment in the commercial marketplace program</li>
+<li>Access to the Azure Portal on the same tenant as is on Partner Center (Same tenancy is required to ensure you can publish images out of Azure Compute Galleries, more on this in the later modules).</li>
+</ol>
+<h2 id="create-a-new-virtual-machine-offer">Create a new Virtual Machine Offer<a class="headerlink" href="#create-a-new-virtual-machine-offer" title="Permanent link">#</a></h2>
+<p>In this section you will be creating a brand new VM Offer from scratch. This will be used for publishing the offer once the rest of your labs are completed.</p>
+<p>The following steps will create an offer on your Partner Center Portal.</p>
+<ol>
+<li>On the Homepage of Partner Center, look for Marketplace Offers and click that tile. If you have disabled Workspaces, then it will be visible as Commercial Marketplace.</li>
+<li>Click the <strong>+ New Offer</strong> button and select <strong>Azure Virtual Machine</strong> from the dropdown.</li>
+<li>
+<p>You will now have to enter a unique Offer ID and an Offer Alias. For the purpose of uniformity for this lab, we will set a unique string to identify resources, like so,</p>
+<ul>
+<li>Offer ID: <strong>vmworkshop-YOUR_UNIQUE_STRING</strong></li>
+<li>Offer Alias: <strong>VM Workshop YOUR_UNIQUE_STRING</strong></li>
+</ul>
+<p>Replace the variable YOUR_UNIQUE_STRING with a name unique to your organization</p>
+</li>
+</ol>
+<p>Once the offer is created, navigate to the Offer Setup page by clicking on that tab on the left.</p>
+<h2 id="offer-setup">Offer Setup<a class="headerlink" href="#offer-setup" title="Permanent link">#</a></h2>
+<p>Offer Setup page will direct you with ways to change your offer alias as well as enable Test Drive. For the purpose of this lab, we will leave everything as is and only configure the Customer leads section.</p>
+<h3 id="customer-leads">Customer leads<a class="headerlink" href="#customer-leads" title="Permanent link">#</a></h3>
+<p>Here, you will attach your offer to an Azure Data Storage table which will act as a connected Customer Relationship Management system (CRM) for your offer.</p>
+<h3 id="create-the-azure-storage-account">Create the Azure Storage account<a class="headerlink" href="#create-the-azure-storage-account" title="Permanent link">#</a></h3>
+<p>This is the first time you're using the Azure portal for this class. It is recommended that you install all the resources you'll create in this class into the same Resource Group, just to keep things tidy within your Azure subscription.</p>
+<ol>
+<li>Open a new tab for the <a href="https://portal.azure.com">Azure portal</a> and log in.</li>
+<li>Create a Resource Group named <strong>vmworkshop-YOUR_UNIQUE_STRING</strong>. Please note that this is the same unique string you added while creating the offer. </li>
+<li>In the <strong>vmworkshop-YOUR_UNIQUE_STRING</strong> Resource Group, create a standard Azure Storage account. This will be your CRM database, so name it <strong>vmworkshopsayouruniquestring</strong>. Note all characters are lower case for naming a storage account.</li>
+<li>Once the storage account is created, browse to the storage account's overview page.</li>
+<li>In the left-hand menu, find the <strong>Security + networking</strong> section.</li>
+<li>In that section, find and click on the <strong>Access keys</strong> link.</li>
+<li>At the top of the page, click the <strong>Show keys</strong> link, and you see the connection strings for the database.</li>
+<li>Copy a connection string to your copy/paste buffer.</li>
+</ol>
+<h3 id="configure-customer-leads-in-partner-center">Configure Customer Leads in Partner Center<a class="headerlink" href="#configure-customer-leads-in-partner-center" title="Permanent link">#</a></h3>
+<ol>
+<li>Go back to the Partner Center tab in your browser.</li>
+<li>Select the <strong>Connect</strong> link.</li>
+<li>From the <strong>Lead destination</strong> dropdown, select <strong>Azure Table</strong>.</li>
+<li>Enter your <strong>Contact email</strong> and paste in your <strong>Storage account connection string</strong>.</li>
+<li>Click the <strong>Validate</strong> link to ensure your connection string is valid.</li>
+<li>Click <strong>Connect</strong>.</li>
+<li>Click <strong>Save draft</strong> at the bottom of the page.</li>
+</ol>
+<blockquote>
+<p>⚠️ For each page, you must click the <strong>Save draft</strong> at the bottom of the page to move on.</p>
+</blockquote>
+<h2 id="properties">Properties<a class="headerlink" href="#properties" title="Permanent link">#</a></h2>
+<p>Navigate to the Properties page by selecting the Properties tab on the left.</p>
+<h3 id="categories">Categories<a class="headerlink" href="#categories" title="Permanent link">#</a></h3>
+<p>You must select at least one category for your offer. Virtual machine offers always appear under the Compute category in Azure Marketplace. For this lab we will be selecting the below configurations.</p>
+<ol>
+<li>Click the <strong>+ Categories</strong> link.</li>
+<li>In the left dropdown, select <strong>Compute</strong>.</li>
+<li>In the right dropdown, select <strong>Application Infrastructure</strong>.</li>
+</ol>
+<h3 id="legal">Legal<a class="headerlink" href="#legal" title="Permanent link">#</a></h3>
+<p>We will be using the Microsoft Standard Contract for this lab. You may choose differently when you are publishing to the prod environment.</p>
+<ol>
+<li>Scroll down to the <strong>Legal</strong> section.</li>
+<li>Select <strong>Use the Standard Contract for Microsoft’s commercial marketplace?</strong> checkbox</li>
+<li>Click <strong>Accept</strong>.</li>
+<li>Click the <strong>Save draft</strong> button.</li>
+</ol>
+<h2 id="offer-listing">Offer listing<a class="headerlink" href="#offer-listing" title="Permanent link">#</a></h2>
+<p>Navigate to the Offer listing page.</p>
+<ol>
+<li>In the the <strong>Offer listing</strong> section, for <strong>Search results summary</strong> enter <strong>VM Workshop summary</strong>.</li>
+<li>
+<p>For <strong>Short Description</strong> and <strong>Description</strong>, here is some text you may choose to copy and paste into the text box.</p>
+<p><code>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</code></p>
+</li>
+<li>
+<p>In the <strong>Privacy policy link</strong>, enter the public link to the privacy policy for your company if you know it. If not, follow this link to <a href="https://privacy.microsoft.com/privacystatement">Microsoft's privacy policy</a> and use that URL. 
+    &gt;Please note that using Microsoft's privacy policy is only for the purpose of this lab and should not be used for your production offer.</p>
+</li>
+<li>In the <strong>Customer Support links</strong> section, enter Azure support website information (Optional)</li>
+<li>In the <strong>Partner Support Contact</strong> section, enter your contact information.</li>
+<li>In the <strong>Engineering Contact</strong> section, enter your engineering contact information.</li>
+<li>In the <strong>Cloud Solution Provider Program Contact</strong> section, enter the appropriate contact information (Optional)</li>
+<li>For the Marketplace media section you'll upload 2 images, both of which are <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/vm/Labs/lab1-partner-center-setup/items">available here</a>.<ol>
+<li>For the <strong>216X216 logo image,</strong> upload the PNG provided. This PNG is named "<strong>Contoso-Logo-216x216.png</strong>."</li>
+<li>For the <strong>1280X720</strong> screenshot image, upload the PNG provided. This PNG is named "<strong>Screenshots-1280x720.png</strong>."</li>
+<li>Add a screenshot image caption.</li>
+</ol>
+</li>
+<li>Click the <strong>Save draft</strong> button and correct any errors that be shown before moving on.</li>
+</ol>
+<h2 id="preview-audience">Preview audience<a class="headerlink" href="#preview-audience" title="Permanent link">#</a></h2>
+<ol>
+<li>In the <strong>Preview audience</strong> section, enter your Azure subscription Id. </li>
+<li>Enter a <strong>Description</strong> (Optional).</li>
+<li>Click <strong>Save draft</strong>.</li>
+</ol>
+<h2 id="technical-configuration">Technical configuration<a class="headerlink" href="#technical-configuration" title="Permanent link">#</a></h2>
+<p>Skip this section for this lab. You'll come back to it later.</p>
+<h2 id="plan-overview">Plan overview<a class="headerlink" href="#plan-overview" title="Permanent link">#</a></h2>
+<p>Skip this section for this lab. You'll come back to it later.</p>
+<h2 id="resell-through-csps">Resell through CSPs<a class="headerlink" href="#resell-through-csps" title="Permanent link">#</a></h2>
+<p>Finally navigate to the Resell through CSPs tab.</p>
+<ol>
+<li>Select "No partners in the CSP program."</li>
+<li>Click the <strong>Save draft</strong> button at the bottom of the screen.</li>
+</ol>
+<h2 id="review-and-publish">Review and Publish<a class="headerlink" href="#review-and-publish" title="Permanent link">#</a></h2>
+<p>In this short exercise, you will check your work by performing the first action of the publication process. You will submit your offer for review to see if it is ready to be published.</p>
+<ol>
+<li>Open your offer's overview page.</li>
+<li>In the upper right corner of the page, click the link for <strong>Review and publish</strong>.</li>
+<li>
+<p>Looking to the right side of the page, notice that some sections have a green circle and at least one is gray. The gray sections are not yet complete, preventing you from taking the next step of publishing your offer.</p>
+<blockquote>
+<p>The <strong>Plan overview</strong> section of the offer will not pass review. This is okay for now as we need to fill out the <strong>Plan overview</strong> tab and you can't do that until we have a VM image. All other sections should be green.</p>
+</blockquote>
+</li>
+<li>
+<p>Go back to all sections that appear with a gray circle and complete those sections with the guidance provided above.</p>
+</li>
+<li>Ensure all sections pass except <strong>Plan overview</strong>, which will be addressed in the next lab.</li>
+</ol>
+<p><strong>Congratulations!</strong> You have now finished this lab.</p>
+<p>👈 <a href="../../#labs">Back to Virtual Machine labs</a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        ﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="col-1">
+                <hr>
+                <p class="site-footer__copyright">Copyright &copy; 2024. - Microsoft, Inc. <br>All rights reserved.</p>
+
+            </div><!-- /.col -->
+            <div class="col-2">
+                <img alt="Microsoft Azure logo." src="/Mastering-the-Marketplace/assets/logo-footer.png" class="site-footer__logoimage">
+            </div><!-- /.col -->
+        </div>
+    </footer><!-- /.site-footer -->
+
+</body>
+</html>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.sections", "navigation.expand"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

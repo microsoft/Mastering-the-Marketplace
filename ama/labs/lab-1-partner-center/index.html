@@ -1,0 +1,1316 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://microsoft.github.io/Mastering-the-Marketplace/ama/labs/lab-1-partner-center/">
+      
+      
+      
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Index - Mastering the Marketplace</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-QFBKKPKXNV"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-QFBKKPKXNV",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-QFBKKPKXNV",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  <meta content="https://blogs.microsoft.com/wp-content/uploads/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" property="image">
+  <meta content="https://blogs.microsoft.com/wp-content/uploads/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" property="og:image">
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#0078D4" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lab-1-publishing-an-azure-managed-application-offer-in-partner-center" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://microsoft.github.io/Mastering-the-Marketplace/" title="Mastering the Marketplace" class="md-header__button md-logo" aria-label="Mastering the Marketplace" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 32h214.6v214.6H0zm233.4 0H448v214.6H233.4zM0 265.4h214.6V480H0zm233.4 0H448V480H233.4z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mastering the Marketplace
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Index
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/microsoft/Mastering-the-Marketplace" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    microsoft/Mastering-the-Marketplace
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://microsoft.github.io/Mastering-the-Marketplace/" title="Mastering the Marketplace" class="md-nav__button md-logo" aria-label="Mastering the Marketplace" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 32h214.6v214.6H0zm233.4 0H448v214.6H233.4zM0 265.4h214.6V480H0zm233.4 0H448V480H233.4z"/></svg>
+
+    </a>
+    Mastering the Marketplace
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/microsoft/Mastering-the-Marketplace" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    microsoft/Mastering-the-Marketplace
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas/general-topics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas/dev" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS for developers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas-accelerator" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS Accelerator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/ama" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managed Applications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/vm" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Virtual Machines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/container" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Container offers for K8s apps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/pro-services" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Professional Service offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Partner Center
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Partner Center
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/private-offers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Private offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/pc-general" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General topics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/pc-create-offers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/pc-insights" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reporting and insights
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Bonus content
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Bonus content
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/customers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    For customers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/biz" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Doing business in the marketplace
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    More resources
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            More resources
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/biz/select-offer-type" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🌐 Choose your offer type
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aka.ms/MTMwebinars" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🖥️ Live webinars
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/misc/change-log" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🗒️ Site change log
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://forms.office.com/r/0gCrzhSMkw" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ✉️ Contact us
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-1-create-the-offer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 1 - Create the offer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-2-offer-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 2 - Offer setup
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercise 2 - Offer setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crm-leads-part-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      CRM leads - Part 1
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create-the-data-storage-account-in-the-azure-portal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create the Data storage account in the Azure Portal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crm-leads-part-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      CRM leads - Part 2
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-3-properties" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 3 - Properties
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercise 3 - Properties">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      Categories
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#legal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Legal
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-4-offer-listing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 4 - Offer listing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-5-preview-audience" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 5 - Preview audience
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-6-resell-through-csps" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 6 - Resell through CSPs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-6-adding-plans" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 6 - Adding plans
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Exercise 6 - Adding plans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#creating-a-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating a plan
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plan-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plan setup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plan-listing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plan listing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pricing-and-availability" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pricing and availability
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#technical-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Technical configuration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#check-your-offer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Check your offer
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#appendix" class="md-nav__link">
+    <span class="md-ellipsis">
+      Appendix
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Appendix">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finding-your-tenant-id" class="md-nav__link">
+    <span class="md-ellipsis">
+      Finding your Tenant ID
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finding-your-user-account-id" class="md-nav__link">
+    <span class="md-ellipsis">
+      Finding your user account ID
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<p>👈 <a href="../../#labs">Back to Azure Managed Applications labs</a></p>
+<h1 id="lab-1-publishing-an-azure-managed-application-offer-in-partner-center">Lab 1 - Publishing an Azure Managed Application Offer in Partner Center<a class="headerlink" href="#lab-1-publishing-an-azure-managed-application-offer-in-partner-center" title="Permanent link">#</a></h1>
+<p>In this lab you will configure and publish an Azure Application offer in the Azure Marketplace. To do this, you must have an account in Partner Center, the portal for marketplace publishers. You must also have an Azure account where you can create resources.</p>
+<h2 id="exercise-1-create-the-offer">Exercise 1 - Create the offer<a class="headerlink" href="#exercise-1-create-the-offer" title="Permanent link">#</a></h2>
+<p>In this exercise you will create an Azure application offer.</p>
+<ol>
+<li>Log in to <a href="https://partner.microsoft.com/en-us/dashboard/home">Partner Center</a>.</li>
+<li>Go to the <strong>Marketplace offers</strong> page.</li>
+<li>Select the <strong>New offer</strong> dropdown and choose <strong>Azure application</strong> for the type of offer you will create.</li>
+<li>You will be prompted for an <strong>Offer ID</strong> and <strong>Offer alias</strong>. Use the following values.<ol>
+<li><strong>Offer ID:</strong> ama-workshop-01</li>
+<li><strong>Offer alias:</strong> AMA Workshop 1</li>
+<li>Click the <strong>Create</strong> button. Your new offer is created and you are redirected to the <strong>Offer setup</strong> page.</li>
+</ol>
+</li>
+</ol>
+<p>You now have an offer to work with. Proceed to the next exercise.</p>
+<h2 id="exercise-2-offer-setup">Exercise 2 - Offer setup<a class="headerlink" href="#exercise-2-offer-setup" title="Permanent link">#</a></h2>
+<p>In this exercise you will set up a leads management section and connect it to a CRM.</p>
+<p>Navigate the to <strong>Offer setup</strong> page via the left hand navigation.</p>
+<h3 id="crm-leads-part-1">CRM leads - Part 1<a class="headerlink" href="#crm-leads-part-1" title="Permanent link">#</a></h3>
+<p>In this section you will fill our the <strong>Offer setup</strong> portion of your offer. You will connect your offer to a CRM so you collect leads of people using your solution, or interested in it.</p>
+<ol>
+<li>Navigate to the <strong>Offer setup</strong> page via the left hand navigation.</li>
+<li>Scroll down to the <strong>Customer leads</strong> section.</li>
+<li>Click the <strong>Connect</strong> link.</li>
+<li>Click the <strong>Lead destination dropdown</strong> and note you may integrate your lead collection with several types of CRMs. In this exercise you will connect to an <strong>Azure table</strong>, so select that option from the dropdown.</li>
+</ol>
+<p>You must create the Azure table storage account in the Azure portal to connect to for lead management.</p>
+<h3 id="create-the-data-storage-account-in-the-azure-portal">Create the Data storage account in the Azure Portal<a class="headerlink" href="#create-the-data-storage-account-in-the-azure-portal" title="Permanent link">#</a></h3>
+<p>In this section you will create an Azure <strong>Data Storage account</strong> using the Azure portal.</p>
+<ol>
+<li>Log in to the <a href="https://portal.azure.com/">Azure portal</a>.</li>
+<li>Click <strong>+ Create a resource</strong> in the left-most side menu. The <strong>Create a resource</strong> page appears.</li>
+<li>In the search box, type <strong>Storage account</strong>.</li>
+<li>Select <strong>Storage account</strong> from the resulting dropdown.</li>
+<li>On the <strong>Storage account</strong> page, click the <strong>Create</strong> button. You should now be on the <strong>Create a storage account</strong> page.</li>
+<li>Under the <strong>Project details</strong> section, select <strong>Create new</strong> for your resource group.</li>
+<li>Create a new Resource group named <strong>ama-workshop-leads</strong>.</li>
+<li>For storage account name, type in a string that will be unique across azure. Try something like <strong>amaworshopleads002</strong>, where <strong>002</strong> is a random number between 001 and 999.</li>
+<li>For the <strong>Region</strong> select a region near you.</li>
+<li>Under <strong>Redundancy</strong>, select <strong>Locally-redundant storage (LRS)</strong>. This is the least expensive storage account type.</li>
+<li>Select the <strong>Review</strong> at the bottom of the page. You are taken to the final review page. If there are no errors, press the <strong>Create</strong> button at the bottom of the page.</li>
+</ol>
+<h3 id="crm-leads-part-2">CRM leads - Part 2<a class="headerlink" href="#crm-leads-part-2" title="Permanent link">#</a></h3>
+<p>In this section you will finish configuring leads management by connecting it to the new Data Storage account you just created.</p>
+<ol>
+<li>In the Azure portal, navigate to the Data Storage account you just created.</li>
+<li>In the left hand menu under <strong>Security + networking</strong> select <strong>Access keys</strong>.</li>
+<li>Near the top of the Access keys screen, click the <strong>Show keys</strong> link. This makes the hidden keys visible.</li>
+<li>Under <strong>key 1</strong> copy the <strong>Connection string</strong> into your clipboard.</li>
+<li>Return to the <strong>Partner Center</strong> browser tab and paste the connection string in the <strong>Storage account connection string</strong> text box.</li>
+<li>Click the Validate link. You should see a positive confirmation that the connection string worked.</li>
+<li>Click the <strong>Connect</strong> button.</li>
+<li>Click the <strong>Save draft</strong> button at the bottom of the page.</li>
+</ol>
+<p>You have completed the <strong>Offer setup</strong> screen. Proceed to the next exercise.</p>
+<h2 id="exercise-3-properties">Exercise 3 - Properties<a class="headerlink" href="#exercise-3-properties" title="Permanent link">#</a></h2>
+<p>In this exercise you will fill out the <strong>Properties</strong> section of your offer. </p>
+<p>Navigate the to <strong>Properties</strong> page via the left hand navigation.</p>
+<h3 id="categories">Categories<a class="headerlink" href="#categories" title="Permanent link">#</a></h3>
+<p>You must select a category for your Managed App. You want your app to show up in the Azure Marketplace, so you will select a category that will ensure it will appear there.</p>
+<ol>
+<li>Click the <strong>Categories</strong> link.</li>
+<li>Under the <strong>Primary category</strong> dropdown, select <strong>Developer tools</strong>.</li>
+<li>Under the <strong>Subcategory</strong> dropdown, select <strong>Developer Service</strong>.</li>
+</ol>
+<p>You have selected a category for your application. Note you could select one more, but that's not needed for this lab.</p>
+<h3 id="legal">Legal<a class="headerlink" href="#legal" title="Permanent link">#</a></h3>
+<ol>
+<li>In the <strong>Legal</strong> section select the checkbox next to "Use the Standard Contract for Microsoft’s commercial marketplace?".</li>
+<li>A dialog box appears. Click the <strong>Accept</strong> button.</li>
+<li>Click the <strong>Save draft</strong> button at the bottom of the page.</li>
+</ol>
+<p>You have completed the <strong>Properties</strong> screen. Proceed to the next exercise.</p>
+<h2 id="exercise-4-offer-listing">Exercise 4 - Offer listing<a class="headerlink" href="#exercise-4-offer-listing" title="Permanent link">#</a></h2>
+<p>In this exercise, you fill out the <strong>Offer listing</strong> page.</p>
+<ol>
+<li>In the left-hand menu, select <strong>Offer listing</strong>. You are taken to the <strong>Offer listing</strong> page.</li>
+<li>In the <strong>Search results summary</strong> textbox, enter "<strong>AMA Workshop 1 search results summary</strong>".</li>
+<li>In the Short description text area, enter "<strong>AMA Workshop 1 short description</strong>".</li>
+<li>In the <strong>Description</strong> text area, enter "<strong>AMA Workshop 1 description</strong>".</li>
+<li>In the <strong>Search keywords</strong> section, you may enter up to 3 keywords.</li>
+<li>For the <strong>Privacy policy link</strong> textbox, you may use Microsoft's privacy policy for this workshop. Enter "https://privacy.microsoft.com/en-us/privacystatement". This is for lab purposes. Do not use Microsoft's privacy policy on real offers.</li>
+<li>Scroll down to the <strong>Support contact</strong> section and enter the required information. For the field <strong>Support website for Azure Global customers</strong>, enter the link <code>https://partner.microsoft.com/en-US/support/v2/</code>. 
+Again, this is for lab purposes only, not to be used in a live offer. This would be a link to a page on your own site.</li>
+<li>Scroll down to the <strong>Engineering contact information</strong> section.</li>
+<li>Enter the required information.</li>
+<li>Scroll down to the <strong>Marketplace media &gt; Logos</strong> section.</li>
+</ol>
+<p>Here you will need to upload two logos that must be of the exact right size. Examples are provided for you in <a href="https://github.com/microsoft/Mastering-the-Marketplace/tree/main/docs/ama/labs/lab-1-partner-center/assets">this directory</a>. Upload these images. If you have cloned this repository they will already be on your local drive.</p>
+<ol>
+<li>Upload the two images.</li>
+<li>For the screenshot, click the <strong>Add image caption</strong> link. Enter whatever you like for a caption.</li>
+<li>Click the <strong>OK</strong> button.</li>
+<li>Click the <strong>Save draft</strong> button at the bottom of the page.</li>
+</ol>
+<p>You have completed the <strong>Offer listing</strong> screen. Proceed to the next exercise.</p>
+<h2 id="exercise-5-preview-audience">Exercise 5 - Preview audience<a class="headerlink" href="#exercise-5-preview-audience" title="Permanent link">#</a></h2>
+<p>In this exercise, you will add your subscription id to the list of subscriptions that may access this offer before it is live. This is to provide access to your test team and anyone else who would like to preview the offer before it goes live. In this case, you will enter the subscription ID you are using in this workshop.</p>
+<ol>
+<li>In the Azure portal, find your subscription ID. If you aren't sure how to do this take the following steps.<ol>
+<li>In the Azure portal, in the search box at the top of the screen, enter the word, "Subscriptions."</li>
+<li>Select the <strong>Subscriptions</strong> icon in the dropdown.</li>
+<li>On the <strong>Subscriptions</strong> page, click the link to the subscription you are using.</li>
+<li>On the <strong>Subscription</strong> page, copy the <strong>Subscription ID</strong> into your clipboard.</li>
+</ol>
+</li>
+<li>In the Partner Center portal, <strong>Preview audience</strong> page, enter your subscription ID.</li>
+<li>Provide a brief description for this subscription.</li>
+</ol>
+<p>You have completed the <strong>Preview audience</strong> screen. Proceed to the next exercise.</p>
+<h2 id="exercise-6-resell-through-csps">Exercise 6 - Resell through CSPs<a class="headerlink" href="#exercise-6-resell-through-csps" title="Permanent link">#</a></h2>
+<p>In this exercise, you will indicate that your solution will not be re-sold by Cloud Solution Providers.</p>
+<ol>
+<li>From the list of radio buttons, select <strong>No partners in the CSP program</strong>.</li>
+<li>Click the <strong>Save draft</strong> button at the bottom of the page.</li>
+</ol>
+<p>You have completed the <strong>Resell through CSPs</strong> screen. Proceed to the next exercise.</p>
+<h2 id="exercise-6-adding-plans">Exercise 6 - Adding plans<a class="headerlink" href="#exercise-6-adding-plans" title="Permanent link">#</a></h2>
+<p>Every offer must include at least one plan. In this exercise, you will add two plans to your offer.</p>
+<h3 id="creating-a-plan">Creating a plan<a class="headerlink" href="#creating-a-plan" title="Permanent link">#</a></h3>
+<ol>
+<li>In the left-hand menu, select <strong>Plan overview</strong>.</li>
+<li>At the top of the page, click <strong>Create new plan.</strong></li>
+<li>Enter a <strong>Plan ID</strong> of "silver-plan".</li>
+<li>For <strong>Plan name</strong> enter "Silver".</li>
+<li>Click the <strong>Create</strong> button.</li>
+</ol>
+<h3 id="plan-setup">Plan setup<a class="headerlink" href="#plan-setup" title="Permanent link">#</a></h3>
+<ol>
+<li>On the <strong>Plan setup</strong> page, under the <strong>Plan type</strong> section, select the dropdown item, <strong>Managed application</strong>.</li>
+<li>Click the <strong>Save Draft</strong> button at the bottom of the screen.</li>
+</ol>
+<h3 id="plan-listing">Plan listing<a class="headerlink" href="#plan-listing" title="Permanent link">#</a></h3>
+<ol>
+<li>Click the <strong>Plan listing</strong> menu item on the left. </li>
+<li>For <strong>Plan summary</strong>, enter "Silver plan summary".</li>
+<li>For the <strong>Plan description</strong>, enter "Silver plan description".</li>
+<li>Click the <strong>Save Draft</strong> button at the bottom of the screen.</li>
+</ol>
+<h3 id="pricing-and-availability">Pricing and availability<a class="headerlink" href="#pricing-and-availability" title="Permanent link">#</a></h3>
+<ol>
+<li>Click the <strong>Pricing and availability</strong> menu item on the left. </li>
+<li>In the <strong>Markets</strong> section, click the <strong>Edit markets</strong> link. you must select at least one market in which your plan will be available for purchase. Most users will select "United States."</li>
+<li>Select a market.</li>
+<li>Click the <strong>Save</strong> button.</li>
+</ol>
+<blockquote>
+<p>⚠️ In the <strong>Pricing</strong> section you will enter prices of $0 because you don't want this workshop to cost you money when you buy your offer later.</p>
+</blockquote>
+<ul>
+<li>For <strong>Price</strong>, enter 0.</li>
+</ul>
+<p>In this section, we are going to have you do something that will be explained later in the day. It needs to be done upon plan creation, so you will do it now.</p>
+<ol>
+<li>Under the <strong>Marketplace Metering Service dimensions</strong> section, click <strong>Add a Custom Meter Dimension</strong>.<ol>
+<li>The <strong>Enabled</strong> checkbox is selected. </li>
+<li>For <strong>ID</strong>, enter "scan-1-page".</li>
+<li>For <strong>Display name</strong>, enter "Scan a page".</li>
+<li>For <strong>Unit of measure</strong>, enter "Scanned page".</li>
+<li>For <strong>Price Per</strong> unit, enter 0.0</li>
+<li>For <strong>Monthly included in price</strong>, enter 1000.</li>
+</ol>
+</li>
+<li>Click <strong>Add another Dimension</strong>.<ol>
+<li>The <strong>Enabled</strong> checkbox is selected. </li>
+<li>For <strong>ID</strong>, enter "write-to-emr".</li>
+<li>For <strong>Display name</strong>, enter "EMR Write".</li>
+<li>For <strong>Unit of measure</strong>, enter "EMR Write".</li>
+<li>For <strong>Price Per</strong> unit, enter 0.0</li>
+<li>For <strong>Monthly included in price</strong>, enter 500.</li>
+</ol>
+</li>
+</ol>
+<p>Your dimensions should look like this.</p>
+<table>
+<thead>
+<tr>
+<th>Enabled</th>
+<th>ID</th>
+<th>Display Name</th>
+<th>Unit of Measure</th>
+<th>Price per unit in USD</th>
+<th>Monthly quantity included in base</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Checked</td>
+<td>scan-1-page</td>
+<td>Scan a page</td>
+<td>Scanned page</td>
+<td>0.0</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Checked</td>
+<td>write-to-emr</td>
+<td>EMR Write</td>
+<td>EMR Write</td>
+<td>0.0</td>
+<td>500</td>
+</tr>
+</tbody>
+</table>
+<p>Click the <strong>Save Draft</strong> button at the bottom of the screen.</p>
+<h3 id="technical-configuration">Technical configuration<a class="headerlink" href="#technical-configuration" title="Permanent link">#</a></h3>
+<p>In this section, you specify details about your plan needed to create the application at deployment time.</p>
+<ol>
+<li>Under <strong>Package details</strong>, enter "0.0.1" for version.</li>
+<li>For <strong>Package file (.zip)</strong> you will upload a ZIP file containing the deployment package needed. You may drag an drop or click to brose to the ZIP file.<ol>
+<li>There is a file in the <code>lab-1-partner-center\assets</code> assets folder named <code>silver-plan-deployment-package.zip</code>. Upload it.</li>
+</ol>
+</li>
+<li>Navigate to the <strong>Public Azure</strong> section near the bottom of the screen.<ol>
+<li>For the <strong>Microsoft Entra tenant ID</strong> section, enter your Tenant ID from the Azure portal. If you aren't sure how to find your Tenant ID, <a href="#finding-your-tenant-id">click here</a> and then come back to this section when you are done.</li>
+<li>For the <strong>Authorizations</strong> section, under <strong>Principal ID</strong>, enter the ID of your own account from the Azure portal. If you aren't sure how to find your account ID, <a href="#finding-your-user-account-id">click here</a> and come back to this section when you are done.</li>
+<li>For <strong>Role definition</strong>, select <strong>Owner</strong>.</li>
+</ol>
+</li>
+<li>Click the <strong>Save draft</strong> button at the bottom of the screen.</li>
+</ol>
+<h2 id="check-your-offer">Check your offer<a class="headerlink" href="#check-your-offer" title="Permanent link">#</a></h2>
+<ol>
+<li>At the bottom of the screen, click the <strong>Review and publish</strong> button.</li>
+<li>All circles to the right should be green with a check box in them. If any are grey, fix that section and come back to <strong>Review and publish changes</strong>.</li>
+</ol>
+<blockquote>
+<p>🛑 <strong>DO NOT</strong> publish your offer yet. It still needs more configuration, which you'll do in a future lab.</p>
+</blockquote>
+<h2 id="conclusion">Conclusion<a class="headerlink" href="#conclusion" title="Permanent link">#</a></h2>
+<p>Congratulations, you have completed Lab 1, the longest lab in the workshop. Other labs will build upon what you have done here in this lab. </p>
+<p>👈 <a href="../../#labs">Back to Azure Managed Applications labs</a></p>
+<h2 id="appendix">Appendix<a class="headerlink" href="#appendix" title="Permanent link">#</a></h2>
+<h3 id="finding-your-tenant-id">Finding your Tenant ID<a class="headerlink" href="#finding-your-tenant-id" title="Permanent link">#</a></h3>
+<ol>
+<li>Open the <strong>Azure portal</strong>.</li>
+<li>In the search box at the top of the page, type <strong>Tenant</strong>.</li>
+<li>Select <strong>Tenant properties</strong> from the drop down menu.</li>
+<li>Find the <strong>Tenant ID</strong> field and copy it to your clipboard.</li>
+</ol>
+<h3 id="finding-your-user-account-id">Finding your user account ID<a class="headerlink" href="#finding-your-user-account-id" title="Permanent link">#</a></h3>
+<ol>
+<li>Open the <strong>Azure portal</strong>.</li>
+<li>In the search box at the top of the page, type <strong>Users</strong>.</li>
+<li>Select <strong>Users</strong> from the dropdown menu.</li>
+<li>Search for your user account and click on it.</li>
+<li>Find the <strong>Object ID</strong> and copy it to your clipboard.</li>
+</ol>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        ﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="col-1">
+                <hr>
+                <p class="site-footer__copyright">Copyright &copy; 2024. - Microsoft, Inc. <br>All rights reserved.</p>
+
+            </div><!-- /.col -->
+            <div class="col-2">
+                <img alt="Microsoft Azure logo." src="/Mastering-the-Marketplace/assets/logo-footer.png" class="site-footer__logoimage">
+            </div><!-- /.col -->
+        </div>
+    </footer><!-- /.site-footer -->
+
+</body>
+</html>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.sections", "navigation.expand"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

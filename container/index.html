@@ -1,0 +1,1051 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="This course will take you from working with a local app through publishing a Container Offer to the Microsoft commercial marketplace.">
+      
+      
+      
+        <link rel="canonical" href="https://microsoft.github.io/Mastering-the-Marketplace/container/">
+      
+      
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Mastering Container offers for Kubernetes apps - Mastering the Marketplace</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-QFBKKPKXNV"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-QFBKKPKXNV",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-QFBKKPKXNV",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  <meta content="https://blogs.microsoft.com/wp-content/uploads/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" property="image">
+  <meta content="https://blogs.microsoft.com/wp-content/uploads/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" property="og:image">
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#0078D4" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#container-offer-for-kubernetes-apps-overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://microsoft.github.io/Mastering-the-Marketplace/" title="Mastering the Marketplace" class="md-header__button md-logo" aria-label="Mastering the Marketplace" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 32h214.6v214.6H0zm233.4 0H448v214.6H233.4zM0 265.4h214.6V480H0zm233.4 0H448V480H233.4z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mastering the Marketplace
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Mastering Container offers for Kubernetes apps
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/microsoft/Mastering-the-Marketplace" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    microsoft/Mastering-the-Marketplace
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://microsoft.github.io/Mastering-the-Marketplace/" title="Mastering the Marketplace" class="md-nav__button md-logo" aria-label="Mastering the Marketplace" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 32h214.6v214.6H0zm233.4 0H448v214.6H233.4zM0 265.4h214.6V480H0zm233.4 0H448V480H233.4z"/></svg>
+
+    </a>
+    Mastering the Marketplace
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/microsoft/Mastering-the-Marketplace" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    microsoft/Mastering-the-Marketplace
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas/general-topics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas/dev" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS for developers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas-accelerator" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS Accelerator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/ama" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managed Applications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/vm" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Virtual Machines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/container" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Container offers for K8s apps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/pro-services" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Professional Service offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Partner Center
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Partner Center
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/private-offers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Private offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/pc-general" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General topics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/pc-create-offers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/pc-insights" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reporting and insights
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Bonus content
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Bonus content
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/customers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    For customers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/biz" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Doing business in the marketplace
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    More resources
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            More resources
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/biz/select-offer-type" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🌐 Choose your offer type
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aka.ms/MTMwebinars" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🖥️ Live webinars
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/misc/change-log" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🗒️ Site change log
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://forms.office.com/r/0gCrzhSMkw" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ✉️ Contact us
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#container-offer-for-kubernetes-apps-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Container offer for Kubernetes apps overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#container-offer-billing-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Container offer billing overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#container-offer-technical-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Container offer technical overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deploying-solution-images-to-an-azure-container-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying solution images to an Azure Container Registry
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scanning-container-images-for-vulnerabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scanning container images for vulnerabilities
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparing-cnab-bundle-artifacts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Preparing CNAB bundle artifacts
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generating-the-cnab-bundle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Generating the CNAB bundle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-a-container-offer-in-partner-center" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a container offer in Partner Center
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-a-container-offer-plan-in-partner-center" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create a container offer plan in Partner Center
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subscribe-to-a-kubernetes-app-in-the-commercial-marketplace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subscribe to a Kubernetes app in the Commercial Marketplace
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unsubscribe-from-a-purchased-kubernetes-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unsubscribe from a purchased Kubernetes app
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#securing-virtual-machines-and-containers-for-certification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Securing virtual machines and containers for certification
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hands-on-labs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hands-on labs
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Mastering Container offers for Kubernetes apps</h1>
+
+<p>This course covers transactable container offers that are designed for deploying solutions into Azure Kubernetes Service (AKS) within the customer's subscription.</p>
+<p>With a focus on practical demonstrations, this learning path provides a comprehensive understanding of the offer type, from overview to in-depth insights.</p>
+<blockquote>
+<p><strong>Notices about this course</strong></p>
+<p>❗This course references the ARM template <code>cluster-deployment.json</code> in many places. Although using this filename will work, the recommended filename is <code>mainTemplate.json</code> by convention. The videos linked from this page were created before the recommended change in filename.</p>
+<p>👩‍💻 Terminal commands used in the demos throughout this course are available <a href="demo-steps.sh">here</a>.</p>
+</blockquote>
+<hr />
+<!-- no toc -->
+<ol>
+<li><a href="#container-offer-for-kubernetes-apps-overview">Container offer for Kubernetes apps overview</a></li>
+<li><a href="#container-offer-billing-overview">Container offer billing overview</a></li>
+<li><a href="#container-offer-technical-overview">Container offer technical overview</a></li>
+<li><a href="#deploying-solution-images-to-an-azure-container-registry">Deploying solution images to an Azure Container Registry</a></li>
+<li><a href="#scanning-container-images-for-vulnerabilities">Scanning container images for vulnerabilities</a></li>
+<li><a href="#preparing-cnab-bundle-artifacts">Preparing CNAB bundle artifacts</a></li>
+<li><a href="#generating-the-cnab-bundle">Generating the CNAB bundle</a></li>
+<li><a href="#create-a-container-offer-in-partner-center">Create a container offer in Partner Center</a></li>
+<li><a href="#create-a-container-offer-plan-in-partner-center">Create a container offer plan in Partner Center</a></li>
+<li><a href="#subscribe-to-a-kubernetes-app-in-the-commercial-marketplace">Subscribe to a Kubernetes app in the Commercial Marketplace</a></li>
+<li><a href="#unsubscribe-from-a-purchased-kubernetes-app">Unsubscribe from a purchased Kubernetes app</a></li>
+<li><a href="#securing-virtual-machines-and-containers-for-certification">Securing virtual machines and containers for certification</a></li>
+<li><a href="#hands-on-labs">Hands-on labs</a> 🧪</li>
+</ol>
+<hr />
+<h2 id="container-offer-for-kubernetes-apps-overview">Container offer for Kubernetes apps overview<a class="headerlink" href="#container-offer-for-kubernetes-apps-overview" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/container-offer-for-kubernetes-apps-overview-mp4" target="_blank">Video</a> | <a href="pdfs/01.1-overview-2.pdf">PDF</a></p>
+<p>This video introduces Container Offers for Kubernetes Applications, a transactable offer type in the Azure Marketplace. After viewing this module you’ll understand the terminology used in this marketplace offer type and gain a deeper understanding of publishing one. Present in this module are the following sections.</p>
+<ul>
+<li>About the offer type</li>
+<li>Benefits of the offer type</li>
+<li>Container offers in the marketplace</li>
+</ul>
+<h2 id="container-offer-billing-overview">Container offer billing overview<a class="headerlink" href="#container-offer-billing-overview" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/container-offer-billing-overview-mp4" target="_blank">Video</a> | <a href="pdfs/01.2-billing-overview.pdf">PDF</a></p>
+<p>How to price and bill your solution is such a commonly visited topic that we’re providing a quick module on the subject. In this module you’ll learn about transactable offers, the pricing models for container offers, and the nomenclature of offers and plans.</p>
+<h2 id="container-offer-technical-overview">Container offer technical overview<a class="headerlink" href="#container-offer-technical-overview" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/container-offer-technical-overview-mp4" target="_blank">Video</a> | <a href="pdfs/02.1-technical-overview.pdf">PDF</a></p>
+<p>This module provides a comprehensive technical overview of Container offers for Kubernetes apps. Topics include the following.</p>
+<ul>
+<li>The development lifecycle</li>
+<li>About CNAB bundles</li>
+<li>Packaging the artifacts</li>
+<li>Deploying the final product</li>
+</ul>
+<h2 id="deploying-solution-images-to-an-azure-container-registry">Deploying solution images to an Azure Container Registry<a class="headerlink" href="#deploying-solution-images-to-an-azure-container-registry" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/deploying-solution-images-to-an-azure-container-registry-mp4" target="_blank">Video</a></p>
+<p>This hands-on demo introduces the application to be throughout the course and shows preparing an Azure Container Registry. Finally, you’ll see how to push your solution’s images to your own ACR. Sections include the following.</p>
+<ul>
+<li>Set up an ACR for use with the marketplace</li>
+<li>Run the demo application</li>
+<li>Push application images to an ACR</li>
+</ul>
+<h2 id="scanning-container-images-for-vulnerabilities">Scanning container images for vulnerabilities<a class="headerlink" href="#scanning-container-images-for-vulnerabilities" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/scanning-container-images-for-vulnerabilities-mp4" target="_blank">Video</a></p>
+<p>In this comprehensive demo you’ll learn how to identify vulnerabilities in your images that can prevent your Container offer from passing certification. Not only will you see Microsoft Defender for Cloud in action, but you’ll see how to patch a container and prepare its’ image for publication to an ACR so that it no longer contains vulnerabilities.</p>
+<h2 id="preparing-cnab-bundle-artifacts">Preparing CNAB bundle artifacts<a class="headerlink" href="#preparing-cnab-bundle-artifacts" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/preparing-cnab-bundle-artifacts-mp4" target="_blank">Video</a></p>
+<p>In this hands-on module, learn about the artifacts needed to create your final CNAB bundle. This video explores what they are and looks at some details in each. You’ll see the following.</p>
+<ul>
+<li>Solution files</li>
+<li>Helm chart</li>
+<li>K8s deployment files</li>
+<li>Marketplace deployment files</li>
+<li>The CNAB manifest</li>
+</ul>
+<h2 id="generating-the-cnab-bundle">Generating the CNAB bundle<a class="headerlink" href="#generating-the-cnab-bundle" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/generating-the-cnab-bundle-mp4" target="_blank">Video</a></p>
+<p>This module demonstrates the process of creating a CNAB bundle for publication to the Microsoft commercial marketplace. This video is primarily on the command line and shows using the publicly available CNAB bundling tool available from the Microsoft public Azure Container Registry.</p>
+<h2 id="create-a-container-offer-in-partner-center">Create a container offer in Partner Center<a class="headerlink" href="#create-a-container-offer-in-partner-center" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/creating-a-container-offer-in-partner-center-mp4" target="_blank">Video</a></p>
+<p>In this all-demo module, you’ll see what is needed to create a Container Offer in Partner Center. </p>
+<p>The demo walks through all sections of creating an offer except for creating plans. Plan creation is shown in the next video of the course.</p>
+<h2 id="create-a-container-offer-plan-in-partner-center">Create a container offer plan in Partner Center<a class="headerlink" href="#create-a-container-offer-plan-in-partner-center" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/creating-a-container-offer-in-partner-center-mp4" target="_blank">Video</a></p>
+<p>This module focuses on creating a plan within an already existing offer. </p>
+<p>This hands-on demo walks through setting up a new plan in Partner Center including the technical configuration of the plan, in which we map the CNAB bundle to the new plan.</p>
+<h2 id="subscribe-to-a-kubernetes-app-in-the-commercial-marketplace">Subscribe to a Kubernetes app in the Commercial Marketplace<a class="headerlink" href="#subscribe-to-a-kubernetes-app-in-the-commercial-marketplace" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/subscribing-to-a-kubernetes-app-in-the-commercial-marketplace-mp4" target="_blank">Video</a></p>
+<p>In this brief demo, you see how customers purchase a Kubernetes app and deploy it into their K8s cluster. You’ll see the process from marketplace to deployed and running application.</p>
+<h2 id="unsubscribe-from-a-purchased-kubernetes-app">Unsubscribe from a purchased Kubernetes app<a class="headerlink" href="#unsubscribe-from-a-purchased-kubernetes-app" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/unsubscribing-from-a-kubernetes-app-that-you-purchased-mp4" target="_blank">Video</a></p>
+<p>In this walkthrough video, you’ll see how to get rid of an application you may have purchased, and stop being billed for that app. We use the command line with the az CLI and KubeCtl to perform these operations.</p>
+<h2 id="securing-virtual-machines-and-containers-for-certification">Securing virtual machines and containers for certification<a class="headerlink" href="#securing-virtual-machines-and-containers-for-certification" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/securing-vms-and-containers-for-certification-mp4" target="_blank">Video</a> | <a href="pdfs/0.0-securing-vm-and-container-images-overview.pdf">PDF</a></p>
+<p>The last thing you want is to create and publish an offer only to have it fail Microsoft’s certification process. This module provides important tips and effective practices for securing virtual machines and containers before publication to the Azure Marketplace, so your offer makes it through certification the first time.</p>
+<h2 id="hands-on-labs">Hands-on labs<a class="headerlink" href="#hands-on-labs" title="Permanent link">#</a></h2>
+<p>To perform the hands-on labs, visit <a href="https://github.com/Azure/mtm-labs">this GitHub repository</a>, which is home to the Mastering the Marketplace labs.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        ﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="col-1">
+                <hr>
+                <p class="site-footer__copyright">Copyright &copy; 2024. - Microsoft, Inc. <br>All rights reserved.</p>
+
+            </div><!-- /.col -->
+            <div class="col-2">
+                <img alt="Microsoft Azure logo." src="/Mastering-the-Marketplace/assets/logo-footer.png" class="site-footer__logoimage">
+            </div><!-- /.col -->
+        </div>
+    </footer><!-- /.site-footer -->
+
+</body>
+</html>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.expand"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

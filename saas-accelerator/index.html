@@ -1,0 +1,1092 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="This series of video modules and hands-on labs is designed to help you understand, install, use, and customize the SaaS Accelerator project. The SaaS Accelerator provides a fully functional community-led SaaS reference implementation for those interested in publishing transactable SaaS offers in Microsoft's marketplace in hours instead of days.">
+      
+      
+      
+        <link rel="canonical" href="https://microsoft.github.io/Mastering-the-Marketplace/saas-accelerator/">
+      
+      
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Mastering the SaaS Accelerator - Mastering the Marketplace</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-QFBKKPKXNV"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-QFBKKPKXNV",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-QFBKKPKXNV",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  <meta content="https://blogs.microsoft.com/wp-content/uploads/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" property="image">
+  <meta content="https://blogs.microsoft.com/wp-content/uploads/2012/08/8867.Microsoft_5F00_Logo_2D00_for_2D00_screen.jpg" property="og:image">
+
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="#0078D4" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#saas-accelerator-introduction" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://microsoft.github.io/Mastering-the-Marketplace/" title="Mastering the Marketplace" class="md-header__button md-logo" aria-label="Mastering the Marketplace" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 32h214.6v214.6H0zm233.4 0H448v214.6H233.4zM0 265.4h214.6V480H0zm233.4 0H448V480H233.4z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mastering the Marketplace
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Mastering the SaaS Accelerator
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/microsoft/Mastering-the-Marketplace" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    microsoft/Mastering-the-Marketplace
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://microsoft.github.io/Mastering-the-Marketplace/" title="Mastering the Marketplace" class="md-nav__button md-logo" aria-label="Mastering the Marketplace" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 32h214.6v214.6H0zm233.4 0H448v214.6H233.4zM0 265.4h214.6V480H0zm233.4 0H448V480H233.4z"/></svg>
+
+    </a>
+    Mastering the Marketplace
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/microsoft/Mastering-the-Marketplace" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    microsoft/Mastering-the-Marketplace
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas/general-topics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas/dev" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS for developers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/saas-accelerator" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    SaaS Accelerator
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/ama" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managed Applications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/vm" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Virtual Machines
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/container" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Container offers for K8s apps
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/pro-services" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Professional Service offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Partner Center
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Partner Center
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/private-offers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Private offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/pc-general" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General topics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/pc-create-offers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating offers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/partner-center/pc-insights" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reporting and insights
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Bonus content
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Bonus content
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/customers" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    For customers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/biz" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Doing business in the marketplace
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    More resources
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            More resources
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/biz/select-offer-type" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🌐 Choose your offer type
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://aka.ms/MTMwebinars" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🖥️ Live webinars
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/Mastering-the-Marketplace/misc/change-log" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    🗒️ Site change log
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://forms.office.com/r/0gCrzhSMkw" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ✉️ Contact us
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#saas-accelerator-introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      SaaS Accelerator introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saas-accelerator-hands-on-tour" class="md-nav__link">
+    <span class="md-ellipsis">
+      SaaS Accelerator hands-on tour
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saas-accelerator-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      SaaS Accelerator architecture
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installing the SaaS Accelerator with the Azure portal cloud shell
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-the-saas-accelerator-from-the-azure-marketplace" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installing the SaaS Accelerator from the Azure Marketplace
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-email-in-the-saas-accelerator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuring email in the SaaS Accelerator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#invoking-metered-billing-with-the-saas-accelerator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Invoking metered billing with the SaaS Accelerator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scheduling-metered-billing-events" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scheduling metered billing events
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#custom-landing-page-fields-with-the-saas-accelerator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Custom landing page fields with the SaaS Accelerator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-a-development-environment-for-the-saas-accelerator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up a development environment for the SaaS Accelerator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#replacing-application-secrets-for-the-saas-accelerator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Replacing application secrets for the SaaS Accelerator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-external-notification-feature" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using the external notification feature
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hands-on-labs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hands-on labs
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Mastering the SaaS Accelerator</h1>
+
+<p>The SaaS Accelerator is offered under the MIT License as open source software and is <strong>not supported by Microsoft</strong>. </p>
+<p><strong>If you need help</strong> with the accelerator or would like to report defects or feature requests use the Issues feature on <a href="https://aka.ms/SaaSAccelerator">the GitHub repository</a>.</p>
+<p>This learning path provides in-depth learning for creating software as a service (SaaS) offers on the Azure Marketplace using the <a href="https://aka.ms/SaaSAccelerator">SaaS Accelerator project</a>.</p>
+<p>Comprehensive training videos cover each topic in detail, providing step-by-step guidance on the accelerator. You'll learn about how to install and use the tool to meet marketplace SaaS offer requirements and manage your customer's subscriptions.</p>
+<p>You'll also learn how to use this powerful tool to streamline development and customize your SaaS offers to meet the unique needs of your customers.</p>
+<hr />
+<!-- no toc -->
+<ol>
+<li><a href="#saas-accelerator-introduction">SaaS Accelerator introduction</a></li>
+<li><a href="#saas-accelerator-hands-on-tour">SaaS Accelerator hands-on tour</a></li>
+<li><a href="#saas-accelerator-architecture">SaaS Accelerator architecture</a></li>
+<li><a href="#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell">Installing the SaaS Accelerator with the Azure portal cloud shell</a></li>
+<li><a href="#installing-the-saas-accelerator-from-the-azure-marketplace">Installing the SaaS Accelerator from the Azure Marketplace</a></li>
+<li><a href="#configuring-email-in-the-saas-accelerator">Configuring email in the SaaS Accelerator</a></li>
+<li><a href="#invoking-metered-billing-with-the-saas-accelerator">Invoking metered billing with the SaaS Accelerator</a></li>
+<li><a href="#scheduling-metered-billing-events">Scheduling metered billing events</a></li>
+<li><a href="#custom-landing-page-fields-with-the-saas-accelerator">Custom landing page fields with the SaaS Accelerator</a></li>
+<li><a href="#setting-up-a-development-environment-for-the-saas-accelerator">Setting up a development environment for the SaaS Accelerator</a></li>
+<li><a href="#replacing-application-secrets-for-the-saas-accelerator">Replacing application secrets for the SaaS Accelerator</a></li>
+<li><a href="#using-the-external-notification-feature">Using the external notification feature</a></li>
+<li><a href="#hands-on-labs">Hands-on labs</a></li>
+</ol>
+<hr />
+<h2 id="saas-accelerator-introduction">SaaS Accelerator introduction<a class="headerlink" href="#saas-accelerator-introduction" title="Permanent link">#</a></h2>
+<p><a target="_blank" href="https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-introduction-mp4">Video</a></p>
+<p>This short video introduces the <a href="https://aka.ms/SaaSAccelerator" target="blank">SaaS Accelerator</a>, a tool for integrating your SaaS offer with the Microsoft commercial marketplace. </p>
+<p>This powerful solution meets all the technical requirements for SaaS offers in the marketplace and more! Learn about the SaaS Accelerator and how you can get started in under 15 minutes without writing code.</p>
+<h2 id="saas-accelerator-hands-on-tour">SaaS Accelerator hands-on tour<a class="headerlink" href="#saas-accelerator-hands-on-tour" title="Permanent link">#</a></h2>
+<p><a target="_blank" href="https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-hands-on-tour-mp4">Video</a></p>
+<p>This introduction to the accelerator demonstrates the SaaS Accelerator's core capabilities showing why it may be a good choice for your marketplace SaaS offer. </p>
+<p>In three short demos, this video shows its fundamental capabilities. You'll see the landing page, the publisher's subscription management portal, and the customer's subscription management capabilities in action!</p>
+<ul>
+<li>Landing Page Demo</li>
+<li>Publisher Subscription Management Portal</li>
+<li>Customer Subscription Management</li>
+</ul>
+<h2 id="saas-accelerator-architecture">SaaS Accelerator architecture<a class="headerlink" href="#saas-accelerator-architecture" title="Permanent link">#</a></h2>
+<p><a target="_blank" href="https://partner.microsoft.com/en-us/training/assets/detail/saas-accelerator-architecture-mp4">Video</a> | <a href="./pdfs/03-architecture.pdf">PDF</a></p>
+<p>This quick video covers the overall architecture of the SaaS Accelerator. </p>
+<p>The architecture is straightforward and is explained in plain language appropriate for those with any level of experience with Azure.</p>
+<h2 id="installing-the-saas-accelerator-with-the-azure-portal-cloud-shell">Installing the SaaS Accelerator with the Azure portal cloud shell<a class="headerlink" href="#installing-the-saas-accelerator-with-the-azure-portal-cloud-shell" title="Permanent link">#</a></h2>
+<p><a target="_blank" href="https://partner.microsoft.com/en-us/training/assets/detail/installing-the-saas-accelerator-with-the-azure-portal-cloud-shell-mp4">Video</a></p>
+<p>Installing the SaaS Accelerator is straightforward. This module walks you through from beginning to end the steps necessary to get the SaaS Accelerator up and running. It covers initial installati9on via the Azure cloud shell, configuring Partner Center, and even updating your SaaS Accelerator installation to a new version.</p>
+<p>Follow along and you will be up and running with the SaaS Accelerator in no time!</p>
+<blockquote>
+<p><strong>Special note:</strong> Find the latest cloud shell install script for the SaaS Accelerator here.
+<a href="https://github.com/Azure/Commercial-Marketplace-SaaS-Accelerator/blob/main/docs/Installation-Instructions.md#basic-installation-script" target="_blank">Latest install script</a></p>
+</blockquote>
+<ul>
+<li>A typical installation</li>
+<li>Configuring Partner Center</li>
+<li>What got deployed</li>
+<li>Updating an existing installation</li>
+</ul>
+<h2 id="installing-the-saas-accelerator-from-the-azure-marketplace">Installing the SaaS Accelerator from the Azure Marketplace<a class="headerlink" href="#installing-the-saas-accelerator-from-the-azure-marketplace" title="Permanent link">#</a></h2>
+<p><a target="_blank" href="https://partner.microsoft.com/en-us/training/assets/detail/installing-the-saas-accelerator-from-the-azure-marketplace-mp4">Video</a></p>
+<p>The SaaS Accelerator may be installed directly from the Azure Marketplace. </p>
+<p>Although the process involves several steps, it may be the right install path for you, and this video walks through all the required steps to get the SaaS Accelerator working from its offer in the Azure Marketplace.</p>
+<ul>
+<li>Prerequisites</li>
+<li>Step 1: Preinstallation</li>
+<li>Step 2: Installation</li>
+<li>Step 3: Post-installation</li>
+<li>Updating an existing installation</li>
+<li>Demo all steps</li>
+</ul>
+<h2 id="configuring-email-in-the-saas-accelerator">Configuring email in the SaaS Accelerator<a class="headerlink" href="#configuring-email-in-the-saas-accelerator" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/configuring-email-in-the-saas-accelerator-mp4" target="_blank">Video</a></p>
+<p>You will likely want to receive email when a subscription changes state. For example, when a someone unsubscribes from your offer. </p>
+<p>This video shows how to configure the email setting within the SaaS Accelerator and get those notifications coming right to your inbox.</p>
+<ul>
+<li>Demo with SendGrid</li>
+<li>Demo with admin portal</li>
+</ul>
+<h2 id="invoking-metered-billing-with-the-saas-accelerator">Invoking metered billing with the SaaS Accelerator<a class="headerlink" href="#invoking-metered-billing-with-the-saas-accelerator" title="Permanent link">#</a></h2>
+<p><a target="_blank" href="https://partner.microsoft.com/en-us/training/assets/detail/invoking-metered-billing-with-the-saas-accelerator-mp4">Video</a></p>
+<p>We look at the metered billing capabilities of the SaaS Accelerator for the Azure Marketplace. </p>
+<p>This video shows how to manually invoke metered billing events from the SaaS Accelerator without needing to integrate your solution with the SaaS Metering APIs.</p>
+<ul>
+<li>Metered Billing on Partner Center</li>
+<li>Metered Billing on Publisher Portal</li>
+</ul>
+<h2 id="scheduling-metered-billing-events">Scheduling metered billing events<a class="headerlink" href="#scheduling-metered-billing-events" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/scheduling-metered-billing-events-mp4" target="_blank">Video</a></p>
+<p>This module introduces the metered billing scheduler feature of the SaaS Accelerator, used to schedule calls to the metered billing service right from within the publisher portal. Learn about the feature, how to enable it, how to schedule a billing event and how to troubleshoot common issues.</p>
+<p>This video applies to <strong>version 7.5.0 and above</strong> of the SaaS Accelerator. If you are running an earlier version, please see the video on installing the accelerator for instructions on how to upgrade your installation.</p>
+<ul>
+<li>About the scheduler </li>
+<li>Enabling the feature in the publisher portal </li>
+<li>Scheduling a billing event </li>
+<li>Monitoring and logging </li>
+</ul>
+<h2 id="custom-landing-page-fields-with-the-saas-accelerator">Custom landing page fields with the SaaS Accelerator<a class="headerlink" href="#custom-landing-page-fields-with-the-saas-accelerator" title="Permanent link">#</a></h2>
+<p><a target="_blank" href="https://partner.microsoft.com/en-us/training/assets/detail/custom-landing-page-fields-with-the-saas-accelerator-mp4">Video</a></p>
+<p>In addition to showing your subscribers information about their subscription when they arrive at your landing page, you may also want to capture some information from them. This is possible using custom fields on the landing page and this short video shows you how to use them.</p>
+<h2 id="setting-up-a-development-environment-for-the-saas-accelerator">Setting up a development environment for the SaaS Accelerator<a class="headerlink" href="#setting-up-a-development-environment-for-the-saas-accelerator" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/setting-up-a-development-environment-for-the-saas-accelerator-mp4" target="_blank">Video</a> | <a href="pdfs/08-setting-up-a-dev-env.pdf">PDF</a></p>
+<p>If you want to customize the SaaS Accelerator to suit your environment, it can be a somewhat involved process. </p>
+<p>This video takes you from installing the accelerator, to debugging locally, through re-deploying it with your own code. The video is rather lengthy, so use the chapter links below to skip to the exact section you want to see.</p>
+<ul>
+<li>Deploying to Azure and Partner Center</li>
+<li>Configure Azure resources for local development</li>
+<li>Getting the code from GitHub</li>
+<li>Configuring local project settings</li>
+<li>Running the admin site locally</li>
+<li>Running the landing page site locally</li>
+<li>Deploying changes to Azure</li>
+</ul>
+<h2 id="replacing-application-secrets-for-the-saas-accelerator">Replacing application secrets for the SaaS Accelerator<a class="headerlink" href="#replacing-application-secrets-for-the-saas-accelerator" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/replacing-application-secrets-for-the-saas-accelerator-mp4" target="_blank">Video</a> | <a href="pdfs/10-renewing-application-secrets.pdf">PDF</a></p>
+<p>Learn how to replace application secrets for the SaaS Accelerator. </p>
+<p>The video is packed with demos that show you step-by-step how to replace your application secrets before they expire, causing errors on your landing page and admin portal. If you're experiencing these issues, this video will guide you through the process of correcting them, ensuring your SaaS Accelerator is running smoothly.</p>
+<ul>
+<li>Impact of an expired application secret</li>
+<li>Steps of replacing secrets in Key Vault</li>
+<li>Demo: replacing secrets in Key Vault</li>
+<li>Steps of replacing secrets in App Service config</li>
+<li>Demo: Replacing secrets in App Service config</li>
+</ul>
+<h2 id="using-the-external-notification-feature">Using the external notification feature<a class="headerlink" href="#using-the-external-notification-feature" title="Permanent link">#</a></h2>
+<p><a href="https://partner.microsoft.com/en-us/training/assets/detail/using-the-external-notification-feature-mp4" target="_blank">Video</a> | <a href="pdfs/12-setup-external-notification.pdf">PDF</a></p>
+<p>The external notification feature feature enables publishers to set up an external notification URL to receive event notifications for specific actions performed by customers. Publishers can configure the URL to which notifications will be sent.</p>
+<p>This SaaS Accelerator feature enables publishers to integrate automated workflows between the SaaS Accelerator and their internal systems, allowing for scenarios such as automated creation of customer accounts.</p>
+<ul>
+<li>The external notification feature</li>
+<li>Feature demo</li>
+</ul>
+<h2 id="hands-on-labs">Hands-on labs<a class="headerlink" href="#hands-on-labs" title="Permanent link">#</a></h2>
+<p>To perform the hands-on labs, visit <a href="https://github.com/Azure/mtm-labs">this GitHub repository</a>, which is home to the Mastering the Marketplace labs.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        ﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="col-1">
+                <hr>
+                <p class="site-footer__copyright">Copyright &copy; 2024. - Microsoft, Inc. <br>All rights reserved.</p>
+
+            </div><!-- /.col -->
+            <div class="col-2">
+                <img alt="Microsoft Azure logo." src="/Mastering-the-Marketplace/assets/logo-footer.png" class="site-footer__logoimage">
+            </div><!-- /.col -->
+        </div>
+    </footer><!-- /.site-footer -->
+
+</body>
+</html>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.sections", "navigation.expand"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
