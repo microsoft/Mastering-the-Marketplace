@@ -16,7 +16,7 @@ The Azure Marketplace enables several types of deployment architectures. Are you
 
 **<a href="https://partner.microsoft.com/en-us/training/assets/detail/choosing-your-azure-marketplace-offer-type-mp4" target="_blank">Video walkthrough</a>**
 
-![Find your offer type](./assets/0.03-choose-offer-type.png)
+![Find your offer type](./assets/0.04-choose-offer-type.png)
 
 ## Supporting content
 

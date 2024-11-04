@@ -11,6 +11,7 @@ hide:
 
 | Date | Change |
 ---| ---|
+| 10/30 | [Choose your offer type](../biz/select-offer-type.md) (update) |
 | 8/4/2024 | [Professional Service offers overview](../pro-services/index.md#professional-service-offers-overview) (new) |
 | 8/4/2024 | [Publishing a Professional Service offer supporting your software](../pro-services/index.md#publishing-a-professional-service-offer-supporting-your-software) (new) |
 | 8/4/2024 | [Publishing a Professional Service offer supporting Microsoft software](../pro-services/index.md#publishing-a-professional-service-offer-supporting-microsoft-software) (new) |
