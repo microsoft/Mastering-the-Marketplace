@@ -14,9 +14,7 @@ If you are deciding which offer type you will be creating, this page is for you.
 
 The Azure Marketplace enables several types of deployment architectures. Are you unsure of which type of offer you need to bring your solution to the Microsoft commercial marketplace? The following model walks through which offer type is a good fit for your solution.
 
-**<a href="https://partner.microsoft.com/en-us/training/assets/detail/choosing-your-azure-marketplace-offer-type-mp4" target="_blank">Video walkthrough</a>**
-
-![Find your offer type](./assets/0.04-choose-offer-type.png)
+![Find your offer type](./assets/select_offer_type_02-20-25.jpg)
 
 ## Supporting content
 
