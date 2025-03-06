@@ -32,7 +32,7 @@ Learn about the Flexible Billing feature for Private Offers in the Azure marketp
 
 ## Configure flexible billing on customer private offers
 
-<a href="https://youtu.be/eB3GZGHf9IA" target="_blank">Video</a>
+<a href="https://aka.ms/AAuljfr" target="_blank">Video</a>
 
 This demo-heavy video shows ISVs how to create a direct Customer Private Offers with a Flexible Billing schedule. This video covers:
 
@@ -42,7 +42,7 @@ This demo-heavy video shows ISVs how to create a direct Customer Private Offers 
 
 ## Configure flexible billing for multiparty private offers
 
-<a href="https://youtu.be/TfplLKxwSBY" target="_blank">Video</a>
+<a href="https://aka.ms/AAuljfs" target="_blank">Video</a>
 
 This demo video shows how to create Multi-party Private Offers with Flexible Billing. This topic is valuable for ISVs and Channel Partners. This video includes the following.
 
@@ -51,7 +51,7 @@ This demo video shows how to create Multi-party Private Offers with Flexible Bil
 
 ## The flexible billing customer experience
 
-<a href="https://youtu.be/jVemNMgXBLU" target="_blank">Video</a>
+<a href="https://aka.ms/AAumc8b" target="_blank">Video</a>
 
 This demo-only video shows the Customer purchase experience for a Marketplace Private offer which has a Flexible billing setup. This video is valuable to ISVs and Customers.
 
