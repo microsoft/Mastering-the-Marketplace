@@ -14,7 +14,7 @@ buttons:
       external_url: true
 
 grid_navigation:
-    - title: Build Custom SaaS offers 9for developers)
+    - title: Build Custom SaaS offers for developers
       excerpt: How to build your own SaaS solution for the Azure Marketplace
       cta: Take me to it
       url: 'https://aka.ms/MasteringTheMarketplace/saasdev'

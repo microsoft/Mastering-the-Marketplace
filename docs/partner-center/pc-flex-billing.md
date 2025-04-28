@@ -5,14 +5,14 @@ keywords: Azure AppSource Marketplace Partner Center
 comments: false
 
 # Hero section
-title: Flexible billing for private offers preview
-description: Flexible billing for private offers preview
+title: Flexible billing for private offers
+description: Flexible billing for private offers
 
 hide:
   - toc
 ---
 
-These videos focus on the flexible billing for private offers feature currently available in preview only.
+These videos focus on the flexible billing for private offers feature currently available.
 
 1. [Flexible billing for private offers overview](#flexible-billing-for-private-offers-overview)
 1. [Configure flexible billing on customer private offers](#configure-flexible-billing-on-customer-private-offers)
