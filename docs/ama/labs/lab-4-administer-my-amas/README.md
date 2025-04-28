@@ -33,7 +33,7 @@ In [Lab 3](../lab-3-purchasing-ama/README.md), you purchased your Gold plan and 
 
 ## Conclusion
 
-Congratulations, you have complete Lab 3! In this lab you did the following.
+Congratulations, you have complete Lab 4! In this lab you did the following.
 
 1. Got familiar with the Managed Application dashboard.
 2. Deleted a managed application and showed that it deleted the corresponding resources associated with it.
