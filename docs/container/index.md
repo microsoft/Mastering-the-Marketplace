@@ -1,6 +1,6 @@
 ---
 # Page settings
-layout: default
+layout: default.
 keywords: Azure AppSource Marketplace Container Offer
 comments: false
 
@@ -116,7 +116,7 @@ The demo walks through all sections of creating an offer except for creating pla
 
 ## Create a container offer plan in Partner Center
 
-<a href="https://partner.microsoft.com/en-us/training/assets/detail/creating-a-container-offer-in-partner-center-mp4" target="_blank">Video</a>
+<a href="https://partner.microsoft.com/en-us/training/assets/detail/creating-a-container-offer-plan-in-partner-center-mp4" target="_blank">Video</a>
 
 This module focuses on creating a plan within an already existing offer. 
 
