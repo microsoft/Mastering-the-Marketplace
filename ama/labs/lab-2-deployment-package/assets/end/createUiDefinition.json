@@ -1,0 +1,152 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/0.1.2-preview/CreateUIDefinition.MultiVm.json#",
+    "handler": "Microsoft.Azure.CreateUIDef",
+    "version": "0.1.2-preview",
+    "parameters": {
+        "basics": [],
+        "steps": [
+            {
+                "name": "storageConfigBlade",
+                "label": "Storage account settings",
+                "bladeTitle": "Storage account settings",
+                "elements": [
+                    {
+                        "name": "storageAccount",
+                        "type": "Microsoft.Storage.MultiStorageAccountCombo",
+                        "label": {
+                            "prefix": "Storage account prefix",
+                            "type": "Storage account type"
+                        },
+                        "toolTip": {
+                            "prefix": "The prefix of the storage account",
+                            "type": "The type of storage account"
+                        },
+                        "defaultValue": {
+                            "type": "Standard_LRS"
+                        },
+                        "constraints": {
+                            "allowedTypes": [
+                                "Premium_LRS",
+                                "Standard_LRS",
+                                "Standard_GRS"
+                            ]
+                        },
+                        "count": 2
+                    }
+                ]
+            },
+            {
+                "name": "vmBlade",
+                "bladeTitle": "Virtual Machine",
+                "label": "Virtual Machine",
+                "elements": [
+                    {
+                        "name": "vmName",
+                        "type": "Microsoft.Common.TextBox",
+                        "label": "Machine name",
+                        "placeholder": "Virtual machine name",
+                        "defaultValue": "",
+                        "toolTip": "Use only allowed characters",
+                        "constraints": {
+                            "required": true,
+                            "regex": "^[a-z0-9A-Z]{5,15}$",
+                            "validationMessage": "Only alphanumeric characters are allowed, and the value must be 5-15 characters long."
+                        },
+                        "visible": true
+                    },
+                    {
+                        "name": "adminUsername",
+                        "type": "Microsoft.Compute.UserNameTextBox",
+                        "label": "Admin Username",
+                        "toolTip": "The username of the admin user for the VM",
+                        "constraints": {
+                            "required": true,
+                            "regex": "^[a-z0-9A-Z]{1,30}$",
+                            "validationMessage": "Only alphanumeric characters are allowed, and the value must be 1-30 characters long."
+                        },
+                        "osPlatform": "Windows",
+                        "visible": true
+                    },
+                    {
+                        "name": "adminPassword",
+                        "type": "Microsoft.Common.PasswordBox",
+                        "label": {
+                            "password": "Password",
+                            "confirmPassword": "Confirm password"
+                        },
+                        "toolTip": "Password for the VM",
+                        "constraints": {
+                            "required": true,
+                            "regex": "^[a-zA-Z0-9]{12}$",
+                            "validationMessage": "Password must be exactly 12 characters long and contain only numbers and letters"
+                        },
+                        "options": {
+                            "hideConfirmation": false
+                        },
+                        "visible": true
+                    },
+                    {
+                        "name": "operatingSystem",
+                        "type": "Microsoft.Common.DropDown",
+                        "label": "Windows operating system",
+                        "defaultValue": "2022-Datacenter",
+                        "toolTip": "Choose an operating system to deploy",
+                        "constraints": {
+                            "allowedValues": [
+                                {
+                                    "label": "2019 Datacenter 2nd Gen",
+                                    "value": "2019-datacenter-gensecond"
+                                },
+                                {
+                                    "label": "2016 Datacenter 2nd Gen",
+                                    "value": "2016-datacenter-gensecond"
+                                }
+                            ],
+                            "required": true
+                        },
+                        "visible": true
+                    },
+                    {
+                        "name": "vmSize",
+                        "type": "Microsoft.Compute.SizeSelector",
+                        "label": "Virtual machine size",
+                        "toolTip": "Choose the size of virtual machine to create",
+                        "recommendedSizes": [
+                            "Standard_D2s_v3"
+                        ],
+                        "options": {
+                            "hideDiskTypeFilter": false
+                        },
+                        "osPlatform": "Windows",
+                        "visible": true
+                    }
+                ]
+            },
+            {
+                "name": "tags",
+                "label": "Tags",
+                "elements": [
+                    {
+                        "name": "tagsByResource",
+                        "type": "Microsoft.Common.TagsByResource",
+                        "toolTip": "Tags for resources being created",
+                        "resources": [
+                            "Microsoft.Storage/storageAccounts",
+                            "Microsoft.Compute/virtualMachines"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "outputs": {
+            "adminPassword": "[steps('vmBlade').adminPassword]",
+            "adminUsername": "[steps('vmBlade').adminUsername]",
+            "windowsOSVersion": "[steps('vmBlade').operatingSystem]",
+            "vmSize": "[steps('vmBlade').vmSize]",
+            "location": "[location()]",
+            "storageAccountName": "[steps('storageConfigBlade').storageAccount.prefix]",
+            "storageAccountType": "[steps('storageConfigBlade').storageAccount.type]",
+            "vmName": "[steps('vmBlade').vmName]"
+        }
+    }
+}

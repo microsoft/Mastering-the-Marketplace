@@ -1,0 +1,64 @@
+{
+
+  "variables": {
+    "subscription_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "tenant_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "client_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "client_secret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "location": "westus2",
+    "sig_gallery_resource_group": "",
+    "sig_gallery_name": "",
+    "sig_image_name": "",
+    "sig_image_version": "1.0.0"
+  },
+    "builders": [{
+      "type": "azure-arm",
+  
+      "client_id": "{{user `client_id`}}",
+      "client_secret": "{{user `client_secret`}}",
+      "tenant_id": "{{user `tenant_id`}}",
+      "subscription_id": "{{user `subscription_id`}}",
+  
+      "managed_image_resource_group_name": "myResourceGroup",
+      "managed_image_name": "myImage1",
+  
+      "os_type": "Linux",
+      "image_publisher": "Canonical",
+      "image_offer": "UbuntuServer",
+      "image_sku": "18.04-LTS",
+  
+      "azure_tags": {
+          "dept": "Engineering",
+          "task": "Image deployment"
+      },
+  
+      
+      "vm_size": "Standard_DS2_v2", 
+      "build_resource_group_name": "packer-rg",
+      "temp_compute_name": "mypackervm",
+      "private_virtual_network_with_public_ip": true,
+      "custom_data_file": "",
+      "polling_duration_timeout": "0h30m0s",
+
+      "shared_image_gallery_destination": {
+          "subscription": "{{user `subscription_id`}}",
+          "resource_group": "{{user `sig_gallery_resource_group`}}",
+          "gallery_name": "{{user `sig_gallery_name`}}",
+          "image_name": "{{user `sig_image_name`}}",
+          "image_version": "{{user `sig_image_version`}}",
+          "replication_regions": ["{{user `location`}}"]
+      }
+    }],
+    "provisioners": [{
+      "execute_command": "chmod +x {{ .Path }}; {{ .Vars }} sudo -E sh '{{ .Path }}'",
+      "inline": [
+        "apt-get update -y",
+        
+        "apt-get install apache2 -y",
+       
+        "/usr/sbin/waagent -force -deprovision+user && export HISTSIZE=0 && sync"
+      ],
+      "inline_shebang": "/bin/sh -x",
+      "type": "shell"
+    }]
+}
