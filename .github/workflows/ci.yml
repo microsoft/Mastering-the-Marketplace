@@ -16,8 +16,8 @@ jobs:
       pull-requests: write
       security-events: write
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v4.5.0
+      - uses: actions/checkout@0717577d45739eb3c851188b29f50ed6c0b2194e # v2.8.0
+      - uses: actions/setup-python@d27e3f3d7c64b4bbf8e4abfb9b63b83e846e0435 # v4.5.0
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
